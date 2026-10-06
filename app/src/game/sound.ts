@@ -16,7 +16,7 @@ function ensure() {
   master = ctx.createGain(); master.gain.value = 0.9; master.connect(ctx.destination);
   reverb = ctx.createConvolver(); reverb.buffer = impulse(ctx, 3.2); reverb.connect(master);
   musicBus = ctx.createGain(); musicBus.gain.value = 0; musicBus.connect(master); musicBus.connect(reverb);
-  sfxBus = ctx.createGain(); sfxBus.gain.value = 0.55; sfxBus.connect(master);
+  sfxBus = ctx.createGain(); sfxBus.gain.value = 0.8; sfxBus.connect(master);
   const wet = ctx.createGain(); wet.gain.value = 0.25; sfxBus.connect(wet); wet.connect(reverb);
   return ctx;
 }
@@ -30,12 +30,36 @@ function impulse(c: AudioContext, sec: number) {
   return b;
 }
 
-// Browsers only allow audio after a tap; the first tap anywhere unlocks it.
+// Browsers only allow audio after a real tap. iOS Safari counts touchend/click (not pointerdown) as a gesture,
+// and mutes Web Audio when the ringer switch is on silent, so we also move the page into the "playback" audio session.
+let keepAlive: HTMLAudioElement | null = null;
+function unlock() {
+  const c = ensure();
+  if (!c) return;
+  const nav = navigator as Navigator & { audioSession?: { type: string } };
+  if (nav.audioSession) nav.audioSession.type = 'playback'; // Safari 16.4+: play even in silent mode
+  else if (!keepAlive) {
+    // Older iOS: a looping silent media element switches the session to playback.
+    keepAlive = new Audio(`${import.meta.env.BASE_URL}silence.mp3`);
+    keepAlive.loop = true;
+    keepAlive.setAttribute('playsinline', '');
+    keepAlive.play().catch(() => { keepAlive = null; });
+  }
+  if (c.state !== 'running') {
+    c.resume().then(() => setMusic(mood === 'off' ? 'calm' : mood)).catch(() => {});
+    // A one-sample silent buffer started inside the gesture fully unlocks older WebKit.
+    const b = c.createBuffer(1, 1, 22050);
+    const src = c.createBufferSource();
+    src.buffer = b; src.connect(c.destination); src.start(0);
+  }
+}
+
 export function unlockOnFirstTap() {
-  const go = () => { const c = ensure(); c?.resume(); setMusic(mood === 'off' ? 'calm' : mood); };
-  addEventListener('pointerdown', go, { once: true });
+  for (const ev of ['touchend', 'click', 'keydown']) addEventListener(ev, unlock, { capture: true });
+  // Resume after the phone locks or the app goes to the background.
+  document.addEventListener('visibilitychange', () => { if (!document.hidden && ctx?.state !== 'running') ctx?.resume().catch(() => {}); });
   // A gentle bubble on every button press.
-  addEventListener('pointerdown', (e) => { if ((e.target as HTMLElement).closest('button:not([disabled])')) sfx('tap'); });
+  addEventListener('click', (e) => { if ((e.target as HTMLElement).closest('button:not([disabled])')) sfx('tap'); }, { capture: true });
 }
 
 function tone(freq: number, at: number, dur: number, type: OscillatorType, vol: number, bus: GainNode, glideTo?: number) {
@@ -85,7 +109,7 @@ export function setMusic(next: 'calm' | 'boss' | 'off') {
   if (!c) return;
   clearInterval(musicTimer);
   const on = next !== 'off' && getProgress().music;
-  musicBus.gain.setTargetAtTime(on && !ducked ? 0.22 : 0, c.currentTime, 0.6);
+  musicBus.gain.setTargetAtTime(on && !ducked ? 0.38 : 0, c.currentTime, 0.6);
   if (!on) return;
   const m = next === 'boss' ? BOSS : CALM;
   let step = 0;
@@ -110,7 +134,7 @@ export function duck(on: boolean) {
   ducked = on;
   if (!ctx) return;
   const playing = mood !== 'off' && getProgress().music;
-  musicBus.gain.setTargetAtTime(on || !playing ? 0 : 0.22, ctx.currentTime, on ? 0.08 : 0.8);
+  musicBus.gain.setTargetAtTime(on || !playing ? 0 : 0.38, ctx.currentTime, on ? 0.08 : 0.8);
 }
 
 export const refreshSound = () => setMusic(mood);
