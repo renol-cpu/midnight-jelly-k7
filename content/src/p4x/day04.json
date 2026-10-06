@@ -1,0 +1,144 @@
+{
+ "listening": [
+  {
+   "id": "d04-p4-x1",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Good morning, team. Tonight we are expecting a large group of forty guests for a birthday party, so we will open the back room. Please set the tables by five o'clock. The group has ordered the fish menu, but two guests cannot eat nuts, so please check the sauces carefully. If you have any questions, speak to the head chef, Mr. Rossi. Thank you, and have a good shift."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d04-p4-x1-1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "What is the talk mainly about?",
+     "options": [
+      "A new menu",
+      "Preparing for a large group",
+      "A change in prices",
+      "A chef's retirement"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cả bài nói về việc chuẩn bị cho nhóm bốn mươi khách tối nay.",
+      "en": "The talk is about getting ready for a large group."
+     },
+     "trap": "New menu sai vì nhóm khách chỉ gọi thực đơn cá có sẵn."
+    },
+    {
+     "id": "d04-p4-x1-2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 1,
+     "q": "Why should the staff check the sauces?",
+     "options": [
+      "They are too salty.",
+      "The sauces are new.",
+      "Some guests cannot eat nuts.",
+      "The chef changed them."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Hai khách không ăn được các loại hạt.",
+      "en": "Two guests cannot eat nuts."
+     },
+     "trap": "The sauces are new không được nhắc."
+    },
+    {
+     "id": "d04-p4-x1-3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 1,
+     "q": "What should staff do if they have a question?",
+     "options": [
+      "Ask the head chef",
+      "Call the guests",
+      "Read the menu",
+      "Open the back room"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Người nói dặn nói chuyện với bếp trưởng, ông Rossi.",
+      "en": "They should speak to the head chef."
+     },
+     "trap": "Open the back room là việc cả đội cần làm, không phải cách hỏi."
+    }
+   ]
+  },
+  {
+   "id": "d04-p4-x2",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Hello, this is Dana from Fresh Bites Catering. I'm calling about your order for Friday's staff lunch. We can deliver the sandwiches at noon as you requested, but the soup you chose is sold out. We can offer tomato soup or vegetable soup at the same price. Please call me back before three o'clock today to make your choice. Thank you."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d04-p4-x2-1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Why is the speaker calling?",
+     "options": [
+      "To take a new order",
+      "To ask for a payment",
+      "To invite guests to lunch",
+      "To report a problem with an order"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Dana báo món súp đã chọn đã hết.",
+      "en": "She says the soup the listener chose is sold out."
+     },
+     "trap": "Take a new order sai vì đơn đã có sẵn."
+    },
+    {
+     "id": "d04-p4-x2-2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 1,
+     "q": "What is the problem?",
+     "options": [
+      "One item is not available.",
+      "The delivery is late.",
+      "The price is too high.",
+      "The sandwiches are wrong."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Sold out\" được diễn đạt lại thành \"not available\".",
+      "en": "\"Sold out\" is paraphrased as \"not available.\""
+     },
+     "trap": "Delivery is late sai vì giao lúc trưa như yêu cầu."
+    },
+    {
+     "id": "d04-p4-x2-3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 1,
+     "q": "What does the speaker ask the listener to do?",
+     "options": [
+      "Pay before noon",
+      "Call back before three",
+      "Choose a new date",
+      "Visit the shop"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô nhờ gọi lại trước ba giờ để chọn món súp khác.",
+      "en": "She asks the listener to call back before three o'clock."
+     },
+     "trap": "Noon là giờ giao hàng, không phải hạn gọi lại."
+    }
+   ]
+  }
+ ]
+}

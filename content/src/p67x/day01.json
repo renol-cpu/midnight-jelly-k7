@@ -1,0 +1,214 @@
+{
+  "reading": [
+    {
+      "id": "d01-p7-x1",
+      "part": 7,
+      "passages": [
+        {
+          "kind": "text-chain",
+          "title": "Cargo ship arrival",
+          "text": "Dock Office (8:05 A.M.): Good morning, Ms. Rossi. Your cargo ship, the Sea Star, will arrive at Pier 4 at 2:00 P.M. today.\nElena Rossi (8:10 A.M.): Thank you. Is the pier free all afternoon?\nDock Office (8:12 A.M.): Yes. Workers will begin unloading at 3:00 P.M.\nElena Rossi (8:15 A.M.): Great. I will send two trucks to meet the ship."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d01-p7-x1-1",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "What time will the Sea Star arrive?",
+          "options": [
+            "At 2:00 P.M.",
+            "At 3:00 P.M.",
+            "At 8:05 A.M.",
+            "At 8:15 A.M."
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Dock Office nói tàu sẽ đến Pier 4 lúc 2:00 P.M.",
+            "en": "The Dock Office says the ship will arrive at 2:00 P.M."
+          },
+          "trap": "3:00 P.M. là giờ bắt đầu dỡ hàng, không phải giờ tàu đến."
+        },
+        {
+          "id": "d01-p7-x1-2",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "When will unloading begin?",
+          "options": [
+            "At 2:00 P.M.",
+            "At 3:00 P.M.",
+            "At 8:10 A.M.",
+            "At 4:00 P.M."
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Nhân viên cảng nói việc dỡ hàng bắt đầu lúc 3:00 P.M.",
+            "en": "The dock worker says unloading begins at 3:00 P.M."
+          },
+          "trap": "2:00 P.M. là giờ tàu cập bến."
+        },
+        {
+          "id": "d01-p7-x1-3",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "What will Ms. Rossi send?",
+          "options": [
+            "Two workers",
+            "A new ship",
+            "Two trucks",
+            "A map of the pier"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Cô Rossi viết \"I will send two trucks\".",
+            "en": "Ms. Rossi writes \"I will send two trucks\"."
+          },
+          "trap": "\"workers\" là người của cảng, không phải do cô Rossi gửi."
+        }
+      ]
+    },
+    {
+      "id": "d01-p7-x2",
+      "part": 7,
+      "passages": [
+        {
+          "kind": "notice",
+          "title": "Ferry notice",
+          "text": "NOTICE TO PASSENGERS\nHarbor Ferry Service\n\nBecause of repairs to the pier, the 6:30 A.M. ferry to Palm Island will not run on Saturday, June 7. Passengers should take the 7:15 A.M. ferry instead. Tickets for the 6:30 A.M. ferry will be accepted on the later boat. Please arrive at the terminal 15 minutes before departure. For questions, call the ticket office at 555-0142."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d01-p7-x2-1",
+          "part": 7,
+          "skill": "p7.main-idea",
+          "level": 1,
+          "q": "What is the purpose of the notice?",
+          "options": [
+            "To advertise new ferry tickets",
+            "To ask passengers to fix a pier",
+            "To announce a change in a ferry time",
+            "To describe Palm Island"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Thông báo nói chuyến 6:30 không chạy và hành khách đi chuyến 7:15, tức là báo thay đổi giờ phà.",
+            "en": "The notice says the 6:30 ferry will not run and passengers take the 7:15 one: a change in ferry time."
+          },
+          "trap": "\"pier repairs\" chỉ là lý do, không phải mục đích của thông báo."
+        },
+        {
+          "id": "d01-p7-x2-2",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "What should passengers with 6:30 A.M. tickets do?",
+          "options": [
+            "Take the 7:15 A.M. ferry",
+            "Ask for a refund",
+            "Come back on Sunday",
+            "Go to Palm Island by bus"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Vé 6:30 được chấp nhận trên chuyến muộn hơn lúc 7:15.",
+            "en": "Tickets for 6:30 are accepted on the later boat at 7:15."
+          },
+          "trap": "Thông báo không nhắc tới hoàn tiền."
+        },
+        {
+          "id": "d01-p7-x2-3",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "How early should passengers arrive at the terminal?",
+          "options": [
+            "30 minutes before departure",
+            "At 6:30 A.M.",
+            "One hour before departure",
+            "15 minutes before departure"
+          ],
+          "answer": 3,
+          "why": {
+            "vi": "Thông báo ghi \"15 minutes before departure\".",
+            "en": "The notice says \"15 minutes before departure\"."
+          },
+          "trap": "15 là số phút; số 555-0142 là số điện thoại, đừng nhầm."
+        }
+      ]
+    },
+    {
+      "id": "d01-p7-x3",
+      "part": 7,
+      "passages": [
+        {
+          "kind": "email",
+          "title": "Boxes at the port",
+          "text": "To: Ben Carter\nFrom: Mia Tanaka\nSubject: Boxes at the port\n\nHi Ben,\n\nThe 40 boxes of coffee from Brazil came through customs yesterday and are now in Warehouse B at the port. Please arrange a truck to pick them up by Friday. The warehouse is open from 8:00 A.M. to 5:00 P.M. Bring the pickup form with you.\n\nThanks,\nMia"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d01-p7-x3-1",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "Where are the boxes now?",
+          "options": [
+            "In Brazil",
+            "In Warehouse B",
+            "At Ben's office",
+            "On a truck"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Mia viết các thùng đang ở Warehouse B tại cảng.",
+            "en": "Mia writes the boxes are in Warehouse B at the port."
+          },
+          "trap": "Brazil là nơi cà phê xuất phát, không phải chỗ hiện tại."
+        },
+        {
+          "id": "d01-p7-x3-2",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "What does Ms. Tanaka ask Ben to do?",
+          "options": [
+            "Open the warehouse",
+            "Call customs",
+            "Arrange a truck",
+            "Order more coffee"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Cô nhờ Ben sắp xếp xe tải để lấy hàng trước thứ Sáu.",
+            "en": "She asks Ben to arrange a truck to pick up the boxes by Friday."
+          },
+          "trap": "Hải quan đã xong việc từ hôm qua."
+        },
+        {
+          "id": "d01-p7-x3-3",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "What must the driver bring?",
+          "options": [
+            "The pickup form",
+            "A coffee sample",
+            "A map of the port",
+            "A phone number"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Email nói \"Bring the pickup form with you\".",
+            "en": "The email says \"Bring the pickup form with you\"."
+          },
+          "trap": "Chỉ có biểu mẫu nhận hàng được nhắc."
+        }
+      ]
+    }
+  ]
+}

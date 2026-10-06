@@ -1,0 +1,93 @@
+{
+  "grammar": [
+    {
+      "id": "d12-p6-x1",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "email",
+          "title": "Your order has shipped",
+          "text": "Dear Mr. Baker,\n\nYour order has left our warehouse in Dallas. You can follow it online with the [1] number printed below. [2] Standard delivery takes three to five business days. If nobody is home, the driver will leave a note and take the package back to the post office. A [3] fee of $5 applies to a second delivery attempt. Please [4] the package carefully when it arrives and tell us at once if anything is damaged. If you need to change your address, please do so before the package reaches your local post office. Our customer service team is available every day from 8:00 A.M. to 8:00 P.M.\n\nThank you for shopping with us.\nRiver Home Store"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d12-p6-x1-1",
+          "part": 6,
+          "skill": "p6.vocab",
+          "level": 2,
+          "q": "Blank [1]",
+          "options": [
+            "track",
+            "tracked",
+            "tracks",
+            "tracking"
+          ],
+          "answer": 3,
+          "why": {
+            "vi": "Danh từ ghép \"tracking number\" (mã theo dõi đơn hàng).",
+            "en": "The noun compound is \"tracking number\"."
+          },
+          "trap": "\"track number\" nghe gần giống nhưng cụm đúng là \"tracking number\"."
+        },
+        {
+          "id": "d12-p6-x1-2",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 2,
+          "q": "Blank [2]",
+          "options": [
+            "Our warehouse is closed on public holidays.",
+            "The package is being sent by standard ground service.",
+            "Please remember to recycle the boxes.",
+            "Customers who order twice a month get a gift."
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Câu sau nhắc \"Standard delivery\", nên câu chèn cần nói gói hàng được gửi bằng dịch vụ tiêu chuẩn.",
+            "en": "The next sentence mentions \"Standard delivery\", so the missing sentence should say the package goes by standard service."
+          },
+          "trap": "Câu về kho nghỉ lễ liên quan vận chuyển nên dễ chọn, nhưng không nối với \"Standard\"."
+        },
+        {
+          "id": "d12-p6-x1-3",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [3]",
+          "options": [
+            "shipping",
+            "ship",
+            "shipped",
+            "shipment"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Danh từ ghép \"shipping fee\" (phí vận chuyển).",
+            "en": "The noun compound is \"shipping fee\"."
+          },
+          "trap": "\"shipment\" là danh từ nhưng cụm quen dùng là \"shipping fee\"."
+        },
+        {
+          "id": "d12-p6-x1-4",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [4]",
+          "options": [
+            "inspection",
+            "inspected",
+            "inspect",
+            "inspecting"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Sau \"Please\" cần động từ nguyên mẫu: \"inspect\" (kiểm tra).",
+            "en": "After \"Please\" we need a base verb: \"inspect\"."
+          },
+          "trap": "\"inspection\" là danh từ, không đứng ngay sau \"Please\"."
+        }
+      ]
+    }
+  ]
+}

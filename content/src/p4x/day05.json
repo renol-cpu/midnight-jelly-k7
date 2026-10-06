@@ -1,0 +1,144 @@
+{
+ "listening": [
+  {
+   "id": "d05-p4-x1",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Attention, shoppers. Welcome to Mason's Office Supply. This weekend only, all printer paper and ink are twenty percent off. If you buy any office chair, you will also receive a free desk lamp. Our delivery service is free for orders over one hundred dollars. To get the discount, please show your member card at the cash register. The sale ends Sunday at six P.M."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d05-p4-x1-1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "What is being announced?",
+     "options": [
+      "A store opening",
+      "A job opening",
+      "A weekend sale",
+      "A delivery delay"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Cửa hàng thông báo giảm giá chỉ trong cuối tuần này.",
+      "en": "The store announces a weekend sale."
+     },
+     "trap": "Delivery delay sai vì giao hàng miễn phí chỉ là ưu đãi."
+    },
+    {
+     "id": "d05-p4-x1-2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 1,
+     "q": "What do customers get with an office chair?",
+     "options": [
+      "Free paper",
+      "A free lamp",
+      "Free ink",
+      "A member card"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Mua ghế văn phòng sẽ được tặng đèn bàn.",
+      "en": "Customers get a free desk lamp."
+     },
+     "trap": "Free paper and ink là hàng giảm giá hai mươi phần trăm, không phải quà tặng."
+    },
+    {
+     "id": "d05-p4-x1-3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 1,
+     "q": "What should customers show at the cash register?",
+     "options": [
+      "A receipt",
+      "A coupon",
+      "A photo ID",
+      "A member card"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Khách cần đưa thẻ thành viên để được giảm giá.",
+      "en": "Customers should show their member card."
+     },
+     "trap": "Receipt không được nhắc."
+    }
+   ]
+  },
+  {
+   "id": "d05-p4-x2",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Hi, this is Carol Evans from Bright Supply. I'm calling about invoice number 4471. We received your order of forty boxes of paper, but the invoice shows only thirty boxes. I have corrected the mistake, and the new invoice is in your e-mail. The total is now three hundred and twenty dollars. Please pay by the end of the month. Call me if you have any questions."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d05-p4-x2-1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Why is the speaker calling?",
+     "options": [
+      "To correct an invoice",
+      "To cancel an order",
+      "To ask for more paper",
+      "To offer a discount"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô Carol đã sửa lỗi số hộp giấy trên hóa đơn.",
+      "en": "She corrected an error on the invoice."
+     },
+     "trap": "Cancel an order sai vì đơn hàng vẫn được giữ."
+    },
+    {
+     "id": "d05-p4-x2-2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 1,
+     "q": "What was wrong with the first invoice?",
+     "options": [
+      "The date was old.",
+      "The name was wrong.",
+      "The total was missing.",
+      "The number of boxes was wrong."
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Hóa đơn ghi ba mươi hộp thay vì bốn mươi hộp.",
+      "en": "The invoice showed thirty boxes instead of forty."
+     },
+     "trap": "Total missing sai vì hóa đơn mới có tổng ba trăm hai mươi đô."
+    },
+    {
+     "id": "d05-p4-x2-3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 1,
+     "q": "What should the listener do by the end of the month?",
+     "options": [
+      "Check the e-mail",
+      "Pay the invoice",
+      "Order more boxes",
+      "Visit the supplier"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Người nghe được nhắc thanh toán trước cuối tháng.",
+      "en": "The listener should pay by the end of the month."
+     },
+     "trap": "Check the e-mail là việc đã có thể làm ngay, không có hạn cuối tháng."
+    }
+   ]
+  }
+ ]
+}

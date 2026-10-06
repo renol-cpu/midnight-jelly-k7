@@ -46,7 +46,19 @@ const S = {
   quit: { vi: 'Rời ca', en: 'Leave shift' },
   quitConfirm: { vi: 'Rời ca bây giờ? Tiến độ hôm nay vẫn được lưu.', en: 'Leave now? Today’s progress is saved.' },
   dayDone: { vi: 'Xong ca hôm nay', en: 'Shift complete' },
-  letterFrom: { vi: 'Thư của anh', en: 'A note from Minh' },
+  letterFrom: { vi: 'Thư của người bí ẩn', en: 'A note from the Mystery Man' },
+  mystery: { vi: 'Người bí ẩn', en: 'Mystery Man' },
+  extraPractice: { vi: 'Luyện thêm', en: 'Extra practice' },
+  extraDone: { vi: 'Xong phần luyện thêm', en: 'Extra practice done' },
+  todayMap: { vi: 'Ca trực hôm nay', en: 'Tonight\u2019s shift' },
+  mapL: { vi: 'Nghe (Part 1-4)', en: 'Listening (Parts 1-4)' },
+  mapG: { vi: 'Ngữ pháp và điền đoạn (Part 5-6)', en: 'Grammar and text completion (Parts 5-6)' },
+  mapR: { vi: 'Đọc hiểu (Part 7)', en: 'Reading comprehension (Part 7)' },
+  mapW: { vi: 'Từ mới', en: 'New words' },
+  questionsWord: { vi: 'câu', en: 'questions' },
+  startPart: { vi: 'Bắt đầu', en: 'Start' },
+  tapPlay: { vi: 'Bấm Nghe để bắt đầu', en: 'Tap play to start' },
+  playing: { vi: 'Đang phát…', en: 'Playing…' },
   newSpecies: { vi: 'Loài mới vào Sổ sứa', en: 'New species in the Jellydex' },
   locked: { vi: 'Chưa mở', en: 'Locked' },
   dimmed: { vi: 'Đang mờ, cần ôn', en: 'Dimming, needs review' },
@@ -84,3 +96,14 @@ export function useT() {
   return (k: Key) => S[k][lang];
 }
 export const pick = (b: { vi: string; en: string } | undefined, lang: Lang) => (b ? b[lang] || b.vi : '');
+
+// Part directions, paraphrased from the real test format (Vietnamese first).
+export const DIRECTIONS: Record<number, { vi: string; en: string; tip: string }> = {
+  1: { vi: 'Nhìn bức ảnh. Bạn sẽ nghe 4 câu mô tả (A, B, C, D). Các câu này KHÔNG in ra màn hình. Chọn câu mô tả đúng nhất những gì có trong ảnh.', en: 'Look at the photo. You will hear four statements, A to D. They are not printed. Choose the one that best describes the photo.', tip: 'Nghe động từ chính: is holding, are sitting, has been placed. Câu có từ đúng nhưng hành động sai là bẫy.' },
+  2: { vi: 'Bạn sẽ nghe 1 câu hỏi hoặc 1 câu nói, rồi 3 câu đáp (A, B, C). Không có chữ in ra. Chọn câu đáp phù hợp nhất.', en: 'You will hear a question or statement and three responses, A to C. Nothing is printed. Choose the best response.', tip: 'Bắt từ để hỏi đầu câu (Who, When, Where...). Câu đáp lặp lại y chang từ trong câu hỏi thường là bẫy.' },
+  3: { vi: 'Bạn sẽ nghe một đoạn hội thoại giữa 2 hoặc 3 người. Mỗi đoạn có 3 câu hỏi in trên màn hình. Đọc câu hỏi trước, rồi bấm Nghe.', en: 'You will hear a conversation between two or three people. Each has three printed questions. Read the questions first, then play.', tip: 'Đáp án đúng thường nói lại ý bằng từ khác (paraphrase), không lặp nguyên văn.' },
+  4: { vi: 'Bạn sẽ nghe một bài nói của 1 người: thông báo, tin nhắn thoại, quảng cáo, hướng dẫn tham quan. Mỗi bài có 3 câu hỏi. Đọc câu hỏi trước, rồi bấm Nghe.', en: 'You will hear a short talk by one speaker. Each talk has three printed questions. Read the questions first, then play.', tip: 'Câu đầu thường hỏi mục đích bài nói: nghe kỹ 1-2 câu mở đầu.' },
+  5: { vi: 'Mỗi câu có 1 chỗ trống. Chọn từ hoặc cụm từ đúng nhất để hoàn thành câu.', en: 'Each sentence has a blank. Choose the word or phrase that best completes it.', tip: 'Nhìn từ đứng ngay trước và sau chỗ trống để biết cần danh từ, tính từ, trạng từ hay động từ.' },
+  6: { vi: 'Đọc đoạn văn có 4 chỗ trống [1] đến [4]. Chọn từ, cụm từ hoặc cả câu phù hợp nhất cho từng chỗ trống.', en: 'Read the text with four blanks, [1] to [4]. Choose the best word, phrase or sentence for each blank.', tip: 'Đọc cả câu trước và sau chỗ trống: Part 6 cần hiểu ngữ cảnh, không chỉ ngữ pháp.' },
+  7: { vi: 'Đọc bài (email, thông báo, tin nhắn, quảng cáo...) rồi trả lời các câu hỏi bên dưới.', en: 'Read the text (email, notice, message, ad...) and answer the questions.', tip: 'Đọc câu hỏi trước, rồi tìm thông tin trong bài. Đáp án hay dùng từ đồng nghĩa với bài đọc.' },
+};

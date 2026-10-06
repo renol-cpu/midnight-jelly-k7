@@ -1,0 +1,144 @@
+{
+ "listening": [
+  {
+   "id": "d06-p4-x1",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Good morning, and welcome to Hartley Engineering. My name is Paul, and I work in the personnel department. Today's orientation will last until noon. First, you will sign your contracts and collect your work uniforms. After a short break, your department managers will show you your desks and introduce your teams. Lunch is provided in the cafeteria. Please remember that your first day on the job is tomorrow at eight thirty."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d06-p4-x1-1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Who is the audience for this talk?",
+     "options": [
+      "Department managers",
+      "Job applicants",
+      "New employees",
+      "Visiting clients"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Người nghe sắp ký hợp đồng và nhận đồng phục nên họ là nhân viên mới.",
+      "en": "The listeners are signing contracts, so they are new employees."
+     },
+     "trap": "Job applicants sai vì họ đã được nhận và sắp ký hợp đồng."
+    },
+    {
+     "id": "d06-p4-x1-2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 1,
+     "q": "What will happen after the break?",
+     "options": [
+      "Managers will show the desks.",
+      "Lunch will be served.",
+      "Contracts will be signed.",
+      "Uniforms will be sold."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Sau giờ nghỉ, các quản lý sẽ chỉ chỗ ngồi và giới thiệu nhóm.",
+      "en": "Managers will show the new employees their desks."
+     },
+     "trap": "Contracts được ký trước giờ nghỉ."
+    },
+    {
+     "id": "d06-p4-x1-3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 1,
+     "q": "When will the listeners begin work?",
+     "options": [
+      "Today at noon",
+      "Tomorrow at eight thirty",
+      "Today at eight thirty",
+      "Tomorrow at noon"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Ngày làm việc đầu tiên là ngày mai lúc tám giờ ba mươi.",
+      "en": "Their first day is tomorrow at eight thirty."
+     },
+     "trap": "Noon là giờ kết thúc buổi định hướng hôm nay."
+    }
+   ]
+  },
+  {
+   "id": "d06-p4-x2",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Hi, Tom. It's Sandra from personnel. I'm calling about your vacation request for the first week of July. Your manager has approved it, so you don't need to do anything else about that. However, the form says you will return on the eighth, which is a holiday. Please check the date and e-mail me a corrected form by Thursday. Enjoy your trip!"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d06-p4-x2-1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "What is the call about?",
+     "options": [
+      "A vacation request",
+      "A new job",
+      "A salary raise",
+      "A training course"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Sandra gọi về đơn xin nghỉ phép đầu tháng Bảy.",
+      "en": "The call is about Tom's vacation request."
+     },
+     "trap": "Training course không được nhắc."
+    },
+    {
+     "id": "d06-p4-x2-2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 1,
+     "q": "What has happened to the request?",
+     "options": [
+      "It was lost.",
+      "It was refused.",
+      "It was approved.",
+      "It was changed."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Quản lý của Tom đã chấp thuận đơn nghỉ phép.",
+      "en": "The manager has approved it."
+     },
+     "trap": "Changed sai vì Tom mới là người phải sửa ngày trong đơn."
+    },
+    {
+     "id": "d06-p4-x2-3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 1,
+     "q": "What should Tom do by Thursday?",
+     "options": [
+      "Call his manager",
+      "Return to work",
+      "Cancel his trip",
+      "Send a corrected form"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Sandra nhờ Tom gửi lại mẫu đơn đã sửa ngày trước thứ Năm.",
+      "en": "She asks him to e-mail a corrected form."
+     },
+     "trap": "Return to work sai vì ngày quay lại làm là ngày mồng tám, không phải hạn thứ Năm."
+    }
+   ]
+  }
+ ]
+}

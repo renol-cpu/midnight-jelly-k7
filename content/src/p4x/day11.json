@@ -1,0 +1,144 @@
+{
+ "listening": [
+  {
+   "id": "d11-p4-x1",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Good morning, and welcome to the Westfield Business Expo. Before the opening speech, I would like to go over a few details. Registration is at the main entrance, where you will get your name badge and a program. Today's workshops will be held in Halls A and B on the second floor. Because the workshop on social media is already full, we have added a second session at four o'clock in Hall C. Lunch will be served from twelve to two in the garden area. If it rains, we will move it indoors. Please wear your badge at all times. Enjoy the Expo."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d11-p4-x1-1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Where is the announcement most likely being made?",
+     "options": [
+      "At a trade show",
+      "At a university",
+      "At a restaurant",
+      "At a bank"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Từ \"Business Expo\", đăng ký, hội thảo cho thấy đây là triển lãm thương mại.",
+      "en": "Business Expo, registration and workshops point to a trade show."
+     },
+     "trap": "Restaurant sai vì bữa trưa chỉ là một phần của chương trình."
+    },
+    {
+     "id": "d11-p4-x1-2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "Why was a second session added?",
+     "options": [
+      "The hall is too small.",
+      "The speaker is late.",
+      "The first session is full.",
+      "It might rain."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Buổi hội thảo về mạng xã hội đã kín chỗ nên thêm buổi thứ hai.",
+      "en": "The first workshop is already full."
+     },
+     "trap": "It might rain chỉ liên quan đến bữa trưa."
+    },
+    {
+     "id": "d11-p4-x1-3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 1,
+     "q": "What are attendees asked to do?",
+     "options": [
+      "Register in Hall C",
+      "Wear their badges",
+      "Bring their lunch",
+      "Take a program home"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Người nghe được dặn đeo thẻ tên mọi lúc.",
+      "en": "They are asked to wear their badges at all times."
+     },
+     "trap": "Register in Hall C sai vì đăng ký ở lối vào chính."
+    }
+   ]
+  },
+  {
+   "id": "d11-p4-x2",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Hi, Ms. Park. This is Natalie from Bluebird Events about next month's charity dinner. I have good news and a small problem. The good news is that the Grand Hotel can host us on the twelfth, and they will give us a ten percent discount because we booked early. The problem is that the hotel's stage is smaller than we expected, so the band will not fit. I have asked two other bands who can play on a smaller stage, and I will send you their prices this afternoon. Could you decide by tomorrow? The hotel needs a final answer by Friday."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d11-p4-x2-1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Why is the speaker calling?",
+     "options": [
+      "To give an update on an event",
+      "To cancel a dinner",
+      "To ask for a donation",
+      "To hire a new hotel"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Natalie báo tin tốt và một vấn đề nhỏ về bữa tối từ thiện.",
+      "en": "She gives news about the charity dinner."
+     },
+     "trap": "Cancel a dinner sai vì bữa tối vẫn diễn ra ngày mười hai."
+    },
+    {
+     "id": "d11-p4-x2-2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "What is the problem?",
+     "options": [
+      "The price is too high.",
+      "The date is not free.",
+      "The band is too expensive.",
+      "The stage is too small."
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Sân khấu nhỏ hơn dự kiến nên ban nhạc không vừa.",
+      "en": "The hotel's stage is smaller than expected."
+     },
+     "trap": "Date not free sai vì khách sạn nhận tổ chức vào ngày mười hai."
+    },
+    {
+     "id": "d11-p4-x2-3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 2,
+     "q": "What will the speaker do this afternoon?",
+     "options": [
+      "Pay the hotel",
+      "Visit the stage",
+      "Call the band",
+      "Send some prices"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Cô sẽ gửi giá của hai ban nhạc khác trong chiều nay.",
+      "en": "She will send the prices of two other bands."
+     },
+     "trap": "Call the band sai vì cô đã liên hệ và sẽ gửi giá, không phải gọi thêm."
+    }
+   ]
+  }
+ ]
+}

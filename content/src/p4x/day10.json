@@ -1,0 +1,144 @@
+{
+ "listening": [
+  {
+   "id": "d10-p4-x1",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Hello, Mr. Lopez. This is Rachel Wong from Eastside Bank, returning your call about your small business loan. I reviewed your application and the documents you sent last week. Everything looks good except for one item. We still need your tax records from last year. Once we receive them, we can approve the loan within three business days. You can upload the records to our secure Web site or bring them to any branch. The interest rate we discussed, four percent, will not change as long as your application is complete by the end of this month. Please call me if you have any questions."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d10-p4-x1-1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Why is the speaker calling?",
+     "options": [
+      "To approve a loan",
+      "To ask for a missing document",
+      "To change an interest rate",
+      "To open a new branch"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô Rachel cho biết hồ sơ còn thiếu hồ sơ thuế của năm ngoái.",
+      "en": "She says the application still needs last year's tax records."
+     },
+     "trap": "Approve a loan sai vì khoản vay chỉ được duyệt sau khi nhận đủ giấy tờ."
+    },
+    {
+     "id": "d10-p4-x1-2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "What will happen after the records are received?",
+     "options": [
+      "The rate will increase.",
+      "The loan will be approved.",
+      "A branch will open.",
+      "The application will close."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Sau khi nhận hồ sơ, ngân hàng duyệt khoản vay trong ba ngày làm việc.",
+      "en": "The loan can be approved within three business days."
+     },
+     "trap": "Rate will increase sai vì lãi suất giữ nguyên nếu hồ sơ đủ đúng hạn."
+    },
+    {
+     "id": "d10-p4-x1-3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 2,
+     "q": "How can Mr. Lopez provide the records?",
+     "options": [
+      "By visiting a branch",
+      "By sending a fax",
+      "By calling the bank",
+      "By mailing a letter"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Ông có thể mang đến chi nhánh hoặc tải lên trang web an toàn.",
+      "en": "He can bring them to any branch."
+     },
+     "trap": "Calling the bank chỉ để hỏi thêm, không phải cách nộp hồ sơ."
+    }
+   ]
+  },
+  {
+   "id": "d10-p4-x2",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Good afternoon, everyone, and thank you for joining this quarterly finance update. I will be brief. Overall, our expenses were five percent lower than planned, mainly because we spent less on travel. However, our income from online sales dropped slightly, which means we are still short of our yearly target. To close the gap, the finance team has asked every department to review its spending on office supplies. Please send your revised budget to me by the fifteenth. The new budget forms are on the company intranet. If you are unsure how to fill them out, my assistant, Ken, will hold a short training session on Tuesday at ten."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d10-p4-x2-1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "What is the purpose of the talk?",
+     "options": [
+      "To give a finance update",
+      "To announce a new target",
+      "To describe a training course",
+      "To introduce an assistant"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Bài nói là bản cập nhật tài chính theo quý.",
+      "en": "The talk is a quarterly finance update."
+     },
+     "trap": "New target sai vì mục tiêu năm đã có sẵn, công ty chỉ chưa đạt."
+    },
+    {
+     "id": "d10-p4-x2-2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "Why were expenses lower than planned?",
+     "options": [
+      "Online sales rose.",
+      "Travel costs were lower.",
+      "Fewer staff were hired.",
+      "Office supplies were cheaper."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Chi phí thấp hơn chủ yếu vì công ty chi ít hơn cho đi lại.",
+      "en": "The company spent less on travel."
+     },
+     "trap": "Office supplies là khoản được yêu cầu xem xét lại, không phải lý do chi phí thấp."
+    },
+    {
+     "id": "d10-p4-x2-3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 2,
+     "q": "What are department heads asked to do by the fifteenth?",
+     "options": [
+      "Attend a training session",
+      "Visit the intranet",
+      "Send revised budgets",
+      "Reduce their travel"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Các phòng ban được yêu cầu gửi ngân sách đã sửa trước ngày mười lăm.",
+      "en": "They must send their revised budgets by the fifteenth."
+     },
+     "trap": "Training session là hỗ trợ thêm vào thứ Ba, không phải hạn ngày mười lăm."
+    }
+   ]
+  }
+ ]
+}

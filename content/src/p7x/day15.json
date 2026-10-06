@@ -1,0 +1,55 @@
+{
+ "reading": [
+  {
+   "id": "d15-p7-x1",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "email",
+     "title": "Scheduled system upgrade",
+     "text": "To: All staff\nFrom: IT Help Desk\nSubject: Scheduled system upgrade\nDate: June 18\n\nThis Saturday from 10:00 P.M. until Sunday at 6:00 A.M., the IT department will upgrade the company's file server. During this period, shared folders and the VPN will be unavailable, but e-mail and the intranet will operate normally.\n\nEmployees who need to work remotely over the weekend should save their documents to their laptops before Friday evening. Anyone who experiences problems on Monday morning should submit a request through the Help Desk portal rather than calling, as the phone lines are expected to be very busy."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d15-p7-x1-1",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "What will be unavailable during the upgrade?",
+     "options": [
+      "The VPN",
+      "E-mail",
+      "The intranet",
+      "The Help Desk portal"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Shared folders and the VPN will be unavailable.\" E-mail và intranet vẫn chạy bình thường.",
+      "en": "The VPN and shared folders will be unavailable; e-mail and the intranet will work."
+     },
+     "trap": "Help Desk portal chỉ được nhắc đến cho sáng thứ Hai, không bị ngắt."
+    },
+    {
+     "id": "d15-p7-x1-2",
+     "part": 7,
+     "skill": "p7.inference",
+     "level": 3,
+     "q": "Why are employees asked to use the portal on Monday?",
+     "options": [
+      "To keep the phone lines from being overloaded",
+      "To get faster upgrades to their laptops",
+      "To report the file server's location",
+      "To avoid paying a support fee"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Bài giải thích \"phone lines are expected to be very busy\", nên gửi yêu cầu qua cổng giúp giảm tải điện thoại.",
+      "en": "Phone lines will be busy, so the portal helps reduce the call volume."
+     },
+     "trap": "Không có chi tiết nào về phí hỗ trợ hay nâng cấp laptop."
+    }
+   ]
+  }
+ ]
+}

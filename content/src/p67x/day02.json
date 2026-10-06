@@ -1,0 +1,235 @@
+{
+  "grammar": [
+    {
+      "id": "d02-p6-x1",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "email",
+          "title": "New printer on the second floor",
+          "text": "To: All Staff\nFrom: Karen Lopez, Office Manager\nSubject: New printer on the second floor\n\nDear colleagues,\n\nA new printer is now [1] in the second-floor copy room. It is faster than the old one, and it prints very clearly. [2] Please use this setting whenever you can, because it saves paper. The old printer will be removed on Friday afternoon, so please take any papers from it before then. If you have a problem with the printer, please contact Marcus Webb in the IT office. He will be happy to [3] you with any question. Thank you for your [4] during this change.\n\nKaren Lopez"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d02-p6-x1-1",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [1]",
+          "options": [
+            "availability",
+            "available",
+            "avail",
+            "availably"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Sau \"is now\" cần một tính từ: \"available\" (có sẵn). \"Availability\" là danh từ nên không đứng sau \"is now\".",
+            "en": "After \"is now\" we need an adjective: \"available\". \"Availability\" is a noun."
+          },
+          "trap": "Danh từ \"availability\" trông giống nhưng ở vị trí tính từ thì sai."
+        },
+        {
+          "id": "d02-p6-x1-2",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 1,
+          "q": "Blank [2]",
+          "options": [
+            "It also has a setting for double-sided printing.",
+            "The old printer was moved to the storage room.",
+            "The cafeteria will close early on Friday.",
+            "Marcus has worked here for ten years."
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Câu sau nói \"this setting\", nên câu chèn phải giới thiệu một chế độ cài đặt (in hai mặt).",
+            "en": "The next sentence says \"this setting\", so the missing sentence must introduce a setting: double-sided printing."
+          },
+          "trap": "Câu về máy in cũ có chữ \"printer\" nên dễ chọn, nhưng không có \"setting\" nào để \"this setting\" nhắc tới."
+        },
+        {
+          "id": "d02-p6-x1-3",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [3]",
+          "options": [
+            "helps",
+            "helped",
+            "help",
+            "helping"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Sau \"be happy to\" cần động từ nguyên mẫu: \"help\".",
+            "en": "After \"be happy to\" we need a base verb: \"help\"."
+          },
+          "trap": "\"helping\" nghe tự nhiên nhưng sau \"to\" (không phải giới từ) phải là động từ nguyên mẫu."
+        },
+        {
+          "id": "d02-p6-x1-4",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [4]",
+          "options": [
+            "cooperate",
+            "cooperative",
+            "cooperatively",
+            "cooperation"
+          ],
+          "answer": 3,
+          "why": {
+            "vi": "Sau \"your\" cần danh từ: \"cooperation\" (sự hợp tác).",
+            "en": "After \"your\" we need a noun: \"cooperation\"."
+          },
+          "trap": "\"cooperative\" là tính từ; em hay chọn vì đuôi quen, nhưng sau \"your\" phải là danh từ."
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "d02-p7-x1",
+      "part": 7,
+      "passages": [
+        {
+          "kind": "text-chain",
+          "title": "Printer paper",
+          "text": "Lena Gray (10:02 A.M.): Hi Omar, we ran out of printer paper on the third floor.\nOmar Diaz (10:04 A.M.): Oh no. I ordered more last week, but it has not come yet.\nLena Gray (10:05 A.M.): Can you check with the supplier?\nOmar Diaz (10:09 A.M.): I just called. The boxes will be here tomorrow morning.\nLena Gray (10:10 A.M.): Thanks. I'll borrow some from the second floor for now."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d02-p7-x1-1",
+          "part": 7,
+          "skill": "p7.main-idea",
+          "level": 1,
+          "q": "What is the purpose of Ms. Gray's first message?",
+          "options": [
+            "To order new boxes",
+            "To report a shortage of paper",
+            "To ask for a new printer",
+            "To change a meeting time"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Cô Gray báo tầng ba đã hết giấy in.",
+            "en": "Ms. Gray reports that the third floor has run out of paper."
+          },
+          "trap": "Chính Omar mới là người đã đặt hàng, không phải cô Gray."
+        },
+        {
+          "id": "d02-p7-x1-2",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "What did Mr. Diaz do at 10:09 A.M.?",
+          "options": [
+            "He called the supplier",
+            "He moved some boxes",
+            "He visited the second floor",
+            "He ordered more paper"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Omar nói \"I just called\" sau khi cô Gray nhờ kiểm tra với nhà cung cấp.",
+            "en": "Omar says \"I just called\" after Ms. Gray asks him to check with the supplier."
+          },
+          "trap": "Ông đã đặt hàng từ tuần trước, không phải lúc 10:09."
+        },
+        {
+          "id": "d02-p7-x1-3",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "What will Ms. Gray do for now?",
+          "options": [
+            "Wait for the delivery",
+            "Buy paper at a store",
+            "Print fewer pages",
+            "Borrow paper from another floor"
+          ],
+          "answer": 3,
+          "why": {
+            "vi": "Cô viết sẽ mượn giấy từ tầng hai.",
+            "en": "She writes she will borrow some paper from the second floor."
+          },
+          "trap": "Giao hàng là sáng mai, chưa phải việc cô làm lúc này."
+        }
+      ]
+    },
+    {
+      "id": "d02-p7-x2",
+      "part": 7,
+      "passages": [
+        {
+          "kind": "text-chain",
+          "title": "Budget call",
+          "text": "Sam Lee (1:20 P.M.): Are you free for a quick call about the budget?\nDina Moss (1:22 P.M.): I'm in a meeting until 2:30. Is 3:00 okay?\nSam Lee (1:23 P.M.): 3:00 is good. Should we use Room 5?\nDina Moss (1:25 P.M.): Room 5 is taken. I booked Room 7 for us.\nSam Lee (1:26 P.M.): Perfect. See you there."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d02-p7-x2-1",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "When will Mr. Lee and Ms. Moss talk?",
+          "options": [
+            "At 1:20 P.M.",
+            "At 3:00 P.M.",
+            "At 2:30 P.M.",
+            "At 5:00 P.M."
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Cô Moss đề nghị 3:00 và anh Lee đồng ý.",
+            "en": "Ms. Moss suggests 3:00 and Mr. Lee agrees."
+          },
+          "trap": "2:30 là giờ cô Moss họp xong, chưa phải giờ gọi."
+        },
+        {
+          "id": "d02-p7-x2-2",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "Where will they talk?",
+          "options": [
+            "In Room 7",
+            "In Room 5",
+            "In Ms. Moss's office",
+            "On the phone only"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Phòng 5 đã có người dùng, cô Moss đặt phòng 7.",
+            "en": "Room 5 is taken, so Ms. Moss booked Room 7."
+          },
+          "trap": "Phòng 5 là phòng anh Lee đề nghị nhưng đã kín."
+        },
+        {
+          "id": "d02-p7-x2-3",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "Why can't Ms. Moss talk now?",
+          "options": [
+            "She is out of the office",
+            "She is on vacation",
+            "She is in a meeting",
+            "She is writing a budget"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Cô nói \"I'm in a meeting until 2:30\".",
+            "en": "She says \"I'm in a meeting until 2:30\"."
+          },
+          "trap": "\"budget\" là chủ đề cuộc gọi, không phải lý do cô bận."
+        }
+      ]
+    }
+  ]
+}

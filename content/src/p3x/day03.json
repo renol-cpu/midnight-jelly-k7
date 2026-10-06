@@ -1,0 +1,274 @@
+{
+ "listening": [
+  {
+   "id": "d03-p3-x1",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Welcome to the Harbor Hotel. Do you have a reservation?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Yes, under Smith, for two nights."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Here is your key. Breakfast is from seven to ten on the first floor."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Thanks. Could I have a taxi tomorrow morning at six?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Of course. I'll arrange it."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d03-p3-x1-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "Where is the conversation taking place?",
+     "options": [
+      "At a hotel",
+      "At an airport",
+      "At a restaurant",
+      "At a bus stop"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô nói \"Welcome to the Harbor Hotel\" và đưa chìa khóa phòng.",
+      "en": "The woman welcomes him to a hotel and gives him a key."
+     },
+     "trap": "Có nhắc breakfast nhưng đây không phải nhà hàng."
+    },
+    {
+     "id": "d03-p3-x1-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "When is breakfast served?",
+     "options": [
+      "Between seven and ten",
+      "At six",
+      "After ten",
+      "At noon"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Bữa sáng từ 7 đến 10 giờ.",
+      "en": "Breakfast is from seven to ten."
+     },
+     "trap": "Sáu giờ là giờ anh cần taxi."
+    },
+    {
+     "id": "d03-p3-x1-3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the woman do for the man?",
+     "options": [
+      "Arrange a taxi",
+      "Carry his bags",
+      "Change his room",
+      "Cook breakfast"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh xin taxi lúc 6 giờ và cô nói \"I'll arrange it\".",
+      "en": "She will arrange a taxi."
+     },
+     "trap": "Không ai nhắc chuyện xách hành lý."
+    }
+   ]
+  },
+  {
+   "id": "d03-p3-x2",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "One ticket to Hue, please."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Round trip or one way?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "One way. Which platform?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Platform 4. The train leaves in twenty minutes."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Then I'd better hurry."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d03-p3-x2-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What is the woman buying?",
+     "options": [
+      "A train ticket",
+      "A plane ticket",
+      "A hotel room",
+      "A bus pass"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Có \"platform\" và \"train\", nên đó là vé tàu hỏa.",
+      "en": "Platform and train show she is buying a train ticket."
+     },
+     "trap": "Chỉ có tàu hỏa được nhắc đến."
+    },
+    {
+     "id": "d03-p3-x2-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "Which platform does the train use?",
+     "options": [
+      "Platform 4",
+      "Platform 2",
+      "Platform 20",
+      "Platform 14"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Người đàn ông nói \"Platform 4\".",
+      "en": "The man says Platform 4."
+     },
+     "trap": "\"Twenty minutes\" là thời gian chờ, không phải số sân ga."
+    },
+    {
+     "id": "d03-p3-x2-3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the woman probably do next?",
+     "options": [
+      "Go to the platform",
+      "Buy a round-trip ticket",
+      "Wait twenty minutes",
+      "Call a taxi"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô nói \"I'd better hurry\", nghĩa là cô sẽ ra sân ga ngay.",
+      "en": "She says she must hurry, so she will go to the platform."
+     },
+     "trap": "Cô mua vé một chiều, không phải khứ hồi."
+    }
+   ]
+  },
+  {
+   "id": "d03-p3-x3",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Is this the check-in for Flight 52?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Yes. Do you have any bags?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "One suitcase."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "It's too heavy by three kilos. You can pay a fee or take something out."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "I'll take out some books."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d03-p3-x3-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What is the problem?",
+     "options": [
+      "A bag is too heavy",
+      "A flight is late",
+      "A ticket is lost",
+      "A seat is full"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô nói vali nặng quá ba ký.",
+      "en": "The woman says the suitcase is three kilos too heavy."
+     },
+     "trap": "Chuyến bay không bị hoãn."
+    },
+    {
+     "id": "d03-p3-x3-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "How much is the bag over the limit?",
+     "options": [
+      "Three kilos",
+      "One kilo",
+      "Five kilos",
+      "Fifty-two kilos"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô nói \"too heavy by three kilos\".",
+      "en": "She says it is too heavy by three kilos."
+     },
+     "trap": "52 là số chuyến bay."
+    },
+    {
+     "id": "d03-p3-x3-3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the man do?",
+     "options": [
+      "Remove some items",
+      "Pay a fee",
+      "Buy another bag",
+      "Change flights"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh nói \"I'll take out some books\".",
+      "en": "He says he will take out some books."
+     },
+     "trap": "Anh không trả phí mà bỏ đồ ra."
+    }
+   ]
+  }
+ ]
+}

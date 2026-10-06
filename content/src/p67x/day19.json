@@ -1,0 +1,93 @@
+{
+  "grammar": [
+    {
+      "id": "d19-p6-x1",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "email",
+          "title": "Jellyfish Gallery school tours",
+          "text": "Dear Ms. Tran,\n\nThank you for your interest in the Jellyfish Gallery tour. Tours are [1] on weekdays at 10:00 A.M. and 2:00 P.M. Visitors can see more than twenty kinds of jellyfish from around the world. Each tour lasts about forty minutes. [2] Large school groups, however, must make a reservation at least one week in advance. Please note that we do [3] sell group tickets at the door, so booking early is important. Our guides are friendly, [4], and happy to answer questions in Vietnamese or English. Please arrive ten minutes before your tour begins so that everyone can start on time. Strollers are welcome.\n\nBest wishes,\nVisitor Services"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d19-p6-x1-1",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [1]",
+          "options": [
+            "availability",
+            "availably",
+            "available",
+            "avail"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Sau \"are\" cần tính từ: \"available\" (có sẵn).",
+            "en": "After \"are\" we need an adjective: \"available\"."
+          },
+          "trap": "Đây là lỗi hay gặp của em: chọn danh từ \"availability\" ở chỗ cần tính từ."
+        },
+        {
+          "id": "d19-p6-x1-2",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 2,
+          "q": "Blank [2]",
+          "options": [
+            "The gallery was painted blue last summer.",
+            "Individual visitors can join a tour without booking.",
+            "Jellyfish are mostly made of water.",
+            "The café serves coffee, tea, and cakes."
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Chữ \"however\" ở câu sau tạo đối lập: khách lẻ không cần đặt trước, còn đoàn lớn thì phải đặt.",
+            "en": "\"however\" in the next sentence signals contrast: individuals need no booking, but large groups must reserve."
+          },
+          "trap": "Câu về sứa gần chủ đề nên dễ bị hút vào, nhưng không tạo ra sự đối lập mà \"however\" cần."
+        },
+        {
+          "id": "d19-p6-x1-3",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [3]",
+          "options": [
+            "no",
+            "none",
+            "never",
+            "not"
+          ],
+          "answer": 3,
+          "why": {
+            "vi": "\"do not sell\": phủ định động từ phải dùng \"not\" sau \"do\".",
+            "en": "\"do not sell\": we use \"not\" after \"do\" to negate the verb."
+          },
+          "trap": "\"no\" chỉ đứng trước danh từ, không đứng sau \"do\"."
+        },
+        {
+          "id": "d19-p6-x1-4",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [4]",
+          "options": [
+            "professional",
+            "profession",
+            "professionally",
+            "professionalism"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Trong chuỗi \"friendly, ____, and happy\" cần tính từ: \"professional\".",
+            "en": "In the list \"friendly, ____, and happy\" we need an adjective: \"professional\"."
+          },
+          "trap": "\"professionally\" là trạng từ nên không nằm trong danh sách các tính từ."
+        }
+      ]
+    }
+  ]
+}

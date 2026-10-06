@@ -1,0 +1,93 @@
+{
+  "grammar": [
+    {
+      "id": "d09-p6-x1",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "article",
+          "title": "New factory for Greenfield Plastics",
+          "text": "Greenfield Plastics, a maker of kitchen containers, will open a second factory [1] the town of Millbrook next spring. The new building stands [2] the river, about ten minutes from the highway. The site covers about four hectares and has room for a large parking area. Construction began last year, and the company will start production [3] April 2. [4] Mayor Ellen Park said the project is good news for the town. She added that she hopes other manufacturers will follow, because the area has plenty of space and a skilled workforce. Greenfield Plastics now has one factory, in the city of Ridgeway, where about 300 people work. Visitors will be welcome at the new plant on the first Saturday of each month."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d09-p6-x1-1",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [1]",
+          "options": [
+            "on",
+            "at",
+            "in",
+            "by"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Dùng \"in\" trước tên thị trấn (địa điểm lớn): \"in the town of Millbrook\".",
+            "en": "We use \"in\" before the name of a town: \"in the town of Millbrook\"."
+          },
+          "trap": "\"at\" dùng cho điểm cụ thể nhỏ hơn như địa chỉ hoặc trạm."
+        },
+        {
+          "id": "d09-p6-x1-2",
+          "part": 6,
+          "skill": "p6.vocab",
+          "level": 2,
+          "q": "Blank [2]",
+          "options": [
+            "beside",
+            "besides",
+            "between",
+            "among"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "\"beside the river\" nghĩa là ngay cạnh con sông. \"Besides\" nghĩa là ngoài ra.",
+            "en": "\"beside the river\" means next to the river. \"Besides\" means \"in addition to\"."
+          },
+          "trap": "\"besides\" chỉ khác \"beside\" một chữ s nhưng nghĩa hoàn toàn khác."
+        },
+        {
+          "id": "d09-p6-x1-3",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [3]",
+          "options": [
+            "in",
+            "at",
+            "by",
+            "on"
+          ],
+          "answer": 3,
+          "why": {
+            "vi": "Dùng \"on\" với ngày cụ thể: \"on April 2\".",
+            "en": "We use \"on\" with a specific date: \"on April 2\"."
+          },
+          "trap": "\"in April\" đúng khi chỉ có tháng, nhưng có ngày thì phải là \"on\"."
+        },
+        {
+          "id": "d09-p6-x1-4",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 2,
+          "q": "Blank [4]",
+          "options": [
+            "Plastic containers are sold in many kinds of stores.",
+            "The factory will employ about 120 local workers.",
+            "Many visitors walk along the river in summer.",
+            "The company was started by a teacher in 1980."
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Câu sau nói \"Mayor said the project is good news\", nên câu chèn phải nói điều tốt cho thị trấn: tạo khoảng 120 việc làm.",
+            "en": "The next sentence says the mayor called the project good news, so the missing sentence must give the benefit: 120 local jobs."
+          },
+          "trap": "Các câu về cửa hàng, khách tham quan, người sáng lập không giải thích vì sao đó là tin tốt."
+        }
+      ]
+    }
+  ]
+}

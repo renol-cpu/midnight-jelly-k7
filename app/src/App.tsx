@@ -15,7 +15,7 @@ export default function App() {
   const p = useProgress();
   const lang: Lang = p.lang;
   const [tab, setTab] = useState<Tab>('tank');
-  const [dive, setDive] = useState<{ short: boolean } | null>(null);
+  const [dive, setDive] = useState<{ short: boolean; extra?: boolean } | null>(null);
   const [day, setDay] = useState<DayContent | null>(null);
   const [failed, setFailed] = useState(false);
   // While Huy has played today, the home tank keeps showing today's finished day until he chooses to go on.
@@ -30,7 +30,7 @@ export default function App() {
   useEffect(() => {
     let live = true;
     setFailed(false);
-    fetch(`${BASE}content/day${String(dive ? playDay : target).padStart(2, '0')}.json`)
+    fetch(`${BASE}content/day${String(dive && !dive.extra ? playDay : target).padStart(2, '0')}.json`)
       .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
       .then((d) => live && setDay(d))
       .catch(() => live && setFailed(true));
@@ -41,13 +41,13 @@ export default function App() {
     <LangCtx.Provider value={lang}>
       <div className="app">
         {dive && day ? (
-          <Dive key={day.day} day={day} lang={lang} short={dive.short} onExit={() => { setDive(null); setTab('tank'); }} />
+          <Dive key={`${day.day}${dive.extra ? 'x' : ''}`} day={day} lang={lang} short={dive.short} extra={dive.extra} onExit={() => { setDive(null); setTab('tank'); }} />
         ) : (
           <>
             <div />
             <main>
               {failed && tab === 'tank' && <FailNote />}
-              {tab === 'tank' && <Home day={day} lang={lang} onStart={(short) => setDive({ short })} />}
+              {tab === 'tank' && <Home day={day} lang={lang} onStart={(short) => setDive({ short })} onExtra={() => setDive({ short: false, extra: true })} />}
               {tab === 'dex' && <Jellydex lang={lang} />}
               {tab === 'log' && <Cracks />}
               {tab === 'me' && <Settings />}

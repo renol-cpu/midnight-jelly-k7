@@ -1,0 +1,279 @@
+{
+ "listening": [
+  {
+   "id": "d04-p3-x1",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Hello, I'd like to reserve a table for four tonight."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "What time would you like to come?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "At seven, please. Is there a table near the window?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Sorry, those are full. We have a table by the garden."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "That's fine. The name is Brown."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Thank you, Mr. Brown. I'll send you a confirmation text."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d04-p3-x1-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "Why is the man calling?",
+     "options": [
+      "To book a table",
+      "To order a pizza",
+      "To ask for a job",
+      "To cancel a meal"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh nói \"I'd like to reserve a table\", tức là đặt bàn.",
+      "en": "He wants to reserve a table."
+     },
+     "trap": "Anh không gọi món mang đi và không hủy gì cả."
+    },
+    {
+     "id": "d04-p3-x1-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "Which table is not available?",
+     "options": [
+      "The one by the window",
+      "The one by the garden",
+      "The one for six",
+      "The one near the door"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô nói bàn gần cửa sổ đã hết.",
+      "en": "The woman says the window tables are full."
+     },
+     "trap": "Bàn ở vườn thì còn, và anh đã chọn bàn đó."
+    },
+    {
+     "id": "d04-p3-x1-3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the woman do?",
+     "options": [
+      "Send a text message",
+      "Call another restaurant",
+      "Open the garden",
+      "Bring a menu"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô nói sẽ gửi tin nhắn xác nhận.",
+      "en": "She will send a confirmation text."
+     },
+     "trap": "Cô chưa mang thực đơn vì khách chưa đến."
+    }
+   ]
+  },
+  {
+   "id": "d04-p3-x2",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Are you ready to order?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Yes. I'll have the chicken soup. Does it have nuts?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "No, but the salad does. Would you like something to drink?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Just water, please."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Certainly. I'll bring it right away."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d04-p3-x2-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "Where is the conversation taking place?",
+     "options": [
+      "In a restaurant",
+      "In a bank",
+      "In a school",
+      "In a hotel lobby"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô hỏi anh gọi món và mang đồ uống, nên đây là nhà hàng.",
+      "en": "The woman takes an order, so it is a restaurant."
+     },
+     "trap": "Không có từ nào về ngân hàng hay trường học."
+    },
+    {
+     "id": "d04-p3-x2-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "What does the man ask about?",
+     "options": [
+      "Whether the soup has nuts",
+      "How much the water costs",
+      "When the café closes",
+      "Where the salad comes from"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh hỏi \"Does it have nuts?\" về món súp.",
+      "en": "He asks if the soup has nuts."
+     },
+     "trap": "Salad có hạt, nhưng anh hỏi về súp."
+    },
+    {
+     "id": "d04-p3-x2-3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the woman bring?",
+     "options": [
+      "A glass of water",
+      "A bowl of salad",
+      "A bill",
+      "A new menu"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh chỉ gọi nước, cô nói sẽ mang ngay.",
+      "en": "He asked for water, and she will bring it."
+     },
+     "trap": "Anh không gọi salad."
+    }
+   ]
+  },
+  {
+   "id": "d04-p3-x3",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Hi, we have a staff lunch on Friday. Can you deliver twenty sandwiches?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Sure. Is noon okay?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Make it eleven thirty. Our meeting ends at eleven."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "No problem. Delivery is free for orders over fifteen items."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Great. Please send the bill to my email."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d04-p3-x3-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What is the man ordering?",
+     "options": [
+      "Food for an office lunch",
+      "Flowers for a party",
+      "Chairs for a meeting",
+      "Coffee for a customer"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh đặt 20 bánh mì kẹp cho bữa trưa của nhân viên.",
+      "en": "He orders sandwiches for a staff lunch."
+     },
+     "trap": "Chỉ có đồ ăn được nhắc đến."
+    },
+    {
+     "id": "d04-p3-x3-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "What time should the food arrive?",
+     "options": [
+      "At eleven thirty",
+      "At eleven",
+      "At noon",
+      "At fifteen minutes past one"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh đổi giờ thành 11:30.",
+      "en": "He changes the time to eleven thirty."
+     },
+     "trap": "Noon là giờ cô đề nghị đầu tiên; 11 giờ là giờ họp kết thúc."
+    },
+    {
+     "id": "d04-p3-x3-3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What does the man ask the woman to do?",
+     "options": [
+      "Email him the bill",
+      "Lower the price",
+      "Visit his office",
+      "Add fifteen items"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh nói \"send the bill to my email\".",
+      "en": "He asks her to send the bill by email."
+     },
+     "trap": "Fifteen là điều kiện miễn phí giao hàng."
+    }
+   ]
+  }
+ ]
+}

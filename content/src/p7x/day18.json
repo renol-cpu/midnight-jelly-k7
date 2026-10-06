@@ -1,0 +1,74 @@
+{
+ "reading": [
+  {
+   "id": "d18-p7-x1",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "text-chain",
+     "title": "Campaign budget",
+     "text": "Marcus Lee (2:10 P.M.): The survey results are in. 62 percent of respondents first heard about us on social media.\nPriya Shah (2:12 P.M.): That's higher than I expected. Should we move some of the print budget?\nMarcus Lee (2:14 P.M.): I'd say so, but the brochures still matter for our hotel partners.\nPriya Shah (2:15 P.M.): Fair. What if we cut the print run in half and put the savings into video ads?\nMarcus Lee (2:17 P.M.): That works for me. Can you draft a proposal by Thursday?\nPriya Shah (2:18 P.M.): Sure. Should I include the cost of the video studio?\nMarcus Lee (2:19 P.M.): Yes, and don't forget the freelancer's fee. Money is tight this quarter."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d18-p7-x1-1",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "What will Ms. Shah probably do by Thursday?",
+     "options": [
+      "Print new brochures",
+      "Write a proposal",
+      "Survey hotel partners",
+      "Hire a video studio"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Ông Lee nhờ \"draft a proposal by Thursday\" và cô Shah đồng ý \"Sure\".",
+      "en": "Mr. Lee asks for a proposal by Thursday and Ms. Shah agrees."
+     },
+     "trap": "Cô chỉ tính cả chi phí studio vào đề xuất, chưa thuê gì."
+    },
+    {
+     "id": "d18-p7-x1-2",
+     "part": 7,
+     "skill": "p7.inference",
+     "level": 3,
+     "q": "At 2:14 P.M., what does Mr. Lee most likely mean when he writes, \"the brochures still matter\"?",
+     "options": [
+      "Hotel partners still depend on printed materials.",
+      "Social media is not effective.",
+      "The brochures are too expensive.",
+      "The survey results are wrong."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Ông đồng ý chuyển ngân sách nhưng vẫn muốn giữ tờ rơi vì các đối tác khách sạn cần chúng.",
+      "en": "He accepts the shift but notes that hotel partners still need printed brochures."
+     },
+     "trap": "Ông không phủ nhận mạng xã hội, ông còn nói \"I'd say so\" tức đồng ý chuyển ngân sách."
+    },
+    {
+     "id": "d18-p7-x1-3",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "Which cost does Mr. Lee ask Ms. Shah to include besides the video studio?",
+     "options": [
+      "The printing cost",
+      "A travel allowance",
+      "A freelancer's fee",
+      "A survey fee"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"Don't forget the freelancer's fee.\"",
+      "en": "Mr. Lee reminds her to include the freelancer's fee."
+     },
+     "trap": "Chi phí in tờ rơi sẽ giảm, nhưng không phải khoản ông nhắc thêm."
+    }
+   ]
+  }
+ ]
+}

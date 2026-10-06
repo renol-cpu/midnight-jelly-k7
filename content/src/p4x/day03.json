@@ -1,0 +1,144 @@
+{
+ "listening": [
+  {
+   "id": "d03-p4-x1",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Attention, passengers on Flight 82 to Sydney. The departure gate has changed from Gate 12 to Gate 20. Boarding will begin at two forty, as planned. Please have your passport and boarding pass ready. Passengers traveling with small children may board first. If you need help finding the new gate, please ask an airport staff member in a yellow vest."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d03-p4-x1-1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "What is the announcement about?",
+     "options": [
+      "A late flight",
+      "A lost passport",
+      "A gate change",
+      "A seat upgrade"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Cổng khởi hành đổi từ Gate 12 sang Gate 20.",
+      "en": "The departure gate has changed."
+     },
+     "trap": "Late flight sai vì giờ lên máy bay vẫn như kế hoạch."
+    },
+    {
+     "id": "d03-p4-x1-2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 1,
+     "q": "Who may board first?",
+     "options": [
+      "Airport staff",
+      "Passengers with small children",
+      "Passengers in yellow vests",
+      "Business travelers"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Hành khách đi cùng trẻ nhỏ được lên trước.",
+      "en": "Passengers with small children board first."
+     },
+     "trap": "Yellow vest là áo của nhân viên sân bay, không phải nhóm lên máy bay trước."
+    },
+    {
+     "id": "d03-p4-x1-3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 1,
+     "q": "What should passengers have ready?",
+     "options": [
+      "Their luggage",
+      "A hotel receipt",
+      "Their passport and boarding pass",
+      "Their flight number"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Hành khách cần chuẩn bị hộ chiếu và thẻ lên máy bay.",
+      "en": "Passengers should have a passport and boarding pass ready."
+     },
+     "trap": "Flight number đã được thông báo nên không cần chuẩn bị."
+    }
+   ]
+  },
+  {
+   "id": "d03-p4-x2",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Hello, this is Marcus from Lakeside Hotel. I'm calling about your reservation for next week. Unfortunately, the airport shuttle will not run on Saturday because of road work. A taxi will cost about twenty dollars, but the hotel will pay for it if you keep the receipt. Please bring the receipt to the front desk when you check in. We look forward to welcoming you."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d03-p4-x2-1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Why is the speaker calling?",
+     "options": [
+      "To cancel a reservation",
+      "To report a change in service",
+      "To ask about a payment",
+      "To offer a free room"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Marcus báo xe đưa đón sân bay sẽ không chạy vào thứ Bảy.",
+      "en": "He reports that the shuttle will not run on Saturday."
+     },
+     "trap": "Cancel a reservation sai vì phòng vẫn được giữ."
+    },
+    {
+     "id": "d03-p4-x2-2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 1,
+     "q": "Why will the shuttle not run?",
+     "options": [
+      "The driver is sick.",
+      "The hotel is full.",
+      "There is road work.",
+      "There is a holiday."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Lý do là có thi công đường.",
+      "en": "The shuttle will not run because of road work."
+     },
+     "trap": "Hotel full không được nhắc; khách vẫn được đón tiếp."
+    },
+    {
+     "id": "d03-p4-x2-3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 1,
+     "q": "What should the listener bring to the front desk?",
+     "options": [
+      "A taxi receipt",
+      "A booking number",
+      "A twenty dollar bill",
+      "A photo ID"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Khách giữ biên lai taxi và đưa cho quầy lễ tân để được hoàn tiền.",
+      "en": "The listener should bring the taxi receipt."
+     },
+     "trap": "Twenty dollars chỉ là giá taxi, không phải thứ phải mang theo."
+    }
+   ]
+  }
+ ]
+}

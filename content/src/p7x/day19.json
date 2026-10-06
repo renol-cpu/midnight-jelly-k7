@@ -1,0 +1,93 @@
+{
+ "reading": [
+  {
+   "id": "d19-p7-x1",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "email",
+     "title": "Group booking confirmation",
+     "text": "To: Karen Lindqvist\nFrom: Visitor Services, Pelican Cove Aquarium\nSubject: Group booking confirmation\nDate: May 6\n\nDear Ms. Lindqvist,\n\nThank you for booking a visit for 45 students from Oakwood Primary School on Tuesday, May 20. Your group has been assigned the 10:00 A.M. entry slot. Please note that, because of maintenance work, the Jellyfish Hall will be open only until noon that day. The touch pool, however, will be available all afternoon.\n\nLunch may not be eaten inside the building, but groups may use the picnic tables near the east gate. For every ten children, at least one adult chaperone is required. We ask that you confirm the final number of students by May 13. If that number changes by more than five, an adjusted invoice will be issued. Your deposit of $200 has been received.\n\nSincerely,\nVisitor Services"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d19-p7-x1-1",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "What is indicated about the Jellyfish Hall on May 20?",
+     "options": [
+      "It will close at noon.",
+      "It will be open all afternoon.",
+      "It will be used for lunch.",
+      "It will be reserved for adults."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Open only until noon\" tức là đóng cửa lúc 12 giờ trưa. Chính touch pool mới mở cả buổi chiều.",
+      "en": "The hall is open only until noon, while the touch pool stays open all afternoon."
+     },
+     "trap": "Chữ \"all afternoon\" gắn với touch pool chứ không phải Jellyfish Hall."
+    },
+    {
+     "id": "d19-p7-x1-2",
+     "part": 7,
+     "skill": "p7.inference",
+     "level": 3,
+     "q": "At least how many adult chaperones should come with 45 students?",
+     "options": [
+      "Three",
+      "Five",
+      "Four",
+      "Nine"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cứ 10 trẻ cần ít nhất 1 người lớn. 45 trẻ gồm bốn nhóm 10 cộng thêm 5 trẻ nên cần 5 người lớn.",
+      "en": "One adult per ten children means 45 students need five adults."
+     },
+     "trap": "Chọn bốn là làm tròn xuống, chỉ đủ cho 40 trẻ."
+    },
+    {
+     "id": "d19-p7-x1-3",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "By what date must Ms. Lindqvist confirm the number of students?",
+     "options": [
+      "May 6",
+      "May 20",
+      "May 13",
+      "May 27"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"Confirm the final number of students by May 13.\"",
+      "en": "The e-mail asks her to confirm the final number by May 13."
+     },
+     "trap": "20/5 là ngày tham quan, 6/5 là ngày gửi email."
+    },
+    {
+     "id": "d19-p7-x1-4",
+     "part": 7,
+     "skill": "p7.not-true",
+     "level": 2,
+     "q": "What is NOT stated in the e-mail?",
+     "options": [
+      "A deposit has already been received.",
+      "Schools receive a discounted entry price.",
+      "The group may eat at the picnic tables.",
+      "The group's entry time is 10:00 A.M."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Email không hề nhắc đến giảm giá cho trường học. Ba ý còn lại đều có trong bài: cọc $200, bàn picnic, vào lúc 10:00.",
+      "en": "Nothing in the e-mail mentions a school discount; the other three facts appear."
+     },
+     "trap": "Câu hỏi là NOT stated nên đáp án là ý không xuất hiện trong bài."
+    }
+   ]
+  }
+ ]
+}

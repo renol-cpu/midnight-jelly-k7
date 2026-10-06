@@ -1,0 +1,98 @@
+{
+ "reading": [
+  {
+   "id": "d17-p7-x1",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "ad",
+     "title": "Apartment for rent: Maple Court",
+     "text": "APARTMENT FOR RENT: MAPLE COURT\n\nBright one-bedroom, 650 sq. ft., third floor, a five-minute walk from Lincoln Station. Features hardwood floors, an in-unit washer and dryer, and access to a shared roof garden.\n\nRent: $1,350 per month. Water and trash service are included; the tenant pays for electricity.\nLease: 12-month minimum. Security deposit equal to one month's rent.\nPets: Cats are allowed with a $300 pet deposit. No dogs.\nAvailable: October 1. Showings by appointment, weekdays after 5:00 P.M.\n\nContact Dana Whitfield at 555-0172."
+    },
+    {
+     "kind": "email",
+     "title": "Maple Court apartment",
+     "text": "To: Dana Whitfield\nFrom: Victor Alonso\nSubject: Maple Court apartment\nDate: September 12\n\nDear Ms. Whitfield,\n\nI saw your advertisement and would like to see the apartment. I work until 6:00 P.M. on weekdays, so I could come on Wednesday at 6:30 P.M.\n\nI also have two questions. I have a small dog, and I know the ad says no dogs, but would an exception be possible with a larger deposit? In addition, could the lease begin on October 15 instead of October 1? My current lease ends in the middle of the month.\n\nThank you,\nVictor Alonso"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p7-x1-1",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "What is included in the monthly rent?",
+     "options": [
+      "Water and trash service",
+      "Electricity",
+      "A parking space",
+      "A pet deposit"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Water and trash service are included; the tenant pays for electricity.\"",
+      "en": "The ad says water and trash service are included in the rent."
+     },
+     "trap": "Electricity là khoản người thuê tự trả, ngược với đề bài."
+    },
+    {
+     "id": "d17-p7-x1-2",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 2,
+     "q": "What does Mr. Alonso ask for that the ad does not currently allow?",
+     "options": [
+      "Visiting on a weekday evening",
+      "Paying a security deposit",
+      "Keeping a dog in the apartment",
+      "Using the roof garden"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Quảng cáo ghi \"No dogs\", trong khi ông Alonso hỏi có ngoại lệ cho chú chó nhỏ không.",
+      "en": "The ad says no dogs, but Mr. Alonso asks for an exception for his dog."
+     },
+     "trap": "Xem nhà vào tối ngày thường thì phù hợp với \"weekdays after 5:00 P.M.\", nên không phải điều bị cấm."
+    },
+    {
+     "id": "d17-p7-x1-3",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "Why does Mr. Alonso ask about October 15?",
+     "options": [
+      "He will be out of town until then.",
+      "His current lease ends mid-month.",
+      "The apartment is not ready until then.",
+      "He wants to pay less rent."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Ông viết \"My current lease ends in the middle of the month\". Mid-month là giữa tháng, tức khoảng 15.",
+      "en": "He says his present lease ends in the middle of the month."
+     },
+     "trap": "Căn hộ có sẵn từ 1/10 nên không phải do căn hộ chưa sẵn sàng."
+    },
+    {
+     "id": "d17-p7-x1-4",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 3,
+     "q": "How much would Mr. Alonso pay as a security deposit?",
+     "options": [
+      "$1,350",
+      "$300",
+      "$650",
+      "$2,700"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Tiền cọc bằng một tháng tiền thuê, mà tiền thuê là $1,350. $300 là cọc cho mèo, còn ông Alonso hỏi về chó.",
+      "en": "The deposit equals one month's rent, which is $1,350."
+     },
+     "trap": "$300 là tiền cọc thú cưng cho mèo, không phải tiền cọc an ninh."
+    }
+   ]
+  }
+ ]
+}

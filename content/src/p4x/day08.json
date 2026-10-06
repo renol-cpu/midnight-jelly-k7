@@ -1,0 +1,144 @@
+{
+ "listening": [
+  {
+   "id": "d08-p4-x1",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Good morning, team. Before we begin, I have a few notes about this week's meetings. The marketing meeting scheduled for two o'clock has been moved to Room 305 because the main conference room is being painted. Mr. Cho will lead the discussion since Ms. Diaz is traveling this week. Please read the sales report before you come, and bring any questions with you. We will also vote on the date of next month's training day, so check your calendars. The meeting should end by three thirty. Thank you."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p4-x1-1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "What is the purpose of the talk?",
+     "options": [
+      "To announce changes to a meeting",
+      "To report sales results",
+      "To plan a business trip",
+      "To introduce a new manager"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Người nói thông báo đổi phòng và đổi người điều hành cuộc họp.",
+      "en": "The speaker announces changes to a meeting."
+     },
+     "trap": "Report sales results sai vì báo cáo chỉ là tài liệu cần đọc trước."
+    },
+    {
+     "id": "d08-p4-x1-2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "Why has the meeting room changed?",
+     "options": [
+      "A manager is traveling.",
+      "The room is too small.",
+      "The room is being painted.",
+      "The sale has ended."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Phòng họp chính đang được sơn nên cuộc họp chuyển sang phòng 305.",
+      "en": "The main conference room is being painted."
+     },
+     "trap": "Manager traveling là lý do cô Diaz vắng mặt, không phải lý do đổi phòng."
+    },
+    {
+     "id": "d08-p4-x1-3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 1,
+     "q": "What are listeners asked to do before the meeting?",
+     "options": [
+      "Vote on a date",
+      "Read a report",
+      "Paint a room",
+      "Meet Ms. Diaz"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Mọi người được dặn đọc báo cáo bán hàng trước khi đến.",
+      "en": "They are asked to read the sales report."
+     },
+     "trap": "Vote on a date sẽ làm tại cuộc họp, không phải trước đó."
+    }
+   ]
+  },
+  {
+   "id": "d08-p4-x2",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Hello, Mr. Patel. This is Helen from Brightline Consulting returning your call. You asked whether we could move tomorrow's meeting with your team. I am afraid our director has to attend a client lunch at noon, but she is free at four o'clock the same day. If that time is too late, she could also meet on Thursday morning. We would be happy to come to your office, or you can visit ours. We have a larger room with a projector. Please let me know which you prefer by e-mail today so that I can book the room."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p4-x2-1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Why is the speaker calling?",
+     "options": [
+      "To cancel a client lunch",
+      "To suggest a different meeting time",
+      "To ask about a projector",
+      "To introduce a director"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Helen đưa ra giờ khác vì ông Patel muốn dời cuộc họp.",
+      "en": "She suggests other times for the meeting."
+     },
+     "trap": "Client lunch chỉ là lý do vị giám đốc bận vào buổi trưa."
+    },
+    {
+     "id": "d08-p4-x2-2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "What will the director do at noon?",
+     "options": [
+      "Visit Mr. Patel's office",
+      "Lead a training day",
+      "Attend a client lunch",
+      "Book a larger room"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Giám đốc phải dự bữa trưa với khách hàng lúc mười hai giờ.",
+      "en": "The director has to attend a client lunch at noon."
+     },
+     "trap": "Visit Mr. Patel's office chỉ là lựa chọn về địa điểm."
+    },
+    {
+     "id": "d08-p4-x2-3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 2,
+     "q": "What does the speaker ask Mr. Patel to do?",
+     "options": [
+      "Call back this afternoon",
+      "Bring a projector",
+      "Send his preference by e-mail",
+      "Come on Thursday"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Helen nhờ ông Patel cho biết lựa chọn qua e-mail hôm nay.",
+      "en": "She asks him to e-mail which option he prefers."
+     },
+     "trap": "Come on Thursday chỉ là một lựa chọn, không phải yêu cầu."
+    }
+   ]
+  }
+ ]
+}

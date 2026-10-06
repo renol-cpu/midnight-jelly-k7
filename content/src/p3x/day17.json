@@ -1,0 +1,304 @@
+{
+ "listening": [
+  {
+   "id": "d17-p3-x1",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "This apartment is on the fourth floor, with a view of the river."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "It's lovely. Does the monthly rent include utilities?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Water is included, but you pay for electricity and internet."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "And is there a deposit?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "One month's rent. You can pay it when you sign the contract next week."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p3-x1-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 2,
+     "q": "Who most likely is the man?",
+     "options": [
+      "A real estate agent",
+      "A repair worker",
+      "A bank clerk",
+      "A neighbor"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh giới thiệu căn hộ và nói về tiền thuê, tiền cọc, tức là môi giới.",
+      "en": "He shows an apartment and explains rent and deposit."
+     },
+     "trap": "Hàng xóm sẽ không giải thích hợp đồng."
+    },
+    {
+     "id": "d17-p3-x1-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "What is included in the rent?",
+     "options": [
+      "Water",
+      "Electricity",
+      "Internet",
+      "Parking"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Chỉ có nước được bao gồm.",
+      "en": "Only water is included."
+     },
+     "trap": "Điện và internet phải tự trả."
+    },
+    {
+     "id": "d17-p3-x1-3",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "When will the woman pay the deposit?",
+     "options": [
+      "When she signs the contract",
+      "Today",
+      "After she moves in",
+      "At the end of the month"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô trả tiền cọc khi ký hợp đồng vào tuần sau.",
+      "en": "She pays when she signs the contract next week."
+     },
+     "trap": "Hôm nay cô chỉ đi xem nhà."
+    }
+   ]
+  },
+  {
+   "id": "d17-p3-x2",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Mr. Evans, the notice about next week's work is on the board."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "I saw it. I live on the sixth floor and work from home, so the smell worries me."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "The paint is low-odor, but you could use the community room that day."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "I'll take the community room. Does it have Wi-Fi?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Yes. I'll write the network details on a card for you."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p3-x2-1",
+     "part": 3,
+     "skill": "p3.graphic",
+     "level": 3,
+     "q": "Look at the graphic. Which day is the man worried about?",
+     "options": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Anh ở tầng 6 và lo mùi sơn, mà sơn hành lang tầng 5 đến 8 là thứ Tư.",
+      "en": "He lives on floor 6, and hallway painting for floors 5 to 8 is on Wednesday."
+     },
+     "trap": "Thứ Ba cắt nước chỉ ảnh hưởng tầng 1 đến 4."
+    },
+    {
+     "id": "d17-p3-x2-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "What does the man decide to do?",
+     "options": [
+      "Work in the community room",
+      "Move to another floor",
+      "Ask for a fan",
+      "Stay home"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh nói \"I'll take the community room\".",
+      "en": "He agrees to use the community room."
+     },
+     "trap": "Quạt không được nhắc."
+    },
+    {
+     "id": "d17-p3-x2-3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What will the woman give the man?",
+     "options": [
+      "A parking pass",
+      "Network information",
+      "A cleaning schedule",
+      "A building key"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô sẽ ghi thông tin mạng Wi-Fi ra thẻ.",
+      "en": "She will write the network details on a card."
+     },
+     "trap": "Cô không đưa chìa khóa."
+    }
+   ],
+   "graphic": {
+    "caption": "Building maintenance schedule, next week",
+    "rows": [
+     [
+      "Day",
+      "Work",
+      "Affected area"
+     ],
+     [
+      "Monday",
+      "Elevator repair",
+      "North building"
+     ],
+     [
+      "Tuesday",
+      "Water shut-off",
+      "Floors 1 to 4"
+     ],
+     [
+      "Wednesday",
+      "Hallway painting",
+      "Floors 5 to 8"
+     ],
+     [
+      "Thursday",
+      "Garage cleaning",
+      "Basement"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "d17-p3-x3",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Ms. Lee, I'm sorry, but I'll be late with the rent this month. My salary arrives on the tenth."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "The rent is due on the first. You've paid on time for two years, so I'll allow it."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Thank you. It won't happen again."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Just pay by the twelfth, or there will be a late fee. And please fix that loose cabinet door I mentioned."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "I'll do it this weekend."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p3-x3-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 2,
+     "q": "Why is the man calling?",
+     "options": [
+      "To explain a late payment",
+      "To ask for a lower rent",
+      "To report a broken door",
+      "To end his lease"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh báo sẽ trả tiền thuê trễ vì lương đến ngày 10.",
+      "en": "He says he will pay late because his salary comes on the tenth."
+     },
+     "trap": "Cửa tủ là việc cô nhắc thêm."
+    },
+    {
+     "id": "d17-p3-x3-2",
+     "part": 3,
+     "skill": "p3.speaker-intent",
+     "level": 3,
+     "q": "What does the woman imply when she says, \"You've paid on time for two years\"?",
+     "options": [
+      "She trusts the man",
+      "She wants a higher rent",
+      "She is angry with him",
+      "She will end the contract"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Nhắc chuyện trả đúng hạn hai năm là lý do cô cho phép, tức là cô tin anh.",
+      "en": "It is her reason for allowing the delay, so it shows trust."
+     },
+     "trap": "Cô đồng ý chứ không giận."
+    },
+    {
+     "id": "d17-p3-x3-3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What will the man do this weekend?",
+     "options": [
+      "Repair a cabinet door",
+      "Pay a late fee",
+      "Meet the landlord",
+      "Move out"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh nói sẽ sửa cánh cửa tủ lỏng vào cuối tuần.",
+      "en": "He will fix the loose cabinet door."
+     },
+     "trap": "Phí trễ chỉ áp dụng nếu trả sau ngày 12."
+    }
+   ]
+  }
+ ]
+}

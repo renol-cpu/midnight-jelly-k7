@@ -1,0 +1,74 @@
+{
+ "listening": [
+  {
+   "id": "d20-p4-x1",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Hi, everyone. This is Kate from the language center with a reminder about tomorrow's practice test. The test begins at nine o'clock sharp, and the doors close five minutes after that. I know many of you travel a long way, so please plan your trip carefully and arrive at least fifteen minutes early. Tutors will send your scores by e-mail within two days of the test. Some of you asked about dictionaries. I am sorry, but they are not allowed in the room. Please bring a pencil, an eraser, and your student card. Finally, the cafeteria will open early at eight o'clock, so you can have breakfast before the test."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d20-p4-x1-1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 2,
+     "q": "Why is the speaker calling?",
+     "options": [
+      "To remind students about a test",
+      "To change a test date",
+      "To sell dictionaries",
+      "To offer a breakfast class"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Kate gọi để nhắc về bài thi thử ngày mai.",
+      "en": "She reminds students about tomorrow's practice test."
+     },
+     "trap": "Change a test date sai vì giờ thi vẫn là chín giờ."
+    },
+    {
+     "id": "d20-p4-x1-2",
+     "part": 4,
+     "skill": "p4.speaker-intent",
+     "level": 3,
+     "q": "What does the speaker imply when she says, \"the doors close five minutes after that\"?",
+     "options": [
+      "Tutors will check the doors.",
+      "Students should arrive on time.",
+      "The test is very short.",
+      "The room is too small."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô ngụ ý ai đến muộn có thể không được vào thi nên cần đến đúng giờ.",
+      "en": "She means students who arrive late may miss the test."
+     },
+     "trap": "The test is short sai vì cô không nói về độ dài bài thi."
+    },
+    {
+     "id": "d20-p4-x1-3",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "How will students receive their scores?",
+     "options": [
+      "By telephone",
+      "By mail",
+      "By visiting the center",
+      "By e-mail"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Giáo viên gửi điểm qua e-mail trong vòng hai ngày.",
+      "en": "Tutors will send scores by e-mail."
+     },
+     "trap": "Visiting the center sai vì không cần đến trung tâm để nhận điểm."
+    }
+   ]
+  }
+ ]
+}

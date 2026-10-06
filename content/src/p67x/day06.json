@@ -1,0 +1,235 @@
+{
+  "grammar": [
+    {
+      "id": "d06-p6-x1",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "memo",
+          "title": "Orientation for new employees",
+          "text": "To: All Department Heads\nFrom: Human Resources\nSubject: Orientation for new employees\n\nFive new employees [1] our team on Monday, April 7. They will work in the Sales, Finance, and Customer Service departments. Each new employee [2] a security badge from the front desk at 8:30 A.M. [3] Please let them know where to find the staff room and the printers. The training sessions [4] in Room 204, and lunch will be provided at noon. Thank you for helping our new team members feel welcome. Please contact me if you have any questions about the schedule."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d06-p6-x1-1",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [1]",
+          "options": [
+            "joins",
+            "join",
+            "joining",
+            "has joined"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Chủ ngữ \"Five new employees\" là số nhiều nên động từ không thêm -s: \"join\".",
+            "en": "The subject \"Five new employees\" is plural, so the verb has no -s: \"join\"."
+          },
+          "trap": "\"joins\" dành cho chủ ngữ số ít; ở đây chủ ngữ là năm người."
+        },
+        {
+          "id": "d06-p6-x1-2",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [2]",
+          "options": [
+            "receive",
+            "are receiving",
+            "have received",
+            "receives"
+          ],
+          "answer": 3,
+          "why": {
+            "vi": "\"Each new employee\" là số ít nên động từ thêm -s: \"receives\".",
+            "en": "\"Each new employee\" is singular, so the verb takes -s: \"receives\"."
+          },
+          "trap": "Chữ \"employees\" ở câu trước làm em nghĩ số nhiều, nhưng \"Each\" luôn đi với số ít."
+        },
+        {
+          "id": "d06-p6-x1-3",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 1,
+          "q": "Blank [3]",
+          "options": [
+            "Their supervisors should meet them at the front desk and bring them to the department.",
+            "The company will open a new office in May.",
+            "Last year, our staff took a survey about parking.",
+            "Salaries are paid on the last day of each month."
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Câu sau dùng \"them\" (nhân viên mới), nên câu chèn phải nói về việc đón nhân viên mới.",
+            "en": "The next sentence uses \"them\" for the new employees, so the missing sentence must be about welcoming them."
+          },
+          "trap": "Các câu về văn phòng mới, khảo sát, lương không nhắc tới nhân viên mới."
+        },
+        {
+          "id": "d06-p6-x1-4",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [4]",
+          "options": [
+            "is held",
+            "has held",
+            "are held",
+            "holds"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "\"The training sessions\" là số nhiều và bị động (được tổ chức): \"are held\".",
+            "en": "\"The training sessions\" is plural and passive: \"are held\"."
+          },
+          "trap": "\"is held\" sai vì chủ ngữ là số nhiều; \"holds\" cần một tân ngữ."
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "d06-p7-x1",
+      "part": 7,
+      "passages": [
+        {
+          "kind": "email",
+          "title": "New health form",
+          "text": "To: All Staff\nFrom: Grace Wong, Human Resources\nSubject: New health form\n\nDear staff,\n\nPlease complete the new health insurance form by Friday, March 14. The form is on the company website under \"Human Resources.\" Print it, sign it, and give it to me or leave it in the box outside my office. If you have questions, I am in the office from 9:00 to 3:00 every day.\n\nThank you,\nGrace"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d06-p7-x1-1",
+          "part": 7,
+          "skill": "p7.main-idea",
+          "level": 1,
+          "q": "What is the purpose of the email?",
+          "options": [
+            "To announce a new employee",
+            "To ask staff to fill in a form",
+            "To describe a company website",
+            "To invite staff to a party"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Cô Wong yêu cầu nhân viên hoàn thành biểu mẫu bảo hiểm sức khỏe mới.",
+            "en": "Ms. Wong asks staff to complete the new health insurance form."
+          },
+          "trap": "Website chỉ là nơi tìm biểu mẫu."
+        },
+        {
+          "id": "d06-p7-x1-2",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "When must the form be finished?",
+          "options": [
+            "By March 14",
+            "By March 9",
+            "On Monday",
+            "By 3:00 P.M. today"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Email ghi hạn là thứ Sáu, ngày 14 tháng 3.",
+            "en": "The email gives the deadline as Friday, March 14."
+          },
+          "trap": "9:00 đến 3:00 là giờ cô Wong có mặt, không phải hạn chót."
+        },
+        {
+          "id": "d06-p7-x1-3",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "Where can staff leave the form?",
+          "options": [
+            "At the front desk",
+            "On the company website",
+            "In a box outside Ms. Wong's office",
+            "In the staff room"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Nhân viên có thể đưa cho cô hoặc để trong hộp ngoài văn phòng của cô.",
+            "en": "Staff can give it to her or leave it in the box outside her office."
+          },
+          "trap": "Website là nơi in biểu mẫu, không phải nơi nộp."
+        }
+      ]
+    },
+    {
+      "id": "d06-p7-x2",
+      "part": 7,
+      "passages": [
+        {
+          "kind": "email",
+          "title": "Interview on Tuesday",
+          "text": "To: Hiro Sato\nFrom: Paula Reyes\nSubject: Interview on Tuesday\n\nDear Mr. Sato,\n\nThank you for applying for the sales assistant position. We would like to invite you for an interview on Tuesday, April 8, at 10:30 A.M. at our office on Pine Street, third floor. The interview will take about 45 minutes. Please bring a copy of your resume and two references. If the time is not convenient, please reply to this email.\n\nSincerely,\nPaula Reyes\nPersonnel Manager"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d06-p7-x2-1",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "What position did Mr. Sato apply for?",
+          "options": [
+            "Personnel manager",
+            "Office cleaner",
+            "Store manager",
+            "Sales assistant"
+          ],
+          "answer": 3,
+          "why": {
+            "vi": "Email nhắc đến vị trí sales assistant.",
+            "en": "The email mentions the sales assistant position."
+          },
+          "trap": "Personnel Manager là chức danh của người viết email."
+        },
+        {
+          "id": "d06-p7-x2-2",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "How long will the interview take?",
+          "options": [
+            "About 45 minutes",
+            "About 30 minutes",
+            "About one hour",
+            "About 10:30 minutes"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Email ghi cuộc phỏng vấn kéo dài khoảng 45 phút.",
+            "en": "The email says the interview will take about 45 minutes."
+          },
+          "trap": "10:30 là giờ bắt đầu, không phải thời lượng."
+        },
+        {
+          "id": "d06-p7-x2-3",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "What should Mr. Sato bring?",
+          "options": [
+            "A letter from his teacher",
+            "A resume and two references",
+            "A copy of the job ad",
+            "A photo and a pen"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Anh được yêu cầu mang bản sao sơ yếu lý lịch và hai người giới thiệu.",
+            "en": "He is asked to bring a copy of his resume and two references."
+          },
+          "trap": "Thư của giáo viên không được nhắc."
+        }
+      ]
+    }
+  ]
+}

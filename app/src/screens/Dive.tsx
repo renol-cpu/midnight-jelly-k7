@@ -3,7 +3,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { X, SpeakerHigh, Lightning, Anchor } from '@phosphor-icons/react';
 import type { DayContent, QSet } from '../content/types';
 import { buildSteps, TARGET_SECONDS, type Block, type Step } from '../game/session';
-import { recordAnswer, addWords, dueCards, getProgress, reviewCard, finishDay, saveTest, update, forecast } from '../game/store';
+import { addLight, recordAnswer, addWords, dueCards, getProgress, reviewCard, finishDay, saveTest, update, forecast } from '../game/store';
 import { speciesOf } from '../game/species';
 import { playClip, slug } from '../game/audio';
 import { rankFor } from '../game/rank';
@@ -11,15 +11,15 @@ import { SetView, type AnswerEvent } from './Question';
 import { StoryView, FilmClip } from './Story';
 import { Jelly } from '../components/Jelly';
 import { Tank } from '../components/Tank';
-import { pick, useT, type Lang } from '../i18n';
+import { DIRECTIONS, pick, useT, type Lang } from '../i18n';
 
 const FULL_O2 = 12; // 3 tanks x 4 quarters
 
-export function Dive({ day, lang, short, onExit }: { day: DayContent; lang: Lang; short: boolean; onExit: () => void }) {
+export function Dive({ day, lang, short, extra = false, onExit }: { day: DayContent; lang: Lang; short: boolean; extra?: boolean; onExit: () => void }) {
   const t = useT();
-  const steps = useMemo(() => buildSteps(day, { short, hasDue: dueCards(1).length > 0 }), [day, short]);
+  const steps = useMemo(() => buildSteps(day, { short, hasDue: dueCards(1).length > 0, extra }), [day, short, extra]);
   const resume = getProgress().resume;
-  const [i, setI] = useState(resume?.day === day.day ? Math.min(resume.step, steps.length - 1) : 0);
+  const [i, setI] = useState(!extra && resume?.day === day.day ? Math.min(resume.step, steps.length - 1) : 0);
   const [o2, setO2] = useState(FULL_O2);
   const [light, setLight] = useState(0); // unbanked
   const [banked, setBanked] = useState(0);
@@ -35,7 +35,7 @@ export function Dive({ day, lang, short, onExit }: { day: DayContent; lang: Lang
   const step = steps[i];
   const species = speciesOf(day.day);
 
-  useEffect(() => { update((p) => { p.resume = { day: day.day, step: i }; }); }, [i, day.day]);
+  useEffect(() => { if (!extra) update((p) => { p.resume = { day: day.day, step: i }; }); }, [i, day.day, extra]);
 
   const go = () => setI((n) => Math.min(n + 1, steps.length - 1));
 
@@ -83,7 +83,7 @@ export function Dive({ day, lang, short, onExit }: { day: DayContent; lang: Lang
     onExit();
   }
 
-  const guide = step.kind === 'film' ? t('storyTime') : step.kind === 'set' ? blockName(step.block, t) : step.kind === 'theory' ? t('theory') : step.kind === 'vocab' ? t('newJelly') : step.kind === 'warmup' ? t('warmup') : step.kind === 'story' ? t('storyTime') : step.kind === 'letter' ? t('letterFrom') : step.kind === 'bank' ? t('light') : t('score');
+  const guide = step.kind === 'directions' ? `Part ${step.part}` : step.kind === 'map' ? t('todayMap') : step.kind === 'extraDone' ? t('extraPractice') : step.kind === 'film' ? t('storyTime') : step.kind === 'set' ? blockName(step.block, t) : step.kind === 'theory' ? t('theory') : step.kind === 'vocab' ? t('newJelly') : step.kind === 'warmup' ? t('warmup') : step.kind === 'story' ? t('storyTime') : step.kind === 'letter' ? t('letterFrom') : step.kind === 'bank' ? t('light') : t('score');
 
   return (
     <div className="screen">
@@ -92,7 +92,7 @@ export function Dive({ day, lang, short, onExit }: { day: DayContent; lang: Lang
         <button className="btn quiet" onClick={() => setQuit(true)} aria-label={t('quit')}><X size={20} /></button>
       </div>
 
-      {['set', 'vocab', 'warmup', 'theory', 'bank'].includes(step.kind) && (
+      {['map', 'set', 'vocab', 'warmup', 'theory', 'bank', 'directions'].includes(step.kind) && (
         <Tank media={species.media ?? 'v06'} still className="tank-band">
           <div key={moodKey} className="band-jelly"><Jelly species={species} mood={mood} size={84} /></div>
           {!day.boss && (
@@ -112,10 +112,33 @@ export function Dive({ day, lang, short, onExit }: { day: DayContent; lang: Lang
 
       {step.kind === 'film' && <FilmClip name={step.name} onDone={go} />}
 
+      {step.kind === 'map' && <ShiftMap day={day} onDone={go} />}
+
+      {step.kind === 'directions' && (
+        <div className="stack">
+          <div className="placard">
+            <h2 style={{ fontSize: '2.2rem' }}>Part {step.part}</h2>
+            <p style={{ fontSize: '1.05rem', marginTop: 6 }}>{DIRECTIONS[step.part].vi}</p>
+            <p className="latin" style={{ marginTop: 8 }}>{DIRECTIONS[step.part].en}</p>
+          </div>
+          <div className="note" style={{ transform: 'rotate(0.6deg)', background: '#fff7d6', color: '#2c2203' }}>{DIRECTIONS[step.part].tip}<span className="sig" style={{ color: '#7a5b00' }}>Bé Sứa</span></div>
+          <button className="btn primary block" onClick={go}>{t('startPart')} Part {step.part}</button>
+        </div>
+      )}
+
+      {step.kind === 'extraDone' && (
+        <div className="sheet" style={{ margin: '24px auto' }}>
+          <Jelly species={species} mood="pulse" size={90} />
+          <h2>{t('extraDone')}</h2>
+          <p className="big num">{banked + light}</p>
+          <button className="btn primary block" onClick={() => { addLight(banked + light); onExit(); }}>{t('gotIt')}</button>
+        </div>
+      )}
+
       {step.kind === 'letter' && day.letter && (
         <div className="stack">
           <Tank media={species.media ?? 'v06'} className="tank-hero" still>
-            <div className="note"><Letter text={pick(day.letter, lang)} /><span className="sig">Minh</span></div>
+            <div className="note"><Letter text={pick(day.letter, lang)} /><span className="sig">{t('mystery')}</span></div>
           </Tank>
           <button className="btn love block" onClick={go}>{t('gotIt')}</button>
         </div>
@@ -289,3 +312,31 @@ function Result({ tally, day, lang, onDone }: { tally: { l: number; lc: number; 
 }
 
 export type { Step };
+
+// What tonight's shift covers, so the balance across TOEIC skills is visible before starting.
+function ShiftMap({ day, onDone }: { day: DayContent; onDone: () => void }) {
+  const t = useT();
+  const n = (sets: QSet[], f: (p: number) => boolean) => sets.filter((s) => f(s.part)).reduce((a, s) => a + s.questions.length, 0);
+  const rows: [string, number, string][] = [
+    [t('mapL'), n(day.listening, () => true), 'var(--moon)'],
+    [t('mapG'), n(day.grammar, () => true), 'var(--pearl)'],
+    [t('mapR'), n(day.reading, () => true), 'var(--coral)'],
+    [t('mapW'), day.vocab.length, 'var(--rose)'],
+  ];
+  return (
+    <div className="stack">
+      <div className="placard">
+        <h2>{t('todayMap')}</h2>
+        <div className="stack" style={{ marginTop: 12, gap: 10 }}>
+          {rows.filter((r) => r[1] > 0).map(([label, count, color]) => (
+            <div key={label} className="row" style={{ justifyContent: 'space-between', flexWrap: 'nowrap' }}>
+              <span className="row" style={{ gap: 10, flexWrap: 'nowrap' }}><i style={{ width: 12, height: 12, borderRadius: 3, background: color, boxShadow: '0 0 0 1px rgba(10,13,41,.25)' }} />{label}</span>
+              <b className="num">{count}</b>
+            </div>
+          ))}
+        </div>
+      </div>
+      <button className="btn primary block" onClick={onDone}>{t('startShift')}</button>
+    </div>
+  );
+}

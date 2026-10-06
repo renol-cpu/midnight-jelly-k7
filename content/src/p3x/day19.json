@@ -1,0 +1,94 @@
+{
+ "listening": [
+  {
+   "id": "d19-p3-x1",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Aqua World, can I help you?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Hi, I'd like to book a tour for a school group. There are thirty students, no, sorry, thirty-eight, with two teachers."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "The jellyfish tour holds forty people, so that works. How about Wednesday at ten?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Wednesday is sports day. Could we come on Thursday at ten thirty instead?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Thursday at ten thirty is open. I'll hold it until the end of the week, so please send the deposit before then."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d19-p3-x1-1",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "How many students will visit?",
+     "options": [
+      "Thirty-eight",
+      "Thirty",
+      "Forty",
+      "Two"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh tự sửa lại thành 38 học sinh.",
+      "en": "The man corrects the number to thirty-eight."
+     },
+     "trap": "Thirty là số anh nói trước khi sửa; forty là sức chứa tour."
+    },
+    {
+     "id": "d19-p3-x1-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "Why can't the group come on Wednesday?",
+     "options": [
+      "It is the school's sports day",
+      "The tour is full",
+      "The aquarium is closed",
+      "The teachers are away"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Thứ Tư là ngày hội thể thao của trường.",
+      "en": "Wednesday is sports day."
+     },
+     "trap": "Tour vẫn còn chỗ vào thứ Tư; chính nhóm không đi được."
+    },
+    {
+     "id": "d19-p3-x1-3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What must the man do by the end of the week?",
+     "options": [
+      "Send a deposit",
+      "Change the date",
+      "Add more students",
+      "Visit the aquarium"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô giữ chỗ đến cuối tuần và yêu cầu gửi tiền cọc trước đó.",
+      "en": "The woman holds the booking until the end of the week and asks for a deposit."
+     },
+     "trap": "Ngày đã được chốt là thứ Năm."
+    }
+   ]
+  }
+ ]
+}

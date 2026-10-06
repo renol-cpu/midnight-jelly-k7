@@ -1,0 +1,269 @@
+{
+ "listening": [
+  {
+   "id": "d06-p3-x1",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Hello, this is Maria from Sun Travel. You applied for the sales job."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Yes, thank you for calling."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "We'd like to invite you for an interview on Thursday at two."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Thursday is fine. Where is your office?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "On the fifth floor, at 22 Lake Road. Please bring your résumé."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d06-p3-x1-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "Why is the woman calling?",
+     "options": [
+      "To invite the man to an interview",
+      "To sell a trip",
+      "To change a flight",
+      "To ask for a refund"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô mời anh phỏng vấn cho vị trí đã nộp đơn.",
+      "en": "She invites him for an interview about the job he applied for."
+     },
+     "trap": "Sun Travel là tên công ty, không phải cô đang bán chuyến đi."
+    },
+    {
+     "id": "d06-p3-x1-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "On which floor is the office?",
+     "options": [
+      "The fifth floor",
+      "The second floor",
+      "The twenty-second floor",
+      "The ground floor"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô nói \"on the fifth floor\".",
+      "en": "She says the office is on the fifth floor."
+     },
+     "trap": "22 là số nhà, không phải số tầng."
+    },
+    {
+     "id": "d06-p3-x1-3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the man probably do on Thursday?",
+     "options": [
+      "Go to the office",
+      "Call the woman",
+      "Start a trip",
+      "Write a résumé"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh đồng ý đi phỏng vấn thứ Năm tại văn phòng.",
+      "en": "He agrees to attend the interview at the office."
+     },
+     "trap": "Anh đã có résumé và chỉ cần mang theo."
+    }
+   ]
+  },
+  {
+   "id": "d06-p3-x2",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Anna, I'd like to take next Monday off."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Let me check the schedule. Two people are already off that day."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Could I take Tuesday instead?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Tuesday works. Please fill in the leave form and give it to me."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d06-p3-x2-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What does the man want?",
+     "options": [
+      "A day off",
+      "A new job",
+      "A raise",
+      "A bigger desk"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh muốn nghỉ một ngày.",
+      "en": "He wants to take a day off."
+     },
+     "trap": "Không có chuyện tăng lương."
+    },
+    {
+     "id": "d06-p3-x2-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "Why can't the man take Monday?",
+     "options": [
+      "Other staff are already off",
+      "The office is closed",
+      "He has a meeting",
+      "The form is missing"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Đã có hai người nghỉ vào ngày đó.",
+      "en": "Two people are already off that day."
+     },
+     "trap": "Anh chưa nhắc gì về cuộc họp."
+    },
+    {
+     "id": "d06-p3-x2-3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the man do next?",
+     "options": [
+      "Fill in a form",
+      "Call a client",
+      "Check the schedule",
+      "Work on Tuesday"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô bảo anh điền đơn xin nghỉ.",
+      "en": "The woman asks him to fill in the leave form."
+     },
+     "trap": "Cô là người kiểm tra lịch."
+    }
+   ]
+  },
+  {
+   "id": "d06-p3-x3",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Welcome to the team, Paul. Your training starts today."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Thanks. How long is the training?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Two days. Tomorrow you'll meet your manager."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Do I need to bring anything?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "No, we'll give you everything. First, let me take you to the training room."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d06-p3-x3-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What is the conversation mainly about?",
+     "options": [
+      "Staff training",
+      "A sales report",
+      "A job interview",
+      "A lunch order"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Họ nói về buổi đào tạo cho người mới.",
+      "en": "They talk about the new employee's training."
+     },
+     "trap": "Phỏng vấn đã xong; anh đã là nhân viên."
+    },
+    {
+     "id": "d06-p3-x3-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "How long is the training?",
+     "options": [
+      "Two days",
+      "One day",
+      "Two weeks",
+      "Two hours"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô nói \"Two days\".",
+      "en": "The woman says two days."
+     },
+     "trap": "Chỉ có hai ngày, không phải hai tuần."
+    },
+    {
+     "id": "d06-p3-x3-3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the woman do next?",
+     "options": [
+      "Take the man to a room",
+      "Introduce a manager",
+      "Give him a gift",
+      "Send an email"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô nói sẽ dẫn anh đến phòng đào tạo.",
+      "en": "She will take him to the training room."
+     },
+     "trap": "Anh gặp quản lý vào ngày mai, không phải bây giờ."
+    }
+   ]
+  }
+ ]
+}

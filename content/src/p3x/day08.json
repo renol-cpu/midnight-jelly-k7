@@ -1,0 +1,264 @@
+{
+ "listening": [
+  {
+   "id": "d08-p3-x1",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Dan, the Monday meeting has been moved to Tuesday at ten."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Oh no. I have a client visit on Tuesday morning."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Then can you join by video from the client's office?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Yes, I can do that."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Good. I'll send you the link this afternoon."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p3-x1-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 2,
+     "q": "What is the problem?",
+     "options": [
+      "The man cannot attend at the new time",
+      "The meeting room is full",
+      "The client is late",
+      "The video link is broken"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cuộc họp dời sang sáng thứ Ba, trùng lịch gặp khách của anh.",
+      "en": "The new meeting time clashes with his client visit."
+     },
+     "trap": "Link video chưa được gửi nên chưa thể hỏng."
+    },
+    {
+     "id": "d08-p3-x1-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "What does the woman suggest?",
+     "options": [
+      "Joining by video",
+      "Moving the client visit",
+      "Skipping the meeting",
+      "Meeting on Monday"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô đề nghị anh tham gia bằng video.",
+      "en": "She suggests he join by video."
+     },
+     "trap": "Họp thứ Hai là lịch cũ đã bị dời."
+    },
+    {
+     "id": "d08-p3-x1-3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the woman send this afternoon?",
+     "options": [
+      "A link",
+      "A report",
+      "An invoice",
+      "A map"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô nói \"I'll send you the link\".",
+      "en": "She says she will send the link."
+     },
+     "trap": "Không có báo cáo nào được nhắc."
+    }
+   ]
+  },
+  {
+   "id": "d08-p3-x2",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "The presentation starts in ten minutes, and the projector won't turn on."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Is it plugged in?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Yes. I think the bulb is broken."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "There's another projector in Room 5. I'll ask someone to bring it here."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p3-x2-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What is the problem?",
+     "options": [
+      "Some equipment does not work",
+      "The room is too small",
+      "A guest is late",
+      "A report is missing"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Máy chiếu không bật được.",
+      "en": "The projector will not turn on."
+     },
+     "trap": "Phòng không bị nhỏ; chỉ có máy chiếu hỏng."
+    },
+    {
+     "id": "d08-p3-x2-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "What does the man think is wrong?",
+     "options": [
+      "The bulb",
+      "The cable",
+      "The screen",
+      "The chair"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh nghĩ bóng đèn bị hỏng.",
+      "en": "He thinks the bulb is broken."
+     },
+     "trap": "Anh đã nói máy đã cắm điện."
+    },
+    {
+     "id": "d08-p3-x2-3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the woman do?",
+     "options": [
+      "Have another projector brought",
+      "Cancel the talk",
+      "Replace the bulb",
+      "Move to Room 5"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô nhờ người mang máy chiếu ở phòng 5 sang.",
+      "en": "She will ask someone to bring the other projector."
+     },
+     "trap": "Họ không chuyển phòng mà mang máy chiếu sang."
+    }
+   ]
+  },
+  {
+   "id": "d08-p3-x3",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Before we start, who is taking notes today?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "I did it last week. Could you do it this time?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "I'd like to, but I need to present the sales figures."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Good point. I'll ask Jenny. She's new, so it will help her learn about our projects."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p3-x3-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What are the speakers deciding?",
+     "options": [
+      "Who will write the notes",
+      "Who will lead the project",
+      "When to hold the meeting",
+      "Which figures to use"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Họ đang chọn ai ghi biên bản.",
+      "en": "They are deciding who will take notes."
+     },
+     "trap": "Số liệu bán hàng chỉ là việc của anh."
+    },
+    {
+     "id": "d08-p3-x3-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "Why can't the man take notes?",
+     "options": [
+      "He will give a presentation",
+      "He is on vacation",
+      "He is new",
+      "He arrived late"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh phải trình bày số liệu bán hàng.",
+      "en": "He needs to present the sales figures."
+     },
+     "trap": "Người mới là Jenny, không phải anh."
+    },
+    {
+     "id": "d08-p3-x3-3",
+     "part": 3,
+     "skill": "p3.implication",
+     "level": 2,
+     "q": "Why does the woman want Jenny to take notes?",
+     "options": [
+      "It will help Jenny learn",
+      "Jenny writes quickly",
+      "Jenny asked for it",
+      "It saves the woman time"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô nói Jenny còn mới nên việc này giúp cô ấy hiểu các dự án.",
+      "en": "The woman says it will help the new employee learn about projects."
+     },
+     "trap": "Cô không nói Jenny viết nhanh hay tự xin."
+    }
+   ]
+  }
+ ]
+}

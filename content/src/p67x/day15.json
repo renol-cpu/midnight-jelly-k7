@@ -1,0 +1,93 @@
+{
+  "grammar": [
+    {
+      "id": "d15-p6-x1",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "memo",
+          "title": "Password update on Friday",
+          "text": "To: All Employees\nFrom: IT Department\nSubject: Password update on Friday\n\nOn Friday evening, the IT Department will install a new security system on all company computers. After the update, every employee will be asked to [1] a new password. The new password must be at least ten characters long and [2] one number. [3] Your old password will no longer work after that time. If you forget your new password, you can [4] it online in just a few minutes. Please save your work before leaving the office on Friday. Technicians will be available all evening. If you have a problem, please call the help desk at extension 210.\n\nThank you for your understanding."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d15-p6-x1-1",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [1]",
+          "options": [
+            "creation",
+            "create",
+            "creative",
+            "creates"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Sau \"be asked to\" cần động từ nguyên mẫu: \"create\" (tạo).",
+            "en": "After \"be asked to\" we need a base verb: \"create\"."
+          },
+          "trap": "\"creation\" là danh từ nên không đứng sau \"to\" ở đây."
+        },
+        {
+          "id": "d15-p6-x1-2",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [2]",
+          "options": [
+            "contains",
+            "containing",
+            "contained",
+            "contain"
+          ],
+          "answer": 3,
+          "why": {
+            "vi": "\"must be ... and contain\": hai vế cùng sau \"must\", nên dùng động từ nguyên mẫu \"contain\".",
+            "en": "\"must be ... and contain\": both verbs follow \"must\", so we use the base form \"contain\"."
+          },
+          "trap": "\"contains\" thêm -s sai vì đứng sau \"must\"."
+        },
+        {
+          "id": "d15-p6-x1-3",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 2,
+          "q": "Blank [3]",
+          "options": [
+            "The update will begin at 6:00 P.M.",
+            "The company cafeteria has a new menu.",
+            "Computers are available for rent at the front desk.",
+            "Printers on the third floor were repaired last week."
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Câu sau nói \"after that time\", nên câu chèn phải nêu một mốc giờ: 6:00 P.M.",
+            "en": "The next sentence says \"after that time\", so the missing sentence must give a time: 6:00 P.M."
+          },
+          "trap": "Các câu còn lại không có mốc thời gian để \"that time\" nói tới."
+        },
+        {
+          "id": "d15-p6-x1-4",
+          "part": 6,
+          "skill": "p6.vocab",
+          "level": 2,
+          "q": "Blank [4]",
+          "options": [
+            "resets",
+            "resetting",
+            "reset",
+            "resettable"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Sau \"can\" cần động từ nguyên mẫu: \"reset\" (đặt lại mật khẩu).",
+            "en": "After \"can\" we need a base verb: \"reset\"."
+          },
+          "trap": "\"resetting\" là dạng -ing, không dùng sau \"can\"."
+        }
+      ]
+    }
+  ]
+}

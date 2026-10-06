@@ -1,0 +1,144 @@
+{
+ "reading": [
+  {
+   "id": "d11-p7-x1",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "schedule",
+     "title": "Regional Tourism Summit",
+     "text": "GREENFIELD REGIONAL TOURISM SUMMIT\nFriday, June 6 | Harbor Convention Center\n\n8:00 A.M.  Registration and breakfast (Main Lobby)\n9:00 A.M.  Opening remarks, Celia Brandt, Board Chair (Hall A)\n9:30 A.M.  Keynote: \"Travel After the Digital Shift,\" Dr. Omar Haddad (Hall A)\n10:45 A.M. Break\n11:00 A.M. Workshops (choose one): Online Booking Tools (Room 2) or Guest Reviews That Work (Room 3)\n12:30 P.M. Lunch (Garden Terrace)\n2:00 P.M.  Panel: Sustainable Tourism, moderated by Jin Park (Hall A)\n3:30 P.M.  Closing and prize drawing (Main Lobby)\n\nWorkshop seating is limited. Please sign up at the registration desk. Lunch is included with registration."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d11-p7-x1-1",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "Where will lunch be served?",
+     "options": [
+      "In the Main Lobby",
+      "On the Garden Terrace",
+      "In Hall A",
+      "In Room 3"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Dòng 12:30 P.M. ghi rõ: Lunch (Garden Terrace).",
+      "en": "The 12:30 P.M. entry lists the Garden Terrace."
+     },
+     "trap": "Main Lobby là nơi ăn sáng và bốc thăm, không phải bữa trưa."
+    },
+    {
+     "id": "d11-p7-x1-2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "Who will give the opening remarks?",
+     "options": [
+      "Celia Brandt",
+      "Dr. Omar Haddad",
+      "Jin Park",
+      "A workshop leader"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Lúc 9:00 A.M. là \"Opening remarks, Celia Brandt\". Dr. Haddad nói bài keynote sau đó.",
+      "en": "Ms. Brandt delivers the opening remarks at 9:00 A.M."
+     },
+     "trap": "Dr. Haddad phát biểu lúc 9:30, là keynote chứ không phải lời khai mạc."
+    },
+    {
+     "id": "d11-p7-x1-3",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "What are attendees asked to do at the registration desk?",
+     "options": [
+      "Pay for lunch",
+      "Choose a prize",
+      "Sign up for a workshop",
+      "Request a vegetarian meal"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Cuối lịch: \"Please sign up at the registration desk\" ngay sau câu workshop có giới hạn chỗ.",
+      "en": "Seating is limited, so attendees should sign up for workshops at the desk."
+     },
+     "trap": "Bữa trưa đã bao gồm trong phí đăng ký nên không phải trả thêm."
+    }
+   ]
+  },
+  {
+   "id": "d11-p7-x2",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "email",
+     "title": "Annual awards dinner",
+     "text": "To: All employees\nFrom: Nadia Petrov, Events Coordinator\nSubject: Annual awards dinner\nDate: October 6\n\nDear colleagues,\n\nThe annual awards dinner will be held on Saturday, November 15, in the ballroom of the Lantern Hotel. Doors open at 6:30 P.M., and dinner will be served at 7:30 P.M.\n\nBecause the hotel needs a final head count, please RSVP by October 31 using the link below. Each employee may bring one guest. Valet parking is free for all attendees.\n\nWe hope to see you there!\n\nNadia Petrov"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d11-p7-x2-1",
+     "part": 7,
+     "skill": "p7.main-idea",
+     "level": 1,
+     "q": "Why was the e-mail sent?",
+     "options": [
+      "To invite employees to an event",
+      "To announce a new hotel",
+      "To ask for award nominations",
+      "To cancel a dinner"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Email mở đầu bằng thông tin về buổi tiệc và yêu cầu RSVP, tức là lời mời.",
+      "en": "The e-mail gives details of the dinner and asks for RSVPs, so it is an invitation."
+     },
+     "trap": "\"Awards\" dễ khiến chọn nomination, nhưng bài không hề xin đề cử."
+    },
+    {
+     "id": "d11-p7-x2-2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "By when should employees respond?",
+     "options": [
+      "October 6",
+      "November 15",
+      "October 31",
+      "November 30"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"Please RSVP by October 31.\"",
+      "en": "The e-mail asks employees to RSVP by October 31."
+     },
+     "trap": "15/11 là ngày diễn ra tiệc, không phải hạn phản hồi."
+    },
+    {
+     "id": "d11-p7-x2-3",
+     "part": 7,
+     "skill": "p7.vocab-in-context",
+     "level": 2,
+     "q": "What does \"head count\" most likely mean in the e-mail?",
+     "options": [
+      "The names of the award winners",
+      "The total number of people attending",
+      "A list of hotel rooms",
+      "The cost of the dinner"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Khách sạn cần \"final head count\" để chuẩn bị, tức là tổng số người tham dự, vì thế mới cần RSVP.",
+      "en": "The hotel needs the total number of attendees, which is why guests must RSVP."
+     },
+     "trap": "Không có tên người thắng giải hay chi phí nào được yêu cầu."
+    }
+   ]
+  }
+ ]
+}

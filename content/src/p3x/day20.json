@@ -1,0 +1,184 @@
+{
+ "listening": [
+  {
+   "id": "d20-p3-x1",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Have you finished the report for Zeta Corporation?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Almost. The last chart is giving me trouble."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "The deadline is five today. If you can't finish, send what you have and say the chart will follow."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "I'd rather not send something incomplete."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "A short delay on one chart is better than missing the deadline altogether."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d20-p3-x1-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 2,
+     "q": "What are the speakers discussing?",
+     "options": [
+      "A report due today",
+      "A client visit",
+      "A new chart design",
+      "A canceled deadline"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Họ nói về báo cáo cho khách hàng phải nộp lúc 5 giờ hôm nay.",
+      "en": "They discuss a client report due at five today."
+     },
+     "trap": "Biểu đồ chỉ là một phần của báo cáo."
+    },
+    {
+     "id": "d20-p3-x1-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "What does the man suggest?",
+     "options": [
+      "Sending a partial report",
+      "Moving the deadline",
+      "Skipping the chart",
+      "Calling Zeta Corporation"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh bảo gửi phần đã xong và nói biểu đồ sẽ gửi sau.",
+      "en": "He says to send what she has and promise the chart later."
+     },
+     "trap": "Anh không nói bỏ biểu đồ, chỉ gửi sau."
+    },
+    {
+     "id": "d20-p3-x1-3",
+     "part": 3,
+     "skill": "p3.implication",
+     "level": 3,
+     "q": "What does the man imply about the deadline?",
+     "options": [
+      "Meeting it matters more than perfection",
+      "It can be changed",
+      "It is not important",
+      "The report is too long"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Trễ một biểu đồ còn hơn lỡ hạn, nên đúng hạn quan trọng hơn hoàn hảo.",
+      "en": "A short delay on one chart is better than missing the deadline, so timing matters most."
+     },
+     "trap": "Anh không hề nói hạn có thể đổi."
+    }
+   ]
+  },
+  {
+   "id": "d20-p3-x2",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "The tank filter in Exhibit 4 is making a loud noise."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "I checked it this morning. We ordered a new pump, but it won't arrive until Monday."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "The weekend crowds will hear it on Saturday."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "I'll put a sign on the exhibit, and I'll turn the pump down to low until the new one comes."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Okay. Please let me know if the water gets cloudy."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d20-p3-x2-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 2,
+     "q": "What problem are the speakers discussing?",
+     "options": [
+      "A broken window",
+      "A dirty floor",
+      "A noisy pump",
+      "A late shipment"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Bộ lọc của bể đang kêu to và chờ máy bơm mới.",
+      "en": "The tank filter is noisy and a new pump is on order."
+     },
+     "trap": "Hàng đến thứ Hai nhưng đó không phải vấn đề chính."
+    },
+    {
+     "id": "d20-p3-x2-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "Why is the woman concerned?",
+     "options": [
+      "Visitors will hear the noise",
+      "The pump is too expensive",
+      "The sign is missing",
+      "The exhibit is closed"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Đám đông cuối tuần sẽ nghe thấy tiếng ồn vào thứ Bảy.",
+      "en": "Weekend crowds will hear it on Saturday."
+     },
+     "trap": "Giá máy bơm không được nhắc."
+    },
+    {
+     "id": "d20-p3-x2-3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What will the man do until Monday?",
+     "options": [
+      "Run the pump at a lower setting",
+      "Replace the filter",
+      "Close the exhibit",
+      "Order another pump"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh sẽ chỉnh máy bơm xuống mức thấp cho đến khi có máy mới.",
+      "en": "He will turn the pump down to low until the new one arrives."
+     },
+     "trap": "Máy bơm mới đã được đặt rồi."
+    }
+   ]
+  }
+ ]
+}

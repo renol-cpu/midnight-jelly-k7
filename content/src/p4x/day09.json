@@ -1,0 +1,144 @@
+{
+ "listening": [
+  {
+   "id": "d09-p4-x1",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Good morning, everyone. Before we start the shift on Line Three, I would like to talk about a change in our safety procedure. Starting today, every worker must wear safety glasses as well as gloves when using the cutting machine. Last month, two small accidents happened because workers removed their glasses to clean them. Please keep a spare pair in your locker. New glasses are available free from the supply room, which opens at seven fifteen. Supervisors will check the equipment at the start of each shift. If you notice a damaged machine, stop work and tell your supervisor immediately."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d09-p4-x1-1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "What is the main purpose of the talk?",
+     "options": [
+      "To announce a new machine",
+      "To explain a safety rule",
+      "To introduce a supervisor",
+      "To report a production total"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Người nói thông báo quy định mới: phải đeo kính bảo hộ cùng găng tay.",
+      "en": "The speaker explains a new safety rule."
+     },
+     "trap": "New machine sai vì máy cắt đã có sẵn từ trước."
+    },
+    {
+     "id": "d09-p4-x1-2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "Why did two accidents happen last month?",
+     "options": [
+      "The gloves were too big.",
+      "The machine was damaged.",
+      "The lights were off.",
+      "Workers took off their glasses."
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Công nhân tháo kính ra để lau nên xảy ra hai tai nạn nhỏ.",
+      "en": "Workers removed their glasses to clean them."
+     },
+     "trap": "Machine damaged sai vì đó là điều phải báo cáo nếu phát hiện, không phải nguyên nhân tai nạn."
+    },
+    {
+     "id": "d09-p4-x1-3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 1,
+     "q": "Where can workers get new glasses?",
+     "options": [
+      "From a supervisor",
+      "From the supply room",
+      "From their lockers",
+      "From the cutting machine"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Kính mới được phát miễn phí ở phòng vật tư.",
+      "en": "New glasses are available from the supply room."
+     },
+     "trap": "Lockers là nơi cất kính dự phòng của mình."
+    }
+   ]
+  },
+  {
+   "id": "d09-p4-x2",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Hello, and welcome to the Dalton Furniture factory. I am Greg, and I will be showing you around today. On this tour, you will see how a chair travels from raw wood to finished product. First we will visit the cutting area, then the assembly line, and finally the quality control room, where every item is inspected before it leaves the plant. Please note that photographs are allowed only in the showroom. Also, it can get loud on the factory floor, so I will give each of you a pair of earplugs. We will end the tour in the showroom, where you can buy items at a discount."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d09-p4-x2-1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Who most likely is the speaker?",
+     "options": [
+      "A furniture buyer",
+      "A factory worker",
+      "A quality inspector",
+      "A tour guide"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Greg nói anh sẽ dẫn khách đi tham quan nhà máy.",
+      "en": "He says he will show visitors around the factory."
+     },
+     "trap": "Quality inspector sai vì phòng kiểm tra chỉ là một điểm dừng."
+    },
+    {
+     "id": "d09-p4-x2-2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "Where may visitors take photographs?",
+     "options": [
+      "In the showroom",
+      "In the cutting area",
+      "On the assembly line",
+      "In the control room"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Chỉ được chụp ảnh trong phòng trưng bày.",
+      "en": "Photographs are allowed only in the showroom."
+     },
+     "trap": "Các khu vực còn lại là nơi tham quan nhưng cấm chụp."
+    },
+    {
+     "id": "d09-p4-x2-3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 2,
+     "q": "What can visitors do at the end of the tour?",
+     "options": [
+      "Meet the workers",
+      "Try the machines",
+      "Receive a free chair",
+      "Purchase items for less"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Cuối buổi tham quan, khách có thể mua hàng giảm giá ở phòng trưng bày.",
+      "en": "They can buy items at a discount in the showroom."
+     },
+     "trap": "Free chair sai vì chỉ có giảm giá, không phải tặng."
+    }
+   ]
+  }
+ ]
+}

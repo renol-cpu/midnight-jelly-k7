@@ -1,0 +1,74 @@
+{
+ "listening": [
+  {
+   "id": "d01-p4-x1",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Good morning, passengers. This is an announcement from the Harbor Ferry Service. The ten o'clock ferry to Pine Island will leave thirty minutes late because of strong winds. The new departure time is ten thirty. Please wait inside the terminal building, where seats and hot drinks are available. If you do not wish to travel today, you may return your ticket at the information desk for a full refund. We apologize for the delay and thank you for your patience."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d01-p4-x1-1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "What is the announcement about?",
+     "options": [
+      "A late ferry",
+      "A new ticket price",
+      "A lost bag",
+      "A closed terminal"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Người nói báo chuyến phà mười giờ sẽ khởi hành muộn ba mươi phút.",
+      "en": "The ferry will leave thirty minutes late."
+     },
+     "trap": "Closed terminal sai vì hành khách được mời chờ bên trong nhà ga."
+    },
+    {
+     "id": "d01-p4-x1-2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 1,
+     "q": "Why will the ferry leave late?",
+     "options": [
+      "There is an engine problem.",
+      "The weather is bad.",
+      "The crew is missing.",
+      "The harbor is full."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"Strong winds\" được diễn đạt lại thành \"the weather is bad\".",
+      "en": "\"Strong winds\" is paraphrased as bad weather."
+     },
+     "trap": "Engine problem không được nhắc, chỉ có gió mạnh."
+    },
+    {
+     "id": "d01-p4-x1-3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 1,
+     "q": "What can passengers do at the information desk?",
+     "options": [
+      "Buy a hot drink",
+      "Change the island",
+      "Return a ticket",
+      "Find a seat"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Ai không muốn đi có thể trả vé để được hoàn tiền đầy đủ.",
+      "en": "Passengers can return their tickets for a full refund."
+     },
+     "trap": "Hot drinks có ở nhà ga chứ không phải ở quầy thông tin."
+    }
+   ]
+  }
+ ]
+}

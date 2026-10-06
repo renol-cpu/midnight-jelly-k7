@@ -10,7 +10,7 @@ import { pick, useT, type Lang } from '../i18n';
 
 const TANK_MEDIA = ['v06', 'v12', 'v15', 'v07', 'v11', 'v04', 'v16', 'v13', 'v10', 'v01', 'v05', 'v14', 'v09', 'v02', 'v03', 'v08'];
 
-export function Home({ day, lang, onStart }: { day: DayContent | null; lang: Lang; onStart: (short: boolean) => void }) {
+export function Home({ day, lang, onStart, onExtra }: { day: DayContent | null; lang: Lang; onStart: (short: boolean) => void; onExtra: () => void }) {
   const t = useT();
   const p = useProgress();
   const f = forecast(p);
@@ -27,7 +27,7 @@ export function Home({ day, lang, onStart }: { day: DayContent | null; lang: Lan
         {day?.letter && (
           <div className="note" style={{ position: 'absolute', top: 18, right: 14, maxWidth: '72%' }}>
             <Letter text={pick(day.letter, lang).split(/(?<=[.!?])\s/)[0]} />
-            <span className="sig">Minh</span>
+            <span className="sig">{t('mystery')}</span>
           </div>
         )}
         <div className="placard" style={{ ['--rank' as string]: rank.color }}>
@@ -52,6 +52,7 @@ export function Home({ day, lang, onStart }: { day: DayContent | null; lang: Lan
         <div className="stack">
           <p className="muted">{t('restDay')}</p>
           <button className="btn ghost block" onClick={() => onStart(false)} disabled={!day}>{t('playAhead')}</button>
+          {!!day?.extra?.length && <button className="btn ghost block" onClick={onExtra}>{t('extraPractice')} · {day.extra.reduce((a, s) => a + s.questions.length, 0)} {t('questionsWord')}</button>}
         </div>
       ) : (
         <div className="stack">

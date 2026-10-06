@@ -1,0 +1,144 @@
+{
+ "listening": [
+  {
+   "id": "d02-p4-x1",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Hello, Mr. Kim. This is Laura from the office manager's desk. I am calling about the new printer on the second floor. The technician will install it tomorrow morning, so the old printer will not work after five o'clock today. Please take any large documents to the print shop on Baker Street before then. If you need help, call me at extension 204. Thank you."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d02-p4-x1-1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Why is the speaker calling?",
+     "options": [
+      "To order paper",
+      "To explain a printer change",
+      "To ask for a repair",
+      "To invite him to a meeting"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô Laura báo về máy in mới và việc máy cũ sẽ ngừng hoạt động.",
+      "en": "She explains that a new printer will replace the old one."
+     },
+     "trap": "Ask for a repair sai vì kỹ thuật viên đến để lắp máy mới."
+    },
+    {
+     "id": "d02-p4-x1-2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 1,
+     "q": "What will happen tomorrow morning?",
+     "options": [
+      "A new printer will be installed.",
+      "The print shop will open.",
+      "A meeting will begin.",
+      "The office will close."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Kỹ thuật viên sẽ lắp máy in mới vào sáng mai.",
+      "en": "A technician will install the new printer."
+     },
+     "trap": "Print shop là nơi in tài liệu lớn, không phải việc xảy ra sáng mai."
+    },
+    {
+     "id": "d02-p4-x1-3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 1,
+     "q": "What should Mr. Kim do before five o'clock?",
+     "options": [
+      "Call the technician",
+      "Take large documents to a print shop",
+      "Move to the second floor",
+      "Order a new printer"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô Laura bảo mang tài liệu lớn đến tiệm in trước năm giờ.",
+      "en": "He should take large documents to the print shop."
+     },
+     "trap": "Call the technician là bẫy; số nội bộ 204 là để hỏi cô Laura."
+    }
+   ]
+  },
+  {
+   "id": "d02-p4-x2",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Good afternoon, everyone. I would like to remind you about the new security badges. Starting Monday, all employees must show their badge at the front desk when entering the building. The badges are ready now. You can pick yours up from Ms. Alvarez in the human resources office between nine and noon. Please bring a photo ID. Visitors will receive a temporary badge from the receptionist."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d02-p4-x2-1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Who is the announcement for?",
+     "options": [
+      "Visitors",
+      "Employees",
+      "Receptionists",
+      "Job applicants"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Người nói nhắc \"all employees\" phải trình thẻ khi vào tòa nhà.",
+      "en": "The rule applies to all employees."
+     },
+     "trap": "Visitors chỉ được nhắc ở câu cuối, họ nhận thẻ tạm thời."
+    },
+    {
+     "id": "d02-p4-x2-2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 1,
+     "q": "When must the badges be shown?",
+     "options": [
+      "Starting Monday",
+      "Between nine and noon",
+      "After lunch",
+      "Next month"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Từ thứ Hai, mọi nhân viên phải trình thẻ ở quầy lễ tân.",
+      "en": "The rule starts on Monday."
+     },
+     "trap": "Between nine and noon là giờ nhận thẻ, không phải lúc trình thẻ."
+    },
+    {
+     "id": "d02-p4-x2-3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 1,
+     "q": "What should listeners bring to the human resources office?",
+     "options": [
+      "A photo ID",
+      "A temporary badge",
+      "A written note",
+      "A visitor form"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Người nghe được dặn mang theo giấy tờ có ảnh.",
+      "en": "They are asked to bring a photo ID."
+     },
+     "trap": "Temporary badge chỉ dành cho khách."
+    }
+   ]
+  }
+ ]
+}

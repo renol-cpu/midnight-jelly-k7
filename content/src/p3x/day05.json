@@ -1,0 +1,269 @@
+{
+ "listening": [
+  {
+   "id": "d05-p3-x1",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Do you have these shoes in size thirty-eight?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Let me check the back. Yes, in black only."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Black is fine. How much are they?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Fifty dollars, but they're on sale this week, so forty."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Good. I'll take them."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d05-p3-x1-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What is the woman looking for?",
+     "options": [
+      "Shoes",
+      "A bag",
+      "A coat",
+      "A hat"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô hỏi về \"these shoes\".",
+      "en": "She asks about shoes."
+     },
+     "trap": "Không có món đồ nào khác được nhắc."
+    },
+    {
+     "id": "d05-p3-x1-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "How much will the woman pay?",
+     "options": [
+      "Forty dollars",
+      "Fifty dollars",
+      "Thirty-eight dollars",
+      "Four dollars"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Giá đang giảm nên còn 40 đô.",
+      "en": "The shoes are on sale for forty dollars."
+     },
+     "trap": "50 đô là giá gốc; 38 là cỡ giày."
+    },
+    {
+     "id": "d05-p3-x1-3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the woman do next?",
+     "options": [
+      "Buy the shoes",
+      "Try another size",
+      "Leave the shop",
+      "Ask for a refund"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô nói \"I'll take them\", tức là mua.",
+      "en": "She says she will take them, meaning she will buy them."
+     },
+     "trap": "Cô không đổi cỡ vì cỡ 38 có sẵn."
+    }
+   ]
+  },
+  {
+   "id": "d05-p3-x2",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Hello. This lamp stopped working after two days."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "I'm sorry. Do you have the receipt?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Yes, here it is."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Thank you. I can give you a new lamp or a refund."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "A refund, please."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d05-p3-x2-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "Why is the woman at the store?",
+     "options": [
+      "To return a broken item",
+      "To buy a lamp",
+      "To ask for a job",
+      "To fix a door"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Đèn hỏng sau hai ngày nên cô đến trả lại.",
+      "en": "The lamp stopped working, so she wants to return it."
+     },
+     "trap": "Cô đã mua đèn rồi, không phải mua mới."
+    },
+    {
+     "id": "d05-p3-x2-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "What does the woman show the man?",
+     "options": [
+      "A receipt",
+      "A box",
+      "A card",
+      "A phone"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh hỏi biên lai và cô nói \"here it is\".",
+      "en": "He asks for the receipt and she gives it."
+     },
+     "trap": "Hộp không được nhắc đến."
+    },
+    {
+     "id": "d05-p3-x2-3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What does the woman choose?",
+     "options": [
+      "Getting her money back",
+      "Getting a new lamp",
+      "Waiting for a call",
+      "Visiting another store"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô chọn \"a refund\", tức là nhận lại tiền.",
+      "en": "A refund means getting her money back."
+     },
+     "trap": "Đèn mới là lựa chọn còn lại mà cô không chọn."
+    }
+   ]
+  },
+  {
+   "id": "d05-p3-x3",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "We're out of printer paper again. Can you order more?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "I ordered some on Monday. It should arrive tomorrow."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Good. Also, we need pens and folders."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Let me check the budget first. Then I'll email you the answer."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d05-p3-x3-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What are the speakers discussing?",
+     "options": [
+      "Office supplies",
+      "Staff schedules",
+      "A new building",
+      "Travel plans"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Họ nói về giấy in, bút và bìa hồ sơ.",
+      "en": "They talk about paper, pens, and folders."
+     },
+     "trap": "Không nhắc lịch làm việc hay du lịch."
+    },
+    {
+     "id": "d05-p3-x3-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "When will the paper arrive?",
+     "options": [
+      "Tomorrow",
+      "On Monday",
+      "Today",
+      "Next month"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô nói \"It should arrive tomorrow\".",
+      "en": "She says it should arrive tomorrow."
+     },
+     "trap": "Thứ Hai là ngày cô đặt hàng."
+    },
+    {
+     "id": "d05-p3-x3-3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the woman do after checking the budget?",
+     "options": [
+      "Send an email",
+      "Order more paper",
+      "Buy some pens",
+      "Visit the store"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Sau khi kiểm tra ngân sách cô sẽ gửi email cho anh.",
+      "en": "After checking the budget she will email him."
+     },
+     "trap": "Giấy đã được đặt từ thứ Hai rồi."
+    }
+   ]
+  }
+ ]
+}

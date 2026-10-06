@@ -1,0 +1,94 @@
+{
+ "listening": [
+  {
+   "id": "d01-p3-x1",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Good morning. I'm waiting for a package that came by ship. Has it arrived yet?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Yes. The ship came in last night. Your package is in Warehouse B."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Great. Can I pick it up today?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Of course, but please bring your ID card. The office closes at five."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "OK. I'll come in the afternoon."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d01-p3-x1-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "Why does the woman visit the port office?",
+     "options": [
+      "To book a ship ticket",
+      "To ask about a package",
+      "To start a new job",
+      "To pay a parking fee"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô ấy hỏi gói hàng đi tàu đã đến chưa, tức là hỏi về một gói hàng.",
+      "en": "She asks if her package has arrived by ship, so she is asking about a package."
+     },
+     "trap": "Cô ấy không mua vé tàu; chỉ nói gói hàng đến bằng tàu."
+    },
+    {
+     "id": "d01-p3-x1-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "What does the man tell the woman to bring?",
+     "options": [
+      "A receipt",
+      "A boarding pass",
+      "An ID card",
+      "A phone number"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Người đàn ông nói \"bring your ID card\", đáp án giữ nguyên ý này.",
+      "en": "The man says to bring an ID card."
+     },
+     "trap": "Không ai nhắc tới receipt hay boarding pass."
+    },
+    {
+     "id": "d01-p3-x1-3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "When will the woman probably return to the office?",
+     "options": [
+      "In the afternoon",
+      "Last night",
+      "Tomorrow morning",
+      "Next week"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô ấy nói \"I'll come in the afternoon\".",
+      "en": "She says she will come in the afternoon."
+     },
+     "trap": "\"Last night\" là lúc tàu đến, không phải lúc cô ấy quay lại."
+    }
+   ]
+  }
+ ]
+}

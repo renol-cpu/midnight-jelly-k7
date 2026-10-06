@@ -1,0 +1,125 @@
+{
+ "reading": [
+  {
+   "id": "d09-p7-x1",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "article",
+     "title": "Line upgrade at Nolan Bicycle Works",
+     "text": "Nolan Bicycle Works announced on Monday that it will replace the assembly line at its Eastfield factory. The new line, which will be installed over the first two weeks of November, is expected to raise output from 400 to 650 frames per day. Plant manager Teresa Boyd said the company chose automated welding machines because they produce more consistent joints than manual welding. \"Quality complaints from retailers have dropped each year, and we want that trend to continue,\" she said. During the installation, production will continue on a smaller line in Building C, so customer orders will not be delayed. Nolan also plans to hire 30 technicians next spring to operate the new equipment. Interested applicants can find details on the company's Web site."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d09-p7-x1-1",
+     "part": 7,
+     "skill": "p7.main-idea",
+     "level": 1,
+     "q": "What is the article mainly about?",
+     "options": [
+      "A factory's plan to replace its assembly line",
+      "A recall of defective bicycle frames",
+      "The opening of a new retail store",
+      "A change in the company's management"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Câu đầu nêu ngay: sẽ thay dây chuyền lắp ráp ở nhà máy Eastfield. Các chi tiết sau đều xoay quanh việc này.",
+      "en": "The first sentence says the company will replace the assembly line at its factory."
+     },
+     "trap": "Chữ \"quality complaints\" dễ làm nghĩ đến chuyện thu hồi hàng, nhưng bài chỉ nói khiếu nại đang giảm."
+    },
+    {
+     "id": "d09-p7-x1-2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "According to Ms. Boyd, why did the company choose automated welding machines?",
+     "options": [
+      "They are cheaper to operate.",
+      "They make more consistent joints.",
+      "They need fewer technicians.",
+      "They can be installed in one day."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Bà Boyd nói máy hàn tự động \"produce more consistent joints\". Bài không nói về chi phí hay số nhân viên cần ít hơn.",
+      "en": "She says the machines \"produce more consistent joints than manual welding.\""
+     },
+     "trap": "Bài còn nói sẽ tuyển 30 kỹ thuật viên, nên \"fewer technicians\" là sai."
+    },
+    {
+     "id": "d09-p7-x1-3",
+     "part": 7,
+     "skill": "p7.vocab-in-context",
+     "level": 2,
+     "q": "The word \"output\" in the first paragraph is closest in meaning to",
+     "options": [
+      "payment",
+      "quality",
+      "production",
+      "inventory"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"Raise output from 400 to 650 frames per day\" tức là tăng sản lượng, đồng nghĩa với production.",
+      "en": "Raising output from 400 to 650 frames a day means raising production."
+     },
+     "trap": "\"Inventory\" là hàng tồn kho, không phải số lượng làm ra mỗi ngày."
+    }
+   ]
+  },
+  {
+   "id": "d09-p7-x2",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "memo",
+     "title": "New protective equipment",
+     "text": "MEMO\nTo: Packaging Department\nFrom: Hector Alvarez, Safety Supervisor\nDate: March 3\nSubject: New protective equipment\n\nBeginning Monday, March 10, all employees who enter the packaging area must wear safety glasses and ear protection. The new equipment has arrived and may be collected from the supply room between 7:00 A.M. and 3:00 P.M. Please bring your employee badge. Anyone without the proper equipment on Monday will be asked to leave the area until it is collected. Supervisors will check compliance each morning. Questions about sizes or fittings should be directed to the safety office."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d09-p7-x2-1",
+     "part": 7,
+     "skill": "p7.main-idea",
+     "level": 1,
+     "q": "What is the purpose of the memo?",
+     "options": [
+      "To report a factory accident",
+      "To announce a new safety requirement",
+      "To introduce a new supervisor",
+      "To change the packaging schedule"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Memo mở đầu bằng quy định mới: từ thứ Hai phải đeo kính và nút chống ồn. Đó là một yêu cầu an toàn mới.",
+      "en": "The memo announces that protective gear will be required from March 10."
+     },
+     "trap": "Chữ \"supervisor\" chỉ là người gửi và người kiểm tra, không phải nội dung chính."
+    },
+    {
+     "id": "d09-p7-x2-2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "What should employees bring to the supply room?",
+     "options": [
+      "Their employee badge",
+      "A signed form",
+      "Their old safety glasses",
+      "A note from a supervisor"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Please bring your employee badge\" nói ngay sau chỗ nhận đồ ở supply room.",
+      "en": "The memo says, \"Please bring your employee badge.\""
+     },
+     "trap": "\"Safety office\" chỉ là nơi hỏi về size, không phải nơi nhận đồ."
+    }
+   ]
+  }
+ ]
+}

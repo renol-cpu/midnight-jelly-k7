@@ -1,0 +1,259 @@
+{
+ "listening": [
+  {
+   "id": "d12-p3-x1",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Hello, I ordered a desk chair ten days ago, but it hasn't come."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Let me look up your order number. It's still at our warehouse. A truck was delayed because of heavy rain."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "When will it arrive?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "By Friday. I'll send you a tracking link today."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d12-p3-x1-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "Why is the woman calling?",
+     "options": [
+      "Her order has not arrived",
+      "She wants a refund",
+      "She found a damaged chair",
+      "She needs a new address"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô đặt ghế mười ngày trước nhưng chưa nhận được.",
+      "en": "She ordered a chair ten days ago and has not received it."
+     },
+     "trap": "Cô chưa nhận hàng nên chưa có hàng hỏng."
+    },
+    {
+     "id": "d12-p3-x1-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "What caused the delay?",
+     "options": [
+      "Bad weather",
+      "A staff strike",
+      "A wrong address",
+      "A missing payment"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Xe tải bị chậm vì mưa lớn, tức là thời tiết xấu.",
+      "en": "Heavy rain is paraphrased as bad weather."
+     },
+     "trap": "Địa chỉ không được nhắc là sai."
+    },
+    {
+     "id": "d12-p3-x1-3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the man send today?",
+     "options": [
+      "A new chair",
+      "A bill",
+      "A tracking link",
+      "A map"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Anh nói sẽ gửi đường link theo dõi đơn hàng.",
+      "en": "He says he will send a tracking link."
+     },
+     "trap": "Ghế sẽ đến vào thứ Sáu, không phải hôm nay."
+    }
+   ]
+  },
+  {
+   "id": "d12-p3-x2",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "I'm at your door with the boxes, but nobody is here. The label says 45 Park Street."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Oh no, we moved last month. The new address is 90 Park Street, two buildings down."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "I can take them there, but you'll need to sign for them."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "I'll come outside right now."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d12-p3-x2-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 2,
+     "q": "What is the problem?",
+     "options": [
+      "A label shows an old address",
+      "The boxes are damaged",
+      "The driver is late",
+      "The street is closed"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Nhãn ghi địa chỉ cũ vì họ đã chuyển nhà.",
+      "en": "The label has the old address because the woman moved."
+     },
+     "trap": "Hộp không bị hư hỏng."
+    },
+    {
+     "id": "d12-p3-x2-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "What does the man need from the woman?",
+     "options": [
+      "Her signature",
+      "A phone number",
+      "A payment",
+      "A key"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô cần ký nhận hàng.",
+      "en": "She must sign for the boxes."
+     },
+     "trap": "Anh không đòi tiền."
+    },
+    {
+     "id": "d12-p3-x2-3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the woman do next?",
+     "options": [
+      "Meet the man outside",
+      "Move the boxes",
+      "Call the office",
+      "Change the label"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô nói \"I'll come outside right now\".",
+      "en": "She says she will come outside."
+     },
+     "trap": "Người mang hộp đi là người đàn ông."
+    }
+   ]
+  },
+  {
+   "id": "d12-p3-x3",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "How much does it cost to send this box to Singapore?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Standard shipping is twenty dollars and takes a week. Express is forty and takes two days."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "The client needs the samples by Thursday. Today is Tuesday."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Then you'd better choose express. If you pay before noon, it will go out today."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d12-p3-x3-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What does the woman want to do?",
+     "options": [
+      "Ship a box overseas",
+      "Open a store",
+      "Buy samples",
+      "Hire a driver"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô muốn gửi hộp đến Singapore.",
+      "en": "She wants to send a box to Singapore."
+     },
+     "trap": "Mẫu là thứ cô gửi, không phải thứ cô mua."
+    },
+    {
+     "id": "d12-p3-x3-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "Why does the woman need fast shipping?",
+     "options": [
+      "The client needs the items by Thursday",
+      "The box is heavy",
+      "The price is low",
+      "The office is closing"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Khách cần mẫu trước thứ Năm, mà hôm nay là thứ Ba.",
+      "en": "The client needs the samples by Thursday."
+     },
+     "trap": "Cô không nói gì về cân nặng."
+    },
+    {
+     "id": "d12-p3-x3-3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What will the woman probably do?",
+     "options": [
+      "Choose standard shipping",
+      "Pay for express service",
+      "Wait until Thursday",
+      "Visit the client"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Chỉ có gói nhanh mới kịp, và trả trước 12 giờ sẽ gửi ngay hôm nay.",
+      "en": "Only express meets the deadline, so she will likely pay for it."
+     },
+     "trap": "Gói thường mất một tuần nên không kịp."
+    }
+   ]
+  }
+ ]
+}

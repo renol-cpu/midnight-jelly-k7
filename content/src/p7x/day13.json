@@ -1,0 +1,163 @@
+{
+ "reading": [
+  {
+   "id": "d13-p7-x1",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "article",
+     "title": "Clinic introduces evening hours",
+     "text": "Riverside Family Clinic will begin offering evening appointments four days a week starting September 2. Until now, the clinic has closed at 5:00 P.M., which made it difficult for patients who work during the day to schedule checkups. Under the new schedule, doctors will see patients until 8:00 P.M., Monday through Thursday. Appointments can be made by phone or through the patient portal on the clinic's Web site. Patients who book an evening visit should arrive ten minutes early to complete a short health form.\n\n\"We heard from many families that daytime hours did not fit their schedules,\" said clinic director Dr. Alma Reyes. The clinic will remain closed on weekends. Flu vaccinations will be available at all evening sessions through the end of December."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d13-p7-x1-1",
+     "part": 7,
+     "skill": "p7.main-idea",
+     "level": 1,
+     "q": "What is the article mainly about?",
+     "options": [
+      "A new doctor joining a clinic",
+      "Longer hours at a medical clinic",
+      "A clinic moving to a new building",
+      "A free flu vaccination campaign"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cả bài xoay quanh việc phòng khám mở thêm giờ buổi tối, đến 8 giờ.",
+      "en": "The article announces extended evening hours at the clinic."
+     },
+     "trap": "Tiêm cúm chỉ là chi tiết phụ ở câu cuối."
+    },
+    {
+     "id": "d13-p7-x1-2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "What are patients advised to do before an evening visit?",
+     "options": [
+      "Arrive early to fill out a form",
+      "Pay a booking fee",
+      "Call the clinic director",
+      "Bring a family member"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Arrive ten minutes early to complete a short health form.\"",
+      "en": "Patients should arrive ten minutes early to complete a health form."
+     },
+     "trap": "Chữ \"director\" chỉ là người được trích lời, không phải người để gọi."
+    },
+    {
+     "id": "d13-p7-x1-3",
+     "part": 7,
+     "skill": "p7.not-true",
+     "level": 2,
+     "q": "What is NOT true about the new schedule?",
+     "options": [
+      "Doctors will see patients until 8:00 P.M.",
+      "Appointments can be booked online.",
+      "The clinic will be open on weekends.",
+      "Flu shots will be offered in the evenings."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Bài nói rõ \"remain closed on weekends\" nên câu về cuối tuần là sai. Ba ý còn lại đều có trong bài.",
+      "en": "The article says the clinic stays closed on weekends, so that statement is false."
+     },
+     "trap": "Câu hỏi là NOT true, nên đáp án là ý mà bài phủ nhận."
+    },
+    {
+     "id": "d13-p7-x1-4",
+     "part": 7,
+     "skill": "p7.vocab-in-context",
+     "level": 2,
+     "q": "The word \"complete\" in paragraph 1 is closest in meaning to",
+     "options": [
+      "improve",
+      "fill out",
+      "approve",
+      "collect"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"Complete a short health form\" nghĩa là điền xong một mẫu đơn, tức fill out.",
+      "en": "\"Complete a form\" means to fill it out."
+     },
+     "trap": "\"Collect\" là thu thập, không dùng cho việc điền giấy tờ."
+    }
+   ]
+  },
+  {
+   "id": "d13-p7-x2",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "memo",
+     "title": "Wellness program",
+     "text": "MEMO\nTo: All employees\nFrom: Human Resources\nDate: January 12\nSubject: Wellness program\n\nThis year, the company will reimburse up to $200 for gym memberships or fitness classes. To qualify, employees must attend at least eight sessions per month and submit proof of attendance, such as a receipt or membership card, by the fifth day of the following month. Participation is voluntary.\n\nIn addition, free blood pressure checks will be offered in the Medical Room on the first Tuesday of each month from 10:00 A.M. to 2:00 P.M. Please contact Ms. Okoye in Human Resources for the enrollment form."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d13-p7-x2-1",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "How much will the company reimburse at most?",
+     "options": [
+      "$8",
+      "$100",
+      "$500",
+      "$200"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"Reimburse up to $200\" tức là tối đa 200 đô.",
+      "en": "The company reimburses up to $200."
+     },
+     "trap": "Số 8 là số buổi tập tối thiểu mỗi tháng, không phải tiền."
+    },
+    {
+     "id": "d13-p7-x2-2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "What must employees do to receive reimbursement?",
+     "options": [
+      "Submit proof of attendance",
+      "Visit the Medical Room",
+      "Take a blood pressure test",
+      "Join a company sports team"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Phải \"submit proof of attendance, such as a receipt or membership card\".",
+      "en": "Employees must submit proof of attendance by the fifth of the next month."
+     },
+     "trap": "Kiểm tra huyết áp là dịch vụ riêng, miễn phí, không liên quan đến việc hoàn tiền."
+    },
+    {
+     "id": "d13-p7-x2-3",
+     "part": 7,
+     "skill": "p7.inference",
+     "level": 2,
+     "q": "What is suggested about the wellness program?",
+     "options": [
+      "It is open only to new employees.",
+      "Employees are not required to join it.",
+      "It costs employees $200.",
+      "It takes place every Tuesday."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"Participation is voluntary\" nghĩa là nhân viên không bắt buộc tham gia.",
+      "en": "\"Voluntary\" implies that joining is optional."
+     },
+     "trap": "\"Tuesday\" chỉ liên quan đến buổi kiểm tra huyết áp hàng tháng."
+    }
+   ]
+  }
+ ]
+}

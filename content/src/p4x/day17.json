@@ -1,0 +1,179 @@
+{
+ "listening": [
+  {
+   "id": "d17-p4-x1",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Hello, Mr. Evans. This is Fiona from Riverside Realty. Thank you for visiting the apartments yesterday. You mentioned that your budget is about nine hundred dollars a month and that you need at least two bedrooms. Looking at the list I sent you, the cheapest apartment is not big enough, but there is one that fits both requirements. It is on the third floor and has a balcony that faces the park. The owner has offered to reduce the deposit if you sign a one-year lease before the end of the month. I am available any afternoon this week except Wednesday, so please call me back to arrange a second viewing."
+    }
+   ],
+   "graphic": {
+    "caption": "Riverside Realty: Available Apartments",
+    "rows": [
+     [
+      "Unit",
+      "Bedrooms",
+      "Monthly rent",
+      "Floor"
+     ],
+     [
+      "A1",
+      "1",
+      "$750",
+      "1st"
+     ],
+     [
+      "B2",
+      "2",
+      "$1,100",
+      "2nd"
+     ],
+     [
+      "C3",
+      "2",
+      "$890",
+      "3rd"
+     ],
+     [
+      "D4",
+      "3",
+      "$1,250",
+      "4th"
+     ]
+    ]
+   },
+   "questions": [
+    {
+     "id": "d17-p4-x1-1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 2,
+     "q": "Why is the speaker calling?",
+     "options": [
+      "To recommend an apartment",
+      "To raise the rent",
+      "To cancel a viewing",
+      "To ask for a deposit"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Fiona gợi ý một căn hộ phù hợp với ngân sách và số phòng ngủ.",
+      "en": "She recommends an apartment that fits his needs."
+     },
+     "trap": "Ask for a deposit sai vì chủ nhà còn đề nghị giảm tiền cọc."
+    },
+    {
+     "id": "d17-p4-x1-2",
+     "part": 4,
+     "skill": "p4.graphic",
+     "level": 3,
+     "q": "Look at the graphic. Which apartment is the speaker recommending?",
+     "options": [
+      "A1",
+      "B2",
+      "C3",
+      "D4"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Căn ở tầng ba có hai phòng ngủ và giá 890 đô, đúng với ngân sách khoảng 900 đô nên là C3.",
+      "en": "The third floor, two bedrooms and $890 match unit C3."
+     },
+     "trap": "B2 có hai phòng ngủ nhưng ở tầng hai và vượt ngân sách."
+    },
+    {
+     "id": "d17-p4-x1-3",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "What will the owner do if Mr. Evans signs a one-year lease early?",
+     "options": [
+      "Include parking",
+      "Lower the deposit",
+      "Add a balcony",
+      "Lower the rent"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Chủ nhà đề nghị giảm tiền cọc nếu ký hợp đồng một năm trước cuối tháng.",
+      "en": "The owner will reduce the deposit."
+     },
+     "trap": "Lower the rent sai vì chỉ có tiền cọc được giảm."
+    }
+   ]
+  },
+  {
+   "id": "d17-p4-x2",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Good evening, residents. This is Ms. Brown, your building manager, with an update on the elevator repairs. As many of you know, the elevator has been out of service since Monday. The repair company says it will finish by Thursday, but I would not count on that, because an important part is still on its way from another city. I know this is a real problem for older residents and for families with small children. Our maintenance staff will carry groceries upstairs if you call the front desk. To apologize for the trouble, every household will receive a free parking pass for next month. Please be careful on the stairs, especially at night. Thank you for your patience."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p4-x2-1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 2,
+     "q": "What is the main topic of the announcement?",
+     "options": [
+      "A rent increase",
+      "A parking change",
+      "A new maintenance staff",
+      "A delayed elevator repair"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Cả bài nói về việc sửa thang máy bị chậm.",
+      "en": "The announcement is about the elevator repair."
+     },
+     "trap": "Parking pass chỉ là quà xin lỗi, không phải chủ đề chính."
+    },
+    {
+     "id": "d17-p4-x2-2",
+     "part": 4,
+     "skill": "p4.speaker-intent",
+     "level": 3,
+     "q": "What does the speaker mean when she says, \"I would not count on that\"?",
+     "options": [
+      "The company will lower the price.",
+      "The elevator is not important.",
+      "The repair may take longer.",
+      "The repair is already finished."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Cô nghi ngờ lời hứa xong vào thứ Năm vì còn thiếu linh kiện.",
+      "en": "She doubts the repair will be finished by Thursday."
+     },
+     "trap": "Already finished sai vì thang máy vẫn đang hỏng."
+    },
+    {
+     "id": "d17-p4-x2-3",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "What will every household receive next month?",
+     "options": [
+      "Free grocery delivery",
+      "A free parking pass",
+      "A rent discount",
+      "A new elevator"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Mỗi hộ sẽ nhận thẻ đỗ xe miễn phí tháng sau.",
+      "en": "Every household will receive a free parking pass."
+     },
+     "trap": "Grocery delivery sai vì nhân viên chỉ mang đồ lên lầu khi được gọi."
+    }
+   ]
+  }
+ ]
+}

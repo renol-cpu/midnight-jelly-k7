@@ -79,4 +79,5 @@ export interface DayContent {
   story: StoryBeat[];
   letter?: Bi; // a short note "from Minh" shown on the tank glass
   beSua?: string[]; // 3-5 sidekick jokes in Huy's texting style (Vietnamese, teaching a real point)
+  extra?: QSet[]; // optional extra practice (surplus Part 2/5 moved here by scripts/build-content.mjs)
 }

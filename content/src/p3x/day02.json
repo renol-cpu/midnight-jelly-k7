@@ -1,0 +1,264 @@
+{
+ "listening": [
+  {
+   "id": "d02-p3-x1",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Tom, the printer on this floor isn't working."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Did you check the paper?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Yes, there is paper. A red light is on."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "I'll call the IT team. Please use the printer on the second floor for now."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d02-p3-x1-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What is the problem?",
+     "options": [
+      "A printer is broken",
+      "A door is locked",
+      "A computer is slow",
+      "A phone is lost"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Máy in ở tầng này không hoạt động, tức là máy in bị hỏng.",
+      "en": "The printer is not working, so it is broken."
+     },
+     "trap": "Chỉ có máy in được nhắc tới, không có máy tính hay điện thoại."
+    },
+    {
+     "id": "d02-p3-x1-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "What does the man suggest?",
+     "options": [
+      "Using a different floor",
+      "Buying new paper",
+      "Closing the office",
+      "Waiting until tomorrow"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh bảo dùng máy in ở tầng hai, tức là dùng tầng khác.",
+      "en": "He says to use the printer on the second floor."
+     },
+     "trap": "Giấy vẫn còn nên không cần mua giấy mới."
+    },
+    {
+     "id": "d02-p3-x1-3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the man do next?",
+     "options": [
+      "Call the IT team",
+      "Print a report",
+      "Fix the paper",
+      "Visit the second floor"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh nói \"I'll call the IT team\".",
+      "en": "He says he will call the IT team."
+     },
+     "trap": "Người phụ nữ mới là người dùng máy in tầng hai, không phải anh."
+    }
+   ]
+  },
+  {
+   "id": "d02-p3-x2",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Hi, I need a room for a meeting tomorrow at ten."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Room 3 is free from ten to eleven. How many people are coming?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Six people."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Room 3 holds eight, so it's fine. I'll book it for you now."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d02-p3-x2-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What does the man want?",
+     "options": [
+      "To reserve a room",
+      "To buy a table",
+      "To change his job",
+      "To send an email"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh cần một phòng họp cho ngày mai, tức là đặt phòng.",
+      "en": "He needs a room for a meeting, so he wants to reserve one."
+     },
+     "trap": "Không có chuyện mua bàn ở đây."
+    },
+    {
+     "id": "d02-p3-x2-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "How many people will attend the meeting?",
+     "options": [
+      "Three",
+      "Eight",
+      "Six",
+      "Ten"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Anh trả lời \"Six people\".",
+      "en": "The man says six people."
+     },
+     "trap": "Eight là sức chứa của phòng, không phải số người dự."
+    },
+    {
+     "id": "d02-p3-x2-3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the woman do next?",
+     "options": [
+      "Book Room 3",
+      "Call six people",
+      "Clean the room",
+      "Move a table"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô nói \"I'll book it for you now\".",
+      "en": "She says she will book the room now."
+     },
+     "trap": "Cô không gọi ai và không dọn phòng."
+    }
+   ]
+  },
+  {
+   "id": "d02-p3-x3",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Welcome! Are you the new assistant?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Yes. My name is Ken. It's my first day."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Nice to meet you, Ken. Your desk is next to the window."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Thank you. Where can I get lunch?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "There's a café downstairs. I'll show you at noon."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d02-p3-x3-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "Who is the man?",
+     "options": [
+      "A new employee",
+      "A visitor",
+      "A manager",
+      "A café worker"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Ken nói đây là ngày đầu đi làm và là trợ lý mới, tức là nhân viên mới.",
+      "en": "He says it is his first day as the new assistant, so he is a new employee."
+     },
+     "trap": "Anh không phải khách; anh sẽ có bàn làm việc ở đây."
+    },
+    {
+     "id": "d02-p3-x3-2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "Where is the man's desk?",
+     "options": [
+      "Near the door",
+      "Next to the window",
+      "Downstairs",
+      "In the café"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô nói bàn của anh ở cạnh cửa sổ.",
+      "en": "She says his desk is next to the window."
+     },
+     "trap": "Café ở tầng dưới, không phải chỗ bàn làm việc."
+    },
+    {
+     "id": "d02-p3-x3-3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the woman do at noon?",
+     "options": [
+      "Show the man the café",
+      "Give him a key",
+      "Start a meeting",
+      "Call a manager"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô nói \"I'll show you at noon\" khi nói về quán café.",
+      "en": "She will show him the café at noon."
+     },
+     "trap": "Chìa khóa và cuộc họp không được nhắc đến."
+    }
+   ]
+  }
+ ]
+}

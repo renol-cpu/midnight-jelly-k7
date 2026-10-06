@@ -1,0 +1,99 @@
+{
+ "listening": [
+  {
+   "id": "d16-p3-x1",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Mark, our office lease ends in June. Did the landlord send the new contract?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Yes, but the rent is up by ten percent."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "That's a lot. Did you read the part about repairs?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Only that we pay for any damage. I'm not sure I agree."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Let's ask for a shorter term, one year instead of three. Then we can look at other buildings."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Good idea. I'll write to him today."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d16-p3-x1-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 2,
+     "q": "What are the speakers discussing?",
+     "options": [
+      "Renewing an office lease",
+      "Hiring a new landlord",
+      "Repairing a building",
+      "Buying an office"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Hợp đồng thuê văn phòng hết hạn vào tháng 6 và họ xem xét hợp đồng mới.",
+      "en": "Their office lease is ending and a new contract has arrived."
+     },
+     "trap": "Sửa chữa chỉ là một điều khoản trong hợp đồng."
+    },
+    {
+     "id": "d16-p3-x1-2",
+     "part": 3,
+     "skill": "p3.speaker-intent",
+     "level": 3,
+     "q": "Why does the woman say, \"That's a lot\"?",
+     "options": [
+      "She thinks the rent increase is too high",
+      "She wants a bigger office",
+      "She likes the new contract",
+      "She has too much work"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Sau khi nghe tiền thuê tăng 10%, cô than \"That's a lot\" nghĩa là tăng quá nhiều.",
+      "en": "She reacts to a ten percent rent increase, meaning it is too much."
+     },
+     "trap": "Đây không phải lời khen hợp đồng."
+    },
+    {
+     "id": "d16-p3-x1-3",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "What does the woman suggest?",
+     "options": [
+      "Asking for a shorter contract",
+      "Paying for repairs",
+      "Staying for three years",
+      "Signing today"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô đề nghị xin kỳ hạn một năm thay vì ba năm.",
+      "en": "She suggests one year instead of three, a shorter contract."
+     },
+     "trap": "Ba năm là kỳ hạn hiện tại, cô muốn rút ngắn."
+    }
+   ]
+  }
+ ]
+}

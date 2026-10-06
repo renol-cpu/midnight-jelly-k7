@@ -1,0 +1,235 @@
+{
+  "grammar": [
+    {
+      "id": "d05-p6-x1",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "email",
+          "title": "Your order of desk chairs",
+          "text": "Dear Ms. Evans,\n\nThank you for your order of 50 desk chairs. They are black, and each one has a five-year warranty. Your invoice is attached. Please [1] payment within 30 days. Our driver will deliver the chairs on Friday and will call you one hour before he arrives. Someone must be there to sign [2] the delivery. [3] If you find any damaged items, please tell us within two days. We will [4] them at no cost to you. Thank you for choosing Delta Office Supply. We hope to work with you again soon.\n\nSincerely,\nPaul Nguyen"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d05-p6-x1-1",
+          "part": 6,
+          "skill": "p6.vocab",
+          "level": 1,
+          "q": "Blank [1]",
+          "options": [
+            "make",
+            "do",
+            "take",
+            "give"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Cụm cố định: \"make payment\" (thanh toán).",
+            "en": "Fixed collocation: \"make payment\"."
+          },
+          "trap": "\"do payment\" nghe như tiếng Việt \"làm thanh toán\" nhưng tiếng Anh dùng \"make\"."
+        },
+        {
+          "id": "d05-p6-x1-2",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [2]",
+          "options": [
+            "of",
+            "to",
+            "for",
+            "at"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Cụm \"sign for a delivery\" (ký nhận hàng) đi với giới từ \"for\".",
+            "en": "The phrase is \"sign for a delivery\"."
+          },
+          "trap": "\"sign to\" không phải cụm quen thuộc; hãy nhớ \"sign for\"."
+        },
+        {
+          "id": "d05-p6-x1-3",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 1,
+          "q": "Blank [3]",
+          "options": [
+            "Our store has been open since 2005.",
+            "The invoice number is printed at the top of the page.",
+            "Large orders may get a discount next year.",
+            "Please check each box carefully when it arrives."
+          ],
+          "answer": 3,
+          "why": {
+            "vi": "Câu sau nói về \"damaged items\", nên câu chèn là lời nhắc kiểm tra hàng khi nhận.",
+            "en": "The next sentence is about damaged items, so the missing sentence is a reminder to check the boxes on arrival."
+          },
+          "trap": "Câu về hóa đơn có chữ \"invoice\" đã xuất hiện nên dễ chọn, nhưng không dẫn tới chuyện hàng hỏng."
+        },
+        {
+          "id": "d05-p6-x1-4",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [4]",
+          "options": [
+            "replaces",
+            "replace",
+            "replacing",
+            "replacement"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Sau \"will\" cần động từ nguyên mẫu: \"replace\" (thay thế).",
+            "en": "After \"will\" we need a base verb: \"replace\"."
+          },
+          "trap": "\"replacement\" là danh từ nên không đứng sau \"will\"."
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "d05-p7-x1",
+      "part": 7,
+      "passages": [
+        {
+          "kind": "form",
+          "title": "Invoice 4471",
+          "text": "BRIGHT OFFICE SUPPLY\nINVOICE\n\nInvoice No.: 4471\nDate: March 3\nCustomer: Maria Flores, Harbor Dental Clinic\n\nPaper (10 boxes): $120\nPens (5 packs): $25\nFolders (20): $30\nSubtotal: $175\nDelivery: $10\nTotal due: $185\n\nPayment is due by March 17. Pay by check or credit card."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d05-p7-x1-1",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "How many boxes of paper did the customer order?",
+          "options": [
+            "5",
+            "10",
+            "20",
+            "175"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Hóa đơn ghi \"Paper (10 boxes)\".",
+            "en": "The invoice says \"Paper (10 boxes)\"."
+          },
+          "trap": "5 là số gói bút và 20 là số bìa hồ sơ."
+        },
+        {
+          "id": "d05-p7-x1-2",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "What is the total amount due?",
+          "options": [
+            "$185",
+            "$175",
+            "$120",
+            "$10"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Tổng phải trả là $185, đã gồm phí giao hàng $10.",
+            "en": "The total due is $185, including the $10 delivery charge."
+          },
+          "trap": "$175 là tạm tính, chưa gồm phí giao hàng."
+        },
+        {
+          "id": "d05-p7-x1-3",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "When must the customer pay?",
+          "options": [
+            "On March 3",
+            "By March 10",
+            "By March 17",
+            "After delivery"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Hóa đơn ghi hạn thanh toán là ngày 17/3.",
+            "en": "The invoice says payment is due by March 17."
+          },
+          "trap": "3/3 là ngày lập hóa đơn."
+        }
+      ]
+    },
+    {
+      "id": "d05-p7-x2",
+      "part": 7,
+      "passages": [
+        {
+          "kind": "form",
+          "title": "Return request form",
+          "text": "LAKESIDE HOME STORE\nReturn Request Form\n\nName: Tuan Pham\nOrder number: 88120\nItem: Desk lamp (black)\nReason for return: The lamp arrived broken.\nChoice: New lamp (not a refund)\nSend the new lamp to: 15 Elm Road\n\nReturn forms must be sent within 14 days of delivery. Keep the box until we confirm your request."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d05-p7-x2-1",
+          "part": 7,
+          "skill": "p7.main-idea",
+          "level": 1,
+          "q": "What is the purpose of the form?",
+          "options": [
+            "To order a new lamp for a friend",
+            "To ask for a refund of $14",
+            "To change a delivery address",
+            "To return a broken item and get a new one"
+          ],
+          "answer": 3,
+          "why": {
+            "vi": "Anh Pham dùng biểu mẫu để trả lại chiếc đèn bị hỏng và xin một chiếc mới.",
+            "en": "Mr. Pham uses the form to return a broken lamp and ask for a new one."
+          },
+          "trap": "Anh chọn đèn mới, không chọn hoàn tiền (\"not a refund\")."
+        },
+        {
+          "id": "d05-p7-x2-2",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "Why is Mr. Pham returning the lamp?",
+          "options": [
+            "It arrived broken",
+            "It was the wrong color",
+            "It was too expensive",
+            "It was delivered late"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Mục lý do ghi chiếc đèn đến nơi đã bị vỡ.",
+            "en": "The reason says the lamp arrived broken."
+          },
+          "trap": "Màu đen là màu anh đã đặt, không có vấn đề về màu."
+        },
+        {
+          "id": "d05-p7-x2-3",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "What should Mr. Pham keep until the store replies?",
+          "options": [
+            "The receipt",
+            "The lamp cord",
+            "The box",
+            "The form"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Biểu mẫu nhắc giữ lại chiếc hộp cho đến khi cửa hàng xác nhận.",
+            "en": "The form says to keep the box until the store confirms."
+          },
+          "trap": "Biên lai không được nhắc trong biểu mẫu."
+        }
+      ]
+    }
+  ]
+}

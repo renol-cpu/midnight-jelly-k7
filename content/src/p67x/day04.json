@@ -1,0 +1,235 @@
+{
+  "grammar": [
+    {
+      "id": "d04-p6-x1",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "notice",
+          "title": "Harbor Grill closed for repairs",
+          "text": "Dear guests,\n\nHarbor Grill will be closed for kitchen repairs from June 10 to June 14. There will be [1] lunch or dinner service on those days, and we will [2] accept new reservations until June 15. [3] If you do not hear from us by June 8, please call the restaurant. The repairs include a new stove, new floors, and a larger refrigerator. We are sorry for the trouble, and we thank you for your patience. Our chefs are working hard to [4] the kitchen as soon as possible. We look forward to seeing you again.\n\nThe Harbor Grill Team"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d04-p6-x1-1",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [1]",
+          "options": [
+            "not",
+            "none",
+            "no",
+            "never"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "\"no\" đứng trước danh từ (\"no lunch or dinner service\"). \"Not\" đi với động từ hoặc trợ động từ.",
+            "en": "\"no\" comes before a noun: \"no lunch or dinner service\". \"Not\" goes with a verb."
+          },
+          "trap": "Chọn \"not\" là lỗi quen của em: trước danh từ phải dùng \"no\"."
+        },
+        {
+          "id": "d04-p6-x1-2",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [2]",
+          "options": [
+            "not",
+            "no",
+            "none",
+            "nor"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Sau \"will\" cần \"not\" để phủ định động từ \"accept\".",
+            "en": "After \"will\" we use \"not\" to make the verb \"accept\" negative."
+          },
+          "trap": "\"no\" không đứng giữa \"will\" và động từ."
+        },
+        {
+          "id": "d04-p6-x1-3",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 1,
+          "q": "Blank [3]",
+          "options": [
+            "Our new dessert menu includes many fruit dishes.",
+            "Guests with bookings on those dates will receive a call from us.",
+            "The restaurant was opened by two brothers in 1998.",
+            "Parking is free for all guests on weekends."
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Câu sau nói \"If you do not hear from us\", nên câu chèn phải nói nhà hàng sẽ liên lạc với khách đã đặt bàn.",
+            "en": "The next sentence says \"If you do not hear from us\", so the missing sentence must say the restaurant will contact guests with bookings."
+          },
+          "trap": "Các câu về thực đơn, lịch sử, bãi đỗ xe không liên quan đến việc liên lạc."
+        },
+        {
+          "id": "d04-p6-x1-4",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [4]",
+          "options": [
+            "reopens",
+            "reopened",
+            "reopening",
+            "reopen"
+          ],
+          "answer": 3,
+          "why": {
+            "vi": "Sau \"to\" (chỉ mục đích) cần động từ nguyên mẫu: \"reopen\".",
+            "en": "After \"to\" of purpose we need a base verb: \"reopen\"."
+          },
+          "trap": "\"reopening\" là danh động từ, không đứng sau \"to\" ở đây."
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "d04-p7-x1",
+      "part": 7,
+      "passages": [
+        {
+          "kind": "ad",
+          "title": "Blue Wave Cafe lunch special",
+          "text": "BLUE WAVE CAFE\nLunch Special\n\nEvery weekday from 11:30 A.M. to 2:00 P.M., enjoy a sandwich, a salad, and a drink for only $8. Vegetarian choices are available. Order online and pick up your lunch without waiting in line. Show this ad on Friday and get a free cookie! Open Monday to Saturday.\n22 Harbor Street"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d04-p7-x1-1",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "When is the lunch special available?",
+          "options": [
+            "Every day all day",
+            "Saturdays from 11:30 A.M.",
+            "Weekdays from 11:30 A.M. to 2:00 P.M.",
+            "Only on Friday"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Quảng cáo nói \"Every weekday from 11:30 A.M. to 2:00 P.M.\".",
+            "en": "The ad says \"Every weekday from 11:30 A.M. to 2:00 P.M.\"."
+          },
+          "trap": "Quán mở cả thứ Bảy nhưng ưu đãi chỉ dành cho ngày trong tuần."
+        },
+        {
+          "id": "d04-p7-x1-2",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "How can customers avoid waiting in line?",
+          "options": [
+            "By ordering online",
+            "By coming on Saturday",
+            "By showing the ad",
+            "By calling a friend"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Quảng cáo viết \"Order online and pick up ... without waiting in line\".",
+            "en": "The ad says to order online and pick up without waiting in line."
+          },
+          "trap": "Xuất trình quảng cáo là để nhận bánh quy."
+        },
+        {
+          "id": "d04-p7-x1-3",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "What do customers get on Friday if they show the ad?",
+          "options": [
+            "A free drink",
+            "A free cookie",
+            "A free salad",
+            "A $2 coupon"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Khách xuất trình quảng cáo vào thứ Sáu được tặng một chiếc bánh quy.",
+            "en": "Customers who show the ad on Friday get a free cookie."
+          },
+          "trap": "Đồ uống đã nằm trong gói $8, không phải quà tặng thêm."
+        }
+      ]
+    },
+    {
+      "id": "d04-p7-x2",
+      "part": 7,
+      "passages": [
+        {
+          "kind": "ad",
+          "title": "Sunrise Catering",
+          "text": "SUNRISE CATERING\n\nPlanning a party or an office lunch? Sunrise Catering prepares fresh food for groups of 10 to 200 people. Choose from three menus: Classic, Healthy, and Family. Orders must be placed at least two days before your event. Delivery is free within five kilometers of our kitchen. Call 555-0188 to see the menus."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d04-p7-x2-1",
+          "part": 7,
+          "skill": "p7.main-idea",
+          "level": 1,
+          "q": "What is the purpose of the advertisement?",
+          "options": [
+            "To announce a new restaurant",
+            "To ask workers to join a kitchen",
+            "To sell kitchen equipment",
+            "To promote a food service for groups"
+          ],
+          "answer": 3,
+          "why": {
+            "vi": "Quảng cáo giới thiệu dịch vụ nấu ăn cho nhóm 10 đến 200 người.",
+            "en": "The ad promotes a catering service for groups of 10 to 200 people."
+          },
+          "trap": "Họ nấu ăn tại bếp riêng và giao hàng, không phải một nhà hàng mới."
+        },
+        {
+          "id": "d04-p7-x2-2",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "How early must an order be placed?",
+          "options": [
+            "At least two days before the event",
+            "On the day of the event",
+            "One week before the event",
+            "At least ten days before the event"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Quảng cáo ghi đơn phải đặt trước ít nhất hai ngày.",
+            "en": "The ad says orders must be placed at least two days before the event."
+          },
+          "trap": "10 là số người tối thiểu, không phải số ngày."
+        },
+        {
+          "id": "d04-p7-x2-3",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "When is delivery free?",
+          "options": [
+            "For groups of 200 only",
+            "On weekends",
+            "Within five kilometers of the kitchen",
+            "For the Family menu only"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Giao hàng miễn phí trong bán kính năm cây số quanh bếp.",
+            "en": "Delivery is free within five kilometers of the kitchen."
+          },
+          "trap": "Không có điều kiện về thực đơn hay ngày cuối tuần."
+        }
+      ]
+    }
+  ]
+}

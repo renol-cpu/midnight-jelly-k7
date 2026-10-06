@@ -1,0 +1,235 @@
+{
+  "grammar": [
+    {
+      "id": "d08-p6-x1",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "email",
+          "title": "Weekly meeting moved",
+          "text": "To: Project Team\nFrom: Daniel Reed\nSubject: Weekly meeting moved\n\nOur weekly meeting will move to Wednesday at 10:00 A.M. in Room 3. Please arrive five minutes early so that we can start on time. Anna Cho, [1] manages the Seoul account, will present the new schedule. [2] Please read it carefully before the meeting. Employees [3] projects are behind schedule should prepare a short report. The report should be no longer than one page. Our guests from Seoul will join us by video call, so please introduce [4] to them at the start. Bring your own laptop, because the room has no computers. If you cannot attend, please tell me before Tuesday evening.\n\nThank you,\nDaniel"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d08-p6-x1-1",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [1]",
+          "options": [
+            "whom",
+            "who",
+            "whose",
+            "which"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Sau tên người cần đại từ quan hệ làm chủ ngữ cho \"manages\": \"who\".",
+            "en": "After a person's name, the relative pronoun that is the subject of \"manages\" is \"who\"."
+          },
+          "trap": "\"whom\" là tân ngữ; ở đây \"who\" làm chủ ngữ của \"manages\"."
+        },
+        {
+          "id": "d08-p6-x1-2",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 2,
+          "q": "Blank [2]",
+          "options": [
+            "The agenda is attached to this email.",
+            "The meeting will last about one hour.",
+            "Room 3 is on the third floor.",
+            "Anna works in the Seoul office."
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Câu sau dùng \"it\" (đọc kỹ trước cuộc họp), nên câu chèn phải giới thiệu một thứ có thể đọc: bản chương trình đính kèm.",
+            "en": "The next sentence says \"read it\", so the missing sentence must introduce something to read: the attached agenda."
+          },
+          "trap": "Câu về thời lượng cuộc họp nghe hợp lý nhưng không có vật nào để \"it\" thay thế."
+        },
+        {
+          "id": "d08-p6-x1-3",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [3]",
+          "options": [
+            "who",
+            "whom",
+            "which",
+            "whose"
+          ],
+          "answer": 3,
+          "why": {
+            "vi": "\"whose projects\" chỉ sở hữu: dự án của nhân viên.",
+            "en": "\"whose projects\" shows possession: the employees' projects."
+          },
+          "trap": "Em hay nhầm \"whose\" với \"who's\"; \"whose\" đi trước danh từ để chỉ sở hữu."
+        },
+        {
+          "id": "d08-p6-x1-4",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [4]",
+          "options": [
+            "yourself",
+            "you",
+            "yourselves",
+            "yours"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Chủ ngữ ngầm \"you\" số nhiều (cả nhóm) và tân ngữ trùng với chủ ngữ nên dùng đại từ phản thân \"yourselves\".",
+            "en": "The plural subject \"you\" is also the object, so we use the reflexive \"yourselves\"."
+          },
+          "trap": "\"yourself\" là số ít; Daniel đang nói với cả nhóm."
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "d08-p7-x1",
+      "part": 7,
+      "passages": [
+        {
+          "kind": "email",
+          "title": "Moving Thursday's meeting",
+          "text": "To: Natalie Brooks\nFrom: Omar Haddad\nSubject: Moving Thursday's meeting\n\nDear Natalie,\n\nI am sorry to ask, but I need to change the time of our Thursday meeting. A client has asked to see me at 2:00 P.M. that day, which is the time we planned to meet. Would it be possible to meet at 10:00 A.M. instead? If that does not suit you, I am also free on Friday morning. We still need to discuss the budget for the spring event and decide who will lead the registration desk. I will bring a draft schedule. Please let me know by tomorrow afternoon so I can book the conference room.\n\nBest regards,\nOmar"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d08-p7-x1-1",
+          "part": 7,
+          "skill": "p7.main-idea",
+          "level": 1,
+          "q": "Why is Mr. Haddad writing to Ms. Brooks?",
+          "options": [
+            "To cancel the spring event",
+            "To ask to change a meeting time",
+            "To introduce a new client",
+            "To ask for a budget"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Anh Haddad xin đổi giờ cuộc họp thứ Năm vì có khách hàng hẹn lúc 2:00 P.M.",
+            "en": "Mr. Haddad asks to change Thursday's meeting time because a client wants to see him at 2:00 P.M."
+          },
+          "trap": "Ngân sách chỉ là nội dung sẽ bàn trong cuộc họp."
+        },
+        {
+          "id": "d08-p7-x1-2",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "What does Mr. Haddad suggest?",
+          "options": [
+            "Meeting at 10:00 A.M. on Thursday",
+            "Meeting at 2:00 P.M. on Friday",
+            "Meeting after the spring event",
+            "Meeting by video call"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Anh đề nghị họp lúc 10:00 A.M. cùng ngày, hoặc sáng thứ Sáu nếu không tiện.",
+            "en": "He suggests meeting at 10:00 A.M. that day, or on Friday morning if that does not suit her."
+          },
+          "trap": "Giờ 2:00 P.M. là giờ anh có hẹn khách, không phải giờ đề nghị."
+        },
+        {
+          "id": "d08-p7-x1-3",
+          "part": 7,
+          "skill": "p7.inference",
+          "level": 2,
+          "q": "What will Mr. Haddad most likely do after Ms. Brooks replies?",
+          "options": [
+            "Contact the client",
+            "Write a new budget",
+            "Reserve the conference room",
+            "Print the registration list"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Anh nói cần biết sớm để đặt phòng họp, nên sau khi có trả lời anh sẽ đặt phòng.",
+            "en": "He says he needs her answer so he can book the conference room, so he will reserve it next."
+          },
+          "trap": "Việc liên hệ khách hàng không được nhắc là bước tiếp theo."
+        }
+      ]
+    },
+    {
+      "id": "d08-p7-x2",
+      "part": 7,
+      "passages": [
+        {
+          "kind": "email",
+          "title": "Handouts for Monday's workshop",
+          "text": "To: Training Team\nFrom: Sophie Laurent\nSubject: Handouts for Monday's workshop\n\nDear team,\n\nThe customer service workshop will take place on Monday at 9:00 A.M. in the main conference room. About 30 employees are expected to attend. Could someone print 35 copies of the handout and place them on the tables by 8:30? I would also like a volunteer to welcome people at the door and to take notes during the discussion. Please reply to me by Friday if you can help. Refreshments will be provided by the café downstairs, so no one needs to order lunch.\n\nThank you,\nSophie"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d08-p7-x2-1",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "How many employees are expected at the workshop?",
+          "options": [
+            "About 35",
+            "About 9",
+            "About 8",
+            "About 30"
+          ],
+          "answer": 3,
+          "why": {
+            "vi": "Email ghi khoảng 30 nhân viên sẽ tham dự.",
+            "en": "The email says about 30 employees are expected."
+          },
+          "trap": "35 là số bản tài liệu cần in, không phải số người."
+        },
+        {
+          "id": "d08-p7-x2-2",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 2,
+          "q": "What does Ms. Laurent ask team members to do by Friday?",
+          "options": [
+            "Print the handouts",
+            "Tell her whether they can help",
+            "Order lunch",
+            "Reserve the conference room"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Cô yêu cầu trả lời trước thứ Sáu nếu có thể giúp.",
+            "en": "She asks them to reply by Friday if they can help."
+          },
+          "trap": "In tài liệu là việc cô nhờ làm, nhưng hạn thứ Sáu là để trả lời."
+        },
+        {
+          "id": "d08-p7-x2-3",
+          "part": 7,
+          "skill": "p7.vocab-in-context",
+          "level": 2,
+          "q": "In the email, the word \"welcome\" in paragraph 1 is closest in meaning to",
+          "options": [
+            "thank",
+            "invite",
+            "greet",
+            "follow"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "\"welcome people at the door\" nghĩa là chào đón, tức \"greet\".",
+            "en": "\"welcome people at the door\" means to greet them."
+          },
+          "trap": "\"invite\" là mời trước, không phải chào ở cửa."
+        }
+      ]
+    }
+  ]
+}

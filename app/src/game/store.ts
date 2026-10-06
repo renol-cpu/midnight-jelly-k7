@@ -123,6 +123,10 @@ export function finishDay(day: number, light: number, minutes: number) {
   });
 }
 
+export function addLight(n: number) {
+  update((p) => { p.light += n; });
+}
+
 export function saveTest(day: number, tally: Omit<Tally, 'at'>) {
   update((p) => { p.tests[day] = { ...tally, at: today() }; });
 }

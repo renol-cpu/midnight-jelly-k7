@@ -5,6 +5,9 @@ export type Block = 'radio' | 'diary' | 'flashlight';
 export type Step =
   | { kind: 'film'; name: 'intro' | 'twist' | 'finale' }
   | { kind: 'letter' }
+  | { kind: 'map' }
+  | { kind: 'directions'; part: number }
+  | { kind: 'extraDone' }
   | { kind: 'warmup' }
   | { kind: 'theory'; card: TheoryCard }
   | { kind: 'set'; set: QSet; block: Block }
@@ -25,10 +28,26 @@ function take(sets: QSet[], max: number) {
   return out;
 }
 
-export function buildSteps(d: DayContent, opts: { short: boolean; hasDue: boolean }): Step[] {
+// Insert a directions card before the first set of each Part, like the real test booklet.
+function withDirections(steps: Step[]): Step[] {
+  const seen = new Set<number>();
+  return steps.flatMap((s) => {
+    if (s.kind !== 'set' || seen.has(s.set.part)) return [s];
+    seen.add(s.set.part);
+    return [{ kind: 'directions', part: s.set.part } as Step, s];
+  });
+}
+
+export function buildSteps(d: DayContent, opts: { short: boolean; hasDue: boolean; extra?: boolean }): Step[] {
+  if (opts.extra) return withDirections([...(d.extra ?? []).map((set) => ({ kind: 'set', set, block: set.part <= 4 ? 'radio' : 'diary' }) as Step), { kind: 'extraDone' }]);
+  return withDirections(build(d, opts));
+}
+
+function build(d: DayContent, opts: { short: boolean; hasDue: boolean }): Step[] {
   const steps: Step[] = [];
   if (d.day === 1) steps.push({ kind: 'film', name: 'intro' });
   if (d.letter) steps.push({ kind: 'letter' });
+  if (!opts.short) steps.push({ kind: 'map' });
 
   if (d.boss) {
     d.listening.forEach((set) => steps.push({ kind: 'set', set, block: 'radio' }));

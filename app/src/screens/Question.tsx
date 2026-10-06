@@ -32,8 +32,8 @@ export function SetView({ set, exam, onAnswer, onDone }: { set: QSet; lang: Lang
   const ord = useMemo(() => order(q), [q]);
   const listening = set.part <= 4;
   const hideText = set.part <= 2 && picked === null; // P1/P2 options are only heard
+  const locked = listening && audio.plays === 0; // answers open once the audio has been started, as in the real test
 
-  useEffect(() => { if (listening) audio.play(); /* eslint-disable-next-line react-hooks/exhaustive-deps */ }, [set.id]);
   useEffect(() => { started.current = Date.now(); }, [qi, set.id]);
 
   function choose(i: number) {
@@ -61,8 +61,8 @@ export function SetView({ set, exam, onAnswer, onDone }: { set: QSet; lang: Lang
             {audio.plays ? <ArrowClockwise size={26} weight="bold" /> : <Play size={26} weight="fill" />}
           </button>
           <div className="meta">
-            <b>Part {set.part}</b>
-            <span>{exam ? t('timed') : audio.state === 'playing' ? '...' : t('replay')}</span>
+            <b>Part {set.part}{set.part === 2 ? '' : set.questions.length > 1 ? ` · ${set.questions.length} câu` : ''}</b>
+            <span>{audio.plays === 0 ? t('tapPlay') : audio.state === 'playing' ? t('playing') : exam ? t('timed') : t('replay')}</span>
           </div>
         </div>
       )}
@@ -98,7 +98,7 @@ export function SetView({ set, exam, onAnswer, onDone }: { set: QSet; lang: Lang
           const isKey = oi === q.answer;
           const cls = picked === null ? '' : exam ? (picked === oi ? 'sel' : '') : isKey ? 'right' : picked === oi ? 'wrong' : '';
           return (
-            <button key={oi} className={`opt ${cls} ${hideText ? 'hidden-text' : ''}`} disabled={picked !== null} onClick={() => choose(oi)} data-stamp={t('wrong').split(' ').slice(0, 2).join(' ')}>
+            <button key={oi} className={`opt ${cls} ${hideText ? 'hidden-text' : ''}`} disabled={picked !== null || locked} onClick={() => choose(oi)} data-stamp={t('wrong').split(' ').slice(0, 2).join(' ')}>
               <span className="k">{LETTERS[pos]}</span>
               <span>{hideText ? `(${LETTERS[pos]})` : q.options[oi]}</span>
             </button>

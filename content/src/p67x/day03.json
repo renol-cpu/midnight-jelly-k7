@@ -1,0 +1,235 @@
+{
+  "grammar": [
+    {
+      "id": "d03-p6-x1",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "email",
+          "title": "Your trip to Singapore",
+          "text": "Dear Mr. Chen,\n\nThank you for booking your trip to Singapore with Blue Sky Travel. Your flight leaves [1] at 7:30 A.M. on March 4, so please arrive at the airport at least two hours early. [2] You can check in online and print your boarding pass at home. Please bring your passport and one small bag. You do not need a visa for a stay of less than thirty days. Please also keep your hotel address with you in case the officer asks. Read your ticket [3], because changes are not allowed after you pay. If you need help, our staff will answer [4] when you call.\n\nBest regards,\nAnna Silva\nBlue Sky Travel"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d03-p6-x1-1",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [1]",
+          "options": [
+            "exact",
+            "exactly",
+            "exactness",
+            "exacting"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Cần trạng từ bổ nghĩa cho động từ \"leaves\": \"exactly\" (đúng giờ).",
+            "en": "We need an adverb to modify the verb \"leaves\": \"exactly\"."
+          },
+          "trap": "\"exact\" là tính từ, không đứng sau động từ \"leaves\" để chỉ cách thức."
+        },
+        {
+          "id": "d03-p6-x1-2",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 1,
+          "q": "Blank [2]",
+          "options": [
+            "Singapore is a popular city for business meetings.",
+            "The hotel offers free breakfast every morning.",
+            "Checking in early will save you time.",
+            "Tickets for next month are now on sale."
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Câu trước nói đến sân bay và đến sớm, câu sau nói về check-in online, nên câu chèn về việc check-in sớm tiết kiệm thời gian là nối đúng.",
+            "en": "The sentences before and after are about arriving early and checking in online, so \"Checking in early will save you time\" links them."
+          },
+          "trap": "Các câu về Singapore, khách sạn, vé tháng sau không nối với ý check-in."
+        },
+        {
+          "id": "d03-p6-x1-3",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [3]",
+          "options": [
+            "carefully",
+            "careful",
+            "care",
+            "cares"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Sau động từ \"Read your ticket\" cần trạng từ chỉ cách đọc: \"carefully\".",
+            "en": "After the verb phrase \"Read your ticket\" we need an adverb of manner: \"carefully\"."
+          },
+          "trap": "\"careful\" là tính từ; tính từ không bổ nghĩa cho động từ \"read\"."
+        },
+        {
+          "id": "d03-p6-x1-4",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [4]",
+          "options": [
+            "quick",
+            "quicker",
+            "quickness",
+            "quickly"
+          ],
+          "answer": 3,
+          "why": {
+            "vi": "\"answer\" là động từ nên cần trạng từ: \"quickly\" (trả lời nhanh).",
+            "en": "\"answer\" is a verb, so we need an adverb: \"quickly\"."
+          },
+          "trap": "\"quick\" và \"quicker\" là tính từ, không đứng sau \"answer\" như vậy."
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "d03-p7-x1",
+      "part": 7,
+      "passages": [
+        {
+          "kind": "notice",
+          "title": "Platform change",
+          "text": "ATTENTION PASSENGERS\n\nBecause of repair work, the 9:40 A.M. train to Lakeside will leave from Platform 2, not Platform 5, on Monday and Tuesday. Please use the stairs at the north end of the station. Elevators are available for passengers with heavy bags. Tickets bought before Monday remain valid. Thank you for your patience."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d03-p7-x1-1",
+          "part": 7,
+          "skill": "p7.main-idea",
+          "level": 1,
+          "q": "What is the purpose of the notice?",
+          "options": [
+            "To announce a change of platform",
+            "To announce a new train station",
+            "To ask passengers to buy tickets",
+            "To say a train is canceled"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Thông báo nói chuyến 9:40 sẽ rời từ Sân ga 2 thay vì Sân ga 5.",
+            "en": "The notice says the 9:40 train will leave from Platform 2 instead of Platform 5."
+          },
+          "trap": "Chuyến tàu vẫn chạy, chỉ đổi sân ga, nên không phải bị hủy."
+        },
+        {
+          "id": "d03-p7-x1-2",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "Which platform will the 9:40 A.M. train use on Monday?",
+          "options": [
+            "Platform 5",
+            "Platform 2",
+            "Platform 9",
+            "Platform 40"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Thông báo ghi \"Platform 2, not Platform 5\".",
+            "en": "The notice says \"Platform 2, not Platform 5\"."
+          },
+          "trap": "Sân ga 5 là sân ga cũ."
+        },
+        {
+          "id": "d03-p7-x1-3",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "What is available for passengers with heavy bags?",
+          "options": [
+            "Free tickets",
+            "Taxi service",
+            "Elevators",
+            "A baggage cart"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Thông báo ghi thang máy dành cho hành khách có hành lý nặng.",
+            "en": "The notice says elevators are available for passengers with heavy bags."
+          },
+          "trap": "Không có xe đẩy hay taxi nào được nhắc tới."
+        }
+      ]
+    },
+    {
+      "id": "d03-p7-x2",
+      "part": 7,
+      "passages": [
+        {
+          "kind": "notice",
+          "title": "Welcome to Parkview Hotel",
+          "text": "WELCOME TO PARKVIEW HOTEL\n\nBreakfast is served in the Garden Room from 6:30 to 10:00 A.M. every day. Check-out time is 11:00 A.M. Guests who need a late check-out should ask at the front desk before 9:00 P.M. the night before. Free Wi-Fi is available in the lobby. Luggage can be stored at the front desk free of charge."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d03-p7-x2-1",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "What time does breakfast end?",
+          "options": [
+            "10:00 A.M.",
+            "6:30 A.M.",
+            "9:00 P.M.",
+            "11:00 A.M."
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Bữa sáng phục vụ từ 6:30 đến 10:00 A.M.",
+            "en": "Breakfast is served from 6:30 to 10:00 A.M."
+          },
+          "trap": "11:00 A.M. là giờ trả phòng."
+        },
+        {
+          "id": "d03-p7-x2-2",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "What should guests do if they want a late check-out?",
+          "options": [
+            "Eat breakfast early",
+            "Leave their luggage in the lobby",
+            "Use the Wi-Fi",
+            "Ask at the front desk"
+          ],
+          "answer": 3,
+          "why": {
+            "vi": "Khách cần trả phòng muộn phải hỏi lễ tân trước 9:00 P.M. hôm trước.",
+            "en": "Guests who want a late check-out should ask at the front desk before 9:00 P.M. the night before."
+          },
+          "trap": "Chỉ việc gửi hành lý mới được miễn phí; trả phòng muộn phải hỏi lễ tân."
+        },
+        {
+          "id": "d03-p7-x2-3",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "What can guests store for free?",
+          "options": [
+            "Their food",
+            "Their luggage",
+            "Their car",
+            "Their room key"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Hành lý có thể gửi miễn phí tại quầy lễ tân.",
+            "en": "Luggage can be stored at the front desk free of charge."
+          },
+          "trap": "Wi-Fi miễn phí, không phải đồ để gửi."
+        }
+      ]
+    }
+  ]
+}

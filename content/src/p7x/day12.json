@@ -1,0 +1,144 @@
+{
+ "reading": [
+  {
+   "id": "d12-p7-x1",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "web",
+     "title": "Delmar Freight shipping options",
+     "text": "Delmar Freight  |  Home > Services > Domestic Shipping\n\nChoose the service that fits your deadline.\n\nEconomy Ground: 5 to 7 business days. Rates start at $6.50 for packages up to 5 pounds. Online tracking included.\n\nPriority Air: 2 business days. Rates start at $18.00. Packages must be dropped off before 4:00 P.M. for same-day processing.\n\nOvernight Express: Next business day by 10:30 A.M. Rates start at $34.00. A signature is required on delivery.\n\nAll services: Packages over 50 pounds incur a heavy-item surcharge of $12. Shipments to rural addresses may take one additional day. Every package is insured for up to $100 at no charge."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d12-p7-x1-1",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "Which service requires a signature on delivery?",
+     "options": [
+      "Overnight Express",
+      "Economy Ground",
+      "Priority Air",
+      "All of the services"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Chỉ mục Overnight Express ghi \"A signature is required on delivery\".",
+      "en": "Only Overnight Express lists a signature requirement."
+     },
+     "trap": "Mục \"All services\" nói về phụ phí và bảo hiểm, không nói về chữ ký."
+    },
+    {
+     "id": "d12-p7-x1-2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "What is the deadline for same-day processing of Priority Air packages?",
+     "options": [
+      "10:30 A.M.",
+      "4:00 P.M.",
+      "2:00 P.M.",
+      "5:00 P.M."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"Dropped off before 4:00 P.M. for same-day processing.\"",
+      "en": "Packages must be dropped off before 4:00 P.M."
+     },
+     "trap": "10:30 A.M. là giờ giao của Overnight Express, không phải hạn gửi."
+    },
+    {
+     "id": "d12-p7-x1-3",
+     "part": 7,
+     "skill": "p7.inference",
+     "level": 2,
+     "q": "What is indicated about a 60-pound package?",
+     "options": [
+      "It cannot be shipped.",
+      "It will arrive a day late.",
+      "It must be insured separately.",
+      "It will cost extra to ship."
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Hơn 50 pounds bị tính \"heavy-item surcharge\" 12 đô, nghĩa là trả thêm tiền. \"Incur\" ở đây là phải chịu một khoản phí.",
+      "en": "Packages over 50 pounds incur a surcharge, meaning an additional charge."
+     },
+     "trap": "\"One additional day\" chỉ áp dụng cho địa chỉ vùng nông thôn."
+    }
+   ]
+  },
+  {
+   "id": "d12-p7-x2",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "email",
+     "title": "Delayed shipment",
+     "text": "To: Maria Ibarra\nFrom: Customer Service, Coastline Outfitters\nSubject: Update on order #48213\nDate: September 9\n\nDear Ms. Ibarra,\n\nThank you for your order. Unfortunately, your shipment, which was scheduled to arrive on Tuesday, has been delayed because a storm closed a regional sorting facility. The package is now expected to arrive on Thursday.\n\nWe apologize for the inconvenience and have refunded your shipping fee of $12.50. You can follow the package's progress using the tracking link below. If it has not arrived by Friday, please reply to this e-mail and we will send a replacement at no charge.\n\nSincerely,\nCoastline Outfitters"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d12-p7-x2-1",
+     "part": 7,
+     "skill": "p7.main-idea",
+     "level": 1,
+     "q": "Why did the company write to Ms. Ibarra?",
+     "options": [
+      "To inform her of a delivery delay",
+      "To confirm a new order",
+      "To ask for a product review",
+      "To announce a sale"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Câu đầu của đoạn hai: \"your shipment ... has been delayed\". Mục đích là báo giao hàng trễ.",
+      "en": "The e-mail explains that her shipment is delayed."
+     },
+     "trap": "Câu \"thank you for your order\" chỉ là lời mở đầu xã giao."
+    },
+    {
+     "id": "d12-p7-x2-2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "What has the company already done?",
+     "options": [
+      "Sent a replacement",
+      "Refunded the shipping fee",
+      "Upgraded her delivery",
+      "Canceled the order"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"Have refunded your shipping fee of $12.50.\"",
+      "en": "The company has refunded the $12.50 shipping fee."
+     },
+     "trap": "Gửi hàng thay thế chỉ xảy ra nếu đến thứ Sáu hàng vẫn chưa tới."
+    },
+    {
+     "id": "d12-p7-x2-3",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "What should Ms. Ibarra do if the package has not arrived by Friday?",
+     "options": [
+      "Use the tracking link",
+      "Call the sorting facility",
+      "Reply to the e-mail",
+      "Return the package"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"If it has not arrived by Friday, please reply to this e-mail.\"",
+      "en": "She is asked to reply to the e-mail if the package is late."
+     },
+     "trap": "Tracking link dùng để theo dõi từ bây giờ, không phải việc làm sau thứ Sáu."
+    }
+   ]
+  }
+ ]
+}

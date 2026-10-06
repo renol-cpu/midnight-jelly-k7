@@ -1,0 +1,94 @@
+{
+ "listening": [
+  {
+   "id": "d13-p3-x1",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Smile Dental, how can I help?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Hi, I need a checkup. Do you have anything this week?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "We have Thursday at nine or Friday at four."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Thursday is better. I work until five on Friday."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Please arrive ten minutes early and bring your insurance card."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d13-p3-x1-1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "Why is the man calling?",
+     "options": [
+      "To make an appointment",
+      "To pay a bill",
+      "To change a job",
+      "To ask for directions"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh cần khám và hỏi lịch trong tuần.",
+      "en": "He needs a checkup and asks for an available time."
+     },
+     "trap": "Chưa ai nhắc đến việc thanh toán."
+    },
+    {
+     "id": "d13-p3-x1-2",
+     "part": 3,
+     "skill": "p3.implication",
+     "level": 2,
+     "q": "Why does the man choose Thursday?",
+     "options": [
+      "He is busy on Friday afternoon",
+      "He wants a longer visit",
+      "He has no insurance",
+      "He works on Thursday"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh làm đến 5 giờ vào thứ Sáu nên không đến lúc 4 giờ được.",
+      "en": "He works until five on Friday, so Friday at four is impossible."
+     },
+     "trap": "Anh làm việc vào thứ Sáu, không phải thứ Năm."
+    },
+    {
+     "id": "d13-p3-x1-3",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "What should the man bring?",
+     "options": [
+      "An insurance card",
+      "A payment",
+      "A photo",
+      "A doctor's letter"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô nhắc mang thẻ bảo hiểm.",
+      "en": "The woman tells him to bring an insurance card."
+     },
+     "trap": "Đến sớm mười phút là việc khác, không phải đồ cần mang."
+    }
+   ]
+  }
+ ]
+}

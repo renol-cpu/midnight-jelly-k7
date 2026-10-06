@@ -1,0 +1,211 @@
+{
+ "reading": [
+  {
+   "id": "d20-p7-x1",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "ad",
+     "title": "Operations Coordinator",
+     "text": "PELICAN COVE AQUARIUM IS HIRING\n\nOperations Coordinator\n\nPelican Cove Aquarium, a family attraction with 300,000 visitors each year, seeks an Operations Coordinator to manage daily schedules for exhibit staff, vendors, and school groups.\n\nRequired: two years of experience in scheduling or logistics; strong communication skills; willingness to work weekends on a rotating basis.\nPreferred: knowledge of ticketing software; a second language.\nSalary: $48,000 to $55,000, depending on experience. Health benefits begin after 60 days.\n\nTo apply, send a résumé and cover letter to careers@pelicancove.example by June 30. Applications without a cover letter will not be considered."
+    },
+    {
+     "kind": "email",
+     "title": "Application: Operations Coordinator",
+     "text": "To: careers@pelicancove.example\nFrom: Tuan Pham\nSubject: Application: Operations Coordinator\nDate: June 24\n\nDear Hiring Manager,\n\nI am writing to apply for the Operations Coordinator position. For the past three years, I have scheduled tours and school visits at a marine education center, where I introduced a shared online calendar that reduced booking conflicts by about 40 percent. I have also used two different ticketing systems.\n\nI understand that weekend work is required and am happy to rotate. Please note that I will be traveling from June 27 to July 3, so I could attend an interview only after that date. My résumé is attached.\n\nSincerely,\nTuan Pham"
+    },
+    {
+     "kind": "email",
+     "title": "Re: Application",
+     "text": "To: Tuan Pham\nFrom: Lena Brooks, Human Resources\nSubject: Re: Application: Operations Coordinator\nDate: July 1\n\nDear Mr. Pham,\n\nThank you for applying. We were impressed by your experience and would like to invite you to interview. Since you will be away until July 3, we can offer Friday, July 11, at 2:00 P.M. or Monday, July 14, at 10:00 A.M.\n\nThe interview will include a 15-minute scheduling exercise, so please bring a laptop. If you are unable to attend in person, let us know and we can arrange a video call. Please confirm your choice by July 7.\n\nSincerely,\nLena Brooks"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d20-p7-x1-1",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "What is required for the Operations Coordinator job?",
+     "options": [
+      "Experience in scheduling or logistics",
+      "Knowledge of ticketing software",
+      "A second language",
+      "A degree in marine science"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Mục Required ghi hai năm kinh nghiệm lập lịch hoặc hậu cần. Phần ticketing và ngôn ngữ thứ hai chỉ là \"preferred\".",
+      "en": "Two years of scheduling or logistics experience is listed under Required."
+     },
+     "trap": "Ticketing software nằm ở mục Preferred, và đề hỏi điều bắt buộc."
+    },
+    {
+     "id": "d20-p7-x1-2",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 2,
+     "q": "Which preferred qualification does Mr. Pham say he has?",
+     "options": [
+      "A second language",
+      "Experience leading a large team",
+      "Experience with ticketing systems",
+      "Training in marine biology"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Ông viết đã dùng hai hệ thống bán vé, khớp với \"knowledge of ticketing software\" trong mục Preferred.",
+      "en": "He has used two ticketing systems, matching the preferred knowledge of ticketing software."
+     },
+     "trap": "Ông không nói gì về ngôn ngữ thứ hai trong email."
+    },
+    {
+     "id": "d20-p7-x1-3",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 3,
+     "q": "What can be inferred about Mr. Pham's application?",
+     "options": [
+      "It was sent before the deadline.",
+      "It arrived without a cover letter.",
+      "It was sent after he traveled.",
+      "It asks for a salary of $55,000."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Email đề ngày 24/6, trước hạn 30/6. Email này cũng chính là thư xin việc nên có cover letter.",
+      "en": "The e-mail is dated June 24, before the June 30 deadline."
+     },
+     "trap": "Ông chưa đi du lịch: chuyến đi bắt đầu 27/6, sau ngày gửi."
+    },
+    {
+     "id": "d20-p7-x1-4",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "What is Mr. Pham asked to bring to the interview?",
+     "options": [
+      "A printed résumé",
+      "A laptop",
+      "Two references",
+      "A sample schedule"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"Please bring a laptop\" vì buổi phỏng vấn có bài tập lập lịch 15 phút.",
+      "en": "The interview includes a scheduling exercise, so he should bring a laptop."
+     },
+     "trap": "Résumé đã được đính kèm trong email xin việc."
+    },
+    {
+     "id": "d20-p7-x1-5",
+     "part": 7,
+     "skill": "p7.vocab-in-context",
+     "level": 2,
+     "q": "The phrase \"arrange\" in the third e-mail, \"we can arrange a video call,\" is closest in meaning to",
+     "options": [
+      "sort",
+      "decorate",
+      "agree to",
+      "set up"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"Arrange a video call\" là sắp xếp, tổ chức cuộc gọi video, tức set up.",
+      "en": "To arrange a call means to organize or set it up."
+     },
+     "trap": "\"Sort\" nghĩa là phân loại, không dùng cho việc tổ chức cuộc gọi."
+    }
+   ]
+  },
+  {
+   "id": "d20-p7-x2",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "article",
+     "title": "City council approves bike lanes",
+     "text": "The Lakeview City Council voted 7 to 2 on Tuesday to build a network of protected bike lanes downtown. The $4.2 million project will add 12 miles of lanes over three years, beginning with Harbor Avenue next spring. [1] Council member Dorothea Lang, who proposed the plan, said it would make commuting safer and reduce traffic. [2] Some business owners worry that removing street parking will hurt sales. To address that concern, the city will build a new parking garage near the market and will survey shop owners every six months. [3] Funding will come mostly from a state transportation grant, with the remainder paid from the city's general budget. Residents can view the proposed routes on the city's Web site and submit comments until December 5. [4]"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d20-p7-x2-1",
+     "part": 7,
+     "skill": "p7.main-idea",
+     "level": 2,
+     "q": "What is the article mainly about?",
+     "options": [
+      "A city's decision to build bike lanes",
+      "A new parking garage downtown",
+      "A state transportation grant",
+      "A vote to remove street parking"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Câu đầu: hội đồng thành phố biểu quyết xây mạng lưới làn xe đạp. Garage và tài trợ chỉ là chi tiết phụ.",
+      "en": "The article reports the council's vote to build bike lanes."
+     },
+     "trap": "Bãi đỗ xe mới chỉ là biện pháp giải quyết lo ngại của doanh nghiệp."
+    },
+    {
+     "id": "d20-p7-x2-2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "Where will construction begin?",
+     "options": [
+      "On Harbor Avenue",
+      "Near the market",
+      "At Lincoln Station",
+      "In the city's general budget office"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Beginning with Harbor Avenue next spring.\"",
+      "en": "Construction starts with Harbor Avenue."
+     },
+     "trap": "Khu chợ là nơi xây garage, không phải nơi bắt đầu làn xe đạp."
+    },
+    {
+     "id": "d20-p7-x2-3",
+     "part": 7,
+     "skill": "p7.not-true",
+     "level": 2,
+     "q": "What is NOT indicated about the project?",
+     "options": [
+      "It will take about three years.",
+      "Residents will pay a new tax for it.",
+      "The vote was not unanimous.",
+      "Shop owners will be surveyed."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Bài nói tiền đến từ trợ cấp của bang và ngân sách chung, không nhắc thuế mới. Phiếu 7 chọn 2 cho thấy không nhất trí.",
+      "en": "Funding comes from a grant and the general budget, with no mention of a new tax."
+     },
+     "trap": "Câu NOT: ba ý còn lại đều có trong bài, ý về thuế mới thì không."
+    },
+    {
+     "id": "d20-p7-x2-4",
+     "part": 7,
+     "skill": "p7.sentence-insert",
+     "level": 3,
+     "q": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\"The garage is expected to open next summer.\"",
+     "options": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Câu này nói về \"the garage\", đã được nhắc ở câu liền trước vị trí [3]. Trước đó chưa có garage nên [1] và [2] không hợp lý.",
+      "en": "\"The garage\" refers to the garage introduced just before position [3]."
+     },
+     "trap": "Vị trí [4] nói về việc góp ý của người dân, không liên quan đến garage."
+    }
+   ]
+  }
+ ]
+}
