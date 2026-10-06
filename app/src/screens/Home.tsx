@@ -22,21 +22,17 @@ export function Home({ day, lang, onStart }: { day: DayContent | null; lang: Lan
   const joke = day?.beSua?.[new Date().getDate() % Math.max(1, day.beSua.length)];
 
   return (
-    <div className="screen">
+    <div className="screen home">
       <Tank media={TANK_MEDIA[(n - 1) % TANK_MEDIA.length]} className="tank-hero">
         {day?.letter && (
           <div className="note" style={{ position: 'absolute', top: 18, right: 14, maxWidth: '72%' }}>
-            <span className="from">{t('letterFrom')}</span>
             <Letter text={pick(day.letter, lang).split(/(?<=[.!?])\s/)[0]} />
+            <span className="sig">Minh</span>
           </div>
         )}
         <div className="placard" style={{ ['--rank' as string]: rank.color }}>
-          <div className="spec">
-            <span>{day?.boss ? t('boss') : `${t('day')} ${n} / 21`}</span>
-            <span className="num">No. {String(n).padStart(2, '0')}</span>
-          </div>
-          <h1 style={{ fontSize: '2.1rem', margin: '4px 0 2px' }}>{day ? pick(day.title, lang) : t('loading')}</h1>
-          <p className="latin">{sp.latin}</p>
+          <h1 style={{ fontSize: '2.1rem', margin: '0 0 2px' }}>{day ? pick(day.title, lang) : t('loading')}</h1>
+          <p className="latin">{sp.latin} · {day?.boss ? t('boss') : `${t('day')} ${n}/21`}</p>
           <div className="habitat" aria-label={`${t('rank')} ${rank[lang]}`}>
             {RANKS.map((r, i) => <i key={r.min} className={i <= rank.idx ? 'on' : ''} />)}
           </div>
@@ -47,10 +43,10 @@ export function Home({ day, lang, onStart }: { day: DayContent | null; lang: Lan
         </div>
       </Tank>
 
-      <div className="gauges">
+      {(p.light > 0 || p.streak.count > 0) && <div className="gauges">
         <span className="lightc"><Lightning size={18} weight="fill" /> <span className="num">{p.light}</span> <small>{t('light')}</small></span>
         <span className="lightc" style={{ color: 'var(--flame)' }}><Fire size={18} weight="fill" /> <span className="num">{p.streak.count}</span> <small>{t('streak')}</small></span>
-      </div>
+      </div>}
 
       {done ? (
         <div className="stack">
@@ -66,7 +62,7 @@ export function Home({ day, lang, onStart }: { day: DayContent | null; lang: Lan
         </div>
       )}
 
-      {joke && <div className="note" style={{ transform: 'rotate(0.6deg)', background: '#fff7d6', color: '#2c2203' }}><span className="from" style={{ color: '#7a5b00' }}>Bé Sứa</span>{joke}</div>}
+      {joke && <div className="note" style={{ transform: 'rotate(0.6deg)', background: '#fff7d6', color: '#2c2203' }}>{joke}<span className="sig" style={{ color: '#7a5b00' }}>Bé Sứa</span></div>}
     </div>
   );
 }

@@ -21,9 +21,8 @@ export function Jellydex({ lang }: { lang: Lang }) {
         <Tank media={sp.media} className="tank-hero" still={!sp.media}>
           <div style={{ display: 'grid', justifyItems: 'center', marginBottom: 12 }}><Jelly species={sp} mood="pulse" size={110} label={sp.name.en} /></div>
           <div className="placard">
-            <div className="spec"><span>No. {String(sp.day).padStart(2, '0')}</span><span>{dim && sp.day === latest ? t('dimmed') : t('glowing')}</span></div>
             <h2>{sp.name[lang]}</h2>
-            <p className="latin">{sp.latin}</p>
+            <p className="latin">{sp.latin} · {dim && sp.day === latest ? t('dimmed') : t('glowing')}</p>
             <p style={{ marginTop: 8 }}>{sp.fact}</p>
           </div>
         </Tank>

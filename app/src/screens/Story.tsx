@@ -30,7 +30,6 @@ export function StoryView({ day, lang, onDone }: { day: DayContent; lang: Lang; 
         <Tank media={sp.media ?? 'v15'} className="tank-hero">
           <div style={{ display: 'grid', justifyItems: 'center', marginBottom: 12 }}><Jelly species={sp} mood="pulse" size={110} label={sp.name.en} /></div>
           <div className="placard">
-            <div className="spec"><span>{t('newSpecies')}</span><span className="num">No. {String(sp.day).padStart(2, '0')}</span></div>
             <h2>{sp.name[lang]}</h2>
             <p className="latin">{sp.latin}</p>
             <p style={{ marginTop: 8 }}>{sp.fact}</p>

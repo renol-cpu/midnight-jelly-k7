@@ -147,6 +147,7 @@ p { margin: 0; }
 /* ---------- note on the glass (Minh) ---------- */
 .note { position: relative; background: #ffe3ef; color: #3a0c22; border-radius: var(--r-plac); padding: 14px 16px; transform: rotate(-1.2deg); box-shadow: 0 14px 30px -14px rgba(240, 107, 176, 0.65); font-size: 0.98rem; line-height: 1.6; }
 .note::before { content: ''; position: absolute; top: -9px; left: 50%; width: 64px; height: 18px; transform: translateX(-50%) rotate(2deg); background: rgba(240, 107, 176, 0.45); border-radius: 3px; }
+.note .sig { display: block; text-align: right; font-family: var(--f-disp); font-weight: 800; color: #9c2662; margin-top: 4px; }
 .note .from { display: block; font-family: var(--f-disp); font-weight: 800; color: #9c2662; margin-bottom: 4px; }
 .note strong { color: #9c2662; letter-spacing: 0.06em; }
 
@@ -201,3 +202,14 @@ textarea.code { width: 100%; min-height: 90px; border-radius: var(--r-ctl); bord
   :root:not([data-motion='full']) *, :root:not([data-motion='full']) *::before, :root:not([data-motion='full']) *::after { animation: none !important; transition: none !important; }
 }
 :root[data-motion='reduced'] *, :root[data-motion='reduced'] *::before, :root[data-motion='reduced'] *::after { animation: none !important; transition: none !important; }
+
+/* in-dive tank band: the signature jelly lives here, large enough to be the authored moment */
+.tank-band { height: 176px; display: grid; place-items: center; }
+.tank-band::before { background: linear-gradient(180deg, rgba(10, 13, 41, 0.1), rgba(10, 13, 41, 0.75)); }
+.band-jelly { margin-top: -14px; filter: drop-shadow(0 0 18px rgba(156, 200, 255, 0.45)); }
+.band-gauges { position: absolute; left: 10px; right: 10px; bottom: 10px; padding: 6px 12px; }
+.screen.home { padding-bottom: 96px; }
+@media (min-width: 700px) {
+  body { background: radial-gradient(60% 80% at 50% 30%, #1a2460, var(--abyss) 70%) fixed; }
+  .app { border-inline: 1px solid var(--line); box-shadow: 0 0 140px rgba(94, 147, 230, 0.16); }
+}

@@ -92,17 +92,21 @@ export function Dive({ day, lang, short, onExit }: { day: DayContent; lang: Lang
         <button className="btn quiet" onClick={() => setQuit(true)} aria-label={t('quit')}><X size={20} /></button>
       </div>
 
-      {!day.boss && (
-        <div className="gauges">
-          <div className="o2" aria-label={`${t('oxygen')} ${o2}/${FULL_O2}`}>
-            {[0, 1, 2].map((k) => {
-              const fill = Math.max(0, Math.min(4, o2 - k * 4));
-              return <span key={k} className={`cyl ${o2 <= 4 ? 'low' : ''}`}><i style={{ transform: `scaleX(${fill / 4})` }} /></span>;
-            })}
-          </div>
-          <div className="lightc"><Lightning size={18} weight="fill" /> <span className="num">{banked + light}</span>{mult > 1 && <small>x{mult}</small>}</div>
-          <div key={moodKey} style={{ height: 44, marginTop: -18 }}><Jelly species={species} mood={mood} size={30} /></div>
-        </div>
+      {['set', 'vocab', 'warmup', 'theory', 'bank'].includes(step.kind) && (
+        <Tank media={species.media ?? 'v06'} still className="tank-band">
+          <div key={moodKey} className="band-jelly"><Jelly species={species} mood={mood} size={84} /></div>
+          {!day.boss && (
+            <div className="gauges band-gauges">
+              <div className="o2" aria-label={`${t('oxygen')} ${o2}/${FULL_O2}`}>
+                {[0, 1, 2].map((k) => {
+                  const fill = Math.max(0, Math.min(4, o2 - k * 4));
+                  return <span key={k} className={`cyl ${o2 <= 4 ? 'low' : ''}`}><i style={{ transform: `scaleX(${fill / 4})` }} /></span>;
+                })}
+              </div>
+              <div className="lightc"><Lightning size={18} weight="fill" /> <span className="num">{banked + light}</span>{mult > 1 && <small>x{mult}</small>}</div>
+            </div>
+          )}
+        </Tank>
       )}
       {mood === 'pulse' && <div key={`b${moodKey}`} className="bloom" aria-hidden="true" />}
 
@@ -111,7 +115,7 @@ export function Dive({ day, lang, short, onExit }: { day: DayContent; lang: Lang
       {step.kind === 'letter' && day.letter && (
         <div className="stack">
           <Tank media={species.media ?? 'v06'} className="tank-hero" still>
-            <div className="note"><span className="from">{t('letterFrom')}</span><Letter text={pick(day.letter, lang)} /></div>
+            <div className="note"><Letter text={pick(day.letter, lang)} /><span className="sig">Minh</span></div>
           </Tank>
           <button className="btn love block" onClick={go}>{t('gotIt')}</button>
         </div>
@@ -122,8 +126,7 @@ export function Dive({ day, lang, short, onExit }: { day: DayContent; lang: Lang
       {step.kind === 'theory' && (
         <div className="stack">
           <div className="placard">
-            <div className="spec"><span>{t('theory')}</span><span>{step.card.id}</span></div>
-            <h2 style={{ margin: '6px 0 8px' }}>{pick(step.card.title, lang)}</h2>
+            <h2 style={{ margin: '0 0 8px' }}>{pick(step.card.title, lang)}</h2>
             <p>{step.card.rule.vi}</p>
             {lang === 'en' || getProgress().explain !== 'vi' ? <p className="latin" style={{ marginTop: 6 }}>{step.card.rule.en}</p> : null}
             {step.card.formula && <p style={{ margin: '12px 0', fontWeight: 700, fontFamily: 'var(--f-disp)', fontSize: '1.15rem' }}>{step.card.formula}</p>}
@@ -133,7 +136,7 @@ export function Dive({ day, lang, short, onExit }: { day: DayContent; lang: Lang
               ))}
             </div>
           </div>
-          <div className="note" style={{ transform: 'rotate(0.8deg)' }}><span className="from">Bé Sứa</span>{step.card.tip}</div>
+          <div className="note" style={{ transform: 'rotate(0.8deg)' }}>{step.card.tip}<span className="sig">Bé Sứa</span></div>
           <button className="btn primary block" onClick={go}>{t('gotIt')}</button>
         </div>
       )}
@@ -214,7 +217,6 @@ function Warmup({ lang, onDone }: { lang: Lang; onDone: () => void }) {
   return (
     <div className="stack">
       <div className="placard word">
-        <div className="spec"><span>{t('warmup')}</span><span className="num">{k + 1}/{keys.length}</span></div>
         <div className="row" style={{ justifyContent: 'space-between' }}>
           <span className="w">{word}</span>
           <button className="btn quiet" onClick={() => playClip(`audio/w/${slug(word)}.mp3`, word)} aria-label={t('play')} style={{ color: 'var(--label-mist)' }}><SpeakerHigh size={24} /></button>
@@ -251,19 +253,18 @@ function Vocab({ words, lang, onDone }: { words: DayContent['vocab']; lang: Lang
   return (
     <div className="stack">
       <div className="placard word">
-        <div className="spec"><span>{t('newJelly')} · {w.pos}</span><span className="num">{k + 1}/{words.length}</span></div>
         <div className="row" style={{ justifyContent: 'space-between' }}>
           <span className="w">{w.word}</span>
           <button className="btn quiet" onClick={() => playClip(`audio/w/${slug(w.word)}.mp3`, w.word)} aria-label={t('play')} style={{ color: 'var(--label-mist)' }}><SpeakerHigh size={24} /></button>
         </div>
-        <span className="ipa" style={{ color: 'var(--label-mist)' }}>{w.ipa}</span>
+        <span className="ipa" style={{ color: 'var(--label-mist)' }}>{w.ipa} · {w.pos}</span>
         <p style={{ fontWeight: 600, fontSize: '1.1rem' }}>{w.vi}</p>
         <p>{w.example.en}</p>
         <p className="latin">{w.example.vi}</p>
         {w.family && <p className="latin">{w.family}</p>}
         {w.collocation && <p><b>{w.collocation}</b></p>}
       </div>
-      <button className="btn primary block" onClick={() => (k + 1 < words.length ? setK(k + 1) : onDone())}>{k + 1 < words.length ? t('next') : t('gotIt')}</button>
+      <button className="btn primary block" onClick={() => (k + 1 < words.length ? setK(k + 1) : onDone())}>{k + 1 < words.length ? t('next') : t('gotIt')} <span className="num" style={{ opacity: 0.6 }}>{k + 1}/{words.length}</span></button>
       {lang === 'en' && <span className="sr">{w.word}</span>}
     </div>
   );

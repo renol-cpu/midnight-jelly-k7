@@ -32,3 +32,9 @@
 - p1/pp30.jpg: "Accounting Finance" by Wilfred Iven, CC0 1.0, https://stocksnap.io/photo/accounting-finance-JONMP7TPGK
 - p1/pp31.jpg: "Back and forth" by Go-tea 郭天, BY 2.0, https://www.flickr.com/photos/131814204@N04/51831334766
 - p1/pp32.jpg: "Local market bustling with shoppers in a vibrant community setting" by nenad53, BY 2.0, https://www.flickr.com/photos/202780880@N02/54589759427
+
+## Personal media (not for redistribution)
+- `media/v01-v16.mp4/.jpg`, `media/p01-p12.jpg`: jellyfish footage and photos shot by Gia Huy Trần at his workplace aquarium, shared with Minh on Zalo (Sep-Oct 2026). Used with Minh's permission inside this personal game only.
+- `media/huy-hello.jpg`: Huy's own "chào buổi sáng" photo, shared on Zalo. Personal.
+- `film/intro.mp4`, `film/twist.mp4`, `film/finale.mp4`: rendered with Remotion (`video/`) from the clips above; voice-over by Microsoft neural TTS (edge-tts).
+- `audio/**`: generated with Microsoft neural TTS voices via edge-tts from original scripts in `content/src/`.
