@@ -1,0 +1,8 @@
+node_modules/
+dist/
+tools/.venv/
+zalo-private/
+video/out/
+.impeccable/review/
+.DS_Store
+*.log

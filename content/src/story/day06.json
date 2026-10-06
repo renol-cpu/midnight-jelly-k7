@@ -1,0 +1,190 @@
+{
+ "day": 6,
+ "title": {
+  "vi": "Danh sách thuyền viên",
+  "en": "The Crew List"
+ },
+ "story": [
+  {
+   "speaker": "HUY",
+   "en": "Five names on the crew list: Bảo, Lan, Tâm, Dũng, and me. Why are there six chairs at the table?",
+   "vi": "Năm tên trên danh sách thuyền viên: Bảo, Lan, Tâm, Dũng và em. Sao bàn ăn có sáu cái ghế?",
+   "voice": "caM"
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "Lan, the cook, looks at the door. Then she speaks very quietly.",
+   "vi": "Lan, người nấu ăn, nhìn ra cửa. Rồi cô nói rất khẽ.",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "Lan: \"Do not go south, Huy. The last diver who went there came back... different.\"",
+   "vi": "Lan: \"Đừng đi phía nam, Huy. Người thợ lặn cuối cùng đến đó trở về... khác đi.\"",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "BESUA",
+   "en": "Lan is scared, hihi no, not hihi. Em thấy bụng em lạnh lạnh. Nè, mình nghe tiếp nha.",
+   "vi": "Chị Lan sợ rồi, hihi không, không hihi nữa. Em thấy bụng lành lạnh. Nè, mình nghe tiếp nha."
+  },
+  {
+   "speaker": "M",
+   "en": "I tried, Huy. I am still trying. Keep listening, please.",
+   "vi": "Anh đã cố, Huy. Anh vẫn đang cố. Cứ nghe tiếp nhé, làm ơn.",
+   "voice": "usM"
+  }
+ ],
+ "letter": {
+  "vi": "Bé iu, hôm nay chủ ngữ và động từ phải hợp nhau: the list is, each employee has. Nếu hôm nay bé sai nhiều thì cũng không sao, cứ bật LIGHT lên: ghi lại một dòng vì sao sai, rồi thôi. Anh tin bé.",
+  "en": "My love, today subject and verb must agree: the list is, each employee has. If you miss a lot today, that is fine. Turn on a LIGHT: write one line about why you missed it, then let it go. I believe in you."
+ },
+ "beSua": [
+  "Staff là danh từ tập hợp: \"The staff is\" hoặc \"The staff are\" đều gặp. Hihi, câu của TOEIC thường dùng is.",
+  "He don't là sai nha, phải là he DOESN'T. Chủ ngữ số ít thêm s hoặc es. :33",
+  "Salary là lương tháng, wage là lương theo giờ. Em làm theo giờ nên em nhận wage đó hihi!",
+  "Employee là người làm thuê, employer là người thuê. Đuôi -ee là người nhận, đuôi -er là người làm. Dọ!"
+ ],
+ "vocab": [
+  {
+   "word": "applicant",
+   "pos": "n",
+   "ipa": "/ˈæplɪkənt/",
+   "vi": "người nộp đơn",
+   "example": {
+    "en": "Over fifty applicants applied for the job.",
+    "vi": "Hơn năm mươi người nộp đơn xin việc."
+   },
+   "family": "apply (v) / applicant (n) / application (n)",
+   "collocation": "job applicant"
+  },
+  {
+   "word": "résumé",
+   "pos": "n",
+   "ipa": "/ˈrezjʊmeɪ/",
+   "vi": "sơ yếu lý lịch",
+   "example": {
+    "en": "Attach your résumé to the email.",
+    "vi": "Hãy đính kèm sơ yếu lý lịch vào email."
+   },
+   "collocation": "update a résumé"
+  },
+  {
+   "word": "interview",
+   "pos": "n",
+   "ipa": "/ˈɪntəvjuː/",
+   "vi": "buổi phỏng vấn",
+   "example": {
+    "en": "The interview will take about an hour.",
+    "vi": "Buổi phỏng vấn kéo dài khoảng một giờ."
+   },
+   "family": "interview (n, v) / interviewer (n)",
+   "collocation": "job interview"
+  },
+  {
+   "word": "candidate",
+   "pos": "n",
+   "ipa": "/ˈkændɪdət/",
+   "vi": "ứng viên",
+   "example": {
+    "en": "The best candidate starts on Monday.",
+    "vi": "Ứng viên tốt nhất bắt đầu vào thứ Hai."
+   },
+   "collocation": "qualified candidate"
+  },
+  {
+   "word": "hire",
+   "pos": "v",
+   "ipa": "/ˈhaɪə/",
+   "vi": "thuê, tuyển dụng",
+   "example": {
+    "en": "The café plans to hire two new keepers.",
+    "vi": "Quán dự định tuyển hai nhân viên chăm sóc mới."
+   },
+   "family": "hire (v, n)",
+   "collocation": "hire staff"
+  },
+  {
+   "word": "promote",
+   "pos": "v",
+   "ipa": "/prəˈməʊt/",
+   "vi": "thăng chức",
+   "example": {
+    "en": "She was promoted to team leader.",
+    "vi": "Cô ấy được thăng chức lên trưởng nhóm."
+   },
+   "family": "promote (v) / promotion (n)",
+   "collocation": "be promoted to"
+  },
+  {
+   "word": "qualification",
+   "pos": "n",
+   "ipa": "/ˌkwɒlɪfɪˈkeɪʃn/",
+   "vi": "trình độ, bằng cấp",
+   "example": {
+    "en": "A degree is a basic qualification.",
+    "vi": "Bằng đại học là một trình độ cơ bản."
+   },
+   "family": "qualify (v) / qualified (adj) / qualification (n)",
+   "collocation": "required qualifications"
+  },
+  {
+   "word": "experience",
+   "pos": "n",
+   "ipa": "/ɪkˈspɪəriəns/",
+   "vi": "kinh nghiệm",
+   "example": {
+    "en": "He has five years of experience in sales.",
+    "vi": "Anh ấy có năm năm kinh nghiệm bán hàng."
+   },
+   "family": "experience (n, v) / experienced (adj)",
+   "collocation": "work experience"
+  },
+  {
+   "word": "salary",
+   "pos": "n",
+   "ipa": "/ˈsæləri/",
+   "vi": "lương tháng",
+   "example": {
+    "en": "Her salary is paid on the last day of the month.",
+    "vi": "Lương của cô ấy được trả vào ngày cuối tháng."
+   },
+   "collocation": "annual salary"
+  },
+  {
+   "word": "benefit",
+   "pos": "n",
+   "ipa": "/ˈbenɪfɪt/",
+   "vi": "phúc lợi, lợi ích",
+   "example": {
+    "en": "Health insurance is one of the benefits.",
+    "vi": "Bảo hiểm y tế là một trong các phúc lợi."
+   },
+   "family": "benefit (n, v) / beneficial (adj)",
+   "collocation": "employee benefits"
+  },
+  {
+   "word": "resign",
+   "pos": "v",
+   "ipa": "/rɪˈzaɪn/",
+   "vi": "từ chức, nghỉ việc",
+   "example": {
+    "en": "He resigned to start his own business.",
+    "vi": "Anh ấy nghỉ việc để tự kinh doanh."
+   },
+   "family": "resign (v) / resignation (n)",
+   "collocation": "resign from"
+  },
+  {
+   "word": "position",
+   "pos": "n",
+   "ipa": "/pəˈzɪʃn/",
+   "vi": "vị trí công việc",
+   "example": {
+    "en": "We have an open position in marketing.",
+    "vi": "Chúng tôi còn một vị trí trống ở bộ phận tiếp thị."
+   },
+   "collocation": "apply for a position"
+  }
+ ]
+}

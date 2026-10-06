@@ -1,0 +1,193 @@
+{
+ "day": 17,
+ "title": {
+  "vi": "Căn phòng bỏ hoang",
+  "en": "The Empty Station"
+ },
+ "story": [
+  {
+   "speaker": "NARRATOR",
+   "en": "A dark building rises from the seabed: an old research station, half under sand. The sign reads \"Housing Unit 4\".",
+   "vi": "Một tòa nhà tối nhô lên từ đáy biển: trạm nghiên cứu cũ, nửa chìm trong cát. Biển ghi \"Khu ở số 4\".",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "HUY",
+   "en": "Apartments under the sea? Who lived here? Who was the landlord?",
+   "vi": "Căn hộ dưới biển? Ai từng ở đây? Chủ nhà là ai?",
+   "voice": "caM"
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "In one room, a bed, a desk, a cup. On the hook, a blue jacket. On the cup, a small drawing of a jellyfish.",
+   "vi": "Trong một phòng, có giường, bàn, một cái cốc. Trên móc có áo khoác xanh. Trên cốc có hình sứa nhỏ.",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "HUY",
+   "en": "This is my jacket. This is my cup. But I never came here...",
+   "vi": "Đây là áo của em. Đây là cốc của em. Nhưng em chưa từng đến đây...",
+   "voice": "caM"
+  },
+  {
+   "speaker": "BESUA",
+   "en": "Huy ơi, em sợ. Hong phải sợ ma, em sợ một chuyện khác. Mình ra khỏi phòng này nha? :33",
+   "vi": "Huy ơi, em sợ. Không phải sợ ma, em sợ chuyện khác. Mình ra khỏi phòng này nha? :33"
+  },
+  {
+   "speaker": "NOVA",
+   "en": "The rent was paid. The deposit was paid. By someone who loves you. That is all I can say.",
+   "vi": "Tiền thuê đã trả. Tiền cọc đã trả. Bởi một người yêu em. Tôi chỉ nói được vậy.",
+   "voice": "usF"
+  }
+ ],
+ "letter": {
+  "vi": "Hihii, hôm nay nghe nối âm nè: bread AND butter nghe như \"bread n butter\". Đừng bắt từng chữ, bắt cả cụm. Part 2 thì sau 3 giây không chắc là chọn đại, đi tiếp. Shương shương!",
+  "en": "Hihii, linking sounds today: bread AND butter sounds like \"bread n butter\". Do not catch single words, catch whole chunks. In Part 2, after 3 seconds of doubt, pick one and move on. Shương shương!"
+ },
+ "beSua": [
+  "Rent là thuê (và tiền thuê), lease là hợp đồng thuê dài hạn. Landlord cho thuê, tenant là người thuê. Hihi.",
+  "Địa chỉ: at 12 Nguyễn Huệ Street, on Nguyễn Huệ Street, in Saigon. Nhỏ at, vừa on, lớn in nha. :33",
+  "Furnished là có đồ nội thất, unfurnished là không có. Hihi, em có thể ở nhà unfurnished nhưng phải có hồ sứa. :33"
+ ],
+ "vocab": [
+  {
+   "word": "landlord",
+   "pos": "n",
+   "ipa": "/ˈlændlɔːd/",
+   "vi": "chủ nhà",
+   "example": {
+    "en": "The landlord will fix the sink tomorrow.",
+    "vi": "Chủ nhà sẽ sửa bồn rửa vào ngày mai."
+   },
+   "collocation": "contact the landlord"
+  },
+  {
+   "word": "tenant",
+   "pos": "n",
+   "ipa": "/ˈtenənt/",
+   "vi": "người thuê nhà",
+   "example": {
+    "en": "The tenant pays rent on the first of the month.",
+    "vi": "Người thuê trả tiền nhà vào ngày đầu tháng."
+   },
+   "collocation": "new tenant"
+  },
+  {
+   "word": "lease",
+   "pos": "n",
+   "ipa": "/liːs/",
+   "vi": "hợp đồng thuê dài hạn",
+   "example": {
+    "en": "They signed a one-year lease.",
+    "vi": "Họ ký hợp đồng thuê một năm."
+   },
+   "family": "lease (n, v)",
+   "collocation": "sign a lease"
+  },
+  {
+   "word": "rent",
+   "pos": "n",
+   "ipa": "/rent/",
+   "vi": "tiền thuê nhà",
+   "example": {
+    "en": "The rent includes water and internet.",
+    "vi": "Tiền thuê đã gồm nước và internet."
+   },
+   "family": "rent (n, v)",
+   "collocation": "monthly rent"
+  },
+  {
+   "word": "deposit",
+   "pos": "n",
+   "ipa": "/dɪˈpɒzɪt/",
+   "vi": "tiền đặt cọc",
+   "example": {
+    "en": "A deposit is required before moving in.",
+    "vi": "Cần đặt cọc trước khi dọn vào."
+   },
+   "family": "deposit (n, v)",
+   "collocation": "security deposit"
+  },
+  {
+   "word": "furnished",
+   "pos": "adj",
+   "ipa": "/ˈfɜːnɪʃt/",
+   "vi": "có sẵn đồ nội thất",
+   "example": {
+    "en": "The apartment is fully furnished.",
+    "vi": "Căn hộ có đầy đủ nội thất."
+   },
+   "family": "furnish (v) / furniture (n) / furnished (adj)",
+   "collocation": "furnished apartment"
+  },
+  {
+   "word": "utilities",
+   "pos": "n",
+   "ipa": "/juːˈtɪlətiz/",
+   "vi": "tiền điện nước",
+   "example": {
+    "en": "Utilities are paid by the tenant.",
+    "vi": "Tiền điện nước do người thuê trả."
+   },
+   "collocation": "utilities included"
+  },
+  {
+   "word": "apartment",
+   "pos": "n",
+   "ipa": "/əˈpɑːtmənt/",
+   "vi": "căn hộ",
+   "example": {
+    "en": "We found a two-bedroom apartment downtown.",
+    "vi": "Chúng tôi tìm được căn hộ hai phòng ngủ ở trung tâm."
+   },
+   "collocation": "apartment building"
+  },
+  {
+   "word": "renovate",
+   "pos": "v",
+   "ipa": "/ˈrenəveɪt/",
+   "vi": "cải tạo, sửa chữa",
+   "example": {
+    "en": "The owner will renovate the kitchen.",
+    "vi": "Chủ nhà sẽ cải tạo nhà bếp."
+   },
+   "family": "renovate (v) / renovation (n)",
+   "collocation": "renovate a building"
+  },
+  {
+   "word": "vacancy",
+   "pos": "n",
+   "ipa": "/ˈveɪkənsi/",
+   "vi": "chỗ trống, phòng trống",
+   "example": {
+    "en": "There is a vacancy on the fourth floor.",
+    "vi": "Có một phòng trống ở tầng bốn."
+   },
+   "family": "vacant (adj) / vacancy (n)",
+   "collocation": "fill a vacancy"
+  },
+  {
+   "word": "neighborhood",
+   "pos": "n",
+   "ipa": "/ˈneɪbəhʊd/",
+   "vi": "khu phố",
+   "example": {
+    "en": "It is a quiet neighborhood near the river.",
+    "vi": "Đó là khu phố yên tĩnh gần sông."
+   },
+   "collocation": "safe neighborhood"
+  },
+  {
+   "word": "mortgage",
+   "pos": "n",
+   "ipa": "/ˈmɔːɡɪdʒ/",
+   "vi": "khoản vay mua nhà",
+   "example": {
+    "en": "They pay the mortgage every month.",
+    "vi": "Họ trả khoản vay mua nhà mỗi tháng."
+   },
+   "collocation": "mortgage payment"
+  }
+ ]
+}

@@ -1,0 +1,144 @@
+{
+  "reading": [
+    {
+      "id": "d05-p7-a",
+      "part": 7,
+      "passages": [
+        {
+          "kind": "form",
+          "title": "Invoice",
+          "text": "SEABRIGHT SUPPLY CO.\nINVOICE #4821\nDate: June 5\nBill to: Harbor Aquarium, 18 Dock Road\n\nItem                      Qty   Unit price   Amount\nWater test kit             4     $18.00       $72.00\nReplacement filter         2     $45.00       $90.00\nCleaning brush set         1     $24.00       $24.00\n\nSubtotal: $186.00\nShipping: $12.00\nTOTAL DUE: $198.00\n\nPayment terms: Net 30 days from invoice date. Late payments are subject to a 2% monthly fee."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d05-p7-a-1",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "How many test kits were ordered?",
+          "options": [
+            "1",
+            "2",
+            "4",
+            "12"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Dòng \"Water test kit\" có số lượng 4.",
+            "en": "The \"Water test kit\" line shows a quantity of 4."
+          },
+          "trap": "12 là phí vận chuyển, không phải số lượng."
+        },
+        {
+          "id": "d05-p7-a-2",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 2,
+          "q": "What is the total amount the customer must pay?",
+          "options": [
+            "$186.00",
+            "$198.00",
+            "$174.00",
+            "$210.00"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Tạm tính 186 đô cộng 12 đô phí vận chuyển là 198 đô.",
+            "en": "The subtotal of $186 plus $12 shipping gives $198."
+          },
+          "trap": "$186 chưa gồm phí vận chuyển."
+        },
+        {
+          "id": "d05-p7-a-3",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 2,
+          "q": "By when should the invoice be paid to avoid a late fee?",
+          "options": [
+            "June 15",
+            "June 30",
+            "July 5",
+            "July 31"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "\"Net 30 days\" từ ngày 5/6 nghĩa là hạn là 5/7.",
+            "en": "\"Net 30 days\" from June 5 means July 5."
+          },
+          "trap": "Đừng tính theo tháng: 30 ngày từ 5/6 là 5/7, không phải 30/6."
+        }
+      ]
+    },
+    {
+      "id": "d05-p7-b",
+      "part": 7,
+      "passages": [
+        {
+          "kind": "form",
+          "title": "Expense reimbursement form",
+          "text": "EXPENSE REIMBURSEMENT FORM\n\nEmployee: Ken Mori\nDepartment: Marketing\nPurpose of trip: Trade show, Denver (October 3 to 5)\n\nExpense                  Amount     Receipt attached\nAirfare                  $342.50    Yes\nHotel (2 nights)         $240.00    Yes\nMeals                    $65.00     No\n\nTotal requested: $647.50\n\nApproved by: Sandra Lee, Marketing Director\nDate: October 12"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d05-p7-b-1",
+          "part": 7,
+          "skill": "p7.main-idea",
+          "level": 1,
+          "q": "What is the purpose of the form?",
+          "options": [
+            "To book a flight",
+            "To request repayment of travel costs",
+            "To register for a trade show",
+            "To approve a hotel stay"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Biểu mẫu để yêu cầu hoàn lại chi phí chuyến đi.",
+            "en": "The form asks the company to repay travel expenses."
+          },
+          "trap": "Chữ \"approved\" xuất hiện nhưng chỉ là phần ký duyệt cuối đơn."
+        },
+        {
+          "id": "d05-p7-b-2",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 2,
+          "q": "For which expense is a receipt missing?",
+          "options": [
+            "Airfare",
+            "Hotel",
+            "Meals",
+            "Parking"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Chỉ dòng \"Meals\" ghi \"No\" ở cột biên lai.",
+            "en": "Only the \"Meals\" line shows \"No\" under receipt attached."
+          },
+          "trap": "Bài không có khoản đỗ xe (parking)."
+        },
+        {
+          "id": "d05-p7-b-3",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "Who approved the request?",
+          "options": [
+            "Ken Mori",
+            "Sandra Lee",
+            "A hotel manager",
+            "The trade show host"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Sandra Lee, giám đốc marketing, ký duyệt.",
+            "en": "Sandra Lee, Marketing Director, approved it."
+          },
+          "trap": "Ken Mori là người làm đơn, không phải người duyệt."
+        }
+      ]
+    }
+  ]
+}

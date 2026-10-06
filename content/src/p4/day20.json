@@ -1,0 +1,74 @@
+{
+ "listening": [
+  {
+   "id": "d20-p4-a",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Hello, everyone, and thank you for attending today's final preparation workshop for the exam. I would like to leave you with some practical tips. First, manage your time. In the listening section, do not spend too long on a difficult question. If you miss an answer, move on right away, because the next audio will not wait for you. Second, never leave a question blank. There is no penalty for guessing, so choose an answer even if you are not sure. Third, in the reading section, read the question before the passage so you know what to look for. Finally, get a good night's sleep and arrive early at the test center. You will find your seat number posted on the board outside the room. Good luck, everyone."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d20-p4-a1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "What is the main purpose of the workshop?",
+     "options": [
+      "To give exam tips",
+      "To teach grammar",
+      "To sell study books",
+      "To announce results"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Người nói để lại những mẹo thực tế cho kỳ thi.",
+      "en": "The speaker leaves practical tips for the exam."
+     },
+     "trap": "Teach grammar không phải trọng tâm của bài."
+    },
+    {
+     "id": "d20-p4-a2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "What does the speaker advise about difficult listening questions?",
+     "options": [
+      "Spend extra time",
+      "Move on quickly",
+      "Ask for help",
+      "Skip the section"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Nếu lỡ câu nào thì chuyển sang ngay vì đoạn âm thanh tiếp theo sẽ không chờ.",
+      "en": "The speaker says to move on right away."
+     },
+     "trap": "Spend extra time ngược với lời khuyên."
+    },
+    {
+     "id": "d20-p4-a3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 2,
+     "q": "Where can listeners find their seat number?",
+     "options": [
+      "On an admission card",
+      "On a board outside the room",
+      "On a Web site",
+      "On the answer sheet"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Số ghế dán trên bảng bên ngoài phòng.",
+      "en": "Seat numbers are posted on the board outside the room."
+     },
+     "trap": "Admission card không được nhắc."
+    }
+   ]
+  }
+ ]
+}

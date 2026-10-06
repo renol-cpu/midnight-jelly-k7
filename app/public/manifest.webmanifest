@@ -1,0 +1,10 @@
+{
+  "name": "Sứa Đêm · Midnight Jelly",
+  "short_name": "Sứa Đêm",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0A0D29",
+  "theme_color": "#0A0D29",
+  "icons": [{ "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

@@ -1,0 +1,192 @@
+{
+ "day": 4,
+ "title": {
+  "vi": "Bữa tối trên tàu",
+  "en": "Dinner on Deck"
+ },
+ "story": [
+  {
+   "speaker": "BAO",
+   "en": "Eat, Huy! No heroes work on an empty stomach. Fish soup, no spice. Not today.",
+   "vi": "Ăn đi, Huy! Anh hùng nào cũng không làm việc khi bụng đói. Canh cá, không cay. Hôm nay thì không.",
+   "voice": "auM"
+  },
+  {
+   "speaker": "HUY",
+   "en": "Thank you, Captain. It smells like home. Like M. cooking.",
+   "vi": "Cảm ơn thuyền trưởng. Thơm như ở nhà. Như anh M. nấu vậy.",
+   "voice": "caM"
+  },
+  {
+   "speaker": "BAO",
+   "en": "Tell me about that night. Where exactly did you two dive? Which reef? Which coordinates?",
+   "vi": "Kể tôi nghe đêm đó đi. Hai người lặn chính xác ở đâu? Rạn nào? Tọa độ nào?",
+   "voice": "auM"
+  },
+  {
+   "speaker": "HUY",
+   "en": "I do not remember the numbers. Only a blue light, and a very old, very small jellyfish.",
+   "vi": "Em không nhớ số. Chỉ nhớ ánh sáng xanh và một con sứa rất nhỏ, rất cổ.",
+   "voice": "caM"
+  },
+  {
+   "speaker": "BESUA",
+   "en": "Hmm, why does the Captain ask so many questions at dinner? Em ăn mà em hong dám nuốt. :33",
+   "vi": "Hmm, sao thuyền trưởng hỏi nhiều thế lúc ăn tối? Em ăn mà không dám nuốt. :33"
+  },
+  {
+   "speaker": "BAO",
+   "en": "Just being careful, my friend. Now finish your soup.",
+   "vi": "Chỉ cẩn thận thôi, bạn ạ. Giờ ăn hết canh đi.",
+   "voice": "auM"
+  }
+ ],
+ "letter": {
+  "vi": "Bé iu, hôm nay là no và not. No + danh từ (no time), not + động từ hoặc tính từ (not ready). Nghe Part 2 thì nghe từ để hỏi trước, đừng để đầu óc DRIFT (trôi đi) nha. Anh tin bé.",
+  "en": "My love, today is no and not. No + noun (no time), not + verb or adjective (not ready). In Part 2, catch the question word first, and do not let your mind DRIFT. I believe in you."
+ },
+ "beSua": [
+  "\"Not a problem\" và \"no problem\" đều đúng, nhưng \"no\" đi với danh từ: no time, no money. Hihi.",
+  "\"Sensitive\" là nhạy cảm, còn \"sensible\" mới là hợp lý. Nhìn giống nhau mà khác nghĩa. False friend đó nha! :33",
+  "Ở nhà hàng Mỹ xin tính tiền là \"check please\", còn Anh là \"bill\". Hai nước hai kiểu hihi."
+ ],
+ "vocab": [
+  {
+   "word": "appetizer",
+   "pos": "n",
+   "ipa": "/ˈæpɪtaɪzə/",
+   "vi": "món khai vị",
+   "example": {
+    "en": "We ordered a salad as an appetizer.",
+    "vi": "Chúng tôi gọi món salad khai vị."
+   },
+   "collocation": "serve an appetizer"
+  },
+  {
+   "word": "beverage",
+   "pos": "n",
+   "ipa": "/ˈbevərɪdʒ/",
+   "vi": "đồ uống",
+   "example": {
+    "en": "Beverages are included in the price.",
+    "vi": "Đồ uống đã được tính trong giá."
+   },
+   "collocation": "hot beverage"
+  },
+  {
+   "word": "cuisine",
+   "pos": "n",
+   "ipa": "/kwɪˈziːn/",
+   "vi": "ẩm thực",
+   "example": {
+    "en": "The restaurant serves Vietnamese cuisine.",
+    "vi": "Nhà hàng phục vụ ẩm thực Việt Nam."
+   },
+   "collocation": "local cuisine"
+  },
+  {
+   "word": "ingredient",
+   "pos": "n",
+   "ipa": "/ɪnˈɡriːdiənt/",
+   "vi": "nguyên liệu",
+   "example": {
+    "en": "All ingredients are bought fresh each morning.",
+    "vi": "Mọi nguyên liệu được mua tươi mỗi sáng."
+   },
+   "collocation": "fresh ingredient"
+  },
+  {
+   "word": "catering",
+   "pos": "n",
+   "ipa": "/ˈkeɪtərɪŋ/",
+   "vi": "dịch vụ ăn uống theo tiệc",
+   "example": {
+    "en": "We hired a catering company for the party.",
+    "vi": "Chúng tôi thuê công ty cung cấp tiệc cho buổi tiệc."
+   },
+   "family": "cater (v) / caterer (n) / catering (n)",
+   "collocation": "catering service"
+  },
+  {
+   "word": "recipe",
+   "pos": "n",
+   "ipa": "/ˈresəpi/",
+   "vi": "công thức nấu ăn",
+   "example": {
+    "en": "She shared her recipe for noodle soup.",
+    "vi": "Cô ấy chia sẻ công thức nấu món phở."
+   },
+   "collocation": "family recipe"
+  },
+  {
+   "word": "serve",
+   "pos": "v",
+   "ipa": "/sɜːv/",
+   "vi": "phục vụ, dọn món",
+   "example": {
+    "en": "Breakfast is served until ten.",
+    "vi": "Bữa sáng được phục vụ đến mười giờ."
+   },
+   "family": "serve (v) / server (n) / service (n)",
+   "collocation": "serve customers"
+  },
+  {
+   "word": "order",
+   "pos": "v",
+   "ipa": "/ˈɔːdə/",
+   "vi": "gọi món, đặt hàng",
+   "example": {
+    "en": "We ordered two coffees and a sandwich.",
+    "vi": "Chúng tôi gọi hai ly cà phê và một bánh sandwich."
+   },
+   "family": "order (n, v)",
+   "collocation": "place an order"
+  },
+  {
+   "word": "bill",
+   "pos": "n",
+   "ipa": "/bɪl/",
+   "vi": "hóa đơn thanh toán",
+   "example": {
+    "en": "Could we have the bill, please?",
+    "vi": "Cho chúng tôi xin hóa đơn thanh toán được không?"
+   },
+   "family": "bill (n, v)",
+   "collocation": "split the bill"
+  },
+  {
+   "word": "vegetarian",
+   "pos": "adj",
+   "ipa": "/ˌvedʒəˈteəriən/",
+   "vi": "ăn chay",
+   "example": {
+    "en": "We offer several vegetarian dishes.",
+    "vi": "Chúng tôi có nhiều món chay."
+   },
+   "family": "vegetarian (adj, n)",
+   "collocation": "vegetarian option"
+  },
+  {
+   "word": "specialty",
+   "pos": "n",
+   "ipa": "/ˈspeʃəlti/",
+   "vi": "món đặc sản, món đặc biệt",
+   "example": {
+    "en": "Grilled fish is the specialty of the house.",
+    "vi": "Cá nướng là món đặc biệt của quán."
+   },
+   "collocation": "house specialty"
+  },
+  {
+   "word": "menu",
+   "pos": "n",
+   "ipa": "/ˈmenjuː/",
+   "vi": "thực đơn",
+   "example": {
+    "en": "The menu changes every season.",
+    "vi": "Thực đơn thay đổi theo mùa."
+   },
+   "collocation": "on the menu"
+  }
+ ]
+}

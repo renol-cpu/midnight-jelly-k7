@@ -1,0 +1,395 @@
+{
+ "listening": [
+  {
+   "id": "d16-p4-a",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Hello, and welcome to the Greenway Convention Center. I am calling all event organizers who have reserved rooms for next month. Because of renovations, our rental rates are changing slightly. As you can see in the table, our smallest room remains the most affordable option for groups under fifty people. The Skyline Hall, our largest space, will cost more than before, but we are including free projector use in that price. If you have already signed a contract at the old rate, you will not be charged the difference. However, any request for extra chairs or tables made after the signing must be paid separately. Please contact our sales office by Friday if you wish to move to a different room. Thank you."
+    }
+   ],
+   "graphic": {
+    "caption": "Greenway Convention Center: Daily Room Rates",
+    "rows": [
+     [
+      "Room",
+      "Capacity",
+      "Daily rate"
+     ],
+     [
+      "Lakeview Room",
+      "50",
+      "$300"
+     ],
+     [
+      "Maple Room",
+      "80",
+      "$450"
+     ],
+     [
+      "Harbor Room",
+      "120",
+      "$600"
+     ],
+     [
+      "Skyline Hall",
+      "400",
+      "$1,200"
+     ]
+    ]
+   },
+   "questions": [
+    {
+     "id": "d16-p4-a1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Who is the speaker addressing?",
+     "options": [
+      "Event organizers",
+      "Hotel guests",
+      "Building contractors",
+      "Convention speakers"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Người nói gọi những người đã đặt phòng cho sự kiện tháng sau.",
+      "en": "The speaker addresses organizers who reserved rooms."
+     },
+     "trap": "Contractors là bẫy vì có nhắc renovations."
+    },
+    {
+     "id": "d16-p4-a2",
+     "part": 4,
+     "skill": "p4.graphic",
+     "level": 2,
+     "q": "Look at the graphic. Which room has the lowest daily rate?",
+     "options": [
+      "Lakeview Room",
+      "Maple Room",
+      "Harbor Room",
+      "Skyline Hall"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Phòng nhỏ nhất (sức chứa 50) là Lakeview, và bảng cho thấy giá 300 đô, thấp nhất.",
+      "en": "The table shows Lakeview at $300, the lowest."
+     },
+     "trap": "Maple Room rẻ thứ hai, dễ chọn nhầm nếu không so sánh hết các dòng."
+    },
+    {
+     "id": "d16-p4-a3",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "What will not be charged to people who signed a contract already?",
+     "options": [
+      "A cleaning fee",
+      "The rate difference",
+      "A cancellation fee",
+      "Equipment rental"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Hợp đồng đã ký theo giá cũ thì không bị tính phần chênh lệch.",
+      "en": "They will not be charged the difference."
+     },
+     "trap": "Extra chairs được tính riêng, đó là chi tiết khác."
+    }
+   ]
+  },
+  {
+   "id": "d16-p4-b",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Good morning, this is Anita Reeves from Orion Logistics. I am leaving this message for Mr. Dawson regarding the shipping options for your order of office furniture. Our standard ground delivery to your city normally takes five business days, but we also offer faster services, shown on the price sheet I e-mailed you. Because your order weighs over two hundred pounds, the rates are a little higher than for regular packages. Since you mentioned that you need the furniture before the opening of your new office on the twelfth, I would recommend the two-day service. It costs more, but the delivery is guaranteed. Please review the options and call me back by noon tomorrow. Thank you."
+    }
+   ],
+   "graphic": {
+    "caption": "Orion Logistics: Rates for Heavy Orders (over 200 lb)",
+    "rows": [
+     [
+      "Service",
+      "Delivery time",
+      "Price"
+     ],
+     [
+      "Ground",
+      "5 business days",
+      "$85"
+     ],
+     [
+      "Express",
+      "3 business days",
+      "$140"
+     ],
+     [
+      "Priority",
+      "2 business days",
+      "$220"
+     ],
+     [
+      "Overnight",
+      "1 business day",
+      "$310"
+     ]
+    ]
+   },
+   "questions": [
+    {
+     "id": "d16-p4-b1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "What is the purpose of the message?",
+     "options": [
+      "To discuss delivery options",
+      "To report a damaged item",
+      "To confirm a payment",
+      "To request a design"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô ấy gọi để nói về các lựa chọn giao hàng đồ nội thất.",
+      "en": "She discusses shipping options for the order."
+     },
+     "trap": "Damaged item không được nhắc."
+    },
+    {
+     "id": "d16-p4-b2",
+     "part": 4,
+     "skill": "p4.graphic",
+     "level": 3,
+     "q": "Look at the graphic. How much will the speaker's recommended service cost?",
+     "options": [
+      "$85",
+      "$140",
+      "$220",
+      "$310"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Cô khuyên dùng dịch vụ hai ngày, và bảng cho thấy giá 220 đô.",
+      "en": "She recommends the two-day service, which costs $220."
+     },
+     "trap": "$85 là giá giao tiêu chuẩn, bẫy cho người không nối được lời nói với bảng."
+    },
+    {
+     "id": "d16-p4-b3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 2,
+     "q": "What does the speaker ask Mr. Dawson to do by noon tomorrow?",
+     "options": [
+      "Sign a contract",
+      "Call her back",
+      "Pick up the furniture",
+      "Send payment"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô nhờ anh gọi lại trước trưa mai.",
+      "en": "She asks him to call back by noon tomorrow."
+     },
+     "trap": "Sign a contract không có trong bài."
+    }
+   ]
+  },
+  {
+   "id": "d16-p4-c",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Attention, shoppers. If you are looking for a particular store in the Marlow Shopping Plaza, please take a moment to look at the directory near the main entrance. We have recently moved several stores. The pharmacy has relocated from the first floor to the second floor, next to the optician. The food court is still on the third floor, but it now includes a new Thai restaurant. Our customer service desk, which handles returns and lost items, has moved to the first floor near the escalator. Please also note that the east elevator will be out of service for maintenance until Tuesday. We apologize for any inconvenience and thank you for shopping at Marlow Plaza. Enjoy your visit."
+    }
+   ],
+   "graphic": {
+    "caption": "Marlow Shopping Plaza: Directory",
+    "rows": [
+     [
+      "Floor",
+      "Stores"
+     ],
+     [
+      "1",
+      "Customer Service Desk, Bookstore, Bank"
+     ],
+     [
+      "2",
+      "Pharmacy, Optician, Shoe Store"
+     ],
+     [
+      "3",
+      "Food Court, Cinema"
+     ]
+    ]
+   },
+   "questions": [
+    {
+     "id": "d16-p4-c1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "What is the announcement mainly about?",
+     "options": [
+      "Changes in store locations",
+      "A new parking rule",
+      "A holiday sale",
+      "A job fair"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Nhiều cửa hàng đã được dời vị trí nên cần xem bảng chỉ dẫn.",
+      "en": "Several stores were moved."
+     },
+     "trap": "Holiday sale không có trong bài."
+    },
+    {
+     "id": "d16-p4-c2",
+     "part": 4,
+     "skill": "p4.graphic",
+     "level": 2,
+     "q": "Look at the graphic. Which store is located next to the pharmacy?",
+     "options": [
+      "A bookstore",
+      "An optician",
+      "A bank",
+      "A shoe store"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Bài nói pharmacy ở tầng hai cạnh optician, và bảng ghi optician ở tầng hai.",
+      "en": "The speaker says the pharmacy is next to the optician."
+     },
+     "trap": "Bookstore ở tầng một, bẫy cho người nhớ vị trí cũ của hiệu thuốc."
+    },
+    {
+     "id": "d16-p4-c3",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 3,
+     "q": "What is mentioned about the east elevator?",
+     "options": [
+      "It is being repaired.",
+      "It is for staff only.",
+      "It is too crowded.",
+      "It was recently installed."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Thang máy phía đông ngừng hoạt động để bảo trì tới thứ Ba.",
+      "en": "It is out of service for maintenance."
+     },
+     "trap": "\"Recently installed\" sai vì bài nói bảo trì."
+    }
+   ]
+  },
+  {
+   "id": "d16-p4-d",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Good evening, and welcome to the Heron Lake Ferry Tour. For those of you who have not been here before, the boat makes three stops during the trip. First, we will visit Pine Island, where you can walk along the nature path. Then we will stop at the old lighthouse, which is open to visitors only until four thirty. Finally, we will arrive at the town of Brookside, where the boat will wait for forty minutes so you can have dinner. The return trip leaves at seven fifteen. As you can see on the timetable, there is also a later boat, but it is already nearly full. Please make sure you are back at the dock on time."
+    }
+   ],
+   "graphic": {
+    "caption": "Heron Lake Ferry: Timetable",
+    "rows": [
+     [
+      "Stop",
+      "Arrive",
+      "Depart"
+     ],
+     [
+      "Pine Island",
+      "5:00 P.M.",
+      "5:30 P.M."
+     ],
+     [
+      "Old Lighthouse",
+      "5:45 P.M.",
+      "6:15 P.M."
+     ],
+     [
+      "Brookside",
+      "6:30 P.M.",
+      "7:15 P.M."
+     ],
+     [
+      "Brookside (late boat)",
+      "",
+      "8:45 P.M."
+     ]
+    ]
+   },
+   "questions": [
+    {
+     "id": "d16-p4-d1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Who is the speaker?",
+     "options": [
+      "A tour guide",
+      "A lighthouse keeper",
+      "A restaurant owner",
+      "A boat mechanic"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Người nói chào mừng và giải thích hành trình chuyến tham quan.",
+      "en": "The speaker explains the stops on a ferry tour."
+     },
+     "trap": "Lighthouse keeper là bẫy vì có nhắc ngọn hải đăng."
+    },
+    {
+     "id": "d16-p4-d2",
+     "part": 4,
+     "skill": "p4.graphic",
+     "level": 2,
+     "q": "Look at the graphic. When does the later return boat leave Brookside?",
+     "options": [
+      "5:30 P.M.",
+      "7:15 P.M.",
+      "8:45 P.M.",
+      "9:30 P.M."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Người nói chỉ nhắc có chuyến muộn hơn; bảng giờ cho thấy chuyến đó rời lúc 8:45.",
+      "en": "The timetable shows the later boat leaving at 8:45."
+     },
+     "trap": "7:15 là chuyến về đầu tiên, không phải chuyến muộn."
+    },
+    {
+     "id": "d16-p4-d3",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 3,
+     "q": "What is mentioned about the later boat?",
+     "options": [
+      "It is nearly full.",
+      "It has a new captain.",
+      "It is cheaper.",
+      "It stops at the island."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Chuyến muộn hơn gần như đã đầy chỗ.",
+      "en": "The later boat is already nearly full."
+     },
+     "trap": "Cheaper không được nhắc."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,144 @@
+{
+  "reading": [
+    {
+      "id": "d06-p7-a",
+      "part": 7,
+      "passages": [
+        {
+          "kind": "email",
+          "title": "Reply to preschool group inquiry",
+          "text": "To: Linda Park\nFrom: Visitor Services, Harbor Aquarium\nSubject: Re: Group booking for preschool visit\n\nDear Ms. Park,\n\nThank you for your inquiry about a group visit. For young children, we recommend arriving on a weekday between 9:30 A.M. and 11:30 A.M., when the galleries are quietest.\n\nOur group rate is $6 per child, and teachers enter free of charge. To confirm your booking, please pay a deposit of 20 percent within seven days. We will then send you a visit plan, including a short talk by one of our jellyfish keepers.\n\nPlease let us know if any child has special needs.\n\nBest regards,\nVisitor Services"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d06-p7-a-1",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "When does the aquarium recommend visiting?",
+          "options": [
+            "On a weekend afternoon",
+            "On a weekday morning",
+            "On a holiday evening",
+            "On any day"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Khung giờ 9:30 đến 11:30 sáng các ngày trong tuần là yên tĩnh nhất.",
+            "en": "Weekday mornings between 9:30 and 11:30 are quietest."
+          },
+          "trap": "Cuối tuần không được nhắc tới."
+        },
+        {
+          "id": "d06-p7-a-2",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "Who will NOT have to pay admission?",
+          "options": [
+            "Children",
+            "Teachers",
+            "Jellyfish keepers",
+            "Parents"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Giáo viên vào cửa miễn phí.",
+            "en": "Teachers enter free of charge."
+          },
+          "trap": "Nhân viên giữ sứa nói chuyện, họ không phải khách mua vé."
+        },
+        {
+          "id": "d06-p7-a-3",
+          "part": 7,
+          "skill": "p7.next-action",
+          "level": 2,
+          "q": "What must Ms. Park do to confirm the booking?",
+          "options": [
+            "Send a visit plan",
+            "Pay a deposit",
+            "Attend a talk",
+            "Call the keeper"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Phải trả cọc 20 phần trăm trong bảy ngày.",
+            "en": "She must pay a 20 percent deposit within seven days."
+          },
+          "trap": "Kế hoạch tham quan do thủy cung gửi sau khi đặt cọc."
+        }
+      ]
+    },
+    {
+      "id": "d06-p7-b",
+      "part": 7,
+      "passages": [
+        {
+          "kind": "email",
+          "title": "Mailbox storage",
+          "text": "To: All employees\nFrom: IT Help Desk\nSubject: Your mailbox is almost full\n\nDear colleagues,\n\nOur records show that many mailboxes have reached 90 percent of their storage limit. Once a mailbox is full, it cannot receive new messages.\n\nPlease delete unnecessary messages or move older ones to your archive folder before Friday, March 22. If you need assistance, contact the Help Desk at extension 120 between 8 A.M. and 5 P.M.\n\nThank you,\nIT Help Desk"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d06-p7-b-1",
+          "part": 7,
+          "skill": "p7.main-idea",
+          "level": 1,
+          "q": "Why was the e-mail sent?",
+          "options": [
+            "To announce new software",
+            "To ask employees to free up storage",
+            "To change help desk hours",
+            "To report a network failure"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Email nhắc nhân viên xóa bớt thư vì hộp thư gần đầy.",
+            "en": "It asks employees to clear mailbox space because storage is nearly full."
+          },
+          "trap": "Giờ làm việc của help desk chỉ là thông tin phụ."
+        },
+        {
+          "id": "d06-p7-b-2",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "What will happen if a mailbox is full?",
+          "options": [
+            "It will be deleted.",
+            "It cannot receive messages.",
+            "It will move to the archive.",
+            "It will be locked at 5 P.M."
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Hộp thư đầy thì không nhận thêm thư mới.",
+            "en": "A full mailbox cannot receive new messages."
+          },
+          "trap": "Archive là việc nhân viên làm để giải phóng dung lượng, không phải hậu quả."
+        },
+        {
+          "id": "d06-p7-b-3",
+          "part": 7,
+          "skill": "p7.vocab-in-context",
+          "level": 2,
+          "q": "The word \"assistance\" in paragraph 3, line 2, is closest in meaning to",
+          "options": [
+            "help",
+            "permission",
+            "payment",
+            "storage"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "\"assistance\" nghĩa là sự giúp đỡ, như \"help\".",
+            "en": "\"Assistance\" means help."
+          },
+          "trap": "\"storage\" xuất hiện cả bài nên dễ bị chọn nhầm."
+        }
+      ]
+    }
+  ]
+}

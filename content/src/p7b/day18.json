@@ -1,0 +1,208 @@
+{
+ "reading": [
+  {
+   "id": "d18-p7-a",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "ad",
+     "title": "Brightside Circle",
+     "text": "BRIGHTSIDE COFFEE ROASTERS\nIntroducing the Brightside Circle loyalty program!\n\nJoin this month and enjoy:\n* A free medium drink after every 8 purchases\n* Double points every Tuesday\n* A birthday treat of your choice\n* Early access to seasonal flavors\n\nSign up in our app or at any register. Members who sign up by March 31 receive a free tote bag (while supplies last). Points expire 12 months after they are earned. Not valid with other promotions."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d18-p7-a1",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "When can members earn double points?",
+     "options": [
+      "On their birthdays",
+      "On Tuesdays",
+      "Until March 31",
+      "On every eighth purchase"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"Double points every Tuesday\".",
+      "en": "The ad says members earn double points every Tuesday."
+     }
+    },
+    {
+     "id": "d18-p7-a2",
+     "part": 7,
+     "skill": "p7.not-true",
+     "level": 2,
+     "q": "Which benefit is NOT mentioned in the advertisement?",
+     "options": [
+      "A free drink",
+      "Early access to new flavors",
+      "Free delivery",
+      "A birthday treat"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Quảng cáo không nhắc giao hàng miễn phí.",
+      "en": "Free delivery does not appear in the list of benefits."
+     }
+    },
+    {
+     "id": "d18-p7-a3",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "What must customers do to receive a free tote bag?",
+     "options": [
+      "Buy eight drinks",
+      "Download a coupon",
+      "Visit on a Tuesday",
+      "Sign up by March 31"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"Members who sign up by March 31 receive a free tote bag\".",
+      "en": "Members who sign up by March 31 receive a tote bag."
+     },
+     "trap": "\"While supplies last\" chỉ là điều kiện hàng còn, không phải điều kiện nhận."
+    }
+   ]
+  },
+  {
+   "id": "d18-p7-b",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "email",
+     "title": "Q3 results",
+     "text": "To: Marketing Team\nFrom: Olivia Grant, Marketing Director\nSubject: Q3 campaign results\nDate: October 2\n\nHi team,\n\nI want to thank everyone for the Q3 campaign. [1] The social media series generated 12,000 new followers, which exceeded our goal by 20 percent. [2] Click-through rates on our e-mail newsletters, however, were lower than expected. We believe the subject lines were too long. [3] For Q4, we will shorten them and test two versions of each message.\n\nPlease send me your ideas for holiday promotions by Friday, October 10. [4] We will review them at our meeting on October 14.\n\nThanks again,\nOlivia"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d18-p7-b1",
+     "part": 7,
+     "skill": "p7.main-idea",
+     "level": 1,
+     "q": "What is the purpose of the e-mail?",
+     "options": [
+      "To report results and request ideas",
+      "To announce a new hire",
+      "To cancel a meeting",
+      "To change a goal"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Thư tóm tắt kết quả Q3 và xin ý tưởng cho kỳ nghỉ lễ.",
+      "en": "The e-mail summarizes Q3 results and asks for holiday ideas."
+     }
+    },
+    {
+     "id": "d18-p7-b2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "What are team members asked to send by October 10?",
+     "options": [
+      "Newsletter drafts",
+      "Holiday promotion ideas",
+      "Follower numbers",
+      "Meeting dates"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"send me your ideas for holiday promotions by Friday, October 10\".",
+      "en": "She asks for holiday promotion ideas by October 10."
+     }
+    },
+    {
+     "id": "d18-p7-b3",
+     "part": 7,
+     "skill": "p7.sentence-insert",
+     "level": 3,
+     "q": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\"Long subject lines were often cut off on mobile phones.\"",
+     "options": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Câu này giải thích vì sao tiêu đề dài là vấn đề, nên đi sau \"the subject lines were too long\" tại [3].",
+      "en": "It explains why long subject lines were a problem, so it follows that sentence at [3]."
+     },
+     "trap": "Vị trí [2] nói về tỉ lệ nhấp nhưng chưa nhắc subject line."
+    }
+   ]
+  },
+  {
+   "id": "d18-p7-c",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "text-chain",
+     "title": "Banner delivery",
+     "text": "Jun Park (9:05 A.M.): Did the printer deliver the banners for the product launch?\nElena Ruiz (9:08 A.M.): Only half of them. The rest will be ready at noon.\nJun Park (9:09 A.M.): Booth setup starts at 1:00. That's tight.\nDev Mehta (9:12 A.M.): I can pick up the second batch myself. The printer is only 15 minutes from here.\nElena Ruiz (9:13 A.M.): That would be a huge help.\nJun Park (9:14 A.M.): Dev, are you sure? You have the client meeting.\nDev Mehta (9:15 A.M.): It's at 11. I'll be back by 12:30.\nJun Park (9:16 A.M.): Perfect. I'll let the setup crew know."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d18-p7-c1",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "What is the problem?",
+     "options": [
+      "The printer is closed",
+      "The booth has been canceled",
+      "Only some banners have arrived",
+      "A client meeting was moved"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Ruiz nói \"Only half of them\".",
+      "en": "Ms. Ruiz says only half of the banners are ready."
+     }
+    },
+    {
+     "id": "d18-p7-c2",
+     "part": 7,
+     "skill": "p7.speaker-intent",
+     "level": 2,
+     "q": "At 9:13 A.M., what does Ms. Ruiz mean when she writes, \"That would be a huge help\"?",
+     "options": [
+      "She is thanking Mr. Park",
+      "She wants to delay the launch",
+      "She is worried about the client meeting",
+      "She wants Mr. Mehta to pick up the banners"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Dev vừa đề nghị đi lấy lô thứ hai; câu \"That would be a huge help\" là cô vui lòng nhận lời đề nghị đó.",
+      "en": "She is welcoming Mr. Mehta's offer to pick up the second batch."
+     },
+     "trap": "Cô không cảm ơn Jun, vì Jun chỉ nói setup bắt đầu lúc 1:00."
+    },
+    {
+     "id": "d18-p7-c3",
+     "part": 7,
+     "skill": "p7.inference",
+     "level": 2,
+     "q": "When will Mr. Mehta most likely return with the banners?",
+     "options": [
+      "Around 9:30 A.M.",
+      "Around 11:00 A.M.",
+      "Around 12:30 P.M.",
+      "Around 1:30 P.M."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Anh có cuộc họp lúc 11 giờ, hàng sẵn lúc trưa, và nói sẽ \"be back by 12:30\".",
+      "en": "He has an 11:00 meeting, the banners are ready at noon, and he says he will be back by 12:30."
+     }
+    }
+   ]
+  }
+ ]
+}

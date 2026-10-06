@@ -1,0 +1,144 @@
+{
+ "reading": [
+  {
+   "id": "d10-p7-a",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "letter",
+     "title": "Change in payment terms",
+     "text": "Greenway Supplies\n48 Canal Road, Leeds\n\nJuly 1\n\nMr. Hector Alvarez\nAlvarez Hardware\n19 Station Street, Leeds\n\nDear Mr. Alvarez,\n\nThank you for your continued business with Greenway Supplies. We are writing to inform you of a change to our payment terms, effective August 1. Until now, invoices have been due within 45 days. From August 1, all invoices will be due within 30 days of the invoice date. Customers who pay within 10 days will receive a 2 percent discount. Invoices issued before August 1 will not be affected.\n\nWe are making this change so that we can pay our own suppliers more promptly, which will help us keep prices stable. If your company needs a different arrangement, please contact me by July 15 so that we can discuss options.\n\nSincerely,\nElaine Foster\nFinance Manager"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d10-p7-a1",
+     "part": 7,
+     "skill": "p7.main-idea",
+     "level": 1,
+     "q": "Why was the letter written?",
+     "options": [
+      "To announce a price increase",
+      "To offer a loan",
+      "To request an overdue payment",
+      "To inform a customer of new payment terms"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"a change to our payment terms, effective August 1\".",
+      "en": "The letter announces a change to payment terms."
+     },
+     "trap": "Bức thư nhắc đến giữ giá ổn định, nhưng không thông báo tăng giá."
+    },
+    {
+     "id": "d10-p7-a2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "Which invoice will still be due 45 days after it is issued?",
+     "options": [
+      "One dated July 20",
+      "One dated August 1",
+      "One dated August 12",
+      "One paid within 10 days"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Hóa đơn phát hành trước 1/8 \"will not be affected\", nên vẫn 45 ngày.",
+      "en": "Invoices issued before August 1 are not affected, so a July 20 invoice keeps the old terms."
+     },
+     "trap": "Hóa đơn ngày 1/8 trở đi đã tính theo 30 ngày."
+    },
+    {
+     "id": "d10-p7-a3",
+     "part": 7,
+     "skill": "p7.vocab-in-context",
+     "level": 2,
+     "q": "The word \"stable\" in paragraph 2 is closest in meaning to",
+     "options": [
+      "steady",
+      "secure",
+      "low",
+      "fair"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Keep prices stable\" nghĩa là giữ giá không thay đổi, tức steady.",
+      "en": "\"Keep prices stable\" means keep them steady, not changing."
+     },
+     "trap": "\"Low\" nghe hợp lý nhưng bài không nói giá sẽ giảm."
+    }
+   ]
+  },
+  {
+   "id": "d10-p7-b",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "letter",
+     "title": "Job offer",
+     "text": "Northgate Accounting\n40 Dock Street\n\nAugust 8\n\nMs. Thao Pham\n22 Maple Avenue\n\nDear Ms. Pham,\n\nI am pleased to offer you the position of Junior Accountant at Northgate Accounting, beginning Monday, September 8. Your starting salary will be $52,000 per year, paid monthly. You will report to Mr. Kofi Mensah, Senior Accountant.\n\nYour first day will begin with an orientation at 9:00 A.M. in our Riverside office. Please bring two forms of identification and the signed copy of this letter, which should be returned to me by August 22. Information about benefits is enclosed.\n\nBecause the firm is busy from January to April, employees are asked not to schedule vacations during that period. If you have any questions, please call me at 555-0143.\n\nSincerely,\nJoanna Reyes\nHuman Resources"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d10-p7-b1",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "Who will Ms. Pham report to?",
+     "options": [
+      "Ms. Joanna Reyes",
+      "Mr. Kofi Mensah",
+      "The Riverside office manager",
+      "A Human Resources director"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"You will report to Mr. Kofi Mensah, Senior Accountant.\"",
+      "en": "The letter says she reports to Mr. Kofi Mensah."
+     },
+     "trap": "Cô Reyes là người ký thư (nhân sự), không phải cấp trên trực tiếp."
+    },
+    {
+     "id": "d10-p7-b2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "What does Ms. Reyes ask Ms. Pham to do by August 22?",
+     "options": [
+      "Attend an orientation",
+      "Bring identification",
+      "Return a signed copy of the letter",
+      "Choose her benefits"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"the signed copy of this letter, which should be returned to me by August 22\".",
+      "en": "The signed copy of the letter must be returned by August 22."
+     },
+     "trap": "Giấy tờ tùy thân thì mang vào ngày đầu 8/9, không phải hạn 22/8."
+    },
+    {
+     "id": "d10-p7-b3",
+     "part": 7,
+     "skill": "p7.inference",
+     "level": 2,
+     "q": "What is suggested about Northgate Accounting?",
+     "options": [
+      "It has only one office",
+      "It plans to move offices in January",
+      "It pays salaries weekly",
+      "It is busiest early in the year"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"busy from January to April\" nên đầu năm là mùa cao điểm.",
+      "en": "The firm is busy from January to April, so it is busiest early in the year."
+     },
+     "trap": "Lương trả theo tháng (\"paid monthly\"), không phải theo tuần."
+    }
+   ]
+  }
+ ]
+}

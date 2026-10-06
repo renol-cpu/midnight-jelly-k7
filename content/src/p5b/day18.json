@@ -1,0 +1,248 @@
+{
+ "grammar": [
+  {
+   "id": "d18-p5-a",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d18-p5-01",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 1,
+     "q": "Our marketing ____ includes social media posts and radio ads.",
+     "options": [
+      "strategic",
+      "strategy",
+      "strategically",
+      "strategize"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Sau \"marketing\" cần danh từ để tạo cụm \"marketing strategy\" (chiến lược tiếp thị).",
+      "en": "\"Marketing strategy\" is a noun + noun phrase."
+     },
+     "trap": "Strategic là tính từ nên không tạo được cụm danh từ ghép ở đây."
+    },
+    {
+     "id": "d18-p5-02",
+     "part": 5,
+     "skill": "p5.passive",
+     "level": 2,
+     "q": "The new advertisement ____ on television next week.",
+     "options": [
+      "will be broadcast",
+      "will broadcast",
+      "is broadcasting",
+      "has broadcast"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Quảng cáo là đối tượng được phát sóng nên cần bị động: will be broadcast.",
+      "en": "The ad receives the action, so use the passive."
+     },
+     "trap": "Will broadcast cần tân ngữ đi kèm sau nó."
+    },
+    {
+     "id": "d18-p5-03",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 2,
+     "q": "The survey is aimed ____ customers between 18 and 30.",
+     "options": [
+      "on",
+      "with",
+      "by",
+      "at"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"Aimed at\" là cụm cố định: nhắm vào.",
+      "en": "\"Aimed at\" is a fixed phrase."
+     },
+     "trap": "\"Aimed on\" nghe giống \"tập trung vào\" nhưng không dùng."
+    },
+    {
+     "id": "d18-p5-04",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 1,
+     "q": "____ the campaign was expensive, it generated little revenue.",
+     "options": [
+      "Despite",
+      "Because of",
+      "Although",
+      "In spite"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Có mệnh đề đầy đủ phía sau nên dùng Although: tuy chiến dịch tốn kém nhưng ít doanh thu.",
+      "en": "A full clause follows, so the conjunction \"Although\" is correct."
+     },
+     "trap": "Despite cùng nghĩa nhưng phải đứng trước danh từ."
+    },
+    {
+     "id": "d18-p5-05",
+     "part": 5,
+     "skill": "p5.pronoun",
+     "level": 2,
+     "q": "The agency sent the proposal to ____ client without a review.",
+     "options": [
+      "it",
+      "its",
+      "itself",
+      "their"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Tính từ sở hữu của \"the agency\" (số ít, vật) là its: khách hàng của công ty đại lý.",
+      "en": "The possessive of \"the agency\" is \"its\"."
+     },
+     "trap": "Their là số nhiều. \"Agency\" là một đơn vị nên dùng its."
+    },
+    {
+     "id": "d18-p5-06",
+     "part": 5,
+     "skill": "p5.comparison",
+     "level": 1,
+     "q": "Online ads are becoming ____ popular than printed brochures.",
+     "options": [
+      "more",
+      "most",
+      "the more",
+      "very"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Có \"than\" nên dùng so sánh hơn: more popular than.",
+      "en": "\"Than\" requires the comparative \"more popular\"."
+     },
+     "trap": "Most dùng cho so sánh nhất, đi với the và không đi với than."
+    },
+    {
+     "id": "d18-p5-07",
+     "part": 5,
+     "skill": "p5.agreement",
+     "level": 3,
+     "q": "Neither the poster nor the flyers ____ approved by the director yet.",
+     "options": [
+      "has been",
+      "is",
+      "was",
+      "have been"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Với neither...nor, động từ theo chủ ngữ gần nhất: flyers (số nhiều). Có \"yet\" nên dùng hiện tại hoàn thành: have been.",
+      "en": "The verb agrees with \"flyers\", and \"yet\" needs present perfect."
+     },
+     "trap": "Has been nhìn theo \"poster\" (số ít) là bẫy của cấu trúc neither...nor."
+    },
+    {
+     "id": "d18-p5-08",
+     "part": 5,
+     "skill": "p5.wish-if",
+     "level": 2,
+     "q": "If the budget were larger, we ____ more advertising space.",
+     "options": [
+      "will buy",
+      "would have bought",
+      "would buy",
+      "bought"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "If + quá khứ (were) là điều kiện loại 2, mệnh đề chính dùng would + V.",
+      "en": "Second conditional: if + past, would + verb."
+     },
+     "trap": "Would have bought là loại 3, đi với had + V3."
+    },
+    {
+     "id": "d18-p5-09",
+     "part": 5,
+     "skill": "p5.vocab",
+     "level": 2,
+     "q": "The product launch attracted a large ____ of reporters.",
+     "options": [
+      "amount",
+      "number",
+      "deal",
+      "level"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"A large number of + danh từ đếm được số nhiều\": number. Amount dùng với danh từ không đếm được.",
+      "en": "\"A large number of\" goes with countable plural nouns."
+     },
+     "trap": "Amount nghe tương tự nhưng reporters đếm được nên không dùng amount."
+    },
+    {
+     "id": "d18-p5-10",
+     "part": 5,
+     "skill": "p5.vocab",
+     "level": 3,
+     "q": "There was ____ interest in the old logo, so the company changed it.",
+     "options": [
+      "little",
+      "few",
+      "a few",
+      "many"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Interest\" không đếm được, nên dùng little (gần như không có). Few/many chỉ đi với danh từ đếm được.",
+      "en": "\"Interest\" is uncountable, so \"little\" is used."
+     },
+     "trap": "\"A few\" vừa sai loại danh từ vừa mang nghĩa tích cực, trái với việc phải đổi logo."
+    }
+   ]
+  }
+ ],
+ "theory": [
+  {
+   "id": "d18-th-1",
+   "title": {
+    "vi": "Part 6 trong 4 bước: chỗ trống thuộc loại nào?",
+    "en": "Part 6 blank types"
+   },
+   "rule": {
+    "vi": "Mỗi đoạn Part 6 có 4 chỗ trống. Ba chỗ là ngữ pháp, từ vựng hoặc từ nối (đọc cả câu và câu kế bên). Một chỗ là chèn câu (tìm sợi chỉ nối). Làm chỗ dễ trước, câu chèn làm sau cùng khi đã hiểu đoạn.",
+    "en": "A Part 6 text has 4 blanks: three word-level (grammar, vocab, connector) and one sentence-level. Do the easy ones first, the inserted sentence last."
+   },
+   "formula": "Blank 1-3: loại từ / từ nối | Blank 4: chèn câu → đại từ + từ nối + chủ đề",
+   "examples": [
+    {
+     "en": "Because of the delay, ____ (As a result)",
+     "vi": "Từ nối cần nhìn câu trước."
+    },
+    {
+     "en": "It also offers free delivery.",
+     "vi": "\"It\" cần chỉ tới danh từ ở câu trước."
+    }
+   ],
+   "tip": "Anh khuyên: đọc lướt cả đoạn một lần (10 giây) để biết chủ đề, rồi mới giải từng chỗ trống. Làm mò từng chỗ thì chậm và hay sai."
+  },
+  {
+   "id": "d18-th-2",
+   "title": {
+    "vi": "Little, few, much, many: đếm được hay không?",
+    "en": "Quantifiers"
+   },
+   "rule": {
+    "vi": "Danh từ đếm được số nhiều: many, few, a few, a number of. Danh từ không đếm được: much, little, a little, an amount of. \"Few/little\" mang nghĩa gần như không có; \"a few/a little\" nghĩa là có một ít.",
+    "en": "Countable plural: many, few, a few. Uncountable: much, little, a little. Few and little suggest \"almost none\"."
+   },
+   "formula": "few/many + N (đếm được, số nhiều) | little/much + N (không đếm được)",
+   "examples": [
+    {
+     "en": "There was little interest in the old logo.",
+     "vi": "Gần như không ai quan tâm đến logo cũ."
+    },
+    {
+     "en": "Few customers complained.",
+     "vi": "Rất ít khách phàn nàn."
+    }
+   ],
+   "tip": "Interest, information, advice, equipment, furniture là danh từ không đếm được: dùng little và much. Đây là bẫy Part 5 quen thuộc!"
+  }
+ ]
+}

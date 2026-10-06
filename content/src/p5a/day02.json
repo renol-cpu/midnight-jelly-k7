@@ -1,0 +1,448 @@
+{
+ "grammar": [
+  {
+   "id": "d02-p5-a",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d02-p5-01",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 1,
+     "q": "The company's ____ to quality has earned it many awards.",
+     "options": [
+      "committed",
+      "commitment",
+      "commit",
+      "committing"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Sau sở hữu cách \"company's\" cần danh từ.",
+      "en": "A possessive like \"company's\" is followed by a noun."
+     },
+     "trap": "\"Committed\" là tính từ, không thể đứng ngay sau sở hữu cách rồi mới tới \"to quality\"."
+    },
+    {
+     "id": "d02-p5-02",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 1,
+     "q": "Ms. Park gave a ____ presentation on next year's budget.",
+     "options": [
+      "detailed",
+      "detail",
+      "detailing",
+      "details"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Trước danh từ \"presentation\" cần tính từ.",
+      "en": "An adjective goes before the noun \"presentation\"."
+     },
+     "trap": "\"Detail\" là danh từ, \"a detail presentation\" sai."
+    },
+    {
+     "id": "d02-p5-03",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 1,
+     "q": "Please submit your ____ for the training course by Friday.",
+     "options": [
+      "register",
+      "registered",
+      "registering",
+      "registration"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Sau \"your\" cần danh từ.",
+      "en": "A noun follows \"your\"."
+     },
+     "trap": "\"Registered\" là tính từ nên không nằm một mình sau \"your\"."
+    },
+    {
+     "id": "d02-p5-04",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 1,
+     "q": "The hotel offers ____ rooms with views of the harbor.",
+     "options": [
+      "space",
+      "spaciously",
+      "spacious",
+      "spaciousness"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Tính từ đứng trước danh từ \"rooms\".",
+      "en": "An adjective goes before the noun \"rooms\"."
+     },
+     "trap": "\"Space rooms\" nghe như \"phòng vũ trụ\", sai nghĩa và sai từ loại."
+    },
+    {
+     "id": "d02-p5-05",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 1,
+     "q": "A ____ of the contract will be sent to all employees.",
+     "options": [
+      "summarize",
+      "summary",
+      "summarizing",
+      "summarized"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Sau mạo từ \"A\" cần danh từ.",
+      "en": "After the article \"A\" we need a noun."
+     },
+     "trap": "\"Summarized\" là dạng động từ, không đứng sau \"A\" được."
+    },
+    {
+     "id": "d02-p5-06",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 1,
+     "q": "Mr. Tan is ____ for approving all travel requests.",
+     "options": [
+      "responsible",
+      "responsibly",
+      "responsibility",
+      "responsibilities"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Sau \"is\" cần tính từ: responsible for.",
+      "en": "After \"is\" use the adjective: responsible for."
+     },
+     "trap": "\"Responsibility\" là danh từ, \"is responsibility for\" sai."
+    },
+    {
+     "id": "d02-p5-07",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 1,
+     "q": "Customers praised the ____ of the new checkout system.",
+     "options": [
+      "efficient",
+      "efficiently",
+      "inefficient",
+      "efficiency"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Sau \"the\" cần danh từ, và \"of\" đứng sau xác nhận điều đó.",
+      "en": "\"The\" plus a following \"of\" points to a noun."
+     },
+     "trap": "Đáp án tính từ làm anh nghĩ \"efficient system\", nhưng \"of\" đã ở sau ô trống."
+    },
+    {
+     "id": "d02-p5-08",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 1,
+     "q": "The ____ of the old bridge will begin in March.",
+     "options": [
+      "replace",
+      "replaced",
+      "replacement",
+      "replaceable"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Sau \"The\" cần danh từ làm chủ ngữ.",
+      "en": "\"The\" needs a noun as the subject."
+     },
+     "trap": "\"Replaced\" là V3 hay tính từ, không làm chủ ngữ sau \"The ... of\"."
+    },
+    {
+     "id": "d02-p5-09",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 2,
+     "q": "We need a ____ candidate for the sales manager position.",
+     "options": [
+      "qualification",
+      "qualified",
+      "qualify",
+      "qualifier"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Giữa mạo từ và danh từ \"candidate\" cần tính từ: qualified.",
+      "en": "Between the article and \"candidate\" use the adjective qualified."
+     },
+     "trap": "\"Qualification\" cũng là danh từ nhưng sẽ thành hai danh từ liền nhau, nghĩa không hợp."
+    },
+    {
+     "id": "d02-p5-10",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 2,
+     "q": "Employees must show proper ____ to enter the laboratory.",
+     "options": [
+      "identification",
+      "identify",
+      "identifiable",
+      "identified"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Sau tính từ \"proper\" cần danh từ.",
+      "en": "The adjective \"proper\" must be followed by a noun."
+     },
+     "trap": "Nhiều bạn chọn \"identified\" vì nghe giống bị động, nhưng ở đây cần danh từ."
+    }
+   ]
+  },
+  {
+   "id": "d02-p5-b",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d02-p5-11",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 1,
+     "q": "The aquarium café has become increasingly ____ with school groups.",
+     "options": [
+      "popularity",
+      "popularly",
+      "popularize",
+      "popular"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Sau \"become\" cần tính từ.",
+      "en": "After \"become\" we need an adjective."
+     },
+     "trap": "\"Popularity\" là danh từ: \"become popularity\" sai."
+    },
+    {
+     "id": "d02-p5-12",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 2,
+     "q": "The ____ of this model is its low fuel use.",
+     "options": [
+      "advantageous",
+      "advantageously",
+      "advantage",
+      "advantaged"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Sau \"The\" làm chủ ngữ cần danh từ.",
+      "en": "A noun is needed as subject after \"The\"."
+     },
+     "trap": "\"Advantageous\" là tính từ, nghĩa gần đúng nên dễ bị lừa."
+    },
+    {
+     "id": "d02-p5-13",
+     "part": 5,
+     "skill": "p5.passive",
+     "level": 1,
+     "q": "The new policy ____ to all employees last week.",
+     "options": [
+      "announces",
+      "was announced",
+      "announcing",
+      "has announced"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Chính sách được thông báo nên dùng bị động quá khứ.",
+      "en": "The policy was announced, so use the past passive."
+     },
+     "trap": "\"Has announced\" cần tân ngữ, và không hợp với \"last week\"."
+    },
+    {
+     "id": "d02-p5-14",
+     "part": 5,
+     "skill": "p5.agreement",
+     "level": 1,
+     "q": "Each of the managers ____ a copy of the report.",
+     "options": [
+      "has received",
+      "have received",
+      "are receiving",
+      "receive"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Each\" đi với động từ số ít.",
+      "en": "\"Each\" takes a singular verb."
+     },
+     "trap": "\"Managers\" ngay trước động từ gây nhầm, nhưng chủ ngữ thật là \"Each\"."
+    },
+    {
+     "id": "d02-p5-15",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 1,
+     "q": "____ employees may enter the server room without a badge.",
+     "options": [
+      "Not",
+      "None",
+      "Nothing",
+      "No"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"No\" đứng trước danh từ: No employees.",
+      "en": "\"No\" goes before a noun: No employees."
+     },
+     "trap": "\"None\" đứng một mình, không đi trực tiếp với danh từ."
+    },
+    {
+     "id": "d02-p5-16",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "The manager is in charge ____ the warehouse.",
+     "options": [
+      "for",
+      "to",
+      "of",
+      "at"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Cụm cố định: in charge of.",
+      "en": "Fixed phrase: in charge of."
+     },
+     "trap": "\"In charge for\" nghe giống \"responsible for\" nên dễ chọn nhầm."
+    },
+    {
+     "id": "d02-p5-17",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 2,
+     "q": "The speaker ____ we met at the conference will lead the workshop.",
+     "options": [
+      "whose",
+      "whom",
+      "which",
+      "what"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Người làm tân ngữ của \"met\" nên dùng whom.",
+      "en": "The speaker is the object of \"met\", so use whom."
+     },
+     "trap": "\"Whose\" cần danh từ ngay sau nó."
+    },
+    {
+     "id": "d02-p5-18",
+     "part": 5,
+     "skill": "p5.tense",
+     "level": 1,
+     "q": "If the shipment ____ today, it will arrive on Friday.",
+     "options": [
+      "leaves",
+      "left",
+      "will leave",
+      "leaving"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Mệnh đề if loại 1 dùng hiện tại đơn.",
+      "en": "A type-1 if-clause takes the present simple."
+     },
+     "trap": "\"Will leave\" trong mệnh đề if là bẫy quen thuộc."
+    },
+    {
+     "id": "d02-p5-19",
+     "part": 5,
+     "skill": "p5.pronoun",
+     "level": 1,
+     "q": "Mr. Lee asked ____ to join the planning committee.",
+     "options": [
+      "my",
+      "I",
+      "mine",
+      "me"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Sau động từ \"asked\" cần đại từ tân ngữ: me.",
+      "en": "After \"asked\" use the object pronoun me."
+     },
+     "trap": "\"I\" là chủ ngữ nên không đứng sau động từ làm tân ngữ."
+    },
+    {
+     "id": "d02-p5-20",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "The café will stay open ____ 10 P.M. on weekends.",
+     "options": [
+      "during",
+      "by",
+      "until",
+      "while"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"Until\" chỉ hành động kéo dài đến một mốc.",
+      "en": "\"Until\" marks the end point of a continuing state."
+     },
+     "trap": "\"By 10 P.M.\" nghĩa là trước 10 giờ, không hợp với \"stay open\"."
+    }
+   ]
+  }
+ ],
+ "theory": [
+  {
+   "id": "d02-th-1",
+   "title": {
+    "vi": "Chỗ trống danh từ hay tính từ?",
+    "en": "Noun slot or adjective slot?"
+   },
+   "rule": {
+    "vi": "Sau a/an/the/his/your/of/to-giới từ thì cần DANH TỪ (hoặc tính từ rồi danh từ). Sau be/become/seem hoặc trước danh từ thì cần TÍNH TỪ.",
+    "en": "After a/the/his/of or a preposition you need a NOUN (maybe adj + noun). After be/become/seem, or right before a noun, you need an ADJECTIVE."
+   },
+   "formula": "the + (ADJ) + NOUN   |   be + ADJ",
+   "examples": [
+    {
+     "en": "The company's commitment to quality is clear.",
+     "vi": "Sau \"company's\" là danh từ commitment."
+    },
+    {
+     "en": "Ms. Park gave a detailed presentation.",
+     "vi": "Trước danh từ presentation cần tính từ detailed."
+    },
+    {
+     "en": "Mr. Tan is responsible for travel requests.",
+     "vi": "Sau \"is\" cần tính từ responsible."
+    }
+   ],
+   "tip": "Mẹo thi: đuôi -tion, -ment, -ness, -ity, -ance thường là danh từ; đuôi -ful, -ive, -ous, -al, -able thường là tính từ. Nhìn đuôi là gạt được 2 đáp án trong 3 giây, anh Huy nhé."
+  },
+  {
+   "id": "d02-th-2",
+   "title": {
+    "vi": "Danh từ ghép với sở hữu cách",
+    "en": "Possessive + noun"
+   },
+   "rule": {
+    "vi": "Sau sở hữu (\"company's\", \"your\", \"their\") luôn là danh từ, không phải động từ hay tính từ trần.",
+    "en": "After a possessive (\"company's\", \"your\", \"their\") always put a noun, never a bare verb or adjective."
+   },
+   "formula": "POSSESSIVE + NOUN",
+   "examples": [
+    {
+     "en": "Please submit your registration by Friday.",
+     "vi": "Sau \"your\" là danh từ registration."
+    },
+    {
+     "en": "We praised the efficiency of the new system.",
+     "vi": "Sau \"the\" là danh từ efficiency."
+    }
+   ],
+   "tip": "Mẹo thi: thấy \"your / their / the\" ngay trước ô trống mà đáp án có đuôi -tion thì gần như chắc chắn là nó."
+  }
+ ]
+}

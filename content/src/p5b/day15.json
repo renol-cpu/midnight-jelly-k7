@@ -1,0 +1,640 @@
+{
+ "grammar": [
+  {
+   "id": "d15-p5-a",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d15-p5-01",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 1,
+     "q": "The updated app runs ____ on both tablets and smartphones.",
+     "options": [
+      "smooth",
+      "smoothness",
+      "smoothly",
+      "smoothen"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Bổ nghĩa cho động từ \"runs\" cần trạng từ: smoothly (mượt mà).",
+      "en": "An adverb is needed to modify the verb \"runs\"."
+     },
+     "trap": "\"Smooth\" là tính từ; sau runs không có danh từ để bổ nghĩa."
+    },
+    {
+     "id": "d15-p5-02",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "Employees can log in ____ the portal using their staff ID.",
+     "options": [
+      "of",
+      "to",
+      "by",
+      "over"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"Log in to\" là cụm cố định: đăng nhập vào.",
+      "en": "\"Log in to\" is a fixed phrase."
+     },
+     "trap": "\"Log in at\" nghe tự nhiên nhưng đề thi thường dùng to với phần mềm hoặc cổng thông tin."
+    },
+    {
+     "id": "d15-p5-03",
+     "part": 5,
+     "skill": "p5.passive",
+     "level": 2,
+     "q": "The old database ____ by the end of the year.",
+     "options": [
+      "will have been replaced",
+      "will replace",
+      "is replacing",
+      "has replaced"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Có \"by the end of the year\" và cơ sở dữ liệu là đối tượng bị thay: tương lai hoàn thành bị động.",
+      "en": "Future perfect passive: the database is replaced by a future point."
+     },
+     "trap": "Will replace cần tân ngữ phía sau, mà cơ sở dữ liệu không tự thay thế."
+    },
+    {
+     "id": "d15-p5-04",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 2,
+     "q": "The vendor ____ proposal was selected will install the system.",
+     "options": [
+      "who",
+      "whom",
+      "which",
+      "whose"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Sau chỗ trống là danh từ \"proposal\" thuộc về vendor: dùng whose.",
+      "en": "A possessive relationship with a following noun needs \"whose\"."
+     },
+     "trap": "Who không đi trực tiếp với danh từ phía sau."
+    },
+    {
+     "id": "d15-p5-05",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 1,
+     "q": "Visitors are ____ allowed to use flash photography in the exhibit hall.",
+     "options": [
+      "no",
+      "none",
+      "not",
+      "non"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Sau \"are\" và trước tính từ/phân từ \"allowed\" cần \"not\".",
+      "en": "\"Not\" negates the participle after \"are\"."
+     },
+     "trap": "\"No allowed\" là sai vì no phải đứng trước danh từ."
+    },
+    {
+     "id": "d15-p5-06",
+     "part": 5,
+     "skill": "p5.comparison",
+     "level": 3,
+     "q": "The cloud plan is ____ expensive than the on-site option, yet it offers more storage.",
+     "options": [
+      "least",
+      "less",
+      "fewer",
+      "little"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Có \"than\" nên là so sánh hơn: less expensive (rẻ hơn).",
+      "en": "\"Than\" signals a comparative: \"less expensive\"."
+     },
+     "trap": "Least dùng cho so sánh nhất, không đi với than."
+    },
+    {
+     "id": "d15-p5-07",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 1,
+     "q": "The ____ of the new payroll system took three weeks.",
+     "options": [
+      "installation",
+      "install",
+      "installed",
+      "installs"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Sau \"The\" và trước \"of\" cần danh từ: installation (việc cài đặt).",
+      "en": "A noun is required between \"The\" and \"of\"."
+     },
+     "trap": "Em hay chọn install vì nó là gốc từ quen thuộc nhất."
+    },
+    {
+     "id": "d15-p5-08",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 1,
+     "q": "The workshop will be rescheduled ____ fewer than ten people register.",
+     "options": [
+      "unless",
+      "although",
+      "so that",
+      "if"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Nếu có ít hơn mười người đăng ký thì dời lịch: điều kiện thật, dùng if.",
+      "en": "A real condition: \"if fewer than ten register\"."
+     },
+     "trap": "Unless đã mang nghĩa phủ định, khi đó câu thành \"trừ khi ít hơn mười người\", sai nghĩa."
+    },
+    {
+     "id": "d15-p5-09",
+     "part": 5,
+     "skill": "p5.participle",
+     "level": 3,
+     "q": "The technician ____ the printer found a loose cable.",
+     "options": [
+      "repaired",
+      "repairs",
+      "repairing",
+      "to repair"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Kỹ thuật viên đang sửa máy in (chủ động), rút gọn who was repairing thành repairing.",
+      "en": "Active reduced relative clause: \"who was repairing\"."
+     },
+     "trap": "Repaired mang nghĩa bị động: kỹ thuật viên bị sửa, vô lý."
+    },
+    {
+     "id": "d15-p5-10",
+     "part": 5,
+     "skill": "p5.collocation",
+     "level": 2,
+     "q": "The new smartphone will be ____ for sale next month.",
+     "options": [
+      "able",
+      "available",
+      "possible",
+      "capable"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"Available for sale\" là cụm cố định: có sẵn để bán.",
+      "en": "\"Available for sale\" is a fixed collocation."
+     },
+     "trap": "Able và capable dùng cho người, không dùng cho đồ vật."
+    }
+   ]
+  },
+  {
+   "id": "d15-p5-b",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d15-p5-11",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 3,
+     "q": "Access to the database requires prior ____ from the IT manager.",
+     "options": [
+      "approval",
+      "approve",
+      "approved",
+      "approvingly"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Sau tính từ \"prior\" cần danh từ: approval (sự chấp thuận).",
+      "en": "A noun follows the adjective \"prior\"."
+     },
+     "trap": "Approved là tính từ nên đứng cạnh prior là rối nghĩa; còn thiếu danh từ."
+    },
+    {
+     "id": "d15-p5-12",
+     "part": 5,
+     "skill": "p5.agreement",
+     "level": 2,
+     "q": "Each of the laptops ____ a one-year warranty.",
+     "options": [
+      "come with",
+      "are coming with",
+      "have come with",
+      "comes with"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"Each\" đi với động từ số ít: comes with (đi kèm).",
+      "en": "\"Each\" takes a singular verb."
+     },
+     "trap": "\"Laptops\" ở ngay trước khiến em chọn số nhiều, nhưng chủ ngữ là each."
+    },
+    {
+     "id": "d15-p5-13",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "The company is proud ____ its award-winning mobile app.",
+     "options": [
+      "at",
+      "for",
+      "of",
+      "by"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"Proud of\" là cụm cố định: tự hào về.",
+      "en": "\"Proud of\" is a fixed collocation."
+     },
+     "trap": "\"Proud for\" nghe giống tiếng Việt \"tự hào về\" nhưng sai giới từ."
+    },
+    {
+     "id": "d15-p5-14",
+     "part": 5,
+     "skill": "p5.tense",
+     "level": 2,
+     "q": "The IT team ____ the network since eight o'clock this morning.",
+     "options": [
+      "tests",
+      "has been testing",
+      "tested",
+      "will test"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"Since + mốc thời gian\" cần hiện tại hoàn thành, có tính liên tục: has been testing.",
+      "en": "\"Since\" needs a perfect tense: \"has been testing\"."
+     },
+     "trap": "Tested là quá khứ đơn, không có sự kéo dài đến bây giờ."
+    },
+    {
+     "id": "d15-p5-15",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 3,
+     "q": "The tablet's ____ battery lasts up to twelve hours.",
+     "options": [
+      "rechargeable",
+      "recharge",
+      "recharges",
+      "recharger"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Trước danh từ \"battery\" cần tính từ: rechargeable (có thể sạc lại).",
+      "en": "An adjective is needed before the noun \"battery\"."
+     },
+     "trap": "Recharger là danh từ (bộ sạc) nên \"recharger battery\" thành cụm sai nghĩa."
+    },
+    {
+     "id": "d15-p5-16",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 1,
+     "q": "The software, ____ was released last week, has already been downloaded 5,000 times.",
+     "options": [
+      "who",
+      "whose",
+      "whom",
+      "which"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Chỉ vật, làm chủ ngữ của \"was released\": dùng which.",
+      "en": "\"Which\" refers to a thing and is the subject of \"was released\"."
+     },
+     "trap": "\"Who\" chỉ người; phần mềm là vật."
+    },
+    {
+     "id": "d15-p5-17",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 2,
+     "q": "____ the website was redesigned, online orders have doubled.",
+     "options": [
+      "During",
+      "Because of",
+      "Since",
+      "Despite"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Sau chỗ trống là mệnh đề \"the website was redesigned\", và câu chính ở hiện tại hoàn thành, nên dùng Since.",
+      "en": "A clause follows and the main verb is present perfect: \"Since\"."
+     },
+     "trap": "Because of và Despite cần danh từ, During cũng vậy."
+    },
+    {
+     "id": "d15-p5-18",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 3,
+     "q": "The new router is ____ faster than the previous model.",
+     "options": [
+      "considerable",
+      "considerably",
+      "considering",
+      "consider"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Trước so sánh \"faster\" cần trạng từ: considerably (đáng kể).",
+      "en": "An adverb modifies the comparative \"faster\"."
+     },
+     "trap": "Considerable là tính từ: \"considerable faster\" sai ngữ pháp."
+    },
+    {
+     "id": "d15-p5-19",
+     "part": 5,
+     "skill": "p5.collocation",
+     "level": 3,
+     "q": "Customers must ____ with the terms of the license agreement before installing the software.",
+     "options": [
+      "comply",
+      "obey",
+      "observe",
+      "respect"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Comply with\" là cụm cố định: tuân thủ. Các động từ khác không đi với with.",
+      "en": "\"Comply with\" is the fixed collocation."
+     },
+     "trap": "\"Obey\" cùng nghĩa nhưng đi thẳng với tân ngữ, không có with."
+    },
+    {
+     "id": "d15-p5-20",
+     "part": 5,
+     "skill": "p5.wish-if",
+     "level": 2,
+     "q": "I wish the update ____ so many errors last night.",
+     "options": [
+      "didn't cause",
+      "wouldn't cause",
+      "doesn't cause",
+      "hadn't caused"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"Last night\" là mốc quá khứ nên ước về quá khứ dùng had + V3.",
+      "en": "\"Last night\" marks a past wish: \"hadn't caused\"."
+     },
+     "trap": "Didn't cause là ước ở hiện tại. Em hay quên dấu hiệu thời gian trong câu wish."
+    }
+   ]
+  },
+  {
+   "id": "d15-p5-c",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d15-p5-21",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 2,
+     "q": "The marketing director praised the team for its ____ in launching the app early.",
+     "options": [
+      "efficient",
+      "efficiently",
+      "efficiency",
+      "more efficient"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Sau sở hữu \"its\" cần danh từ: efficiency (hiệu quả).",
+      "en": "A noun follows the possessive \"its\"."
+     },
+     "trap": "Efficient là tính từ, sau its phải có danh từ đi cùng."
+    },
+    {
+     "id": "d15-p5-22",
+     "part": 5,
+     "skill": "p5.passive",
+     "level": 2,
+     "q": "The new security badges ____ to all staff by Monday.",
+     "options": [
+      "will distribute",
+      "will be distributed",
+      "are distributing",
+      "has distributed"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Thẻ là đối tượng được phát: tương lai bị động will be distributed.",
+      "en": "Badges receive the action, so the passive is needed."
+     },
+     "trap": "Will distribute cần tân ngữ sau nó."
+    },
+    {
+     "id": "d15-p5-23",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 1,
+     "q": "The tablet does ____ include a charger.",
+     "options": [
+      "not",
+      "no",
+      "none",
+      "non"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Sau trợ động từ \"does\" cần \"not\" rồi mới đến động từ include.",
+      "en": "\"Does not\" + base verb."
+     },
+     "trap": "\"Does no include\" sai vì no không phủ định động từ."
+    },
+    {
+     "id": "d15-p5-24",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "The training session will be held ____ Room 204.",
+     "options": [
+      "on",
+      "at",
+      "to",
+      "in"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Phòng cụ thể (Room 204) dùng in.",
+      "en": "\"In\" is used for a room."
+     },
+     "trap": "\"At Room 204\" đôi khi gặp trong văn nói nhưng bài thi thường dùng in."
+    },
+    {
+     "id": "d15-p5-25",
+     "part": 5,
+     "skill": "p5.participle",
+     "level": 2,
+     "q": "Employees ____ in the new software should attend the workshop.",
+     "options": [
+      "interesting",
+      "interest",
+      "interested",
+      "interests"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Nhân viên cảm thấy hứng thú (bị tác động): V-ed interested. \"Interested in\" là cụm cố định.",
+      "en": "People feel interest, so the -ed form \"interested in\" is used."
+     },
+     "trap": "Interesting mô tả vật gây hứng thú, không dùng cho người cảm thấy."
+    },
+    {
+     "id": "d15-p5-26",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 1,
+     "q": "The engineer ____ designed the system will lead the training.",
+     "options": [
+      "whom",
+      "who",
+      "whose",
+      "whoever"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Chỉ người và làm chủ ngữ của \"designed\": dùng who.",
+      "en": "A person who is the subject: \"who\"."
+     },
+     "trap": "Whom làm tân ngữ, mà ở đây thiếu chủ ngữ."
+    },
+    {
+     "id": "d15-p5-27",
+     "part": 5,
+     "skill": "p5.comparison",
+     "level": 1,
+     "q": "This year's sales are ____ than last year's.",
+     "options": [
+      "higher",
+      "high",
+      "highest",
+      "more high"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Có \"than\" nên dùng so sánh hơn: higher.",
+      "en": "\"Than\" calls for the comparative \"higher\"."
+     },
+     "trap": "\"More high\" không dùng với tính từ ngắn."
+    },
+    {
+     "id": "d15-p5-28",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 2,
+     "q": "Please back up your files ____ you install the update.",
+     "options": [
+      "during",
+      "despite",
+      "between",
+      "before"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Sau chỗ trống là mệnh đề: dùng liên từ before.",
+      "en": "A clause follows, so a conjunction \"before\" is needed."
+     },
+     "trap": "During và despite là giới từ, không đi trước mệnh đề."
+    },
+    {
+     "id": "d15-p5-29",
+     "part": 5,
+     "skill": "p5.agreement",
+     "level": 3,
+     "q": "The number of online orders ____ increased steadily since January.",
+     "options": [
+      "have",
+      "are",
+      "has",
+      "were"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"The number of\" là số ít: has increased.",
+      "en": "\"The number of\" takes a singular verb."
+     },
+     "trap": "\"A number of\" mới là số nhiều. Em để ý mạo từ the/a nhé."
+    },
+    {
+     "id": "d15-p5-30",
+     "part": 5,
+     "skill": "p5.vocab",
+     "level": 3,
+     "q": "The company's new policy takes ____ on January 1.",
+     "options": [
+      "affect",
+      "effect",
+      "effective",
+      "effectively"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"Take effect\" là cụm cố định: có hiệu lực. Cần danh từ effect.",
+      "en": "\"Take effect\" is the fixed phrase."
+     },
+     "trap": "Affect là động từ, hay bị nhầm với effect."
+    }
+   ]
+  }
+ ],
+ "theory": [
+  {
+   "id": "d15-th-1",
+   "title": {
+    "vi": "30 câu trong 11 phút: 22 giây một câu",
+    "en": "Part 5 pacing"
+   },
+   "rule": {
+    "vi": "Đề thật có 30 câu Part 5, em chỉ nên dành khoảng 11 phút, tức là 22 giây mỗi câu. Nhìn bốn đáp án trước: nếu cùng gốc từ thì là câu dạng từ, chỉ cần xác định chỗ trống là danh từ, tính từ hay trạng từ.",
+    "en": "Part 5 has 30 items; spend about 22 seconds each. Look at the options first: same word family means a word-form item."
+   },
+   "formula": "Options cùng gốc → xác định loại từ | Options khác nghĩa → đọc cả câu",
+   "examples": [
+    {
+     "en": "option set: decide / decision / decisive / decisively",
+     "vi": "Bốn dạng của một từ: xét vị trí chỗ trống."
+    },
+    {
+     "en": "Options: in / on / at / by",
+     "vi": "Giới từ: nhìn từ đứng ngay trước hoặc sau chỗ trống."
+    }
+   ],
+   "tip": "Câu nào quá 30 giây thì khoanh đại một đáp án rồi đi tiếp, quay lại sau nếu còn thời gian. Đừng để một câu khó ăn mất ba câu dễ nhé!"
+  },
+  {
+   "id": "d15-th-2",
+   "title": {
+    "vi": "Các \"bẫy\" hay gặp khi làm nhanh",
+    "en": "Speed traps"
+   },
+   "rule": {
+    "vi": "Khi làm nhanh, em hay trượt ở: no/not, chủ ngữ-động từ bị cụm giới từ che, whom/whose, và giới từ đi kèm. Trước khi chọn, dành một giây hỏi: chủ ngữ thật là gì, sau chỗ trống là danh từ hay mệnh đề?",
+    "en": "Under time pressure, recheck negation, the true subject, whom/whose and fixed prepositions."
+   },
+   "formula": "Sau chỗ trống: Noun → no/whose/prep | Clause → although/because/that",
+   "examples": [
+    {
+     "en": "A list of items is on the desk.",
+     "vi": "Chủ ngữ là list, không phải items."
+    },
+    {
+     "en": "He has no plans.",
+     "vi": "No đứng trước danh từ."
+    }
+   ],
+   "tip": "Anh gọi đây là \"bốn cú nhìn nhanh\": loại từ, chủ ngữ thật, thứ đi sau chỗ trống, cụm cố định. Làm đủ bốn cú là chắc điểm."
+  }
+ ]
+}

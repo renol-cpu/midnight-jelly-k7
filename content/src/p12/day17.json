@@ -1,0 +1,1129 @@
+{
+ "listening": [
+  {
+   "id": "d17-p2-s01",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "When does the bank open?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "At nine on weekdays."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Next to the post office."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "It's a savings account."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p2-01",
+     "part": 2,
+     "skill": "p2.wh-when",
+     "level": 1,
+     "options": [
+      "At nine on weekdays.",
+      "Next to the post office.",
+      "It's a savings account."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "When hỏi giờ; 'At nine on weekdays' trả lời.",
+      "en": "'When' asks for a time, and 'At nine on weekdays' gives it."
+     },
+     "trap": "(B) trả lời Where."
+    }
+   ]
+  },
+  {
+   "id": "d17-p2-s02",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Who's the new accountant?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "By the end of the year."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Her name is Ms. Silva."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "An account number."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p2-02",
+     "part": 2,
+     "skill": "p2.wh-who",
+     "level": 1,
+     "options": [
+      "By the end of the year.",
+      "Her name is Ms. Silva.",
+      "An account number."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Who hỏi người; 'Ms. Silva' là tên người.",
+      "en": "'Who' asks for a person, and Ms. Silva is one."
+     },
+     "trap": "(C) nghe giống accountant/account."
+    }
+   ]
+  },
+  {
+   "id": "d17-p2-s03",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Where can I buy a train ticket?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Round trip, please."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "It's a long train."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "At the machines by gate two."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p2-03",
+     "part": 2,
+     "skill": "p2.wh-where",
+     "level": 1,
+     "options": [
+      "Round trip, please.",
+      "It's a long train.",
+      "At the machines by gate two."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Where hỏi chỗ; 'At the machines by gate two' trả lời.",
+      "en": "'Where' asks for a place, and the machines by gate two are one."
+     },
+     "trap": "(A) nghe như khi đã ở quầy vé."
+    }
+   ]
+  },
+  {
+   "id": "d17-p2-s04",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "How many guests are coming?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "By taxi."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "About thirty, I think."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Yes, the guest room."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p2-04",
+     "part": 2,
+     "skill": "p2.wh-how",
+     "level": 1,
+     "options": [
+      "By taxi.",
+      "About thirty, I think.",
+      "Yes, the guest room."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "How many hỏi số; 'About thirty' trả lời.",
+      "en": "'How many' asks for a number, and 'About thirty' gives one."
+     },
+     "trap": "(A) trả lời How."
+    }
+   ]
+  },
+  {
+   "id": "d17-p2-s05",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Why is the road closed?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "A water pipe burst."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Yes, it's closed."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "At the end of the road."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p2-05",
+     "part": 2,
+     "skill": "p2.wh-why",
+     "level": 1,
+     "options": [
+      "A water pipe burst.",
+      "Yes, it's closed.",
+      "At the end of the road."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Why hỏi lý do; 'A water pipe burst' giải thích.",
+      "en": "'Why' asks for a reason, and the burst pipe is one."
+     },
+     "trap": "(B) lặp closed nhưng là Yes."
+    }
+   ]
+  },
+  {
+   "id": "d17-p2-s06",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Where's the closest laundromat?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "It needs laundry detergent."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Two blocks past the supermarket."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Yes, it's closed."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p2-06",
+     "part": 2,
+     "skill": "p2.wh-where",
+     "level": 1,
+     "options": [
+      "It needs laundry detergent.",
+      "Two blocks past the supermarket.",
+      "Yes, it's closed."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Where hỏi chỗ; 'Two blocks past the supermarket' chỉ đường.",
+      "en": "'Where' asks for a place, and the directions give it."
+     },
+     "trap": "(A) lặp laundry nhưng nói về chất tẩy."
+    }
+   ]
+  },
+  {
+   "id": "d17-p2-s07",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "What's the status of the housing application?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Yes, it's a big house."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "It's still under review."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "To the housing office."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p2-07",
+     "part": 2,
+     "skill": "p2.wh-what",
+     "level": 2,
+     "options": [
+      "Yes, it's a big house.",
+      "It's still under review.",
+      "To the housing office."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "What's the status hỏi tình trạng; 'still under review' trả lời.",
+      "en": "'What's the status' asks about progress, and 'still under review' gives it."
+     },
+     "trap": "(C) lặp housing nhưng là hướng đi."
+    }
+   ]
+  },
+  {
+   "id": "d17-p2-s08",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "When will the landlord fix the heater?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "It's a gas heater."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "He said sometime this week."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Not at the landlord's."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p2-08",
+     "part": 2,
+     "skill": "p2.wh-when",
+     "level": 2,
+     "options": [
+      "It's a gas heater.",
+      "He said sometime this week.",
+      "Not at the landlord's."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "When hỏi lúc nào; 'sometime this week' trả lời.",
+      "en": "'When' asks for timing, and 'sometime this week' gives it."
+     },
+     "trap": "(A) lặp heater nhưng nói loại."
+    }
+   ]
+  },
+  {
+   "id": "d17-p2-s09",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Could you show me the apartment on Elm Street?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Yes, it's on a street."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "I can after my two o'clock appointment."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "It has two bedrooms."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p2-09",
+     "part": 2,
+     "skill": "p2.suggestion",
+     "level": 2,
+     "options": [
+      "Yes, it's on a street.",
+      "I can after my two o'clock appointment.",
+      "It has two bedrooms."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Lời nhờ; 'I can after my appointment' đồng ý có điều kiện.",
+      "en": "A request, and 'I can after my appointment' agrees conditionally."
+     },
+     "trap": "(C) nói về căn hộ nhưng không trả lời lời nhờ."
+    }
+   ]
+  },
+  {
+   "id": "d17-p2-s10",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Where should I send the lease agreement?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "For one year."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "It's agreeable."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Mr. Berg handles those."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p2-10",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 2,
+     "options": [
+      "For one year.",
+      "It's agreeable.",
+      "Mr. Berg handles those."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Chỉ người xử lý thay vì nói nơi gửi: gián tiếp.",
+      "en": "Naming the person who handles it is an indirect answer."
+     },
+     "trap": "(A) trả lời How long."
+    }
+   ]
+  },
+  {
+   "id": "d17-p2-s11",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Why don't we move the deadline to Friday?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "The line is long."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "That works better for the printers."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "It's a good plan to move."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p2-11",
+     "part": 2,
+     "skill": "p2.suggestion",
+     "level": 2,
+     "options": [
+      "The line is long.",
+      "That works better for the printers.",
+      "It's a good plan to move."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Đồng ý với lý do thực tế (máy in).",
+      "en": "It agrees and gives a practical reason."
+     },
+     "trap": "(C) lặp move nhưng nghĩa khác."
+    }
+   ]
+  },
+  {
+   "id": "d17-p2-s12",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Which neighborhood has the lowest rent?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Rent a car."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Yes, the lowest."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Probably the one by the river."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p2-12",
+     "part": 2,
+     "skill": "p2.wh-what",
+     "level": 2,
+     "options": [
+      "Rent a car.",
+      "Yes, the lowest.",
+      "Probably the one by the river."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Which hỏi chọn; 'the one by the river' xác định khu.",
+      "en": "'Which' asks you to identify one, and 'the one by the river' does."
+     },
+     "trap": "(A) lặp rent nhưng là thuê xe."
+    }
+   ]
+  },
+  {
+   "id": "d17-p2-s13",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "How much notice do I need to give before I move out?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "It's in the lease."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "About three boxes."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Yes, I noticed."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p2-13",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 2,
+     "options": [
+      "It's in the lease.",
+      "About three boxes.",
+      "Yes, I noticed."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Chỉ sang hợp đồng: trả lời gián tiếp.",
+      "en": "Pointing to the lease is an indirect answer."
+     },
+     "trap": "(C) nghe giống notice/noticed."
+    }
+   ]
+  },
+  {
+   "id": "d17-p2-s14",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Is the parking space included in the rent?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "The rent is due on the first."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "A space for two cars."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "You'd have to ask the manager."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p2-14",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 2,
+     "options": [
+      "The rent is due on the first.",
+      "A space for two cars.",
+      "You'd have to ask the manager."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Trả lời gián tiếp: hỏi quản lý.",
+      "en": "Directing the asker to the manager is an indirect answer."
+     },
+     "trap": "(A) lặp rent nhưng nói ngày trả."
+    }
+   ]
+  },
+  {
+   "id": "d17-p2-s15",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Who's the contact for maintenance requests?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "There's a form on the website."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "He's a maintenance worker."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Yes, it needs maintenance."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p2-15",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 2,
+     "options": [
+      "There's a form on the website.",
+      "He's a maintenance worker.",
+      "Yes, it needs maintenance."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Chỉ biểu mẫu trên website thay vì tên người: gián tiếp.",
+      "en": "Pointing to the website form is an indirect answer."
+     },
+     "trap": "(B) lặp maintenance nhưng không nêu ai là đầu mối."
+    }
+   ]
+  },
+  {
+   "id": "d17-p2-s16",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "What are the building's office hours?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "The notice is posted by the elevator."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Yes, the hours are long."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "In the leasing office."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p2-16",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 2,
+     "options": [
+      "The notice is posted by the elevator.",
+      "Yes, the hours are long.",
+      "In the leasing office."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Chỉ chỗ dán thông báo: gián tiếp.",
+      "en": "The notice location is an indirect answer."
+     },
+     "trap": "(C) lặp office nhưng là địa điểm."
+    }
+   ]
+  },
+  {
+   "id": "d17-p2-s17",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Has the elevator been repaired yet?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "They're coming on Thursday."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "I repaired my bicycle."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "It's on the sixth floor."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p2-17",
+     "part": 2,
+     "skill": "p2.yes-no",
+     "level": 2,
+     "options": [
+      "They're coming on Thursday.",
+      "I repaired my bicycle.",
+      "It's on the sixth floor."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Yes/No; 'They're coming on Thursday' nghĩa là chưa sửa.",
+      "en": "'They're coming on Thursday' implies not yet."
+     },
+     "trap": "(B) lặp repaired nhưng nói chuyện khác."
+    }
+   ]
+  },
+  {
+   "id": "d17-p2-s18",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Would you like to see the garden or the pool first?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "I'd rather see the gym."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "The pool opens at ten."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Yes, the garden is lovely."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p2-18",
+     "part": 2,
+     "skill": "p2.choice",
+     "level": 3,
+     "options": [
+      "I'd rather see the gym.",
+      "The pool opens at ten.",
+      "Yes, the garden is lovely."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Câu trả lời từ chối cả hai lựa chọn: 'I'd rather see the gym'.",
+      "en": "The reply rejects both options and proposes a third."
+     },
+     "trap": "(B) lặp pool nhưng không chọn."
+    }
+   ]
+  },
+  {
+   "id": "d17-p2-s19",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "I thought the rent included utilities."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Only water and trash removal."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "The utility truck is outside."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "A rent receipt."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p2-19",
+     "part": 2,
+     "skill": "p2.statement",
+     "level": 2,
+     "options": [
+      "Only water and trash removal.",
+      "The utility truck is outside.",
+      "A rent receipt."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Bổ sung thông tin: chỉ gồm nước và rác.",
+      "en": "The reply corrects the assumption with exact details."
+     },
+     "trap": "(B) lặp utility nhưng là xe."
+    }
+   ]
+  },
+  {
+   "id": "d17-p2-s20",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Wasn't the meeting with the tenants supposed to be at noon?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "It got moved to two."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "I'll have a noon appointment."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "No, the lease runs a year."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p2-20",
+     "part": 2,
+     "skill": "p2.yes-no",
+     "level": 3,
+     "options": [
+      "It got moved to two.",
+      "I'll have a noon appointment.",
+      "No, the lease runs a year."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Câu hỏi phủ định; 'It got moved to two' cho biết giờ mới.",
+      "en": "'It got moved to two' answers the negative question with new information."
+     },
+     "trap": "(B) lặp noon nhưng nói về mình."
+    }
+   ]
+  },
+  {
+   "id": "d17-p2-s21",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Why hasn't the security deposit been returned?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "It's a deposit box."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Yes, I returned it."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Accounting is still processing it."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p2-21",
+     "part": 2,
+     "skill": "p2.wh-why",
+     "level": 2,
+     "options": [
+      "It's a deposit box.",
+      "Yes, I returned it.",
+      "Accounting is still processing it."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Why hỏi lý do; 'still processing' giải thích.",
+      "en": "'Why' asks for a reason, and 'still processing' explains it."
+     },
+     "trap": "(B) lặp returned nhưng là Yes."
+    }
+   ]
+  },
+  {
+   "id": "d17-p2-s22",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Do you think we should sign the lease today or wait for the revised version?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "The weather is revised."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Legal said the changes are minor."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Today is the fifth."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p2-22",
+     "part": 2,
+     "skill": "p2.choice",
+     "level": 3,
+     "options": [
+      "The weather is revised.",
+      "Legal said the changes are minor.",
+      "Today is the fifth."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Trả lời gián tiếp: thay đổi nhỏ nên có thể ký ngay.",
+      "en": "An indirect reply: the changes are minor, so signing is fine."
+     },
+     "trap": "(C) lặp today nhưng nói ngày."
+    }
+   ]
+  },
+  {
+   "id": "d17-p2-s23",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "I wish I could afford a bigger place."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "It's an affordable place."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Yes, bigger is better."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Have you looked at shared housing?"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p2-23",
+     "part": 2,
+     "skill": "p2.statement",
+     "level": 3,
+     "options": [
+      "It's an affordable place.",
+      "Yes, bigger is better.",
+      "Have you looked at shared housing?"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "'I wish I could' diễn tả điều ước không thực hiện được; gợi ý nhà ở ghép là đáp ứng tốt.",
+      "en": "'I wish I could' expresses an unreal wish, and suggesting shared housing helps."
+     },
+     "trap": "(A) lặp afford nhưng nói nơi khác."
+    }
+   ]
+  },
+  {
+   "id": "d17-p2-s24",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "What would happen if the landlord refused?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "The landlord is a woman."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Yes, he refused."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "We'd have to file a complaint."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p2-24",
+     "part": 2,
+     "skill": "p2.wh-what",
+     "level": 3,
+     "options": [
+      "The landlord is a woman.",
+      "Yes, he refused.",
+      "We'd have to file a complaint."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "What would happen hỏi hệ quả; 'file a complaint' là bước tiếp.",
+      "en": "'What would happen' asks for a consequence, and filing a complaint is one."
+     },
+     "trap": "(A) lặp landlord nhưng nói giới tính."
+    }
+   ]
+  },
+  {
+   "id": "d17-p2-s25",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Do you have change for a twenty?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "A twenty-minute break."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Yes, he changed it."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Let me check my wallet."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p2-25",
+     "part": 2,
+     "skill": "p2.yes-no",
+     "level": 1,
+     "options": [
+      "A twenty-minute break.",
+      "Yes, he changed it.",
+      "Let me check my wallet."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Trả lời gián tiếp: để kiểm tra ví trước.",
+      "en": "'Let me check my wallet' is an indirect answer to the yes/no question."
+     },
+     "trap": "(A) lặp twenty nhưng nói thời gian nghỉ."
+    }
+   ]
+  }
+ ]
+}

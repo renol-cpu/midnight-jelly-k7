@@ -1,0 +1,144 @@
+{
+  "reading": [
+    {
+      "id": "d04-p7-a",
+      "part": 7,
+      "passages": [
+        {
+          "kind": "ad",
+          "title": "Tidewater Cafe",
+          "text": "TIDEWATER CAFE\nGrand Reopening: Saturday, April 6\n\nAfter three months of renovation, we are back with a bigger dining room and a new seasonal menu!\n\n* The first 50 customers will receive a free coffee.\n* Bring this coupon for 20% off any pastry (valid until April 30).\n* Open daily from 7 A.M. to 6 P.M.\n* Catering for parties of 20 or more is available. Orders must be placed at least 48 hours in advance.\n\nTidewater Cafe, 42 Pier Street\nCall 555-0128 or visit www.tidewatercafe.example"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d04-p7-a-1",
+          "part": 7,
+          "skill": "p7.main-idea",
+          "level": 1,
+          "q": "What is being advertised?",
+          "options": [
+            "A new cafe location",
+            "The reopening of a cafe",
+            "A catering course",
+            "A pastry contest"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Quảng cáo nói về buổi khai trương lại sau ba tháng sửa chữa.",
+            "en": "The ad announces the reopening after renovation."
+          },
+          "trap": "Không có địa điểm mới: quán vẫn ở 42 Pier Street."
+        },
+        {
+          "id": "d04-p7-a-2",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "Who will receive a free coffee?",
+          "options": [
+            "Anyone with a coupon",
+            "The first 50 customers",
+            "Catering customers",
+            "Customers who order pastries"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Chỉ 50 khách đầu tiên được cà phê miễn phí.",
+            "en": "Only the first 50 customers get a free coffee."
+          },
+          "trap": "Coupon dùng để giảm 20% bánh, không phải cà phê."
+        },
+        {
+          "id": "d04-p7-a-3",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 2,
+          "q": "What must a customer do to arrange catering for a party of 25?",
+          "options": [
+            "Visit on April 6",
+            "Order two days ahead",
+            "Bring a coupon",
+            "Pay by April 30"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "48 giờ trước tương đương hai ngày.",
+            "en": "48 hours in advance equals two days ahead."
+          },
+          "trap": "Ngày 30/4 là hạn của coupon bánh, không phải của đơn catering."
+        }
+      ]
+    },
+    {
+      "id": "d04-p7-b",
+      "part": 7,
+      "passages": [
+        {
+          "kind": "ad",
+          "title": "ClearView Window Cleaning",
+          "text": "CLEARVIEW WINDOW CLEANING\nSparkling windows, every time!\n\nResidential and commercial service since 2009. Our trained team brings its own equipment and uses only eco-friendly products.\n\nSpecial offer: New customers receive 15% off their first cleaning. Call before May 31 and mention code CLEAR15.\n\nService is available Monday through Saturday. Sunday appointments are possible for an additional fee.\n\nCall 555-0173 for a free estimate."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d04-p7-b-1",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "What is offered to new customers?",
+          "options": [
+            "A free estimate",
+            "A discount on the first cleaning",
+            "A Sunday service",
+            "A complimentary product"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Khách mới được giảm 15% lần dọn đầu.",
+            "en": "New customers get 15% off their first cleaning."
+          },
+          "trap": "Báo giá miễn phí dành cho mọi khách, không riêng khách mới."
+        },
+        {
+          "id": "d04-p7-b-2",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "How can customers receive the offer?",
+          "options": [
+            "By calling before May 31",
+            "By visiting the office",
+            "By ordering online",
+            "By signing a contract"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Phải gọi trước ngày 31/5 và nêu mã CLEAR15.",
+            "en": "They must call before May 31 and mention the code."
+          },
+          "trap": "Không có thông tin về văn phòng hay đặt hàng trực tuyến."
+        },
+        {
+          "id": "d04-p7-b-3",
+          "part": 7,
+          "skill": "p7.not-true",
+          "level": 2,
+          "q": "What is NOT stated about ClearView?",
+          "options": [
+            "It works with eco-friendly products.",
+            "It has been operating for years.",
+            "It supplies its own equipment.",
+            "It cleans on Sundays at no extra cost."
+          ],
+          "answer": 3,
+          "why": {
+            "vi": "Làm việc Chủ nhật phải trả thêm phí, nên D là điều không đúng.",
+            "en": "Sunday appointments cost an additional fee, so D is not true."
+          },
+          "trap": "Dễ nhầm vì \"Sunday appointments are possible\" nhưng có kèm phụ phí."
+        }
+      ]
+    }
+  ]
+}

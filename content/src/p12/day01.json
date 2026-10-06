@@ -1,0 +1,556 @@
+{
+ "listening": [
+  {
+   "id": "d01-p1-s01",
+   "part": 1,
+   "image": "/img/p1/pp17.jpg",
+   "imageAlt": "Một người đàn ông ngồi đọc trên ghế dài, hai túi mua sắm đặt bên cạnh",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "A man is reading while seated on a bench."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "A man is carrying shopping bags down the street."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "A man is buying a newspaper from a vendor."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "Some shop windows are being washed."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d01-p1-01",
+     "part": 1,
+     "skill": "p1.people-action",
+     "level": 1,
+     "options": [
+      "A man is reading while seated on a bench.",
+      "A man is carrying shopping bags down the street.",
+      "A man is buying a newspaper from a vendor.",
+      "Some shop windows are being washed."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Ông ngồi trên ghế dài và đang đọc, nên (A) đúng. Túi mua sắm nằm trên mặt đất, ông không xách chúng.",
+      "en": "The man is seated and reading, so (A) is correct. The bags are on the ground, not being carried."
+     },
+     "trap": "Câu (B) dễ chọn vì có túi mua sắm trong ảnh, nhưng người đàn ông không đang xách túi."
+    }
+   ]
+  },
+  {
+   "id": "d01-p1-s02",
+   "part": 1,
+   "image": "/img/p1/pp14.jpg",
+   "imageAlt": "Một con tàu du lịch lớn đang chạy trên biển",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "A ship is sailing on the water."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "A ship is being loaded with cargo."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "Some passengers are boarding a boat."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "A bridge is being built over the sea."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d01-p1-02",
+     "part": 1,
+     "skill": "p1.scene",
+     "level": 1,
+     "options": [
+      "A ship is sailing on the water.",
+      "A ship is being loaded with cargo.",
+      "Some passengers are boarding a boat.",
+      "A bridge is being built over the sea."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Tàu đang di chuyển trên mặt nước, nên (A) đúng. Không thấy người lên tàu hay cần cẩu bốc hàng.",
+      "en": "The ship is moving on the water, so (A) fits. Nobody is boarding and no cargo is being loaded."
+     },
+     "trap": "Câu (B) và (C) cùng chủ đề tàu bè nhưng nói về hành động xếp hàng và lên tàu, mà ảnh không có ai làm vậy."
+    }
+   ]
+  },
+  {
+   "id": "d01-p1-s03",
+   "part": 1,
+   "image": "/media/p01.jpg",
+   "imageAlt": "Một con sứa lớn trong suốt nổi giữa nước tối, vài con nhỏ phía trên",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "auM",
+     "text": "A jellyfish is floating in the water."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auM",
+     "text": "A worker is feeding the fish."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auM",
+     "text": "A net is being lowered into a tank."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auM",
+     "text": "Some fish are lined up along the glass."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d01-p1-03",
+     "part": 1,
+     "skill": "p1.scene",
+     "level": 1,
+     "options": [
+      "A jellyfish is floating in the water.",
+      "A worker is feeding the fish.",
+      "A net is being lowered into a tank.",
+      "Some fish are lined up along the glass."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Ảnh chỉ có sứa đang trôi trong nước, nên (A) đúng. Không có người nào trong ảnh.",
+      "en": "The picture shows a jellyfish floating in water, so (A) is right. There are no people in the photo."
+     },
+     "trap": "Câu (B) và (C) cần có người làm việc, nhưng ảnh không có ai. Câu (D) nói về cá, không phải sứa."
+    }
+   ]
+  },
+  {
+   "id": "d01-p1-s04",
+   "part": 1,
+   "image": "/img/p1/pp07.jpg",
+   "imageAlt": "Hai người đàn ông đứng sau quầy bếp, một người mặc đồ đầu bếp trắng, trên quầy có nồi đỏ",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "gbM",
+     "text": "Two men are standing side by side in a kitchen."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbM",
+     "text": "Both men are chopping vegetables."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbM",
+     "text": "A woman is serving food to customers."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbM",
+     "text": "A pot is being carried to a table."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d01-p1-04",
+     "part": 1,
+     "skill": "p1.people-action",
+     "level": 1,
+     "options": [
+      "Two men are standing side by side in a kitchen.",
+      "Both men are chopping vegetables.",
+      "A woman is serving food to customers.",
+      "A pot is being carried to a table."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Hai người đứng cạnh nhau trong bếp, nên (A) đúng. Không ai đang thái rau.",
+      "en": "Two men stand next to each other in a kitchen, so (A) is correct. Nobody is chopping anything."
+     },
+     "trap": "Câu (B) nghe hợp với bếp nhưng không ai đang thái rau. Câu (C) sai người: ảnh không có phụ nữ."
+    }
+   ]
+  },
+  {
+   "id": "d01-p2-s01",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Where is the supply closet?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "It's down the hall, next to the elevator."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Yes, we need more supplies."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "About two hundred dollars."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d01-p2-01",
+     "part": 2,
+     "skill": "p2.wh-where",
+     "level": 1,
+     "options": [
+      "It's down the hall, next to the elevator.",
+      "Yes, we need more supplies.",
+      "About two hundred dollars."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Where hỏi địa điểm, nên 'down the hall' là câu trả lời đúng.",
+      "en": "'Where' asks for a place, and 'down the hall' gives one."
+     },
+     "trap": "(B) lặp từ supplies nhưng trả lời kiểu Yes/No, không hợp câu hỏi Where."
+    }
+   ]
+  },
+  {
+   "id": "d01-p2-s02",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "When does the quarterly report need to be finished?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "In the conference room."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "It's about sales figures."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "By the end of the week."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d01-p2-02",
+     "part": 2,
+     "skill": "p2.wh-when",
+     "level": 1,
+     "options": [
+      "In the conference room.",
+      "It's about sales figures.",
+      "By the end of the week."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "When hỏi thời gian, nên 'By the end of the week' đúng.",
+      "en": "'When' asks about time, so 'By the end of the week' fits."
+     },
+     "trap": "(A) là địa điểm, trả lời nhầm câu hỏi Where."
+    }
+   ]
+  },
+  {
+   "id": "d01-p2-s03",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Who is organizing the staff picnic?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "At the lake park."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "I think Ms. Duarte is."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Around noon."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d01-p2-03",
+     "part": 2,
+     "skill": "p2.wh-who",
+     "level": 1,
+     "options": [
+      "At the lake park.",
+      "I think Ms. Duarte is.",
+      "Around noon."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Who hỏi người, và 'Ms. Duarte' là một người.",
+      "en": "'Who' asks for a person, and Ms. Duarte is a person."
+     },
+     "trap": "(A) trả lời Where, (C) trả lời When; cả hai đều lạc câu hỏi."
+    }
+   ]
+  },
+  {
+   "id": "d01-p2-s04",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Did you receive the invoice from the supplier?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "I'll supply the paper."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Yes, it arrived this morning."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "The invoice is for office chairs."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d01-p2-04",
+     "part": 2,
+     "skill": "p2.yes-no",
+     "level": 1,
+     "options": [
+      "I'll supply the paper.",
+      "Yes, it arrived this morning.",
+      "The invoice is for office chairs."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Câu hỏi Yes/No, và 'Yes, it arrived this morning' trả lời trực tiếp.",
+      "en": "It is a yes/no question and 'Yes, it arrived this morning' answers it directly."
+     },
+     "trap": "(A) có từ supply nghe giống supplier, và (C) lặp invoice nhưng không trả lời việc đã nhận hay chưa."
+    }
+   ]
+  },
+  {
+   "id": "d01-p2-s05",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Why was the tour cancelled?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Two hours long."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Because of the heavy rain."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "To the harbor."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d01-p2-05",
+     "part": 2,
+     "skill": "p2.wh-why",
+     "level": 1,
+     "options": [
+      "Two hours long.",
+      "Because of the heavy rain.",
+      "To the harbor."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Why hỏi lý do, và 'Because of the heavy rain' nêu lý do.",
+      "en": "'Why' asks for a reason, and 'Because of the heavy rain' gives one."
+     },
+     "trap": "(A) trả lời How long, (C) trả lời Where to."
+    }
+   ]
+  },
+  {
+   "id": "d01-p2-s06",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Would you like coffee or tea?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Yes, I'd like to."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Tea, please."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "At the café across the street."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d01-p2-06",
+     "part": 2,
+     "skill": "p2.choice",
+     "level": 1,
+     "options": [
+      "Yes, I'd like to.",
+      "Tea, please.",
+      "At the café across the street."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Câu hỏi chọn A hay B, nên chọn một món là 'Tea, please'.",
+      "en": "It is a choice question, so naming one drink is correct."
+     },
+     "trap": "Không trả lời Yes/No cho câu hỏi 'or'; (A) nghe lịch sự nhưng không chọn gì."
+    }
+   ]
+  },
+  {
+   "id": "d01-p2-s07",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "How can I get a refund for this jacket?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Please show your receipt at the service desk."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "It's a size medium."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Yes, it's on sale."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d01-p2-07",
+     "part": 2,
+     "skill": "p2.wh-how",
+     "level": 2,
+     "options": [
+      "Please show your receipt at the service desk.",
+      "It's a size medium.",
+      "Yes, it's on sale."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "How hỏi cách làm, và 'show your receipt at the service desk' chỉ ra các bước.",
+      "en": "'How' asks for a method, and showing a receipt at the desk explains it."
+     },
+     "trap": "(C) 'on sale' nghe liên quan mua hàng nhưng không nói cách hoàn tiền."
+    }
+   ]
+  },
+  {
+   "id": "d01-p2-s08",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Let's review the budget before the meeting."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "The meeting room is on the third floor."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "No, she isn't a reviewer."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Good idea, I'll bring the spreadsheets."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d01-p2-08",
+     "part": 2,
+     "skill": "p2.statement",
+     "level": 2,
+     "options": [
+      "The meeting room is on the third floor.",
+      "No, she isn't a reviewer.",
+      "Good idea, I'll bring the spreadsheets."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Đây là lời đề nghị; đồng ý và hứa mang bảng tính là phản hồi tự nhiên.",
+      "en": "The speaker makes a suggestion, and agreeing while offering spreadsheets is a natural reply."
+     },
+     "trap": "(A) lặp meeting nhưng nói về địa điểm, không phản hồi lời đề nghị."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,204 @@
+{
+ "listening": [
+  {
+   "id": "d13-p3-a",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Dr. Park's office, how can I help you?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Hi, this is Carl Weston. I have an appointment at four o'clock today, but I'm stuck in traffic."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Let me look at the schedule. How long do you think you'll be?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Probably thirty minutes. There's been an accident on the highway."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "In that case, I'd suggest rescheduling. Dr. Park has another patient at four-thirty and then she's leaving for a conference."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "I see. Do you have anything tomorrow?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "She has an opening at nine. I'll book it for you."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d13-p3-a1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "Why is the man calling?",
+     "options": [
+      "He needs a prescription",
+      "He wants a refund",
+      "He will be late for an appointment",
+      "He lost a form"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Anh bị kẹt xe nên sẽ trễ cuộc hẹn.",
+      "en": "He is stuck in traffic and will be late."
+     },
+     "trap": "Prescription không được nhắc."
+    },
+    {
+     "id": "d13-p3-a2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "Why does the woman suggest a different time?",
+     "options": [
+      "The office is closing",
+      "The man is ill",
+      "A form is incomplete",
+      "The doctor has other plans"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Bác sĩ có bệnh nhân khác rồi đi dự hội nghị.",
+      "en": "Dr. Park has another patient and a conference."
+     },
+     "trap": "Văn phòng không đóng cửa sớm vì lý do nào được nói."
+    },
+    {
+     "id": "d13-p3-a3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the woman do next?",
+     "options": [
+      "Make a new booking",
+      "Call another patient",
+      "Send directions",
+      "Cancel the conference"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô sẽ đặt lịch hẹn lúc 9 giờ sáng mai.",
+      "en": "She will book the nine o'clock slot tomorrow."
+     },
+     "trap": "Cô chưa gọi ai khác."
+    }
+   ]
+  },
+  {
+   "id": "d13-p3-b",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Hi, Jessica. I just got off the phone with the clinic about our annual health screening."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Right, the one in the lobby next month?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Yes. They said it'll take place on the fourteenth and fifteenth, and each employee gets a thirty-minute slot."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "How do we sign up?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "There's a link in the wellness newsletter. But you need to choose a time before the end of the week."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Okay. Is it mandatory?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "No, it's optional, but the company will give a gift card to everyone who participates."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d13-p3-b1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What is the conversation about?",
+     "options": [
+      "A new insurance plan",
+      "A staff health check",
+      "A fitness competition",
+      "A hospital merger"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Họ nói về đợt khám sức khỏe định kỳ hằng năm cho nhân viên.",
+      "en": "The annual health screening is a staff health check."
+     },
+     "trap": "Insurance không được nhắc."
+    },
+    {
+     "id": "d13-p3-b2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "How can employees register?",
+     "options": [
+      "By calling the clinic",
+      "By visiting the lobby",
+      "By using a link in a publication",
+      "By filling out a paper form"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Có đường dẫn trong bản tin sức khỏe, tức là một ấn phẩm.",
+      "en": "The wellness newsletter is a publication."
+     },
+     "trap": "Lobby chỉ là nơi tổ chức khám."
+    },
+    {
+     "id": "d13-p3-b3",
+     "part": 3,
+     "skill": "p3.implication",
+     "level": 3,
+     "q": "What does the man imply about the screening?",
+     "options": [
+      "It lasts a full day",
+      "It costs money",
+      "It will be repeated weekly",
+      "Staff are not required to take part"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Anh nói tùy chọn, nên không bắt buộc.",
+      "en": "He says it is optional, so no one is required."
+     },
+     "trap": "Gift card là phần thưởng, không phải điều kiện."
+    }
+   ]
+  }
+ ]
+}

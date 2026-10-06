@@ -1,0 +1,189 @@
+{
+ "day": 15,
+ "title": {
+  "vi": "Xuồng nhỏ, sóng lớn",
+  "en": "Small Boat, Big Sea"
+ },
+ "story": [
+  {
+   "speaker": "NOVA",
+   "en": "Sonar is online. The network is weak, but I can see the reef on the map. Depth: nine hundred meters.",
+   "vi": "Sonar đã bật. Mạng yếu, nhưng tôi thấy rạn trên bản đồ. Độ sâu: chín trăm mét.",
+   "voice": "usF"
+  },
+  {
+   "speaker": "HUY",
+   "en": "Can you update the route? The Captain will follow us.",
+   "vi": "Cập nhật lộ trình được không? Thuyền trưởng sẽ đuổi theo.",
+   "voice": "caM"
+  },
+  {
+   "speaker": "NOVA",
+   "en": "Done. Warning: battery low. Please save your device power.",
+   "vi": "Xong. Cảnh báo: pin yếu. Xin tiết kiệm pin thiết bị.",
+   "voice": "usF"
+  },
+  {
+   "speaker": "BESUA",
+   "en": "Em là cục pin nhỏ xíu của Huy nè. Em phát sáng cho Huy đỡ sợ. Hihi, sáng chưa? :33",
+   "vi": "Em là cục pin nhỏ của Huy nè. Em phát sáng cho Huy đỡ sợ. Hihi, sáng chưa? :33"
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "In the dark water, small lights float up like stars. Each light is a jellyfish saying: \"This way.\"",
+   "vi": "Trong nước tối, những đốm sáng nhỏ nổi lên như sao. Mỗi đốm là một con sứa nói: \"Lối này.\"",
+   "voice": "gbF"
+  }
+ ],
+ "letter": {
+  "vi": "Shương shương, hôm nay chạy tốc độ: 30 câu Part 5 trong 11 phút, khoảng 20 giây một câu. Ghi mỗi câu sai vào cuốn sổ riêng, bé gọi nó là MY mistakes book cũng được. Câu khó thì đánh dấu, đi tiếp.",
+  "en": "Shương shương, speed run today: 30 Part 5 questions in 11 minutes, about 20 seconds each. Write each miss in a notebook; call it MY mistakes book if you like. Mark hard ones and move on."
+ },
+ "beSua": [
+  "Technology không đếm được nha, không nói \"technologies\" trong câu đơn giản. Software cũng vậy: \"a software\" là sai. :33",
+  "Update là cập nhật, upgrade là nâng cấp. Phần mềm được update, máy được upgrade. Hihi.",
+  "Backup đi chung là danh từ, back up (hai chữ) là động từ. \"Please back up your files\" nè. Dọ!"
+ ],
+ "vocab": [
+  {
+   "word": "software",
+   "pos": "n",
+   "ipa": "/ˈsɒftweə/",
+   "vi": "phần mềm",
+   "example": {
+    "en": "The new software saves a lot of time.",
+    "vi": "Phần mềm mới tiết kiệm nhiều thời gian."
+   },
+   "collocation": "install software"
+  },
+  {
+   "word": "upgrade",
+   "pos": "n",
+   "ipa": "/ˈʌpɡreɪd/",
+   "vi": "bản nâng cấp",
+   "example": {
+    "en": "The upgrade is free for members.",
+    "vi": "Bản nâng cấp miễn phí cho hội viên."
+   },
+   "family": "upgrade (n, v)",
+   "collocation": "system upgrade"
+  },
+  {
+   "word": "install",
+   "pos": "v",
+   "ipa": "/ɪnˈstɔːl/",
+   "vi": "cài đặt",
+   "example": {
+    "en": "Please install the app before Monday.",
+    "vi": "Vui lòng cài ứng dụng trước thứ Hai."
+   },
+   "family": "install (v) / installation (n)",
+   "collocation": "install a program"
+  },
+  {
+   "word": "network",
+   "pos": "n",
+   "ipa": "/ˈnetwɜːk/",
+   "vi": "mạng",
+   "example": {
+    "en": "The office network was down all morning.",
+    "vi": "Mạng văn phòng bị sập cả buổi sáng."
+   },
+   "family": "network (n, v)",
+   "collocation": "wireless network"
+  },
+  {
+   "word": "backup",
+   "pos": "n",
+   "ipa": "/ˈbækʌp/",
+   "vi": "bản sao lưu",
+   "example": {
+    "en": "Make a backup of all your files.",
+    "vi": "Hãy sao lưu mọi tệp của bạn."
+   },
+   "family": "back up (v) / backup (n)",
+   "collocation": "data backup"
+  },
+  {
+   "word": "password",
+   "pos": "n",
+   "ipa": "/ˈpɑːswɜːd/",
+   "vi": "mật khẩu",
+   "example": {
+    "en": "Change your password every three months.",
+    "vi": "Đổi mật khẩu của bạn ba tháng một lần."
+   },
+   "collocation": "reset a password"
+  },
+  {
+   "word": "device",
+   "pos": "n",
+   "ipa": "/dɪˈvaɪs/",
+   "vi": "thiết bị",
+   "example": {
+    "en": "You can use up to three devices.",
+    "vi": "Bạn có thể dùng tối đa ba thiết bị."
+   },
+   "collocation": "mobile device"
+  },
+  {
+   "word": "database",
+   "pos": "n",
+   "ipa": "/ˈdeɪtəbeɪs/",
+   "vi": "cơ sở dữ liệu",
+   "example": {
+    "en": "The database stores all customer records.",
+    "vi": "Cơ sở dữ liệu lưu mọi hồ sơ khách hàng."
+   },
+   "collocation": "update a database"
+  },
+  {
+   "word": "malfunction",
+   "pos": "n",
+   "ipa": "/mælˈfʌŋkʃn/",
+   "vi": "sự cố hỏng hóc",
+   "example": {
+    "en": "A malfunction stopped the printer.",
+    "vi": "Một sự cố khiến máy in dừng."
+   },
+   "family": "malfunction (n, v)",
+   "collocation": "technical malfunction"
+  },
+  {
+   "word": "access",
+   "pos": "v",
+   "ipa": "/ˈækses/",
+   "vi": "truy cập",
+   "example": {
+    "en": "Staff can access the files from home.",
+    "vi": "Nhân viên có thể truy cập tệp từ nhà."
+   },
+   "family": "access (n, v) / accessible (adj)",
+   "collocation": "access to"
+  },
+  {
+   "word": "troubleshoot",
+   "pos": "v",
+   "ipa": "/ˈtrʌblʃuːt/",
+   "vi": "tìm và sửa lỗi",
+   "example": {
+    "en": "The team troubleshot the network problem.",
+    "vi": "Nhóm đã tìm và sửa lỗi mạng."
+   },
+   "family": "troubleshoot (v) / troubleshooting (n)",
+   "collocation": "troubleshoot a problem"
+  },
+  {
+   "word": "compatible",
+   "pos": "adj",
+   "ipa": "/kəmˈpætəbl/",
+   "vi": "tương thích",
+   "example": {
+    "en": "This charger is compatible with most phones.",
+    "vi": "Bộ sạc này tương thích với hầu hết điện thoại."
+   },
+   "family": "compatible (adj) / compatibility (n)",
+   "collocation": "compatible with"
+  }
+ ]
+}

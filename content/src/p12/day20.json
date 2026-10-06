@@ -1,0 +1,454 @@
+{
+ "listening": [
+  {
+   "id": "d20-p2-s01",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Where's the stationery cupboard?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "It's a stationary object."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Behind the copy machine."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "On Tuesday."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d20-p2-01",
+     "part": 2,
+     "skill": "p2.wh-where",
+     "level": 1,
+     "options": [
+      "It's a stationary object.",
+      "Behind the copy machine.",
+      "On Tuesday."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Where hỏi chỗ; 'Behind the copy machine' chỉ vị trí.",
+      "en": "'Where' asks for a place, and 'Behind the copy machine' gives it."
+     },
+     "trap": "(A) nghe giống stationery (văn phòng phẩm) và stationary (đứng yên)."
+    }
+   ]
+  },
+  {
+   "id": "d20-p2-s02",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "When is the training session?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "It's very informative."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "At two thirty in the main hall."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "For all new staff."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d20-p2-02",
+     "part": 2,
+     "skill": "p2.wh-when",
+     "level": 1,
+     "options": [
+      "It's very informative.",
+      "At two thirty in the main hall.",
+      "For all new staff."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "When hỏi giờ; 'At two thirty' trả lời.",
+      "en": "'When' asks for a time, and 'At two thirty' gives it."
+     },
+     "trap": "(A) nhận xét, (C) nói ai tham dự."
+    }
+   ]
+  },
+  {
+   "id": "d20-p2-s03",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Did you sign the delivery slip?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Yes, the driver waited."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "A slip on the wet floor."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "By the front door."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d20-p2-03",
+     "part": 2,
+     "skill": "p2.yes-no",
+     "level": 1,
+     "options": [
+      "Yes, the driver waited.",
+      "A slip on the wet floor.",
+      "By the front door."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Yes/No; 'Yes, the driver waited' xác nhận đã ký.",
+      "en": "'Yes, the driver waited' confirms the signing."
+     },
+     "trap": "(B) lặp slip nhưng nghĩa khác (trượt ngã)."
+    }
+   ]
+  },
+  {
+   "id": "d20-p2-s04",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "How should I label these boxes?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Use the code on the invoice."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Next to the lab."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Yes, boxes were in the lab."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d20-p2-04",
+     "part": 2,
+     "skill": "p2.wh-how",
+     "level": 2,
+     "options": [
+      "Use the code on the invoice.",
+      "Next to the lab.",
+      "Yes, boxes were in the lab."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "How hỏi cách; 'Use the code on the invoice' chỉ cách.",
+      "en": "'How' asks for a method, and using the invoice code answers it."
+     },
+     "trap": "(B) nghe giống label/lab."
+    }
+   ]
+  },
+  {
+   "id": "d20-p2-s05",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Who's going to present the quarterly results?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "At the end of the quarter."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Results are on page two."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "The finance director usually does."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d20-p2-05",
+     "part": 2,
+     "skill": "p2.wh-who",
+     "level": 2,
+     "options": [
+      "At the end of the quarter.",
+      "Results are on page two.",
+      "The finance director usually does."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Who hỏi người; 'The finance director' là người.",
+      "en": "'Who' asks for a person, and the finance director is one."
+     },
+     "trap": "(A) lặp quarter nhưng nói thời gian."
+    }
+   ]
+  },
+  {
+   "id": "d20-p2-s06",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Why hasn't the mural been finished?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "The artist is waiting for more paint."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Yes, it's finished."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "It's a large wall."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d20-p2-06",
+     "part": 2,
+     "skill": "p2.wh-why",
+     "level": 2,
+     "options": [
+      "The artist is waiting for more paint.",
+      "Yes, it's finished.",
+      "It's a large wall."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Why hỏi lý do; 'waiting for more paint' giải thích.",
+      "en": "'Why' asks for a reason, and waiting for paint explains the delay."
+     },
+     "trap": "(B) lặp finished nhưng là Yes."
+    }
+   ]
+  },
+  {
+   "id": "d20-p2-s07",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Would you like to try the new dessert?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "I'm full, but thanks."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Yes, a dessert menu."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "In the desert."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d20-p2-07",
+     "part": 2,
+     "skill": "p2.suggestion",
+     "level": 2,
+     "options": [
+      "I'm full, but thanks.",
+      "Yes, a dessert menu.",
+      "In the desert."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Lời mời; 'I'm full, but thanks' từ chối lịch sự.",
+      "en": "An invitation, and 'I'm full, but thanks' politely declines."
+     },
+     "trap": "(C) nghe giống dessert/desert."
+    }
+   ]
+  },
+  {
+   "id": "d20-p2-s08",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Can the school group book the early slot?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "The group is ten students."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "I'll confirm with the guide."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Yes, a slot machine."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d20-p2-08",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 2,
+     "options": [
+      "The group is ten students.",
+      "I'll confirm with the guide.",
+      "Yes, a slot machine."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cần xác nhận với hướng dẫn viên: trả lời gián tiếp.",
+      "en": "The speaker has to confirm with the guide, an indirect answer."
+     },
+     "trap": "(A) lặp group nhưng nói số lượng."
+    }
+   ]
+  },
+  {
+   "id": "d20-p2-s09",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Where did all the extension cords go?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Yes, they go to the extension."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Mr. Reyes borrowed them for the event."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "In the extension office."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d20-p2-09",
+     "part": 2,
+     "skill": "p2.wh-where",
+     "level": 3,
+     "options": [
+      "Yes, they go to the extension.",
+      "Mr. Reyes borrowed them for the event.",
+      "In the extension office."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Where hỏi nơi; trả lời gián tiếp bằng người mượn.",
+      "en": "'Where' is answered indirectly by naming who borrowed them."
+     },
+     "trap": "(C) lặp extension nhưng nói về một văn phòng."
+    }
+   ]
+  },
+  {
+   "id": "d20-p2-s10",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "If you can't answer a question, what should you do?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Always leave it blank."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "A question mark."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Skip it and come back if there's time."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d20-p2-10",
+     "part": 2,
+     "skill": "p2.wh-what",
+     "level": 3,
+     "options": [
+      "Always leave it blank.",
+      "A question mark.",
+      "Skip it and come back if there's time."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Chiến lược thi: bỏ qua và quay lại; không bao giờ bỏ trống cuối cùng.",
+      "en": "Test strategy: skip it, come back, and never end with a blank."
+     },
+     "trap": "(A) nghe hợp lý nhưng bỏ trống làm mất cơ hội đoán đúng."
+    }
+   ]
+  }
+ ]
+}

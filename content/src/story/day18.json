@@ -1,0 +1,192 @@
+{
+ "day": 18,
+ "title": {
+  "vi": "Tấm áp phích",
+  "en": "The Poster"
+ },
+ "story": [
+  {
+   "speaker": "NARRATOR",
+   "en": "On a rusty wall of the station, an old advertising board. Faded words: \"ABYSSAL. FORGET THE PAIN. START AGAIN.\"",
+   "vi": "Trên bức tường gỉ của trạm, một tấm quảng cáo cũ. Chữ phai: \"ABYSSAL. QUÊN ĐAU. BẮT ĐẦU LẠI.\"",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "HUY",
+   "en": "This is their campaign. They sell forgetting to people who are sad. Customers will pay anything.",
+   "vi": "Đây là chiến dịch của họ. Họ bán sự quên cho người đang buồn. Khách hàng sẽ trả bất cứ giá nào.",
+   "voice": "caM"
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "Beside it hangs a second poster: \"MISSING DIVER. PLEASE CALL.\" The photo is dirty. Huy rubs it, but the water has washed the name away.",
+   "vi": "Cạnh đó có tấm áp phích thứ hai: \"THỢ LẶN MẤT TÍCH. XIN GỌI.\" Tấm ảnh bẩn. Huy lau, nhưng nước đã rửa mất cái tên.",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "BESUA",
+   "en": "Mặt người này nhìn quen quen... hihi chắc em nhìn nhầm. Hihi. :33",
+   "vi": "Gương mặt này nhìn quen quen... hihi chắc em nhìn nhầm. Hihi. :33"
+  },
+  {
+   "speaker": "M",
+   "en": "You are very close. One more signal, Huy. I promise it is a clear one.",
+   "vi": "Em sắp đến rồi. Thêm một tín hiệu nữa thôi, Huy. Anh hứa nó sẽ rõ.",
+   "voice": "usM"
+  }
+ ],
+ "letter": {
+  "vi": "Bé iu, hôm nay tập chia giờ Part 7: một phút cho một câu hỏi. Tối nay ngủ sớm nha, mai WAKE (thức dậy) học 10 phút là đủ rồi, bé đã đi xa lắm. Anh tin bé.",
+  "en": "My love, time-boxing Part 7 today: one minute per question. Sleep early tonight; tomorrow, WAKE up and 10 minutes is enough. You have come so far. I believe in you."
+ },
+ "beSua": [
+  "Advertise là động từ, advertisement là danh từ (quảng cáo), advertising là ngành quảng cáo. Hihi, nhớ word family nha. :33",
+  "Promote vừa là thăng chức, vừa là quảng bá sản phẩm. Phải nhìn ngữ cảnh. Dọ!",
+  "Sale là bán hàng giảm giá, sail là đi thuyền buồm. Đọc giống nhau /seɪl/ nghe là bẫy Part 1-2 hihi. :33"
+ ],
+ "vocab": [
+  {
+   "word": "advertise",
+   "pos": "v",
+   "ipa": "/ˈædvətaɪz/",
+   "vi": "quảng cáo",
+   "example": {
+    "en": "We advertise on radio and online.",
+    "vi": "Chúng tôi quảng cáo trên radio và trực tuyến."
+   },
+   "family": "advertise (v) / advertisement (n) / advertising (n)",
+   "collocation": "advertise a product"
+  },
+  {
+   "word": "campaign",
+   "pos": "n",
+   "ipa": "/kæmˈpeɪn/",
+   "vi": "chiến dịch",
+   "example": {
+    "en": "The campaign starts next month.",
+    "vi": "Chiến dịch bắt đầu vào tháng sau."
+   },
+   "family": "campaign (n, v)",
+   "collocation": "marketing campaign"
+  },
+  {
+   "word": "target",
+   "pos": "n",
+   "ipa": "/ˈtɑːɡɪt/",
+   "vi": "mục tiêu, đối tượng",
+   "example": {
+    "en": "Our target is young families.",
+    "vi": "Đối tượng của chúng tôi là các gia đình trẻ."
+   },
+   "family": "target (n, v)",
+   "collocation": "target audience"
+  },
+  {
+   "word": "brand",
+   "pos": "n",
+   "ipa": "/brænd/",
+   "vi": "thương hiệu",
+   "example": {
+    "en": "It is a well-known brand in Asia.",
+    "vi": "Đó là một thương hiệu nổi tiếng ở châu Á."
+   },
+   "family": "brand (n, v)",
+   "collocation": "brand name"
+  },
+  {
+   "word": "consumer",
+   "pos": "n",
+   "ipa": "/kənˈsjuːmə/",
+   "vi": "người tiêu dùng",
+   "example": {
+    "en": "Consumers prefer products with clear labels.",
+    "vi": "Người tiêu dùng thích sản phẩm có nhãn rõ ràng."
+   },
+   "family": "consume (v) / consumer (n)",
+   "collocation": "consumer goods"
+  },
+  {
+   "word": "survey",
+   "pos": "n",
+   "ipa": "/ˈsɜːveɪ/",
+   "vi": "khảo sát",
+   "example": {
+    "en": "The survey asked 500 customers.",
+    "vi": "Cuộc khảo sát hỏi 500 khách hàng."
+   },
+   "family": "survey (n, v)",
+   "collocation": "conduct a survey"
+  },
+  {
+   "word": "promotion",
+   "pos": "n",
+   "ipa": "/prəˈməʊʃn/",
+   "vi": "khuyến mãi, quảng bá",
+   "example": {
+    "en": "The promotion ends on Sunday.",
+    "vi": "Chương trình khuyến mãi kết thúc vào Chủ nhật."
+   },
+   "family": "promote (v) / promotion (n)",
+   "collocation": "special promotion"
+  },
+  {
+   "word": "launch",
+   "pos": "v",
+   "ipa": "/lɔːntʃ/",
+   "vi": "ra mắt",
+   "example": {
+    "en": "The firm will launch a new product in May.",
+    "vi": "Công ty sẽ ra mắt sản phẩm mới vào tháng Năm."
+   },
+   "family": "launch (n, v)",
+   "collocation": "launch a product"
+  },
+  {
+   "word": "slogan",
+   "pos": "n",
+   "ipa": "/ˈsləʊɡən/",
+   "vi": "khẩu hiệu",
+   "example": {
+    "en": "Their slogan is short and easy to remember.",
+    "vi": "Khẩu hiệu của họ ngắn và dễ nhớ."
+   },
+   "collocation": "catchy slogan"
+  },
+  {
+   "word": "competitor",
+   "pos": "n",
+   "ipa": "/kəmˈpetɪtə/",
+   "vi": "đối thủ cạnh tranh",
+   "example": {
+    "en": "Our main competitor lowered its prices.",
+    "vi": "Đối thủ chính của chúng tôi hạ giá."
+   },
+   "family": "compete (v) / competitor (n) / competition (n)",
+   "collocation": "major competitor"
+  },
+  {
+   "word": "demand",
+   "pos": "n",
+   "ipa": "/dɪˈmɑːnd/",
+   "vi": "nhu cầu",
+   "example": {
+    "en": "Demand for electric bikes is growing.",
+    "vi": "Nhu cầu xe đạp điện đang tăng."
+   },
+   "family": "demand (n, v)",
+   "collocation": "in demand"
+  },
+  {
+   "word": "trend",
+   "pos": "n",
+   "ipa": "/trend/",
+   "vi": "xu hướng",
+   "example": {
+    "en": "Online shopping is a growing trend.",
+    "vi": "Mua sắm trực tuyến là một xu hướng đang tăng."
+   },
+   "family": "trend (n) / trendy (adj)",
+   "collocation": "current trend"
+  }
+ ]
+}

@@ -1,0 +1,354 @@
+{
+ "listening": [
+  {
+   "id": "d12-p4-a",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Welcome to the jellyfish room, everyone. My name is Huy, and I will be your guide for the next fifteen minutes. This is the flame jelly. As you can see, its body is red, not the water around it. The color comes from the animal itself, and it becomes brighter when the light in the tank is dimmed. Please stand behind the yellow line, because the glass is easy to scratch. Flash photography is not allowed, since bright light can stress the animals. If you would like a photo, please ask one of our staff members, and we will be glad to take it for you. After the tour, you can visit our café on the first floor for a free drink."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d12-p4-a1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Where is the talk taking place?",
+     "options": [
+      "At a jellyfish exhibit",
+      "At a fish market",
+      "At a swimming pool",
+      "At a science school"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Người nói chào đón khách vào \"jellyfish room\" nên đây là khu trưng bày sứa.",
+      "en": "The speaker welcomes visitors to the jellyfish room."
+     },
+     "trap": "Fish market là bẫy do cùng chủ đề hải sản, nhưng không có chuyện mua bán."
+    },
+    {
+     "id": "d12-p4-a2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "Why are visitors asked not to use flash photography?",
+     "options": [
+      "It can upset the animals.",
+      "It can break the glass.",
+      "It makes the water red.",
+      "It costs extra money."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Bright light can stress the animals\" được diễn đạt lại thành \"upset the animals\".",
+      "en": "\"Stress the animals\" is paraphrased as \"upset the animals.\""
+     },
+     "trap": "Glass chỉ được nhắc ở câu \"dễ bị trầy\", không liên quan đến đèn flash."
+    },
+    {
+     "id": "d12-p4-a3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 1,
+     "q": "What can visitors do after the tour?",
+     "options": [
+      "Take a free class",
+      "Get a free drink",
+      "Buy a gift",
+      "Feed the animals"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cuối bài có \"visit our café ... for a free drink\".",
+      "en": "The speaker mentions a free drink at the café after the tour."
+     },
+     "trap": "Chọn \"buy a gift\" là nghe nhầm; bài không nhắc quà lưu niệm."
+    }
+   ]
+  },
+  {
+   "id": "d12-p4-b",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Attention, all warehouse employees. This is a reminder about the new shipping schedule that begins next Monday. Because of the growth in online orders, outgoing trucks will now leave at six A.M. and two P.M. instead of at noon. This means all packages for the morning truck must be labeled and placed on the loading dock by five thirty. Supervisors will check the dock every morning, so please do not leave boxes in the aisles. Also, the scanning machines in Section C will be replaced on Friday, so those workers should use the handheld scanners in the meantime. If you have questions about your new hours, speak with your supervisor before the end of this week. Thank you for your cooperation."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d12-p4-b1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "What is the announcement mainly about?",
+     "options": [
+      "A new truck schedule",
+      "A safety inspection",
+      "A holiday party",
+      "A job opening"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Bài thông báo lịch xe giao hàng mới, bắt đầu từ thứ Hai tới.",
+      "en": "The talk announces a new shipping schedule."
+     },
+     "trap": "Bẫy safety inspection: bài có nhắc supervisors \"check the dock\" nhưng đó chỉ là chi tiết."
+    },
+    {
+     "id": "d12-p4-b2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "By what time must morning packages be on the loading dock?",
+     "options": [
+      "5:30 A.M.",
+      "6:00 A.M.",
+      "12:00 noon",
+      "2:00 P.M."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Gói hàng cho xe sáng phải có mặt trước 5 giờ rưỡi, sớm hơn giờ xe chạy 6 giờ.",
+      "en": "Packages must be on the dock by five thirty, before the six A.M. departure."
+     },
+     "trap": "6:00 là giờ xe rời kho, không phải hạn chót đưa hàng ra bến."
+    },
+    {
+     "id": "d12-p4-b3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 2,
+     "q": "What are Section C workers told to use on Friday?",
+     "options": [
+      "Handheld scanners",
+      "New machines",
+      "Extra trucks",
+      "Paper labels"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Máy mới được thay vào thứ Sáu nên trong lúc đó dùng máy quét cầm tay.",
+      "en": "The machines are replaced Friday, so workers use handheld scanners meanwhile."
+     },
+     "trap": "New machines là máy sắp được lắp, chưa dùng được trong thời gian thay."
+    }
+   ]
+  },
+  {
+   "id": "d12-p4-c",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Good afternoon, travelers. This is an announcement for passengers on Train 52 to Brighton. Due to track repairs near Millfield, this train will be delayed by approximately twenty minutes. We apologize for the inconvenience. Passengers who wish to change to the express service should go to Platform 4, where a train will depart in ten minutes. Please have your ticket ready, and a station attendant will stamp it for you free of charge. Refreshments are available at the Central Cafe, located next to the main entrance. For updated travel information, you may also visit our Web site or call the number printed on your ticket. Thank you for your patience."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d12-p4-c1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "What is the reason for the delay?",
+     "options": [
+      "Bad weather",
+      "Track repairs",
+      "A broken door",
+      "A missing driver"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Bài nói \"due to track repairs near Millfield\", tức là sửa đường ray.",
+      "en": "The delay is due to track repairs."
+     },
+     "trap": "Bad weather không được nhắc; bẫy cho người đoán theo kinh nghiệm."
+    },
+    {
+     "id": "d12-p4-c2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 1,
+     "q": "Where should passengers go to take the express train?",
+     "options": [
+      "Platform 4",
+      "The main entrance",
+      "The Central Cafe",
+      "The ticket window"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Tàu nhanh khởi hành từ Platform 4 sau 10 phút.",
+      "en": "The express train leaves from Platform 4."
+     },
+     "trap": "Central Cafe có nhắc nhưng chỉ là chỗ mua đồ uống."
+    },
+    {
+     "id": "d12-p4-c3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 2,
+     "q": "What will an attendant do for passengers who change trains?",
+     "options": [
+      "Stamp their tickets",
+      "Carry their luggage",
+      "Give them a refund",
+      "Serve free drinks"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Stamp it for you free of charge\" nghĩa là đóng dấu vé miễn phí.",
+      "en": "The attendant will stamp tickets at no charge."
+     },
+     "trap": "Free chỉ gắn với việc đóng dấu vé, không phải đồ uống."
+    }
+   ]
+  },
+  {
+   "id": "d12-p4-d",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Hello, team. Before we start the workday, I have a quick update about the office printers. As many of you know, our old machines have been slow and often jam. Starting on Wednesday, the technology department will install three new printers on the third floor. Because the installation takes about two hours, please do not send any print jobs between nine and eleven that morning. If you have an urgent document, you can use the printer in the reception area. Training sessions on the new machines will be held next week, and a sign-up sheet is posted by the break room. I would encourage everyone to attend, since the new printers can also scan documents directly to your e-mail. Thanks for your attention."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d12-p4-d1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "What is the main topic of the talk?",
+     "options": [
+      "New office printers",
+      "A software upgrade",
+      "A meeting schedule",
+      "A budget report"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cả bài nói về máy in mới sẽ được lắp trên tầng ba.",
+      "en": "The talk is about new printers being installed."
+     },
+     "trap": "Software upgrade là bẫy vì có nhắc technology department."
+    },
+    {
+     "id": "d12-p4-d2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "What are employees asked not to do on Wednesday morning?",
+     "options": [
+      "Use the break room",
+      "Send print jobs",
+      "Visit the third floor",
+      "Call the technology department"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Họ không được gửi lệnh in trong khoảng 9 đến 11 giờ.",
+      "en": "Employees should not send any print jobs between nine and eleven."
+     },
+     "trap": "Third floor là nơi lắp máy, không phải điều bị cấm."
+    },
+    {
+     "id": "d12-p4-d3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 3,
+     "q": "According to the speaker, why should employees attend the training?",
+     "options": [
+      "The new printers can scan to e-mail.",
+      "Attendance is required.",
+      "The sessions include lunch.",
+      "Old printers will be removed."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Người nói khuyến khích đi vì máy mới có thể quét thẳng vào e-mail.",
+      "en": "The speaker encourages attendance because the printers can scan to e-mail."
+     },
+     "trap": "Bài chỉ nói \"encourage\", không bắt buộc, nên \"required\" sai."
+    }
+   ]
+  },
+  {
+   "id": "d12-p4-e",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Attention, shoppers. Welcome to Greenfield Market's weekend sale event. Starting right now and continuing until closing time on Sunday, all fresh fruit and vegetables are fifteen percent off. In the bakery section, customers who buy two loaves of bread will receive a third loaf for free. For those of you who plan to shop in bulk, our delivery service is now available for orders over fifty dollars. Simply speak to a cashier at the front counter, and your groceries will arrive at your door within two days. Remember, our loyalty card holders also receive double points on every purchase this weekend. Thank you for shopping at Greenfield Market, and enjoy the savings."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d12-p4-e1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Where is the announcement being made?",
+     "options": [
+      "At a grocery store",
+      "At a farm",
+      "At a restaurant",
+      "At a bakery school"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Có giảm giá rau quả, bánh mì và quầy thu ngân, nên đó là cửa hàng thực phẩm.",
+      "en": "Sale items and cashiers point to a grocery store."
+     },
+     "trap": "Bakery chỉ là một khu trong cửa hàng, không phải nơi diễn ra thông báo."
+    },
+    {
+     "id": "d12-p4-e2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "What do customers get when they buy two loaves of bread?",
+     "options": [
+      "A coupon",
+      "A third loaf",
+      "Fifteen percent off",
+      "Free delivery"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Mua hai ổ được tặng ổ thứ ba miễn phí.",
+      "en": "Buy two loaves and the third is free."
+     },
+     "trap": "Fifteen percent là giảm giá rau quả, không phải bánh mì."
+    },
+    {
+     "id": "d12-p4-e3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 2,
+     "q": "What should customers do to arrange delivery?",
+     "options": [
+      "Call a hotline",
+      "Use a loyalty card",
+      "Speak to a cashier",
+      "Visit a Web site"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Bài nói \"speak to a cashier at the front counter\".",
+      "en": "Customers should speak to a cashier."
+     },
+     "trap": "Loyalty card chỉ liên quan đến điểm thưởng gấp đôi."
+    }
+   ]
+  }
+ ]
+}

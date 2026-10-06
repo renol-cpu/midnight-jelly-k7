@@ -1,0 +1,144 @@
+{
+ "reading": [
+  {
+   "id": "d08-p7-a",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "email",
+     "title": "Room request",
+     "text": "To: Facilities Desk\nFrom: Daniel Okafor, Purchasing Department\nSubject: Room request for Thursday workshop\nDate: May 6\n\nDear Facilities Team,\n\nI am writing to request a larger room for the vendor workshop on Thursday, May 15. We originally booked Conference Room B, which seats twelve. However, 20 people have now confirmed their attendance, so we will need a room with at least 22 seats. We will also need a projector and two microphones.\n\nIf Conference Room A is free from 1:00 P.M. to 4:00 P.M., it would be ideal. Please reply by Friday so that I can update the invitations.\n\nThank you,\nDaniel Okafor"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p7-a1",
+     "part": 7,
+     "skill": "p7.main-idea",
+     "level": 1,
+     "q": "Why did Mr. Okafor write the e-mail?",
+     "options": [
+      "To request a different room",
+      "To cancel a workshop",
+      "To order new equipment",
+      "To invite vendors to a meeting"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Câu đầu: \"request a larger room\". Workshop và thiết bị chỉ là chi tiết.",
+      "en": "The first sentence states the purpose: a request for a larger room."
+     },
+     "trap": "Email có nhắc projector và micro nhưng đó là yêu cầu phụ, không phải mục đích chính."
+    },
+    {
+     "id": "d08-p7-a2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "How many seats does Conference Room B have?",
+     "options": [
+      "Twelve",
+      "Twenty",
+      "Twenty-two",
+      "Twenty-four"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Conference Room B, which seats twelve.\"",
+      "en": "Room B \"seats twelve.\""
+     },
+     "trap": "20 là số người xác nhận, 22 là số chỗ cần có, đều không phải sức chứa của phòng B."
+    },
+    {
+     "id": "d08-p7-a3",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "What does Mr. Okafor ask the Facilities Desk to do by Friday?",
+     "options": [
+      "Install a projector",
+      "Send him a reply",
+      "Contact the vendors",
+      "Update the invitations"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"Please reply by Friday\": anh ấy cần được trả lời.",
+      "en": "He writes, \"Please reply by Friday.\""
+     },
+     "trap": "\"Update the invitations\" là việc chính anh Okafor sẽ làm sau khi nhận được trả lời."
+    }
+   ]
+  },
+  {
+   "id": "d08-p7-b",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "email",
+     "title": "Request for availability",
+     "text": "To: All exhibit staff\nFrom: Priya Nair, Visitor Services Manager\nSubject: Request for availability during school-group week\nDate: May 12\n\nDear colleagues,\n\nNext month the aquarium will host school groups every weekday from June 9 to June 13. Because the groups arrive at 9:30 A.M., we need two additional keepers at the jellyfish exhibit during those mornings.\n\nIf you are willing to start early, please reply with the days you can work by Tuesday, May 27. Staff who volunteer will receive one extra paid day off, which can be taken any time before the end of August.\n\nPlease note that requests from staff who have not completed the group-safety training cannot be accepted. The training is available online until May 23.\n\nRegards,\nPriya Nair"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p7-b1",
+     "part": 7,
+     "skill": "p7.main-idea",
+     "level": 1,
+     "q": "What is the purpose of the e-mail?",
+     "options": [
+      "To announce a new exhibit",
+      "To explain a change in opening hours",
+      "To ask staff to volunteer for extra shifts",
+      "To report on a safety inspection"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Chị Nair cần thêm hai nhân viên, xin người \"willing to start early\" trả lời.",
+      "en": "The manager needs two more keepers and asks willing staff to reply with their available days."
+     },
+     "trap": "Có nhắc \"safety training\" nhưng đó là điều kiện, không phải chủ đề của email."
+    },
+    {
+     "id": "d08-p7-b2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "By when should interested staff reply?",
+     "options": [
+      "May 23",
+      "The end of August",
+      "June 9",
+      "May 27"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"reply with the days you can work by Tuesday, May 27.\"",
+      "en": "The reply deadline is \"Tuesday, May 27.\""
+     },
+     "trap": "May 23 là hạn hoàn thành khóa đào tạo, June 9 là ngày nhóm học sinh đến."
+    },
+    {
+     "id": "d08-p7-b3",
+     "part": 7,
+     "skill": "p7.inference",
+     "level": 3,
+     "q": "What is suggested about a keeper who has not finished the training by May 23?",
+     "options": [
+      "He or she will be unable to join the extra shifts",
+      "He or she will be given a day off",
+      "He or she must take the training in person",
+      "He or she will lose a paid holiday"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Email nói đơn của người chưa học xong \"cannot be accepted\", nên người đó không thể nhận ca thêm.",
+      "en": "Requests from staff without the training \"cannot be accepted,\" so that keeper cannot work the extra shifts."
+     },
+     "trap": "Đừng chọn \"day off\": ngày nghỉ là phần thưởng cho người tình nguyện, không liên quan đến việc thiếu đào tạo."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,444 @@
+{
+ "grammar": [
+  {
+   "id": "d17-p5-a",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d17-p5-01",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 1,
+     "q": "The ____ of the new policy surprised everyone in the office.",
+     "options": [
+      "announcement",
+      "announce",
+      "announced",
+      "announcing"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Sau \"The\" và trước \"of\" cần danh từ: announcement.",
+      "en": "A noun is needed between \"The\" and \"of\"."
+     },
+     "trap": "Announced là V-ed, không đứng làm chủ ngữ sau The."
+    },
+    {
+     "id": "d17-p5-02",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 1,
+     "q": "We need a ____ solution to the parking problem.",
+     "options": [
+      "practicality",
+      "practically",
+      "practice",
+      "practical"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Giữa mạo từ \"a\" và danh từ \"solution\" cần tính từ: practical (thiết thực).",
+      "en": "An adjective sits between \"a\" and the noun \"solution\"."
+     },
+     "trap": "Practice là danh từ; \"practice solution\" không phải cụm hay dùng."
+    },
+    {
+     "id": "d17-p5-03",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 1,
+     "q": "Ms. Torres ____ updates the inventory list every Friday.",
+     "options": [
+      "regular",
+      "regularity",
+      "regularly",
+      "regularize"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Trạng từ đứng trước động từ updates: regularly (đều đặn).",
+      "en": "An adverb before the verb \"updates\"."
+     },
+     "trap": "Regular là tính từ, không đứng trước động từ để bổ nghĩa."
+    },
+    {
+     "id": "d17-p5-04",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 2,
+     "q": "The ____ for the project manager position will be interviewed on Monday.",
+     "options": [
+      "candidacy",
+      "candidates",
+      "candid",
+      "candidly"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"Will be interviewed\" nghĩa là người được phỏng vấn nên cần danh từ chỉ người: candidates.",
+      "en": "A person noun is needed because people are interviewed."
+     },
+     "trap": "Candidacy là danh từ trừu tượng (tư cách ứng viên), không ai bị \"phỏng vấn\" được."
+    },
+    {
+     "id": "d17-p5-05",
+     "part": 5,
+     "skill": "p5.wordform.verb",
+     "level": 1,
+     "q": "The new filter will ____ the quality of the water in the tank.",
+     "options": [
+      "improve",
+      "improvement",
+      "improving",
+      "improvingly"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Sau \"will\" cần động từ nguyên mẫu: improve.",
+      "en": "A base verb follows \"will\"."
+     },
+     "trap": "Improvement là danh từ, không đứng sau will."
+    },
+    {
+     "id": "d17-p5-06",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 2,
+     "q": "The instructions were ____ enough for beginners to follow.",
+     "options": [
+      "clearly",
+      "clarity",
+      "clarify",
+      "clear"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Sau \"were\" và trước \"enough\" cần tính từ: clear.",
+      "en": "An adjective follows \"were\" and precedes \"enough\"."
+     },
+     "trap": "Clearly là trạng từ nên không đứng sau were để mô tả hướng dẫn."
+    },
+    {
+     "id": "d17-p5-07",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 3,
+     "q": "The cashier was ____ helpful to every customer in line.",
+     "options": [
+      "exceptional",
+      "exception",
+      "exceptionally",
+      "exceptions"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Trước tính từ \"helpful\" cần trạng từ: exceptionally (đặc biệt).",
+      "en": "An adverb modifies the adjective \"helpful\"."
+     },
+     "trap": "Exceptional là tính từ; hai tính từ đứng liền nhau không được bổ nghĩa như thế."
+    },
+    {
+     "id": "d17-p5-08",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 2,
+     "q": "Thank you for your ____ in making the event a success.",
+     "options": [
+      "assist",
+      "assistance",
+      "assisted",
+      "assistant"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Sau \"your\" (sở hữu) cần danh từ chỉ sự việc: assistance (sự hỗ trợ).",
+      "en": "A noun follows \"your\"; the thing helped is \"assistance\"."
+     },
+     "trap": "Assistant cũng là danh từ nhưng chỉ người trợ lý, sai nghĩa."
+    },
+    {
+     "id": "d17-p5-09",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 3,
+     "q": "A ____ number of guests requested vegetarian meals.",
+     "options": [
+      "considerable",
+      "considerably",
+      "consider",
+      "considerate"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Trước danh từ \"number\" cần tính từ: considerable (đáng kể). Considerate nghĩa là chu đáo.",
+      "en": "An adjective is needed; \"considerable\" means large."
+     },
+     "trap": "Considerate cũng là tính từ nên dễ chọn nhầm, nhưng nó chỉ người chu đáo."
+    },
+    {
+     "id": "d17-p5-10",
+     "part": 5,
+     "skill": "p5.wordform.verb",
+     "level": 2,
+     "q": "Management plans to ____ the production line next year.",
+     "options": [
+      "expansion",
+      "expansive",
+      "expansively",
+      "expand"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Sau \"to\" cần động từ nguyên mẫu: expand.",
+      "en": "A base verb follows \"to\"."
+     },
+     "trap": "Expansion là danh từ nhưng sau \"plans to\" cần động từ."
+    }
+   ]
+  },
+  {
+   "id": "d17-p5-b",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d17-p5-11",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 1,
+     "q": "The company is seeking a ____ person to manage the front desk.",
+     "options": [
+      "responsibly",
+      "responsibility",
+      "responsible",
+      "responsibilities"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Trước danh từ \"person\" cần tính từ: responsible (có trách nhiệm).",
+      "en": "An adjective precedes the noun \"person\"."
+     },
+     "trap": "Responsibility là danh từ; \"responsibility person\" không đúng."
+    },
+    {
+     "id": "d17-p5-12",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 1,
+     "q": "Prices have risen ____ over the past year.",
+     "options": [
+      "steady",
+      "steadily",
+      "steadiness",
+      "steadied"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Bổ nghĩa cho động từ \"have risen\" cần trạng từ: steadily (đều đặn).",
+      "en": "An adverb modifies \"have risen\"."
+     },
+     "trap": "Steady là tính từ, không bổ nghĩa động từ."
+    },
+    {
+     "id": "d17-p5-13",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 2,
+     "q": "The hotel offers ____ transportation to the airport.",
+     "options": [
+      "complimentary",
+      "compliment",
+      "complimentarily",
+      "complimented"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Trước danh từ \"transportation\" cần tính từ: complimentary (miễn phí). Đây là từ hay thấy trong khách sạn.",
+      "en": "Adjective needed; \"complimentary\" means free of charge."
+     },
+     "trap": "Compliment là lời khen, không dùng làm tính từ."
+    },
+    {
+     "id": "d17-p5-14",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 3,
+     "q": "Visitors are asked to show proper ____ at the entrance.",
+     "options": [
+      "identify",
+      "identifiable",
+      "identified",
+      "identification"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Sau tính từ \"proper\" cần danh từ: identification (giấy tờ tùy thân).",
+      "en": "A noun follows the adjective \"proper\"."
+     },
+     "trap": "Identifiable là tính từ nên không đứng ở vị trí danh từ."
+    },
+    {
+     "id": "d17-p5-15",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 1,
+     "q": "The restaurant's ____ staff made us feel welcome.",
+     "options": [
+      "friendliness",
+      "friend",
+      "friendly",
+      "friendlily"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Trước danh từ \"staff\" cần tính từ: friendly. Chú ý friendly có đuôi -ly nhưng là tính từ.",
+      "en": "\"Friendly\" is an adjective despite its -ly ending."
+     },
+     "trap": "Em dễ nghĩ -ly là trạng từ, nhưng friendly là ngoại lệ nổi tiếng."
+    },
+    {
+     "id": "d17-p5-16",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 2,
+     "q": "The ____ of the bridge will begin in May.",
+     "options": [
+      "construct",
+      "construction",
+      "constructive",
+      "constructively"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Sau \"The\" và trước \"of\" cần danh từ: construction (việc xây dựng).",
+      "en": "A noun between \"The\" and \"of\"."
+     },
+     "trap": "Constructive là tính từ (mang tính xây dựng), không phải việc xây cầu."
+    },
+    {
+     "id": "d17-p5-17",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 2,
+     "q": "Please ____ review the contract before you sign it.",
+     "options": [
+      "carefully",
+      "careful",
+      "care",
+      "cared"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Trước động từ review cần trạng từ: carefully (cẩn thận).",
+      "en": "An adverb before the verb \"review\"."
+     },
+     "trap": "Careful là tính từ nên không bổ nghĩa cho động từ."
+    },
+    {
+     "id": "d17-p5-18",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 2,
+     "q": "The firm's ____ growth attracted many investors.",
+     "options": [
+      "rapidly",
+      "rapidity",
+      "rapids",
+      "rapid"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Trước danh từ \"growth\" cần tính từ: rapid (nhanh chóng).",
+      "en": "An adjective before the noun \"growth\"."
+     },
+     "trap": "Rapidly là trạng từ; \"rapids\" là ghềnh thác, chỉ giống mặt chữ."
+    },
+    {
+     "id": "d17-p5-19",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 3,
+     "q": "Mr. Cho's ____ from the company was announced yesterday.",
+     "options": [
+      "resign",
+      "resigned",
+      "resignation",
+      "resigning"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Sau sở hữu cách \"Mr. Cho's\" cần danh từ: resignation (việc từ chức).",
+      "en": "A noun follows the possessive \"Mr. Cho's\"."
+     },
+     "trap": "Resigned là V-ed, không đứng sau sở hữu cách."
+    },
+    {
+     "id": "d17-p5-20",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 3,
+     "q": "The tour guide spoke ____ about the history of the aquarium.",
+     "options": [
+      "knowledgeable",
+      "knowledgeably",
+      "knowledge",
+      "knowing"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Bổ nghĩa cho động từ \"spoke\" cần trạng từ: knowledgeably (một cách am hiểu).",
+      "en": "An adverb modifies \"spoke\"."
+     },
+     "trap": "Knowledgeable là tính từ chỉ người nói, nhưng vị trí sau spoke cần trạng từ."
+    }
+   ]
+  }
+ ],
+ "theory": [
+  {
+   "id": "d17-th-1",
+   "title": {
+    "vi": "Dạng từ: tìm \"ổ cắm\" trước khi chọn \"phích\"",
+    "en": "Slot finder"
+   },
+   "rule": {
+    "vi": "Đừng chọn theo nghĩa, hãy chọn theo vị trí. Sau mạo từ, tính từ sở hữu, tính từ hoặc giới từ: danh từ. Trước danh từ: tính từ. Bổ nghĩa động từ, tính từ hoặc cả câu: trạng từ. Sau will, can, to: động từ nguyên mẫu.",
+    "en": "Choose by position, not by meaning: noun after determiners/adjectives/prepositions, adjective before a noun or after be, adverb to modify verbs or adjectives, base verb after modals and \"to\"."
+   },
+   "formula": "the/his/ADJ/prep + NOUN | ADJ + NOUN | be + ADJ | ADV + V/ADJ | will/to + V",
+   "examples": [
+    {
+     "en": "Her assistance was helpful.",
+     "vi": "Sự hỗ trợ của cô ấy rất hữu ích."
+    },
+    {
+     "en": "a highly qualified applicant",
+     "vi": "một ứng viên có trình độ cao"
+    }
+   ],
+   "tip": "Em từng nói \"sao không chọn V3 sau and?\" Anh trả lời: vị trí quyết định, không phải sự song song. Nhìn từ đứng trước chỗ trống rồi mới nhìn đáp án."
+  },
+  {
+   "id": "d17-th-2",
+   "title": {
+    "vi": "Đuôi từ và hai cái bẫy lớn",
+    "en": "Suffixes and traps"
+   },
+   "rule": {
+    "vi": "Danh từ hay có đuôi -tion, -ment, -ness, -ity; người làm: -er, -or, -ant. Tính từ: -ful, -ive, -able, -ous. Trạng từ: -ly. Bẫy 1: friendly, costly, likely là TÍNH TỪ dù có -ly. Bẫy 2: hai danh từ cùng họ, một chỉ việc và một chỉ người (assistance và assistant).",
+    "en": "Learn the endings, but watch -ly adjectives (friendly, costly) and pairs like assistance/assistant."
+   },
+   "formula": "-tion/-ment/-ness → N | -ful/-ive/-able/-ous → ADJ | -ly → ADV (trừ friendly, costly, likely)",
+   "examples": [
+    {
+     "en": "The staff are friendly.",
+     "vi": "Nhân viên rất thân thiện."
+    },
+    {
+     "en": "Thank you for your assistance.",
+     "vi": "Cảm ơn sự hỗ trợ của bạn."
+    }
+   ],
+   "tip": "Cặp \"người\" và \"việc\": assistant (người) và assistance (sự hỗ trợ). Có \"your\" đứng trước và \"for\" thì thường là sự việc. Còn \"the ___ will\" thì thường là người."
+  }
+ ]
+}

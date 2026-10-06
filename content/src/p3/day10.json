@@ -1,0 +1,499 @@
+{
+ "listening": [
+  {
+   "id": "d10-p3-a",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Priya, did you see the memo about the parking lot?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Only the headline. Are they closing it?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Just the north section, starting next Monday, for resurfacing. It should take about two weeks."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Two weeks! Where are we supposed to park?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "The company has an agreement with the garage across the street. Employees can use it for free if they show their badge at the gate."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "That's not bad. I was worried we'd have to pay."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Me too. But you'll need to arrive a little earlier, since the garage fills up fast."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d10-p3-a1",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "What will happen to the parking lot?",
+     "options": [
+      "It will be sold",
+      "It will become a garden",
+      "It will require permits",
+      "Part of it will be repaired"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Khu phía bắc đóng để lát lại mặt đường, tức là một phần được sửa.",
+      "en": "The north section closes for resurfacing, so part of it is repaired."
+     },
+     "trap": "Permits không được nhắc, chỉ cần thẻ nhân viên ở garage."
+    },
+    {
+     "id": "d10-p3-a2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "How can employees park in the garage?",
+     "options": [
+      "By showing their identification",
+      "By paying a monthly fee",
+      "By registering online",
+      "By carpooling"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Họ chỉ cần đưa thẻ nhân viên (badge) ở cổng, tức là xuất trình giấy tờ nhận dạng.",
+      "en": "A badge shown at the gate is identification."
+     },
+     "trap": "Họ lo phải trả tiền nhưng thực tế là miễn phí."
+    },
+    {
+     "id": "d10-p3-a3",
+     "part": 3,
+     "skill": "p3.implication",
+     "level": 2,
+     "q": "Why does the man suggest arriving earlier?",
+     "options": [
+      "Traffic will be heavy",
+      "The garage may be full",
+      "The gate opens late",
+      "A meeting starts early"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Anh nói garage đầy rất nhanh, nên đến sớm.",
+      "en": "He says the garage fills up quickly."
+     },
+     "trap": "Traffic không được nhắc tới."
+    }
+   ]
+  },
+  {
+   "id": "d10-p3-b",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Thanks for calling Brightline Internet. How may I assist you?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Hi, my connection has been slow for the past three days, especially in the evenings."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "I'm sorry about that. May I have your account number?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Sure, it's 4-4-8-1-9. I already restarted the router twice."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Thank you. I can see there's been heavy usage in your area. We're installing extra equipment, which should be finished by Friday."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Will I get any credit for the slow service?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "I'll apply a ten-dollar discount to your next bill."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d10-p3-b1",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "What is the man’s problem?",
+     "options": [
+      "His bill is incorrect",
+      "His router is missing",
+      "His internet is slow",
+      "His account is closed"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Anh nói kết nối chậm trong ba ngày qua.",
+      "en": "He says his connection has been slow."
+     },
+     "trap": "Bill chỉ liên quan khi nói về khoản giảm giá."
+    },
+    {
+     "id": "d10-p3-b2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "What does the woman say is the cause?",
+     "options": [
+      "A cable was cut",
+      "An old router",
+      "A billing error",
+      "Many people are using the service"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Cô nói khu vực có lượng sử dụng cao, tức là nhiều người dùng dịch vụ.",
+      "en": "Heavy usage in the area means many people are online."
+     },
+     "trap": "Anh đã khởi động lại router nhưng đó không phải nguyên nhân."
+    },
+    {
+     "id": "d10-p3-b3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What will the woman do for the man?",
+     "options": [
+      "Reduce his next charge",
+      "Send a technician",
+      "Replace his router",
+      "Extend his contract"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô sẽ trừ 10 đô vào hóa đơn tiếp theo, tức là giảm khoản phải trả.",
+      "en": "A ten-dollar discount on the next bill reduces his charge."
+     },
+     "trap": "Không ai nói sẽ cử kỹ thuật viên đến nhà."
+    }
+   ]
+  },
+  {
+   "id": "d10-p3-c",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Good afternoon. I'm Alan from Westbridge Bank. I understand you'd like to open a business account."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Yes, I'm starting a small bakery next month, and I need a place for my deposits."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Congratulations! For a new business, I'd suggest our Starter account. There's no monthly fee for the first year."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "That sounds good. What documents do I need?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Your business license and a photo ID. If you bring them tomorrow, we can finish everything in about twenty minutes."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "I have my ID, but the license hasn't arrived yet."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "No problem. Just come back whenever you have it."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d10-p3-c1",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "What kind of business is the woman starting?",
+     "options": [
+      "A bank",
+      "A bakery",
+      "A bookstore",
+      "A bike shop"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô ấy nói sẽ mở một tiệm bánh nhỏ.",
+      "en": "She is starting a small bakery."
+     },
+     "trap": "Bank là nơi cô đến, không phải việc kinh doanh của cô."
+    },
+    {
+     "id": "d10-p3-c2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "What benefit does the man mention?",
+     "options": [
+      "A free credit card",
+      "A lower interest rate",
+      "No monthly charge for twelve months",
+      "Free business advice"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Không có phí hàng tháng trong năm đầu, tức là 12 tháng.",
+      "en": "No monthly fee for the first year is twelve months without charges."
+     },
+     "trap": "Không có tặng thẻ tín dụng nào được nhắc."
+    },
+    {
+     "id": "d10-p3-c3",
+     "part": 3,
+     "skill": "p3.implication",
+     "level": 2,
+     "q": "What problem does the woman have?",
+     "options": [
+      "She forgot her ID",
+      "She cannot visit tomorrow",
+      "She needs a loan",
+      "She is missing a document"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Cô chưa nhận được giấy phép kinh doanh, tức là thiếu một giấy tờ.",
+      "en": "Her business license has not arrived, so a document is missing."
+     },
+     "trap": "Cô có ID rồi, nên đó không phải vấn đề."
+    }
+   ]
+  },
+  {
+   "id": "d10-p3-d",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Hi, Tom. Are you done reviewing the quarterly sales figures?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Almost. Revenue is up eight percent, but the profit margin dropped slightly."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Why's that? Did we spend more on advertising?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Partly, but the bigger issue is shipping. Fuel prices raised our delivery costs."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "I see. Do you think we should look for a different carrier?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Maybe. I've asked two companies for quotes, and I'll compare them on Thursday."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Great. Send me the numbers once you have them."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d10-p3-d1",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "What increased by eight percent?",
+     "options": [
+      "Revenue",
+      "Profit",
+      "Advertising costs",
+      "Shipping fees"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Doanh thu tăng 8 phần trăm; lợi nhuận biên giảm.",
+      "en": "Revenue is up eight percent while the profit margin fell."
+     },
+     "trap": "Profit giảm, không tăng."
+    },
+    {
+     "id": "d10-p3-d2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "What is the main reason for lower profit margins?",
+     "options": [
+      "Fewer customers",
+      "Higher delivery expenses",
+      "Employee bonuses",
+      "Equipment repairs"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Giá nhiên liệu làm chi phí giao hàng tăng.",
+      "en": "Fuel prices raised delivery costs."
+     },
+     "trap": "Quảng cáo chỉ là một phần nhỏ, người đàn ông nói vấn đề lớn hơn là vận chuyển."
+    },
+    {
+     "id": "d10-p3-d3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What will the man do on Thursday?",
+     "options": [
+      "Meet a new client",
+      "Submit a report",
+      "Compare some offers",
+      "Hire a carrier"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Anh sẽ so sánh báo giá của hai công ty vào thứ Năm.",
+      "en": "He will compare quotes, paraphrased as offers."
+     },
+     "trap": "Anh chưa thuê hãng nào, mới xin báo giá."
+    }
+   ]
+  },
+  {
+   "id": "d10-p3-e",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Excuse me, I'm looking for the conference registration desk. Is it on this floor?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "It's on the second floor, next to the ballroom. But the line is long this morning."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "That's okay. Do I need my confirmation email?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "You can show it on your phone, or you can type your name into one of the kiosks near the escalator. That's much faster."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Oh, I didn't notice those. Where do I pick up my badge?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "The kiosk will print it for you. Then you can collect a program booklet from the volunteers."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d10-p3-e1",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "Where is the registration desk?",
+     "options": [
+      "In the lobby",
+      "Outside the building",
+      "In the basement",
+      "On the second floor"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Quầy đăng ký ở tầng hai cạnh phòng khiêu vũ.",
+      "en": "It is on the second floor, next to the ballroom."
+     },
+     "trap": "Kiosk gần thang cuốn, nhưng quầy ở tầng hai."
+    },
+    {
+     "id": "d10-p3-e2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "What does the woman recommend?",
+     "options": [
+      "Using a self-service machine",
+      "Waiting in line",
+      "Calling the organizers",
+      "Registering online"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô khuyên dùng kiosk tự phục vụ vì nhanh hơn.",
+      "en": "She recommends the kiosks, which are self-service machines."
+     },
+     "trap": "Waiting in line là điều cô cảnh báo là lâu."
+    },
+    {
+     "id": "d10-p3-e3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What can the man get from the volunteers?",
+     "options": [
+      "A name badge",
+      "A program booklet",
+      "A confirmation email",
+      "A map"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Huy hiệu do kiosk in ra; tập chương trình lấy từ tình nguyện viên.",
+      "en": "The kiosk prints the badge; volunteers give the booklet."
+     },
+     "trap": "Badge là thứ kiosk in, không phải tình nguyện viên đưa."
+    }
+   ]
+  }
+ ]
+}

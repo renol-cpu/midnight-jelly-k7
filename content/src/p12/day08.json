@@ -1,0 +1,904 @@
+{
+ "listening": [
+  {
+   "id": "d08-p2-s01",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "When is the next inventory count?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "It counts for twenty percent."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "In the storage room."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Ask Ms. Lee, she has the calendar."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p2-01",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 1,
+     "options": [
+      "It counts for twenty percent.",
+      "In the storage room.",
+      "Ask Ms. Lee, she has the calendar."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Trả lời gián tiếp: không nói ngày mà chỉ người biết ('Ask Ms. Lee').",
+      "en": "An indirect answer: it points to the person who knows."
+     },
+     "trap": "(A) lặp count nhưng nghĩa khác; (B) trả lời Where."
+    }
+   ]
+  },
+  {
+   "id": "d08-p2-s02",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Where should I put these boxes?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "They're pretty heavy."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Yes, boxes are in stock."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Let me check where there's space."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p2-02",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 1,
+     "options": [
+      "They're pretty heavy.",
+      "Yes, boxes are in stock.",
+      "Let me check where there's space."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Trả lời gián tiếp: chưa biết, sẽ kiểm tra chỗ trống.",
+      "en": "An indirect answer: the speaker will check for space first."
+     },
+     "trap": "(A) lặp chủ đề boxes nhưng không chỉ chỗ đặt."
+    }
+   ]
+  },
+  {
+   "id": "d08-p2-s03",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "How much will the repairs cost?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "I'm waiting for the estimate."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "They'll be finished by Friday."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Yes, it's very expensive."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p2-03",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 1,
+     "options": [
+      "I'm waiting for the estimate.",
+      "They'll be finished by Friday.",
+      "Yes, it's very expensive."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Chưa có con số; 'waiting for the estimate' là trả lời gián tiếp.",
+      "en": "There is no figure yet, so waiting for the estimate is an indirect answer."
+     },
+     "trap": "(B) trả lời When, không phải How much."
+    }
+   ]
+  },
+  {
+   "id": "d08-p2-s04",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Who approved the vacation request?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "For about two weeks."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "You should ask the HR department."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Yes, it was a nice vacation."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p2-04",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 1,
+     "options": [
+      "For about two weeks.",
+      "You should ask the HR department.",
+      "Yes, it was a nice vacation."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Khuyên hỏi bộ phận khác là trả lời gián tiếp hợp lệ.",
+      "en": "Pointing to the HR department is a valid indirect answer."
+     },
+     "trap": "(A) lặp chủ đề nghỉ phép nhưng trả lời How long."
+    }
+   ]
+  },
+  {
+   "id": "d08-p2-s05",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Is the conference room available at three?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Let me look at the booking calendar."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Yes, three computers."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "The conference starts at nine."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p2-05",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 1,
+     "options": [
+      "Let me look at the booking calendar.",
+      "Yes, three computers.",
+      "The conference starts at nine."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Chưa biết nên đi kiểm tra lịch: trả lời gián tiếp.",
+      "en": "The speaker will check the calendar, an indirect answer."
+     },
+     "trap": "(B) nghe giống three nhưng nói số máy tính."
+    }
+   ]
+  },
+  {
+   "id": "d08-p2-s06",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Why was the flight to Hanoi cancelled?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "It leaves from gate nine."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Yes, the flight was full."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "I haven't heard the details."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p2-06",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 1,
+     "options": [
+      "It leaves from gate nine.",
+      "Yes, the flight was full.",
+      "I haven't heard the details."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Chưa nghe chi tiết: 'I haven't heard' là cách đáp phổ biến.",
+      "en": "'I haven't heard the details' is a common way to say 'I don't know'."
+     },
+     "trap": "(B) có Yes nên không hợp với câu hỏi Why."
+    }
+   ]
+  },
+  {
+   "id": "d08-p2-s07",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "What time does the aquarium café open for school groups?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "I opened it with a key."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "It's on the website."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Groups of thirty."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p2-07",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 1,
+     "options": [
+      "I opened it with a key.",
+      "It's on the website.",
+      "Groups of thirty."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Chỉ nơi có thông tin: 'It's on the website'.",
+      "en": "Pointing to where the information is posted is an indirect answer."
+     },
+     "trap": "(A) lặp open nhưng nói việc đã làm."
+    }
+   ]
+  },
+  {
+   "id": "d08-p2-s08",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Where is the new intern sitting?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Please sit down."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Two interns."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "I haven't met her yet."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p2-08",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 1,
+     "options": [
+      "Please sit down.",
+      "Two interns.",
+      "I haven't met her yet."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Chưa gặp nên không biết: trả lời gián tiếp.",
+      "en": "Not having met her means the speaker does not know."
+     },
+     "trap": "(A) lặp sit nhưng là câu mời."
+    }
+   ]
+  },
+  {
+   "id": "d08-p2-s09",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Have you received the updated contract?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "The contract is for two years."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Yes, I'd like an update."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "My assistant handles my mail."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p2-09",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 2,
+     "options": [
+      "The contract is for two years.",
+      "Yes, I'd like an update.",
+      "My assistant handles my mail."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Trả lời gián tiếp: để trợ lý xử lý thư nên chưa rõ.",
+      "en": "The assistant handles the mail, so the speaker cannot confirm."
+     },
+     "trap": "(A) lặp contract nhưng nói thời hạn."
+    }
+   ]
+  },
+  {
+   "id": "d08-p2-s10",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Should we order more brochures?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Let's see how many are left first."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Brochures are on the shelf."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "I ordered it already."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p2-10",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 2,
+     "options": [
+      "Let's see how many are left first.",
+      "Brochures are on the shelf.",
+      "I ordered it already."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Muốn kiểm tra số lượng còn lại trước khi quyết định.",
+      "en": "The speaker wants to check the stock before deciding."
+     },
+     "trap": "(B) lặp brochures nhưng không phản hồi đề nghị."
+    }
+   ]
+  },
+  {
+   "id": "d08-p2-s11",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Do you want to take the early or the late train?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Yes, the train is late."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "It depends on when the meeting ends."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "About an hour."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p2-11",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 2,
+     "options": [
+      "Yes, the train is late.",
+      "It depends on when the meeting ends.",
+      "About an hour."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "'It depends on...' là cách đáp gián tiếp cho câu hỏi chọn.",
+      "en": "'It depends on...' is an indirect reply to a choice question."
+     },
+     "trap": "(A) lặp late nhưng là Yes."
+    }
+   ]
+  },
+  {
+   "id": "d08-p2-s12",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "How long will the tank repairs take?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "The technician hasn't told us yet."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "In the quarantine room."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Yes, it's repaired."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p2-12",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 2,
+     "options": [
+      "The technician hasn't told us yet.",
+      "In the quarantine room.",
+      "Yes, it's repaired."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Chưa có thông tin từ kỹ thuật viên: trả lời gián tiếp.",
+      "en": "There is no information yet from the technician."
+     },
+     "trap": "(B) trả lời Where."
+    }
+   ]
+  },
+  {
+   "id": "d08-p2-s13",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Why hasn't the new software been installed?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "You'd better ask IT."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "It's very easy to install."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "On all the computers."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p2-13",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 2,
+     "options": [
+      "You'd better ask IT.",
+      "It's very easy to install.",
+      "On all the computers."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Khuyên hỏi bộ phận IT: gián tiếp nhưng hợp lý.",
+      "en": "Sending the asker to IT is a reasonable indirect answer."
+     },
+     "trap": "(B) lặp install nhưng không giải thích lý do."
+    }
+   ]
+  },
+  {
+   "id": "d08-p2-s14",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Who is replacing Mr. Ito on the project?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Yes, it was replaced."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "That hasn't been decided."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "The project ends in May."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p2-14",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 2,
+     "options": [
+      "Yes, it was replaced.",
+      "That hasn't been decided.",
+      "The project ends in May."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Chưa quyết định: một câu trả lời gián tiếp phổ biến.",
+      "en": "'That hasn't been decided' is a common indirect answer."
+     },
+     "trap": "(C) lặp project nhưng nói về thời hạn."
+    }
+   ]
+  },
+  {
+   "id": "d08-p2-s15",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "What's the plan for the Friday event?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Check the email I sent yesterday."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Yes, on Friday."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Plans are available at the front desk."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p2-15",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 2,
+     "options": [
+      "Check the email I sent yesterday.",
+      "Yes, on Friday.",
+      "Plans are available at the front desk."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Chỉ sang email đã gửi: trả lời gián tiếp.",
+      "en": "Pointing to a previous email is an indirect answer."
+     },
+     "trap": "(C) lặp plan nhưng không nói đúng việc cần biết."
+    }
+   ]
+  },
+  {
+   "id": "d08-p2-s16",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Is the museum free for students?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "The students arrive at ten."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "A free parking lot."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Their website lists all the prices."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p2-16",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 2,
+     "options": [
+      "The students arrive at ten.",
+      "A free parking lot.",
+      "Their website lists all the prices."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Gợi ý xem website thay vì trả lời trực tiếp.",
+      "en": "Suggesting the website is an indirect answer."
+     },
+     "trap": "(A) lặp students nhưng nói giờ đến."
+    }
+   ]
+  },
+  {
+   "id": "d08-p2-s17",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Can you work the split shift next Tuesday?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "The shift was long."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Let me check my other plans first."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Yes, split the cost."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p2-17",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 2,
+     "options": [
+      "The shift was long.",
+      "Let me check my other plans first.",
+      "Yes, split the cost."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cần kiểm tra lịch khác: trả lời gián tiếp. Split shift là ca làm bị chia làm hai đoạn.",
+      "en": "The speaker needs to check other plans first; a split shift is a workday divided in two parts."
+     },
+     "trap": "(C) lặp split nhưng nghĩa khác (chia tiền)."
+    }
+   ]
+  },
+  {
+   "id": "d08-p2-s18",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Did you see the memo about the cleanliness inspection?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "I haven't checked my inbox this morning."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "The clean room is on the left."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "An inspection form."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p2-18",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 2,
+     "options": [
+      "I haven't checked my inbox this morning.",
+      "The clean room is on the left.",
+      "An inspection form."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Chưa mở hộp thư nên chưa xem: trả lời gián tiếp.",
+      "en": "Not having checked the inbox implies not having seen the memo."
+     },
+     "trap": "(B) nghe giống clean nhưng chỉ chỗ."
+    }
+   ]
+  },
+  {
+   "id": "d08-p2-s19",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Where do I submit the travel receipts?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "It was a long trip."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "The finance team sent instructions last week."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "By the end of the month."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p2-19",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 3,
+     "options": [
+      "It was a long trip.",
+      "The finance team sent instructions last week.",
+      "By the end of the month."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Chỉ đến hướng dẫn của bộ phận tài chính thay vì nói nơi nộp.",
+      "en": "It points to finance's instructions rather than naming a place."
+     },
+     "trap": "(C) trả lời When."
+    }
+   ]
+  },
+  {
+   "id": "d08-p2-s20",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Would you rather start now or wait until the manager arrives?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Does she know we're ready?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "I'd rather have the window seat."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "She arrives on flight two."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d08-p2-20",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 3,
+     "options": [
+      "Does she know we're ready?",
+      "I'd rather have the window seat.",
+      "She arrives on flight two."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Hỏi ngược lại là một cách trả lời gián tiếp ở mức khó.",
+      "en": "A question in return is a harder kind of indirect reply."
+     },
+     "trap": "(B) lặp 'I'd rather' nhưng sang chủ đề khác."
+    }
+   ]
+  }
+ ]
+}

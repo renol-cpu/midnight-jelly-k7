@@ -1,0 +1,425 @@
+{
+ "grammar": [
+  {
+   "id": "d10-p5-a",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d10-p5-01",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 1,
+     "q": "____ the heavy traffic, we arrived on time.",
+     "options": [
+      "Although",
+      "Despite",
+      "Because",
+      "However"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Sau chỗ trống là danh từ nên cần giới từ.",
+      "en": "A noun follows, so a preposition."
+     },
+     "trap": "\"Although\" cần chủ ngữ và động từ."
+    },
+    {
+     "id": "d10-p5-02",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 1,
+     "q": "____ it was raining, the tour continued.",
+     "options": [
+      "Although",
+      "Despite",
+      "Due to",
+      "In spite"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Sau chỗ trống là mệnh đề nên cần liên từ.",
+      "en": "A clause follows, so a conjunction."
+     },
+     "trap": "\"Despite\" cần danh từ."
+    },
+    {
+     "id": "d10-p5-03",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 1,
+     "q": "The flight was delayed ____ bad weather.",
+     "options": [
+      "because",
+      "although",
+      "so that",
+      "because of"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Sau chỗ trống là danh từ nên cần giới từ.",
+      "en": "A noun follows: preposition."
+     },
+     "trap": "\"Because\" cần mệnh đề."
+    },
+    {
+     "id": "d10-p5-04",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 1,
+     "q": "Please call us ____ you need help.",
+     "options": [
+      "unless",
+      "during",
+      "if",
+      "without"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"If you need\" là mệnh đề điều kiện hợp nghĩa.",
+      "en": "\"If you need\" gives the sensible condition."
+     },
+     "trap": "\"Unless\" nghĩa ngược lại."
+    },
+    {
+     "id": "d10-p5-05",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 1,
+     "q": "____ the manager was away, the assistant handled the complaint.",
+     "options": [
+      "During",
+      "While",
+      "Despite",
+      "Because of"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Sau chỗ trống có mệnh đề nên cần liên từ.",
+      "en": "A clause follows: conjunction."
+     },
+     "trap": "\"During\" cần danh từ."
+    },
+    {
+     "id": "d10-p5-06",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 2,
+     "q": "Employees may leave early ____ they finish their tasks.",
+     "options": [
+      "provided that",
+      "in spite of",
+      "due to",
+      "during"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Provided that\" là liên từ điều kiện.",
+      "en": "\"Provided that\" is a conditional conjunction."
+     },
+     "trap": "Ba đáp án kia là giới từ."
+    },
+    {
+     "id": "d10-p5-07",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 2,
+     "q": "We will not start the meeting ____ everyone arrives.",
+     "options": [
+      "during",
+      "by",
+      "because of",
+      "until"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"Until\" + mệnh đề: cho đến khi.",
+      "en": "\"Until\" + clause."
+     },
+     "trap": "\"By\" nghĩa trước khi."
+    },
+    {
+     "id": "d10-p5-08",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 2,
+     "q": "____ his lack of experience, Mr. Ito got the job.",
+     "options": [
+      "Even though",
+      "Although",
+      "In spite of",
+      "Whereas"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Sau chỗ trống là danh từ nên cần giới từ.",
+      "en": "A noun follows: preposition."
+     },
+     "trap": "Ba đáp án kia cần mệnh đề."
+    },
+    {
+     "id": "d10-p5-09",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 2,
+     "q": "The café is popular ____ its location and low prices.",
+     "options": [
+      "because",
+      "because of",
+      "so",
+      "although"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Sau chỗ trống là danh từ nên cần giới từ.",
+      "en": "Noun phrase follows: preposition."
+     },
+     "trap": "\"Because\" cần mệnh đề."
+    },
+    {
+     "id": "d10-p5-10",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 1,
+     "q": "Please lock the door ____ you leave.",
+     "options": [
+      "before",
+      "during",
+      "despite",
+      "due to"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Sau chỗ trống là mệnh đề nên cần liên từ \"before\".",
+      "en": "A clause follows: \"before\" as conjunction."
+     },
+     "trap": "\"During\" cần danh từ."
+    }
+   ]
+  },
+  {
+   "id": "d10-p5-b",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d10-p5-11",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 2,
+     "q": "____ the tickets are sold out, there is a waiting list.",
+     "options": [
+      "Despite",
+      "Regardless",
+      "In spite",
+      "Although"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Mệnh đề theo sau nên cần liên từ.",
+      "en": "A clause follows: conjunction."
+     },
+     "trap": "\"Despite\" không đi với mệnh đề."
+    },
+    {
+     "id": "d10-p5-12",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 3,
+     "q": "Sales dropped last year; ____, the company stayed profitable.",
+     "options": [
+      "although",
+      "despite",
+      "however",
+      "because"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Trạng từ liên kết sau dấu chấm phẩy: however.",
+      "en": "A linking adverb after a semicolon: however."
+     },
+     "trap": "\"Although\" không đứng sau dấu chấm phẩy."
+    },
+    {
+     "id": "d10-p5-13",
+     "part": 5,
+     "skill": "p5.pronoun",
+     "level": 1,
+     "q": "Ms. Aoki wrote the report ____.",
+     "options": [
+      "her",
+      "herself",
+      "hers",
+      "she"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Nhấn mạnh người viết: herself.",
+      "en": "Emphasis on who wrote: herself."
+     },
+     "trap": "\"Her\" là tân ngữ."
+    },
+    {
+     "id": "d10-p5-14",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "The sale ends ____ midnight on Sunday.",
+     "options": [
+      "at",
+      "on",
+      "in",
+      "by"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Giờ cụ thể dùng \"at\".",
+      "en": "\"At\" for a clock time."
+     },
+     "trap": "\"On midnight\" sai."
+    },
+    {
+     "id": "d10-p5-15",
+     "part": 5,
+     "skill": "p5.agreement",
+     "level": 1,
+     "q": "The price of the tickets ____ increased.",
+     "options": [
+      "have",
+      "are",
+      "were",
+      "has"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Chủ ngữ \"price\" số ít.",
+      "en": "\"Price\" is singular."
+     },
+     "trap": "\"Tickets\" số nhiều làm rối."
+    },
+    {
+     "id": "d10-p5-16",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 1,
+     "q": "The museum will ____ open until July.",
+     "options": [
+      "no",
+      "none",
+      "not",
+      "nothing"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"Will not open\" phủ định động từ.",
+      "en": "\"Will not\" negates the verb."
+     },
+     "trap": "\"Will no open\" sai."
+    },
+    {
+     "id": "d10-p5-17",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "Visitors can learn ____ the history of the harbor at the center.",
+     "options": [
+      "at",
+      "about",
+      "to",
+      "by"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cụm cố định: learn about.",
+      "en": "Fixed phrase: learn about."
+     },
+     "trap": "\"Learn to\" nghĩa khác."
+    },
+    {
+     "id": "d10-p5-18",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 1,
+     "q": "Mr. Abe gave a ____ answer to the question.",
+     "options": [
+      "clear",
+      "clearly",
+      "clarity",
+      "clearness"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Trước danh từ \"answer\" cần tính từ.",
+      "en": "Adjective before \"answer\"."
+     },
+     "trap": "\"Clarity answer\" sai."
+    },
+    {
+     "id": "d10-p5-19",
+     "part": 5,
+     "skill": "p5.comparison",
+     "level": 2,
+     "q": "The shipment arrived ____ than expected.",
+     "options": [
+      "early",
+      "earliest",
+      "earliness",
+      "earlier"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Có \"than\" nên dùng so sánh hơn.",
+      "en": "\"Than\" signals a comparative."
+     },
+     "trap": "\"Earliest\" so sánh nhất không đi với \"than\"."
+    },
+    {
+     "id": "d10-p5-20",
+     "part": 5,
+     "skill": "p5.passive",
+     "level": 1,
+     "q": "A new schedule ____ posted yesterday.",
+     "options": [
+      "were",
+      "has",
+      "was",
+      "is"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"Yesterday\" và chủ ngữ số ít nên \"was posted\".",
+      "en": "\"Yesterday\" plus singular subject: \"was posted\"."
+     },
+     "trap": "\"Is posted\" không hợp \"yesterday\"."
+    }
+   ]
+  }
+ ],
+ "theory": [
+  {
+   "id": "d10-th-1",
+   "title": {
+    "vi": "Although hay despite?",
+    "en": "Conjunction or preposition?"
+   },
+   "rule": {
+    "vi": "Liên từ (although, because, while, if) + mệnh đề (có chủ ngữ và động từ). Giới từ (despite, because of, during) + danh từ hoặc V-ing.",
+    "en": "Conjunctions (although, because, while, if) take a clause (subject + verb). Prepositions (despite, because of, during) take a noun or V-ing."
+   },
+   "formula": "ALTHOUGH + S + V   |   DESPITE + NOUN   |   BECAUSE + S + V   |   BECAUSE OF + NOUN",
+   "examples": [
+    {
+     "en": "Although it was raining, the tour continued.",
+     "vi": "Although + mệnh đề."
+    },
+    {
+     "en": "Despite the heavy traffic, we arrived on time.",
+     "vi": "Despite + danh từ."
+    },
+    {
+     "en": "The flight was delayed because of bad weather.",
+     "vi": "Because of + danh từ."
+    }
+   ],
+   "tip": "Mẹo thi: nhìn ngay sau ô trống. Có chủ ngữ + động từ thì chọn liên từ; chỉ có danh từ thì chọn giới từ. Một giây là xong, như sứa búng chuông."
+  }
+ ]
+}

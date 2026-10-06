@@ -1,0 +1,198 @@
+{
+ "day": 16,
+ "title": {
+  "vi": "Bản hợp đồng",
+  "en": "The Contract"
+ },
+ "story": [
+  {
+   "speaker": "BAO",
+   "en": "Huy, listen to me on the radio. I am offering you a contract. Sign it, and I will take you to M. today.",
+   "vi": "Huy, nghe tôi trên radio. Tôi đưa em một bản hợp đồng. Ký đi, và hôm nay tôi sẽ đưa em đến chỗ M.",
+   "voice": "auM"
+  },
+  {
+   "speaker": "HUY",
+   "en": "What are the terms?",
+   "vi": "Điều khoản là gì?",
+   "voice": "caM"
+  },
+  {
+   "speaker": "BAO",
+   "en": "Simple. One clause: you take the reset. You forget the pain, and the sea, and him. You live a happy, quiet life.",
+   "vi": "Đơn giản. Một điều khoản: em dùng reset. Em quên nỗi đau, quên biển, quên cậu ấy. Em sống bình yên, hạnh phúc.",
+   "voice": "auM"
+  },
+  {
+   "speaker": "HUY",
+   "en": "No. I will not terminate my own memory. Even the sad ones are mine.",
+   "vi": "Không. Em sẽ không chấm dứt trí nhớ của mình. Kể cả những cái buồn cũng là của em.",
+   "voice": "caM"
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "Huy turns off the radio. His hand is shaking. In the tiny window of the boat, he sees his own face, pale and tired.",
+   "vi": "Huy tắt radio. Tay anh run. Trong ô cửa sổ nhỏ của xuồng, em thấy gương mặt mình, nhợt nhạt và mệt mỏi.",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "M",
+   "en": "Good. Do not sign anything. I am waiting for you, not for the Captain.",
+   "vi": "Tốt. Đừng ký gì cả. Anh đợi em, không phải đợi thuyền trưởng.",
+   "voice": "usM"
+  }
+ ],
+ "letter": {
+  "vi": "Bé iu, hôm nay Part 4 có bảng. Đọc bảng trước, rồi nghe xem cái gì thay đổi. Nghe cả VOICE (giọng) người nói nữa: họ nhấn vào đâu thường là đáp án. Anh tin bé.",
+  "en": "My love, Part 4 with graphics today. Read the table first, then listen for what changes. Listen to the speaker's VOICE too: where they stress is often the answer. I believe in you."
+ },
+ "beSua": [
+  "Contract là hợp đồng, contact là liên lạc. Chỉ khác một chữ r thôi mà khác nghĩa 😭 Hihi.",
+  "Party trong hợp đồng là bên ký kết, không phải bữa tiệc nha. \"The two parties agree...\" Dọ!",
+  "Sign là ký, assign là giao việc. Hihi, \"sign\" chữ g câm, đọc /saɪn/. :33"
+ ],
+ "vocab": [
+  {
+   "word": "contract",
+   "pos": "n",
+   "ipa": "/ˈkɒntrækt/",
+   "vi": "hợp đồng",
+   "example": {
+    "en": "Both sides signed the contract.",
+    "vi": "Hai bên đã ký hợp đồng."
+   },
+   "family": "contract (n, v)",
+   "collocation": "sign a contract"
+  },
+  {
+   "word": "term",
+   "pos": "n",
+   "ipa": "/tɜːm/",
+   "vi": "điều khoản, thời hạn",
+   "example": {
+    "en": "Please read the terms carefully.",
+    "vi": "Vui lòng đọc kỹ các điều khoản."
+   },
+   "family": "term (n)",
+   "collocation": "terms and conditions"
+  },
+  {
+   "word": "clause",
+   "pos": "n",
+   "ipa": "/klɔːz/",
+   "vi": "điều khoản, mệnh đề",
+   "example": {
+    "en": "The clause on payment is on page two.",
+    "vi": "Điều khoản thanh toán nằm ở trang hai."
+   },
+   "collocation": "contract clause"
+  },
+  {
+   "word": "party",
+   "pos": "n",
+   "ipa": "/ˈpɑːti/",
+   "vi": "bên (trong hợp đồng)",
+   "example": {
+    "en": "Each party has thirty days to reply.",
+    "vi": "Mỗi bên có ba mươi ngày để trả lời."
+   },
+   "collocation": "third party"
+  },
+  {
+   "word": "sign",
+   "pos": "v",
+   "ipa": "/saɪn/",
+   "vi": "ký tên",
+   "example": {
+    "en": "Please sign at the bottom of the page.",
+    "vi": "Vui lòng ký ở cuối trang."
+   },
+   "family": "sign (v) / signature (n)",
+   "collocation": "sign an agreement"
+  },
+  {
+   "word": "renew",
+   "pos": "v",
+   "ipa": "/rɪˈnjuː/",
+   "vi": "gia hạn",
+   "example": {
+    "en": "You can renew the lease online.",
+    "vi": "Bạn có thể gia hạn hợp đồng thuê trực tuyến."
+   },
+   "family": "renew (v) / renewal (n)",
+   "collocation": "renew a contract"
+  },
+  {
+   "word": "terminate",
+   "pos": "v",
+   "ipa": "/ˈtɜːmɪneɪt/",
+   "vi": "chấm dứt",
+   "example": {
+    "en": "Either party may terminate the contract.",
+    "vi": "Mỗi bên đều có thể chấm dứt hợp đồng."
+   },
+   "family": "terminate (v) / termination (n)",
+   "collocation": "terminate an agreement"
+  },
+  {
+   "word": "obligation",
+   "pos": "n",
+   "ipa": "/ˌɒblɪˈɡeɪʃn/",
+   "vi": "nghĩa vụ",
+   "example": {
+    "en": "You have an obligation to pay on time.",
+    "vi": "Bạn có nghĩa vụ thanh toán đúng hạn."
+   },
+   "family": "oblige (v) / obligation (n) / obligatory (adj)",
+   "collocation": "legal obligation"
+  },
+  {
+   "word": "agreement",
+   "pos": "n",
+   "ipa": "/əˈɡriːmənt/",
+   "vi": "thỏa thuận",
+   "example": {
+    "en": "They reached an agreement last night.",
+    "vi": "Họ đạt được thỏa thuận tối qua."
+   },
+   "family": "agree (v) / agreement (n)",
+   "collocation": "reach an agreement"
+  },
+  {
+   "word": "expire",
+   "pos": "v",
+   "ipa": "/ɪkˈspaɪə/",
+   "vi": "hết hạn",
+   "example": {
+    "en": "Your card expires in March.",
+    "vi": "Thẻ của bạn hết hạn vào tháng Ba."
+   },
+   "family": "expire (v) / expiration (n)",
+   "collocation": "expire on"
+  },
+  {
+   "word": "comply",
+   "pos": "v",
+   "ipa": "/kəmˈplaɪ/",
+   "vi": "tuân thủ",
+   "example": {
+    "en": "All staff must comply with the safety rules.",
+    "vi": "Mọi nhân viên phải tuân thủ quy tắc an toàn."
+   },
+   "family": "comply (v) / compliance (n)",
+   "collocation": "comply with"
+  },
+  {
+   "word": "negotiate",
+   "pos": "v",
+   "ipa": "/nɪˈɡəʊʃieɪt/",
+   "vi": "đàm phán",
+   "example": {
+    "en": "We negotiated a lower price.",
+    "vi": "Chúng tôi đã đàm phán được giá thấp hơn."
+   },
+   "family": "negotiate (v) / negotiation (n)",
+   "collocation": "negotiate a contract"
+  }
+ ]
+}

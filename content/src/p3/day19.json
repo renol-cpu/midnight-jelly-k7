@@ -1,0 +1,204 @@
+{
+ "listening": [
+  {
+   "id": "d19-p3-a",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Sam, the tour group from the school is coming Thursday, and I'm worried about the schedule."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "How many students are there?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Forty. The jellyfish tank is the most popular stop, but it only fits about fifteen people at a time."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Then let's split them into three groups. We can also stagger the start times by fifteen minutes."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Good idea. But I'll need someone to supervise the gift shop line, too."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "I can do that, as long as the team lead covers the front desk."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "I'll ask her this afternoon."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d19-p3-a1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What are the speakers planning for?",
+     "options": [
+      "A visit by students",
+      "A staff meeting",
+      "A maintenance check",
+      "A product demonstration"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Họ chuẩn bị đón đoàn học sinh vào thứ Năm.",
+      "en": "A school group will visit."
+     },
+     "trap": "Maintenance không được nhắc."
+    },
+    {
+     "id": "d19-p3-a2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "Why will the group be divided?",
+     "options": [
+      "The tour is too long",
+      "One exhibit can hold only a limited number",
+      "Some students are younger",
+      "A guide is absent"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Bể sứa chỉ chứa khoảng 15 người một lần.",
+      "en": "The tank fits only about fifteen at a time."
+     },
+     "trap": "Không nói có hướng dẫn viên vắng mặt."
+    },
+    {
+     "id": "d19-p3-a3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What will the woman do this afternoon?",
+     "options": [
+      "Print tickets",
+      "Order souvenirs",
+      "Speak to a supervisor",
+      "Close the tank"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Cô sẽ hỏi trưởng nhóm, tức là nói chuyện với người giám sát.",
+      "en": "The team lead is the supervisor she will ask."
+     },
+     "trap": "Người đàn ông sẽ trông hàng ở cửa hàng quà tặng."
+    }
+   ]
+  },
+  {
+   "id": "d19-p3-b",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Rachel, I'm updating the shipping policy on our website. Do you remember what we decided about international orders?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "We said they'd ship free if the total is over one hundred and fifty dollars, but otherwise the customer pays."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "And the delivery time?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Seven to ten business days. I wouldn't promise anything shorter, because customs can hold packages."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Fine. Should I mention returns as well?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Yes, but briefly. Customers have thirty days, and we cover the return fee only if the item is damaged."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Got it. I'll send you the draft after lunch."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d19-p3-b1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What is the man working on?",
+     "options": [
+      "A customer survey",
+      "A warehouse layout",
+      "A sales contract",
+      "A website update"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Anh đang cập nhật chính sách vận chuyển trên trang web.",
+      "en": "He updates the shipping policy online."
+     },
+     "trap": "Contract không được nhắc."
+    },
+    {
+     "id": "d19-p3-b2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "When is overseas shipping free?",
+     "options": [
+      "For purchases above a certain amount",
+      "For first-time buyers",
+      "During weekends",
+      "For express delivery"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Miễn phí khi tổng đơn trên 150 đô.",
+      "en": "Free over $150, i.e. above a certain amount."
+     },
+     "trap": "Không có ưu đãi cho người mua lần đầu."
+    },
+    {
+     "id": "d19-p3-b3",
+     "part": 3,
+     "skill": "p3.implication",
+     "level": 3,
+     "q": "Why does the woman avoid promising faster delivery?",
+     "options": [
+      "Fuel is expensive",
+      "Packages might be delayed at the border",
+      "Orders are large",
+      "Staff are on vacation"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Hải quan có thể giữ hàng, nên không hứa nhanh hơn.",
+      "en": "Customs can hold packages, causing delays at the border."
+     },
+     "trap": "Chi phí nhiên liệu không được nhắc."
+    }
+   ]
+  }
+ ]
+}

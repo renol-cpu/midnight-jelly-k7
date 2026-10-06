@@ -1,0 +1,73 @@
+{
+ "reading": [
+  {
+   "id": "d20-p7-a",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "memo",
+     "title": "Updated travel reimbursement",
+     "text": "MEMO\nTo: All sales staff\nFrom: Finance Department\nDate: November 10\nSubject: Updated travel reimbursement\n\nStarting January 1, employees must submit expense reports within 14 days of returning from a trip. Reports submitted later will be processed only with approval from a department head.\n\nMeals are reimbursed up to $55 per day. Receipts are required for any single expense over $20.\n\nEmployees should book flights through the company's travel portal. Tickets bought elsewhere will be reimbursed only at the portal's price for the same flight. Hotel rates above $180 per night require advance approval."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d20-p7-a1",
+     "part": 7,
+     "skill": "p7.main-idea",
+     "level": 1,
+     "q": "What is the memo about?",
+     "options": [
+      "New rules for travel expenses",
+      "A change in sales targets",
+      "A new travel portal design",
+      "Hotel discounts for staff"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Tiêu đề và nội dung đều là quy định hoàn chi phí đi công tác.",
+      "en": "The subject and content concern travel reimbursement rules."
+     }
+    },
+    {
+     "id": "d20-p7-a2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "What is required for a $25 taxi fare?",
+     "options": [
+      "Approval from a department head",
+      "A receipt",
+      "A hotel invoice",
+      "Nothing"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Mọi khoản chi lẻ trên $20 đều cần hóa đơn; $25 vượt $20.",
+      "en": "Receipts are required for any single expense over $20, and $25 is over $20."
+     },
+     "trap": "Phê duyệt của trưởng phòng chỉ cần khi nộp báo cáo trễ hạn."
+    },
+    {
+     "id": "d20-p7-a3",
+     "part": 7,
+     "skill": "p7.inference",
+     "level": 3,
+     "q": "An employee buys a $420 ticket outside the portal. The portal price for the same flight is $380. How much will probably be reimbursed?",
+     "options": [
+      "$380",
+      "$400",
+      "$420",
+      "$0"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Vé mua ngoài cổng chỉ được hoàn theo giá của cổng cho cùng chuyến bay: $380.",
+      "en": "Tickets bought elsewhere are reimbursed only at the portal price, which is $380."
+     },
+     "trap": "Chọn $420 là bỏ qua quy định mức hoàn bằng giá của cổng đặt vé."
+    }
+   ]
+  }
+ ]
+}

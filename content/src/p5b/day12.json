@@ -1,0 +1,448 @@
+{
+ "grammar": [
+  {
+   "id": "d12-p5-a",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d12-p5-01",
+     "part": 5,
+     "skill": "p5.collocation",
+     "level": 1,
+     "q": "The new barcode scanners led to a sharp rise in employee ____.",
+     "options": [
+      "production",
+      "productive",
+      "productively",
+      "productivity"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"Employee productivity\" là cụm danh từ ghép: năng suất của nhân viên. Production chỉ sản lượng hàng hoá.",
+      "en": "\"Employee productivity\" means how efficiently staff work; production means goods made."
+     },
+     "trap": "Em hay chọn production vì nghe quen, nhưng nhân viên thì có năng suất (productivity), không có \"sản lượng\"."
+    },
+    {
+     "id": "d12-p5-02",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 1,
+     "q": "Please read the safety ____ before operating the forklift.",
+     "options": [
+      "regulatory",
+      "regulated",
+      "regulations",
+      "regulating"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Sau \"safety\" cần một danh từ để tạo cụm \"safety regulations\" (quy định an toàn). Ba đáp án còn lại là tính từ hoặc V-ing.",
+      "en": "A noun is needed after \"safety\" to form \"safety regulations\"."
+     },
+     "trap": "Regulatory là tính từ, đứng sau \"safety\" thì cụm bị sai nghĩa."
+    },
+    {
+     "id": "d12-p5-03",
+     "part": 5,
+     "skill": "p5.collocation",
+     "level": 1,
+     "q": "Customer ____ surveys will be sent to all clients in March.",
+     "options": [
+      "satisfy",
+      "satisfaction",
+      "satisfied",
+      "satisfying"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"Customer satisfaction survey\" là cụm cố định: khảo sát mức độ hài lòng của khách hàng.",
+      "en": "\"Customer satisfaction survey\" is a fixed noun phrase."
+     },
+     "trap": "\"Satisfied\" là tính từ nên nghe được, nhưng cụm chuẩn trong đề thi là danh từ satisfaction."
+    },
+    {
+     "id": "d12-p5-04",
+     "part": 5,
+     "skill": "p5.collocation",
+     "level": 1,
+     "q": "The ____ date for the Osaka shipment has been moved to Friday.",
+     "options": [
+      "delivery",
+      "deliver",
+      "delivered",
+      "delivering"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Delivery date\" là cụm danh từ ghép: ngày giao hàng. Danh từ đầu giữ nguyên số ít.",
+      "en": "\"Delivery date\" is a fixed noun + noun phrase."
+     },
+     "trap": "\"Delivered date\" nghe ổn nhưng không ai dùng, vì ngày giao chưa xảy ra."
+    },
+    {
+     "id": "d12-p5-05",
+     "part": 5,
+     "skill": "p5.collocation",
+     "level": 1,
+     "q": "The aquarium café offers a ____ discount to school visits of twenty or more.",
+     "options": [
+      "grouping",
+      "grouped",
+      "groupie",
+      "group"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"Group discount\" là giảm giá cho nhóm. Danh từ đầu để số ít, không thêm -ing hay -ed.",
+      "en": "\"Group discount\" is a standard noun + noun phrase."
+     },
+     "trap": "Grouped là V-ed nên nghe như tính từ, nhưng cụm này dùng danh từ thuần."
+    },
+    {
+     "id": "d12-p5-06",
+     "part": 5,
+     "skill": "p5.collocation",
+     "level": 2,
+     "q": "Mr. Alvarez is in charge of quality ____ at the packaging plant.",
+     "options": [
+      "controlled",
+      "controlling",
+      "control",
+      "controller"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"Quality control\" là cụm cố định: kiểm soát chất lượng. Controller chỉ người điều khiển.",
+      "en": "\"Quality control\" is a fixed phrase; a controller is a person."
+     },
+     "trap": "Controller cũng là danh từ nên dễ nhầm, nhưng nó chỉ người, không phải bộ phận công việc."
+    },
+    {
+     "id": "d12-p5-07",
+     "part": 5,
+     "skill": "p5.collocation",
+     "level": 2,
+     "q": "All new hires must complete the ____ process within two weeks.",
+     "options": [
+      "registered",
+      "registration",
+      "registering",
+      "register"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"Registration process\" là cụm danh từ ghép: quy trình đăng ký. Cần danh từ dạng -tion.",
+      "en": "\"Registration process\" is the natural noun + noun pair."
+     },
+     "trap": "\"Register\" cũng có thể là danh từ nhưng không đi với \"process\" trong cụm này."
+    },
+    {
+     "id": "d12-p5-08",
+     "part": 5,
+     "skill": "p5.collocation",
+     "level": 2,
+     "q": "The factory's monthly ____ rose to 12,000 units.",
+     "options": [
+      "production",
+      "productivity",
+      "producer",
+      "productive"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Có \"12,000 units\" nghĩa là sản lượng, nên chọn production. Productivity là năng suất, không đếm bằng \"units\".",
+      "en": "Units point to output, so \"production\" fits; productivity measures efficiency."
+     },
+     "trap": "Productivity nghe sang hơn, nhưng \"units\" cho biết đề đang hỏi sản lượng."
+    },
+    {
+     "id": "d12-p5-09",
+     "part": 5,
+     "skill": "p5.collocation",
+     "level": 2,
+     "q": "A travel ____ is required for every business trip abroad.",
+     "options": [
+      "authorize",
+      "authorized",
+      "authorizing",
+      "authorization"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"Travel authorization\" là cụm danh từ: giấy phép đi công tác. Sau mạo từ \"A travel\" cần danh từ.",
+      "en": "\"Travel authorization\" is a noun phrase meaning approval to travel."
+     },
+     "trap": "\"Authorized\" là tính từ, nhưng sau \"travel\" cần danh từ để ghép cụm."
+    },
+    {
+     "id": "d12-p5-10",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 3,
+     "q": "The finance team will review the expense ____ before the month ends.",
+     "options": [
+      "reported",
+      "reportedly",
+      "reports",
+      "reporter"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"Expense reports\" là báo cáo chi phí, cụm danh từ ghép quen thuộc. Reporter chỉ phóng viên.",
+      "en": "\"Expense reports\" is the standard business phrase."
+     },
+     "trap": "Reporter cũng là danh từ nhưng chỉ người, không ai \"review\" một phóng viên chi phí."
+    }
+   ]
+  },
+  {
+   "id": "d12-p5-b",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d12-p5-11",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 1,
+     "q": "There were ____ complaints about the new menu this month.",
+     "options": [
+      "not",
+      "no",
+      "none",
+      "neither"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"No + danh từ\" dùng khi phủ định cả danh từ. \"Not\" cần đứng trước tính từ hoặc động từ.",
+      "en": "\"No\" goes directly before a noun; \"not\" negates verbs and adjectives."
+     },
+     "trap": "Em hay chọn not, nhưng not không đứng thẳng trước danh từ."
+    },
+    {
+     "id": "d12-p5-12",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 1,
+     "q": "Ms. Cho is the manager ____ team won the regional award.",
+     "options": [
+      "whose",
+      "whom",
+      "who",
+      "which"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Sau chỗ trống là danh từ \"team\", nên cần \"whose\" (của người đó). Whom/who không đi trực tiếp với danh từ.",
+      "en": "A noun follows the gap, so possessive \"whose\" is needed."
+     },
+     "trap": "Whom là tân ngữ, chỉ dùng khi sau nó là chủ ngữ hoặc động từ, không phải danh từ."
+    },
+    {
+     "id": "d12-p5-13",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "The new software is compatible ____ most operating systems.",
+     "options": [
+      "to",
+      "for",
+      "by",
+      "with"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"Compatible with\" là cụm cố định: tương thích với.",
+      "en": "\"Compatible with\" is a fixed collocation."
+     },
+     "trap": "\"Compatible to\" nghe giống tiếng Việt \"tương thích với\" nhưng đề luôn dùng with."
+    },
+    {
+     "id": "d12-p5-14",
+     "part": 5,
+     "skill": "p5.passive",
+     "level": 2,
+     "q": "The trade show was attended ____ more than 300 buyers.",
+     "options": [
+      "with",
+      "from",
+      "by",
+      "for"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Câu bị động chỉ người thực hiện dùng \"by\": được tham dự bởi hơn 300 người mua.",
+      "en": "In passives the doer is introduced by \"by\"."
+     },
+     "trap": "\"With\" nghe tự nhiên trong tiếng Việt (có hơn 300 người), nhưng bị động cần by."
+    },
+    {
+     "id": "d12-p5-15",
+     "part": 5,
+     "skill": "p5.agreement",
+     "level": 3,
+     "q": "Neither the supervisors nor the manager ____ told about the change last week.",
+     "options": [
+      "were",
+      "was",
+      "are",
+      "have been"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Với neither...nor, động từ chia theo chủ ngữ gần nhất: \"the manager\" là số ít nên dùng was.",
+      "en": "With neither...nor the verb agrees with the nearer subject, \"the manager\"."
+     },
+     "trap": "Thấy \"supervisors\" nhiều nên chọn were là bẫy: chỉ nhìn danh từ sát động từ."
+    },
+    {
+     "id": "d12-p5-16",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 1,
+     "q": "____ the heavy rain, the outdoor tour went ahead as planned.",
+     "options": [
+      "Despite",
+      "Although",
+      "Because",
+      "However"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Sau chỗ trống là cụm danh từ \"the heavy rain\", nên cần giới từ Despite. Although cần một mệnh đề.",
+      "en": "A noun phrase follows, so the preposition \"Despite\" is needed."
+     },
+     "trap": "Although cùng nghĩa nhưng phải đi với mệnh đề có chủ ngữ và động từ."
+    },
+    {
+     "id": "d12-p5-17",
+     "part": 5,
+     "skill": "p5.pronoun",
+     "level": 1,
+     "q": "Mr. Lim repaired the pump ____ instead of calling a technician.",
+     "options": [
+      "him",
+      "his",
+      "he",
+      "himself"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Đại từ phản thân \"himself\" nhấn mạnh anh ấy tự làm, không nhờ ai. Chủ ngữ và tân ngữ cùng là một người.",
+      "en": "The reflexive \"himself\" shows he did it on his own."
+     },
+     "trap": "\"Him\" chỉ đúng khi tân ngữ là một người khác, ở đây là chính Mr. Lim."
+    },
+    {
+     "id": "d12-p5-18",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 2,
+     "q": "Staff members are required to arrive ____ 8:45 A.M.",
+     "options": [
+      "until",
+      "during",
+      "by",
+      "within"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"By + mốc giờ\" nghĩa là chậm nhất vào lúc đó. Until đi với hành động kéo dài.",
+      "en": "\"By + time\" means no later than that time."
+     },
+     "trap": "\"Until\" nghe giống \"đến lúc\" nhưng arrive là hành động tức thời nên không đi với until."
+    },
+    {
+     "id": "d12-p5-19",
+     "part": 5,
+     "skill": "p5.agreement",
+     "level": 1,
+     "q": "The warranty period ____ on the date of purchase.",
+     "options": [
+      "begin",
+      "begins",
+      "beginning",
+      "to begin"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Chủ ngữ \"period\" số ít, nên động từ chia thêm -s: begins.",
+      "en": "The singular subject \"period\" needs \"begins\"."
+     },
+     "trap": "Em đừng bị \"date of purchase\" ở cuối đánh lừa, chủ ngữ là warranty period."
+    },
+    {
+     "id": "d12-p5-20",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "The conference room is available ____ Tuesday afternoons.",
+     "options": [
+      "on",
+      "at",
+      "in",
+      "by"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Thứ trong tuần (kể cả \"Tuesday afternoons\") dùng giới từ on.",
+      "en": "Days of the week take \"on\"."
+     },
+     "trap": "\"In\" dùng cho buổi chung chung (in the afternoon), nhưng có tên thứ thì phải on."
+    }
+   ]
+  }
+ ],
+ "theory": [
+  {
+   "id": "d12-th-1",
+   "title": {
+    "vi": "Danh từ + danh từ: danh từ đầu làm \"tính từ\"",
+    "en": "Noun + noun"
+   },
+   "rule": {
+    "vi": "Hai danh từ đứng liền nhau thành một cụm: danh từ đứng trước bổ nghĩa cho danh từ sau và luôn ở dạng số ít (không thêm -s).",
+    "en": "Two nouns can sit together: the first describes the second and stays singular."
+   },
+   "formula": "NOUN (singular) + NOUN  → safety rule, delivery date, quality control",
+   "examples": [
+    {
+     "en": "The delivery date has changed.",
+     "vi": "Ngày giao hàng đã thay đổi."
+    },
+    {
+     "en": "Please read the safety regulations.",
+     "vi": "Hãy đọc các quy định an toàn."
+    },
+    {
+     "en": "Customer satisfaction is our priority.",
+     "vi": "Sự hài lòng của khách hàng là ưu tiên."
+    }
+   ],
+   "tip": "Thấy chỗ trống nằm ngay trước một danh từ mà đáp án có cả V-ing, V-ed, adj? Đừng vội chọn tính từ. Thử ghép \"danh từ + danh từ\" nghe tự nhiên không, ví dụ \"expense report\". Cụm cố định thắng!"
+  },
+  {
+   "id": "d12-th-2",
+   "title": {
+    "vi": "Production hay productivity?",
+    "en": "Production vs productivity"
+   },
+   "rule": {
+    "vi": "Production là sản lượng, việc sản xuất ra hàng hoá. Productivity là năng suất, hiệu quả làm việc của người hoặc máy.",
+    "en": "Production = the act or amount of making goods. Productivity = how efficiently people or machines work."
+   },
+   "formula": "production = số lượng làm ra | productivity = làm ra nhanh/hiệu quả cỡ nào",
+   "examples": [
+    {
+     "en": "Production rose to 12,000 units.",
+     "vi": "Sản lượng tăng lên 12.000 sản phẩm."
+    },
+    {
+     "en": "New software improved staff productivity.",
+     "vi": "Phần mềm mới nâng cao năng suất nhân viên."
+    }
+   ],
+   "tip": "Mẹo của anh: thấy \"units\", \"factory\", \"plant\" thì nghĩ production. Thấy \"employee\", \"staff\", \"efficiency\" thì nghĩ productivity. Em đã trượt cặp này rồi, lần này nhớ nhé!"
+  }
+ ]
+}

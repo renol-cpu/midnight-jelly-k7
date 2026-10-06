@@ -1,0 +1,354 @@
+{
+ "listening": [
+  {
+   "id": "d14-p4-a",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Good evening, and welcome to the Riverside Science Museum. I am Marcus, and tonight I will guide you through our new exhibit on renewable energy. We will start in the Wind Hall, where you can see a working model of a turbine. Please do not touch the model, but feel free to take pictures. Next, we will move on to the Solar Garden, where visitors can test how sunlight turns into electricity. The tour will end in the gift shop, where members receive a twenty percent discount. For those of you who are not members, you can sign up at the information desk for a yearly pass at half price tonight only. Now, if you will follow me, we will begin."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p4-a1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Who is the speaker?",
+     "options": [
+      "A museum guide",
+      "A shop clerk",
+      "A scientist",
+      "A wind engineer"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh ấy giới thiệu bản thân và nói sẽ dẫn khách tham quan.",
+      "en": "He says he will guide visitors through an exhibit."
+     },
+     "trap": "Scientist là bẫy do chủ đề khoa học."
+    },
+    {
+     "id": "d14-p4-a2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "What can visitors do in the Solar Garden?",
+     "options": [
+      "Take photos of animals",
+      "Test how sunlight makes electricity",
+      "Buy solar panels",
+      "Meet an engineer"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Ở Solar Garden khách thử nghiệm ánh sáng mặt trời thành điện.",
+      "en": "Visitors can test how sunlight is turned into electricity."
+     },
+     "trap": "Wind Hall mới có mô hình tua-bin, không phải Solar Garden."
+    },
+    {
+     "id": "d14-p4-a3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 2,
+     "q": "What can non-members do tonight?",
+     "options": [
+      "Enter for free",
+      "Buy a half-price yearly pass",
+      "Skip the tour",
+      "Get a twenty percent discount"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Chỉ tối nay, thẻ năm giá nửa tiền cho người chưa là hội viên.",
+      "en": "Non-members can sign up for a yearly pass at half price tonight."
+     },
+     "trap": "Twenty percent chỉ dành cho hội viên mua ở cửa hàng quà tặng."
+    }
+   ]
+  },
+  {
+   "id": "d14-p4-b",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Good morning, everyone, and thank you for coming to the quarterly sales meeting. Before I turn to the figures, I want to share a bit of good news. Our Asia office has increased sales by eighteen percent compared with last quarter, which is the best result in the company. As a result, we will open a second office in Singapore this autumn. This means we will need three experienced managers to relocate. Anyone who is interested should speak with Human Resources by the end of next week. Now, if you look at the handout I have distributed, you will see that sales in our European office were flat. We will discuss some ideas for improving that in the second half of the meeting."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p4-b1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "What good news does the speaker share?",
+     "options": [
+      "A merger is complete.",
+      "Sales rose in Asia.",
+      "A manager was promoted.",
+      "A product was launched."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Văn phòng châu Á tăng doanh số 18 phần trăm.",
+      "en": "The Asia office increased sales by eighteen percent."
+     },
+     "trap": "Europe thì doanh số không đổi, không phải tin tốt."
+    },
+    {
+     "id": "d14-p4-b2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "What will the company do this autumn?",
+     "options": [
+      "Hire a consultant",
+      "Open a new office",
+      "Close an old office",
+      "Redesign a product"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Mở văn phòng thứ hai ở Singapore vào mùa thu.",
+      "en": "The company will open a second office in Singapore."
+     },
+     "trap": "Close an old office không có trong bài."
+    },
+    {
+     "id": "d14-p4-b3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 2,
+     "q": "What should interested employees do?",
+     "options": [
+      "Fill out a survey",
+      "Contact Human Resources",
+      "Attend training",
+      "Submit a report"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Ai quan tâm thì liên hệ phòng nhân sự cuối tuần sau.",
+      "en": "Interested employees should speak with Human Resources."
+     },
+     "trap": "Handout chỉ để xem số liệu, không phải việc đăng ký."
+    }
+   ]
+  },
+  {
+   "id": "d14-p4-c",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "And now for the evening traffic report on Radio Ninety-Four. If you are driving home on Highway 7, expect delays of up to forty minutes between exits 12 and 15. A truck lost part of its load earlier this afternoon, and crews are still working to clear the road. Drivers are advised to use Maple Avenue as an alternative route, although it is already busy near the shopping center. On the positive side, the Central Bridge, which was closed for repairs last week, is now open to all vehicles. Public transportation is running on time, and the city is offering free parking at the Eastgate train station this evening. Stay tuned for the weather forecast right after the news."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p4-c1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "What is the report mainly about?",
+     "options": [
+      "Road conditions",
+      "Bus fares",
+      "A parade route",
+      "A car sale"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Bản tin nói về kẹt xe và các tuyến đường.",
+      "en": "The report describes traffic and road conditions."
+     },
+     "trap": "Free parking chỉ là chi tiết, không phải chủ đề chính."
+    },
+    {
+     "id": "d14-p4-c2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "What caused the delay on Highway 7?",
+     "options": [
+      "A broken bridge",
+      "A truck accident with a lost load",
+      "Road construction",
+      "Heavy rain"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Xe tải làm rơi một phần hàng nên đường bị tắc.",
+      "en": "A truck lost part of its load."
+     },
+     "trap": "Central Bridge đã mở lại, nó không phải nguyên nhân tắc đường."
+    },
+    {
+     "id": "d14-p4-c3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 2,
+     "q": "What are drivers advised to do?",
+     "options": [
+      "Take Maple Avenue",
+      "Avoid exit 12",
+      "Park at the mall",
+      "Use the Central Bridge only"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Người lái xe được khuyên đi theo Maple Avenue.",
+      "en": "Drivers are advised to use Maple Avenue."
+     },
+     "trap": "Cầu Central đã mở nhưng bài không bảo chỉ đi cầu đó."
+    }
+   ]
+  },
+  {
+   "id": "d14-p4-d",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Hello, everyone, and welcome to the Blue Bay Aquarium. I am Linh, and I will lead today's tour of the coral reef gallery. Our first stop is the clownfish tank, where you can watch how the fish live among the sea anemones. After that, we will visit the seahorse nursery. Because the babies are very small, we ask that you speak quietly and keep your hands away from the glass. Our staff feed the animals at eleven thirty, so if you would like to watch, please return to the main hall by that time. The whole tour takes about forty-five minutes. If you enjoy today's visit, please consider leaving a review on our Web site. Now, please gather around to begin."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p4-d1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Who most likely are the listeners?",
+     "options": [
+      "Aquarium visitors",
+      "Aquarium trainers",
+      "Local reporters",
+      "Scuba divers"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Họ là khách tham quan được hướng dẫn đi xem các bể.",
+      "en": "The listeners are visitors on a guided tour."
+     },
+     "trap": "Trainers là bẫy do chủ đề cho ăn."
+    },
+    {
+     "id": "d14-p4-d2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "Why are listeners asked to speak quietly?",
+     "options": [
+      "Babies are very small.",
+      "Another tour is in progress.",
+      "Animals are sleeping.",
+      "A film is being made."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Vì cá ngựa con rất nhỏ nên cần yên lặng.",
+      "en": "The seahorse babies are very small."
+     },
+     "trap": "Animals sleeping không được nhắc."
+    },
+    {
+     "id": "d14-p4-d3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 1,
+     "q": "What can visitors do at eleven thirty?",
+     "options": [
+      "Watch the animals being fed",
+      "Take a boat ride",
+      "Join a class",
+      "Buy discount tickets"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Nhân viên cho thú ăn lúc 11 giờ 30 và khách có thể xem.",
+      "en": "Staff feed the animals at eleven thirty."
+     },
+     "trap": "Review trên Web site là việc làm sau chuyến tham quan."
+    }
+   ]
+  },
+  {
+   "id": "d14-p4-e",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Good afternoon, valued customers. Starting next month, the Lakeside Community Bank will introduce a new mobile banking application. With this app, you can check your balance, transfer money, and even deposit checks by taking a photo with your phone. The application will be available for free download on the first of the month. To celebrate the launch, anyone who opens a new savings account in our main branch before the end of the month will receive a twenty-five dollar bonus. Our staff will also be happy to help you set up the app. Please bring your phone and a photo ID to any branch, and we will walk you through the process. Thank you for banking with us."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p4-e1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "What is being announced?",
+     "options": [
+      "A new mobile application",
+      "New branch hours",
+      "A staff change",
+      "A loan policy"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Ngân hàng giới thiệu ứng dụng ngân hàng di động mới.",
+      "en": "The bank introduces a new mobile banking app."
+     },
+     "trap": "New branch hours không có trong bài."
+    },
+    {
+     "id": "d14-p4-e2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "How can customers receive a bonus?",
+     "options": [
+      "By downloading the app",
+      "By opening a savings account",
+      "By referring a friend",
+      "By depositing a check"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Mở tài khoản tiết kiệm mới ở chi nhánh chính sẽ được thưởng 25 đô.",
+      "en": "Opening a savings account earns a twenty-five dollar bonus."
+     },
+     "trap": "Download app miễn phí nhưng không có thưởng."
+    },
+    {
+     "id": "d14-p4-e3",
+     "part": 4,
+     "skill": "p4.speaker-intent",
+     "level": 3,
+     "q": "What does the speaker imply when she says, \"we will walk you through the process\"?",
+     "options": [
+      "Customers must pay for help.",
+      "Staff will assist customers with setup.",
+      "The app is very complicated.",
+      "Training is required."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"Walk you through\" nghĩa là hướng dẫn từng bước, tức là nhân viên sẽ giúp cài đặt.",
+      "en": "It means staff will guide customers step by step."
+     },
+     "trap": "Complicated là suy diễn quá đà, bài chỉ nói nhân viên vui lòng giúp."
+    }
+   ]
+  }
+ ]
+}

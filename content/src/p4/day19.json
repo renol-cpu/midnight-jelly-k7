@@ -1,0 +1,144 @@
+{
+ "listening": [
+  {
+   "id": "d19-p4-a",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Good afternoon, shoppers. This is an important announcement from Bayside Hardware. Because of a power problem in our building, our cash registers on the main floor are temporarily out of order. We are still able to accept payments at the garden center, which is located at the back of the store. We apologize for the long lines and thank you for your patience. Customers who have already put items in their carts but would rather come back later may leave them at the service desk, and we will hold them until closing time tomorrow. Please note that the lumber department is closed until further notice, and the paint counter will remain open as usual. Thank you for your understanding."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d19-p4-a1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "What problem does the speaker mention?",
+     "options": [
+      "The registers are not working.",
+      "A delivery truck is late.",
+      "A sale has ended.",
+      "The store is closed."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Quầy tính tiền tầng chính tạm thời hỏng vì sự cố điện.",
+      "en": "The main-floor registers are out of order."
+     },
+     "trap": "Store is closed sai vì khách vẫn thanh toán ở garden center."
+    },
+    {
+     "id": "d19-p4-a2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "Where can customers pay now?",
+     "options": [
+      "At the paint counter",
+      "At the garden center",
+      "At the service desk",
+      "At the lumber department"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Vẫn nhận thanh toán ở khu vườn ở phía sau cửa hàng.",
+      "en": "Payments are accepted at the garden center."
+     },
+     "trap": "Service desk chỉ giữ hàng, không nhận thanh toán."
+    },
+    {
+     "id": "d19-p4-a3",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "What will the store do with items left at the service desk?",
+     "options": [
+      "Hold them until tomorrow evening",
+      "Deliver them to customers",
+      "Sell them at a discount",
+      "Return them to the shelves today"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Hàng sẽ được giữ đến giờ đóng cửa ngày mai.",
+      "en": "Items will be held until closing time tomorrow."
+     },
+     "trap": "Return them to the shelves today bị loại vì bài nói giữ lại."
+    }
+   ]
+  },
+  {
+   "id": "d19-p4-b",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Welcome back to Business Hour. Our guest this morning is Sandra Cole, the owner of Cole Furniture, a company that began as a one-person workshop and now has three factories. Ms. Cole recently won the National Small Business Award, and she will talk to us about how she did it. According to her, the secret was never to borrow more money than she could pay back. She will also share some tips for owners who want to export their products overseas. Before we begin, let me remind you that our station is holding a contest for listeners. To enter, simply send your question for Ms. Cole through our Web site by ten o'clock. The best question will win a free chair. Now, welcome, Ms. Cole."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d19-p4-b1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Who is Sandra Cole?",
+     "options": [
+      "A business owner",
+      "A radio host",
+      "A furniture designer",
+      "A bank manager"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô là chủ công ty Cole Furniture.",
+      "en": "She is the owner of Cole Furniture."
+     },
+     "trap": "Radio host là người nói, không phải khách mời."
+    },
+    {
+     "id": "d19-p4-b2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "According to Ms. Cole, what was the secret of her success?",
+     "options": [
+      "Hiring good workers",
+      "Avoiding too much debt",
+      "Advertising widely",
+      "Opening new stores"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Bí quyết là không vay nhiều hơn khả năng trả, tức tránh nợ quá mức.",
+      "en": "Not borrowing more than she could repay means avoiding too much debt."
+     },
+     "trap": "Hiring không được nhắc."
+    },
+    {
+     "id": "d19-p4-b3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 2,
+     "q": "How can listeners enter the contest?",
+     "options": [
+      "By calling the station",
+      "By sending a question online",
+      "By visiting a store",
+      "By e-mailing a photo"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Gửi câu hỏi qua trang web của đài trước 10 giờ.",
+      "en": "Listeners send a question through the Web site."
+     },
+     "trap": "Call the station không có trong bài."
+    }
+   ]
+  }
+ ]
+}

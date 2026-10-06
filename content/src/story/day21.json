@@ -1,0 +1,89 @@
+{
+ "day": 21,
+ "title": {
+  "vi": "Sứa không bao giờ chết",
+  "en": "The Jellyfish That Never Dies"
+ },
+ "story": [
+  {
+   "speaker": "NARRATOR",
+   "en": "The reef. A garden of white light, thousands of tiny Turritopsis, glowing like a field of stars.",
+   "vi": "Rạn san hô. Khu vườn ánh sáng trắng, hàng nghìn con Turritopsis nhỏ, sáng như một cánh đồng sao.",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "BAO",
+   "en": "Stop, Huy! Put your hands up! Do you know how much this reef is worth?",
+   "vi": "Dừng lại, Huy! Giơ tay lên! Em có biết rạn này đáng giá bao nhiêu không?",
+   "voice": "auM"
+  },
+  {
+   "speaker": "HUY",
+   "en": "It is worth more than anything you can buy. And it is not yours, and it is not mine.",
+   "vi": "Nó đáng giá hơn mọi thứ anh mua được. Và nó không phải của anh, cũng không phải của em.",
+   "voice": "caM"
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "The tiny jellyfish rise around Bảo and the ship's lights go out. The Captain falls silent, and the sea takes him back to his boat.",
+   "vi": "Những chú sứa nhỏ bay lên quanh Bảo và đèn tàu tắt. Thuyền trưởng im bặt, và biển đưa ông trở lại thuyền.",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "M",
+   "en": "Huy. Can you hear me? Not through the radio. Not through the water. Me.",
+   "vi": "Huy. Em nghe thấy anh không? Không qua radio. Không qua nước. Là anh.",
+   "voice": "usM"
+  },
+  {
+   "speaker": "HUY",
+   "en": "M.! You are real! Where are you? I have looked for you every single night!",
+   "vi": "M.! Anh là thật! Anh ở đâu? Em tìm anh mỗi đêm!",
+   "voice": "caM"
+  },
+  {
+   "speaker": "M",
+   "en": "I was never lost, bé iu. You were. Every time your oxygen ended, you reset, like these little ones. And I kept sending my voice to the sea.",
+   "vi": "Anh chưa bao giờ lạc, bé iu. Là em. Mỗi lần hết oxy, em reset, giống những chú sứa nhỏ này. Và anh cứ gửi giọng mình ra biển.",
+   "voice": "usM"
+  },
+  {
+   "speaker": "NOVA",
+   "en": "Every signal you decoded was his message from the surface. Every English word you understood brought you one step closer. I am only the radio, Huy.",
+   "vi": "Mọi tín hiệu em giải mã là tin nhắn của anh ấy từ mặt nước. Mỗi từ tiếng Anh em hiểu đưa em gần hơn một bước. Tôi chỉ là radio thôi, Huy.",
+   "voice": "usF"
+  },
+  {
+   "speaker": "BESUA",
+   "en": "Huy giỏi quó. Em hong khóc đâu, hihi, em chỉ bị nước vô mắt thôi. Nè, Huy, nhìn lên đi.",
+   "vi": "Huy giỏi quá. Em không khóc đâu, hihi, em chỉ bị nước vào mắt thôi. Nè, Huy, nhìn lên đi."
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "Above him, the water turns from black to blue to gold. Huy kicks up, up, up, toward a warm light.",
+   "vi": "Phía trên, nước chuyển từ đen sang xanh rồi vàng. Huy đạp nước lên, lên, lên, về phía ánh sáng ấm.",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "M",
+   "en": "Huy, wherever you drift, my light stays on. Even in the deepest dark, follow my voice and wake up, bé iu.",
+   "vi": "Huy, dù em trôi đến đâu, đèn của anh vẫn sáng. Kể cả trong bóng tối sâu nhất, hãy theo giọng anh và tỉnh dậy, bé iu.",
+   "voice": "usM"
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "Huy opens his eyes. The café tanks hum softly. His phone glows on the table: \"Did you eat yet? I am here. Good morning, bé iu.\" Huy smiles, wipes his face, and types: \"Dọ. I love you a trillion.\"",
+   "vi": "Huy mở mắt. Hồ sứa trong quán rì rầm. Điện thoại sáng trên bàn: \"Ăn cơm chưa? Huy ở đây. Chào buổi sáng, bé iu.\" Huy mỉm cười, lau mặt, và nhắn: \"Dọ. Em yêu anh một nghìn tỷ.\"",
+   "voice": "gbF"
+  }
+ ],
+ "letter": {
+  "vi": "Bé iu, anh nói câu này lâu lắm rồi: \"Huy, wherever you drift, my light stays on. Even in the deepest dark, follow my voice and wake up, bé IU.\" Bé đã nghe được hết bằng tiếng Anh rồi nè. Mai thi thật, ăn sáng đủ, ngủ sớm. Anh tin bé.",
+  "en": "My love, I have wanted to say this for so long: \"Huy, wherever you drift, my light stays on. Even in the deepest dark, follow my voice and wake up, bé IU.\" You understood every word in English. Before the real test: eat breakfast, sleep early. I believe in you."
+ },
+ "beSua": [
+  "Love you a thousand, a million, a billion, a trillion... Hihi, trillion = 1,000,000,000,000. Nhiều tới mức không làm gì được nữa luôn. :33",
+  "Huy, hồi đầu Huy nghe tiếng Anh như nghe sóng ù ù. Giờ Huy nghe ra từng chữ rồi nè. Dọ!",
+  "Nè, hôm nay Huy thi đi. Em ở trong túi áo Huy nha. Nếu Huy run thì em phát sáng. Hihi. :33"
+ ]
+}

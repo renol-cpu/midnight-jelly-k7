@@ -1,0 +1,193 @@
+{
+ "day": 10,
+ "title": {
+  "vi": "Sổ chi tiêu",
+  "en": "The Ledger"
+ },
+ "story": [
+  {
+   "speaker": "NARRATOR",
+   "en": "Huy cannot sleep. He walks to the Captain's office. The door is open, but nobody is there.",
+   "vi": "Huy không ngủ được. Huy đi đến văn phòng thuyền trưởng. Cửa mở, nhưng không có ai.",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "On the desk lies a ledger: money in, money out. One line says \"Live specimens: three million dollars.\"",
+   "vi": "Trên bàn có một cuốn sổ chi tiêu: tiền vào, tiền ra. Một dòng ghi \"Mẫu vật sống: ba triệu đô.\"",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "HUY",
+   "en": "Three million, for jellyfish? Our research budget cannot be that big.",
+   "vi": "Ba triệu đô cho sứa? Ngân sách nghiên cứu của tụi mình không thể lớn vậy.",
+   "voice": "caM"
+  },
+  {
+   "speaker": "NOVA",
+   "en": "Huy, please put the ledger back. Although it looks strange, it is not my place to say more.",
+   "vi": "Huy, làm ơn đặt cuốn sổ lại. Dù trông lạ, tôi không có quyền nói thêm.",
+   "voice": "usF"
+  },
+  {
+   "speaker": "M",
+   "en": "Do not be afraid of the numbers. Be afraid of the quiet. Listen.",
+   "vi": "Đừng sợ những con số. Hãy sợ sự im lặng. Nghe đi.",
+   "voice": "usM"
+  }
+ ],
+ "letter": {
+  "vi": "Hihii, hôm qua at, on, IN rồi, hôm nay mình có although và despite. Although + mệnh đề (although it rained), despite + danh từ (despite the rain). Đọc to một câu của mỗi loại là nhớ liền. Anh tin bé.",
+  "en": "Hihii, yesterday we had at, on, IN; today we have although and despite. Although + clause (although it rained), despite + noun (despite the rain). Read one sentence of each out loud and you will remember. I believe in you."
+ },
+ "beSua": [
+  "Lend là cho mượn, borrow là đi mượn. \"Can you borrow me money?\" là sai nha, phải là lend. :33",
+  "Invoice là hóa đơn gửi để đòi tiền, receipt là biên lai đã trả tiền. Khác nhau đó nha hihi.",
+  "Economy (nền kinh tế), economic (thuộc kinh tế), economical (tiết kiệm). Ba chữ hay bị đưa vào Part 5 lắm. :33"
+ ],
+ "vocab": [
+  {
+   "word": "budget",
+   "pos": "n",
+   "ipa": "/ˈbʌdʒɪt/",
+   "vi": "ngân sách",
+   "example": {
+    "en": "The budget for this year is limited.",
+    "vi": "Ngân sách năm nay có hạn."
+   },
+   "family": "budget (n, v)",
+   "collocation": "stay within budget"
+  },
+  {
+   "word": "revenue",
+   "pos": "n",
+   "ipa": "/ˈrevənjuː/",
+   "vi": "doanh thu",
+   "example": {
+    "en": "Revenue rose by eight percent in May.",
+    "vi": "Doanh thu tăng tám phần trăm vào tháng Năm."
+   },
+   "collocation": "annual revenue"
+  },
+  {
+   "word": "profit",
+   "pos": "n",
+   "ipa": "/ˈprɒfɪt/",
+   "vi": "lợi nhuận",
+   "example": {
+    "en": "The company made a small profit.",
+    "vi": "Công ty có một khoản lợi nhuận nhỏ."
+   },
+   "family": "profit (n, v) / profitable (adj)",
+   "collocation": "make a profit"
+  },
+  {
+   "word": "cost",
+   "pos": "n",
+   "ipa": "/kɒst/",
+   "vi": "chi phí, giá thành",
+   "example": {
+    "en": "The cost of fuel keeps rising.",
+    "vi": "Giá nhiên liệu cứ tăng."
+   },
+   "family": "cost (n, v)",
+   "collocation": "reduce costs"
+  },
+  {
+   "word": "invest",
+   "pos": "v",
+   "ipa": "/ɪnˈvest/",
+   "vi": "đầu tư",
+   "example": {
+    "en": "They invested in new equipment.",
+    "vi": "Họ đã đầu tư vào thiết bị mới."
+   },
+   "family": "invest (v) / investment (n) / investor (n)",
+   "collocation": "invest in"
+  },
+  {
+   "word": "account",
+   "pos": "n",
+   "ipa": "/əˈkaʊnt/",
+   "vi": "tài khoản",
+   "example": {
+    "en": "Please transfer the money to this account.",
+    "vi": "Vui lòng chuyển tiền vào tài khoản này."
+   },
+   "family": "account (n, v) / accountant (n)",
+   "collocation": "bank account"
+  },
+  {
+   "word": "balance",
+   "pos": "n",
+   "ipa": "/ˈbæləns/",
+   "vi": "số dư",
+   "example": {
+    "en": "Your account balance is on the receipt.",
+    "vi": "Số dư tài khoản của bạn nằm trên biên lai."
+   },
+   "family": "balance (n, v)",
+   "collocation": "check the balance"
+  },
+  {
+   "word": "tax",
+   "pos": "n",
+   "ipa": "/tæks/",
+   "vi": "thuế",
+   "example": {
+    "en": "Prices include tax.",
+    "vi": "Giá đã bao gồm thuế."
+   },
+   "family": "tax (n, v) / taxation (n)",
+   "collocation": "income tax"
+  },
+  {
+   "word": "loan",
+   "pos": "n",
+   "ipa": "/ləʊn/",
+   "vi": "khoản vay",
+   "example": {
+    "en": "The bank approved the loan quickly.",
+    "vi": "Ngân hàng duyệt khoản vay rất nhanh."
+   },
+   "family": "loan (n, v)",
+   "collocation": "apply for a loan"
+  },
+  {
+   "word": "interest",
+   "pos": "n",
+   "ipa": "/ˈɪntrəst/",
+   "vi": "lãi suất",
+   "example": {
+    "en": "The interest on this loan is low.",
+    "vi": "Lãi suất khoản vay này thấp."
+   },
+   "family": "interest (n, v) / interested (adj)",
+   "collocation": "interest rate"
+  },
+  {
+   "word": "estimate",
+   "pos": "n",
+   "ipa": "/ˈestɪmət/",
+   "vi": "bản ước tính",
+   "example": {
+    "en": "Please send me an estimate by Tuesday.",
+    "vi": "Vui lòng gửi tôi bản ước tính trước thứ Ba."
+   },
+   "family": "estimate (n, v)",
+   "collocation": "rough estimate"
+  },
+  {
+   "word": "audit",
+   "pos": "n",
+   "ipa": "/ˈɔːdɪt/",
+   "vi": "kiểm toán",
+   "example": {
+    "en": "The annual audit starts next week.",
+    "vi": "Cuộc kiểm toán hằng năm bắt đầu tuần sau."
+   },
+   "family": "audit (n, v) / auditor (n)",
+   "collocation": "conduct an audit"
+  }
+ ]
+}

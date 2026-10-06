@@ -1,0 +1,425 @@
+{
+ "grammar": [
+  {
+   "id": "d09-p5-a",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d09-p5-01",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "The meeting begins ____ 9:30 A.M.",
+     "options": [
+      "at",
+      "on",
+      "in",
+      "by"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Giờ cụ thể dùng \"at\".",
+      "en": "\"At\" with a clock time."
+     },
+     "trap": "\"On\" dùng cho ngày."
+    },
+    {
+     "id": "d09-p5-02",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "The seminar is held ____ Tuesdays.",
+     "options": [
+      "at",
+      "in",
+      "by",
+      "on"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Thứ trong tuần dùng \"on\".",
+      "en": "\"On\" with days."
+     },
+     "trap": "\"In Tuesdays\" sai."
+    },
+    {
+     "id": "d09-p5-03",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "The festival takes place ____ July.",
+     "options": [
+      "on",
+      "at",
+      "in",
+      "by"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Tháng dùng \"in\".",
+      "en": "\"In\" with months."
+     },
+     "trap": "\"On July\" chỉ dùng với ngày cụ thể."
+    },
+    {
+     "id": "d09-p5-04",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "Please submit the form ____ Friday.",
+     "options": [
+      "during",
+      "by",
+      "since",
+      "among"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"By\" là hạn chót.",
+      "en": "\"By\" marks a deadline."
+     },
+     "trap": "\"During\" cần khoảng thời gian."
+    },
+    {
+     "id": "d09-p5-05",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "The store will be closed ____ the renovation.",
+     "options": [
+      "during",
+      "for",
+      "since",
+      "while"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Sau chỗ trống là danh từ nên cần giới từ \"during\".",
+      "en": "A noun follows, so the preposition \"during\"."
+     },
+     "trap": "\"While\" cần mệnh đề."
+    },
+    {
+     "id": "d09-p5-06",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "We have worked here ____ 2019.",
+     "options": [
+      "for",
+      "from",
+      "by",
+      "since"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"Since\" + mốc thời gian.",
+      "en": "\"Since\" + starting point."
+     },
+     "trap": "\"For 2019\" sai vì \"for\" cần khoảng thời gian."
+    },
+    {
+     "id": "d09-p5-07",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "The conference lasts ____ three days.",
+     "options": [
+      "since",
+      "by",
+      "for",
+      "at"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"For\" + khoảng thời gian.",
+      "en": "\"For\" + duration."
+     },
+     "trap": "\"Since three days\" sai."
+    },
+    {
+     "id": "d09-p5-08",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "The café is located ____ the second floor.",
+     "options": [
+      "at",
+      "on",
+      "in",
+      "by"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Tầng dùng \"on\".",
+      "en": "\"On\" with floors."
+     },
+     "trap": "\"In the second floor\" sai."
+    },
+    {
+     "id": "d09-p5-09",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 2,
+     "q": "The parking lot is ____ the library and the bank.",
+     "options": [
+      "between",
+      "among",
+      "against",
+      "within"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Giữa hai vật dùng \"between\".",
+      "en": "\"Between\" for two items."
+     },
+     "trap": "\"Among\" dùng cho ba vật trở lên."
+    },
+    {
+     "id": "d09-p5-10",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 2,
+     "q": "The tour group walked ____ the tunnel to the shark tank.",
+     "options": [
+      "over",
+      "above",
+      "beside",
+      "through"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Đi xuyên qua đường hầm: through.",
+      "en": "Walking through a tunnel."
+     },
+     "trap": "\"Over\" nghĩa là đi trên đầu."
+    }
+   ]
+  },
+  {
+   "id": "d09-p5-b",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d09-p5-11",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 2,
+     "q": "Your order will arrive ____ five business days.",
+     "options": [
+      "during",
+      "at",
+      "within",
+      "on"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"Within\" nghĩa là trong vòng.",
+      "en": "\"Within\" means inside that period."
+     },
+     "trap": "\"During\" không đi với số ngày."
+    },
+    {
+     "id": "d09-p5-12",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 2,
+     "q": "The new sign was hung ____ the entrance.",
+     "options": [
+      "among",
+      "above",
+      "between",
+      "during"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Treo phía trên: above.",
+      "en": "Hung higher up: above."
+     },
+     "trap": "\"Among\" cần nhiều vật."
+    },
+    {
+     "id": "d09-p5-13",
+     "part": 5,
+     "skill": "p5.agreement",
+     "level": 1,
+     "q": "The group of tourists ____ outside the gate.",
+     "options": [
+      "is waiting",
+      "are waiting",
+      "were wait",
+      "have wait"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Chủ ngữ \"group\" số ít.",
+      "en": "The head noun \"group\" is singular."
+     },
+     "trap": "\"Tourists\" gần động từ làm rối."
+    },
+    {
+     "id": "d09-p5-14",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 2,
+     "q": "The director ____ approval we need is traveling.",
+     "options": [
+      "whom",
+      "who",
+      "which",
+      "whose"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"Whose approval\" chỉ sở hữu.",
+      "en": "\"Whose approval\" shows possession."
+     },
+     "trap": "\"Whom approval\" sai."
+    },
+    {
+     "id": "d09-p5-15",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 1,
+     "q": "The company announced the ____ of a new branch.",
+     "options": [
+      "open",
+      "opened",
+      "opening",
+      "openly"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Sau \"the\" cần danh từ.",
+      "en": "A noun after \"the\"."
+     },
+     "trap": "\"Openly\" là trạng từ nghĩa khác."
+    },
+    {
+     "id": "d09-p5-16",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 2,
+     "q": "The results were ____ better than expected.",
+     "options": [
+      "considerable",
+      "considerably",
+      "consider",
+      "considering"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Trạng từ bổ nghĩa cho \"better\".",
+      "en": "Adverb modifying the comparative \"better\"."
+     },
+     "trap": "\"Considerable\" tính từ không bổ nghĩa cho tính từ."
+    },
+    {
+     "id": "d09-p5-17",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 1,
+     "q": "____ of the rooms has a view of the lake.",
+     "options": [
+      "None",
+      "No",
+      "Not",
+      "Nothing"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"None of the rooms\" + số ít.",
+      "en": "\"None of the rooms\" + singular verb."
+     },
+     "trap": "\"No of\" sai."
+    },
+    {
+     "id": "d09-p5-18",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "Please be careful ____ the glass.",
+     "options": [
+      "at",
+      "to",
+      "in",
+      "with"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Cụm cố định: careful with.",
+      "en": "Fixed phrase: careful with."
+     },
+     "trap": "\"Careful to\" nghĩa khác."
+    },
+    {
+     "id": "d09-p5-19",
+     "part": 5,
+     "skill": "p5.passive",
+     "level": 1,
+     "q": "The letters ____ by the assistant.",
+     "options": [
+      "typed",
+      "typing",
+      "were typed",
+      "have type"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Thư được đánh máy nên bị động.",
+      "en": "Letters were typed: passive."
+     },
+     "trap": "\"Typed\" một mình thiếu động từ."
+    },
+    {
+     "id": "d09-p5-20",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "She has worked here ____ ten years.",
+     "options": [
+      "since",
+      "for",
+      "during",
+      "by"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"For\" + khoảng thời gian.",
+      "en": "\"For\" + a length of time."
+     },
+     "trap": "\"Since ten years\" là lỗi quen thuộc."
+    }
+   ]
+  }
+ ],
+ "theory": [
+  {
+   "id": "d09-th-1",
+   "title": {
+    "vi": "At / on / in và by / until / for",
+    "en": "Prepositions of time and place"
+   },
+   "rule": {
+    "vi": "AT + giờ, điểm. ON + thứ, ngày, mặt phẳng. IN + tháng, năm, không gian. BY = trước hoặc đúng hạn. UNTIL = kéo dài đến. FOR + khoảng thời gian. SINCE + mốc.",
+    "en": "AT + clock time, point. ON + day, date, surface. IN + month, year, enclosed space. BY = no later than. UNTIL = continues up to. FOR + duration. SINCE + starting point."
+   },
+   "formula": "at 9:30 | on Tuesday | in July | by Friday | until May 1 | for 3 days | since 2019",
+   "examples": [
+    {
+     "en": "The meeting begins at 9:30 A.M.",
+     "vi": "Giờ cụ thể dùng at."
+    },
+    {
+     "en": "Please submit the form by Friday.",
+     "vi": "By là hạn chót."
+    },
+    {
+     "en": "We have worked here since 2019.",
+     "vi": "Since + mốc thời gian."
+    }
+   ],
+   "tip": "Mẹo thi: hỏi \"việc này làm một lần trước hạn\" thì chọn by; \"việc này kéo dài đến lúc đó\" thì chọn until. Nhớ by = bơi tới bờ, until = bơi mãi tới bờ."
+  }
+ ]
+}

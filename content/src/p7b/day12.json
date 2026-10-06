@@ -1,0 +1,141 @@
+{
+ "reading": [
+  {
+   "id": "d12-p7-a",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "web",
+     "title": "SwiftLine Freight",
+     "text": "SwiftLine Freight | Shipping Options for Small Businesses\n\nStandard Ground (3 to 5 business days)\n$8.50 for parcels up to 5 kg; $1.20 for each additional kg\n\nExpress Air (1 to 2 business days)\n$24.00 for parcels up to 5 kg; $3.10 for each additional kg\n\nSame-Day Local (metro area only; order before 11:00 A.M.)\nFlat rate of $35.00\n\nAll options include online tracking. Every package is insured for up to $100 at no cost; extra coverage is available at 1% of the declared value. Shipments to remote areas may take up to two extra days.\n\nCustomers who ship more than 50 parcels per month qualify for a Business Account with 10% off all rates. Register to print labels online. Click here to schedule a pickup."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d12-p7-a1",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "What is included with all shipping options?",
+     "options": [
+      "Free pickup",
+      "Business Account discounts",
+      "Online tracking",
+      "Insurance up to $500"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"All options include online tracking.\"",
+      "en": "The page states that all options include online tracking."
+     },
+     "trap": "Bảo hiểm miễn phí chỉ đến $100, không phải $500."
+    },
+    {
+     "id": "d12-p7-a2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "How much would it cost to send a 7 kg parcel by Standard Ground?",
+     "options": [
+      "$8.50",
+      "$9.70",
+      "$10.90",
+      "$14.00"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "7 kg vượt 5 kg thêm 2 kg: $8.50 + 2 x $1.20 = $10.90.",
+      "en": "The base price is $8.50 plus two extra kilograms at $1.20 each, which makes $10.90."
+     },
+     "trap": "Quên phụ phí kg thêm sẽ ra $8.50."
+    },
+    {
+     "id": "d12-p7-a3",
+     "part": 7,
+     "skill": "p7.inference",
+     "level": 2,
+     "q": "Who would most likely benefit from a Business Account?",
+     "options": [
+      "A customer shipping to a remote area",
+      "A person sending one gift overseas",
+      "A company needing same-day delivery once a year",
+      "A shop owner who ships 60 parcels a month"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Giảm 10% dành cho người gửi hơn 50 kiện mỗi tháng; 60 kiện đáp ứng điều kiện.",
+      "en": "Customers who ship more than 50 parcels a month qualify, and 60 meets that condition."
+     }
+    }
+   ]
+  },
+  {
+   "id": "d12-p7-b",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "web",
+     "title": "Group Visits FAQ",
+     "text": "Blue Harbor Aquarium | Group Visits | FAQ\n\nHow far ahead should we book?\nGroups of 15 or more should book at least two weeks ahead. Groups of 100 or more should book at least four weeks ahead.\n\nIs there a discount?\nGroups of 15 to 49 receive 10 percent off general admission. Groups of 50 or more receive 20 percent off. Discounts apply to tickets only, not to guided tours or café meals.\n\nCan we change our date?\nYes. Dates can be changed once at no charge if you contact us at least 7 days before your visit. After that, a $50 rebooking fee applies.\n\nDo you offer guided tours?\nGuided tours cost an additional $4 per person. Each guide leads up to 20 guests.\n\nWhere can we eat?\nGroups may bring packed lunches to the Picnic Area. Please tell us in advance so that we can reserve space."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d12-p7-b1",
+     "part": 7,
+     "skill": "p7.not-true",
+     "level": 2,
+     "q": "What is NOT covered by the group discount?",
+     "options": [
+      "Guided tours",
+      "General admission tickets",
+      "Tickets for groups of 50 or more",
+      "Tickets for groups of 20"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Giảm giá \"apply to tickets only, not to guided tours or café meals\".",
+      "en": "Discounts apply to tickets only, not guided tours."
+     }
+    },
+    {
+     "id": "d12-p7-b2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "How many guides are needed for a group of 45 guests taking guided tours?",
+     "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Mỗi hướng dẫn viên dẫn tối đa 20 người; 45 người cần 3 người (20 + 20 + 5).",
+      "en": "Each guide leads up to 20 guests, so 45 guests need three guides."
+     }
+    },
+    {
+     "id": "d12-p7-b3",
+     "part": 7,
+     "skill": "p7.inference",
+     "level": 3,
+     "q": "What will happen if a teacher changes her group's date five days before the visit?",
+     "options": [
+      "The change will be free",
+      "She will pay a $50 fee",
+      "The booking will be cancelled",
+      "She will lose the group discount"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Muốn đổi miễn phí phải báo trước ít nhất 7 ngày; 5 ngày thì áp dụng phí $50.",
+      "en": "Free changes require at least 7 days notice, so five days triggers the $50 fee."
+     },
+     "trap": "Bẫy \"once at no charge\": miễn phí chỉ khi báo trước 7 ngày."
+    }
+   ]
+  }
+ ]
+}

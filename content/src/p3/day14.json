@@ -1,0 +1,584 @@
+{
+ "listening": [
+  {
+   "id": "d14-p3-a",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Hi, Oliver. How was your meeting with the Dalton Group?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "It went well. They're interested in our new scheduling software, but they'd like a trial first."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "A trial? How long?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Thirty days. I told them that's possible, but I need approval from Ms. Reyes."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "I can talk to her this afternoon. She usually agrees if the client is large."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "That would help. They have four hundred employees, so it could be a big account."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p3-a1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What did the man do earlier?",
+     "options": [
+      "Interviewed a candidate",
+      "Repaired some software",
+      "Visited a factory",
+      "Met a potential customer"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Anh vừa họp với Dalton Group, một khách hàng tiềm năng.",
+      "en": "He met a possible client."
+     },
+     "trap": "Software là sản phẩm anh bán, không phải việc anh sửa."
+    },
+    {
+     "id": "d14-p3-a2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "What does the client request?",
+     "options": [
+      "A free test period",
+      "A price cut",
+      "A longer contract",
+      "A training course"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Họ muốn dùng thử 30 ngày trước.",
+      "en": "A thirty-day trial is a free test period."
+     },
+     "trap": "Giá chưa được bàn tới."
+    },
+    {
+     "id": "d14-p3-a3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What does the woman offer to do?",
+     "options": [
+      "Prepare a contract",
+      "Speak with a manager",
+      "Call the client",
+      "Install the software"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô sẽ nói chuyện với bà Reyes chiều nay.",
+      "en": "She will talk to Ms. Reyes, a manager."
+     },
+     "trap": "Cô không liên lạc trực tiếp với khách."
+    }
+   ]
+  },
+  {
+   "id": "d14-p3-b",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Excuse me, I'm trying to return a jacket I bought here last week, but I don't have the receipt."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "That's all right. Did you pay by credit card?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Yes, with my Zenith card."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Then I can look it up. I just need to see the card and a photo ID."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Here you go. It's a little too small, actually, so I'd like to exchange it for a larger size."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Let me check the stock. Oh, the large is out, but we have the extra-large in the same color."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Hmm, I think that'll be too big. I'll just take the refund, please."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p3-b1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What does the man want to do?",
+     "options": [
+      "Buy a gift",
+      "Apply for a card",
+      "Return an item",
+      "Order a catalog"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Anh muốn trả lại chiếc áo khoác.",
+      "en": "He wants to return a jacket."
+     },
+     "trap": "Credit card chỉ để tra cứu giao dịch."
+    },
+    {
+     "id": "d14-p3-b2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "What does the woman need from the man?",
+     "options": [
+      "A receipt",
+      "A manager’s approval",
+      "A phone number",
+      "A card and identification"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Cô cần thẻ và giấy tờ có ảnh, tức là thẻ và giấy tờ tùy thân.",
+      "en": "A photo ID is identification."
+     },
+     "trap": "Receipt là thứ anh không có, nhưng cô nói không cần."
+    },
+    {
+     "id": "d14-p3-b3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What does the man decide to do?",
+     "options": [
+      "Get his money back",
+      "Order another size",
+      "Wait for a delivery",
+      "Visit another store"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cuối cùng anh chọn nhận tiền hoàn lại.",
+      "en": "He chooses a refund, i.e. money back."
+     },
+     "trap": "Extra-large anh nói sẽ quá rộng."
+    }
+   ]
+  },
+  {
+   "id": "d14-p3-c",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Rob, have you seen the budget proposal for the Dubai trip?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "I looked at it this morning. The hotel costs are higher than I expected."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "They're hosting a big trade show that week, so the rates go up."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "What if we stay in a different part of the city and take the metro?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "That could save about two hundred dollars per person. I'll look into hotels near the airport."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Good. I'll ask the travel agency whether they can find us a group discount."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p3-c1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What are the speakers trying to do?",
+     "options": [
+      "Plan a trade show",
+      "Lower travel expenses",
+      "Hire a travel agent",
+      "Change a destination"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Họ tìm cách giảm chi phí chuyến đi (khách sạn đắt).",
+      "en": "They look for ways to save on trip costs."
+     },
+     "trap": "Trade show là lý do giá tăng, không phải việc họ lên kế hoạch."
+    },
+    {
+     "id": "d14-p3-c2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "Why are hotel prices high?",
+     "options": [
+      "It is summer",
+      "A holiday is near",
+      "A large event is taking place",
+      "Taxes increased"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Có một hội chợ thương mại lớn trong tuần đó.",
+      "en": "A big trade show is an event."
+     },
+     "trap": "Không nhắc đến mùa hè."
+    },
+    {
+     "id": "d14-p3-c3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What will the man do?",
+     "options": [
+      "Book a flight",
+      "Contact the airline",
+      "Revise the proposal",
+      "Ask about a bulk rate"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Anh sẽ hỏi công ty du lịch về giảm giá cho nhóm.",
+      "en": "A group discount is a bulk rate."
+     },
+     "trap": "Cô là người tìm khách sạn gần sân bay."
+    }
+   ]
+  },
+  {
+   "id": "d14-p3-d",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Ms. Wu, the printer on the fourth floor is jammed again."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "That's the second time today. Did you open the rear panel?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Yes, I removed a few pieces of paper, but the display still says error."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Hmm. I think it's time to replace it. It's more than six years old."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "The cost might be an issue. Our department's equipment budget is almost used up."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "I'll ask the finance team whether we can borrow from next quarter. Meanwhile, please use the printer on the third floor."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p3-d1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What problem is mentioned?",
+     "options": [
+      "A machine is malfunctioning",
+      "A package is missing",
+      "A room is closed",
+      "A schedule is wrong"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Máy in tầng bốn lại bị kẹt giấy, tức là máy hoạt động sai.",
+      "en": "The printer jams repeatedly."
+     },
+     "trap": "Package không được nhắc."
+    },
+    {
+     "id": "d14-p3-d2",
+     "part": 3,
+     "skill": "p3.implication",
+     "level": 2,
+     "q": "What concern does the man raise?",
+     "options": [
+      "Delivery time",
+      "Limited funds",
+      "Noise levels",
+      "Staff training"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Ngân sách thiết bị gần hết, tức là nguồn tiền hạn chế.",
+      "en": "The equipment budget is almost used up."
+     },
+     "trap": "Delivery chưa tới giai đoạn đó."
+    },
+    {
+     "id": "d14-p3-d3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What will the woman do?",
+     "options": [
+      "Call a repair person",
+      "Order paper",
+      "Consult the finance team",
+      "Move a printer"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Cô sẽ hỏi bộ phận tài chính xem có thể mượn ngân sách quý sau không.",
+      "en": "She will ask the finance team."
+     },
+     "trap": "Cô không gọi thợ sửa vì đề xuất thay mới."
+    }
+   ]
+  },
+  {
+   "id": "d14-p3-e",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Good afternoon, Greenfield Realty. This is Nina."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Hi, I saw your listing for the two-bedroom apartment on Maple Street. Is it still available?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Yes, it is. It has a balcony and is five minutes from the subway. The rent is nine hundred and fifty dollars a month."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "That's within my budget. Are pets allowed?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Small ones, with an extra deposit of one hundred dollars."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "I have a cat, so that's fine. Could I see it this weekend?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Certainly. How about Saturday at eleven?"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p3-e1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What is the man interested in?",
+     "options": [
+      "Buying a house",
+      "Selling furniture",
+      "Joining a gym",
+      "Renting an apartment"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Anh hỏi về căn hộ cho thuê trên đường Maple.",
+      "en": "He asks about a rental listing."
+     },
+     "trap": "Rent nghĩa là thuê, không phải mua."
+    },
+    {
+     "id": "d14-p3-e2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "What does the woman say about pets?",
+     "options": [
+      "An additional fee applies",
+      "They are banned",
+      "Only dogs are welcome",
+      "There is a monthly charge"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Thú nhỏ được phép nhưng thêm 100 đô tiền cọc.",
+      "en": "A hundred-dollar deposit is an additional fee."
+     },
+     "trap": "Phí này là tiền cọc một lần, không phải hàng tháng."
+    },
+    {
+     "id": "d14-p3-e3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will happen on Saturday?",
+     "options": [
+      "A lease signing",
+      "A property visit",
+      "A repair",
+      "A payment"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Anh sẽ đi xem căn hộ lúc 11 giờ thứ Bảy.",
+      "en": "He will go to see the apartment."
+     },
+     "trap": "Chưa ký hợp đồng thuê."
+    }
+   ]
+  },
+  {
+   "id": "d14-p3-f",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Sandra, the quarterly newsletter is due Friday, but we're missing the photos from the Singapore event."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Mark said he'd send them last week. Did you ask him again?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "I emailed twice. I think his inbox is full."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Why don't you try the shared drive? He sometimes uploads big files there."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Good thought. If they're not there, I'll call him directly."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "And if we still don't get them, we can use pictures from the website."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p3-f1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What are the speakers concerned about?",
+     "options": [
+      "A late shipment",
+      "A cancelled event",
+      "Missing images for a publication",
+      "A software update"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Họ thiếu ảnh cho bản tin sắp phát hành.",
+      "en": "Photos for the newsletter are missing."
+     },
+     "trap": "Event ở Singapore đã diễn ra, không bị hủy."
+    },
+    {
+     "id": "d14-p3-f2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "What does the woman suggest checking?",
+     "options": [
+      "A mailing list",
+      "A client website",
+      "A printed album",
+      "A shared online folder"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Cô gợi ý kiểm tra ổ đĩa chung.",
+      "en": "The shared drive is a shared online folder."
+     },
+     "trap": "Website chỉ là phương án dự phòng cuối."
+    },
+    {
+     "id": "d14-p3-f3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What will the man do if the files are not there?",
+     "options": [
+      "Phone a colleague",
+      "Cancel the newsletter",
+      "Write a new article",
+      "Hire a photographer"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh sẽ gọi trực tiếp cho Mark.",
+      "en": "He will call Mark directly."
+     },
+     "trap": "Anh không viết bài mới."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,199 @@
+{
+ "day": 19,
+ "title": {
+  "vi": "Lần thứ chín",
+  "en": "The Ninth Time"
+ },
+ "story": [
+  {
+   "speaker": "NARRATOR",
+   "en": "Huy turns the boat around the same black rock. For the third time today, the same rock, the same cold current.",
+   "vi": "Huy lái xuồng vòng quanh tảng đá đen. Lần thứ ba trong hôm nay, cùng tảng đá, cùng dòng nước lạnh.",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "BESUA",
+   "en": "Huy, em đếm hết rồi. This is the ninth time we have been here. The ninth!",
+   "vi": "Huy, em đếm hết rồi. Đây là lần thứ chín mình đến đây. Thứ chín luôn!"
+  },
+  {
+   "speaker": "HUY",
+   "en": "The ninth? But I only remember one. Every time the oxygen ends, I wake up on the dock and start again...",
+   "vi": "Thứ chín? Nhưng em chỉ nhớ một lần. Mỗi lần hết oxy, em tỉnh dậy ở bến và bắt đầu lại...",
+   "voice": "caM"
+  },
+  {
+   "speaker": "NOVA",
+   "en": "Not every reset is a failure, Huy. Each time you learned a few words. You were never at zero.",
+   "vi": "Không phải lần reset nào cũng là thất bại, Huy. Mỗi lần em học thêm vài từ. Em chưa bao giờ trở về số không.",
+   "voice": "usF"
+  },
+  {
+   "speaker": "HUY",
+   "en": "Learned a few words... NOVA, who is really talking to me through you?",
+   "vi": "Học thêm vài từ... NOVA, thật ra ai đang nói với em qua bạn?",
+   "voice": "caM"
+  },
+  {
+   "speaker": "NOVA",
+   "en": "Tomorrow, Huy. Tomorrow, you will hear it clearly.",
+   "vi": "Ngày mai, Huy. Ngày mai em sẽ nghe rõ.",
+   "voice": "usF"
+  }
+ ],
+ "letter": {
+  "vi": "Hihii, hôm nay ôn chỗ yếu của bé. Từ nào hay sai thì look UP (tra) và viết lại một câu của riêng bé với nó, ví dụ viết về hồ sứa. Câu của bé nhớ lâu hơn câu sách. Shương shương!",
+  "en": "Hihii, your weak spots today. For any word you keep missing, look UP the word and write one sentence of your own, maybe about the jellyfish tanks. Your own sentence stays longer than a textbook one. Shương shương!"
+ },
+ "beSua": [
+  "Em ghi lại lỗi của anh nè: \"I wish I can raise jellyfish at home\" là sai. Phải là \"I wish I COULD\". Hihi, câu ước dùng quá khứ! :33",
+  "\"I am lazy guy\" là thiếu mạo từ nha, phải là \"I am a lazy guy\". Hihi, nhưng em biết anh không lười đâu. Dọ!",
+  "Much đi với danh từ không đếm được (much water), many đi với đếm được (many jellyfish). Nhớ nha. :33",
+  "Interesting và interested: \"The class is interesting\", \"I am interested\". -ing là thứ gây cảm xúc, -ed là người cảm thấy. Hihi."
+ ],
+ "vocab": [
+  {
+   "word": "responsible",
+   "pos": "adj",
+   "ipa": "/rɪˈspɒnsəbl/",
+   "vi": "chịu trách nhiệm",
+   "example": {
+    "en": "Huy is responsible for six tanks.",
+    "vi": "Huy chịu trách nhiệm sáu hồ."
+   },
+   "family": "responsible (adj) / responsibility (n)",
+   "collocation": "responsible for"
+  },
+  {
+   "word": "eligible",
+   "pos": "adj",
+   "ipa": "/ˈelɪdʒəbl/",
+   "vi": "đủ điều kiện",
+   "example": {
+    "en": "Staff are eligible for a bonus after one year.",
+    "vi": "Nhân viên đủ điều kiện nhận thưởng sau một năm."
+   },
+   "family": "eligible (adj) / eligibility (n)",
+   "collocation": "eligible for"
+  },
+  {
+   "word": "reluctant",
+   "pos": "adj",
+   "ipa": "/rɪˈlʌktənt/",
+   "vi": "miễn cưỡng, ngần ngại",
+   "example": {
+    "en": "She was reluctant to change the plan.",
+    "vi": "Cô ấy ngần ngại thay đổi kế hoạch."
+   },
+   "family": "reluctant (adj) / reluctantly (adv)",
+   "collocation": "reluctant to"
+  },
+  {
+   "word": "approximately",
+   "pos": "adv",
+   "ipa": "/əˈprɒksɪmətli/",
+   "vi": "khoảng, xấp xỉ",
+   "example": {
+    "en": "The trip takes approximately two hours.",
+    "vi": "Chuyến đi mất khoảng hai giờ."
+   },
+   "family": "approximate (adj) / approximately (adv)",
+   "collocation": "approximately ten"
+  },
+  {
+   "word": "significant",
+   "pos": "adj",
+   "ipa": "/sɪɡˈnɪfɪkənt/",
+   "vi": "đáng kể, quan trọng",
+   "example": {
+    "en": "There was a significant rise in sales.",
+    "vi": "Doanh số tăng đáng kể."
+   },
+   "family": "significant (adj) / significantly (adv) / significance (n)",
+   "collocation": "significant increase"
+  },
+  {
+   "word": "ensure",
+   "pos": "v",
+   "ipa": "/ɪnˈʃʊə/",
+   "vi": "đảm bảo",
+   "example": {
+    "en": "Please ensure that all lights are off.",
+    "vi": "Vui lòng đảm bảo mọi đèn đã tắt."
+   },
+   "collocation": "ensure that"
+  },
+  {
+   "word": "require",
+   "pos": "v",
+   "ipa": "/rɪˈkwaɪə/",
+   "vi": "yêu cầu, đòi hỏi",
+   "example": {
+    "en": "This job requires good English.",
+    "vi": "Công việc này đòi hỏi tiếng Anh tốt."
+   },
+   "family": "require (v) / requirement (n) / required (adj)",
+   "collocation": "required to"
+  },
+  {
+   "word": "available",
+   "pos": "adj",
+   "ipa": "/əˈveɪləbl/",
+   "vi": "có sẵn, rảnh",
+   "example": {
+    "en": "The manager is not available until noon.",
+    "vi": "Quản lý không rảnh đến trưa."
+   },
+   "family": "available (adj) / availability (n)",
+   "collocation": "available for"
+  },
+  {
+   "word": "effective",
+   "pos": "adj",
+   "ipa": "/ɪˈfektɪv/",
+   "vi": "hiệu quả",
+   "example": {
+    "en": "An effective plan saves time and money.",
+    "vi": "Một kế hoạch hiệu quả tiết kiệm thời gian và tiền."
+   },
+   "family": "effect (n) / effective (adj) / effectively (adv)",
+   "collocation": "effective immediately"
+  },
+  {
+   "word": "efficient",
+   "pos": "adj",
+   "ipa": "/ɪˈfɪʃnt/",
+   "vi": "năng suất, tiết kiệm",
+   "example": {
+    "en": "The new machine is more efficient.",
+    "vi": "Máy mới hoạt động hiệu quả hơn."
+   },
+   "family": "efficient (adj) / efficiency (n) / efficiently (adv)",
+   "collocation": "energy efficient"
+  },
+  {
+   "word": "comprehensive",
+   "pos": "adj",
+   "ipa": "/ˌkɒmprɪˈhensɪv/",
+   "vi": "toàn diện",
+   "example": {
+    "en": "We offer a comprehensive training program.",
+    "vi": "Chúng tôi có chương trình đào tạo toàn diện."
+   },
+   "family": "comprehensive (adj) / comprehensively (adv)",
+   "collocation": "comprehensive review"
+  },
+  {
+   "word": "appropriate",
+   "pos": "adj",
+   "ipa": "/əˈprəʊpriət/",
+   "vi": "phù hợp",
+   "example": {
+    "en": "Wear appropriate clothing for the workshop.",
+    "vi": "Hãy mặc trang phục phù hợp cho buổi hội thảo."
+   },
+   "family": "appropriate (adj) / appropriately (adv)",
+   "collocation": "appropriate for"
+  }
+ ]
+}

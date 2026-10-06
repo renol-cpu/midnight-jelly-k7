@@ -1,0 +1,301 @@
+{
+ "grammar": [
+  {
+   "id": "d07-p5-a",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d07-p5-01",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 1,
+     "q": "The ____ of the new parking system saved everyone time.",
+     "options": [
+      "introduce",
+      "introduced",
+      "introduction",
+      "introductory"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Sau \"The\" làm chủ ngữ cần danh từ.",
+      "en": "\"The\" is followed by a noun subject."
+     },
+     "trap": "\"Introductory\" là tính từ nên không làm chủ ngữ."
+    },
+    {
+     "id": "d07-p5-02",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 1,
+     "q": "A ____ increase in fuel prices worried the airline.",
+     "options": [
+      "considerably",
+      "considerable",
+      "consider",
+      "considering"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Trước danh từ \"increase\" cần tính từ.",
+      "en": "An adjective goes before \"increase\"."
+     },
+     "trap": "\"Considerably\" là trạng từ nên không đứng trước danh từ."
+    },
+    {
+     "id": "d07-p5-03",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 1,
+     "q": "The jellyfish exhibit has been ____ redesigned.",
+     "options": [
+      "completely",
+      "complete",
+      "completion",
+      "completes"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Trạng từ giữa \"has been\" và V3.",
+      "en": "An adverb between \"has been\" and the participle."
+     },
+     "trap": "\"Complete\" tính từ không bổ nghĩa cho V3."
+    },
+    {
+     "id": "d07-p5-04",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 1,
+     "q": "Guests are ____ permitted to feed the animals.",
+     "options": [
+      "no",
+      "none",
+      "nor",
+      "not"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Phủ định \"are permitted\" bằng \"not\".",
+      "en": "\"Not\" negates \"are permitted\"."
+     },
+     "trap": "\"No permitted\" sai."
+    },
+    {
+     "id": "d07-p5-05",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 1,
+     "q": "We found ____ errors in the final report.",
+     "options": [
+      "not",
+      "none",
+      "no",
+      "neither"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"No\" + danh từ \"errors\".",
+      "en": "\"No\" + the noun \"errors\"."
+     },
+     "trap": "\"Not errors\" sai."
+    },
+    {
+     "id": "d07-p5-06",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "Ms. Garcia is in charge ____ the exhibit.",
+     "options": [
+      "at",
+      "of",
+      "with",
+      "on"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cụm cố định: in charge of.",
+      "en": "Fixed phrase: in charge of."
+     },
+     "trap": "\"In charge for\" gây nhầm với \"responsible for\"."
+    },
+    {
+     "id": "d07-p5-07",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "The pool is closed ____ maintenance until Friday.",
+     "options": [
+      "for",
+      "with",
+      "of",
+      "by"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cụm: closed for maintenance.",
+      "en": "Fixed phrase: closed for maintenance."
+     },
+     "trap": "\"Closed by maintenance\" nghĩa là bị bảo trì đóng, không tự nhiên."
+    },
+    {
+     "id": "d07-p5-08",
+     "part": 5,
+     "skill": "p5.agreement",
+     "level": 2,
+     "q": "Each of the volunteers ____ a name tag.",
+     "options": [
+      "wear",
+      "are wearing",
+      "have worn",
+      "wears"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"Each\" số ít.",
+      "en": "\"Each\" is singular."
+     },
+     "trap": "\"Volunteers\" gần động từ làm rối."
+    },
+    {
+     "id": "d07-p5-09",
+     "part": 5,
+     "skill": "p5.agreement",
+     "level": 2,
+     "q": "The members of the team ____ the new schedule.",
+     "options": [
+      "prefers",
+      "is preferring",
+      "prefer",
+      "has preferred"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Chủ ngữ \"members\" số nhiều.",
+      "en": "The head noun \"members\" is plural."
+     },
+     "trap": "\"Team\" đứng sau \"of\" nên không quyết định số."
+    },
+    {
+     "id": "d07-p5-10",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 2,
+     "q": "The candidate ____ we interviewed yesterday accepted the offer.",
+     "options": [
+      "whose",
+      "whom",
+      "which",
+      "what"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Ứng viên là tân ngữ của \"interviewed\".",
+      "en": "The candidate is the object of \"interviewed\"."
+     },
+     "trap": "\"Which\" chỉ vật."
+    }
+   ]
+  },
+  {
+   "id": "d07-p5-b",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d07-p5-11",
+     "part": 5,
+     "skill": "p5.passive",
+     "level": 1,
+     "q": "All invoices must ____ before the end of the month.",
+     "options": [
+      "be paid",
+      "pay",
+      "paying",
+      "paid"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Hóa đơn được thanh toán: must be + V3.",
+      "en": "Invoices are paid: must be + past participle."
+     },
+     "trap": "\"Must paid\" sai vì sau modal cần nguyên mẫu."
+    },
+    {
+     "id": "d07-p5-12",
+     "part": 5,
+     "skill": "p5.tense",
+     "level": 2,
+     "q": "By the time the guests arrive, the staff ____ the room.",
+     "options": [
+      "prepared",
+      "prepares",
+      "is preparing",
+      "will have prepared"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"By the time\" + hiện tại đơn đi với tương lai hoàn thành.",
+      "en": "\"By the time\" + present simple pairs with the future perfect."
+     },
+     "trap": "\"Prepared\" không hợp với mốc tương lai."
+    },
+    {
+     "id": "d07-p5-13",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 1,
+     "q": "The ____ of the survey are posted online.",
+     "options": [
+      "resulting",
+      "resulted",
+      "results",
+      "resultant"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Sau \"The\" cần danh từ, động từ số nhiều \"are\" xác nhận số nhiều.",
+      "en": "A plural noun fits \"The ... are\"."
+     },
+     "trap": "\"Resulting\" là phân từ nên không làm chủ ngữ."
+    },
+    {
+     "id": "d07-p5-14",
+     "part": 5,
+     "skill": "p5.collocation",
+     "level": 2,
+     "q": "Ms. Doan always speaks ____ of her team's efforts.",
+     "options": [
+      "high",
+      "highly",
+      "height",
+      "higher"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cụm cố định: speak highly of.",
+      "en": "Fixed phrase: speak highly of."
+     },
+     "trap": "\"Speak high\" nghe quen với tiếng Việt \"nói cao\" nhưng sai."
+    },
+    {
+     "id": "d07-p5-15",
+     "part": 5,
+     "skill": "p5.agreement",
+     "level": 3,
+     "q": "Neither of the two proposals ____ the committee's approval.",
+     "options": [
+      "has received",
+      "have received",
+      "are receiving",
+      "receive"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Neither of\" thường chia số ít.",
+      "en": "\"Neither of\" takes a singular verb in test English."
+     },
+     "trap": "\"Proposals\" số nhiều làm chọn \"have\"."
+    }
+   ]
+  }
+ ]
+}

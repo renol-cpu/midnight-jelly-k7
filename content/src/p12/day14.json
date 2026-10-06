@@ -1,0 +1,688 @@
+{
+ "listening": [
+  {
+   "id": "d14-p1-s01",
+   "part": 1,
+   "image": "/img/p1/pp30.jpg",
+   "imageAlt": "Một người đang bấm máy tính cầm tay, trước mặt là laptop hiển thị bảng tính và một chậu cây",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "A woman is using a calculator."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "A woman is signing a check."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "A laptop is being carried."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "Some papers are being shredded."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p1-01",
+     "part": 1,
+     "skill": "p1.people-action",
+     "level": 1,
+     "options": [
+      "A woman is using a calculator.",
+      "A woman is signing a check.",
+      "A laptop is being carried.",
+      "Some papers are being shredded."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Tay cô ấy đang bấm máy tính cầm tay: is using a calculator. Laptop chỉ để trên bàn.",
+      "en": "Her hand is on the calculator, so (A) is correct. The laptop is simply on the desk."
+     },
+     "trap": "Câu (C) lấy laptop làm bẫy, nhưng không ai đang xách nó."
+    }
+   ]
+  },
+  {
+   "id": "d14-p1-s02",
+   "part": 1,
+   "image": "/media/v04.jpg",
+   "imageAlt": "Nhiều con sứa tròn nhỏ màu xanh trôi rải rác trong nước tối",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "Some coins have been scattered on a table."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "A net is being lowered into the water."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "Some lights are being turned off."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "Some small jellyfish are floating in the water."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p1-02",
+     "part": 1,
+     "skill": "p1.scene",
+     "level": 2,
+     "options": [
+      "Some coins have been scattered on a table.",
+      "A net is being lowered into the water.",
+      "Some lights are being turned off.",
+      "Some small jellyfish are floating in the water."
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Ảnh có nhiều sứa nhỏ đang trôi trong nước, nên (D) đúng. Không có lưới hay đồng xu.",
+      "en": "Small jellyfish float in water, so (D) is right. No coins or net appear."
+     },
+     "trap": "Câu (A) dùng 'scattered' nghe hợp với hình các chấm tròn, nhưng đó là sứa chứ không phải đồng xu."
+    }
+   ]
+  },
+  {
+   "id": "d14-p1-s03",
+   "part": 1,
+   "image": "/img/p1/pp31.jpg",
+   "imageAlt": "Một người đàn ông cầm tay kéo của một chiếc xe đẩy gỗ phẳng, bên cạnh là một phụ nữ",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "A woman is pushing a cart."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "A man is holding the handle of a cart."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "A cart is parked in a garage."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "A woman is sweeping the street."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p1-03",
+     "part": 1,
+     "skill": "p1.people-action",
+     "level": 3,
+     "options": [
+      "A woman is pushing a cart.",
+      "A man is holding the handle of a cart.",
+      "A cart is parked in a garage.",
+      "A woman is sweeping the street."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Người đàn ông nắm cán xe đẩy: is holding the handle. Người phụ nữ đứng cạnh, không đẩy xe.",
+      "en": "The man grips the handle, so (B) is correct. The woman stands beside the cart."
+     },
+     "trap": "Câu (A) giữ đúng vật 'cart' nhưng sai người: người phụ nữ không đẩy xe."
+    }
+   ]
+  },
+  {
+   "id": "d14-p2-s01",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Who is giving the keynote speech?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "In the main auditorium."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Yes, it was a long speech."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "The head of our Seoul branch."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p2-01",
+     "part": 2,
+     "skill": "p2.wh-who",
+     "level": 1,
+     "options": [
+      "In the main auditorium.",
+      "Yes, it was a long speech.",
+      "The head of our Seoul branch."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Who hỏi người; head of the Seoul branch là người.",
+      "en": "'Who' asks for a person, and the head of the branch is one."
+     },
+     "trap": "(A) trả lời Where."
+    }
+   ]
+  },
+  {
+   "id": "d14-p2-s02",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "What's included in the registration fee?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Meals and a conference bag."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "By Friday."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "It's registered."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p2-02",
+     "part": 2,
+     "skill": "p2.wh-what",
+     "level": 1,
+     "options": [
+      "Meals and a conference bag.",
+      "By Friday.",
+      "It's registered."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "What hỏi nội dung; 'Meals and a conference bag' trả lời.",
+      "en": "'What' asks for content, and meals and a bag answer it."
+     },
+     "trap": "(C) nghe giống registration."
+    }
+   ]
+  },
+  {
+   "id": "d14-p2-s03",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Where did you leave the sample products?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Sample size is small."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "They're still in my car."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Yes, I like samples."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p2-03",
+     "part": 2,
+     "skill": "p2.wh-where",
+     "level": 1,
+     "options": [
+      "Sample size is small.",
+      "They're still in my car.",
+      "Yes, I like samples."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Where hỏi chỗ; 'still in my car' là nơi để.",
+      "en": "'Where' asks for a place, and 'in my car' is one."
+     },
+     "trap": "(A) lặp sample nhưng nói cỡ."
+    }
+   ]
+  },
+  {
+   "id": "d14-p2-s04",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "When is the next staff meeting?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Let me check the calendar."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "In the meeting room."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Staff is on leave."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p2-04",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 2,
+     "options": [
+      "Let me check the calendar.",
+      "In the meeting room.",
+      "Staff is on leave."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Trả lời gián tiếp: đi kiểm tra lịch.",
+      "en": "An indirect answer: the speaker will check the calendar."
+     },
+     "trap": "(B) lặp meeting nhưng là địa điểm."
+    }
+   ]
+  },
+  {
+   "id": "d14-p2-s05",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Why is the street closed?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "It's a quiet street."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "There's a parade today."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Close to the bank."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p2-05",
+     "part": 2,
+     "skill": "p2.wh-why",
+     "level": 1,
+     "options": [
+      "It's a quiet street.",
+      "There's a parade today.",
+      "Close to the bank."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Why hỏi lý do; 'a parade today' là lý do.",
+      "en": "'Why' asks for a reason, and the parade is one."
+     },
+     "trap": "(C) nghe giống closed/close."
+    }
+   ]
+  },
+  {
+   "id": "d14-p2-s06",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "How do I submit my vacation request?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Through the online form."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "For ten days."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Yes, I'd like a vacation."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p2-06",
+     "part": 2,
+     "skill": "p2.wh-how",
+     "level": 1,
+     "options": [
+      "Through the online form.",
+      "For ten days.",
+      "Yes, I'd like a vacation."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "How hỏi cách; 'Through the online form' trả lời.",
+      "en": "'How' asks for a method, and the online form answers it."
+     },
+     "trap": "(B) trả lời How long."
+    }
+   ]
+  },
+  {
+   "id": "d14-p2-s07",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Would you rather work on the budget or the schedule?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "The schedule is long."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Yes, I'd rather."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "I'm better with numbers."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p2-07",
+     "part": 2,
+     "skill": "p2.choice",
+     "level": 2,
+     "options": [
+      "The schedule is long.",
+      "Yes, I'd rather.",
+      "I'm better with numbers."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Chọn gián tiếp: giỏi số nên chọn ngân sách.",
+      "en": "An indirect choice: being good with numbers points to the budget."
+     },
+     "trap": "(A) lặp schedule nhưng không chọn."
+    }
+   ]
+  },
+  {
+   "id": "d14-p2-s08",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Do you know if the aquarium café is hiring?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "The sign in the window says so."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Hiring costs are rising."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "A café hires staff."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p2-08",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 2,
+     "options": [
+      "The sign in the window says so.",
+      "Hiring costs are rising.",
+      "A café hires staff."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Dẫn đến biển báo ở cửa sổ: trả lời gián tiếp là có.",
+      "en": "Pointing to the window sign is an indirect yes."
+     },
+     "trap": "(B) lặp hiring nhưng nói chi phí."
+    }
+   ]
+  },
+  {
+   "id": "d14-p2-s09",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "I'll need the sales figures by Monday."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Yes, he is figuring it out."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Should I send them by email?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "On Monday morning."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p2-09",
+     "part": 2,
+     "skill": "p2.statement",
+     "level": 2,
+     "options": [
+      "Yes, he is figuring it out.",
+      "Should I send them by email?",
+      "On Monday morning."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Hỏi lại cách gửi là phản hồi hợp lý.",
+      "en": "Asking how to send them is a natural reply."
+     },
+     "trap": "(A) nghe giống figures/figuring."
+    }
+   ]
+  },
+  {
+   "id": "d14-p2-s10",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Why don't we hold the training in the afternoon?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "A training manual."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Most of the team is out then."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Yes, we trained twice."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p2-10",
+     "part": 2,
+     "skill": "p2.suggestion",
+     "level": 2,
+     "options": [
+      "A training manual.",
+      "Most of the team is out then.",
+      "Yes, we trained twice."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Từ chối gợi ý bằng lý do: đa số nghỉ buổi chiều.",
+      "en": "The suggestion is rejected with a reason."
+     },
+     "trap": "(A) lặp training."
+    }
+   ]
+  },
+  {
+   "id": "d14-p2-s11",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Who should I talk to about the broken air conditioner?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "It's too cold in here."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Building maintenance has a hotline."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Yes, it's air-conditioned."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p2-11",
+     "part": 2,
+     "skill": "p2.wh-who",
+     "level": 2,
+     "options": [
+      "It's too cold in here.",
+      "Building maintenance has a hotline.",
+      "Yes, it's air-conditioned."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Who hỏi người liên hệ; 'Building maintenance' là bộ phận.",
+      "en": "'Who' asks whom to contact, and building maintenance is the answer."
+     },
+     "trap": "(C) lặp air-conditioner."
+    }
+   ]
+  },
+  {
+   "id": "d14-p2-s12",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "The shipment hasn't arrived and the opening is tomorrow."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "I'll arrive by noon."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Yes, it's open all day."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Let's call the carrier for an update."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p2-12",
+     "part": 2,
+     "skill": "p2.statement",
+     "level": 3,
+     "options": [
+      "I'll arrive by noon.",
+      "Yes, it's open all day.",
+      "Let's call the carrier for an update."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Vấn đề gấp; 'call the carrier' là hướng giải quyết.",
+      "en": "An urgent problem, and calling the carrier is the logical step."
+     },
+     "trap": "(A) lặp arrive nhưng nói về mình."
+    }
+   ]
+  }
+ ]
+}

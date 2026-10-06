@@ -1,0 +1,199 @@
+{
+ "day": 20,
+ "title": {
+  "vi": "Đêm trước rạn san hô",
+  "en": "The Night Before"
+ },
+ "story": [
+  {
+   "speaker": "NARRATOR",
+   "en": "The lifeboat stops in a quiet blue cave. No wind, no waves. Only the soft light of ten thousand jellyfish.",
+   "vi": "Chiếc xuồng dừng trong một hang xanh yên tĩnh. Không gió, không sóng. Chỉ có ánh sáng dịu của mười nghìn con sứa.",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "HUY",
+   "en": "I am scared, NOVA. What if the Captain is already there? What if I forget everything again?",
+   "vi": "Em sợ, NOVA. Nếu thuyền trưởng đã ở đó thì sao? Nếu em lại quên hết thì sao?",
+   "voice": "caM"
+  },
+  {
+   "speaker": "NOVA",
+   "en": "You forgot the way many times. But you never forgot why you came. That is the strongest thing in the sea.",
+   "vi": "Em đã quên đường nhiều lần. Nhưng em chưa bao giờ quên vì sao em đến. Đó là thứ mạnh nhất trong biển.",
+   "voice": "usF"
+  },
+  {
+   "speaker": "BESUA",
+   "en": "Em ngủ cạnh Huy nha. Nếu Huy quên, em sẽ nhắc: Huy thích sứa, thích ăn mì Ý, thích anh M. Hihi. Hong quên được đâu. :33",
+   "vi": "Em ngủ cạnh Huy nha. Nếu Huy quên, em sẽ nhắc: Huy thích sứa, thích mì Ý, thích anh M. Hihi. Không quên được đâu. :33"
+  },
+  {
+   "speaker": "M",
+   "en": "Tomorrow. Tomorrow, I will say it in a way you can understand without any help. I am so proud of you, Huy.",
+   "vi": "Ngày mai. Ngày mai anh sẽ nói theo cách em hiểu được mà không cần ai giúp. Anh tự hào về em lắm, Huy.",
+   "voice": "usM"
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "Huy closes his eyes. For the first time, he is not afraid of the dark.",
+   "vi": "Huy nhắm mắt. Lần đầu tiên, anh không sợ bóng tối.",
+   "voice": "gbF"
+  }
+ ],
+ "letter": {
+  "vi": "Bé iu, hôm nay chiến thuật nè: câu nào lạc thì bỏ, đoán chứ đừng bỏ trống, và 30 giây cuối tô hết ô còn lại. Dù điểm mai ra sao, BÉ vẫn là bé giỏi của anh. Anh tin bé.",
+  "en": "My love, strategy day: skip what is lost, guess and never leave blank, and in the last 30 seconds fill every empty bubble. Whatever tomorrow's score, you are still my clever BÉ. I believe in you."
+ },
+ "beSua": [
+  "Hết giờ thi mà còn ô trống? Tô đại! Không bị trừ điểm khi sai đâu nha. Dọ!",
+  "Half past ten là 10 rưỡi, quarter to ten là 9 giờ 45. Hihi, giờ hay hỏi Part 2 nha. :33",
+  "Assume và presume đều là cho rằng, nhưng assume phổ biến hơn trong TOEIC. Hihi!"
+ ],
+ "vocab": [
+  {
+   "word": "priority",
+   "pos": "n",
+   "ipa": "/praɪˈɒrəti/",
+   "vi": "ưu tiên",
+   "example": {
+    "en": "Safety is our first priority.",
+    "vi": "An toàn là ưu tiên hàng đầu của chúng tôi."
+   },
+   "family": "prioritize (v) / priority (n)",
+   "collocation": "top priority"
+  },
+  {
+   "word": "assume",
+   "pos": "v",
+   "ipa": "/əˈsjuːm/",
+   "vi": "cho rằng, giả định",
+   "example": {
+    "en": "I assume the meeting is still on.",
+    "vi": "Tôi cho rằng cuộc họp vẫn diễn ra."
+   },
+   "family": "assume (v) / assumption (n)",
+   "collocation": "assume that"
+  },
+  {
+   "word": "confirm",
+   "pos": "v",
+   "ipa": "/kənˈfɜːm/",
+   "vi": "xác nhận",
+   "example": {
+    "en": "Please confirm your attendance by Friday.",
+    "vi": "Vui lòng xác nhận tham dự trước thứ Sáu."
+   },
+   "family": "confirm (v) / confirmation (n)",
+   "collocation": "confirm a booking"
+  },
+  {
+   "word": "indicate",
+   "pos": "v",
+   "ipa": "/ˈɪndɪkeɪt/",
+   "vi": "chỉ ra, cho thấy",
+   "example": {
+    "en": "The report indicates a slight drop in sales.",
+    "vi": "Báo cáo cho thấy doanh số giảm nhẹ."
+   },
+   "family": "indicate (v) / indication (n)",
+   "collocation": "indicate that"
+  },
+  {
+   "word": "mention",
+   "pos": "v",
+   "ipa": "/ˈmenʃn/",
+   "vi": "đề cập",
+   "example": {
+    "en": "She mentioned the schedule change.",
+    "vi": "Cô ấy đề cập việc đổi lịch."
+   },
+   "family": "mention (v, n)",
+   "collocation": "as mentioned above"
+  },
+  {
+   "word": "previous",
+   "pos": "adj",
+   "ipa": "/ˈpriːviəs/",
+   "vi": "trước đó",
+   "example": {
+    "en": "See the previous email for details.",
+    "vi": "Xem email trước để biết chi tiết."
+   },
+   "family": "previous (adj) / previously (adv)",
+   "collocation": "previous experience"
+  },
+  {
+   "word": "remain",
+   "pos": "v",
+   "ipa": "/rɪˈmeɪn/",
+   "vi": "vẫn còn, giữ nguyên",
+   "example": {
+    "en": "The store will remain open late.",
+    "vi": "Cửa hàng sẽ vẫn mở muộn."
+   },
+   "family": "remain (v) / remaining (adj)",
+   "collocation": "remain open"
+  },
+  {
+   "word": "represent",
+   "pos": "v",
+   "ipa": "/ˌreprɪˈzent/",
+   "vi": "đại diện",
+   "example": {
+    "en": "She represents the company at trade fairs.",
+    "vi": "Cô ấy đại diện công ty tại các hội chợ."
+   },
+   "family": "represent (v) / representative (n) / representation (n)",
+   "collocation": "represent a client"
+  },
+  {
+   "word": "consider",
+   "pos": "v",
+   "ipa": "/kənˈsɪdə/",
+   "vi": "cân nhắc",
+   "example": {
+    "en": "We are considering a new location.",
+    "vi": "Chúng tôi đang cân nhắc một địa điểm mới."
+   },
+   "family": "consider (v) / consideration (n) / considerable (adj)",
+   "collocation": "consider doing"
+  },
+  {
+   "word": "reduce",
+   "pos": "v",
+   "ipa": "/rɪˈdjuːs/",
+   "vi": "giảm",
+   "example": {
+    "en": "The plan will reduce waste by half.",
+    "vi": "Kế hoạch sẽ giảm một nửa lượng rác."
+   },
+   "family": "reduce (v) / reduction (n)",
+   "collocation": "reduce costs"
+  },
+  {
+   "word": "extend",
+   "pos": "v",
+   "ipa": "/ɪkˈstend/",
+   "vi": "gia hạn, kéo dài",
+   "example": {
+    "en": "The store extended its opening hours.",
+    "vi": "Cửa hàng kéo dài giờ mở cửa."
+   },
+   "family": "extend (v) / extension (n) / extensive (adj)",
+   "collocation": "extend a deadline"
+  },
+  {
+   "word": "rely",
+   "pos": "v",
+   "ipa": "/rɪˈlaɪ/",
+   "vi": "dựa vào, tin cậy",
+   "example": {
+    "en": "We rely on volunteers during busy weeks.",
+    "vi": "Chúng tôi dựa vào tình nguyện viên vào các tuần bận."
+   },
+   "family": "rely (v) / reliable (adj) / reliability (n)",
+   "collocation": "rely on"
+  }
+ ]
+}

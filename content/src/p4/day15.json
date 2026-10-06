@@ -1,0 +1,194 @@
+{
+ "listening": [
+  {
+   "id": "d15-p4-a",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Good morning, volunteers. Thank you for helping at this year's Harbor Park Clean-Up Day. Before we begin, I would like to go over the team assignments. Each team will work in a different zone, and the zones are listed on the schedule you received this morning. Please note that there has been a change. Because of the heavy rain last night, the Beach team will not be able to start at nine. They will switch places with the team scheduled for the Picnic Area, so please check your new start times. Everyone will receive gloves and bags at the supply tent. Lunch will be served at noon near the main gate, and all volunteers who stay until three o'clock will get a free T-shirt."
+    }
+   ],
+   "graphic": {
+    "caption": "Harbor Park Clean-Up Day: Team Schedule",
+    "rows": [
+     [
+      "Zone",
+      "Start time"
+     ],
+     [
+      "Beach",
+      "9:00 A.M."
+     ],
+     [
+      "Picnic Area",
+      "10:00 A.M."
+     ],
+     [
+      "Playground",
+      "11:00 A.M."
+     ],
+     [
+      "Parking Lot",
+      "1:00 P.M."
+     ]
+    ]
+   },
+   "questions": [
+    {
+     "id": "d15-p4-a1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "What is the purpose of the talk?",
+     "options": [
+      "To give volunteers their assignments",
+      "To announce a rainstorm",
+      "To recruit new members",
+      "To thank a sponsor"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Người nói điểm lại phân công nhóm cho tình nguyện viên.",
+      "en": "The speaker goes over team assignments."
+     },
+     "trap": "Rain chỉ là lý do thay đổi chứ không phải mục đích."
+    },
+    {
+     "id": "d15-p4-a2",
+     "part": 4,
+     "skill": "p4.graphic",
+     "level": 2,
+     "q": "Look at the graphic. When will the Picnic Area team most likely start?",
+     "options": [
+      "9:00 A.M.",
+      "10:00 A.M.",
+      "11:00 A.M.",
+      "1:00 P.M."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Beach và Picnic Area đổi chỗ, nên nhóm Picnic Area lấy giờ ban đầu của Beach là 9 giờ sáng.",
+      "en": "The Beach and Picnic Area teams swap, so Picnic Area takes the Beach start time of 9:00 A.M."
+     },
+     "trap": "Chọn 10:00 là giờ cũ của Picnic Area, quên là hai nhóm đã đổi chỗ."
+    },
+    {
+     "id": "d15-p4-a3",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 1,
+     "q": "What will volunteers who stay until three o'clock receive?",
+     "options": [
+      "A free lunch",
+      "A T-shirt",
+      "Gloves",
+      "A certificate"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Ở lại đến 3 giờ chiều sẽ được tặng áo thun.",
+      "en": "Volunteers who stay until three get a free T-shirt."
+     },
+     "trap": "Lunch phục vụ lúc trưa cho mọi người, không gắn với việc ở lại đến ba giờ."
+    }
+   ]
+  },
+  {
+   "id": "d15-p4-b",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Good afternoon, and welcome to the monthly training session for new customer service staff. Today I will explain how our call center measures performance. As you can see on the chart, every employee is rated in four areas. The area that carries the most weight is customer satisfaction, which is worth forty percent of your score. Next in importance is the number of calls handled per hour. Accuracy comes third, and attendance counts the least. I would like to stress that although speed is important, we never want you to hurry customers off the phone. Your supervisors will review your scores with you every month, and the employee with the best score each quarter will receive a gift card. Let's take a look at some sample calls."
+    }
+   ],
+   "graphic": {
+    "caption": "Call Center Performance Score",
+    "rows": [
+     [
+      "Area",
+      "Weight"
+     ],
+     [
+      "Accuracy",
+      "20%"
+     ],
+     [
+      "Attendance",
+      "10%"
+     ],
+     [
+      "Calls handled per hour",
+      "30%"
+     ],
+     [
+      "Customer satisfaction",
+      "40%"
+     ]
+    ]
+   },
+   "questions": [
+    {
+     "id": "d15-p4-b1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Who is the audience for the talk?",
+     "options": [
+      "New customer service staff",
+      "Call center managers",
+      "Sales representatives",
+      "Job applicants"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Buổi đào tạo tháng dành cho nhân viên chăm sóc khách hàng mới.",
+      "en": "The session is for new customer service staff."
+     },
+     "trap": "Managers chỉ xem điểm hàng tháng với nhân viên."
+    },
+    {
+     "id": "d15-p4-b2",
+     "part": 4,
+     "skill": "p4.graphic",
+     "level": 3,
+     "q": "Look at the graphic. How much is the third most important area worth?",
+     "options": [
+      "10%",
+      "20%",
+      "30%",
+      "40%"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Người nói xếp accuracy ở vị trí thứ ba; trong bảng accuracy là 20 phần trăm.",
+      "en": "The speaker says accuracy comes third, and the graphic shows accuracy at 20%."
+     },
+     "trap": "Chọn 30% là điểm của calls per hour, hạng thứ hai."
+    },
+    {
+     "id": "d15-p4-b3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 2,
+     "q": "What happens to the employee with the best quarterly score?",
+     "options": [
+      "A raise",
+      "A gift card",
+      "A day off",
+      "A promotion"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Điểm tốt nhất mỗi quý được tặng thẻ quà tặng.",
+      "en": "The best score each quarter earns a gift card."
+     },
+     "trap": "Promotion không được nhắc."
+    }
+   ]
+  }
+ ]
+}

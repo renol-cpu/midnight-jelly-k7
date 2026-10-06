@@ -1,0 +1,165 @@
+{
+  "grammar": [
+    {
+      "id": "d01-p6-a",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "email",
+          "title": "Group booking for preschool visit",
+          "text": "To: Visitor Services\nFrom: Linda Park\nSubject: Group booking for preschool visit\n\nDear Manager,\n\nI am writing to ask about a group visit for our preschool. We would like to bring 25 children and four teachers to the aquarium on the last Friday of next month. The children are very [1] about seeing the jellyfish. [2] Because the children are young, we prefer a quiet time of day. Could you [3] a suitable time slot? We would also like to know whether a group rate is available.\n\nPlease reply by Monday, [4] we can inform the parents in time.\n\nSincerely,\nLinda Park\nLittle Harbor Preschool"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d01-p6-a-1",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [1]",
+          "options": [
+            "excite",
+            "excited",
+            "exciting",
+            "excitement"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Sau \"very\" và \"are\" cần tính từ chỉ cảm xúc của người: \"excited\" (các em bé háo hức). \"Exciting\" là tính từ chỉ vật gây ra cảm giác.",
+            "en": "After \"are very\" we need an adjective describing how people feel: \"excited\". \"Exciting\" describes the thing that causes the feeling."
+          },
+          "trap": "Em hay chọn \"exciting\" vì nghe quen, nhưng chủ ngữ là \"children\" (người cảm thấy) nên phải là -ed."
+        },
+        {
+          "id": "d01-p6-a-2",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 1,
+          "q": "Blank [2]",
+          "options": [
+            "The aquarium was founded more than ten years ago.",
+            "We expect the visit to last about two hours.",
+            "Several teachers have visited the aquarium before.",
+            "Please send me a copy of your annual report."
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Câu sau nói về \"a quiet time of day\", nên câu chèn phải nói về kế hoạch chuyến thăm: thời lượng khoảng hai giờ. Các câu kia không liên quan đến lịch.",
+            "en": "The next sentence is about choosing a time, so the missing sentence should describe the planned visit, its length. The others do not connect to scheduling."
+          },
+          "trap": "Câu A nhắc \"aquarium\" nên dễ bị hút vào, nhưng nó không nối với ý \"chọn giờ yên tĩnh\"."
+        },
+        {
+          "id": "d01-p6-a-3",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [3]",
+          "options": [
+            "recommend",
+            "recommends",
+            "recommended",
+            "recommendation"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Sau \"Could you\" cần động từ nguyên mẫu: \"recommend\".",
+            "en": "After \"Could you\" we need a base-form verb: \"recommend\"."
+          },
+          "trap": "Chọn \"recommendation\" là sai vì danh từ không đứng ngay sau \"Could you\"."
+        },
+        {
+          "id": "d01-p6-a-4",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [4]",
+          "options": [
+            "so that",
+            "even if",
+            "rather than",
+            "as long as"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "\"so that\" chỉ mục đích: trả lời sớm để nhà trường kịp báo phụ huynh.",
+            "en": "\"So that\" expresses purpose: a reply by Monday lets the school inform parents."
+          },
+          "trap": "\"as long as\" (miễn là) nghe lịch sự nhưng làm ý bị đảo: không phải điều kiện mà là mục đích."
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "d01-p7-a",
+      "part": 7,
+      "passages": [
+        {
+          "kind": "email",
+          "title": "Thursday supplier meeting",
+          "text": "To: Daniel Rossi\nFrom: Meera Patel\nDate: May 12\nSubject: Thursday's supplier meeting\n\nDear Daniel,\n\nI am writing to let you know that the supplier meeting scheduled for Thursday at 10 A.M. has been moved to Friday at 2 P.M. Mr. Kwon from Delta Packaging has a conference in Singapore on Thursday and will return only on Friday morning. The meeting will still be held in Conference Room B on the third floor.\n\nCould you please bring the latest cost comparison for cardboard and plastic containers? I would also like you to invite Ms. Alvarez from the finance team, since she will need to approve any change in suppliers.\n\nThank you for your flexibility.\n\nMeera"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d01-p7-a-1",
+          "part": 7,
+          "skill": "p7.main-idea",
+          "level": 1,
+          "q": "Why did Ms. Patel write the e-mail?",
+          "options": [
+            "To request a refund",
+            "To announce a schedule change",
+            "To introduce a new supplier",
+            "To cancel a conference"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Email báo cuộc họp dời từ thứ Năm sang thứ Sáu, tức là thông báo đổi lịch.",
+            "en": "The e-mail says the meeting moved from Thursday to Friday, so it announces a schedule change."
+          },
+          "trap": "\"conference\" xuất hiện trong bài nhưng đó là hội nghị của ông Kwon, không bị hủy."
+        },
+        {
+          "id": "d01-p7-a-2",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "Why was the meeting moved?",
+          "options": [
+            "A room was not available.",
+            "Mr. Kwon will be traveling.",
+            "Ms. Alvarez is on vacation.",
+            "A cost comparison was not ready."
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Ông Kwon dự hội nghị ở Singapore vào thứ Năm và chỉ về vào sáng thứ Sáu.",
+            "en": "Mr. Kwon is at a conference in Singapore on Thursday and returns Friday morning."
+          },
+          "trap": "Phòng họp B vẫn giữ nguyên nên A sai."
+        },
+        {
+          "id": "d01-p7-a-3",
+          "part": 7,
+          "skill": "p7.inference",
+          "level": 2,
+          "q": "What is suggested about Ms. Alvarez?",
+          "options": [
+            "She works for Delta Packaging.",
+            "She will go to Singapore.",
+            "She has authority to approve a supplier change.",
+            "She manages Conference Room B."
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Bà cần phê duyệt mọi thay đổi nhà cung cấp, nên bà có thẩm quyền quyết định.",
+            "en": "She \"will need to approve any change in suppliers\", so she has approval authority."
+          },
+          "trap": "Singapore là nơi ông Kwon đến, đừng gán cho bà Alvarez."
+        }
+      ]
+    }
+  ]
+}

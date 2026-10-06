@@ -1,0 +1,448 @@
+{
+ "grammar": [
+  {
+   "id": "d19-p5-a",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d19-p5-01",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 1,
+     "q": "The café has ____ vegan desserts on the menu at the moment.",
+     "options": [
+      "not",
+      "none",
+      "no",
+      "neither"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Trước danh từ \"vegan desserts\" dùng no để phủ định.",
+      "en": "\"No\" goes before a noun."
+     },
+     "trap": "\"Not\" cần đứng trước động từ hoặc tính từ."
+    },
+    {
+     "id": "d19-p5-02",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 1,
+     "q": "The elevator is ____ working, so please use the stairs.",
+     "options": [
+      "no",
+      "not",
+      "none",
+      "non"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Sau \"is\" và trước V-ing \"working\" cần not.",
+      "en": "\"Not\" negates the verb phrase \"is working\"."
+     },
+     "trap": "\"No working\" sai vì no chỉ đứng trước danh từ."
+    },
+    {
+     "id": "d19-p5-03",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 3,
+     "q": "Ms. Okafor, ____ I met at the conference, will join our team.",
+     "options": [
+      "whom",
+      "whose",
+      "which",
+      "whoever"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Chỉ người, là tân ngữ của \"met\", sau chỗ trống có chủ ngữ I: dùng whom.",
+      "en": "A person as object, followed by subject \"I\": \"whom\"."
+     },
+     "trap": "Whose cần danh từ theo sau."
+    },
+    {
+     "id": "d19-p5-04",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 1,
+     "q": "The vendor ____ prices were lowest won the contract.",
+     "options": [
+      "whom",
+      "who",
+      "which",
+      "whose"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Sau chỗ trống là danh từ \"prices\" của vendor: dùng whose.",
+      "en": "A noun follows and belongs to the vendor: \"whose\"."
+     },
+     "trap": "Who không đứng trực tiếp trước danh từ."
+    },
+    {
+     "id": "d19-p5-05",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "All visitors must comply ____ the building's safety rules.",
+     "options": [
+      "to",
+      "by",
+      "with",
+      "for"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"Comply with\" là cụm cố định: tuân thủ.",
+      "en": "\"Comply with\" is the fixed collocation."
+     },
+     "trap": "\"Comply to\" là lỗi thường gặp khi dịch từ tiếng Việt."
+    },
+    {
+     "id": "d19-p5-06",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 3,
+     "q": "The new clinic will be equipped ____ modern diagnostic devices.",
+     "options": [
+      "by",
+      "with",
+      "of",
+      "for"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"Equipped with\" là cụm cố định: được trang bị.",
+      "en": "\"Equipped with\" is the fixed collocation."
+     },
+     "trap": "\"By\" nghe giống bị động nhưng ở đây là cụm trang bị."
+    },
+    {
+     "id": "d19-p5-07",
+     "part": 5,
+     "skill": "p5.agreement",
+     "level": 3,
+     "q": "The manager, along with her assistants, ____ preparing the quarterly report.",
+     "options": [
+      "is",
+      "are",
+      "were",
+      "have been"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Chủ ngữ thật là \"The manager\" (số ít). Cụm \"along with her assistants\" chỉ là phần thêm vào.",
+      "en": "\"Along with\" does not change the subject, so use singular \"is\"."
+     },
+     "trap": "Assistants nhiều nên hấp dẫn, nhưng nó chỉ là phần phụ."
+    },
+    {
+     "id": "d19-p5-08",
+     "part": 5,
+     "skill": "p5.agreement",
+     "level": 2,
+     "q": "The courier rarely ____ before nine, so please plan for late deliveries.",
+     "options": [
+      "arrived",
+      "arrive",
+      "arriving",
+      "arrives"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"Rarely\" diễn tả thói quen, chủ ngữ số ít nên động từ hiện tại thêm -s: arrives.",
+      "en": "\"Rarely\" signals a habit; singular subject gives \"arrives\"."
+     },
+     "trap": "Arrived là quá khứ, không hợp với thói quen kèm \"so please plan\"."
+    },
+    {
+     "id": "d19-p5-09",
+     "part": 5,
+     "skill": "p5.wish-if",
+     "level": 2,
+     "q": "I wish we ____ more staff on the weekend shifts these days.",
+     "options": [
+      "have",
+      "would have",
+      "had",
+      "had had"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Ước ở hiện tại (these days) dùng quá khứ đơn: had.",
+      "en": "A present wish uses the past simple: \"had\"."
+     },
+     "trap": "Had had là ước về quá khứ, nhưng \"these days\" là dấu hiệu hiện tại."
+    },
+    {
+     "id": "d19-p5-10",
+     "part": 5,
+     "skill": "p5.wish-if",
+     "level": 3,
+     "q": "I wish the supplier ____ the parts last Monday.",
+     "options": [
+      "delivered",
+      "had delivered",
+      "would deliver",
+      "delivers"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"Last Monday\" là mốc quá khứ nên ước về quá khứ dùng had + V3.",
+      "en": "\"Last Monday\" marks a past wish: had + V3."
+     },
+     "trap": "Delivered chỉ đúng với ước ở hiện tại, mà đề đã có mốc quá khứ."
+    }
+   ]
+  },
+  {
+   "id": "d19-p5-b",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d19-p5-11",
+     "part": 5,
+     "skill": "p5.collocation",
+     "level": 1,
+     "q": "Better scheduling has raised the ____ of each worker.",
+     "options": [
+      "productivity",
+      "production",
+      "producer",
+      "product"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Năng suất của mỗi nhân viên là productivity. Production chỉ sản lượng.",
+      "en": "\"Productivity of each worker\" means efficiency."
+     },
+     "trap": "Production nghe quen nhưng chỉ số lượng hàng làm ra."
+    },
+    {
+     "id": "d19-p5-12",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 1,
+     "q": "The company is known for its ____ service.",
+     "options": [
+      "reliably",
+      "reliability",
+      "rely",
+      "reliable"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Trước danh từ \"service\" cần tính từ: reliable.",
+      "en": "An adjective precedes \"service\"."
+     },
+     "trap": "Reliability cũng là danh từ, \"reliability service\" thì không hợp."
+    },
+    {
+     "id": "d19-p5-13",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 1,
+     "q": "The report was ____ prepared, with no errors at all.",
+     "options": [
+      "careful",
+      "care",
+      "carefully",
+      "caring"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Giữa was và prepared cần trạng từ: carefully.",
+      "en": "An adverb sits between \"was\" and \"prepared\"."
+     },
+     "trap": "Careful là tính từ nên không bổ nghĩa cho phân từ."
+    },
+    {
+     "id": "d19-p5-14",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 2,
+     "q": "Employees are eligible ____ a bonus after one year of service.",
+     "options": [
+      "to",
+      "for",
+      "with",
+      "by"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"Eligible for\" là cụm cố định: đủ điều kiện nhận.",
+      "en": "\"Eligible for\" is the fixed collocation."
+     },
+     "trap": "\"Eligible to\" chỉ đúng khi sau đó là động từ nguyên mẫu."
+    },
+    {
+     "id": "d19-p5-15",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "Mr. Bui is responsible ____ training new staff.",
+     "options": [
+      "for",
+      "to",
+      "of",
+      "at"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Responsible for\" là cụm cố định: chịu trách nhiệm về.",
+      "en": "\"Responsible for\" is fixed."
+     },
+     "trap": "\"Responsible to\" nghĩa là chịu trách nhiệm trước ai đó."
+    },
+    {
+     "id": "d19-p5-16",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 2,
+     "q": "____ his lack of experience, Mr. Bui was hired as a supervisor.",
+     "options": [
+      "Although",
+      "Because",
+      "Unless",
+      "Despite"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Sau chỗ trống là cụm danh từ \"his lack of experience\", nên dùng giới từ Despite.",
+      "en": "A noun phrase follows, so \"Despite\" is needed."
+     },
+     "trap": "Although cần một mệnh đề đầy đủ."
+    },
+    {
+     "id": "d19-p5-17",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 2,
+     "q": "The tank must be cleaned ____ the fish are moved to the holding pool.",
+     "options": [
+      "during",
+      "despite",
+      "after",
+      "because of"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Sau chỗ trống là mệnh đề; after nối hai hành động theo thứ tự: chuyển cá xong rồi mới dọn.",
+      "en": "A clause follows; \"after\" gives the order of actions."
+     },
+     "trap": "During, despite, because of là giới từ nên không đứng trước mệnh đề."
+    },
+    {
+     "id": "d19-p5-18",
+     "part": 5,
+     "skill": "p5.pronoun",
+     "level": 2,
+     "q": "The students learned to feed the jellyfish by ____ during the school visit.",
+     "options": [
+      "them",
+      "themselves",
+      "their",
+      "they"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Chủ ngữ và đối tượng là cùng một nhóm người, dùng phản thân: by themselves (tự mình).",
+      "en": "\"By themselves\" means without help."
+     },
+     "trap": "\"Them\" chỉ đúng khi nói về nhóm khác."
+    },
+    {
+     "id": "d19-p5-19",
+     "part": 5,
+     "skill": "p5.comparison",
+     "level": 3,
+     "q": "The new filter works ____ than the old one.",
+     "options": [
+      "more efficiently",
+      "more efficient",
+      "most efficiently",
+      "efficiently"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Có \"than\" và bổ nghĩa cho động từ works: trạng từ so sánh hơn more efficiently.",
+      "en": "\"Than\" + modifying a verb needs an adverb comparative."
+     },
+     "trap": "More efficient là tính từ nên không bổ nghĩa cho động từ works."
+    },
+    {
+     "id": "d19-p5-20",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "The exhibit will be open ____ June 1 to August 31.",
+     "options": [
+      "since",
+      "at",
+      "during",
+      "from"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"From ... to ...\" là cấu trúc chỉ khoảng thời gian.",
+      "en": "\"From ... to ...\" marks a time range."
+     },
+     "trap": "Since chỉ dùng với mốc quá khứ đến hiện tại."
+    }
+   ]
+  }
+ ],
+ "theory": [
+  {
+   "id": "d19-th-1",
+   "title": {
+    "vi": "Sổ nứt số 1: giới từ đi kèm cố định",
+    "en": "Prepositions that stick"
+   },
+   "rule": {
+    "vi": "Nhiều tính từ và động từ luôn đi với một giới từ nhất định, học thuộc cả cụm. Không dịch từng chữ từ tiếng Việt.",
+    "en": "Many adjectives and verbs are glued to one preposition; learn the whole chunk."
+   },
+   "formula": "compatible WITH | eligible FOR | responsible FOR | comply WITH | depend ON | equipped WITH | attended BY",
+   "examples": [
+    {
+     "en": "The app is compatible with all phones.",
+     "vi": "Ứng dụng tương thích với mọi điện thoại."
+    },
+    {
+     "en": "Staff are eligible for a bonus.",
+     "vi": "Nhân viên đủ điều kiện nhận thưởng."
+    },
+    {
+     "en": "Success depends on teamwork.",
+     "vi": "Thành công phụ thuộc vào tinh thần đồng đội."
+    }
+   ],
+   "tip": "Em thử nhẩm ba lần cả cụm \"compatible with, eligible for, comply with\" như bài vè. Lúc thi, cụm này bật ra tự động, không cần nghĩ giới từ nào."
+  },
+  {
+   "id": "d19-th-2",
+   "title": {
+    "vi": "Sổ nứt số 2: no hay not, whom hay whose, số ít hay số nhiều",
+    "en": "No/not, whom/whose, agreement"
+   },
+   "rule": {
+    "vi": "No + danh từ. Not + động từ/tính từ. Whom + chủ ngữ mới. Whose + danh từ. Chủ ngữ thật thường đứng trước cụm giới từ \"of/along with/as well as\", còn \"neither...nor\" chia theo chủ ngữ gần nhất.",
+    "en": "No + noun; not + verb/adj; whom + subject; whose + noun; find the real subject before choosing the verb."
+   },
+   "formula": "no + N | not + V/ADJ | whom + S | whose + N | The head noun decides the verb",
+   "examples": [
+    {
+     "en": "No seats are left.",
+     "vi": "Không còn chỗ nào."
+    },
+    {
+     "en": "The manager, along with her team, is ready.",
+     "vi": "Quản lý cùng nhóm đã sẵn sàng."
+    }
+   ],
+   "tip": "Trước khi chọn động từ, gạch chéo mọi thứ nằm trong \"of ...\" hoặc giữa hai dấu phẩy. Cái còn lại mới là chủ ngữ thật. Anh gọi đây là \"bóc vỏ chuối\"."
+  }
+ ]
+}

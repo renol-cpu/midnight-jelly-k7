@@ -1,0 +1,223 @@
+{
+ "reading": [
+  {
+   "id": "d15-p7-a",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "notice",
+     "title": "IT service notice",
+     "text": "IT SERVICE NOTICE - Scheduled Network Upgrade\n\nWhen: Saturday, October 11, from 10:00 P.M. to Sunday, October 12, at 2:00 A.M.\n\nAffected services: office Wi-Fi, remote VPN access, and company e-mail. The shared drive will remain available inside the building through wired connections only.\n\nWhy: We are replacing the main network switch to support the new cloud-based accounting software that goes live on November 3.\n\nWhat you should do: Save and close all work by 9:45 P.M. Employees who need to work during the upgrade should contact the IT Help Desk (ext. 4400) by Wednesday, October 8, so that a wired workstation can be reserved."
+    },
+    {
+     "kind": "email",
+     "title": "Weekend work",
+     "text": "To: IT Help Desk\nFrom: Mei Tanaka, Accounting\nDate: October 7\nSubject: Weekend work during upgrade\n\nHello,\n\nI am responsible for the month-end report, which is due Monday morning. I had planned to work from home on Saturday evening, from about 8:00 P.M. to midnight. After reading your notice, I realize that will not be possible for part of that time.\n\nCould you reserve a wired workstation for me from 10:00 P.M.? I will be in the Accounting office on the third floor.\n\nThank you,\nMei Tanaka"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d15-p7-a1",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "According to the notice, why is the upgrade being done?",
+     "options": [
+      "To move the IT Help Desk",
+      "To reduce Wi-Fi costs",
+      "To support new accounting software",
+      "To replace company laptops"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Mục \"Why\": thay switch để hỗ trợ phần mềm kế toán mới.",
+      "en": "The notice says the switch is replaced to support the new accounting software."
+     }
+    },
+    {
+     "id": "d15-p7-a2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "What are employees asked to do by 9:45 P.M. on Saturday?",
+     "options": [
+      "Contact the Help Desk",
+      "Leave the building",
+      "Install new software",
+      "Save and close their work"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"Save and close all work by 9:45 P.M.\"",
+      "en": "The notice asks employees to save and close all work by 9:45 P.M."
+     },
+     "trap": "Liên hệ Help Desk là hạn thứ Tư 8/10, không phải 9:45 tối thứ Bảy."
+    },
+    {
+     "id": "d15-p7-a3",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 2,
+     "q": "What is indicated about Ms. Tanaka's request?",
+     "options": [
+      "It was sent before the deadline",
+      "It was sent after the upgrade",
+      "It was sent to the wrong department",
+      "It was sent by telephone"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Hạn là thứ Tư, 8/10; cô viết ngày 7/10, nên đúng hạn.",
+      "en": "The deadline is October 8 and she wrote on October 7."
+     }
+    },
+    {
+     "id": "d15-p7-a4",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 2,
+     "q": "What would Ms. Tanaka be unable to do from home after 10:00 P.M. on Saturday?",
+     "options": [
+      "Print reports",
+      "Connect to the company network remotely",
+      "Use her personal phone",
+      "Read her calendar"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô định làm việc từ nhà, mà VPN (truy cập từ xa) bị ngừng từ 10 giờ tối.",
+      "en": "She planned to work from home, but remote VPN access is unavailable after 10:00 P.M."
+     }
+    },
+    {
+     "id": "d15-p7-a5",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 3,
+     "q": "What is most likely true about Ms. Tanaka's department?",
+     "options": [
+      "It does not need e-mail",
+      "It is moving to the third floor",
+      "It will use the new cloud-based software",
+      "It handles the Help Desk"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Phần mềm kế toán đám mây dùng từ 3/11, và cô làm ở bộ phận Accounting với báo cáo cuối tháng.",
+      "en": "The new accounting software goes live November 3, and she works in Accounting."
+     }
+    }
+   ]
+  },
+  {
+   "id": "d15-p7-b",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "web",
+     "title": "Orbis Thermostat FAQ",
+     "text": "Orbis Thermostat T2 | Frequently Asked Questions\n\nWhich devices can control the thermostat?\nThe Orbis app works with phones running Android 10 or later and iOS 15 or later. Tablets are not supported at this time.\n\nWhat does the warranty cover?\nOrbis T2 units have a two-year limited warranty covering defects in parts and workmanship. Damage caused by incorrect installation is not covered unless the installation was carried out by an Orbis Certified Installer.\n\nHow do I update the software?\nUpdates install automatically overnight when the thermostat is connected to Wi-Fi.\n\nMy screen is blank. What should I do?\nHold the center button for ten seconds to restart. If the problem continues, contact Support with your serial number, found on the back of the unit."
+    },
+    {
+     "kind": "email",
+     "title": "Blank screen",
+     "text": "To: Orbis Support\nFrom: Paul Ferreira\nDate: February 12\nSubject: Thermostat screen blank\n\nHello,\n\nI bought my Orbis T2 thermostat in March last year and had it installed by an electrician from my building's maintenance team. Last night the screen went blank. I held the center button as instructed on your website, but nothing changed. I am using a tablet at the moment because my phone is being repaired, so I could not check the status in the app.\n\nCould you tell me whether this is covered by the warranty? The serial number is OT2-88231.\n\nThank you,\nPaul Ferreira"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d15-p7-b1",
+     "part": 7,
+     "skill": "p7.main-idea",
+     "level": 1,
+     "q": "Why did Mr. Ferreira write to Orbis Support?",
+     "options": [
+      "To cancel his warranty",
+      "To buy a new thermostat",
+      "To ask for an app update",
+      "To report a problem with his thermostat"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Màn hình bị đen và anh hỏi có được bảo hành không.",
+      "en": "His screen went blank and he asks about warranty coverage."
+     }
+    },
+    {
+     "id": "d15-p7-b2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "What did Mr. Ferreira do before writing?",
+     "options": [
+      "He held the center button",
+      "He reinstalled the app",
+      "He replaced the thermostat",
+      "He called an installer"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"I held the center button as instructed on your website\".",
+      "en": "He held the center button as the website instructs."
+     }
+    },
+    {
+     "id": "d15-p7-b3",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 2,
+     "q": "What is suggested about Mr. Ferreira's tablet?",
+     "options": [
+      "It is more than two years old",
+      "It cannot run the Orbis app",
+      "It needs a software update",
+      "It belongs to his building"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Trang FAQ ghi \"Tablets are not supported\", mà anh đang dùng tablet.",
+      "en": "The FAQ says tablets are not supported, and he is using a tablet."
+     },
+     "trap": "Anh nói điện thoại đang sửa, không nói tablet cũ hay cần cập nhật."
+    },
+    {
+     "id": "d15-p7-b4",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 2,
+     "q": "What is true about Mr. Ferreira's thermostat?",
+     "options": [
+      "It has a different serial number",
+      "It was installed by an Orbis employee",
+      "It is still within the warranty period",
+      "It was bought two years ago"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Mua tháng Ba năm ngoái, giờ là tháng Hai, vẫn trong thời hạn hai năm.",
+      "en": "He bought it last March and now it is February, within the two-year warranty."
+     }
+    },
+    {
+     "id": "d15-p7-b5",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 3,
+     "q": "What will Orbis Support most likely ask Mr. Ferreira next?",
+     "options": [
+      "Whether he lives in an apartment",
+      "Whether his phone is under warranty",
+      "Whether the thermostat is connected to the internet",
+      "Whether his electrician was an Orbis Certified Installer"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Bảo hành không bao gồm lỗi lắp đặt trừ khi do Orbis Certified Installer làm; anh nhờ một thợ điện của tòa nhà.",
+      "en": "Incorrect installation is only covered if done by a certified installer, and he used a building electrician."
+     },
+     "trap": "Wi-Fi chỉ liên quan cập nhật tự động, không phải màn hình đen."
+    }
+   ]
+  }
+ ]
+}

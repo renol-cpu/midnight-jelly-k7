@@ -1,0 +1,284 @@
+{
+ "listening": [
+  {
+   "id": "d13-p4-a",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Hello, Ms. Tanaka. This is Daniel from Brightway Dental calling about your appointment tomorrow at ten A.M. Unfortunately, our dentist, Dr. Olsen, has to attend a medical conference, so we need to move your visit to Thursday at the same time. I realize this may not be convenient, so if Thursday does not work, we have openings on Friday afternoon as well. Please remember to bring your insurance card, because we updated our system last month and need to confirm your information. Also, you do not need to fill out any forms in advance. Please call us back at five five five, zero one four two before five o'clock today so we can confirm the new time. Thank you."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d13-p4-a1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Why is the speaker calling?",
+     "options": [
+      "To change an appointment",
+      "To cancel a membership",
+      "To send a bill",
+      "To ask for a referral"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Vì bác sĩ đi hội nghị nên người gọi dời lịch hẹn sang thứ Năm.",
+      "en": "The dentist is away, so the appointment must be moved."
+     },
+     "trap": "Cancel là bẫy: lịch bị dời, không bị hủy."
+    },
+    {
+     "id": "d13-p4-a2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "What does the speaker ask the listener to bring?",
+     "options": [
+      "A medical report",
+      "An insurance card",
+      "A completed form",
+      "A payment"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Bài nhắc mang theo thẻ bảo hiểm để xác nhận thông tin.",
+      "en": "The speaker asks for the insurance card."
+     },
+     "trap": "Forms được nhắc nhưng là \"không cần điền trước\"."
+    },
+    {
+     "id": "d13-p4-a3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 1,
+     "q": "What is the listener asked to do before five o'clock?",
+     "options": [
+      "Visit the clinic",
+      "Return the call",
+      "Pick a new dentist",
+      "Update an address"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"Call us back before five\" nghĩa là gọi lại trước 5 giờ.",
+      "en": "The listener should call back before five."
+     },
+     "trap": "Visit the clinic không đúng vì cần gọi xác nhận, chưa phải đến."
+    }
+   ]
+  },
+  {
+   "id": "d13-p4-b",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Hi, this message is for Mr. Reyes. This is Carla from the facilities office at Harbor Tower. I am calling because the water supply on the fourth floor will be shut off this Saturday from eight A.M. to noon for pipe repairs. I know your company has several employees working on weekends, so I wanted to let you know in advance. The restrooms on the third and fifth floors will remain open. If your staff need access to drinking water, we will place bottled water in the lobby. I have also e-mailed you a notice that you can post on your office door. If you would like to discuss another time for the repairs, please reply to that e-mail by Thursday afternoon. Thank you for your understanding."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d13-p4-b1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 2,
+     "q": "Why is the speaker calling?",
+     "options": [
+      "To report a lost item",
+      "To announce a repair",
+      "To offer a rental",
+      "To request a payment"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Nước tầng bốn sẽ bị cắt để sửa ống, nên đây là thông báo sửa chữa.",
+      "en": "Water will be off for pipe repairs."
+     },
+     "trap": "Request a payment không có trong bài."
+    },
+    {
+     "id": "d13-p4-b2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 1,
+     "q": "What will be provided in the lobby?",
+     "options": [
+      "Extra restrooms",
+      "Bottled water",
+      "Parking spaces",
+      "Cleaning supplies"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Họ sẽ đặt nước đóng chai ở sảnh.",
+      "en": "Bottled water will be placed in the lobby."
+     },
+     "trap": "Restrooms ở tầng ba và năm vẫn mở, nhưng không đặt ở sảnh."
+    },
+    {
+     "id": "d13-p4-b3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 2,
+     "q": "What should Mr. Reyes do by Thursday if he wants a different time?",
+     "options": [
+      "Post a notice",
+      "Reply to an e-mail",
+      "Visit the lobby",
+      "Call a plumber"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Muốn đổi thời gian thì trả lời e-mail trước chiều thứ Năm.",
+      "en": "He should reply to the e-mail by Thursday afternoon."
+     },
+     "trap": "Post a notice là việc đã được gợi ý nhưng không liên quan đến đổi giờ."
+    }
+   ]
+  },
+  {
+   "id": "d13-p4-c",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Good morning, Mr. Hassan. This is Priya from Westside Pharmacy. Your prescription is ready for pickup. I wanted to mention that the pharmacist, Mr. Collins, would like to speak with you before you leave with the medicine because the dose has changed since your last visit. Our pharmacy is open until eight P.M. on weekdays, but we close at four on Saturdays. If you cannot come in person, a family member may collect the medicine, as long as he or she brings a photo ID. We also now offer home delivery for a small fee of three dollars. If you would like that service, press one at the end of this message or call us back. Thanks, and have a great day."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d13-p4-c1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Why is the speaker calling?",
+     "options": [
+      "A prescription is ready.",
+      "A refund is available.",
+      "A doctor is unavailable.",
+      "A delivery was delayed."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Câu đầu: đơn thuốc đã sẵn sàng để lấy.",
+      "en": "The prescription is ready for pickup."
+     },
+     "trap": "Delivery delayed sai: giao hàng chỉ là dịch vụ mới được giới thiệu."
+    },
+    {
+     "id": "d13-p4-c2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "What must a family member bring to collect the medicine?",
+     "options": [
+      "A signed letter",
+      "A photo ID",
+      "A credit card",
+      "An insurance form"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Người nhà phải mang giấy tờ có ảnh.",
+      "en": "A family member must bring a photo ID."
+     },
+     "trap": "Signed letter là điều không được nói tới."
+    },
+    {
+     "id": "d13-p4-c3",
+     "part": 4,
+     "skill": "p4.speaker-intent",
+     "level": 3,
+     "q": "Why does the speaker say, \"the dose has changed since your last visit\"?",
+     "options": [
+      "To explain a price increase",
+      "To encourage the listener to talk to the pharmacist",
+      "To suggest a different pharmacy",
+      "To announce new opening hours"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Liều thay đổi nên dược sĩ muốn nói chuyện trước khi bạn rời đi.",
+      "en": "The change is the reason the pharmacist wants to speak first."
+     },
+     "trap": "Opening hours có nói đến nhưng ở câu khác, không phải lý do của câu này."
+    }
+   ]
+  },
+  {
+   "id": "d13-p4-d",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Hello, this is Wen from Silverline Travel returning your call about the group tour to Lisbon. I checked availability, and we still have twelve seats on the flight leaving on June ninth. The package price is nine hundred fifty dollars per person, which includes the hotel, breakfast, and a city tour. However, if you register before May first, you can get a ten percent early booking discount. I should also mention that the passport of every traveler must be valid for at least six months after the return date. I will send you an itinerary by e-mail this afternoon. Please look it over and let me know if you would like me to hold the seats for you. My direct line is five five five, zero one eight eight."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d13-p4-d1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "What is the purpose of the call?",
+     "options": [
+      "To answer a travel inquiry",
+      "To cancel a flight",
+      "To correct a bill",
+      "To recruit tour guides"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Người nói gọi lại về chuyến tour Lisbon mà khách hỏi.",
+      "en": "Wen is returning a call about a tour."
+     },
+     "trap": "Cancel a flight không có trong bài."
+    },
+    {
+     "id": "d13-p4-d2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "How can the listener get a discount?",
+     "options": [
+      "By booking before May first",
+      "By paying in cash",
+      "By joining a loyalty club",
+      "By bringing a friend"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Đăng ký trước 1 tháng 5 sẽ được giảm 10 phần trăm.",
+      "en": "The discount applies to bookings made before May first."
+     },
+     "trap": "June ninth là ngày bay, không phải hạn đăng ký."
+    },
+    {
+     "id": "d13-p4-d3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 2,
+     "q": "What will the speaker do this afternoon?",
+     "options": [
+      "Hold the seats",
+      "Send an itinerary",
+      "Update a passport",
+      "Call the hotel"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô ấy sẽ gửi lịch trình qua e-mail chiều nay.",
+      "en": "She will send an itinerary by e-mail this afternoon."
+     },
+     "trap": "Hold the seats chỉ làm khi khách yêu cầu."
+    }
+   ]
+  }
+ ]
+}

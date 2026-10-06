@@ -1,0 +1,74 @@
+{
+ "listening": [
+  {
+   "id": "d01-p4-a",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Good morning, passengers, and welcome aboard the Harbor Express ferry to Seaview Island. Our crossing today will take about forty minutes. Please note that the snack bar on the lower deck is closed this morning because of a delivery delay, but hot drinks are available at the information desk near the main stairs. For your safety, we ask that all passengers remain seated while the ferry leaves the dock. Children must be accompanied by an adult on the upper deck at all times. Finally, if you plan to return this evening, the last ferry departs from Seaview Island at seven thirty. Tickets can be changed at the ticket window before boarding. Thank you, and enjoy your trip."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d01-p4-a1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Who is the announcement for?",
+     "options": [
+      "Ferry passengers",
+      "Dock workers",
+      "Snack bar staff",
+      "Ticket sellers"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Người nói chào \"passengers\" lên phà, nên đối tượng là hành khách.",
+      "en": "The speaker welcomes passengers aboard the ferry."
+     },
+     "trap": "Dock workers chỉ là từ gợi liên tưởng vì có nhắc \"dock\", nhưng bài không nói với họ."
+    },
+    {
+     "id": "d01-p4-a2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 1,
+     "q": "Why is the snack bar closed?",
+     "options": [
+      "A delivery is late.",
+      "The staff is on break.",
+      "The deck is being cleaned.",
+      "A ticket was lost."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Closed because of a delivery delay\" được viết lại thành \"a delivery is late\".",
+      "en": "\"Delivery delay\" is paraphrased as \"a delivery is late.\""
+     },
+     "trap": "Bẫy \"deck is being cleaned\": bài có nhắc \"deck\" nhưng không nói dọn dẹp."
+    },
+    {
+     "id": "d01-p4-a3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 2,
+     "q": "What can passengers do at the ticket window?",
+     "options": [
+      "Buy hot drinks",
+      "Change their tickets",
+      "Rent a seat",
+      "Ask for a refund"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Bài nói \"Tickets can be changed at the ticket window\", tức là đổi vé.",
+      "en": "The speaker says tickets can be changed at the ticket window."
+     },
+     "trap": "Hot drinks bán ở quầy thông tin, không phải quầy vé."
+    }
+   ]
+  }
+ ]
+}

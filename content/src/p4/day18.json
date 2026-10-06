@@ -1,0 +1,214 @@
+{
+ "listening": [
+  {
+   "id": "d18-p4-a",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Thank you all for joining today's marketing meeting. I want to start with the results of last month's advertising campaign. Our online ads reached more than two hundred thousand people, which is twice what we expected. However, only three percent of those viewers actually visited our Web site. The agency believes the problem is the message, not the audience. They have suggested replacing the slogan with something more specific about our delivery speed. Before we make a final decision, I would like to run a small test with two versions of the ad. Rachel, could you prepare both versions by Wednesday? Once we have the test results, we will meet again on Friday to choose the winner."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d18-p4-a1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 2,
+     "q": "What problem does the speaker mention?",
+     "options": [
+      "Few viewers visited the Web site.",
+      "The campaign cost too much.",
+      "The audience was too small.",
+      "The agency missed a deadline."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Chỉ 3 phần trăm người xem vào trang web, đó là vấn đề.",
+      "en": "Only three percent of viewers visited the site."
+     },
+     "trap": "Audience too small sai vì quảng cáo đã vượt kỳ vọng gấp đôi."
+    },
+    {
+     "id": "d18-p4-a2",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 2,
+     "q": "What does the speaker ask Rachel to do?",
+     "options": [
+      "Hire an agency",
+      "Prepare two versions of an ad",
+      "Write a report",
+      "Change the Web site"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô ấy nhờ Rachel chuẩn bị hai phiên bản quảng cáo trước thứ Tư.",
+      "en": "Rachel is asked to prepare two versions of the ad."
+     },
+     "trap": "Agency đã được thuê, bài chỉ nói agency đề xuất đổi khẩu hiệu."
+    },
+    {
+     "id": "d18-p4-a3",
+     "part": 4,
+     "skill": "p4.speaker-intent",
+     "level": 3,
+     "q": "What does the speaker mean when she says, \"The problem is the message, not the audience\"?",
+     "options": [
+      "The slogan may need to change.",
+      "The audience is too young.",
+      "The ads were not seen.",
+      "The budget is too small."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Vấn đề nằm ở nội dung quảng cáo nên có thể phải đổi khẩu hiệu.",
+      "en": "If the message is the problem, the slogan may need to change."
+     },
+     "trap": "Ads were not seen sai vì hơn hai trăm nghìn người đã xem."
+    }
+   ]
+  },
+  {
+   "id": "d18-p4-b",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Attention, passengers on Flight 308 to Denver. We are now ready to begin boarding. Because today's flight is completely full, we ask that you place only one small bag in the overhead bins and put any other items under the seat in front of you. Passengers who need extra time or who are traveling with small children may board first. After that, we will invite those seated in rows twenty to thirty, followed by all remaining passengers. Please have your boarding pass and photo identification ready. If you have any questions about your seat, please see the agent at the desk. Also, please note that our departure gate has changed from Gate 12 to Gate 16. We apologize for the change."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d18-p4-b1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Where is the announcement being made?",
+     "options": [
+      "At an airport",
+      "At a train station",
+      "At a hotel",
+      "At a bus terminal"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Có chuyến bay, cổng lên máy bay và boarding pass nên là sân bay.",
+      "en": "Flight, gate and boarding pass indicate an airport."
+     },
+     "trap": "Train station sai vì bài nhắc \"flight\"."
+    },
+    {
+     "id": "d18-p4-b2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "Who can board first?",
+     "options": [
+      "Passengers in rows 20 to 30",
+      "Passengers with small children",
+      "Passengers with large bags",
+      "Passengers at Gate 12"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Người cần thêm thời gian hoặc đi cùng trẻ nhỏ lên trước.",
+      "en": "Those traveling with small children may board first."
+     },
+     "trap": "Rows 20 to 30 lên sau nhóm đầu tiên."
+    },
+    {
+     "id": "d18-p4-b3",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 3,
+     "q": "What has changed?",
+     "options": [
+      "The departure time",
+      "The gate number",
+      "The flight number",
+      "The destination"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cổng khởi hành đổi từ 12 sang 16.",
+      "en": "The gate changed from 12 to 16."
+     },
+     "trap": "Departure time không đổi trong bài."
+    }
+   ]
+  },
+  {
+   "id": "d18-p4-c",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Hi, Mr. Park. This is Elena from Maple Leaf Catering returning your call about the company dinner on the twentieth. We can definitely provide food for one hundred twenty guests. I have two menu options in mind: a buffet, which costs forty dollars per person, and a three-course seated dinner for fifty-five dollars. The buffet is a good choice if you want guests to move around and talk. For either menu, we need your final guest count one week before the event, and we will charge a deposit of twenty percent when you sign the contract. If you would like to taste the dishes before deciding, we hold tasting sessions every Thursday at two. Just call me at five five five, zero one one nine to reserve a place."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d18-p4-c1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "What is the call about?",
+     "options": [
+      "An upcoming dinner",
+      "A job offer",
+      "A kitchen repair",
+      "A restaurant review"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cuộc gọi về bữa tối công ty vào ngày 20.",
+      "en": "The call is about the company dinner on the twentieth."
+     },
+     "trap": "Job offer không được nhắc."
+    },
+    {
+     "id": "d18-p4-c2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "When does the caterer need the final guest count?",
+     "options": [
+      "One day before",
+      "One week before",
+      "On the day of the event",
+      "When the contract is signed"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cần số khách cuối cùng một tuần trước sự kiện.",
+      "en": "The final count is needed one week before."
+     },
+     "trap": "Deposit mới là thứ trả khi ký hợp đồng."
+    },
+    {
+     "id": "d18-p4-c3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 2,
+     "q": "How can Mr. Park taste the dishes?",
+     "options": [
+      "Attend a Thursday session",
+      "Visit the kitchen daily",
+      "Order a sample box",
+      "Watch a video"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Có buổi nếm thử mỗi thứ Năm, cần gọi để đặt chỗ.",
+      "en": "Tasting sessions are held every Thursday."
+     },
+     "trap": "Order a sample box không có trong bài."
+    }
+   ]
+  }
+ ]
+}

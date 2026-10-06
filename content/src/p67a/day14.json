@@ -1,0 +1,182 @@
+{
+  "grammar": [
+    {
+      "id": "d14-p6-a",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "article",
+          "title": "Riverside Cafe to Open Second Location",
+          "text": "Riverside Cafe to Open Second Location\n\nRiverside Cafe, a family-run business known for its handmade pastries, announced on Monday that it will open a second [1] in the Eastgate Shopping Center this fall. The owner, Tamara Silva, said the decision was prompted by growing demand. [2] The new location will seat sixty customers and will [3] a wider menu, including salads and sandwiches. Ms. Silva added that she plans to hire twenty employees, most of [4] will be recruited from the local area."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d14-p6-a-1",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [1]",
+          "options": [
+            "locate",
+            "location",
+            "locating",
+            "located"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Sau \"a second\" cần danh từ: \"a second location\" (cơ sở thứ hai).",
+            "en": "After \"a second\" we need a noun: \"location\"."
+          },
+          "trap": "\"located\" là phân từ nên không đứng được sau \"second\" làm danh từ."
+        },
+        {
+          "id": "d14-p6-a-2",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 2,
+          "q": "Blank [2]",
+          "options": [
+            "Shopping centers are usually busiest on public holidays.",
+            "The original shop has had long lines on most weekends.",
+            "Ms. Silva studied business at a university overseas.",
+            "The city council plans to build a new bridge."
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Câu trước nói nhu cầu tăng, câu chèn đưa bằng chứng: hàng dài ở quán gốc.",
+            "en": "The sentence before mentions growing demand, and the missing sentence gives evidence: long lines at the original shop."
+          },
+          "trap": "Câu A cũng nhắc \"shopping center\" nhưng không giải thích vì sao nhu cầu tăng."
+        },
+        {
+          "id": "d14-p6-a-3",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [3]",
+          "options": [
+            "offer",
+            "offers",
+            "offering",
+            "offered"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Sau \"will\" cần động từ nguyên mẫu: \"will offer\".",
+            "en": "After \"will\" we need a base verb: \"offer\"."
+          },
+          "trap": "\"offering\" có thể là danh từ nhưng không đi sau \"will\"."
+        },
+        {
+          "id": "d14-p6-a-4",
+          "part": 6,
+          "skill": "p6.relative",
+          "level": 2,
+          "q": "Blank [4]",
+          "options": [
+            "who",
+            "whom",
+            "whose",
+            "which"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "\"most of whom\" thay cho người, là tân ngữ của giới từ \"of\".",
+            "en": "\"Most of whom\" refers to people and is the object of \"of\"."
+          },
+          "trap": "\"who\" hay bị chọn nhầm; sau giới từ phải dùng \"whom\"."
+        }
+      ]
+    },
+    {
+      "id": "d14-p6-b",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "email",
+          "title": "Damaged lamp",
+          "text": "To: Ms. Brandt\nFrom: Harlow Home Supply\nSubject: Your damaged lamp\n\nDear Ms. Brandt,\n\nThank you for contacting Harlow Home Supply about the damaged lamp you received last week. We are sorry that the package arrived in such poor [1]. [2] Please send us a photo of the damaged item and the packaging so that we can submit a claim to the carrier. Once we have received the photo, we will [3] a replacement lamp at no extra cost. It should arrive within five business days. If you have any further questions, please do not [4] to call our customer service line.\n\nSincerely,\nHarlow Home Supply"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d14-p6-b-1",
+          "part": 6,
+          "skill": "p6.vocab",
+          "level": 2,
+          "q": "Blank [1]",
+          "options": [
+            "conditional",
+            "condition",
+            "conditioned",
+            "conditioning"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "\"in poor condition\" là cụm cố định (tình trạng kém).",
+            "en": "\"In poor condition\" is the fixed collocation."
+          },
+          "trap": "\"conditional\" là tính từ nên không đứng sau \"poor\" như danh từ."
+        },
+        {
+          "id": "d14-p6-b-2",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 2,
+          "q": "Blank [2]",
+          "options": [
+            "Our warehouse will be closed on Monday for inventory.",
+            "Lamps in this series are available in three colors.",
+            "To resolve the problem, we need some information from you.",
+            "Your next order will qualify for a free gift."
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Câu sau bắt đầu bằng \"Please send us a photo\", nên câu chèn nêu việc cần thông tin từ khách để giải quyết.",
+            "en": "The next sentence asks for a photo, so the missing sentence explains that information is needed to resolve the issue."
+          },
+          "trap": "Câu B nhắc \"lamp\" lặp từ khóa nhưng không dẫn tới yêu cầu gửi ảnh."
+        },
+        {
+          "id": "d14-p6-b-3",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [3]",
+          "options": [
+            "ship",
+            "shipped",
+            "shipping",
+            "shipment"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Sau \"we will\" cần động từ nguyên mẫu: \"ship\" (gửi hàng).",
+            "en": "After \"we will\" we need the base verb \"ship\"."
+          },
+          "trap": "\"shipment\" là danh từ nên không đứng sau \"will\"."
+        },
+        {
+          "id": "d14-p6-b-4",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [4]",
+          "options": [
+            "hesitation",
+            "hesitate",
+            "hesitant",
+            "hesitating"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "\"do not hesitate to + V\" là cụm quen thuộc: đừng ngần ngại gọi.",
+            "en": "\"Do not hesitate to + verb\" is the familiar phrase."
+          },
+          "trap": "\"hesitant\" là tính từ, phải đi sau \"be\", không đi sau \"do not\"."
+        }
+      ]
+    }
+  ]
+}

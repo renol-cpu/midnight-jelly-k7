@@ -1,0 +1,229 @@
+{
+ "listening": [
+  {
+   "id": "d11-p2-s01",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "How many chairs should I set up for the seminar?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Fifty should be enough."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "In the seminar room."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Yes, I'll set them up."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d11-p2-01",
+     "part": 2,
+     "skill": "p2.wh-how",
+     "level": 1,
+     "options": [
+      "Fifty should be enough.",
+      "In the seminar room.",
+      "Yes, I'll set them up."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "How many hỏi số lượng; 'Fifty' là số.",
+      "en": "'How many' asks for a number, and 'Fifty' is one."
+     },
+     "trap": "(B) trả lời Where."
+    }
+   ]
+  },
+  {
+   "id": "d11-p2-s02",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Can you recommend a good caterer?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "I'd recommend the earlier date."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Try Bay Kitchen, they did our last event."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "The category is food."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d11-p2-02",
+     "part": 2,
+     "skill": "p2.suggestion",
+     "level": 1,
+     "options": [
+      "I'd recommend the earlier date.",
+      "Try Bay Kitchen, they did our last event.",
+      "The category is food."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Câu hỏi xin gợi ý; 'Try Bay Kitchen' đưa ra tên.",
+      "en": "The request asks for a recommendation, and 'Try Bay Kitchen' gives one."
+     },
+     "trap": "(A) lặp recommend nhưng gợi ý về ngày."
+    }
+   ]
+  },
+  {
+   "id": "d11-p2-s03",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Why was the customer service line busy this morning?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Yes, it's a long line."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Until noon."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Everyone was calling about the billing error."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d11-p2-03",
+     "part": 2,
+     "skill": "p2.wh-why",
+     "level": 1,
+     "options": [
+      "Yes, it's a long line.",
+      "Until noon.",
+      "Everyone was calling about the billing error."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Why hỏi lý do; 'the billing error' là nguyên nhân.",
+      "en": "'Why' asks for a reason, and the billing error is one."
+     },
+     "trap": "(A) lặp line nhưng là Yes."
+    }
+   ]
+  },
+  {
+   "id": "d11-p2-s04",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Which projector do you want to use?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Use the stairs."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "At the project meeting."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "The one in room two works fine."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d11-p2-04",
+     "part": 2,
+     "skill": "p2.wh-what",
+     "level": 1,
+     "options": [
+      "Use the stairs.",
+      "At the project meeting.",
+      "The one in room two works fine."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Which hỏi chọn; 'The one in room two' chọn một.",
+      "en": "'Which' asks you to choose, and 'The one in room two' does."
+     },
+     "trap": "(B) nghe giống projector/project."
+    }
+   ]
+  },
+  {
+   "id": "d11-p2-s05",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Would it be possible to extend the deadline?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "The extension is 305."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Yes, the line is long."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "I'll have to ask my supervisor."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d11-p2-05",
+     "part": 2,
+     "skill": "p2.suggestion",
+     "level": 2,
+     "options": [
+      "The extension is 305.",
+      "Yes, the line is long.",
+      "I'll have to ask my supervisor."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Lời xin gia hạn; 'I'll have to ask' là trả lời gián tiếp.",
+      "en": "A request to extend; 'I'll have to ask my supervisor' is an indirect reply."
+     },
+     "trap": "(A) lặp extension nhưng là số máy nhánh."
+    }
+   ]
+  }
+ ]
+}

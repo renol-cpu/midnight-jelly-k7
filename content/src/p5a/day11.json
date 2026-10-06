@@ -1,0 +1,229 @@
+{
+ "grammar": [
+  {
+   "id": "d11-p5-a",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d11-p5-01",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 1,
+     "q": "The first shipment was damaged. ____, we ordered a replacement.",
+     "options": [
+      "Although",
+      "Despite",
+      "Therefore",
+      "Unless"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Hỏng nên đặt lại: quan hệ nguyên nhân.",
+      "en": "Damage led to a reorder: cause and effect."
+     },
+     "trap": "\"Although\" là liên từ, không đứng đầu câu với dấu phẩy này."
+    },
+    {
+     "id": "d11-p5-02",
+     "part": 5,
+     "skill": "p5.collocation",
+     "level": 1,
+     "q": "The café opened a patio. ____ addition, sales rose 12 percent.",
+     "options": [
+      "On",
+      "In",
+      "At",
+      "By"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cụm cố định: in addition.",
+      "en": "Fixed phrase: in addition."
+     },
+     "trap": "\"On addition\" sai."
+    },
+    {
+     "id": "d11-p5-03",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 2,
+     "q": "The register is broken. ____, customers must pay by card.",
+     "options": [
+      "Consequently",
+      "Instead of",
+      "Even though",
+      "Whereas"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Hỏng máy nên phải trả bằng thẻ: hậu quả.",
+      "en": "A broken register leads to card payment: result."
+     },
+     "trap": "\"Instead of\" là giới từ."
+    },
+    {
+     "id": "d11-p5-04",
+     "part": 5,
+     "skill": "p5.pronoun",
+     "level": 1,
+     "q": "Mr. Ray hired two designers. ____ will start next week.",
+     "options": [
+      "Them",
+      "Their",
+      "Themselves",
+      "They"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Chủ ngữ thay cho \"two designers\".",
+      "en": "A subject pronoun for \"two designers\"."
+     },
+     "trap": "\"Them\" là tân ngữ."
+    },
+    {
+     "id": "d11-p5-05",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 1,
+     "q": "Our new cleaning schedule is more ____ than the old one.",
+     "options": [
+      "efficiently",
+      "efficiency",
+      "efficient",
+      "efficiencies"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Sau \"is more\" cần tính từ.",
+      "en": "After \"is more\" we need an adjective."
+     },
+     "trap": "\"Efficiently\" sai vì sau \"is\" cần tính từ."
+    },
+    {
+     "id": "d11-p5-06",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 2,
+     "q": "Attendance fell last year. ____, the director plans a new campaign.",
+     "options": [
+      "In contrast",
+      "As a result",
+      "For example",
+      "Even so"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Giảm khách nên lập chiến dịch: hậu quả.",
+      "en": "The drop leads to the campaign: result."
+     },
+     "trap": "\"In contrast\" chỉ đối lập."
+    },
+    {
+     "id": "d11-p5-07",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 1,
+     "q": "Tickets are ____ at the door or online.",
+     "options": [
+      "available",
+      "avail",
+      "availability",
+      "availably"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Sau \"are\" cần tính từ.",
+      "en": "After \"are\" an adjective."
+     },
+     "trap": "\"Availability\" là danh từ."
+    },
+    {
+     "id": "d11-p5-08",
+     "part": 5,
+     "skill": "p5.pronoun",
+     "level": 1,
+     "q": "The brochure explains the rules. Please read ____ carefully.",
+     "options": [
+      "they",
+      "their",
+      "themselves",
+      "them"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Đại từ tân ngữ thay \"the rules\".",
+      "en": "An object pronoun for \"the rules\"."
+     },
+     "trap": "\"They\" là chủ ngữ."
+    },
+    {
+     "id": "d11-p5-09",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 2,
+     "q": "Mr. Park will retire in June. His successor, ____ name has not been announced, will start in July.",
+     "options": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"Whose name\" chỉ sở hữu.",
+      "en": "\"Whose name\" shows possession."
+     },
+     "trap": "\"Who name\" sai."
+    },
+    {
+     "id": "d11-p5-10",
+     "part": 5,
+     "skill": "p5.wordform.verb",
+     "level": 1,
+     "q": "Please ____ the enclosed form and return it by mail.",
+     "options": [
+      "completes",
+      "complete",
+      "completing",
+      "completion"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Câu mệnh lệnh dùng động từ nguyên mẫu.",
+      "en": "An imperative takes the base verb."
+     },
+     "trap": "\"Completion\" là danh từ."
+    }
+   ]
+  }
+ ],
+ "theory": [
+  {
+   "id": "d11-th-1",
+   "title": {
+    "vi": "Đọc ngữ cảnh: manh mối nằm ở câu bên cạnh",
+    "en": "Context clues across sentences"
+   },
+   "rule": {
+    "vi": "Một số chỗ trống không giải được bằng một câu. Hãy đọc câu trước và câu sau để tìm từ nối (therefore, however, in addition) và đại từ thay thế (they, it, them).",
+    "en": "Some blanks cannot be solved from one sentence. Read the sentence before and after to find linking words (therefore, however, in addition) and pronoun references (they, it, them)."
+   },
+   "formula": "Cause -> As a result / Therefore | Contrast -> However | Add -> In addition",
+   "examples": [
+    {
+     "en": "The first shipment was damaged. Therefore, we ordered a replacement.",
+     "vi": "Hỏng nên đặt lại: quan hệ nguyên nhân."
+    },
+    {
+     "en": "Mr. Ray hired two designers. They will start next week.",
+     "vi": "\"They\" thay cho hai nhà thiết kế."
+    },
+    {
+     "en": "The brochure explains the rules. Please read them carefully.",
+     "vi": "\"Them\" thay cho \"the rules\"."
+    }
+   ],
+   "tip": "Mẹo thi: trước khi chọn từ nối, tự hỏi \"câu 2 là hậu quả, đối lập hay thêm ý của câu 1?\". Part 6 giống đi lặn: đọc hết đường hầm rồi mới chọn lối ra."
+  }
+ ]
+}

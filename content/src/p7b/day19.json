@@ -1,0 +1,182 @@
+{
+ "reading": [
+  {
+   "id": "d19-p7-a",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "memo",
+     "title": "Cleanliness standards",
+     "text": "MEMO\nTo: All staff, Harbor Café\nFrom: Rosa Ibarra, General Manager\nDate: September 3\nRe: Cleanliness standards\n\nFollowing several customer reviews that mentioned messy tables and cluttered counters, all staff must follow these standards beginning Monday, September 15.\n\n1. Tables must be wiped within two minutes of guests leaving.\n2. Staff belongings must be kept in the lockers in the back hallway, not on the counters or on the shelves behind the register.\n3. The display case must be checked every hour and cleaned if necessary.\n4. Supervisors will carry out spot checks each shift and record the results.\n\nStaff who receive three or more \"needs improvement\" ratings in one month will be required to attend a refresher session. Thank you for helping us keep Harbor Café a welcoming place."
+    },
+    {
+     "kind": "email",
+     "title": "Spot checks and lockers",
+     "text": "To: Rosa Ibarra\nFrom: Tuan Le, Shift Supervisor\nDate: September 5\nSubject: Spot checks and lockers\n\nHi Rosa,\n\nI read your memo and have two questions. First, the lockers in the back hallway are only big enough for 10 people, but we have 14 staff on our busiest shift. Could we get four more by the 15th? Second, the display case is hard to check every hour during the lunch rush. May I assign this task to one person instead of the whole team?\n\nThanks,\nTuan"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d19-p7-a1",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "What prompted the new standards?",
+     "options": [
+      "Customer reviews",
+      "A health inspection",
+      "A change of owner",
+      "A staff survey"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Following several customer reviews that mentioned messy tables\".",
+      "en": "The memo begins by citing customer reviews about messy tables."
+     }
+    },
+    {
+     "id": "d19-p7-a2",
+     "part": 7,
+     "skill": "p7.not-true",
+     "level": 2,
+     "q": "What is NOT required by the memo?",
+     "options": [
+      "Wiping tables quickly",
+      "Mopping the floor every hour",
+      "Storing belongings in lockers",
+      "Checking the display case hourly"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Bản ghi nhớ không nhắc lau sàn mỗi giờ; chỉ yêu cầu kiểm tra tủ trưng bày mỗi giờ.",
+      "en": "The memo never mentions mopping floors; only the display case is checked hourly."
+     },
+     "trap": "Dễ nhầm \"every hour\" của tủ trưng bày với việc lau sàn."
+    },
+    {
+     "id": "d19-p7-a3",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 2,
+     "q": "What problem does Mr. Le identify?",
+     "options": [
+      "The spot checks take too long",
+      "The tables are hard to clean",
+      "There are not enough lockers",
+      "The new rules start too early"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Tủ khóa chỉ đủ cho 10 người trong khi ca đông có 14 người.",
+      "en": "The lockers fit 10 people, but 14 staff work the busiest shift."
+     }
+    },
+    {
+     "id": "d19-p7-a4",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 2,
+     "q": "What will happen on the date Mr. Le mentions as \"the 15th\"?",
+     "options": [
+      "The refresher session will be held",
+      "The lockers will be removed",
+      "The spot checks will end",
+      "The new standards will begin"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Bản ghi nhớ: tiêu chuẩn mới áp dụng từ \"Monday, September 15\".",
+      "en": "The memo says the standards begin on Monday, September 15."
+     }
+    },
+    {
+     "id": "d19-p7-a5",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 3,
+     "q": "What does Mr. Le suggest about the display case checks?",
+     "options": [
+      "One person could be responsible for them",
+      "They should be done every two hours",
+      "Supervisors should do them",
+      "They are not necessary at lunch"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh hỏi: \"assign this task to one person instead of the whole team\".",
+      "en": "He asks to assign the task to one person instead of the whole team."
+     }
+    }
+   ]
+  },
+  {
+   "id": "d19-p7-b",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "text-chain",
+     "title": "Airport messages",
+     "text": "Marcus Dell (3:40 P.M.): Are you still at the airport?\nPriya Shah (3:41 P.M.): Yes. My flight to Denver is delayed by two hours.\nMarcus Dell (3:43 P.M.): That means you'll miss the dinner with the clients.\nPriya Shah (3:44 P.M.): I know. Can you handle the opening remarks?\nMarcus Dell (3:45 P.M.): Sure thing. I'll use your slides.\nPriya Shah (3:46 P.M.): I'll send them in a minute. I'll join for dessert if I can.\nMarcus Dell (3:47 P.M.): Don't rush. Everyone will understand."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d19-p7-b1",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "Why is Ms. Shah still at the airport?",
+     "options": [
+      "She lost her ticket",
+      "Her flight is delayed",
+      "She is meeting clients there",
+      "She missed her flight"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"My flight to Denver is delayed by two hours.\"",
+      "en": "She says her flight is delayed by two hours."
+     }
+    },
+    {
+     "id": "d19-p7-b2",
+     "part": 7,
+     "skill": "p7.speaker-intent",
+     "level": 2,
+     "q": "At 3:45 P.M., what does Mr. Dell mean when he writes, \"Sure thing\"?",
+     "options": [
+      "He thinks the dinner will be canceled",
+      "He is sure the flight will leave soon",
+      "He agrees to give the opening remarks",
+      "He wants to use his own slides"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Cô Shah vừa nhờ \"Can you handle the opening remarks?\" và anh trả lời \"Sure thing\" là đồng ý.",
+      "en": "Ms. Shah asks him to handle the opening remarks, and \"Sure thing\" means yes."
+     },
+     "trap": "Anh dùng slide của cô Shah (\"your slides\"), nên đáp án slide riêng là sai."
+    },
+    {
+     "id": "d19-p7-b3",
+     "part": 7,
+     "skill": "p7.inference",
+     "level": 2,
+     "q": "What is suggested about Ms. Shah?",
+     "options": [
+      "She works for the airline",
+      "She will skip the event completely",
+      "She will give the opening remarks",
+      "She may arrive late to the dinner"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Cô nói sẽ \"join for dessert if I can\", tức có thể đến muộn.",
+      "en": "She says she may join for dessert, which implies arriving late."
+     },
+     "trap": "Cô nhờ Marcus phát biểu mở đầu thay mình, nên không tự làm."
+    }
+   ]
+  }
+ ]
+}

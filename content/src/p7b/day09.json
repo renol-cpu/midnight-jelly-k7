@@ -1,0 +1,161 @@
+{
+ "reading": [
+  {
+   "id": "d09-p7-a",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "article",
+     "title": "Harlow Woodworks to Open Second Plant",
+     "text": "BRISTOL (June 3) - Harlow Woodworks, a maker of office furniture, announced on Monday that it will open a second manufacturing plant in nearby Keswick this autumn. The new facility, which will occupy a former textile mill, is expected to raise the company's output by 40 percent.\n\n\"Our current plant has been running at full capacity for two years,\" said CEO Marta Lindqvist. \"Customers have waited as long as eight weeks for desks and storage units. We want to bring that down to three.\"\n\nThe company plans to hire 60 workers, most of them for assembly and quality control. Training will begin in August, before the building is complete, at the existing plant. Ms. Lindqvist added that the new plant will use timber from certified forests only, a policy that Harlow has followed since 2019. Production at the Keswick site is scheduled to start on October 1."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d09-p7-a1",
+     "part": 7,
+     "skill": "p7.main-idea",
+     "level": 1,
+     "q": "What is the article mainly about?",
+     "options": [
+      "The closing of a textile mill",
+      "A company's plan to expand production",
+      "A change in company leadership",
+      "The launch of a new furniture line"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cả bài nói về nhà máy thứ hai và việc tăng sản lượng 40%.",
+      "en": "The article reports a second plant and a 40 percent rise in output."
+     },
+     "trap": "Textile mill chỉ là tòa nhà cũ được tận dụng, không phải chủ đề."
+    },
+    {
+     "id": "d09-p7-a2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "What problem does Ms. Lindqvist mention?",
+     "options": [
+      "A shortage of timber",
+      "Rising prices",
+      "Long waits for customers",
+      "Workers leaving the company"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"Customers have waited as long as eight weeks.\"",
+      "en": "She says customers have waited up to eight weeks for orders."
+     },
+     "trap": "Gỗ được nhắc đến nhưng chỉ về chứng nhận rừng, không nói thiếu gỗ."
+    },
+    {
+     "id": "d09-p7-a3",
+     "part": 7,
+     "skill": "p7.not-true",
+     "level": 2,
+     "q": "What is NOT true about the Keswick plant?",
+     "options": [
+      "It will employ about 60 new workers.",
+      "It will be located in a former mill.",
+      "It will use certified timber.",
+      "It will begin producing furniture in August."
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Tháng 8 chỉ là lúc bắt đầu đào tạo; sản xuất bắt đầu ngày 1 tháng 10.",
+      "en": "August is when training begins; production starts on October 1."
+     },
+     "trap": "Dễ nhầm \"August\" vì nó xuất hiện trong bài, nhưng nó gắn với đào tạo chứ không phải sản xuất."
+    },
+    {
+     "id": "d09-p7-a4",
+     "part": 7,
+     "skill": "p7.vocab-in-context",
+     "level": 2,
+     "q": "The word \"certified\" in paragraph 3 is closest in meaning to",
+     "options": [
+      "officially approved",
+      "carefully planted",
+      "privately owned",
+      "recently discovered"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Certified forests\" là rừng được cơ quan có thẩm quyền công nhận.",
+      "en": "\"Certified\" here means officially approved or recognized."
+     }
+    }
+   ]
+  },
+  {
+   "id": "d09-p7-b",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "article",
+     "title": "Evening Tours Coming to Blue Harbor",
+     "text": "Blue Harbor Aquarium will offer evening tours on the first and third Friday of each month, starting in September, the aquarium's director announced yesterday. The one-hour tours begin at 7:00 P.M. and are limited to 15 guests so that visitors can spend more time with the keepers.\n\nUnlike daytime visits, the evening tour includes a stop at the jellyfish nursery, which is normally closed to the public. Guests will also watch the keepers prepare the night feeding.\n\n\"Many families told us the aquarium is too crowded on weekends,\" said director Ha Tran. \"We wanted an option that is calm.\"\n\nTickets cost $18 for adults and $10 for children under 12 and must be purchased online at least one day in advance. The aquarium café will stay open until 8:30 P.M. on tour nights."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d09-p7-b1",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "How often will the evening tours be held?",
+     "options": [
+      "Every Friday",
+      "On the first and third Friday of each month",
+      "Every weekend",
+      "Once a month on a Saturday"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"the first and third Friday of each month\".",
+      "en": "The tours are offered \"on the first and third Friday of each month.\""
+     }
+    },
+    {
+     "id": "d09-p7-b2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "What is different about the evening tour?",
+     "options": [
+      "It is free for children",
+      "It lasts two hours",
+      "It visits the jellyfish nursery",
+      "It includes dinner at the café"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"Unlike daytime visits, the evening tour includes a stop at the jellyfish nursery.\"",
+      "en": "Only the evening tour includes the normally closed nursery."
+     },
+     "trap": "Café mở đến 8:30 nhưng bài không nói bữa tối nằm trong tour."
+    },
+    {
+     "id": "d09-p7-b3",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "How much would two adults and one 8-year-old child pay for the tour?",
+     "options": [
+      "$36",
+      "$46",
+      "$28",
+      "$54"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Hai người lớn $18 x 2 = $36, cộng một trẻ dưới 12 tuổi $10 = $46.",
+      "en": "Two adults at $18 plus one child at $10 equals $46."
+     },
+     "trap": "Quên cộng vé trẻ em sẽ ra $36."
+    }
+   ]
+  }
+ ]
+}

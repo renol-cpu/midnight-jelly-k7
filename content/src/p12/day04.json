@@ -1,0 +1,904 @@
+{
+ "listening": [
+  {
+   "id": "d04-p2-s01",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Who is in charge of the new hires' training?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Next Monday morning."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Ms. Okafor from Human Resources."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "In the training room."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d04-p2-01",
+     "part": 2,
+     "skill": "p2.wh-who",
+     "level": 1,
+     "options": [
+      "Next Monday morning.",
+      "Ms. Okafor from Human Resources.",
+      "In the training room."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Who hỏi người phụ trách; Ms. Okafor là một người.",
+      "en": "'Who' asks for a person, and Ms. Okafor is one."
+     },
+     "trap": "(A) trả lời When và (C) trả lời Where; cả hai lặp chủ đề training nhưng sai loại câu hỏi."
+    }
+   ]
+  },
+  {
+   "id": "d04-p2-s02",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Who left this umbrella at the reception desk?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "At the front entrance."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "No, it's not raining."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "I think it's Mr. Tran's."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d04-p2-02",
+     "part": 2,
+     "skill": "p2.wh-who",
+     "level": 1,
+     "options": [
+      "At the front entrance.",
+      "No, it's not raining.",
+      "I think it's Mr. Tran's."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Who hỏi người; 'Mr. Tran's' chỉ chủ nhân chiếc ô.",
+      "en": "'Who' asks for a person, and 'Mr. Tran's' names the owner."
+     },
+     "trap": "(A) trả lời Where, (B) là câu trả lời No cho câu hỏi Yes/No."
+    }
+   ]
+  },
+  {
+   "id": "d04-p2-s03",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "What did the manager say about the budget?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "The bank is across the street."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "About twelve people."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "It will be approved on Friday."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d04-p2-03",
+     "part": 2,
+     "skill": "p2.wh-what",
+     "level": 1,
+     "options": [
+      "The bank is across the street.",
+      "About twelve people.",
+      "It will be approved on Friday."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "What hỏi nội dung; 'It will be approved on Friday' nói lại điều quản lý nói.",
+      "en": "'What' asks for content, and the reply reports what was said."
+     },
+     "trap": "(A) nhắc bank nghe liên quan tiền bạc nhưng nói về địa điểm."
+    }
+   ]
+  },
+  {
+   "id": "d04-p2-s04",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "What kind of laptop did you order?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Because the old one broke."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "A lightweight model with a long battery."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "By Thursday at the latest."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d04-p2-04",
+     "part": 2,
+     "skill": "p2.wh-what",
+     "level": 1,
+     "options": [
+      "Because the old one broke.",
+      "A lightweight model with a long battery.",
+      "By Thursday at the latest."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "What kind hỏi loại; 'A lightweight model' mô tả loại laptop.",
+      "en": "'What kind' asks for a type, and the reply describes one."
+     },
+     "trap": "(A) trả lời Why, (C) trả lời When."
+    }
+   ]
+  },
+  {
+   "id": "d04-p2-s05",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Where is the aquarium café's staff entrance?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Every morning at seven."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Two coffees, please."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Around the corner, past the loading dock."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d04-p2-05",
+     "part": 2,
+     "skill": "p2.wh-where",
+     "level": 1,
+     "options": [
+      "Every morning at seven.",
+      "Two coffees, please.",
+      "Around the corner, past the loading dock."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Where hỏi chỗ; 'Around the corner' chỉ đường tới lối vào của nhân viên.",
+      "en": "'Where' asks for a place, and 'Around the corner, past the loading dock' gives directions."
+     },
+     "trap": "(B) nghe hợp với café nhưng là đang gọi món, không chỉ đường."
+    }
+   ]
+  },
+  {
+   "id": "d04-p2-s06",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Who should I send the expense report to?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Yes, it was expensive."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Before the end of the month."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "The finance department."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d04-p2-06",
+     "part": 2,
+     "skill": "p2.wh-who",
+     "level": 1,
+     "options": [
+      "Yes, it was expensive.",
+      "Before the end of the month.",
+      "The finance department."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Who hỏi người nhận; 'The finance department' là bộ phận nhận báo cáo.",
+      "en": "'Who' asks for the recipient, and the finance department is one."
+     },
+     "trap": "(A) nghe giống expense/expensive nhưng là Yes; (B) trả lời When."
+    }
+   ]
+  },
+  {
+   "id": "d04-p2-s07",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "What's wrong with the projector?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "The bulb has burned out."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Next to the screen."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Yes, I'll project it."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d04-p2-07",
+     "part": 2,
+     "skill": "p2.wh-what",
+     "level": 1,
+     "options": [
+      "The bulb has burned out.",
+      "Next to the screen.",
+      "Yes, I'll project it."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "What's wrong hỏi vấn đề; 'The bulb has burned out' nêu nguyên nhân hỏng.",
+      "en": "'What's wrong' asks about a problem, and the burned-out bulb is one."
+     },
+     "trap": "(C) lặp project với nghĩa khác (chiếu / dự án) và là Yes."
+    }
+   ]
+  },
+  {
+   "id": "d04-p2-s08",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Where did Ms. Kim go for lunch?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "She had a sandwich."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Around one o'clock."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "To the café on Pine Street."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d04-p2-08",
+     "part": 2,
+     "skill": "p2.wh-where",
+     "level": 1,
+     "options": [
+      "She had a sandwich.",
+      "Around one o'clock.",
+      "To the café on Pine Street."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Where hỏi nơi đến; 'To the café on Pine Street' trả lời.",
+      "en": "'Where' asks for a destination, and 'To the café on Pine Street' gives it."
+     },
+     "trap": "(A) nói về món ăn (What), (B) nói về giờ (When)."
+    }
+   ]
+  },
+  {
+   "id": "d04-p2-s09",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Who's covering the front desk this afternoon?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "The desk is made of oak."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Mr. Alvarez, I believe."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "From two to six."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d04-p2-09",
+     "part": 2,
+     "skill": "p2.wh-who",
+     "level": 1,
+     "options": [
+      "The desk is made of oak.",
+      "Mr. Alvarez, I believe.",
+      "From two to six."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Who hỏi người; 'Mr. Alvarez' là người trực quầy.",
+      "en": "'Who' asks for a person, and Mr. Alvarez is one."
+     },
+     "trap": "(A) lặp desk nhưng nói chất liệu, không trả lời Who."
+    }
+   ]
+  },
+  {
+   "id": "d04-p2-s10",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "What is the deadline for the registration?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Online or by phone."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "The registration desk."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Next Friday at noon."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d04-p2-10",
+     "part": 2,
+     "skill": "p2.wh-what",
+     "level": 1,
+     "options": [
+      "Online or by phone.",
+      "The registration desk.",
+      "Next Friday at noon."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Deadline là hạn chót; 'Next Friday at noon' nêu thời hạn.",
+      "en": "A deadline is a final date, and 'Next Friday at noon' gives one."
+     },
+     "trap": "(A) trả lời How, (B) lặp registration nhưng là địa điểm."
+    }
+   ]
+  },
+  {
+   "id": "d04-p2-s11",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Where can I find the visitor passes?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "They're in the top drawer of the reception desk."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Passes are valid for two days."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Yes, I passed."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d04-p2-11",
+     "part": 2,
+     "skill": "p2.wh-where",
+     "level": 1,
+     "options": [
+      "They're in the top drawer of the reception desk.",
+      "Passes are valid for two days.",
+      "Yes, I passed."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Where hỏi chỗ để; 'in the top drawer' chỉ vị trí.",
+      "en": "'Where' asks for a location, and 'in the top drawer' gives it."
+     },
+     "trap": "(B) lặp passes nhưng nói về thời hạn hiệu lực."
+    }
+   ]
+  },
+  {
+   "id": "d04-p2-s12",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Where is the best place to catch the airport shuttle?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Outside gate B, I think."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "It costs ten dollars."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "I can catch it."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d04-p2-12",
+     "part": 2,
+     "skill": "p2.wh-where",
+     "level": 1,
+     "options": [
+      "Outside gate B, I think.",
+      "It costs ten dollars.",
+      "I can catch it."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Where hỏi chỗ; 'Outside gate B' là chỗ đón xe.",
+      "en": "'Where' asks for a place, and 'Outside gate B' is one."
+     },
+     "trap": "(B) nói về giá vé; (C) chỉ lặp từ catch."
+    }
+   ]
+  },
+  {
+   "id": "d04-p2-s13",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Who designed the lighting for the jellyfish exhibit?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "It stays on until eight."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Yes, the blue lights are lovely."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "A company from Osaka, I believe."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d04-p2-13",
+     "part": 2,
+     "skill": "p2.wh-who",
+     "level": 2,
+     "options": [
+      "It stays on until eight.",
+      "Yes, the blue lights are lovely.",
+      "A company from Osaka, I believe."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Who hỏi người hoặc công ty; 'A company from Osaka' trả lời.",
+      "en": "'Who' can ask about a company, and 'A company from Osaka' answers it."
+     },
+     "trap": "(B) lặp ý lights nhưng là lời khen, không nói ai thiết kế."
+    }
+   ]
+  },
+  {
+   "id": "d04-p2-s14",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "What does the maintenance team do after a tank is drained?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Around the back of the building."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Mr. Dang is the supervisor."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "They scrub the glass and check the filters."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d04-p2-14",
+     "part": 2,
+     "skill": "p2.wh-what",
+     "level": 2,
+     "options": [
+      "Around the back of the building.",
+      "Mr. Dang is the supervisor.",
+      "They scrub the glass and check the filters."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "What hỏi việc làm; 'scrub the glass and check the filters' mô tả công việc.",
+      "en": "'What' asks about an action, and scrubbing and checking filters answers it."
+     },
+     "trap": "(B) nhắc người liên quan đến maintenance nhưng không mô tả công việc."
+    }
+   ]
+  },
+  {
+   "id": "d04-p2-s15",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Where was the sales meeting held last year?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "The sales were strong."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "About fifty people."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "In the Lisbon office."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d04-p2-15",
+     "part": 2,
+     "skill": "p2.wh-where",
+     "level": 2,
+     "options": [
+      "The sales were strong.",
+      "About fifty people.",
+      "In the Lisbon office."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Where hỏi địa điểm; 'In the Lisbon office' trả lời.",
+      "en": "'Where' asks for a place, and 'In the Lisbon office' gives it."
+     },
+     "trap": "(A) lặp sales nhưng nói về doanh số, (B) trả lời How many."
+    }
+   ]
+  },
+  {
+   "id": "d04-p2-s16",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Who is taking over the Singapore account?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "I haven't heard yet."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Four accounts."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "It's open until six."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d04-p2-16",
+     "part": 2,
+     "skill": "p2.wh-who",
+     "level": 2,
+     "options": [
+      "I haven't heard yet.",
+      "Four accounts.",
+      "It's open until six."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Who có thể được đáp bằng 'chưa biết'; 'I haven't heard yet' là câu trả lời hợp lý.",
+      "en": "'I haven't heard yet' is a valid reply to 'Who' when the speaker does not know."
+     },
+     "trap": "(B) lặp account nhưng trả lời How many."
+    }
+   ]
+  },
+  {
+   "id": "d04-p2-s17",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "What would you recommend for a client dinner?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Yes, he's a nice client."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "The Italian place near the station is good."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "At seven thirty."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d04-p2-17",
+     "part": 2,
+     "skill": "p2.wh-what",
+     "level": 2,
+     "options": [
+      "Yes, he's a nice client.",
+      "The Italian place near the station is good.",
+      "At seven thirty."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "What would you recommend hỏi gợi ý; tên nhà hàng là câu trả lời.",
+      "en": "The question asks for a recommendation, and the Italian place is one."
+     },
+     "trap": "(C) trả lời When, không đưa ra gợi ý."
+    }
+   ]
+  },
+  {
+   "id": "d04-p2-s18",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "What did the inspector find?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "He's been here since nine."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "A small leak near the pump."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Please sign here."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d04-p2-18",
+     "part": 2,
+     "skill": "p2.wh-what",
+     "level": 2,
+     "options": [
+      "He's been here since nine.",
+      "A small leak near the pump.",
+      "Please sign here."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "What hỏi phát hiện; 'A small leak near the pump' nêu điều tìm thấy.",
+      "en": "'What' asks about a finding, and the small leak is one."
+     },
+     "trap": "(A) nói về thời gian ở lại, (C) là yêu cầu không liên quan."
+    }
+   ]
+  },
+  {
+   "id": "d04-p2-s19",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Who's responsible for ordering lunch on Fridays?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Fridays are busy."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "We take turns, actually."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Yes, I ordered it already."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d04-p2-19",
+     "part": 2,
+     "skill": "p2.wh-who",
+     "level": 3,
+     "options": [
+      "Fridays are busy.",
+      "We take turns, actually.",
+      "Yes, I ordered it already."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Who có thể đáp 'we take turns': không chỉ ai, nhưng vẫn trả lời đúng ý.",
+      "en": "'We take turns' answers 'Who' by explaining the arrangement."
+     },
+     "trap": "(C) nghe hợp vì lặp ordered, nhưng là Yes và không nói ai chịu trách nhiệm."
+    }
+   ]
+  },
+  {
+   "id": "d04-p2-s20",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Where did you buy that scarf?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "At the night market."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "It's made of silk."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Last weekend."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d04-p2-20",
+     "part": 2,
+     "skill": "p2.wh-where",
+     "level": 1,
+     "options": [
+      "At the night market.",
+      "It's made of silk.",
+      "Last weekend."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Where hỏi nơi mua; 'At the night market' trả lời.",
+      "en": "'Where' asks for a place, and the night market is one."
+     },
+     "trap": "(B) nói chất liệu, (C) nói thời gian."
+    }
+   ]
+  }
+ ]
+}

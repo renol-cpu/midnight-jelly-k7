@@ -1,0 +1,514 @@
+{
+ "listening": [
+  {
+   "id": "d15-p3-a",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Hi, Ravi. I'm choosing a new laptop for the design team. Have you looked at this comparison chart?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "I did. The Orion is the cheapest, but its battery only lasts five hours."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "That's too short. The designers travel to client sites all the time, so they need at least eight hours."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Then the two on the right are possible. The Vega has more storage, but it's heavier."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Weight isn't an issue. Let's go with the one that stays under our budget of fourteen hundred dollars."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Good. I'll place the order for six units today."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d15-p3-a1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What are the speakers doing?",
+     "options": [
+      "Choosing equipment",
+      "Planning a trip",
+      "Interviewing designers",
+      "Updating software"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Họ chọn laptop mới cho nhóm thiết kế.",
+      "en": "They are selecting laptops for a team."
+     },
+     "trap": "Travel là lý do cần pin lâu, không phải việc họ lên kế hoạch."
+    },
+    {
+     "id": "d15-p3-a2",
+     "part": 3,
+     "skill": "p3.graphic",
+     "level": 2,
+     "q": "Look at the graphic. Which laptop will the speakers most likely order?",
+     "options": [
+      "The Orion",
+      "The Nova",
+      "The Vega",
+      "The Lumen"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cần pin từ 8 giờ trở lên và giá dưới 1.400 đô; chỉ Nova thỏa cả hai điều kiện trong bảng.",
+      "en": "Battery of at least eight hours and a price under $1,400 leaves only the Nova."
+     },
+     "trap": "Vega pin đủ nhưng giá vượt ngân sách; Orion pin quá ngắn."
+    },
+    {
+     "id": "d15-p3-a3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the man do today?",
+     "options": [
+      "Test a laptop",
+      "Call a client",
+      "Place an order",
+      "Cancel a purchase"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Anh sẽ đặt mua sáu máy trong hôm nay.",
+      "en": "He will order six units, meaning place an order."
+     },
+     "trap": "Chưa ai thử máy."
+    }
+   ],
+   "graphic": {
+    "caption": "Laptop comparison",
+    "rows": [
+     [
+      "Model",
+      "Battery life",
+      "Weight",
+      "Price"
+     ],
+     [
+      "Orion",
+      "5 hours",
+      "1.1 kg",
+      "$980"
+     ],
+     [
+      "Nova",
+      "9 hours",
+      "1.3 kg",
+      "$1,320"
+     ],
+     [
+      "Vega",
+      "10 hours",
+      "1.9 kg",
+      "$1,650"
+     ],
+     [
+      "Lumen",
+      "7 hours",
+      "1.2 kg",
+      "$1,250"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "d15-p3-b",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Elena, I'm helping some visitors find the meeting rooms. Do you know where the training session is?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "It was moved. Look at the new floor plan on the notice board. It's now in Room C instead of Room A."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Oh, that's by the elevator, right?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Not quite. It's at the far end of the corridor, directly across from the restrooms."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Got it. And where should I send people who are here for the interview with Ms. Hardy?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "The interview room is the one next to the supply closet. Have them wait in the lobby first."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d15-p3-b1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What is the man trying to do?",
+     "options": [
+      "Order supplies",
+      "Set up a meeting",
+      "Fix an elevator",
+      "Direct some visitors"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Anh đang giúp khách tìm phòng họp, tức là chỉ đường cho họ.",
+      "en": "He is helping guests find rooms."
+     },
+     "trap": "Supplies chỉ là mốc tham chiếu vị trí."
+    },
+    {
+     "id": "d15-p3-b2",
+     "part": 3,
+     "skill": "p3.graphic",
+     "level": 2,
+     "q": "Look at the graphic. Where is the training session?",
+     "options": [
+      "Room 3",
+      "Room 1",
+      "Room 2",
+      "Room 4"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Phòng C nằm cuối hành lang đối diện nhà vệ sinh, trên sơ đồ là Room 3.",
+      "en": "Room C is at the end of the hall opposite the restrooms, which is labeled Room 3 on the plan."
+     },
+     "trap": "Room 1 nằm cạnh thang máy, nhưng người phụ nữ nói không phải ở đó."
+    },
+    {
+     "id": "d15-p3-b3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What should interview candidates do first?",
+     "options": [
+      "Go to Room C",
+      "Wait in the entrance area",
+      "Check in with security",
+      "Take the elevator"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô bảo họ đợi ở sảnh trước, tức là khu vực lối vào.",
+      "en": "Waiting in the lobby means waiting in the entrance area."
+     },
+     "trap": "Phòng phỏng vấn ở cạnh phòng vật tư, nhưng họ chưa vào ngay."
+    }
+   ],
+   "graphic": {
+    "caption": "Floor plan, second floor",
+    "rows": [
+     [
+      "Room",
+      "Location on the floor"
+     ],
+     [
+      "Room 1",
+      "Next to the elevator"
+     ],
+     [
+      "Room 2",
+      "Next to the supply closet"
+     ],
+     [
+      "Room 3",
+      "End of corridor, across from restrooms"
+     ],
+     [
+      "Room 4",
+      "Beside the staff kitchen"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "d15-p3-c",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Hello, I'd like to book a delivery to Brisbane. I have a package that has to arrive by Thursday."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Let me check the options. Our Standard service takes five days, so that's too slow."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "What about the faster ones?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Priority takes two days, and Express arrives the next day. Both are insured for up to five hundred dollars."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Thursday is the day after tomorrow, so I guess Priority works if I send it right now."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "It does, as long as you book before four o'clock today. Then we'll collect it tomorrow morning."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "I'll fill out the form now."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d15-p3-c1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What does the man want to do?",
+     "options": [
+      "Pick up a parcel",
+      "Buy insurance",
+      "Send a package",
+      "Change an address"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Anh muốn gửi một gói hàng đến Brisbane.",
+      "en": "He wants to ship a package."
+     },
+     "trap": "Insurance là thông tin phụ."
+    },
+    {
+     "id": "d15-p3-c2",
+     "part": 3,
+     "skill": "p3.graphic",
+     "level": 3,
+     "q": "Look at the graphic. How much will the man probably pay?",
+     "options": [
+      "$9",
+      "$32",
+      "$45",
+      "$18"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Hôm nay là thứ Ba, cần đến vào thứ Năm nên Priority (2 ngày) là đủ, giá 18 đô.",
+      "en": "He needs delivery in two days, so Priority at $18."
+     },
+     "trap": "Express nhanh hơn nhưng không cần thiết; Standard quá chậm."
+    },
+    {
+     "id": "d15-p3-c3",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "What must the man do by four o’clock?",
+     "options": [
+      "Complete a booking",
+      "Pay by card",
+      "Call the courier",
+      "Print a label"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Phải đặt dịch vụ trước 4 giờ chiều nay để hôm sau được lấy hàng.",
+      "en": "He must book before four so the package is collected tomorrow."
+     },
+     "trap": "Nhân viên giao nhận mới là người đến lấy hàng sáng mai."
+    }
+   ],
+   "graphic": {
+    "caption": "Shipping rates to Brisbane",
+    "rows": [
+     [
+      "Service",
+      "Delivery time",
+      "Price"
+     ],
+     [
+      "Standard",
+      "5 days",
+      "$9"
+     ],
+     [
+      "Priority",
+      "2 days",
+      "$18"
+     ],
+     [
+      "Express",
+      "Next day",
+      "$32"
+     ],
+     [
+      "Overnight Plus",
+      "Before 9 A.M. next day",
+      "$45"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "d15-p3-d",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Greg, did you see this week's attendance numbers for our workshops?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "I did. The Tuesday one was popular, but the Thursday workshop only had twelve people."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "That's down from last month. Maybe we should drop it."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Before we do, let's see how many signed up for each topic. Look at the chart. The accounting class always fills up."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "True. And the one on presentation skills is almost as large. Honestly, I'd keep that one too."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Then let's cancel the lowest of the four and use the room for something else."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Agreed. I'll email the participants this afternoon."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d15-p3-d1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What are the speakers discussing?",
+     "options": [
+      "A new hire",
+      "Which workshop to discontinue",
+      "A budget change",
+      "A room reservation"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Họ cân nhắc hủy hội thảo nào do ít người tham dự.",
+      "en": "They decide which class to cancel."
+     },
+     "trap": "Room chỉ là nơi sẽ dùng cho việc khác."
+    },
+    {
+     "id": "d15-p3-d2",
+     "part": 3,
+     "skill": "p3.graphic",
+     "level": 3,
+     "q": "Look at the graphic. Which workshop will be cancelled?",
+     "options": [
+      "Accounting Basics",
+      "Public Speaking",
+      "Time Management",
+      "Excel Tips"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Họ hủy lớp có ít người đăng ký nhất, đó là Time Management với 12 người.",
+      "en": "The lowest enrollment is Time Management at 12."
+     },
+     "trap": "Excel Tips đông hơn; kế toán và thuyết trình đều được giữ."
+    },
+    {
+     "id": "d15-p3-d3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the woman do this afternoon?",
+     "options": [
+      "Update a chart",
+      "Book a new room",
+      "Meet a trainer",
+      "Notify some participants"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Cô sẽ gửi email cho người tham dự.",
+      "en": "She will email the participants."
+     },
+     "trap": "Cô không đặt phòng mới."
+    }
+   ],
+   "graphic": {
+    "caption": "Workshop sign-ups this month",
+    "rows": [
+     [
+      "Workshop",
+      "Day",
+      "Participants"
+     ],
+     [
+      "Accounting Basics",
+      "Tuesday",
+      "34"
+     ],
+     [
+      "Public Speaking",
+      "Wednesday",
+      "31"
+     ],
+     [
+      "Time Management",
+      "Thursday",
+      "12"
+     ],
+     [
+      "Excel Tips",
+      "Friday",
+      "18"
+     ]
+    ]
+   }
+  }
+ ]
+}

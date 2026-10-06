@@ -1,0 +1,581 @@
+{
+ "grammar": [
+  {
+   "id": "d21-p5-a",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d21-p5-01",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 1,
+     "q": "The airline apologized for the ____ caused by the flight delay.",
+     "options": [
+      "inconvenience",
+      "inconvenient",
+      "inconveniently",
+      "inconvenienced"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Sau mạo từ \"the\" cần danh từ: inconvenience (sự bất tiện).",
+      "en": "A noun follows \"the\"."
+     },
+     "trap": "Inconvenient là tính từ nên không đứng sau the làm danh từ."
+    },
+    {
+     "id": "d21-p5-02",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 1,
+     "q": "Ms. Lee gave a ____ presentation on solar panels.",
+     "options": [
+      "convince",
+      "convincingly",
+      "conviction",
+      "convincing"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Giữa \"a\" và danh từ presentation cần tính từ: convincing (thuyết phục).",
+      "en": "An adjective between \"a\" and the noun."
+     },
+     "trap": "Conviction là danh từ (niềm tin) nên không đứng trước presentation."
+    },
+    {
+     "id": "d21-p5-03",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 1,
+     "q": "The new recruits were ____ trained before meeting customers.",
+     "options": [
+      "thorough",
+      "thoroughness",
+      "thoroughly",
+      "throughout"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Giữa were và trained cần trạng từ: thoroughly (kỹ lưỡng).",
+      "en": "An adverb sits between \"were\" and \"trained\"."
+     },
+     "trap": "Throughout giống mặt chữ nhưng là giới từ, nghĩa khác hẳn."
+    },
+    {
+     "id": "d21-p5-04",
+     "part": 5,
+     "skill": "p5.tense",
+     "level": 2,
+     "q": "The conference ____ in Seoul when the typhoon warning was issued.",
+     "options": [
+      "takes place",
+      "was taking place",
+      "has taken place",
+      "will take place"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Hành động đang diễn ra thì có hành động khác xen vào (was issued): quá khứ tiếp diễn.",
+      "en": "An ongoing past action interrupted by another: past continuous."
+     },
+     "trap": "Takes place là hiện tại, không hợp với mốc quá khứ."
+    },
+    {
+     "id": "d21-p5-05",
+     "part": 5,
+     "skill": "p5.passive",
+     "level": 2,
+     "q": "Several complaints ____ by the front desk since last week.",
+     "options": [
+      "have been received",
+      "have received",
+      "are receiving",
+      "received"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Khiếu nại là đối tượng được nhận, kèm \"since last week\": hiện tại hoàn thành bị động.",
+      "en": "Present perfect passive with \"since\"."
+     },
+     "trap": "Have received cần tân ngữ ngay sau nó."
+    },
+    {
+     "id": "d21-p5-06",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "The seminar will start ____ 9:30 A.M. sharp.",
+     "options": [
+      "on",
+      "in",
+      "by",
+      "at"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Giờ cụ thể dùng at.",
+      "en": "Clock times take \"at\"."
+     },
+     "trap": "\"By 9:30\" có nghĩa là chậm nhất lúc đó, không phải bắt đầu đúng lúc đó."
+    },
+    {
+     "id": "d21-p5-07",
+     "part": 5,
+     "skill": "p5.vocab",
+     "level": 2,
+     "q": "The airline will ____ a refund to passengers whose flights were canceled.",
+     "options": [
+      "do",
+      "take",
+      "issue",
+      "put"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"Issue a refund\" là cụm cố định: cấp hoàn tiền.",
+      "en": "\"Issue a refund\" is the fixed collocation."
+     },
+     "trap": "Do/take/put không đi với refund."
+    },
+    {
+     "id": "d21-p5-08",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 1,
+     "q": "Employees ____ complete the training will receive a certificate.",
+     "options": [
+      "whom",
+      "who",
+      "whose",
+      "which"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Chỉ người, làm chủ ngữ của \"complete\": dùng who.",
+      "en": "A person as subject of \"complete\": \"who\"."
+     },
+     "trap": "Whom là tân ngữ."
+    },
+    {
+     "id": "d21-p5-09",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 2,
+     "q": "The refund will not be processed ____ the receipt is attached.",
+     "options": [
+      "unless",
+      "although",
+      "because",
+      "whereas"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Unless = if not: sẽ không xử lý trừ khi có đính kèm biên lai.",
+      "en": "\"Unless\" means \"if not\"."
+     },
+     "trap": "Although/because/whereas làm câu mất nghĩa."
+    },
+    {
+     "id": "d21-p5-10",
+     "part": 5,
+     "skill": "p5.comparison",
+     "level": 2,
+     "q": "Of all the candidates, Ms. Park has the ____ experience.",
+     "options": [
+      "more",
+      "much",
+      "mostly",
+      "most"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"Of all...\" báo hiệu so sánh nhất: the most experience.",
+      "en": "\"Of all\" signals a superlative."
+     },
+     "trap": "More dùng so sánh hơn giữa hai đối tượng."
+    },
+    {
+     "id": "d21-p5-11",
+     "part": 5,
+     "skill": "p5.participle",
+     "level": 2,
+     "q": "The brochure ____ the new tour packages is available at the desk.",
+     "options": [
+      "described",
+      "describes",
+      "describing",
+      "describe"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Tờ rơi mô tả (chủ động), rút gọn that describes thành describing.",
+      "en": "Active reduced clause: \"that describes\"."
+     },
+     "trap": "Describes là động từ chính thứ hai, làm câu thiếu liên từ."
+    },
+    {
+     "id": "d21-p5-12",
+     "part": 5,
+     "skill": "p5.agreement",
+     "level": 3,
+     "q": "Each of the exhibits ____ labeled in three languages.",
+     "options": [
+      "are",
+      "is",
+      "were",
+      "have been"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"Each\" đi với động từ số ít: is labeled.",
+      "en": "\"Each\" takes a singular verb."
+     },
+     "trap": "Exhibits nhiều ngay trước động từ là bẫy kinh điển."
+    },
+    {
+     "id": "d21-p5-13",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 2,
+     "q": "Mr. Hale's ____ to the team was recognized at the annual dinner.",
+     "options": [
+      "contribution",
+      "contribute",
+      "contributed",
+      "contributory"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Sau sở hữu cách \"Mr. Hale's\" cần danh từ: contribution (sự đóng góp).",
+      "en": "A noun follows the possessive."
+     },
+     "trap": "Contributed là V-ed, không làm chủ ngữ sau sở hữu cách."
+    },
+    {
+     "id": "d21-p5-14",
+     "part": 5,
+     "skill": "p5.pronoun",
+     "level": 2,
+     "q": "The manager asked Ms. Chen and ____ to review the schedule.",
+     "options": [
+      "I",
+      "my",
+      "mine",
+      "me"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Sau \"asked\" cần đại từ tân ngữ: Ms. Chen and me.",
+      "en": "After \"asked\" an object pronoun is needed."
+     },
+     "trap": "\"Ms. Chen and I\" nghe lịch sự nhưng I chỉ làm chủ ngữ."
+    },
+    {
+     "id": "d21-p5-15",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 3,
+     "q": "____ of the twelve guests complained about the noise.",
+     "options": [
+      "No",
+      "Not",
+      "None",
+      "Neither"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"None of the + danh từ\" nghĩa là không ai. Neither chỉ dùng cho hai người.",
+      "en": "\"None of the\" + plural; \"neither\" is for two."
+     },
+     "trap": "No không đi trước \"of the\"."
+    },
+    {
+     "id": "d21-p5-16",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 2,
+     "q": "Prices are subject ____ change without notice.",
+     "options": [
+      "for",
+      "to",
+      "of",
+      "on"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"Subject to\" là cụm cố định: có thể thay đổi.",
+      "en": "\"Subject to\" is fixed."
+     },
+     "trap": "\"Subject of\" nghĩa là chủ đề của."
+    },
+    {
+     "id": "d21-p5-17",
+     "part": 5,
+     "skill": "p5.wordform.verb",
+     "level": 2,
+     "q": "The software upgrade is designed to ____ system security.",
+     "options": [
+      "enhance",
+      "enhancement",
+      "enhanced",
+      "enhancer"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Sau \"to\" cần động từ nguyên mẫu: enhance.",
+      "en": "A base verb follows \"to\"."
+     },
+     "trap": "Enhancement là danh từ."
+    },
+    {
+     "id": "d21-p5-18",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 2,
+     "q": "Please speak into the microphone ____ everyone can hear you.",
+     "options": [
+      "such",
+      "because of",
+      "in order",
+      "so that"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"So that + mệnh đề\" chỉ mục đích: để mọi người nghe được.",
+      "en": "\"So that\" + clause expresses purpose."
+     },
+     "trap": "\"In order\" thiếu \"to\" hoặc that nên không nối được mệnh đề."
+    },
+    {
+     "id": "d21-p5-19",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 1,
+     "q": "Mr. Okoye, ____ office is on the third floor, will assist you.",
+     "options": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Sau chỗ trống là danh từ \"office\" của Mr. Okoye: whose.",
+      "en": "A noun follows and belongs to Mr. Okoye: \"whose\"."
+     },
+     "trap": "Who không đi trực tiếp với danh từ."
+    },
+    {
+     "id": "d21-p5-20",
+     "part": 5,
+     "skill": "p5.comparison",
+     "level": 2,
+     "q": "The jellyfish exhibit is almost ____ popular as the shark tank.",
+     "options": [
+      "more",
+      "as",
+      "than",
+      "most"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cấu trúc so sánh bằng: as + adj + as.",
+      "en": "Equal comparison: \"as ... as\"."
+     },
+     "trap": "More/than cần đi cùng nhau, không đi với as phía sau."
+    },
+    {
+     "id": "d21-p5-21",
+     "part": 5,
+     "skill": "p5.tense",
+     "level": 3,
+     "q": "By next June, the museum ____ open for twenty years.",
+     "options": [
+      "will have been",
+      "has been",
+      "is",
+      "will be"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"By + mốc tương lai\" cần tương lai hoàn thành: will have been.",
+      "en": "\"By + future time\" needs future perfect."
+     },
+     "trap": "Has been là hiện tại hoàn thành, thiếu tính tương lai."
+    },
+    {
+     "id": "d21-p5-22",
+     "part": 5,
+     "skill": "p5.passive",
+     "level": 2,
+     "q": "Guests are kindly ____ to leave their keys at the front desk.",
+     "options": [
+      "requesting",
+      "request",
+      "requests",
+      "requested"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Bị động: guests are requested (được đề nghị) to leave.",
+      "en": "Passive: \"are requested to\"."
+     },
+     "trap": "Requesting nghĩa là khách đi đề nghị người khác."
+    },
+    {
+     "id": "d21-p5-23",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 2,
+     "q": "The firm succeeded ____ reducing its delivery times.",
+     "options": [
+      "at",
+      "on",
+      "in",
+      "to"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"Succeed in + V-ing\" là cụm cố định: thành công trong việc.",
+      "en": "\"Succeed in\" + V-ing is fixed."
+     },
+     "trap": "\"Succeed at\" cũng có nhưng ít dùng với V-ing trong đề thi."
+    },
+    {
+     "id": "d21-p5-24",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 1,
+     "q": "Online booking is a ____ alternative to calling the office.",
+     "options": [
+      "conveniently",
+      "convenient",
+      "convenience",
+      "convene"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Giữa \"a\" và danh từ alternative cần tính từ: convenient (tiện lợi).",
+      "en": "An adjective between \"a\" and the noun."
+     },
+     "trap": "Convenience là danh từ, \"convenience alternative\" không phải cụm quen thuộc."
+    },
+    {
+     "id": "d21-p5-25",
+     "part": 5,
+     "skill": "p5.vocab",
+     "level": 2,
+     "q": "Staff must ____ their schedules to the supervisor by Friday.",
+     "options": [
+      "submit",
+      "admit",
+      "permit",
+      "commit"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Submit something to\" là cụm quen: nộp cho.",
+      "en": "\"Submit to\" fits sending a document."
+     },
+     "trap": "Admit/permit/commit giống hình thức nhưng không hợp nghĩa nộp lịch."
+    },
+    {
+     "id": "d21-p5-26",
+     "part": 5,
+     "skill": "p5.participle",
+     "level": 2,
+     "q": "Having ____ the report, Ms. Ito sent it to the director.",
+     "options": [
+      "finish",
+      "finishing",
+      "to finish",
+      "finished"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"Having + V3\" diễn tả hành động xảy ra trước: having finished.",
+      "en": "\"Having + past participle\"."
+     },
+     "trap": "Finishing đi không có Having thì không đủ cấu trúc."
+    },
+    {
+     "id": "d21-p5-27",
+     "part": 5,
+     "skill": "p5.agreement",
+     "level": 3,
+     "q": "A number of tourists ____ asked about the late ferry.",
+     "options": [
+      "has",
+      "is",
+      "have",
+      "does"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"A number of + danh từ số nhiều\" dùng động từ số nhiều: have asked.",
+      "en": "\"A number of\" takes a plural verb."
+     },
+     "trap": "Phân biệt \"The number of\" (số ít) và \"A number of\" (số nhiều)."
+    },
+    {
+     "id": "d21-p5-28",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 1,
+     "q": "Neither the tour guide ____ the driver knew about the road closure.",
+     "options": [
+      "or",
+      "nor",
+      "and",
+      "but"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"Neither ... nor\" luôn đi cặp với nhau.",
+      "en": "\"Neither\" pairs with \"nor\"."
+     },
+     "trap": "\"Or\" đi với either."
+    },
+    {
+     "id": "d21-p5-29",
+     "part": 5,
+     "skill": "p5.vocab",
+     "level": 3,
+     "q": "We regret to inform you that the position has already been ____.",
+     "options": [
+      "filled",
+      "fulfilled",
+      "full",
+      "filling"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Fill a position\" nghĩa là tuyển đủ người: has been filled.",
+      "en": "\"A position is filled\" when someone is hired."
+     },
+     "trap": "Fulfilled nghĩa là đáp ứng yêu cầu, hay lẫn với filled."
+    },
+    {
+     "id": "d21-p5-30",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 3,
+     "q": "The results were ____ better than we had predicted.",
+     "options": [
+      "significant",
+      "significance",
+      "signify",
+      "significantly"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Trước so sánh \"better\" cần trạng từ: significantly (đáng kể).",
+      "en": "An adverb modifies the comparative \"better\"."
+     },
+     "trap": "Significant là tính từ, không đứng trước better để bổ nghĩa."
+    }
+   ]
+  }
+ ],
+ "theory": []
+}

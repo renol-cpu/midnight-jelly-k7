@@ -1,0 +1,229 @@
+{
+ "listening": [
+  {
+   "id": "d09-p2-s01",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Why is the lobby so crowded this morning?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "There's a job fair upstairs."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "At the main entrance."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Yes, I'll be there."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d09-p2-01",
+     "part": 2,
+     "skill": "p2.wh-why",
+     "level": 1,
+     "options": [
+      "There's a job fair upstairs.",
+      "At the main entrance.",
+      "Yes, I'll be there."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Why hỏi lý do; 'a job fair upstairs' giải thích.",
+      "en": "'Why' asks for a reason, and the job fair explains the crowd."
+     },
+     "trap": "(B) trả lời Where."
+    }
+   ]
+  },
+  {
+   "id": "d09-p2-s02",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Who sent you the sales figures?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "They figure it out."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Mr. Hoang did."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "About ten percent."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d09-p2-02",
+     "part": 2,
+     "skill": "p2.wh-who",
+     "level": 1,
+     "options": [
+      "They figure it out.",
+      "Mr. Hoang did.",
+      "About ten percent."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Who hỏi người; Mr. Hoang là người gửi.",
+      "en": "'Who' asks for a person, and Mr. Hoang is one."
+     },
+     "trap": "(A) nghe giống figures nhưng không trả lời Who."
+    }
+   ]
+  },
+  {
+   "id": "d09-p2-s03",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Do you mind if I open the window?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "It opens at nine."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "The window is on the left."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Go ahead, it's warm in here."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d09-p2-03",
+     "part": 2,
+     "skill": "p2.suggestion",
+     "level": 2,
+     "options": [
+      "It opens at nine.",
+      "The window is on the left.",
+      "Go ahead, it's warm in here."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "'Do you mind' xin phép; 'Go ahead' đồng ý.",
+      "en": "'Do you mind' asks permission, and 'Go ahead' grants it."
+     },
+     "trap": "(A) và (B) lặp window/open nhưng không cho phép hay từ chối."
+    }
+   ]
+  },
+  {
+   "id": "d09-p2-s04",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "How did the client respond to the proposal?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "In the client's office."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "She wants a few changes."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Yes, it was proposed on Monday."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d09-p2-04",
+     "part": 2,
+     "skill": "p2.wh-how",
+     "level": 2,
+     "options": [
+      "In the client's office.",
+      "She wants a few changes.",
+      "Yes, it was proposed on Monday."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "How hỏi phản ứng; 'She wants a few changes' mô tả.",
+      "en": "'How' asks about a reaction, and wanting changes is one."
+     },
+     "trap": "(C) nghe giống proposal nhưng là Yes."
+    }
+   ]
+  },
+  {
+   "id": "d09-p2-s05",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Would you rather take the tour in the morning or the afternoon?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "A tour guide."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Whichever is less crowded."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Yes, I toured it."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d09-p2-05",
+     "part": 2,
+     "skill": "p2.choice",
+     "level": 2,
+     "options": [
+      "A tour guide.",
+      "Whichever is less crowded.",
+      "Yes, I toured it."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Câu hỏi chọn; 'Whichever is less crowded' chọn theo điều kiện.",
+      "en": "A choice question answered with a condition: 'Whichever is less crowded'."
+     },
+     "trap": "(A) lặp tour nhưng không chọn gì."
+    }
+   ]
+  }
+ ]
+}

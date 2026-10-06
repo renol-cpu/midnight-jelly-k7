@@ -1,0 +1,299 @@
+{
+ "listening": [
+  {
+   "id": "d18-p3-a",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Jim, did the marketing department approve our proposal for the summer campaign?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Partly. They like the slogan, but they want us to cut the television advertising and spend more online."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "That makes sense, given how many people stream videos. Do we have enough in the budget?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "If we shift forty percent of the television money, yes. I'm drafting the revised plan now."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "When do they need it?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "By Wednesday noon. I'd appreciate it if you could review the numbers before I send it."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d18-p3-a1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 2,
+     "q": "What are the speakers discussing?",
+     "options": [
+      "A hiring decision",
+      "A product recall",
+      "A contract renewal",
+      "A revision to a promotional plan"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Họ chỉnh sửa kế hoạch chiến dịch quảng cáo mùa hè.",
+      "en": "They revise the summer advertising plan."
+     },
+     "trap": "Hiring/recall không được nhắc."
+    },
+    {
+     "id": "d18-p3-a2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "What change did the marketing department request?",
+     "options": [
+      "More spending on web advertising",
+      "A new slogan",
+      "A larger budget",
+      "An earlier launch"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Họ muốn giảm quảng cáo TV, tăng quảng cáo trực tuyến.",
+      "en": "They want more online spending."
+     },
+     "trap": "Họ thích khẩu hiệu hiện tại nên không đổi."
+    },
+    {
+     "id": "d18-p3-a3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What does the man ask the woman to do?",
+     "options": [
+      "Call a client",
+      "Look over some figures",
+      "Prepare a slogan",
+      "Book a studio"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Anh nhờ cô xem lại các con số trước khi gửi.",
+      "en": "He asks her to review the numbers."
+     },
+     "trap": "Cô chưa phải gọi khách."
+    }
+   ]
+  },
+  {
+   "id": "d18-p3-b",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Maya, I just got the results of the customer survey. People are happy with the food, but a lot of them complain about the wait."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "It's been busy at lunchtime. Maybe we should add a second cashier."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "I thought of that, but there isn't room behind the counter. What about an app that lets customers order ahead?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Hmm. That could work, but developing one would cost a lot."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Not necessarily. There's a service that charges a small monthly fee and takes care of the setup."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "In that case, let's get a demonstration. Can you arrange it for next week?"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d18-p3-b1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 2,
+     "q": "What problem do the speakers want to solve?",
+     "options": [
+      "Poor food quality",
+      "High prices",
+      "Long waiting times",
+      "Staff shortages"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Khách phàn nàn về thời gian chờ lâu.",
+      "en": "Customers complain about the wait."
+     },
+     "trap": "Họ hài lòng với món ăn."
+    },
+    {
+     "id": "d18-p3-b2",
+     "part": 3,
+     "skill": "p3.implication",
+     "level": 3,
+     "q": "Why does the man reject the cashier idea?",
+     "options": [
+      "It would be too expensive",
+      "The staff are untrained",
+      "Customers prefer self-service",
+      "There is not enough space"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Phía sau quầy không còn chỗ.",
+      "en": "There is no room behind the counter."
+     },
+     "trap": "Chi phí là vấn đề của ứng dụng, không phải quầy thu ngân."
+    },
+    {
+     "id": "d18-p3-b3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What does the woman ask the man to do?",
+     "options": [
+      "Schedule a presentation",
+      "Hire a developer",
+      "Conduct another survey",
+      "Change a price"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô nhờ anh sắp xếp buổi trình diễn thử dịch vụ.",
+      "en": "A demonstration is a presentation to arrange."
+     },
+     "trap": "Dịch vụ lo phần cài đặt, không cần thuê lập trình viên."
+    }
+   ]
+  },
+  {
+   "id": "d18-p3-c",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Hi, I'd like to check in. The reservation's under Lopez."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Welcome, Ms. Lopez. I see you booked a room with a view of the harbor for three nights."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "That's right. But I'm afraid I'll need to leave a day early because of a work conflict."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "That's no problem. I can adjust the booking, but because it's a discounted rate, there may be a small change fee."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "How much is it?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Twenty-five dollars. Also, breakfast is served on the second floor from six to ten."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Perfect. Is there somewhere I can leave my luggage? My room won't be ready until two."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Certainly. Our porter will keep it behind the desk."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d18-p3-c1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 2,
+     "q": "What does the woman ask the man to do?",
+     "options": [
+      "Upgrade her room",
+      "Shorten her stay",
+      "Arrange a taxi",
+      "Provide a receipt"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô cần rời sớm một ngày, tức là rút ngắn thời gian lưu trú.",
+      "en": "Leaving a day early means shortening her stay."
+     },
+     "trap": "Cô không xin nâng hạng phòng."
+    },
+    {
+     "id": "d18-p3-c2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "What will the woman have to pay?",
+     "options": [
+      "A parking charge",
+      "A deposit for the key",
+      "A modification fee",
+      "A cleaning fee"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Phí thay đổi đặt phòng 25 đô.",
+      "en": "The change fee is a modification fee."
+     },
+     "trap": "Parking không được nhắc."
+    },
+    {
+     "id": "d18-p3-c3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What will the hotel do with the woman’s luggage?",
+     "options": [
+      "Send it to her room",
+      "Deliver it to the airport",
+      "Weigh it",
+      "Store it temporarily"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Nhân viên sẽ giữ hành lý sau quầy cho đến khi phòng sẵn sàng.",
+      "en": "The porter will keep it, i.e. store it for now."
+     },
+     "trap": "Phòng chưa sẵn sàng nên chưa mang lên được."
+    }
+   ]
+  }
+ ]
+}

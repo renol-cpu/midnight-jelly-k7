@@ -1,0 +1,452 @@
+{
+ "grammar": [
+  {
+   "id": "d16-p5-a",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d16-p5-01",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 1,
+     "q": "Mr. Dang is the accountant ____ manages our payroll.",
+     "options": [
+      "whom",
+      "whose",
+      "which",
+      "who"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Chỉ người và làm chủ ngữ của \"manages\": dùng who.",
+      "en": "A person as subject of \"manages\": \"who\"."
+     },
+     "trap": "Whom làm tân ngữ nên không đứng ngay trước động từ."
+    },
+    {
+     "id": "d16-p5-02",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 2,
+     "q": "The client ____ you spoke with yesterday has signed the contract.",
+     "options": [
+      "whose",
+      "which",
+      "whom",
+      "what"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Chỉ người, là tân ngữ của \"spoke with\", sau chỗ trống có chủ ngữ \"you\": dùng whom.",
+      "en": "A person as object, followed by subject \"you\": \"whom\"."
+     },
+     "trap": "Whose cần danh từ theo sau, ở đây theo sau là you."
+    },
+    {
+     "id": "d16-p5-03",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 1,
+     "q": "She is the designer ____ portfolio impressed all the judges.",
+     "options": [
+      "whom",
+      "whose",
+      "who",
+      "which"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Sau chỗ trống là danh từ \"portfolio\" của designer: dùng whose.",
+      "en": "A noun follows and belongs to the designer: \"whose\"."
+     },
+     "trap": "Who không đi cùng danh từ phía sau."
+    },
+    {
+     "id": "d16-p5-04",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 3,
+     "q": "The report to ____ you referred is attached to this email.",
+     "options": [
+      "which",
+      "that",
+      "whom",
+      "what"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Giới từ \"to\" đứng trước đại từ, nên dùng which cho vật. \"That\" không đứng ngay sau giới từ.",
+      "en": "After a preposition use \"which\" for a thing, not \"that\"."
+     },
+     "trap": "\"That\" rất quen thuộc, nhưng không bao giờ đi ngay sau giới từ."
+    },
+    {
+     "id": "d16-p5-05",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 1,
+     "q": "The Sunfish Room, ____ seats two hundred guests, is available for events.",
+     "options": [
+      "who",
+      "whose",
+      "where",
+      "which"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Chỉ vật, làm chủ ngữ của \"seats\", có dấu phẩy: dùng which.",
+      "en": "A thing as subject after a comma: \"which\"."
+     },
+     "trap": "Where chỉ nơi chốn và cần mệnh đề đầy đủ phía sau."
+    },
+    {
+     "id": "d16-p5-06",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 2,
+     "q": "The warehouse ____ the goods are stored is being repaired.",
+     "options": [
+      "whom",
+      "whose",
+      "where",
+      "who"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Chỉ nơi chốn, sau chỗ trống là một mệnh đề đầy đủ (the goods are stored): dùng where.",
+      "en": "A place followed by a full clause takes \"where\"."
+     },
+     "trap": "Em dễ chọn which, nhưng which thì phía sau phải có \"in\" (in which)."
+    },
+    {
+     "id": "d16-p5-07",
+     "part": 5,
+     "skill": "p5.agreement",
+     "level": 2,
+     "q": "Applicants who ____ the requirements will be contacted by email.",
+     "options": [
+      "meets",
+      "meet",
+      "meeting",
+      "to meet"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Who thay cho \"applicants\" (số nhiều), nên động từ không thêm -s: meet.",
+      "en": "\"Who\" refers to plural \"applicants\", so the verb is \"meet\"."
+     },
+     "trap": "Meets sai vì who chỉ nhiều người."
+    },
+    {
+     "id": "d16-p5-08",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 2,
+     "q": "This is the best report ____ we have received this year.",
+     "options": [
+      "that",
+      "who",
+      "whose",
+      "what"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Sau so sánh nhất (the best), đại từ quan hệ thường dùng that.",
+      "en": "After a superlative, \"that\" is the natural pronoun."
+     },
+     "trap": "What không thể đứng sau một danh từ."
+    },
+    {
+     "id": "d16-p5-09",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 3,
+     "q": "Please read ____ is written on the notice before you sign.",
+     "options": [
+      "which",
+      "that",
+      "who",
+      "what"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"What\" = the thing that: không có danh từ đứng trước chỗ trống, nên dùng what.",
+      "en": "\"What\" has no antecedent and means \"the thing that\"."
+     },
+     "trap": "Which/that cần một danh từ đứng ngay trước."
+    },
+    {
+     "id": "d16-p5-10",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 2,
+     "q": "The airline delayed the flight, ____ upset many passengers.",
+     "options": [
+      "what",
+      "who",
+      "which",
+      "whose"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Which thay cho cả mệnh đề trước có dấu phẩy: việc hoãn chuyến bay làm hành khách khó chịu.",
+      "en": "\"Which\" can refer to a whole clause."
+     },
+     "trap": "What không dùng sau dấu phẩy."
+    }
+   ]
+  },
+  {
+   "id": "d16-p5-b",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d16-p5-11",
+     "part": 5,
+     "skill": "p5.participle",
+     "level": 1,
+     "q": "The ____ customers asked to speak to the manager.",
+     "options": [
+      "disappointing",
+      "disappointed",
+      "disappoint",
+      "disappointment"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Khách hàng cảm thấy thất vọng, nên dùng -ed: disappointed.",
+      "en": "Customers feel disappointed, so use -ed."
+     },
+     "trap": "Disappointing mô tả thứ gây thất vọng, không phải người cảm thấy."
+    },
+    {
+     "id": "d16-p5-12",
+     "part": 5,
+     "skill": "p5.participle",
+     "level": 1,
+     "q": "The training session was ____, so I took many notes.",
+     "options": [
+      "interesting",
+      "interested",
+      "interest",
+      "interests"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Buổi tập huấn gây hứng thú, dùng -ing: interesting.",
+      "en": "The session causes interest, so use -ing."
+     },
+     "trap": "Interested dùng cho người cảm thấy hứng thú."
+    },
+    {
+     "id": "d16-p5-13",
+     "part": 5,
+     "skill": "p5.participle",
+     "level": 1,
+     "q": "Please return the ____ form to the front desk.",
+     "options": [
+      "signing",
+      "sign",
+      "signs",
+      "signed"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Mẫu đơn được ký (bị động): signed form.",
+      "en": "The form is signed (passive meaning), so \"signed\"."
+     },
+     "trap": "Signing form nghe như mẫu đơn đang đi ký ai đó."
+    },
+    {
+     "id": "d16-p5-14",
+     "part": 5,
+     "skill": "p5.participle",
+     "level": 2,
+     "q": "The manager ____ the meeting announced a new schedule.",
+     "options": [
+      "led",
+      "lead",
+      "leading",
+      "leads"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Người quản lý đang chủ trì (chủ động), rút gọn who is leading thành leading.",
+      "en": "Active reduced clause: \"who is leading\"."
+     },
+     "trap": "Led là V-ed nên mang nghĩa bị động."
+    },
+    {
+     "id": "d16-p5-15",
+     "part": 5,
+     "skill": "p5.participle",
+     "level": 2,
+     "q": "All packages ____ after 6 P.M. will be delivered the next day.",
+     "options": [
+      "receiving",
+      "received",
+      "receive",
+      "to receive"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Kiện hàng được nhận (bị động), rút gọn that are received thành received.",
+      "en": "Passive reduced clause: \"that are received\"."
+     },
+     "trap": "Receiving nghĩa là kiện hàng đi nhận một thứ gì, sai nghĩa."
+    },
+    {
+     "id": "d16-p5-16",
+     "part": 5,
+     "skill": "p5.participle",
+     "level": 2,
+     "q": "The ____ news about the merger kept employees talking all day.",
+     "options": [
+      "surprising",
+      "surprised",
+      "surprise",
+      "surprisingly"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Tin tức gây bất ngờ, dùng -ing: surprising.",
+      "en": "The news causes surprise, so use -ing."
+     },
+     "trap": "Surprised dùng cho người cảm thấy bất ngờ."
+    },
+    {
+     "id": "d16-p5-17",
+     "part": 5,
+     "skill": "p5.participle",
+     "level": 2,
+     "q": "Visitors ____ the museum on Sundays may enter free of charge.",
+     "options": [
+      "entered",
+      "enter",
+      "entry",
+      "entering"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Du khách bước vào bảo tàng (chủ động), rút gọn who enter thành entering.",
+      "en": "Active reduced clause: \"who enter\"."
+     },
+     "trap": "Entered bị động: du khách không bị ai \"vào\"."
+    },
+    {
+     "id": "d16-p5-18",
+     "part": 5,
+     "skill": "p5.participle",
+     "level": 2,
+     "q": "The proposal, ____ by the board last week, will take effect in June.",
+     "options": [
+      "approving",
+      "approves",
+      "approved",
+      "to approve"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Đề xuất được hội đồng phê duyệt (bị động), có by: approved.",
+      "en": "The proposal is approved by the board: passive \"approved\"."
+     },
+     "trap": "Approving nghĩa là đề xuất đi phê duyệt người khác."
+    },
+    {
+     "id": "d16-p5-19",
+     "part": 5,
+     "skill": "p5.participle",
+     "level": 1,
+     "q": "Customers may exchange any ____ items within thirty days.",
+     "options": [
+      "damaging",
+      "damaged",
+      "damage",
+      "damages"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Hàng bị hư hại (bị động): damaged items.",
+      "en": "The items are damaged, so use -ed."
+     },
+     "trap": "\"Damaging\" mang nghĩa gây hại cho thứ khác."
+    },
+    {
+     "id": "d16-p5-20",
+     "part": 5,
+     "skill": "p5.participle",
+     "level": 2,
+     "q": "The staff, ____ by the heavy workload, requested extra help.",
+     "options": [
+      "overwhelmed",
+      "overwhelming",
+      "overwhelms",
+      "overwhelm"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Nhân viên cảm thấy quá tải (bị tác động bởi khối lượng việc): overwhelmed. Có \"by\" nên là bị động.",
+      "en": "The staff feel overwhelmed; \"by\" shows a passive meaning."
+     },
+     "trap": "Overwhelming mô tả khối lượng công việc, không mô tả nhân viên."
+    }
+   ]
+  }
+ ],
+ "theory": [
+  {
+   "id": "d16-th-1",
+   "title": {
+    "vi": "Mệnh đề quan hệ: chọn đại từ theo hai câu hỏi",
+    "en": "Relative pronouns"
+   },
+   "rule": {
+    "vi": "Hỏi 1: danh từ đứng trước là người hay vật? Hỏi 2: sau chỗ trống là danh từ, động từ hay chủ ngữ mới? Người + động từ: who. Người + chủ ngữ mới: whom. Có danh từ ngay sau: whose. Vật: which.",
+    "en": "Ask: person or thing? What follows the gap: noun, verb or new subject?"
+   },
+   "formula": "who + V | whom + S + V | whose + NOUN | which + V/S",
+   "examples": [
+    {
+     "en": "The manager who called is away.",
+     "vi": "Người quản lý vừa gọi đang đi vắng."
+    },
+    {
+     "en": "The client whom we met signed.",
+     "vi": "Khách hàng chúng tôi gặp đã ký."
+    },
+    {
+     "en": "The firm whose offer won is local.",
+     "vi": "Công ty có đề nghị thắng cuộc là công ty địa phương."
+    }
+   ],
+   "tip": "Em hay lẫn whom và whose. Nhìn chữ ngay sau chỗ trống: danh từ là whose, chủ ngữ (we, you, I) là whom. Xong, 2 giây!"
+  },
+  {
+   "id": "d16-th-2",
+   "title": {
+    "vi": "Tính từ -ing và -ed",
+    "en": "-ing vs -ed adjectives"
+   },
+   "rule": {
+    "vi": "-ing mô tả thứ gây ra cảm xúc (surprising news). -ed mô tả người cảm thấy (surprised customers). Tương tự, V-ing rút gọn mệnh đề chủ động, V-ed rút gọn mệnh đề bị động.",
+    "en": "-ing describes the cause; -ed describes the one who feels. Participles also reduce clauses: -ing active, -ed passive."
+   },
+   "formula": "thing/cause + -ing | person/feeling + -ed | N + V-ed = bị động | N + V-ing = chủ động",
+   "examples": [
+    {
+     "en": "The surprising results shocked us.",
+     "vi": "Kết quả bất ngờ làm chúng tôi sốc."
+    },
+    {
+     "en": "Surprised customers called the hotline.",
+     "vi": "Khách hàng bất ngờ đã gọi đường dây nóng."
+    },
+    {
+     "en": "Items damaged in transit will be replaced.",
+     "vi": "Hàng bị hư trong vận chuyển sẽ được đổi."
+    }
+   ],
+   "tip": "Hỏi \"ai làm gì ai\": Tin tức làm khách ngạc nhiên, nên tin = -ing, khách = -ed. Còn rút gọn: danh từ tự làm thì -ing, bị tác động thì -ed."
+  }
+ ]
+}

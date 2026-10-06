@@ -1,0 +1,229 @@
+{
+ "listening": [
+  {
+   "id": "d12-p2-s01",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "What time should we start the announcement rehearsal?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "It's a good announcement."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "At the community center."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "As soon as everyone arrives."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d12-p2-01",
+     "part": 2,
+     "skill": "p2.wh-when",
+     "level": 1,
+     "options": [
+      "It's a good announcement.",
+      "At the community center.",
+      "As soon as everyone arrives."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "What time hỏi thời điểm; 'As soon as everyone arrives' trả lời.",
+      "en": "'What time' asks for timing, and 'As soon as everyone arrives' gives it."
+     },
+     "trap": "(A) lặp announcement nhưng là nhận xét."
+    }
+   ]
+  },
+  {
+   "id": "d12-p2-s02",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Where's the nearest gas station?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "It's the near station."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "There's one just past the bridge."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "I gassed up yesterday."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d12-p2-02",
+     "part": 2,
+     "skill": "p2.wh-where",
+     "level": 1,
+     "options": [
+      "It's the near station.",
+      "There's one just past the bridge.",
+      "I gassed up yesterday."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Where hỏi chỗ; 'just past the bridge' chỉ vị trí.",
+      "en": "'Where' asks for a place, and 'just past the bridge' gives one."
+     },
+     "trap": "(C) lặp gas nhưng nói việc đã làm."
+    }
+   ]
+  },
+  {
+   "id": "d12-p2-s03",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Who's making the announcement about the schedule change?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "On the loudspeaker."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "The operations manager, I think."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Change is difficult."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d12-p2-03",
+     "part": 2,
+     "skill": "p2.wh-who",
+     "level": 2,
+     "options": [
+      "On the loudspeaker.",
+      "The operations manager, I think.",
+      "Change is difficult."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Who hỏi người; 'The operations manager' là một người.",
+      "en": "'Who' asks for a person, and the operations manager is one."
+     },
+     "trap": "(A) trả lời How."
+    }
+   ]
+  },
+  {
+   "id": "d12-p2-s04",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "The delivery trucks are blocking the entrance again."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Trucks are on sale."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "I'll call the driver right now."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Yes, the entrance is wide."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d12-p2-04",
+     "part": 2,
+     "skill": "p2.statement",
+     "level": 2,
+     "options": [
+      "Trucks are on sale.",
+      "I'll call the driver right now.",
+      "Yes, the entrance is wide."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Báo vấn đề; 'I'll call the driver' là hành động xử lý.",
+      "en": "The speaker reports a problem, and calling the driver addresses it."
+     },
+     "trap": "(A) lặp trucks nhưng là chuyện bán hàng."
+    }
+   ]
+  },
+  {
+   "id": "d12-p2-s05",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "How about holding the quiz night on Thursday?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Thursdays work well for me."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "A night shift."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Quite a few questions."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d12-p2-05",
+     "part": 2,
+     "skill": "p2.suggestion",
+     "level": 2,
+     "options": [
+      "Thursdays work well for me.",
+      "A night shift.",
+      "Quite a few questions."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "'How about' là gợi ý; 'Thursdays work well' đồng ý.",
+      "en": "'How about' makes a suggestion, and 'Thursdays work well for me' agrees."
+     },
+     "trap": "(B) lặp night nhưng nói về ca làm."
+    }
+   ]
+  }
+ ]
+}

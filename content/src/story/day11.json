@@ -1,0 +1,187 @@
+{
+ "day": 11,
+ "title": {
+  "vi": "Tiệc ra mắt",
+  "en": "The Launch Party"
+ },
+ "story": [
+  {
+   "speaker": "NARRATOR",
+   "en": "A small boat brings six guests in dark suits to the Aurelia. The Captain welcomes them with a big smile.",
+   "vi": "Một chiếc thuyền nhỏ đưa sáu vị khách mặc vest tối đến tàu Aurelia. Thuyền trưởng đón họ với nụ cười lớn.",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "BAO",
+   "en": "Ladies and gentlemen, welcome to our launch event. Please enjoy the food. Tomorrow you will see the reef.",
+   "vi": "Quý vị, chào mừng đến sự kiện ra mắt. Xin dùng bữa. Ngày mai quý vị sẽ thấy rạn san hô.",
+   "voice": "auM"
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "Huy carries a tray. He hears three voices behind a curtain.",
+   "vi": "Huy bưng một khay. Huy nghe ba giọng nói sau tấm rèm.",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "Guest: \"How many specimens can we get?\" Bảo: \"Thousands.\" Guest 2: \"And the price?\" Bảo: \"Ask me after the harvest.\"",
+   "vi": "Khách: \"Chúng ta lấy được bao nhiêu mẫu?\" Bảo: \"Hàng nghìn.\" Khách 2: \"Giá thì sao?\" Bảo: \"Hỏi tôi sau vụ thu hoạch.\"",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "BESUA",
+   "en": "Harvest? Sứa đâu phải rau cải. Em hong thích chữ đó. :33",
+   "vi": "Thu hoạch? Sứa đâu phải rau cải. Em không thích chữ đó. :33"
+  }
+ ],
+ "letter": {
+  "vi": "Bé iu, hôm nay Part 6 nè. Đọc cả đoạn, vì đáp án nằm ở câu trước hoặc câu sau. Từ THE thường dẫn về cái đã nhắc ở câu trước, như một sợi dây nối hai câu. Hihii shương shương.",
+  "en": "My love, Part 6 today. Read the whole passage, because the answer is in the sentence before or after. The word THE often points back to something already mentioned, like a thread between two sentences. Hihii shương shương."
+ },
+ "beSua": [
+  "Actually không có nghĩa là \"hiện tại\" nha! Actually = thực ra. Còn \"hiện tại\" là currently. Hihi, false friend! :33",
+  "Eventually = cuối cùng thì, không phải \"có thể\". Còn \"possibly\" mới là có thể. Dọ!",
+  "Attend không đi với to: \"attend the meeting\". Còn \"invite someone TO the party\" thì có to. Hihi!"
+ ],
+ "vocab": [
+  {
+   "word": "exhibit",
+   "pos": "v",
+   "ipa": "/ɪɡˈzɪbɪt/",
+   "vi": "trưng bày",
+   "example": {
+    "en": "The museum will exhibit sea animals.",
+    "vi": "Bảo tàng sẽ trưng bày các loài vật biển."
+   },
+   "family": "exhibit (n, v) / exhibition (n)",
+   "collocation": "exhibit at a fair"
+  },
+  {
+   "word": "venue",
+   "pos": "n",
+   "ipa": "/ˈvenjuː/",
+   "vi": "địa điểm tổ chức",
+   "example": {
+    "en": "The venue holds up to two hundred guests.",
+    "vi": "Địa điểm chứa tối đa hai trăm khách."
+   },
+   "collocation": "event venue"
+  },
+  {
+   "word": "registration",
+   "pos": "n",
+   "ipa": "/ˌredʒɪˈstreɪʃn/",
+   "vi": "đăng ký",
+   "example": {
+    "en": "Registration closes on October 20.",
+    "vi": "Đăng ký đóng vào ngày 20 tháng Mười."
+   },
+   "family": "register (v) / registration (n)",
+   "collocation": "online registration"
+  },
+  {
+   "word": "banquet",
+   "pos": "n",
+   "ipa": "/ˈbæŋkwɪt/",
+   "vi": "tiệc lớn",
+   "example": {
+    "en": "The banquet is held in the main hall.",
+    "vi": "Bữa tiệc lớn tổ chức ở sảnh chính."
+   },
+   "collocation": "annual banquet"
+  },
+  {
+   "word": "keynote",
+   "pos": "n",
+   "ipa": "/ˈkiːnəʊt/",
+   "vi": "bài phát biểu chính",
+   "example": {
+    "en": "The keynote speech begins at nine.",
+    "vi": "Bài phát biểu chính bắt đầu lúc chín giờ."
+   },
+   "collocation": "keynote speaker"
+  },
+  {
+   "word": "sponsor",
+   "pos": "n",
+   "ipa": "/ˈspɒnsə/",
+   "vi": "nhà tài trợ",
+   "example": {
+    "en": "A local bank is the main sponsor.",
+    "vi": "Một ngân hàng địa phương là nhà tài trợ chính."
+   },
+   "family": "sponsor (n, v) / sponsorship (n)",
+   "collocation": "corporate sponsor"
+  },
+  {
+   "word": "ceremony",
+   "pos": "n",
+   "ipa": "/ˈserəməni/",
+   "vi": "buổi lễ",
+   "example": {
+    "en": "The award ceremony starts at six.",
+    "vi": "Lễ trao giải bắt đầu lúc sáu giờ."
+   },
+   "collocation": "opening ceremony"
+  },
+  {
+   "word": "invitation",
+   "pos": "n",
+   "ipa": "/ˌɪnvɪˈteɪʃn/",
+   "vi": "lời mời, thiệp mời",
+   "example": {
+    "en": "Please reply to the invitation by Friday.",
+    "vi": "Vui lòng trả lời thiệp mời trước thứ Sáu."
+   },
+   "family": "invite (v) / invitation (n)",
+   "collocation": "send an invitation"
+  },
+  {
+   "word": "organize",
+   "pos": "v",
+   "ipa": "/ˈɔːɡənaɪz/",
+   "vi": "tổ chức",
+   "example": {
+    "en": "Ms. Park organized the charity event.",
+    "vi": "Cô Park tổ chức sự kiện từ thiện."
+   },
+   "family": "organize (v) / organization (n) / organizer (n)",
+   "collocation": "organize a conference"
+  },
+  {
+   "word": "host",
+   "pos": "v",
+   "ipa": "/həʊst/",
+   "vi": "đăng cai, chủ trì",
+   "example": {
+    "en": "Our company will host the trade fair.",
+    "vi": "Công ty chúng tôi sẽ đăng cai hội chợ thương mại."
+   },
+   "family": "host (n, v)",
+   "collocation": "host an event"
+  },
+  {
+   "word": "exhibition",
+   "pos": "n",
+   "ipa": "/ˌeksɪˈbɪʃn/",
+   "vi": "triển lãm",
+   "example": {
+    "en": "The photo exhibition lasts two weeks.",
+    "vi": "Triển lãm ảnh kéo dài hai tuần."
+   },
+   "collocation": "art exhibition"
+  },
+  {
+   "word": "theme",
+   "pos": "n",
+   "ipa": "/θiːm/",
+   "vi": "chủ đề",
+   "example": {
+    "en": "The theme of this year's fair is the ocean.",
+    "vi": "Chủ đề của hội chợ năm nay là đại dương."
+   },
+   "collocation": "event theme"
+  }
+ ]
+}

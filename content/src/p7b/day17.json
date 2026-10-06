@@ -1,0 +1,188 @@
+{
+ "reading": [
+  {
+   "id": "d17-p7-a",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "ad",
+     "title": "Riverside Apartments",
+     "text": "RIVERSIDE APARTMENTS - NOW LEASING\n\nOne-bedroom units from $1,350 per month. Two-bedroom units from $1,800 per month.\nRent includes water, trash collection, and high-speed internet.\nParking: one space included with two-bedroom units; $75 per month for one-bedroom units.\nPets: cats and dogs under 15 kg are welcome with a $300 pet deposit.\nLease terms: 12 months. Six-month leases are available at a monthly rate 10 percent higher.\nMove in before April 30 and receive half off your first month's rent.\nTours: Monday to Saturday, 10:00 A.M. to 5:00 P.M."
+    },
+    {
+     "kind": "email",
+     "title": "Leasing inquiry",
+     "text": "To: Riverside Apartments Leasing Office\nFrom: Anh Vu\nDate: April 9\nSubject: One-bedroom inquiry\n\nHello,\n\nI am interested in a one-bedroom unit. My current lease ends on April 25, so I would need to move in around then. I would like a six-month lease because my company may transfer me next year. I have a small dog that weighs 9 kg. Could I tour the building this Saturday?\n\nThank you,\nAnh Vu"
+    },
+    {
+     "kind": "email",
+     "title": "Re: Leasing inquiry",
+     "text": "To: Anh Vu\nFrom: Carla Mendes, Leasing Agent\nDate: April 10\nSubject: Re: One-bedroom inquiry\n\nDear Mr. Vu,\n\nThank you for your interest. We have tours available on Saturday at 11:00 A.M. and 2:00 P.M. Your dog is welcome. Please note that the six-month term carries the higher rate listed in our advertisement, and your move-in date qualifies you for our current offer.\n\nBest regards,\nCarla Mendes"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p7-a1",
+     "part": 7,
+     "skill": "p7.main-idea",
+     "level": 1,
+     "q": "Why did Mr. Vu write the e-mail?",
+     "options": [
+      "To cancel a lease",
+      "To complain about his landlord",
+      "To inquire about renting an apartment",
+      "To report a repair problem"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"I am interested in a one-bedroom unit\".",
+      "en": "He says he is interested in a one-bedroom unit."
+     }
+    },
+    {
+     "id": "d17-p7-a2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "What is included in the rent?",
+     "options": [
+      "Parking and cable television",
+      "A pet deposit",
+      "Electricity and heating",
+      "Water, trash collection, and internet"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"Rent includes water, trash collection, and high-speed internet.\"",
+      "en": "The ad lists water, trash collection, and high-speed internet."
+     },
+     "trap": "Chỗ đậu xe một phòng ngủ tính thêm $75."
+    },
+    {
+     "id": "d17-p7-a3",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 3,
+     "q": "How much monthly rent will Mr. Vu most likely pay?",
+     "options": [
+      "$1,350",
+      "$1,485",
+      "$1,800",
+      "$1,980"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Thuê 6 tháng cao hơn 10%: $1,350 x 1.10 = $1,485.",
+      "en": "A six-month lease is 10 percent higher than $1,350, which is $1,485."
+     },
+     "trap": "Đừng quên mức tăng 10% cho hợp đồng 6 tháng."
+    },
+    {
+     "id": "d17-p7-a4",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 2,
+     "q": "What will Mr. Vu pay in addition to the rent when he moves in?",
+     "options": [
+      "A $300 pet deposit",
+      "A $75 parking fee",
+      "A tour fee",
+      "A $1,350 deposit"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Chó 9 kg dưới 15 kg được nhận với tiền cọc $300.",
+      "en": "His 9 kg dog is under 15 kg and is allowed with a $300 deposit."
+     },
+     "trap": "Phí đậu xe $75 chỉ tính nếu anh thuê chỗ, thư không nói anh đã yêu cầu."
+    },
+    {
+     "id": "d17-p7-a5",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 2,
+     "q": "Why does Mr. Vu qualify for the current offer?",
+     "options": [
+      "He has a small pet",
+      "He will move in before April 30",
+      "He wants a six-month lease",
+      "He will tour on Saturday"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Ưu đãi nửa tháng tiền nhà dành cho người dọn vào trước 30/4; anh dọn khoảng 25/4.",
+      "en": "The offer is for move-ins before April 30, and he plans to move around April 25."
+     }
+    }
+   ]
+  },
+  {
+   "id": "d17-p7-b",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "form",
+     "title": "Maintenance request",
+     "text": "RIVERSIDE APARTMENTS - MAINTENANCE REQUEST FORM\n\nTenant: Anh Vu          Unit: 4C          Date submitted: May 6\nProblem location: Kitchen\nDescription: The faucet drips constantly, and the cabinet under the sink is damp. I think a pipe may be leaking.\nUrgency:  [ ] Emergency   [X] Within 48 hours   [ ] Routine\nPermission to enter if not home:  [X] Yes   [ ] No\nPreferred time: Weekdays after 5:00 P.M., if possible\n\nFOR OFFICE USE ONLY\nReceived by: T. Morales, May 6, 4:10 P.M.\nAssigned to: Delta Pipe (plumbing contractor)\nScheduled: May 8, between 10:00 A.M. and 12:00 P.M.\nNote: Tenant may not be home; entry permitted."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d17-p7-b1",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "What problem does Mr. Vu report?",
+     "options": [
+      "A broken window",
+      "A noisy neighbor",
+      "A leaking kitchen faucet or pipe",
+      "A lost key"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"The faucet drips constantly ... a pipe may be leaking.\"",
+      "en": "He reports a dripping faucet and a possibly leaking pipe."
+     }
+    },
+    {
+     "id": "d17-p7-b2",
+     "part": 7,
+     "skill": "p7.inference",
+     "level": 2,
+     "q": "What is suggested about the scheduled repair?",
+     "options": [
+      "It requires Mr. Vu to be home",
+      "It will be done by T. Morales",
+      "It is considered an emergency",
+      "It is outside Mr. Vu's preferred time"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Anh muốn sau 5 giờ chiều nhưng lịch hẹn là 10 giờ đến 12 giờ trưa.",
+      "en": "He prefers after 5:00 P.M., but the repair is set for 10:00 A.M. to 12:00 P.M."
+     },
+     "trap": "Ông Morales chỉ nhận đơn, nhà thầu Delta Pipe mới sửa."
+    },
+    {
+     "id": "d17-p7-b3",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "Who will repair the problem?",
+     "options": [
+      "A plumbing contractor",
+      "T. Morales",
+      "Mr. Vu",
+      "The building manager"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Assigned to: Delta Pipe (plumbing contractor)\".",
+      "en": "The form shows it is assigned to a plumbing contractor."
+     }
+    }
+   ]
+  }
+ ]
+}

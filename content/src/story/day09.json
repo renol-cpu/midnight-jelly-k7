@@ -1,0 +1,189 @@
+{
+ "day": 9,
+ "title": {
+  "vi": "Xưởng dưới boong",
+  "en": "The Workshop"
+ },
+ "story": [
+  {
+   "speaker": "NARRATOR",
+   "en": "Huy follows a humming sound to a workshop under the deck. Metal tables, glass tanks, bright lights.",
+   "vi": "Huy lần theo tiếng ù đến một xưởng dưới boong. Bàn kim loại, bể kính, đèn sáng.",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "Two crew members are talking beside a machine. Huy hides behind a door.",
+   "vi": "Hai thuyền viên đang nói chuyện cạnh một cái máy. Huy nấp sau cánh cửa.",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "Tâm: \"The production line is ready. We start the first batch at dawn.\" Dũng: \"The Captain wants the tanks filled by Friday.\"",
+   "vi": "Tâm: \"Dây chuyền sản xuất sẵn sàng. Mẻ đầu bắt đầu lúc bình minh.\" Dũng: \"Thuyền trưởng muốn các bể đầy trước thứ Sáu.\"",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "HUY",
+   "en": "Filled with what? These tanks are too big for a research ship.",
+   "vi": "Đầy cái gì? Mấy bể này quá lớn cho một tàu nghiên cứu.",
+   "voice": "caM"
+  },
+  {
+   "speaker": "BESUA",
+   "en": "Huy ơi, em thấy chữ nhỏ trên tường: A.C. Hihi, nó giống con dấu hôm trước! :33",
+   "vi": "Huy ơi, em thấy chữ nhỏ trên tường: A.C. Hihi, giống con dấu hôm trước! :33"
+  }
+ ],
+ "letter": {
+  "vi": "Bé iu, giới từ thời gian nè: at 9 o'clock, on Monday, in May. EVEN khi bé mệt, học 10 phút cũng được, anh vẫn thấy bé giỏi quó. Ngủ sớm nha.",
+  "en": "My love, time prepositions today: at 9 o'clock, on Monday, in May. EVEN when you are tired, 10 minutes is fine, and I still think you are great. Sleep early."
+ },
+ "beSua": [
+  "Production là việc sản xuất, productivity là năng suất. Hai chữ này hay được hỏi lắm nha. :33",
+  "Split shift (ca gãy) là một ca làm chia thành hai phần trong ngày. \"Broken shift\" nghe lạ đó, không dùng nha hihi.",
+  "Machine là một cái máy, machinery là cả hệ thống máy móc (không đếm được). Dọ!"
+ ],
+ "vocab": [
+  {
+   "word": "assemble",
+   "pos": "v",
+   "ipa": "/əˈsembl/",
+   "vi": "lắp ráp",
+   "example": {
+    "en": "Workers assemble the parts in two hours.",
+    "vi": "Công nhân lắp ráp các bộ phận trong hai giờ."
+   },
+   "family": "assemble (v) / assembly (n)",
+   "collocation": "assembly line"
+  },
+  {
+   "word": "equipment",
+   "pos": "n",
+   "ipa": "/ɪˈkwɪpmənt/",
+   "vi": "thiết bị",
+   "example": {
+    "en": "The factory bought new equipment.",
+    "vi": "Nhà máy mua thiết bị mới."
+   },
+   "family": "equip (v) / equipment (n)",
+   "collocation": "safety equipment"
+  },
+  {
+   "word": "inspect",
+   "pos": "v",
+   "ipa": "/ɪnˈspekt/",
+   "vi": "kiểm tra",
+   "example": {
+    "en": "An officer inspects each machine monthly.",
+    "vi": "Một nhân viên kiểm tra từng máy hằng tháng."
+   },
+   "family": "inspect (v) / inspection (n) / inspector (n)",
+   "collocation": "inspect a product"
+  },
+  {
+   "word": "production",
+   "pos": "n",
+   "ipa": "/prəˈdʌkʃn/",
+   "vi": "sản xuất",
+   "example": {
+    "en": "Production increased by ten percent.",
+    "vi": "Sản lượng tăng mười phần trăm."
+   },
+   "family": "produce (v) / product (n) / production (n)",
+   "collocation": "production line"
+  },
+  {
+   "word": "quality",
+   "pos": "n",
+   "ipa": "/ˈkwɒləti/",
+   "vi": "chất lượng",
+   "example": {
+    "en": "We never lower the quality of our goods.",
+    "vi": "Chúng tôi không bao giờ hạ chất lượng hàng."
+   },
+   "collocation": "quality control"
+  },
+  {
+   "word": "facility",
+   "pos": "n",
+   "ipa": "/fəˈsɪləti/",
+   "vi": "cơ sở, tiện nghi",
+   "example": {
+    "en": "The new facility opens in June.",
+    "vi": "Cơ sở mới mở vào tháng Sáu."
+   },
+   "collocation": "manufacturing facility"
+  },
+  {
+   "word": "defective",
+   "pos": "adj",
+   "ipa": "/dɪˈfektɪv/",
+   "vi": "bị lỗi, có khuyết điểm",
+   "example": {
+    "en": "Return any defective items to the store.",
+    "vi": "Hãy trả các món bị lỗi về cửa hàng."
+   },
+   "family": "defect (n) / defective (adj)",
+   "collocation": "defective product"
+  },
+  {
+   "word": "machinery",
+   "pos": "n",
+   "ipa": "/məˈʃiːnəri/",
+   "vi": "máy móc",
+   "example": {
+    "en": "The machinery is checked every Friday.",
+    "vi": "Máy móc được kiểm tra mỗi thứ Sáu."
+   },
+   "collocation": "heavy machinery"
+  },
+  {
+   "word": "output",
+   "pos": "n",
+   "ipa": "/ˈaʊtpʊt/",
+   "vi": "sản lượng",
+   "example": {
+    "en": "Our output doubled after the upgrade.",
+    "vi": "Sản lượng của chúng tôi tăng gấp đôi sau nâng cấp."
+   },
+   "collocation": "daily output"
+  },
+  {
+   "word": "safety",
+   "pos": "n",
+   "ipa": "/ˈseɪfti/",
+   "vi": "an toàn",
+   "example": {
+    "en": "Safety rules must be followed at all times.",
+    "vi": "Phải tuân thủ quy tắc an toàn mọi lúc."
+   },
+   "family": "safe (adj) / safety (n)",
+   "collocation": "safety regulations"
+  },
+  {
+   "word": "operate",
+   "pos": "v",
+   "ipa": "/ˈɒpəreɪt/",
+   "vi": "vận hành",
+   "example": {
+    "en": "Only trained staff may operate the press.",
+    "vi": "Chỉ nhân viên được đào tạo mới được vận hành máy ép."
+   },
+   "family": "operate (v) / operation (n) / operator (n)",
+   "collocation": "operate machinery"
+  },
+  {
+   "word": "maintenance",
+   "pos": "n",
+   "ipa": "/ˈmeɪntənəns/",
+   "vi": "bảo trì",
+   "example": {
+    "en": "Maintenance takes place every Sunday night.",
+    "vi": "Bảo trì diễn ra mỗi tối Chủ nhật."
+   },
+   "family": "maintain (v) / maintenance (n)",
+   "collocation": "routine maintenance"
+  }
+ ]
+}

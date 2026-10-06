@@ -1,0 +1,759 @@
+{
+ "listening": [
+  {
+   "id": "d21-p4-a",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Are you tired of long commutes and noisy offices? Come and see Oakwood Workspace, the city's newest shared office center. We offer private desks, meeting rooms, and fast Internet, all for one low monthly price. Our members also enjoy free coffee and a quiet reading lounge on the top floor. This month only, new customers who sign a six-month agreement will receive their first month free. Parking is available for a small additional fee, and we are only two blocks from the central train station. To book a free tour, visit our Web site and click on the red button at the top of the page. Spaces are limited, so don't wait. Oakwood Workspace, where good work happens."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p4-a1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "What is being advertised?",
+     "options": [
+      "A shared office center",
+      "A train service",
+      "A coffee shop",
+      "A moving company"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Quảng cáo trung tâm văn phòng dùng chung Oakwood Workspace.",
+      "en": "The ad promotes a shared office center."
+     },
+     "trap": "Coffee chỉ là quyền lợi đi kèm."
+    },
+    {
+     "id": "d21-p4-a2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "How can a new customer get a free month?",
+     "options": [
+      "By signing a six-month agreement",
+      "By visiting on a weekend",
+      "By inviting a friend",
+      "By paying for parking"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Ký hợp đồng sáu tháng thì được miễn tháng đầu.",
+      "en": "A six-month agreement earns the first month free."
+     },
+     "trap": "Parking là phí thêm, không liên quan ưu đãi."
+    },
+    {
+     "id": "d21-p4-a3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 1,
+     "q": "What are listeners encouraged to do?",
+     "options": [
+      "Call a manager",
+      "Book a tour online",
+      "Download a map",
+      "Attend a class"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Đặt tham quan miễn phí trên trang web.",
+      "en": "They are encouraged to book a free tour on the Web site."
+     },
+     "trap": "Call a manager không có trong bài."
+    }
+   ]
+  },
+  {
+   "id": "d21-p4-b",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Good morning, team. I just wanted to update you on the product launch. The prototype of our new water bottle passed all safety tests last week, which is excellent news. The production team is now ready to start manufacturing, but there is one problem. The supplier of the lids has informed us that the shipment will arrive about ten days later than planned. As a result, we will need to postpone the launch date from the fifth to the fifteenth of next month. I know this is disappointing, since many of you worked hard to meet the original deadline. However, the delay gives our marketing team extra time to finish the video advertisement. Please check your e-mail this afternoon for a revised schedule. Let me know if you have any concerns."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p4-b1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 2,
+     "q": "What is the main purpose of the talk?",
+     "options": [
+      "To report a delay",
+      "To introduce a new employee",
+      "To announce a promotion",
+      "To describe safety rules"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Người nói báo ngày ra mắt sản phẩm bị hoãn.",
+      "en": "The speaker reports that the launch will be postponed."
+     },
+     "trap": "Safety tests chỉ là tin tốt kèm theo."
+    },
+    {
+     "id": "d21-p4-b2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "What caused the delay?",
+     "options": [
+      "A failed test",
+      "A late shipment of lids",
+      "A lack of workers",
+      "A change in design"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Nhà cung cấp nắp báo hàng sẽ đến trễ khoảng 10 ngày.",
+      "en": "The lid supplier's shipment will be late."
+     },
+     "trap": "Failed test sai vì bản mẫu đã đạt mọi bài kiểm tra."
+    },
+    {
+     "id": "d21-p4-b3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 1,
+     "q": "What will employees receive this afternoon?",
+     "options": [
+      "A new schedule",
+      "A sample product",
+      "A shipping label",
+      "A survey"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Họ sẽ nhận lịch trình sửa đổi qua e-mail chiều nay.",
+      "en": "A revised schedule will be e-mailed."
+     },
+     "trap": "Sample product không được nhắc."
+    }
+   ]
+  },
+  {
+   "id": "d21-p4-c",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Good evening, and thank you for coming to the Riverton Public Library's annual book sale. Before you start browsing, I have a few reminders. Hardcover books are two dollars and paperbacks are one dollar. Children's books are fifty cents each. If you buy more than ten books, you will receive a cloth bag at no cost. All proceeds will go toward the library's new reading room for children, which we hope to open in the spring. We are also still looking for volunteers to help shelve books. If you are interested, please fill out a form at the front desk before you leave tonight. Finally, the sale will continue tomorrow from nine to five. Happy reading, everyone."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p4-c1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "What is the talk about?",
+     "options": [
+      "A book sale",
+      "A reading class",
+      "A library closing",
+      "A new job"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Đây là hội chợ bán sách hằng năm của thư viện.",
+      "en": "The talk is about an annual book sale."
+     },
+     "trap": "Reading class sai: không có lớp học nào."
+    },
+    {
+     "id": "d21-p4-c2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "What will the money from the sale be used for?",
+     "options": [
+      "A children's reading room",
+      "New computers",
+      "Staff salaries",
+      "A parking lot"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Tiền thu được dùng cho phòng đọc dành cho trẻ em.",
+      "en": "Proceeds will fund a new reading room for children."
+     },
+     "trap": "Staff salaries không được nhắc."
+    },
+    {
+     "id": "d21-p4-c3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 2,
+     "q": "What can interested volunteers do tonight?",
+     "options": [
+      "Fill out a form",
+      "Buy a bag",
+      "Attend a meeting",
+      "Call a manager"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Người muốn làm tình nguyện điền mẫu tại quầy trước khi về.",
+      "en": "Volunteers should fill out a form at the front desk."
+     },
+     "trap": "Cloth bag là quà cho người mua trên mười cuốn."
+    }
+   ]
+  },
+  {
+   "id": "d21-p4-d",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Hello, passengers. This is your captain speaking. We have now reached our cruising altitude and expect to arrive in Chicago twenty minutes ahead of schedule thanks to favorable winds. The weather in Chicago is clear and sunny with a temperature of twenty-four degrees Celsius. In a few minutes, our flight attendants will begin serving beverages and a light snack. Please note that because we expect some turbulence over the mountains, you may be asked to return to your seats from time to time. For your comfort, we recommend that you keep your seat belt fastened whenever you are seated. Entertainment screens are available at every seat, and headphones can be purchased from any flight attendant. Thank you for flying with us."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p4-d1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Who is the speaker?",
+     "options": [
+      "A pilot",
+      "A flight attendant",
+      "A ground crew member",
+      "A ticket agent"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Người nói tự giới thiệu là cơ trưởng.",
+      "en": "The speaker says \"This is your captain speaking.\""
+     },
+     "trap": "Flight attendant xuất hiện trong bài nhưng không phải người nói."
+    },
+    {
+     "id": "d21-p4-d2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "Why will the flight arrive early?",
+     "options": [
+      "Winds are helping.",
+      "The route is shorter.",
+      "Fewer passengers boarded.",
+      "The plane is faster."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Nhờ gió thuận lợi nên đến sớm 20 phút.",
+      "en": "Favorable winds help the plane arrive early."
+     },
+     "trap": "Shorter route không được nhắc."
+    },
+    {
+     "id": "d21-p4-d3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 3,
+     "q": "What are passengers advised to do?",
+     "options": [
+      "Keep seat belts fastened",
+      "Buy tickets",
+      "Change seats",
+      "Turn off screens"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Nên cài dây an toàn bất cứ khi nào ngồi, do có nhiễu động.",
+      "en": "Passengers should keep seat belts fastened while seated."
+     },
+     "trap": "Headphones là đồ bán thêm, không phải lời khuyên an toàn."
+    }
+   ]
+  },
+  {
+   "id": "d21-p4-e",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Hello, Ms. Alvarez. This is Tom Becker from Quick Fix Electronics. I am calling about the laptop you brought in last Monday. Our technician has finished checking it, and the good news is that the hard drive can be saved. However, the battery needs to be replaced, which will cost eighty-five dollars. The total repair cost, including labor, comes to one hundred forty dollars. If you would like us to go ahead, please call us back before Friday. Otherwise, you may pick up the laptop as it is, and we will charge only a small inspection fee of fifteen dollars. Our store is open from ten to six on weekdays. Please bring your claim ticket when you come. Thank you."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p4-e1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Why is the speaker calling?",
+     "options": [
+      "To provide a repair estimate",
+      "To sell a laptop",
+      "To cancel an order",
+      "To confirm a delivery"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Người gọi báo kết quả kiểm tra và chi phí sửa laptop.",
+      "en": "He explains the laptop check and the cost."
+     },
+     "trap": "Sell a laptop sai vì laptop là của khách."
+    },
+    {
+     "id": "d21-p4-e2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "How much is the total repair cost?",
+     "options": [
+      "$15",
+      "$85",
+      "$140",
+      "$225"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Tổng chi phí sửa gồm cả công là 140 đô.",
+      "en": "The total including labor is $140."
+     },
+     "trap": "$85 chỉ là tiền pin, không phải tổng."
+    },
+    {
+     "id": "d21-p4-e3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 2,
+     "q": "What should the listener bring to the store?",
+     "options": [
+      "A claim ticket",
+      "A receipt",
+      "A battery",
+      "Photo identification"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Khi đến lấy phải mang phiếu nhận hàng.",
+      "en": "The listener must bring the claim ticket."
+     },
+     "trap": "Receipt không được nhắc."
+    }
+   ]
+  },
+  {
+   "id": "d21-p4-f",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Welcome, everyone, to the final session of this year's Hospitality Conference. I'm happy to introduce our closing speaker, Dr. Helen Moore, who has studied customer service in hotels for more than twenty years. Dr. Moore's latest research focuses on how small acts of kindness, such as remembering a guest's name, can lead to better online reviews. She will be signing copies of her new book in the main lobby right after the talk. Before she begins, I want to remind you to fill out the evaluation form in your conference packet, and leave it in the box at the exit. Your feedback will help us plan next year's event, which will be held in Toronto. Please join me in welcoming Dr. Moore."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p4-f1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Who is Dr. Moore?",
+     "options": [
+      "A researcher",
+      "A hotel owner",
+      "A conference organizer",
+      "A travel agent"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Bà đã nghiên cứu dịch vụ khách hàng trong khách sạn hơn hai mươi năm.",
+      "en": "She has studied customer service for twenty years."
+     },
+     "trap": "Hotel owner là bẫy do chủ đề khách sạn."
+    },
+    {
+     "id": "d21-p4-f2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "What is Dr. Moore's research about?",
+     "options": [
+      "Small acts of kindness",
+      "Hotel prices",
+      "Online booking",
+      "Staff training costs"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Nghiên cứu về những hành động tử tế nhỏ như nhớ tên khách.",
+      "en": "Her research focuses on small acts of kindness."
+     },
+     "trap": "Online booking sai vì chỉ nhắc online reviews."
+    },
+    {
+     "id": "d21-p4-f3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 2,
+     "q": "What are attendees asked to do?",
+     "options": [
+      "Complete an evaluation form",
+      "Register for next year",
+      "Buy a book",
+      "Move to the lobby"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Điền phiếu đánh giá trong tài liệu hội nghị rồi bỏ vào hộp.",
+      "en": "Attendees should fill out the evaluation form."
+     },
+     "trap": "Buy a book chỉ là dịp ký tặng, không phải yêu cầu."
+    }
+   ]
+  },
+  {
+   "id": "d21-p4-g",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Welcome to the Horizon Fitness Center. I'm Ben, and I'll give you a short orientation. On the schedule you received, you can see the classes we offer each day. Because the yoga class is very popular, it takes place twice a week, and you must reserve a place at the front desk the day before. The cycling class, held on Thursdays, is for more advanced members, so beginners should try the stretching class on Wednesday instead. All classes are free for members, but personal training sessions cost extra. Lockers are available in the changing room, but please bring your own padlock. If you lose your key card, report it immediately to a staff member. Now, please follow me to the main gym."
+    }
+   ],
+   "graphic": {
+    "caption": "Horizon Fitness Center: Weekly Classes",
+    "rows": [
+     [
+      "Day",
+      "Class",
+      "Time"
+     ],
+     [
+      "Monday",
+      "Yoga",
+      "6:00 P.M."
+     ],
+     [
+      "Wednesday",
+      "Stretching",
+      "7:00 P.M."
+     ],
+     [
+      "Thursday",
+      "Cycling",
+      "6:30 P.M."
+     ],
+     [
+      "Saturday",
+      "Yoga",
+      "9:00 A.M."
+     ]
+    ]
+   },
+   "questions": [
+    {
+     "id": "d21-p4-g1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "What is the talk mainly about?",
+     "options": [
+      "An orientation for new members",
+      "A schedule change",
+      "A membership discount",
+      "A new class"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Người nói đưa ra phần giới thiệu ngắn cho hội viên mới.",
+      "en": "The speaker gives a short orientation."
+     },
+     "trap": "Schedule change sai: lịch chỉ được dùng làm tài liệu."
+    },
+    {
+     "id": "d21-p4-g2",
+     "part": 4,
+     "skill": "p4.graphic",
+     "level": 3,
+     "q": "Look at the graphic. Which day should a beginner attend the stretching class?",
+     "options": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Người mới nên thử lớp giãn cơ vào thứ Tư; bảng ghi stretching vào thứ Tư.",
+      "en": "The speaker recommends the stretching class on Wednesday, which matches the table."
+     },
+     "trap": "Thursday là lớp đạp xe dành cho người nâng cao."
+    },
+    {
+     "id": "d21-p4-g3",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "What does the speaker say about lockers?",
+     "options": [
+      "Members must bring a padlock.",
+      "They are free to rent.",
+      "They are outside.",
+      "They need a key card."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Có tủ khóa nhưng phải tự mang ổ khóa.",
+      "en": "Members should bring their own padlock."
+     },
+     "trap": "Key card là vật khác, nhắc khi bị mất."
+    }
+   ]
+  },
+  {
+   "id": "d21-p4-h",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Good afternoon, and welcome to the Whitfield Winery tour. I'm Jean-Paul, and I'll show you how our wine is made. We'll begin in the vineyard, where the grapes are picked by hand every September. Then we'll visit the cellar, which is kept at a constant fifteen degrees to protect the wine. Please wear a jacket, because it can feel cold. At the end of the tour, you will have a chance to taste three different wines in our tasting room. Visitors who are under eighteen can enjoy grape juice instead. Photography is welcome everywhere except in the cellar, where flash can affect the wine. If you'd like to buy a bottle, our shop is open until six, and members of the wine club receive a discount."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p4-h1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "Where is the talk taking place?",
+     "options": [
+      "At a winery",
+      "At a restaurant",
+      "At a grocery store",
+      "At a farm school"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Đây là chuyến tham quan nhà máy rượu vang Whitfield.",
+      "en": "It is a winery tour."
+     },
+     "trap": "Restaurant sai vì không có phục vụ bữa ăn."
+    },
+    {
+     "id": "d21-p4-h2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "Why should visitors wear a jacket?",
+     "options": [
+      "The cellar is cold.",
+      "It may rain outside.",
+      "It is a dress rule.",
+      "The vineyard is windy."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Hầm rượu giữ ở 15 độ nên có thể thấy lạnh.",
+      "en": "The cellar is kept at fifteen degrees and may feel cold."
+     },
+     "trap": "Windy vineyard không được nhắc."
+    },
+    {
+     "id": "d21-p4-h3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 3,
+     "q": "Who can receive a discount in the shop?",
+     "options": [
+      "Wine club members",
+      "Children",
+      "Early visitors",
+      "Large groups"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Hội viên câu lạc bộ rượu được giảm giá.",
+      "en": "Wine club members receive a discount."
+     },
+     "trap": "Children chỉ được uống nước nho."
+    }
+   ]
+  },
+  {
+   "id": "d21-p4-i",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "And now for the weekly business news. Shares of Delta Motors rose by six percent today after the company announced plans to open a new battery plant in Ohio. The plant is expected to create four thousand jobs over the next five years. In other news, the city of Fairmont has approved the construction of a new shopping district near the airport. Construction will begin in January and is expected to take two years. The mayor said the project will help local businesses and attract tourists. Finally, a quick reminder for small business owners: the deadline for filing quarterly tax reports has been extended to the end of the month. Stay with us for the sports update after this short break."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p4-i1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 1,
+     "q": "What is the broadcast mainly about?",
+     "options": [
+      "Business news",
+      "Weather",
+      "Sports results",
+      "A political election"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Đây là bản tin kinh doanh hằng tuần.",
+      "en": "The speaker introduces the weekly business news."
+     },
+     "trap": "Sports update chỉ nói sẽ phát sau."
+    },
+    {
+     "id": "d21-p4-i2",
+     "part": 4,
+     "skill": "p4.detail",
+     "level": 2,
+     "q": "What will the new battery plant do?",
+     "options": [
+      "Create jobs",
+      "Close a factory",
+      "Lower prices",
+      "Train drivers"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Nhà máy dự kiến tạo ra bốn nghìn việc làm.",
+      "en": "The plant is expected to create four thousand jobs."
+     },
+     "trap": "Lower prices không được nhắc."
+    },
+    {
+     "id": "d21-p4-i3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 3,
+     "q": "What has changed for small business owners?",
+     "options": [
+      "A filing deadline was extended.",
+      "A tax rate was lowered.",
+      "A new form is required.",
+      "A fee was removed."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Hạn nộp báo cáo thuế quý được gia hạn đến cuối tháng.",
+      "en": "The deadline for quarterly tax reports was extended."
+     },
+     "trap": "Tax rate lowered sai vì bài chỉ nói gia hạn."
+    }
+   ]
+  },
+  {
+   "id": "d21-p4-j",
+   "part": 4,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Hello, everybody. Before we adjourn today's staff meeting, I want to go over the results of the customer survey. As shown on the chart, customers gave us high marks for friendly staff and fast checkout. Our weakest area is the choice of products, which scored only fifty-five percent. Several customers wrote that they wanted to see more organic items on our shelves. Based on this feedback, I have asked Mr. Evans in purchasing to look for new suppliers. I would also like each department to suggest at least two products to add by the end of the month. Please send your ideas to me by e-mail. We will review all suggestions at our next meeting on the ninth. Thank you for your hard work."
+    }
+   ],
+   "graphic": {
+    "caption": "Customer Survey: Satisfaction by Category",
+    "rows": [
+     [
+      "Category",
+      "Satisfaction"
+     ],
+     [
+      "Friendly staff",
+      "92%"
+     ],
+     [
+      "Fast checkout",
+      "88%"
+     ],
+     [
+      "Clean aisles",
+      "61%"
+     ],
+     [
+      "Product choice",
+      "55%"
+     ]
+    ]
+   },
+   "questions": [
+    {
+     "id": "d21-p4-j1",
+     "part": 4,
+     "skill": "p4.purpose",
+     "level": 2,
+     "q": "What is the speaker discussing?",
+     "options": [
+      "Customer survey results",
+      "A new store policy",
+      "Employee schedules",
+      "A supplier contract"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Người nói đang xem lại kết quả khảo sát khách hàng.",
+      "en": "The speaker reviews customer survey results."
+     },
+     "trap": "Supplier contract sai: chỉ yêu cầu tìm nhà cung cấp mới."
+    },
+    {
+     "id": "d21-p4-j2",
+     "part": 4,
+     "skill": "p4.graphic",
+     "level": 3,
+     "q": "Look at the graphic. Which category does the speaker want to improve?",
+     "options": [
+      "Friendly staff",
+      "Product choice",
+      "Fast checkout",
+      "Clean aisles"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Mục yếu nhất là sự đa dạng sản phẩm với 55 phần trăm.",
+      "en": "The weakest area is product choice at 55%."
+     },
+     "trap": "Clean aisles cũng thấp nhưng không phải mục yếu nhất."
+    },
+    {
+     "id": "d21-p4-j3",
+     "part": 4,
+     "skill": "p4.next-action",
+     "level": 2,
+     "q": "What are departments asked to do?",
+     "options": [
+      "Suggest products to add",
+      "Train new staff",
+      "Lower their prices",
+      "Visit suppliers"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Mỗi bộ phận đề xuất ít nhất hai sản phẩm bổ sung.",
+      "en": "Each department should suggest at least two products."
+     },
+     "trap": "Visit suppliers là việc của ông Evans."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+  "grammar": [
+    {
+      "id": "d17-p6-a",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "notice",
+          "title": "Lobby renovation",
+          "text": "Dear Residents,\n\nWe are pleased to [1] that renovation of the lobby at Parkview Apartments will begin on August 5. The work is expected to take about three weeks and will [2] a new entrance door, improved lighting, and a larger mailroom. [3] Residents may use the side entrance on Elm Street during this time. Because construction can be noisy, we ask you to be [4] of your neighbors, especially before 9 A.M. and after 6 P.M.\n\nParkview Management"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d17-p6-a-1",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [1]",
+          "options": [
+            "announce",
+            "announcement",
+            "announcer",
+            "announcing"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Sau \"pleased to\" cần động từ nguyên mẫu: \"announce\".",
+            "en": "After \"pleased to\" we need a base verb: \"announce\"."
+          },
+          "trap": "\"announcement\" là danh từ, không theo sau \"to\" ở đây."
+        },
+        {
+          "id": "d17-p6-a-2",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [2]",
+          "options": [
+            "include",
+            "including",
+            "inclusion",
+            "inclusive"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Sau \"will\" cần động từ nguyên mẫu: \"include\".",
+            "en": "After \"will\" use the base verb \"include\"."
+          },
+          "trap": "\"including\" nghe quen nhưng không đi trực tiếp sau \"will\"."
+        },
+        {
+          "id": "d17-p6-a-3",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 2,
+          "q": "Blank [3]",
+          "options": [
+            "Rent payments are due on the first day of each month.",
+            "The building was constructed more than thirty years ago.",
+            "The main entrance will be closed to the public throughout the project.",
+            "A new tenant will move into Apartment 4B next week."
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Câu sau cho phép dùng cửa phụ, nên câu trước phải nói cửa chính sẽ đóng.",
+            "en": "The next sentence offers a side entrance, so the missing sentence says the main entrance will be closed."
+          },
+          "trap": "Câu B nhắc tòa nhà nhưng không liên quan đến lối vào."
+        },
+        {
+          "id": "d17-p6-a-4",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [4]",
+          "options": [
+            "considerate",
+            "consider",
+            "consideration",
+            "considerably"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "\"be considerate of\" nghĩa là biết quan tâm đến người khác: cần tính từ sau \"be\".",
+            "en": "\"Be considerate of\" means thoughtful toward others: an adjective after \"be\"."
+          },
+          "trap": "\"consideration\" là danh từ, đi với \"show\", không đi sau \"be ... of\" ở đây."
+        }
+      ]
+    }
+  ]
+}

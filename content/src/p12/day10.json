@@ -1,0 +1,229 @@
+{
+ "listening": [
+  {
+   "id": "d10-p2-s01",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "What's the best way to contact Ms. Tanaka?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Yes, I contacted her."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "She checks her email regularly."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "At the contact desk."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d10-p2-01",
+     "part": 2,
+     "skill": "p2.wh-what",
+     "level": 1,
+     "options": [
+      "Yes, I contacted her.",
+      "She checks her email regularly.",
+      "At the contact desk."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "What's the best way hỏi cách; 'She checks her email regularly' trả lời.",
+      "en": "'What's the best way' asks for a method, and email answers it."
+     },
+     "trap": "(A) lặp contact nhưng là Yes."
+    }
+   ]
+  },
+  {
+   "id": "d10-p2-s02",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "When will the marketing team move to the new floor?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "It's on the fifth floor."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "The renovations aren't finished."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Yes, the team is moving."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d10-p2-02",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 2,
+     "options": [
+      "It's on the fifth floor.",
+      "The renovations aren't finished.",
+      "Yes, the team is moving."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Trả lời gián tiếp: việc sửa chữa chưa xong nên chưa chuyển.",
+      "en": "An indirect answer: the work is unfinished, so no date yet."
+     },
+     "trap": "(A) lặp floor nhưng nói vị trí."
+    }
+   ]
+  },
+  {
+   "id": "d10-p2-s03",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Where are we having the farewell lunch?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Didn't you get the invitation?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Lunch is at noon."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Yes, we have farewell cards."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d10-p2-03",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 2,
+     "options": [
+      "Didn't you get the invitation?",
+      "Lunch is at noon.",
+      "Yes, we have farewell cards."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Hỏi lại về lời mời: thông tin nằm trong đó.",
+      "en": "Asking about the invitation implies the answer is in it."
+     },
+     "trap": "(B) lặp lunch nhưng nói thời gian."
+    }
+   ]
+  },
+  {
+   "id": "d10-p2-s04",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Who wants to review the jellyfish feeding schedule with me?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "The feeding is fine."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Twice a day."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "I can after lunch."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d10-p2-04",
+     "part": 2,
+     "skill": "p2.wh-who",
+     "level": 1,
+     "options": [
+      "The feeding is fine.",
+      "Twice a day.",
+      "I can after lunch."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Lời mời hợp tác; 'I can after lunch' xung phong.",
+      "en": "It is an invitation, and 'I can after lunch' volunteers."
+     },
+     "trap": "(B) nói về tần suất cho ăn."
+    }
+   ]
+  },
+  {
+   "id": "d10-p2-s05",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Isn't this printer supposed to be replaced?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "On the second floor."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "I printed it already."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Not until next quarter."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d10-p2-05",
+     "part": 2,
+     "skill": "p2.yes-no",
+     "level": 2,
+     "options": [
+      "On the second floor.",
+      "I printed it already.",
+      "Not until next quarter."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Câu hỏi phủ định; 'Not until next quarter' cho biết chưa thay.",
+      "en": "'Not until next quarter' answers the negative question."
+     },
+     "trap": "(B) lặp printer nhưng là việc đã làm."
+    }
+   ]
+  }
+ ]
+}

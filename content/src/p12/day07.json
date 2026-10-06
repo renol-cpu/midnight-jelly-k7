@@ -1,0 +1,967 @@
+{
+ "listening": [
+  {
+   "id": "d07-p1-s01",
+   "part": 1,
+   "image": "/img/p1/pp25.jpg",
+   "imageAlt": "Hai người đàn ông ngồi trước laptop, một người chỉ vào màn hình, người thứ ba đứng phía sau",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "auM",
+     "text": "A man is typing a report."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auM",
+     "text": "A man is pointing at a laptop screen."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auM",
+     "text": "Some people are lining up at a counter."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auM",
+     "text": "A man is handing out some papers."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d07-p1-01",
+     "part": 1,
+     "skill": "p1.people-action",
+     "level": 1,
+     "options": [
+      "A man is typing a report.",
+      "A man is pointing at a laptop screen.",
+      "Some people are lining up at a counter.",
+      "A man is handing out some papers."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Một người đang đưa tay chỉ vào màn hình: is pointing at. Không ai gõ báo cáo hay xếp hàng.",
+      "en": "One man points toward the screen, so (B) is correct. Nobody is typing or lining up."
+     },
+     "trap": "Câu (A) lấy laptop làm bẫy nhưng người đàn ông đang chỉ chứ không gõ phím."
+    }
+   ]
+  },
+  {
+   "id": "d07-p1-s02",
+   "part": 1,
+   "image": "/img/p1/pp27.jpg",
+   "imageAlt": "Một người đàn ông khiêng một thùng hàng trên vai, phía sau là những người dân ngồi gần lều",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "gbM",
+     "text": "A man is carrying a box."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbM",
+     "text": "A man is loading a truck."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbM",
+     "text": "A box is being opened."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbM",
+     "text": "Some people are boarding a boat."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d07-p1-02",
+     "part": 1,
+     "skill": "p1.people-action",
+     "level": 1,
+     "options": [
+      "A man is carrying a box.",
+      "A man is loading a truck.",
+      "A box is being opened.",
+      "Some people are boarding a boat."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh ấy vác thùng trên vai: is carrying a box. Không có xe tải hay ai mở thùng.",
+      "en": "He carries a box on his shoulder, so (A) is right. There is no truck."
+     },
+     "trap": "Câu (B) hay bị chọn vì cảnh chuyển hàng, nhưng ảnh không có xe tải."
+    }
+   ]
+  },
+  {
+   "id": "d07-p1-s03",
+   "part": 1,
+   "image": "/img/p1/pp29.jpg",
+   "imageAlt": "Một cánh tay lau cửa kính bằng dụng cụ gạt nước",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "usM",
+     "text": "A curtain is being hung."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usM",
+     "text": "A door is being painted."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usM",
+     "text": "A window is being cleaned."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usM",
+     "text": "A person is looking out of a window."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d07-p1-03",
+     "part": 1,
+     "skill": "p1.people-action",
+     "level": 1,
+     "options": [
+      "A curtain is being hung.",
+      "A door is being painted.",
+      "A window is being cleaned.",
+      "A person is looking out of a window."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Cánh tay đang lau kính bằng chổi gạt: a window is being cleaned. Không ai treo rèm hay sơn cửa.",
+      "en": "A hand wipes the glass with a squeegee, so (C) is correct. Nothing is being painted or hung."
+     },
+     "trap": "Câu (B) cùng dạng bị động 'is being painted' nên nghe giống, nhưng không có ai sơn."
+    }
+   ]
+  },
+  {
+   "id": "d07-p1-s04",
+   "part": 1,
+   "image": "/media/p06.jpg",
+   "imageAlt": "Nhiều con sứa trong bể, con lớn màu cam ở bên phải",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "caF",
+     "text": "Some jellyfish are floating in the water."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caF",
+     "text": "A tank is being refilled."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caF",
+     "text": "Some visitors are feeding fish."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caF",
+     "text": "A fish tank is being moved."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d07-p1-04",
+     "part": 1,
+     "skill": "p1.scene",
+     "level": 1,
+     "options": [
+      "Some jellyfish are floating in the water.",
+      "A tank is being refilled.",
+      "Some visitors are feeding fish.",
+      "A fish tank is being moved."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Ảnh có sứa đang trôi trong nước, nên (A) đúng. Không có người nào trong ảnh.",
+      "en": "Jellyfish float in the water, so (A) fits. No people are in the picture."
+     },
+     "trap": "Câu (B) và (D) là các câu bị động về bể cá nhưng không có ai làm việc trong ảnh."
+    }
+   ]
+  },
+  {
+   "id": "d07-p1-s05",
+   "part": 1,
+   "image": "/img/p1/pp18.jpg",
+   "imageAlt": "Một người đàn ông đội nón rơm đứng cạnh xe đẩy trên phố, xe hơi đỏ đậu bên phải",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "auF",
+     "text": "A man is loading a truck."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auF",
+     "text": "A man is standing next to a cart."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auF",
+     "text": "Some pedestrians are crossing the street."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auF",
+     "text": "A cart is being pulled by a horse."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d07-p1-05",
+     "part": 1,
+     "skill": "p1.people-action",
+     "level": 2,
+     "options": [
+      "A man is loading a truck.",
+      "A man is standing next to a cart.",
+      "Some pedestrians are crossing the street.",
+      "A cart is being pulled by a horse."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Anh ấy đứng cạnh xe đẩy: is standing next to a cart. Không có xe tải hay ngựa.",
+      "en": "The man stands beside a cart, so (B) is right. There is no truck or horse."
+     },
+     "trap": "Câu (C) hay bị chọn vì có người đi bộ phía sau, nhưng không ai đang băng qua đường."
+    }
+   ]
+  },
+  {
+   "id": "d07-p1-s06",
+   "part": 1,
+   "image": "/img/p1/pp08.jpg",
+   "imageAlt": "Một đầu bếp đứng quay lưng trong bếp nhà hàng, đĩa xếp chồng trên giá và đèn treo phía trên",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "A cook is wiping a table."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "Dishes are being delivered to a table."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "Some plates are piled on a shelf."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "Some lamps are being replaced."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d07-p1-06",
+     "part": 1,
+     "skill": "p1.object-position",
+     "level": 2,
+     "options": [
+      "A cook is wiping a table.",
+      "Dishes are being delivered to a table.",
+      "Some plates are piled on a shelf.",
+      "Some lamps are being replaced."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Đĩa được xếp chồng trên giá bếp nên (C) đúng. Không ai lau bàn hay thay đèn.",
+      "en": "Plates are piled on the kitchen shelf, so (C) is correct. Nobody is wiping or replacing anything."
+     },
+     "trap": "Câu (D) bị gài bởi đèn treo trong ảnh, nhưng không có ai thay đèn."
+    }
+   ]
+  },
+  {
+   "id": "d07-p2-s01",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Where can I get a visitor badge?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "At the security desk in the lobby."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "She's a visitor."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Until five o'clock."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d07-p2-01",
+     "part": 2,
+     "skill": "p2.wh-where",
+     "level": 1,
+     "options": [
+      "At the security desk in the lobby.",
+      "She's a visitor.",
+      "Until five o'clock."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Where hỏi chỗ; 'At the security desk' là nơi nhận thẻ.",
+      "en": "'Where' asks for a place, and the security desk is one."
+     },
+     "trap": "(B) lặp visitor nhưng nói về một người."
+    }
+   ]
+  },
+  {
+   "id": "d07-p2-s02",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Who will lead the safety training?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "On the second floor."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "About three hours."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Mr. Collins from the plant."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d07-p2-02",
+     "part": 2,
+     "skill": "p2.wh-who",
+     "level": 1,
+     "options": [
+      "On the second floor.",
+      "About three hours.",
+      "Mr. Collins from the plant."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Who hỏi người; Mr. Collins là người dẫn.",
+      "en": "'Who' asks for a person, and Mr. Collins is one."
+     },
+     "trap": "(A) trả lời Where, (B) trả lời How long."
+    }
+   ]
+  },
+  {
+   "id": "d07-p2-s03",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "When is the next shipment due?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "To the warehouse."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "By sea."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Early next week, I believe."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d07-p2-03",
+     "part": 2,
+     "skill": "p2.wh-when",
+     "level": 1,
+     "options": [
+      "To the warehouse.",
+      "By sea.",
+      "Early next week, I believe."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "When hỏi thời gian; 'Early next week' trả lời.",
+      "en": "'When' asks for a time, and 'Early next week' gives it."
+     },
+     "trap": "(A) trả lời Where to, (B) trả lời How."
+    }
+   ]
+  },
+  {
+   "id": "d07-p2-s04",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Why did the meeting end so early?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Most people had to catch a train."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "In the large conference room."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "At about four."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d07-p2-04",
+     "part": 2,
+     "skill": "p2.wh-why",
+     "level": 1,
+     "options": [
+      "Most people had to catch a train.",
+      "In the large conference room.",
+      "At about four."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Why hỏi lý do; 'Most people had to catch a train' là lý do.",
+      "en": "'Why' asks for a reason, and catching a train is one."
+     },
+     "trap": "(C) trả lời When."
+    }
+   ]
+  },
+  {
+   "id": "d07-p2-s05",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "How do I get to the harbor tour?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "It's two hours long."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Take bus number twelve."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Yes, it's great."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d07-p2-05",
+     "part": 2,
+     "skill": "p2.wh-how",
+     "level": 1,
+     "options": [
+      "It's two hours long.",
+      "Take bus number twelve.",
+      "Yes, it's great."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "How hỏi cách đi; 'Take bus number twelve' chỉ cách.",
+      "en": "'How' asks for a way to get there, and a bus number answers it."
+     },
+     "trap": "(A) lặp chủ đề tour nhưng nói về thời lượng."
+    }
+   ]
+  },
+  {
+   "id": "d07-p2-s06",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Did the moon jellies arrive this morning?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "The moon was bright."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Yes, they're already in the quarantine tank."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "In the morning, around ten."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d07-p2-06",
+     "part": 2,
+     "skill": "p2.yes-no",
+     "level": 2,
+     "options": [
+      "The moon was bright.",
+      "Yes, they're already in the quarantine tank.",
+      "In the morning, around ten."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Yes/No: 'Yes' kèm thông tin về vị trí hiện tại của chúng.",
+      "en": "A yes with the current location is a direct answer."
+     },
+     "trap": "(A) lặp moon nhưng nghĩa khác (mặt trăng)."
+    }
+   ]
+  },
+  {
+   "id": "d07-p2-s07",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Would you prefer to pay by cash or card?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Yes, I paid yesterday."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "At the counter."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Card, please."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d07-p2-07",
+     "part": 2,
+     "skill": "p2.choice",
+     "level": 1,
+     "options": [
+      "Yes, I paid yesterday.",
+      "At the counter.",
+      "Card, please."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Câu hỏi chọn; 'Card, please' chọn một.",
+      "en": "A choice question is answered by picking one option."
+     },
+     "trap": "(A) lặp pay nhưng không chọn."
+    }
+   ]
+  },
+  {
+   "id": "d07-p2-s08",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Could you cover my shift on Saturday?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "The shift key is broken."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "I'd be happy to."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Saturday is the thirtieth."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d07-p2-08",
+     "part": 2,
+     "skill": "p2.suggestion",
+     "level": 1,
+     "options": [
+      "The shift key is broken.",
+      "I'd be happy to.",
+      "Saturday is the thirtieth."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Đây là lời nhờ; 'I'd be happy to' đồng ý.",
+      "en": "This is a request, and 'I'd be happy to' accepts it."
+     },
+     "trap": "(A) lặp shift nhưng nghĩa khác (phím Shift)."
+    }
+   ]
+  },
+  {
+   "id": "d07-p2-s09",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Isn't the delivery supposed to arrive today?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Yes, deliver it to the front door."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "It's been delayed until tomorrow."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "At the delivery address."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d07-p2-09",
+     "part": 2,
+     "skill": "p2.yes-no",
+     "level": 2,
+     "options": [
+      "Yes, deliver it to the front door.",
+      "It's been delayed until tomorrow.",
+      "At the delivery address."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Câu hỏi phủ định; 'It's been delayed until tomorrow' cho biết hôm nay không tới.",
+      "en": "'It's been delayed until tomorrow' answers the negative question indirectly."
+     },
+     "trap": "(A) lặp deliver nhưng là mệnh lệnh."
+    }
+   ]
+  },
+  {
+   "id": "d07-p2-s10",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "I can't find the receipt for this purchase."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Check the folder in your email."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "The purchase was last week."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Yes, I can."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d07-p2-10",
+     "part": 2,
+     "skill": "p2.statement",
+     "level": 2,
+     "options": [
+      "Check the folder in your email.",
+      "The purchase was last week.",
+      "Yes, I can."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Người nói báo không tìm thấy; gợi ý kiểm tra thư mục email là hợp lý.",
+      "en": "The speaker cannot find it, and suggesting the email folder is helpful."
+     },
+     "trap": "(B) lặp purchase nhưng không giúp tìm biên lai."
+    }
+   ]
+  },
+  {
+   "id": "d07-p2-s11",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Why don't you join us for the tank-cleaning demonstration?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "The tank is very clean."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "I have a conference call then."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Because it's free."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d07-p2-11",
+     "part": 2,
+     "skill": "p2.suggestion",
+     "level": 2,
+     "options": [
+      "The tank is very clean.",
+      "I have a conference call then.",
+      "Because it's free."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Lời mời; từ chối lịch sự bằng lý do bận.",
+      "en": "This is an invitation, and a conflicting call is a polite refusal."
+     },
+     "trap": "(A) lặp clean nhưng không phản hồi lời mời."
+    }
+   ]
+  },
+  {
+   "id": "d07-p2-s12",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Which of these brochures should we print?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Print is expensive."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "The one with the blue cover."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "On the third floor."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d07-p2-12",
+     "part": 2,
+     "skill": "p2.wh-what",
+     "level": 1,
+     "options": [
+      "Print is expensive.",
+      "The one with the blue cover.",
+      "On the third floor."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Which hỏi chọn; 'The one with the blue cover' chọn một tờ.",
+      "en": "'Which' asks for a choice, and 'The one with the blue cover' picks one."
+     },
+     "trap": "(A) lặp print nhưng không chọn gì."
+    }
+   ]
+  },
+  {
+   "id": "d07-p2-s13",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "How long will the renovation take?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Until the end of the summer."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "In the east wing."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "A new look."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d07-p2-13",
+     "part": 2,
+     "skill": "p2.wh-how",
+     "level": 1,
+     "options": [
+      "Until the end of the summer.",
+      "In the east wing.",
+      "A new look."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "How long hỏi khoảng thời gian; 'Until the end of the summer' trả lời.",
+      "en": "'How long' asks for a duration, and 'Until the end of the summer' gives one."
+     },
+     "trap": "(B) là địa điểm."
+    }
+   ]
+  },
+  {
+   "id": "d07-p2-s14",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Do you know whether the fee includes lunch?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "I'll check the registration form."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "A fee of fifty dollars."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Yes, I enjoy lunch."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d07-p2-14",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 2,
+     "options": [
+      "I'll check the registration form.",
+      "A fee of fifty dollars.",
+      "Yes, I enjoy lunch."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Trả lời gián tiếp: chưa biết nhưng sẽ kiểm tra tờ đăng ký.",
+      "en": "An indirect answer: the speaker does not know but will check the form."
+     },
+     "trap": "(B) lặp fee nhưng chỉ nêu số tiền, không nói có gồm bữa trưa không."
+    }
+   ]
+  },
+  {
+   "id": "d07-p2-s15",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "The supplier couldn't deliver the glass panels on time."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Then we'll need to postpone the opening."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "On the panel discussion."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Yes, the supplier is local."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d07-p2-15",
+     "part": 2,
+     "skill": "p2.statement",
+     "level": 3,
+     "options": [
+      "Then we'll need to postpone the opening.",
+      "On the panel discussion.",
+      "Yes, the supplier is local."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Thông báo chậm trễ; 'we'll need to postpone the opening' là hệ quả hợp lý.",
+      "en": "The delay is news, and postponing the opening is the logical consequence."
+     },
+     "trap": "(B) nghe giống panel nhưng là panel discussion (buổi thảo luận)."
+    }
+   ]
+  }
+ ]
+}

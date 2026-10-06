@@ -1,0 +1,78 @@
+{
+ "day": 7,
+ "title": {
+  "vi": "Bão và ánh trăng",
+  "en": "Moon Jelly Night"
+ },
+ "story": [
+  {
+   "speaker": "NARRATOR",
+   "en": "A storm hits the Aurelia. Waves climb the deck. Huy holds the rail, and the radio shakes in his hand.",
+   "vi": "Bão đập vào tàu Aurelia. Sóng leo lên boong. Huy bám lan can, radio rung trong tay.",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "NOVA",
+   "en": "Warning. Wind is strong. Visibility is low. Please stay on the lower deck.",
+   "vi": "Cảnh báo. Gió mạnh. Tầm nhìn thấp. Xin ở lại boong dưới.",
+   "voice": "usF"
+  },
+  {
+   "speaker": "HUY",
+   "en": "There! In the water! Rings of light, four of them. Like moon jellyfish!",
+   "vi": "Kìa! Dưới nước! Những vòng sáng, bốn vòng. Như sứa trăng!",
+   "voice": "caM"
+  },
+  {
+   "speaker": "BESUA",
+   "en": "Four rings, four signals, hihi! Em đếm rồi nè. One... two... three... four. Dọ!",
+   "vi": "Bốn vòng, bốn tín hiệu, hihi! Em đếm rồi nè. Một... hai... ba... bốn. Dọ!"
+  },
+  {
+   "speaker": "NOVA",
+   "en": "Decoding. Signal one: \"I am here.\" Signal two: \"I have not left.\" Signal three: \"Count with me.\"",
+   "vi": "Đang giải mã. Tín hiệu một: \"Anh ở đây.\" Tín hiệu hai: \"Anh chưa rời đi.\" Tín hiệu ba: \"Đếm cùng anh.\"",
+   "voice": "usF"
+  },
+  {
+   "speaker": "M",
+   "en": "Ten thousand, a million, a billion... Huy, do you remember? A trillion.",
+   "vi": "Mười nghìn, một triệu, một tỷ... Huy, em nhớ không? Một nghìn tỷ.",
+   "voice": "usM"
+  },
+  {
+   "speaker": "HUY",
+   "en": "That is our game. He is really there. M.! Wait for me!",
+   "vi": "Đó là trò của tụi em. Anh ấy thật sự ở đó. M.! Đợi em!",
+   "voice": "caM"
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "The oxygen meter flashes red. For half a second, a white jellyfish glows on the screen. Then everything goes black.",
+   "vi": "Đồng hồ oxy nháy đỏ. Nửa giây, một con sứa trắng sáng lên trên màn hình. Rồi mọi thứ tối đen.",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "BAO",
+   "en": "You did well, Huy. Very well. Rest now. Tomorrow we meet together and make a plan.",
+   "vi": "Em làm tốt lắm, Huy. Rất tốt. Nghỉ đi. Mai cả nhóm họp và lên kế hoạch.",
+   "voice": "auM"
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "Behind the Captain, on his desk, a map has a red circle drawn around the south reef. He turns it over before Huy can read it.",
+   "vi": "Sau lưng thuyền trưởng, trên bàn, một tấm bản đồ có vòng đỏ quanh rạn phía nam. Ông lật nó úp xuống trước khi Huy đọc được.",
+   "voice": "gbF"
+  }
+ ],
+ "letter": {
+  "vi": "Bé iu, hôm nay là boss rồi! Làm câu dễ trước, câu khó đánh dấu quay lại sau, và đừng bao giờ bỏ trống. Điểm bao nhiêu cũng vậy, anh tự hào về bé, điều này STAYS (còn nguyên) nha.",
+  "en": "My love, today is the boss! Do the easy ones first, mark the hard ones to return to, and never leave a blank. Whatever the score, I am proud of you, and that STAYS the same."
+ },
+ "beSua": [
+  "Thousand, million, billion, trillion: mỗi cái hơn cái trước một nghìn lần. Em yêu anh a trillion thì nhiều lắm luôn! Hihi.",
+  "Hundred, thousand, million không thêm s khi có số đứng trước: two hundred, three thousand. Nhưng \"hundreds of people\" mới có s. :33",
+  "Thirteen nhấn âm sau, thirty nhấn âm đầu. Part 1-2 nghe số rất hay bị bẫy chỗ này, hihi. :33",
+  "Nè, \"ten thousand\" là mười nghìn, \"ten billion\" là mười tỷ. Hông ai thắng được \"a trillion\" hết. Hihi, bé thua rồi nha!"
+ ]
+}

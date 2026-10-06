@@ -1,0 +1,425 @@
+{
+ "grammar": [
+  {
+   "id": "d05-p5-a",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d05-p5-01",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "All vendors must comply ____ safety regulations.",
+     "options": [
+      "with",
+      "to",
+      "for",
+      "by"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cụm cố định: comply with.",
+      "en": "Fixed phrase: comply with."
+     },
+     "trap": "\"Comply to\" nghe giống \"tuân theo\" nhưng sai."
+    },
+    {
+     "id": "d05-p5-02",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "The café is staffed ____ trained baristas.",
+     "options": [
+      "of",
+      "at",
+      "to",
+      "by"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Cụm cố định: staffed by.",
+      "en": "Fixed phrase: staffed by."
+     },
+     "trap": "\"Staffed of\" không tồn tại."
+    },
+    {
+     "id": "d05-p5-03",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "Please refer ____ the manual for assembly instructions.",
+     "options": [
+      "at",
+      "on",
+      "to",
+      "with"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Cụm cố định: refer to.",
+      "en": "Fixed phrase: refer to."
+     },
+     "trap": "\"Refer at\" sai."
+    },
+    {
+     "id": "d05-p5-04",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "Mr. Duc was responsible ____ ordering supplies.",
+     "options": [
+      "of",
+      "for",
+      "to",
+      "with"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cụm cố định: responsible for.",
+      "en": "Fixed phrase: responsible for."
+     },
+     "trap": "\"Responsible of\" nghe quen vì giống \"in charge of\"."
+    },
+    {
+     "id": "d05-p5-05",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "The workshop focuses ____ customer service skills.",
+     "options": [
+      "on",
+      "at",
+      "to",
+      "for"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cụm cố định: focus on.",
+      "en": "Fixed phrase: focus on."
+     },
+     "trap": "\"Focus to\" sai."
+    },
+    {
+     "id": "d05-p5-06",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "We apologize ____ the delay in your order.",
+     "options": [
+      "of",
+      "on",
+      "with",
+      "for"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Cụm cố định: apologize for.",
+      "en": "Fixed phrase: apologize for."
+     },
+     "trap": "\"Apologize of\" sai."
+    },
+    {
+     "id": "d05-p5-07",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "Employees may apply ____ a transfer after one year.",
+     "options": [
+      "to",
+      "at",
+      "for",
+      "with"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Cụm cố định: apply for.",
+      "en": "Fixed phrase: apply for."
+     },
+     "trap": "\"Apply to a transfer\" sai vì \"apply to\" đi với nơi chốn hoặc người."
+    },
+    {
+     "id": "d05-p5-08",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "The company depends ____ part-time staff during the summer.",
+     "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cụm cố định: depend on.",
+      "en": "Fixed phrase: depend on."
+     },
+     "trap": "\"Depend in\" sai."
+    },
+    {
+     "id": "d05-p5-09",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 2,
+     "q": "This coupon is valid ____ December 31.",
+     "options": [
+      "through",
+      "during",
+      "along",
+      "among"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Valid through\" nghĩa là đến hết ngày đó.",
+      "en": "\"Valid through\" means up to and including that date."
+     },
+     "trap": "\"During\" cần khoảng thời gian, không cần mốc ngày."
+    },
+    {
+     "id": "d05-p5-10",
+     "part": 5,
+     "skill": "p5.collocation",
+     "level": 1,
+     "q": "The committee will ____ a decision on Monday.",
+     "options": [
+      "do",
+      "hold",
+      "bring",
+      "make"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Cụm cố định: make a decision.",
+      "en": "Fixed collocation: make a decision."
+     },
+     "trap": "\"Do a decision\" nghe giống tiếng Việt \"làm quyết định\"."
+    }
+   ]
+  },
+  {
+   "id": "d05-p5-b",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d05-p5-11",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 2,
+     "q": "The new rule applies ____ all full-time employees.",
+     "options": [
+      "for",
+      "at",
+      "to",
+      "with"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Cụm cố định: apply to (áp dụng cho).",
+      "en": "Fixed phrase: apply to."
+     },
+     "trap": "\"Apply for\" nghĩa là xin, không phải áp dụng."
+    },
+    {
+     "id": "d05-p5-12",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 2,
+     "q": "Please contribute ____ the retirement gift by Friday.",
+     "options": [
+      "at",
+      "to",
+      "on",
+      "by"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cụm cố định: contribute to.",
+      "en": "Fixed phrase: contribute to."
+     },
+     "trap": "\"Contribute on\" sai."
+    },
+    {
+     "id": "d05-p5-13",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 1,
+     "q": "The ____ of the shipment was delayed.",
+     "options": [
+      "delivery",
+      "deliver",
+      "delivered",
+      "deliverer"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Sau \"The\" làm chủ ngữ cần danh từ.",
+      "en": "A noun is needed after \"The\"."
+     },
+     "trap": "\"Deliverer\" cũng là danh từ nhưng chỉ người giao."
+    },
+    {
+     "id": "d05-p5-14",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 1,
+     "q": "Sales rose ____ in the last quarter.",
+     "options": [
+      "sharp",
+      "sharpness",
+      "sharpen",
+      "sharply"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Trạng từ bổ nghĩa cho \"rose\".",
+      "en": "Adverb modifying \"rose\"."
+     },
+     "trap": "\"Sharp\" tính từ nên không đứng sau \"rose\" ở nghĩa này."
+    },
+    {
+     "id": "d05-p5-15",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 1,
+     "q": "There are ____ seats left on the 9 A.M. train.",
+     "options": [
+      "not",
+      "none",
+      "no",
+      "neither"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"No seats\": không còn chỗ.",
+      "en": "\"No seats\" means none left."
+     },
+     "trap": "\"None seats\" sai."
+    },
+    {
+     "id": "d05-p5-16",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 2,
+     "q": "Mr. Park, ____ I met last week, is the new director.",
+     "options": [
+      "whose",
+      "whom",
+      "what",
+      "which"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Người làm tân ngữ của \"met\" nên dùng whom.",
+      "en": "The person is the object of \"met\": whom."
+     },
+     "trap": "\"Which\" chỉ đồ vật."
+    },
+    {
+     "id": "d05-p5-17",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 1,
+     "q": "The shop's ____ hours are 9 A.M. to 6 P.M.",
+     "options": [
+      "regular",
+      "regularly",
+      "regularity",
+      "regulate"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Trước danh từ \"hours\" cần tính từ.",
+      "en": "An adjective precedes \"hours\"."
+     },
+     "trap": "\"Regularly\" là trạng từ nên không đứng trước danh từ."
+    },
+    {
+     "id": "d05-p5-18",
+     "part": 5,
+     "skill": "p5.agreement",
+     "level": 1,
+     "q": "Our team members ____ their reports every Friday.",
+     "options": [
+      "submits",
+      "submitting",
+      "is submitted",
+      "submit"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Chủ ngữ \"members\" số nhiều nên động từ không có -s.",
+      "en": "Plural subject \"members\", so no -s on the verb."
+     },
+     "trap": "\"Team\" ở trước làm anh tưởng số ít."
+    },
+    {
+     "id": "d05-p5-19",
+     "part": 5,
+     "skill": "p5.passive",
+     "level": 2,
+     "q": "The new bakery ____ by two chefs.",
+     "options": [
+      "runs",
+      "running",
+      "is run",
+      "has run"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Tiệm bánh được điều hành nên bị động.",
+      "en": "The bakery is run by chefs: passive."
+     },
+     "trap": "\"Runs\" chủ động nên không đi với \"by two chefs\"."
+    },
+    {
+     "id": "d05-p5-20",
+     "part": 5,
+     "skill": "p5.tense",
+     "level": 1,
+     "q": "Please contact me if you ____ any questions.",
+     "options": [
+      "will have",
+      "have",
+      "had had",
+      "having"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Mệnh đề if loại 1 dùng hiện tại đơn.",
+      "en": "Type-1 if-clause uses present simple."
+     },
+     "trap": "\"Will have\" trong mệnh đề if là bẫy."
+    }
+   ]
+  }
+ ],
+ "theory": [
+  {
+   "id": "d05-th-1",
+   "title": {
+    "vi": "Động từ đi với giới từ nào?",
+    "en": "Verbs and their prepositions"
+   },
+   "rule": {
+    "vi": "Nhiều động từ và tính từ đi với một giới từ cố định. Học theo cụm, đừng dịch từng chữ.",
+    "en": "Many verbs and adjectives take one fixed preposition. Learn them as chunks, not word by word."
+   },
+   "formula": "comply WITH | staffed BY | refer TO | responsible FOR | depend ON | apply FOR (a job) / TO (a place)",
+   "examples": [
+    {
+     "en": "All vendors must comply with safety regulations.",
+     "vi": "comply + with."
+    },
+    {
+     "en": "The café is staffed by trained baristas.",
+     "vi": "staffed + by."
+    },
+    {
+     "en": "Employees may apply for a transfer.",
+     "vi": "apply + for."
+    }
+   ],
+   "tip": "Mẹo thi: thấy 4 đáp án đều là giới từ thì đừng dịch, hãy nhìn từ đứng ngay trước. Học cụm như học tên sứa: nhớ cả họ tên, đừng nhớ nửa vời."
+  }
+ ]
+}

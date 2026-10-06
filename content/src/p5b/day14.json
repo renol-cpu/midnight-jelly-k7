@@ -1,0 +1,296 @@
+{
+ "grammar": [
+  {
+   "id": "d14-p5-a",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d14-p5-01",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 1,
+     "q": "The company's ____ to quality has earned it several awards.",
+     "options": [
+      "committed",
+      "commitment",
+      "committing",
+      "commit"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Sau sở hữu cách \"company's\" cần một danh từ: commitment (sự cam kết).",
+      "en": "A noun is needed after the possessive \"company's\"."
+     },
+     "trap": "Committed là tính từ, không đứng làm chủ ngữ ngay sau sở hữu cách."
+    },
+    {
+     "id": "d14-p5-02",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 1,
+     "q": "The new intern worked ____ to finish the inventory before closing.",
+     "options": [
+      "diligently",
+      "diligent",
+      "diligence",
+      "more diligent"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Bổ nghĩa cho động từ \"worked\" cần trạng từ: diligently (chăm chỉ).",
+      "en": "An adverb modifies the verb \"worked\"."
+     },
+     "trap": "\"Diligent\" là tính từ, đứng sau worked sẽ hiểu là \"tính chất của người\", không bổ nghĩa cách làm."
+    },
+    {
+     "id": "d14-p5-03",
+     "part": 5,
+     "skill": "p5.tense",
+     "level": 1,
+     "q": "By the time the guests arrived, the chefs ____ the main course.",
+     "options": [
+      "prepared",
+      "have prepared",
+      "will prepare",
+      "had prepared"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"By the time + quá khứ đơn\" thì hành động trước đó chia quá khứ hoàn thành: had prepared.",
+      "en": "\"By the time\" + past simple needs past perfect for the earlier action."
+     },
+     "trap": "Prepared nghe tự nhiên nhưng không thể hiện món đã xong TRƯỚC khi khách đến."
+    },
+    {
+     "id": "d14-p5-04",
+     "part": 5,
+     "skill": "p5.passive",
+     "level": 1,
+     "q": "All invoices ____ by the accounting department before payment.",
+     "options": [
+      "review",
+      "are reviewing",
+      "are reviewed",
+      "to review"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Hoá đơn là đối tượng bị xem xét nên dùng bị động: are reviewed.",
+      "en": "Invoices are checked, so the passive \"are reviewed\" is needed."
+     },
+     "trap": "\"Are reviewing\" cho thấy hoá đơn tự đi xem xét ai đó."
+    },
+    {
+     "id": "d14-p5-05",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 2,
+     "q": "The candidate ____ we interviewed yesterday has accepted the offer.",
+     "options": [
+      "whose",
+      "whom",
+      "which",
+      "whoever"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Chỉ người, làm tân ngữ của interviewed, sau chỗ trống có chủ ngữ \"we\": dùng whom.",
+      "en": "A person as object, followed by subject \"we\": \"whom\"."
+     },
+     "trap": "Whose cần danh từ theo sau, mà sau chỗ trống là \"we\"."
+    },
+    {
+     "id": "d14-p5-06",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "Success in this role depends ____ strong communication skills.",
+     "options": [
+      "on",
+      "of",
+      "to",
+      "with"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Depend on\" là cụm cố định: phụ thuộc vào.",
+      "en": "\"Depend on\" is a fixed collocation."
+     },
+     "trap": "\"Depend of\" là lỗi dịch từ tiếng Việt \"phụ thuộc vào\"."
+    },
+    {
+     "id": "d14-p5-07",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 2,
+     "q": "The museum has ____ plans to extend its hours this summer.",
+     "options": [
+      "not",
+      "none",
+      "neither",
+      "no"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Trước danh từ \"plans\" dùng \"no\" để phủ định. \"Not\" cần đứng trước động từ hoặc tính từ.",
+      "en": "\"No\" negates the noun \"plans\"."
+     },
+     "trap": "Has not plans là sai; phải là does not have plans hoặc has no plans."
+    },
+    {
+     "id": "d14-p5-08",
+     "part": 5,
+     "skill": "p5.agreement",
+     "level": 2,
+     "q": "A list of available time slots ____ posted outside the office.",
+     "options": [
+      "are",
+      "have been",
+      "is",
+      "were"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Chủ ngữ chính là \"A list\" (số ít), bỏ qua cụm \"of ... slots\". Dùng is.",
+      "en": "The head noun \"list\" is singular, so use \"is\"."
+     },
+     "trap": "\"Slots\" nhiều nên em nghĩ are; nhưng nó nằm trong cụm of, không phải chủ ngữ."
+    },
+    {
+     "id": "d14-p5-09",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 1,
+     "q": "The tour was canceled ____ the guide became ill.",
+     "options": [
+      "because of",
+      "because",
+      "despite",
+      "due to"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Sau chỗ trống là mệnh đề \"the guide became ill\", nên dùng liên từ because.",
+      "en": "A clause follows, so \"because\" is correct."
+     },
+     "trap": "Because of và due to cùng nghĩa nhưng đòi hỏi danh từ theo sau."
+    },
+    {
+     "id": "d14-p5-10",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 2,
+     "q": "Employees may request a refund by completing the ____ form.",
+     "options": [
+      "reimbursement",
+      "reimburse",
+      "reimbursed",
+      "reimbursing"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Reimbursement form\" là cụm danh từ ghép: mẫu đơn hoàn chi phí.",
+      "en": "\"Reimbursement form\" is a noun + noun phrase."
+     },
+     "trap": "Reimbursed là V-ed nghe như tính từ, nhưng cụm chuẩn dùng danh từ."
+    },
+    {
+     "id": "d14-p5-11",
+     "part": 5,
+     "skill": "p5.comparison",
+     "level": 2,
+     "q": "This model is ____ of the three laptops we tested.",
+     "options": [
+      "lighter",
+      "more light",
+      "lightly",
+      "the lightest"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "So sánh nhất trong nhóm ba cái, có \"of the three\", nên dùng the lightest.",
+      "en": "A superlative with \"of the three\" needs \"the lightest\"."
+     },
+     "trap": "\"Lighter\" dùng cho so sánh hai đối tượng."
+    },
+    {
+     "id": "d14-p5-12",
+     "part": 5,
+     "skill": "p5.wish-if",
+     "level": 2,
+     "q": "If the supplier had delivered on time, we ____ the deadline.",
+     "options": [
+      "would meet",
+      "will meet",
+      "would have met",
+      "had met"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "If + quá khứ hoàn thành thì mệnh đề chính là would have + V3 (điều kiện loại 3).",
+      "en": "Third conditional: if + had + V3, would have + V3."
+     },
+     "trap": "\"Would meet\" là loại 2, không hợp với \"had delivered\"."
+    },
+    {
+     "id": "d14-p5-13",
+     "part": 5,
+     "skill": "p5.participle",
+     "level": 3,
+     "q": "Customers ____ in the loyalty program receive a monthly coupon.",
+     "options": [
+      "enrolling",
+      "enrolled",
+      "enroll",
+      "enrollment"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Khách hàng được ghi danh (bị động), rút gọn mệnh đề quan hệ: customers who are enrolled thành customers enrolled.",
+      "en": "Reduced passive relative clause: \"customers (who are) enrolled\"."
+     },
+     "trap": "Enrolling nghĩa là đang ghi danh người khác, không đúng nghĩa bị động ở đây."
+    },
+    {
+     "id": "d14-p5-14",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 1,
+     "q": "Mr. Kim is a highly ____ engineer with ten years of experience.",
+     "options": [
+      "qualified",
+      "qualify",
+      "qualification",
+      "qualifying"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Trước danh từ \"engineer\", sau trạng từ highly cần tính từ: qualified (có trình độ).",
+      "en": "\"Highly\" + adjective before the noun \"engineer\"."
+     },
+     "trap": "\"Qualification\" là danh từ nên không đứng giữa mạo từ và danh từ như thế."
+    },
+    {
+     "id": "d14-p5-15",
+     "part": 5,
+     "skill": "p5.pronoun",
+     "level": 2,
+     "q": "Ms. Wu will present the results ____ at the board meeting.",
+     "options": [
+      "her",
+      "she",
+      "hers",
+      "herself"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"Herself\" nhấn mạnh cô ấy tự trình bày, không nhờ người khác.",
+      "en": "The reflexive \"herself\" stresses that she presents in person."
+     },
+     "trap": "\"Her\" là đại từ tân ngữ, không thể đứng sau results để nhấn mạnh."
+    }
+   ]
+  }
+ ],
+ "theory": []
+}

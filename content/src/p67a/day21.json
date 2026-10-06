@@ -1,0 +1,360 @@
+{
+  "grammar": [
+    {
+      "id": "d21-p6-a",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "email",
+          "title": "Evening tour training",
+          "text": "To: All tour guides\nFrom: Seabright Tours\nSubject: Evening tour training\n\nStarting next month, Seabright Tours will [1] evening tours of the harbor on Fridays and Saturdays. All guides who wish to lead these tours must attend a training session on October 12. The session will cover safety procedures, [2] procedures, and customer service skills. [3] Guides will also receive a flashlight and a reflective vest. Anyone interested [4] sign up with Ms. Chen no later than October 5."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d21-p6-a-1",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [1]",
+          "options": [
+            "introduce",
+            "introduction",
+            "introductory",
+            "introducing"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Sau \"will\" cần động từ nguyên mẫu: \"introduce\" (bắt đầu giới thiệu tour mới).",
+            "en": "After \"will\" use the base verb \"introduce\"."
+          },
+          "trap": "\"introduction\" là danh từ nên không đi sau \"will\"."
+        },
+        {
+          "id": "d21-p6-a-2",
+          "part": 6,
+          "skill": "p6.collocation",
+          "level": 2,
+          "q": "Blank [2]",
+          "options": [
+            "emergency",
+            "emergent",
+            "emergence",
+            "emerge"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Danh từ ghép \"emergency procedures\" (quy trình khẩn cấp), song song với \"safety procedures\".",
+            "en": "The noun compound \"emergency procedures\", parallel to \"safety procedures\"."
+          },
+          "trap": "\"emergent\" là tính từ hiếm gặp, ít đi với \"procedures\"."
+        },
+        {
+          "id": "d21-p6-a-3",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 2,
+          "q": "Blank [3]",
+          "options": [
+            "The harbor tours are among our most popular activities.",
+            "All equipment will be provided by the company during the training.",
+            "Ticket prices for the evening tours are not yet confirmed.",
+            "Ms. Chen has been a guide for more than ten years."
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Câu sau có \"also receive a flashlight\", nên câu chèn nói công ty cung cấp thiết bị khi tập huấn.",
+            "en": "\"Also receive a flashlight\" follows a sentence about equipment being provided."
+          },
+          "trap": "Câu A lặp \"tours\" nhưng không nối được với \"also receive\"."
+        },
+        {
+          "id": "d21-p6-a-4",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [4]",
+          "options": [
+            "should",
+            "to be",
+            "will being",
+            "and"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "\"Anyone interested should sign up\" dùng động từ khiếm khuyết \"should\" trước động từ nguyên mẫu.",
+            "en": "\"Should\" is the modal that precedes the base verb \"sign up\"."
+          },
+          "trap": "\"to be\" không đứng được trước \"sign up\" vì thừa động từ."
+        }
+      ]
+    },
+    {
+      "id": "d21-p6-b",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "article",
+          "title": "Library extends hours",
+          "text": "Library Extends Hours\n\nThe Maplewood Public Library will begin [1] its opening hours on Monday, in response to a survey [2] last spring. According to library director Elena Ruiz, most of the 1,200 residents who responded asked for later evening hours. [3] The library will now stay open until 9 P.M. on weekdays. Weekend hours will remain [4]."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d21-p6-b-1",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [1]",
+          "options": [
+            "extend",
+            "extending",
+            "extension",
+            "extended"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "\"begin\" thường theo sau bởi V-ing hoặc to V; trong các lựa chọn chỉ có \"extending\".",
+            "en": "\"Begin\" is followed by an -ing form or \"to + verb\"; only \"extending\" fits."
+          },
+          "trap": "\"extension\" là danh từ nên không đi sau \"begin\" làm động từ."
+        },
+        {
+          "id": "d21-p6-b-2",
+          "part": 6,
+          "skill": "p6.participle",
+          "level": 2,
+          "q": "Blank [2]",
+          "options": [
+            "conduct",
+            "conducted",
+            "conducting",
+            "conductor"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "\"a survey conducted last spring\" là phân từ quá khứ bị động: cuộc khảo sát được thực hiện.",
+            "en": "\"A survey conducted last spring\" is a passive past participle."
+          },
+          "trap": "\"conducting\" mang nghĩa chủ động, không hợp vì khảo sát không tự thực hiện."
+        },
+        {
+          "id": "d21-p6-b-3",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 3,
+          "q": "Blank [3]",
+          "options": [
+            "Books may be borrowed for up to three weeks.",
+            "Their request has been granted.",
+            "The director has worked at the library for ten years.",
+            "A new parking lot is under construction behind the building."
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "\"Their\" chỉ cư dân đã yêu cầu giờ muộn hơn; câu sau cho biết thư viện mở đến 9 giờ.",
+            "en": "\"Their\" refers to the residents who asked for later hours, and the next sentence confirms the change."
+          },
+          "trap": "Câu D nghe như tin thư viện nhưng không nối với yêu cầu của cư dân."
+        },
+        {
+          "id": "d21-p6-b-4",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [4]",
+          "options": [
+            "unchanging",
+            "unchanged",
+            "unchange",
+            "unchangeable"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "\"remain unchanged\" là cụm cố định: giữ nguyên, không đổi.",
+            "en": "\"Remain unchanged\" is the standard phrase: stays as before."
+          },
+          "trap": "\"unchangeable\" nghĩa là không thể thay đổi, nặng hơn và không tự nhiên cho giờ mở cửa."
+        }
+      ]
+    },
+    {
+      "id": "d21-p6-c",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "email",
+          "title": "Reservation confirmation",
+          "text": "To: Mr. Duarte\nFrom: Lakeview Hotel Reservations\nSubject: Your reservation, May 4 to May 7\n\nDear Mr. Duarte,\n\nThank you for choosing the Lakeview Hotel for your stay from May 4 to May 7. We have [1] your reservation for a double room with a view of the lake. Check-in begins at 3 P.M.; [2], if you arrive earlier, we will gladly store your luggage at the front desk. [3] The hotel's restaurant offers a complimentary breakfast daily, [4] is served from 6:30 to 10:00 A.M.\n\nWe look forward to welcoming you."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d21-p6-c-1",
+          "part": 6,
+          "skill": "p6.tense",
+          "level": 1,
+          "q": "Blank [1]",
+          "options": [
+            "confirm",
+            "confirmed",
+            "confirming",
+            "confirmation"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "\"have confirmed\" là thì hiện tại hoàn thành: đã xác nhận đặt phòng.",
+            "en": "\"Have confirmed\" is the present perfect: the reservation is confirmed."
+          },
+          "trap": "\"confirmation\" là danh từ nên không đi sau \"have\"."
+        },
+        {
+          "id": "d21-p6-c-2",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [2]",
+          "options": [
+            "however",
+            "moreover",
+            "therefore",
+            "otherwise"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Hai ý đối lập: nhận phòng lúc 3 giờ, nhưng đến sớm vẫn gửi hành lý được. Dùng \"however\".",
+            "en": "The two ideas contrast: check-in is at 3, but early guests can still store luggage. Use \"however\"."
+          },
+          "trap": "\"therefore\" chỉ kết quả, không hợp với ý đối lập."
+        },
+        {
+          "id": "d21-p6-c-3",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 3,
+          "q": "Blank [3]",
+          "options": [
+            "Rooms on the upper floors are available at a higher price.",
+            "The city's annual lake festival takes place in July.",
+            "Several amenities are included in your room rate.",
+            "Reservations may be canceled up to 48 hours in advance."
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Câu sau nêu \"complimentary breakfast\", một ví dụ của tiện ích đi kèm, nên câu chèn nói về tiện ích có trong giá phòng.",
+            "en": "The next sentence gives a complimentary breakfast as an example, so the missing sentence introduces included amenities."
+          },
+          "trap": "Câu D nói chính sách hủy nên không dẫn vào bữa sáng miễn phí."
+        },
+        {
+          "id": "d21-p6-c-4",
+          "part": 6,
+          "skill": "p6.relative",
+          "level": 2,
+          "q": "Blank [4]",
+          "options": [
+            "which",
+            "it",
+            "what",
+            "that"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Mệnh đề không xác định sau dấu phẩy dùng \"which\" cho vật (\"breakfast\").",
+            "en": "A non-restrictive clause after a comma uses \"which\" for things."
+          },
+          "trap": "\"that\" không dùng sau dấu phẩy; \"it\" làm câu thành lỗi nối câu."
+        }
+      ]
+    },
+    {
+      "id": "d21-p6-d",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "memo",
+          "title": "Lifting safety training",
+          "text": "MEMO\nTo: Plant employees\nFrom: Safety Committee\n\nThe Safety Committee has reviewed last quarter's incident report and found that most accidents occurred [1] employees were carrying heavy boxes without assistance. To reduce such incidents, the company will provide training in proper lifting techniques. [2] Attendance is mandatory for everyone working in the warehouse. Employees who complete the course will receive a certificate, [3] they must present when requesting protective equipment. Anyone [4] questions about the program may contact the committee at extension 214."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d21-p6-d-1",
+          "part": 6,
+          "skill": "p6.conj",
+          "level": 2,
+          "q": "Blank [1]",
+          "options": [
+            "whether",
+            "when",
+            "during",
+            "because of"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "\"when + mệnh đề\": tai nạn xảy ra khi nhân viên tự khuân vác. \"during\" và \"because of\" là giới từ, không đi trước mệnh đề.",
+            "en": "\"When\" introduces a clause: accidents occurred when employees carried boxes alone. \"During\" and \"because of\" are prepositions."
+          },
+          "trap": "\"whether\" nghĩa là \"liệu rằng\", không chỉ thời điểm."
+        },
+        {
+          "id": "d21-p6-d-2",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 2,
+          "q": "Blank [2]",
+          "options": [
+            "Last quarter's sales figures were higher than expected.",
+            "Protective gloves are available in three different sizes.",
+            "Sessions will be held in the main conference room every Tuesday in March.",
+            "The cafeteria will remain closed until further notice."
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Câu sau nói \"Attendance is mandatory\", nên câu chèn nêu lịch buổi tập huấn.",
+            "en": "\"Attendance\" needs a prior sentence naming the sessions, so the schedule fits."
+          },
+          "trap": "Câu B nhắc đồ bảo hộ, nghe liên quan an toàn, nhưng không dẫn tới \"attendance\"."
+        },
+        {
+          "id": "d21-p6-d-3",
+          "part": 6,
+          "skill": "p6.relative",
+          "level": 3,
+          "q": "Blank [3]",
+          "options": [
+            "what",
+            "who",
+            "whose",
+            "which"
+          ],
+          "answer": 3,
+          "why": {
+            "vi": "\"a certificate, which they must present\": \"which\" thay cho \"certificate\" làm tân ngữ của \"present\".",
+            "en": "\"Which\" replaces \"certificate\" as the object of \"present\"."
+          },
+          "trap": "\"what\" không dùng sau danh từ đã có tiền ngữ."
+        },
+        {
+          "id": "d21-p6-d-4",
+          "part": 6,
+          "skill": "p6.participle",
+          "level": 3,
+          "q": "Blank [4]",
+          "options": [
+            "has",
+            "have",
+            "having",
+            "to have"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "\"Anyone having questions\" là cụm phân từ rút gọn của \"who has\".",
+            "en": "\"Anyone having questions\" is a reduced form of \"who has questions\"."
+          },
+          "trap": "\"has\" hay bị chọn vì chủ ngữ số ít, nhưng câu đã có động từ chính \"may contact\"."
+        }
+      ]
+    }
+  ]
+}

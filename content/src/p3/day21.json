@@ -1,0 +1,1319 @@
+{
+ "listening": [
+  {
+   "id": "d21-p3-a",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Hi, Neil. I just heard that the Hartley account is moving its order up by two weeks."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Two weeks? That's going to strain the warehouse. We're already short on packing staff."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "I know. Could we bring in some temporary workers from an agency?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "It's an option, though they'd need training, and that takes a couple of days."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Then let's start right away. I'll call the agency and ask for six people by Monday."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "And I'll let the client know we'll confirm the date once we see how many we get."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p3-a1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 2,
+     "q": "What problem are the speakers discussing?",
+     "options": [
+      "A damaged shipment",
+      "A price dispute",
+      "A canceled contract",
+      "A rush order"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Khách hàng muốn đơn hàng sớm hơn hai tuần, tức là đơn gấp.",
+      "en": "The client wants the order earlier, a rush order."
+     },
+     "trap": "Chưa có gì bị hư hay hủy."
+    },
+    {
+     "id": "d21-p3-a2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "What is mentioned as a drawback of hiring temporary workers?",
+     "options": [
+      "They need instruction first",
+      "They are expensive",
+      "They are hard to find",
+      "They work slowly"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Họ phải được đào tạo mất vài ngày.",
+      "en": "Training takes a couple of days."
+     },
+     "trap": "Chi phí không được đề cập."
+    },
+    {
+     "id": "d21-p3-a3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the woman do next?",
+     "options": [
+      "Inform the client",
+      "Contact an agency",
+      "Reorganize the warehouse",
+      "Order supplies"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô sẽ gọi công ty cung ứng nhân sự.",
+      "en": "She will call the staffing agency."
+     },
+     "trap": "Anh Neil sẽ báo khách hàng."
+    }
+   ]
+  },
+  {
+   "id": "d21-p3-b",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Hi, Karen. I'm having trouble with the new accounting software. It keeps logging me out."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "It did the same to me yesterday. IT told us to clear the browser cache."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "I tried that, and it didn't help. Do you think I should reinstall it?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "It's a web application, so there's nothing to reinstall. Why not submit a help ticket? They respond within a few hours."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Okay. But I have to send the payroll report before five."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Then use my computer for now. I'm in meetings until three."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p3-b1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What is the man’s problem?",
+     "options": [
+      "He lost a file",
+      "His screen is broken",
+      "He cannot stay signed in",
+      "He forgot a password"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Phần mềm liên tục đăng xuất anh ra.",
+      "en": "The software keeps logging him out."
+     },
+     "trap": "Anh không quên mật khẩu."
+    },
+    {
+     "id": "d21-p3-b2",
+     "part": 3,
+     "skill": "p3.implication",
+     "level": 3,
+     "q": "Why does the woman say reinstalling is unnecessary?",
+     "options": [
+      "It was updated yesterday",
+      "It is free",
+      "It belongs to IT",
+      "The program runs online"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Đó là ứng dụng web nên không có gì để cài lại.",
+      "en": "A web application runs online and is not installed."
+     },
+     "trap": "Cô không nói bản cập nhật hôm qua."
+    },
+    {
+     "id": "d21-p3-b3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What does the woman offer?",
+     "options": [
+      "Her computer",
+      "Her password",
+      "A ticket",
+      "A manual"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô cho anh dùng máy của cô trong lúc chờ.",
+      "en": "She offers her computer for now."
+     },
+     "trap": "Ticket là cô khuyên anh tự gửi."
+    }
+   ]
+  },
+  {
+   "id": "d21-p3-c",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Good morning. I called a meeting because we've received three complaints about the new cafeteria schedule."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "I've heard them too. People say lunch ends too early at one-thirty."
+    },
+    {
+     "spk": "Man 2",
+     "voice": "auM",
+     "text": "Honestly, that was my decision. We were losing money in the afternoons."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "I understand, but employees on the late shift can't get a hot meal."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "What if we keep the main counter open until two, and use only the snack bar after that?"
+    },
+    {
+     "spk": "Man 2",
+     "voice": "auM",
+     "text": "That could work. I'd have to check the cost of the extra staff hours."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Please do, and send the numbers to us by Thursday."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p3-c1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What is the meeting about?",
+     "options": [
+      "A menu price rise",
+      "Complaints about meal times",
+      "A new cafeteria worker",
+      "A kitchen renovation"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Có phàn nàn về giờ phục vụ mới của căng tin.",
+      "en": "Staff complain about the new cafeteria hours."
+     },
+     "trap": "Giá thực đơn không được nhắc."
+    },
+    {
+     "id": "d21-p3-c2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "Why was the schedule changed?",
+     "options": [
+      "To save electricity",
+      "To follow a law",
+      "To prevent financial losses",
+      "To train new staff"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Buổi chiều quán đang lỗ tiền.",
+      "en": "They were losing money in the afternoons."
+     },
+     "trap": "Điện không được nhắc."
+    },
+    {
+     "id": "d21-p3-c3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What will the second man do?",
+     "options": [
+      "Close the snack bar",
+      "Interview applicants",
+      "Ask employees to vote",
+      "Calculate expenses"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Anh sẽ kiểm tra chi phí giờ làm thêm của nhân viên rồi gửi số liệu.",
+      "en": "He will check the cost, i.e. calculate expenses."
+     },
+     "trap": "Quầy snack vẫn mở theo đề xuất."
+    }
+   ]
+  },
+  {
+   "id": "d21-p3-d",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Excuse me, I'm looking for a gift for my sister. She just started her first job as a nurse."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Congratulations to her! How much would you like to spend?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Around fifty dollars. Something practical, maybe."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "These insulated water bottles are very popular with hospital staff. They keep drinks cold for twenty-four hours."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "That's useful. Can you engrave her name on it?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "We can, but it takes three days. If you need it sooner, I'd suggest this one, which comes with a free sleeve."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "I can wait. I'll take the engraved one."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p3-d1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What is the man doing?",
+     "options": [
+      "Shopping for a present",
+      "Returning an item",
+      "Applying for work",
+      "Comparing prices for his company"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh tìm quà cho em gái mới đi làm.",
+      "en": "He is looking for a gift."
+     },
+     "trap": "Anh không trả hàng."
+    },
+    {
+     "id": "d21-p3-d2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "What does the woman say about the bottles?",
+     "options": [
+      "They are on sale",
+      "They keep temperatures for a long time",
+      "They come in many sizes",
+      "They are made locally"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Giữ lạnh 24 giờ, tức là giữ nhiệt lâu.",
+      "en": "Cold for 24 hours means it holds temperature a long time."
+     },
+     "trap": "Giảm giá không được nhắc."
+    },
+    {
+     "id": "d21-p3-d3",
+     "part": 3,
+     "skill": "p3.implication",
+     "level": 3,
+     "q": "What does the man imply about the engraving?",
+     "options": [
+      "It is too expensive",
+      "It is not available",
+      "The delay is acceptable",
+      "He needs it today"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Anh nói anh có thể chờ, nghĩa là chấp nhận việc chậm.",
+      "en": "He can wait, so the delay is acceptable."
+     },
+     "trap": "Không ai nói về giá khắc tên."
+    }
+   ]
+  },
+  {
+   "id": "d21-p3-e",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Good afternoon, Tidewater Aquarium. This is Mia."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Hello, I'm calling on behalf of Oakridge Primary. We'd like to bring sixty children on a field trip next month."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "That's wonderful. We recommend splitting larger groups into two, so the exhibits don't get crowded."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Understandable. Are there any educational materials for the teachers?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Yes, we email a free activity booklet after you book. Lunch can be arranged in our café, or the children can bring their own."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Bringing their own would be best. Could you reserve the eleventh of March?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Let me check the calendar. I'll confirm by email this afternoon."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p3-e1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "Why is the man calling?",
+     "options": [
+      "To apply for a job",
+      "To order food",
+      "To return a ticket",
+      "To arrange a school trip"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Anh gọi để đặt chuyến tham quan cho học sinh.",
+      "en": "He wants to book a field trip."
+     },
+     "trap": "Lunch chỉ là chi tiết kèm theo."
+    },
+    {
+     "id": "d21-p3-e2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "What does the woman recommend?",
+     "options": [
+      "Dividing a large group",
+      "Visiting on weekends",
+      "Booking a guide",
+      "Paying in advance"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô khuyên chia nhóm lớn làm hai.",
+      "en": "She suggests splitting the group in two."
+     },
+     "trap": "Không nói phải trả trước."
+    },
+    {
+     "id": "d21-p3-e3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What will the woman do this afternoon?",
+     "options": [
+      "Mail a booklet",
+      "Verify availability by email",
+      "Prepare lunches",
+      "Call a teacher"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô sẽ kiểm tra lịch và xác nhận qua email.",
+      "en": "She will check the calendar and confirm by email."
+     },
+     "trap": "Booklet gửi sau khi đặt chỗ."
+    }
+   ]
+  },
+  {
+   "id": "d21-p3-f",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Hi, Joanna. Have you looked at the budget report I sent on Monday?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "I did. Overall it's fine, but the travel line looks too high for this time of year."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "That's because of the sales conference in Chicago. It's included in the number."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Right, but we agreed to hold that event virtually. Didn't the CEO approve it?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "He did, and I forgot to remove it. I'll recalculate right now."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Thanks. Send me a new version before our two o'clock meeting."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p3-f1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 2,
+     "q": "What is the conversation mainly about?",
+     "options": [
+      "A new travel policy",
+      "A conference location",
+      "An error in a financial document",
+      "A hiring plan"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Báo cáo ngân sách còn dòng chi phí đi lại không đúng.",
+      "en": "The budget report still has an incorrect travel cost."
+     },
+     "trap": "Hội nghị chỉ là nguyên nhân gây sai số."
+    },
+    {
+     "id": "d21-p3-f2",
+     "part": 3,
+     "skill": "p3.implication",
+     "level": 3,
+     "q": "What does the man imply about the conference?",
+     "options": [
+      "It has been postponed",
+      "It was moved to Chicago",
+      "It will cost more",
+      "It will no longer be held in person"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Hội nghị được quyết định tổ chức trực tuyến, nên không còn trực tiếp.",
+      "en": "It will be virtual, no longer in person."
+     },
+     "trap": "Chicago là địa điểm cũ, không phải nơi mới."
+    },
+    {
+     "id": "d21-p3-f3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What will the man do next?",
+     "options": [
+      "Redo some calculations",
+      "Cancel a meeting",
+      "Call the CEO",
+      "Book flights"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh sẽ tính lại ngay.",
+      "en": "He will recalculate right now."
+     },
+     "trap": "CEO đã duyệt rồi nên anh không cần gọi."
+    }
+   ]
+  },
+  {
+   "id": "d21-p3-g",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Hello. I'm calling to ask about the free-delivery offer on your website."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Certainly. Orders over eighty dollars qualify, as long as the delivery address is within the city limits."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "I'm ordering a bookshelf for our office, which is across the river in Eastbrook."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Eastbrook is outside the limits, I'm afraid. The delivery charge there is twelve dollars."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "That's fine. When could it arrive?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "We have a truck in your area on Thursday. If I enter your order now, it will be on that route."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Please do. And can the driver assemble it?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "For ten dollars extra, yes."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p3-g1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What is the woman’s purpose in calling?",
+     "options": [
+      "To report a missing order",
+      "To find out about a delivery promotion",
+      "To change an address",
+      "To request a catalog"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô hỏi về ưu đãi giao hàng miễn phí.",
+      "en": "She asks about the free-delivery offer."
+     },
+     "trap": "Cô chưa có đơn bị mất."
+    },
+    {
+     "id": "d21-p3-g2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "Why will the woman be charged for delivery?",
+     "options": [
+      "Her order is too small",
+      "She wants express service",
+      "Her office is outside a specific area",
+      "She is a new customer"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Eastbrook nằm ngoài giới hạn thành phố.",
+      "en": "Eastbrook is outside the city limits."
+     },
+     "trap": "Giá trị đơn chưa được nói là nhỏ."
+    },
+    {
+     "id": "d21-p3-g3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 3,
+     "q": "What additional service might the woman pay for?",
+     "options": [
+      "Gift wrapping",
+      "An extended warranty",
+      "Faster shipping",
+      "Assembly of the item"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Thêm 10 đô để tài xế lắp ráp.",
+      "en": "Ten dollars for the driver to assemble it."
+     },
+     "trap": "Tốc độ giao hàng không được tính thêm phí."
+    }
+   ]
+  },
+  {
+   "id": "d21-p3-h",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Lisa, I'm looking at the conference room schedule for next week. Who booked the big room on Tuesday morning?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "That was me. We have a client from Seoul coming for a presentation."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "The thing is, I booked it, too, for the staff training. I think the system allowed a double booking."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Hmm. My meeting is more urgent, but I don't mind if you use the lounge on the fifth floor."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "The lounge can't fit our group of twenty. Could we do it in the afternoon instead?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "The room's free after one. I'll update the calendar and tell you when it's done."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p3-h1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What problem do the speakers discuss?",
+     "options": [
+      "A scheduling conflict",
+      "A canceled presentation",
+      "A broken projector",
+      "A late client"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Hai người đặt trùng phòng họp vào sáng thứ Ba.",
+      "en": "Both booked the same room, a scheduling conflict."
+     },
+     "trap": "Không có thiết bị hỏng."
+    },
+    {
+     "id": "d21-p3-h2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "Why is the lounge not suitable?",
+     "options": [
+      "It is noisy",
+      "It is too small",
+      "It is closed",
+      "It has no screen"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Phòng chờ không chứa nổi nhóm 20 người.",
+      "en": "It cannot fit twenty people."
+     },
+     "trap": "Không nói nó ồn."
+    },
+    {
+     "id": "d21-p3-h3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What will the woman do?",
+     "options": [
+      "Meet the client",
+      "Cancel the training",
+      "Change the reservation record",
+      "Move to the lounge"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Cô sẽ cập nhật lịch.",
+      "en": "She will update the calendar."
+     },
+     "trap": "Khách đến vào sáng thứ Ba, không đổi."
+    }
+   ]
+  },
+  {
+   "id": "d21-p3-i",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Dr. Silva's office. How may I help you?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Hi, this is Peter Grant. I got a letter saying my medical insurance has changed, and I'm not sure my plan covers my regular visits."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "May I have your member number?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "It's on the card, but I left it at work. Could I call back this afternoon?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Of course. In the meantime, I'd suggest checking the provider's website. They list the clinics that accept each plan."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "I'll do that. Is there a charge if I have to cancel next Monday's appointment?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Not if you let us know twenty-four hours in advance."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p3-i1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "Why does the man call?",
+     "options": [
+      "To book a surgery",
+      "To pay a bill",
+      "To get test results",
+      "To ask about coverage"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Anh lo gói bảo hiểm mới có chi trả cho các lần khám không.",
+      "en": "He wonders whether his insurance covers visits."
+     },
+     "trap": "Chưa nói đến phẫu thuật."
+    },
+    {
+     "id": "d21-p3-i2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "Why can the woman not look up the man’s information now?",
+     "options": [
+      "He does not have a number with him",
+      "The system is down",
+      "The office is closing",
+      "His file is missing"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh để thẻ ở chỗ làm, nên không có số hội viên.",
+      "en": "He left his card at work."
+     },
+     "trap": "Hệ thống không được nói là hỏng."
+    },
+    {
+     "id": "d21-p3-i3",
+     "part": 3,
+     "skill": "p3.implication",
+     "level": 3,
+     "q": "What does the woman imply about cancellations?",
+     "options": [
+      "They are not allowed",
+      "Advance notice avoids a charge",
+      "A form is required",
+      "They cost fifty dollars"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Báo trước 24 giờ thì không bị tính phí.",
+      "en": "Twenty-four hours’ notice means no charge."
+     },
+     "trap": "Không nói cần mẫu đơn."
+    }
+   ]
+  },
+  {
+   "id": "d21-p3-j",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Becky, did you notice the revenue chart in today's report? Our online sales are up, but the in-store numbers are down."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "That's the trend this quarter. Which location is struggling the most?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Look at the table. The Westfield store has the biggest decline, even though it's in the busiest mall."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Interesting. Maybe the parking fees at Westfield are putting people off."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Possibly. Either way, I think we should send a survey to customers there before we make changes."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Agreed. Can you draft the questions by Friday?"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p3-j1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 2,
+     "q": "What are the speakers discussing?",
+     "options": [
+      "A new website",
+      "A hiring freeze",
+      "Falling store sales",
+      "A mall renovation"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Họ bàn về doanh số cửa hàng giảm.",
+      "en": "In-store numbers are down."
+     },
+     "trap": "Online tăng chứ không giảm."
+    },
+    {
+     "id": "d21-p3-j2",
+     "part": 3,
+     "skill": "p3.graphic",
+     "level": 3,
+     "q": "Look at the graphic. Which store is the speakers’ main concern?",
+     "options": [
+      "Harbor Point",
+      "Greenway",
+      "Central Plaza",
+      "Westfield"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Westfield giảm nhiều nhất (18 phần trăm).",
+      "en": "Westfield has the largest drop, 18 percent."
+     },
+     "trap": "Central Plaza giảm ít hơn."
+    },
+    {
+     "id": "d21-p3-j3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What does the woman ask the man to do?",
+     "options": [
+      "Prepare a questionnaire",
+      "Reduce prices",
+      "Call the mall",
+      "Change a schedule"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô nhờ anh soạn câu hỏi khảo sát.",
+      "en": "She asks him to draft survey questions."
+     },
+     "trap": "Giảm giá không được đề xuất."
+    }
+   ],
+   "graphic": {
+    "caption": "In-store sales change from last quarter",
+    "rows": [
+     [
+      "Store",
+      "Change"
+     ],
+     [
+      "Harbor Point",
+      "-4%"
+     ],
+     [
+      "Greenway",
+      "-7%"
+     ],
+     [
+      "Central Plaza",
+      "-11%"
+     ],
+     [
+      "Westfield",
+      "-18%"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "d21-p3-k",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Tony, I need your opinion on the layout for the new employee handbook. Take a look at the page map."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "It looks organized. But where's the section on vacation days? People ask about that the most."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "It's under the benefits chapter, which comes right after the safety rules."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "That's too far back. Can we place benefits right after the introduction?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Hmm. Then the safety chapter would move down. I suppose that's fine, as long as the code of conduct stays third."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Perfect. I'll let the designer know."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p3-k1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 2,
+     "q": "What are the speakers discussing?",
+     "options": [
+      "Hiring a designer",
+      "Arranging the contents of a document",
+      "Planning a safety drill",
+      "Updating vacation rules"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Họ sắp xếp thứ tự các chương của cuốn sổ tay.",
+      "en": "They are organizing the handbook layout."
+     },
+     "trap": "Vacation chỉ là nội dung cần dễ tìm."
+    },
+    {
+     "id": "d21-p3-k2",
+     "part": 3,
+     "skill": "p3.graphic",
+     "level": 3,
+     "q": "Look at the graphic. Which chapter will probably be moved to the second position?",
+     "options": [
+      "Safety Rules",
+      "Code of Conduct",
+      "Benefits",
+      "Introduction"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Benefits được chuyển lên ngay sau phần giới thiệu, tức là vị trí thứ hai.",
+      "en": "Benefits goes right after the introduction, position two."
+     },
+     "trap": "Code of Conduct giữ ở vị trí thứ ba."
+    },
+    {
+     "id": "d21-p3-k3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the man do next?",
+     "options": [
+      "Write a chapter",
+      "Revise safety rules",
+      "Print the handbook",
+      "Contact a designer"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Anh sẽ báo cho nhà thiết kế.",
+      "en": "He will tell the designer."
+     },
+     "trap": "Chưa in gì."
+    }
+   ],
+   "graphic": {
+    "caption": "Handbook chapter order (current)",
+    "rows": [
+     [
+      "Position",
+      "Chapter"
+     ],
+     [
+      "1",
+      "Introduction"
+     ],
+     [
+      "2",
+      "Safety Rules"
+     ],
+     [
+      "3",
+      "Code of Conduct"
+     ],
+     [
+      "4",
+      "Benefits"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "d21-p3-l",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Hello, Ms. Ito. I'm calling from Northgate Auto. Your car is ready for pickup."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "That was quick. I thought it would take until Friday."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "The part arrived early. But we also found that your brake pads were worn, so I replaced them as well."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Oh. Did you check with me first? That wasn't in the estimate."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "I'm sorry. I left a message yesterday, but I may have used the wrong number. I can take twenty dollars off the labor charge."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "That's fair. I'll come by at five."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p3-l1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "Why is the man calling?",
+     "options": [
+      "To say a vehicle is finished",
+      "To schedule an appointment",
+      "To order a part",
+      "To collect a payment"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Xe đã sẵn sàng để nhận.",
+      "en": "Her car is ready for pickup."
+     },
+     "trap": "Anh chưa đặt phụ tùng mới."
+    },
+    {
+     "id": "d21-p3-l2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "What is the woman unhappy about?",
+     "options": [
+      "A late delivery",
+      "An unapproved repair",
+      "A missed call from her bank",
+      "A wrong date"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Việc thay má phanh không có trong bản dự toán.",
+      "en": "The brake work was not in the estimate."
+     },
+     "trap": "Xe xong sớm hơn dự kiến."
+    },
+    {
+     "id": "d21-p3-l3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What does the man offer?",
+     "options": [
+      "A rental car",
+      "A longer warranty",
+      "A reduction in cost",
+      "Free delivery"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Anh giảm 20 đô tiền công.",
+      "en": "Twenty dollars off the labor charge."
+     },
+     "trap": "Không nhắc xe cho thuê."
+    }
+   ]
+  },
+  {
+   "id": "d21-p3-m",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Carlos, the quarterly inspection is next week. Is the cold storage room ready?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "The temperature's fine, but the log sheet is a mess. Two of the readings were written in the wrong column."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "The inspector will check that first. Can you reprint the sheet and copy the numbers by hand?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "I'd rather correct the original and initial the changes, so nothing looks altered."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "You're right, that's the proper procedure. Who else has access to the log?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Only me and Dana. I'll ask her to review it with me tomorrow."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p3-m1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 2,
+     "q": "What are the speakers preparing for?",
+     "options": [
+      "A staff party",
+      "A product launch",
+      "A delivery",
+      "An official check"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Họ chuẩn bị cho đợt kiểm tra định kỳ.",
+      "en": "The quarterly inspection is an official check."
+     },
+     "trap": "Không có sự kiện nào khác."
+    },
+    {
+     "id": "d21-p3-m2",
+     "part": 3,
+     "skill": "p3.implication",
+     "level": 3,
+     "q": "Why does the man prefer to correct the original sheet?",
+     "options": [
+      "To keep records honest",
+      "To save paper",
+      "To finish sooner",
+      "To avoid a fee"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Sửa bản gốc và ký tắt để không bị nghi ngờ làm giả số liệu.",
+      "en": "Initialing corrections keeps the record honest."
+     },
+     "trap": "Tiết kiệm giấy không phải lý do được nói."
+    },
+    {
+     "id": "d21-p3-m3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What will the man do tomorrow?",
+     "options": [
+      "Call the inspector",
+      "Go over the record with a coworker",
+      "Move the storage room",
+      "Buy a thermometer"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Anh sẽ xem lại bảng ghi cùng Dana.",
+      "en": "He will review the log with Dana."
+     },
+     "trap": "Nhiệt độ vẫn ổn."
+    }
+   ]
+  }
+ ]
+}

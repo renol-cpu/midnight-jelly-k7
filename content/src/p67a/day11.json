@@ -1,0 +1,182 @@
+{
+  "grammar": [
+    {
+      "id": "d11-p6-a",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "memo",
+          "title": "Cleanliness standards",
+          "text": "MEMO\nTo: All floor staff\nFrom: Operations Manager\nDate: March 3\nSubject: Cleanliness standards\n\nFollowing several [1] customer reviews about cleanliness, we will introduce new daily checks starting next week. Each staff member is [2] for keeping his or her own area tidy, including counters, display windows, and walkways. [3] A checklist will be posted near the staff entrance, and supervisors will sign it at the end of every shift. Please make sure that all cleaning supplies are returned to the storage room [4] closing time.\n\nThank you for your cooperation."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d11-p6-a-1",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [1]",
+          "options": [
+            "negate",
+            "negative",
+            "negatively",
+            "negation"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Trước danh từ \"customer reviews\" cần tính từ: \"negative\" (đánh giá tiêu cực).",
+            "en": "Before the noun phrase \"customer reviews\" we need an adjective: \"negative\"."
+          },
+          "trap": "Đừng chọn \"negatively\" vì trạng từ không bổ nghĩa trực tiếp cho danh từ."
+        },
+        {
+          "id": "d11-p6-a-2",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [2]",
+          "options": [
+            "response",
+            "responsible",
+            "responsibly",
+            "responsibility"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Cụm cố định \"be responsible for\": cần tính từ sau \"is\".",
+            "en": "The fixed phrase is \"be responsible for\", so an adjective follows \"is\"."
+          },
+          "trap": "\"responsibility\" cũng đi với \"for\" nhưng sau \"is\" phải là tính từ."
+        },
+        {
+          "id": "d11-p6-a-3",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 2,
+          "q": "Blank [3]",
+          "options": [
+            "The café will introduce a new seasonal menu in April.",
+            "Every area will be inspected at least once per shift.",
+            "Several tanks were repaired last year.",
+            "Some customers prefer to pay by credit card."
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Câu sau nhắc \"checklist\" và \"supervisors will sign it\", nên câu chèn nói về việc kiểm tra khu vực mỗi ca.",
+            "en": "The next sentence mentions a checklist signed by supervisors, so the missing sentence is about inspecting areas each shift."
+          },
+          "trap": "Câu C có \"tanks\" nghe đúng ngành nhưng không liên quan đến checklist vệ sinh."
+        },
+        {
+          "id": "d11-p6-a-4",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [4]",
+          "options": [
+            "while",
+            "before",
+            "during",
+            "until"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "\"before closing time\" nghĩa là trước giờ đóng cửa; hợp với việc trả dụng cụ về kho.",
+            "en": "\"Before closing time\" fits returning supplies to storage ahead of closing."
+          },
+          "trap": "\"until closing time\" nghĩa là kéo dài đến giờ đóng cửa, trái với ý trả đồ trước đó."
+        }
+      ]
+    },
+    {
+      "id": "d11-p6-b",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "email",
+          "title": "Delayed delivery",
+          "text": "To: Mr. Okafor\nFrom: Customer Service, Marlow Supply\nSubject: Your order of 40 filter cartridges\n\nDear Mr. Okafor,\n\nThank you for your order of 40 filter cartridges. Unfortunately, we are [1] to deliver them on March 10 as planned because of a shortage at our warehouse. [2] The new delivery date is March 17. If you need the items sooner, we can send half of the order by express courier, [3] you would pay the extra shipping charge. We sincerely [4] for the inconvenience and appreciate your patience.\n\nRegards,\nCustomer Service Team"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d11-p6-b-1",
+          "part": 6,
+          "skill": "p6.vocab",
+          "level": 2,
+          "q": "Blank [1]",
+          "options": [
+            "unable",
+            "impossible",
+            "unavailable",
+            "unlikely"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "\"be unable to + V\" là cấu trúc chuẩn: không thể giao hàng. \"Impossible\" không đi với người làm chủ ngữ (\"we are impossible\").",
+            "en": "\"Be unable to + verb\" is the standard pattern. \"Impossible\" cannot describe a person subject."
+          },
+          "trap": "\"unavailable\" gần nghĩa nhưng không đi với \"to deliver\"."
+        },
+        {
+          "id": "d11-p6-b-2",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 2,
+          "q": "Blank [2]",
+          "options": [
+            "Our warehouse is open from Monday to Friday.",
+            "We have therefore rescheduled your shipment.",
+            "Please complete the enclosed survey about our website.",
+            "All cartridges come with a one-year warranty."
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Câu trước nói giao hàng bị hoãn, câu sau nêu ngày giao mới, nên câu chèn là \"đã dời lịch giao hàng\".",
+            "en": "The delay is explained before and a new date follows, so the missing sentence announces the rescheduling."
+          },
+          "trap": "Câu A nhắc \"warehouse\" lặp từ khóa nhưng không dẫn tới \"ngày giao mới\"."
+        },
+        {
+          "id": "d11-p6-b-3",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [3]",
+          "options": [
+            "in case",
+            "provided that",
+            "so that",
+            "even though"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "\"provided that\" (với điều kiện là) nối đề nghị gửi nửa đơn hàng với điều kiện trả thêm phí.",
+            "en": "\"Provided that\" sets a condition: half the order ships if the customer pays the extra charge."
+          },
+          "trap": "\"so that\" chỉ mục đích nên câu thành vô nghĩa: \"để bạn sẽ trả thêm phí\"."
+        },
+        {
+          "id": "d11-p6-b-4",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [4]",
+          "options": [
+            "apologize",
+            "apology",
+            "apologetic",
+            "apologizing"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Sau \"we sincerely\" và chủ ngữ \"we\" cần động từ chia: \"apologize for\".",
+            "en": "After the subject \"we\" and the adverb \"sincerely\" we need a verb: \"apologize\"."
+          },
+          "trap": "\"apology\" là danh từ nên không đứng ở vị trí động từ."
+        }
+      ]
+    }
+  ]
+}

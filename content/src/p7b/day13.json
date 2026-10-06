@@ -1,0 +1,129 @@
+{
+ "reading": [
+  {
+   "id": "d13-p7-a",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "text-chain",
+     "title": "Clinic messages",
+     "text": "Nora Sims (8:52 A.M.): Dr. Patel, the lab called. Mr. Dube's test results will be ready by noon, not 3:00 P.M.\nDr. Patel (8:55 A.M.): That's great. Can you move his appointment up?\nNora Sims (8:56 A.M.): He's booked at 4:00 P.M. today. I can try for 1:00 P.M. if he is available.\nDr. Patel (8:58 A.M.): Please do. I'm free after 12:30.\nNora Sims (9:10 A.M.): He can come at 1:00. I'll send him a reminder text."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d13-p7-a1",
+     "part": 7,
+     "skill": "p7.speaker-intent",
+     "level": 2,
+     "q": "At 8:58 A.M., what does Dr. Patel mean when he writes, \"Please do\"?",
+     "options": [
+      "He wants Ms. Sims to send a reminder text",
+      "He wants Ms. Sims to call the lab again",
+      "He wants Ms. Sims to try to schedule an earlier appointment",
+      "He wants Ms. Sims to cancel the 4:00 appointment"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Cô Sims nói \"I can try for 1:00 P.M.\"; \"Please do\" nghĩa là bác sĩ đồng ý cho cô thử.",
+      "en": "Ms. Sims offers to try for 1:00 P.M., and \"Please do\" tells her to go ahead."
+     },
+     "trap": "Nhắc tin nhắn là việc cô Sims tự nói ở cuối, không phải ý của \"Please do\"."
+    },
+    {
+     "id": "d13-p7-a2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "When will Mr. Dube most likely have his appointment?",
+     "options": [
+      "At 12:30 P.M.",
+      "At 1:00 P.M.",
+      "At 3:00 P.M.",
+      "At 4:00 P.M."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Tin cuối lúc 9:10: \"He can come at 1:00.\"",
+      "en": "The last message confirms he can come at 1:00."
+     },
+     "trap": "4:00 là lịch cũ; 3:00 là giờ có kết quả xét nghiệm lúc đầu."
+    }
+   ]
+  },
+  {
+   "id": "d13-p7-b",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "notice",
+     "title": "Maple Court Wellness Program",
+     "text": "Maple Court Wellness Program - Fall Classes\nAll classes are held in the Staff Lounge, third floor.\n\nYoga: Mondays, 12:15 to 1:00 P.M. (Lena Ortiz)\nStretch and Strength: Wednesdays, 5:30 to 6:15 P.M. (Marcus Bell)\nHealthy Cooking: Thursdays, 12:15 to 1:15 P.M. (Chef Anita Rao)\n\nRegistration closes September 5. Employees may join two classes free of charge; a third class costs $20. The two free classes do not include the $15 ingredient fee for Healthy Cooking. Register at the HR desk."
+    },
+    {
+     "kind": "email",
+     "title": "Class sign-up",
+     "text": "To: Human Resources\nFrom: Tomas Greco\nDate: August 28\nSubject: Wellness classes\n\nHello,\n\nI would like to sign up for Yoga and Healthy Cooking. I also want to join the third class, but I work late on Wednesdays and may not arrive on time. Could you tell me whether I can join late without losing my place?\n\nThank you,\nTomas Greco"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d13-p7-b1",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "What does Mr. Greco want to know?",
+     "options": [
+      "Whether the instructor will change",
+      "Whether classes are held on weekends",
+      "Whether he can register after September 5",
+      "Whether he can arrive late to a class"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Anh hỏi có thể \"join late without losing my place\" không.",
+      "en": "He asks whether he can join late without losing his place."
+     }
+    },
+    {
+     "id": "d13-p7-b2",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 2,
+     "q": "Which class is Mr. Greco worried about attending on time?",
+     "options": [
+      "Yoga",
+      "Stretch and Strength",
+      "Healthy Cooking",
+      "All of them"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Anh đi làm muộn vào thứ Tư, và thông báo cho biết thứ Tư là lớp Stretch and Strength.",
+      "en": "He works late on Wednesdays, and the notice lists Stretch and Strength on Wednesdays."
+     },
+     "trap": "Lớp nấu ăn vào thứ Năm, không phải thứ Tư."
+    },
+    {
+     "id": "d13-p7-b3",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 3,
+     "q": "What is the minimum Mr. Greco will pay if he joins all three classes?",
+     "options": [
+      "$20",
+      "$35",
+      "$15",
+      "$55"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Lớp thứ ba $20, thêm phí nguyên liệu $15 của Healthy Cooking: $20 + $15 = $35.",
+      "en": "The third class costs $20 and the cooking class adds a $15 ingredient fee, for $35."
+     },
+     "trap": "Chỉ cộng lớp thứ ba ($20) là bỏ sót phí nguyên liệu."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,188 @@
+{
+ "day": 12,
+ "title": {
+  "vi": "Hàng sống",
+  "en": "Live Cargo"
+ },
+ "story": [
+  {
+   "speaker": "NARRATOR",
+   "en": "Dawn. A cargo ship pulls next to the Aurelia. Cranes lower empty containers onto the deck.",
+   "vi": "Bình minh. Một tàu chở hàng cập sát Aurelia. Cần cẩu hạ các thùng rỗng xuống boong.",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "Each container has a label: \"LIVE CARGO. FRAGILE. KEEP COLD. A.C.\"",
+   "vi": "Mỗi thùng có nhãn: \"HÀNG SỐNG. DỄ VỠ. GIỮ LẠNH. A.C.\"",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "HUY",
+   "en": "Warehouse space, tracking numbers, couriers. This is not a research trip. This is a delivery.",
+   "vi": "Kho chứa, mã theo dõi, nhân viên giao hàng. Đây không phải chuyến nghiên cứu. Đây là một chuyến giao hàng.",
+   "voice": "caM"
+  },
+  {
+   "speaker": "NOVA",
+   "en": "Huy, the shipment will leave in two days. Whatever happens, go to the reef before them.",
+   "vi": "Huy, lô hàng sẽ rời đi sau hai ngày. Dù chuyện gì xảy ra, hãy đến rạn trước họ.",
+   "voice": "usF"
+  },
+  {
+   "speaker": "M",
+   "en": "I am at the reef. I have been waiting for a long time. Please hurry, bé iu.",
+   "vi": "Anh đang ở rạn san hô. Anh đợi lâu lắm rồi. Nhanh lên nhé, bé iu.",
+   "voice": "usM"
+  }
+ ],
+ "letter": {
+  "vi": "Bé iu, hôm nay danh từ ghép: production line, safety rule, sales report. Bé học vài cặp là nhớ lâu hơn học từng chữ. Anh nhớ bé từ nơi DEEPEST (sâu nhất) trong tim anh nè.",
+  "en": "My love, noun pairs today: production line, safety rule, sales report. Learning a few pairs sticks longer than single words. I miss you from the DEEPEST part of my heart."
+ },
+ "beSua": [
+  "Cargo (hàng trên tàu/máy bay) và freight (hàng vận chuyển) gần nghĩa nhau. Shipment là một lô hàng. Hihi.",
+  "Since + mốc thời gian (since 2020), for + khoảng thời gian (for three years). Hihi, hay ra Part 5 nha. :33",
+  "Fragile = dễ vỡ, dán nhãn cái thùng thủy tinh. Hihi, sứa cũng fragile nha, Huy giữ cẩn thận nè. :33"
+ ],
+ "vocab": [
+  {
+   "word": "shipment",
+   "pos": "n",
+   "ipa": "/ˈʃɪpmənt/",
+   "vi": "lô hàng",
+   "example": {
+    "en": "Your shipment will arrive on Thursday.",
+    "vi": "Lô hàng của bạn sẽ đến vào thứ Năm."
+   },
+   "family": "ship (v) / shipment (n) / shipping (n)",
+   "collocation": "track a shipment"
+  },
+  {
+   "word": "freight",
+   "pos": "n",
+   "ipa": "/freɪt/",
+   "vi": "hàng vận chuyển, cước vận tải",
+   "example": {
+    "en": "Air freight is faster but costs more.",
+    "vi": "Vận chuyển hàng không nhanh hơn nhưng đắt hơn."
+   },
+   "collocation": "freight charges"
+  },
+  {
+   "word": "warehouse",
+   "pos": "n",
+   "ipa": "/ˈweəhaʊs/",
+   "vi": "nhà kho",
+   "example": {
+    "en": "The warehouse is full of boxes.",
+    "vi": "Nhà kho đầy các thùng hàng."
+   },
+   "collocation": "warehouse manager"
+  },
+  {
+   "word": "inventory",
+   "pos": "n",
+   "ipa": "/ˈɪnvəntri/",
+   "vi": "hàng tồn kho",
+   "example": {
+    "en": "We count the inventory every month.",
+    "vi": "Chúng tôi kiểm kê hàng tồn kho mỗi tháng."
+   },
+   "collocation": "take inventory"
+  },
+  {
+   "word": "deliver",
+   "pos": "v",
+   "ipa": "/dɪˈlɪvə/",
+   "vi": "giao hàng",
+   "example": {
+    "en": "We deliver within two working days.",
+    "vi": "Chúng tôi giao hàng trong hai ngày làm việc."
+   },
+   "family": "deliver (v) / delivery (n)",
+   "collocation": "deliver on time"
+  },
+  {
+   "word": "packaging",
+   "pos": "n",
+   "ipa": "/ˈpækɪdʒɪŋ/",
+   "vi": "bao bì, đóng gói",
+   "example": {
+    "en": "The packaging protects the glass items.",
+    "vi": "Bao bì bảo vệ các món đồ thủy tinh."
+   },
+   "family": "pack (v) / package (n) / packaging (n)",
+   "collocation": "protective packaging"
+  },
+  {
+   "word": "tracking",
+   "pos": "n",
+   "ipa": "/ˈtrækɪŋ/",
+   "vi": "việc theo dõi",
+   "example": {
+    "en": "Use the tracking number to check your parcel.",
+    "vi": "Dùng mã theo dõi để kiểm tra bưu kiện."
+   },
+   "family": "track (v, n) / tracking (n)",
+   "collocation": "tracking number"
+  },
+  {
+   "word": "courier",
+   "pos": "n",
+   "ipa": "/ˈkʊriə/",
+   "vi": "dịch vụ chuyển phát",
+   "example": {
+    "en": "A courier brought the documents this morning.",
+    "vi": "Nhân viên chuyển phát mang tài liệu sáng nay."
+   },
+   "collocation": "courier service"
+  },
+  {
+   "word": "fragile",
+   "pos": "adj",
+   "ipa": "/ˈfrædʒaɪl/",
+   "vi": "dễ vỡ",
+   "example": {
+    "en": "Please handle this fragile box with care.",
+    "vi": "Vui lòng xử lý hộp dễ vỡ này cẩn thận."
+   },
+   "collocation": "fragile item"
+  },
+  {
+   "word": "handle",
+   "pos": "v",
+   "ipa": "/ˈhændl/",
+   "vi": "xử lý, vận chuyển",
+   "example": {
+    "en": "Staff must handle chemicals carefully.",
+    "vi": "Nhân viên phải xử lý hóa chất cẩn thận."
+   },
+   "family": "handle (v, n) / handling (n)",
+   "collocation": "handle with care"
+  },
+  {
+   "word": "stock",
+   "pos": "n",
+   "ipa": "/stɒk/",
+   "vi": "hàng trong kho",
+   "example": {
+    "en": "That model is out of stock.",
+    "vi": "Mẫu đó đã hết hàng."
+   },
+   "family": "stock (n, v)",
+   "collocation": "in stock"
+  },
+  {
+   "word": "carrier",
+   "pos": "n",
+   "ipa": "/ˈkæriə/",
+   "vi": "hãng vận chuyển",
+   "example": {
+    "en": "The carrier lost one package.",
+    "vi": "Hãng vận chuyển làm mất một bưu kiện."
+   },
+   "collocation": "shipping carrier"
+  }
+ ]
+}

@@ -1,0 +1,556 @@
+{
+ "listening": [
+  {
+   "id": "d19-p1-s01",
+   "part": 1,
+   "image": "/img/p1/pp32.jpg",
+   "imageAlt": "Một khu chợ ngoài trời, người đàn ông xách túi đứng giữa lối đi ướt, hai bên là các sạp hàng",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "auF",
+     "text": "Vendors are setting up umbrellas."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auF",
+     "text": "Goods are being loaded onto a boat."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auF",
+     "text": "Some people are standing in an outdoor market."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auF",
+     "text": "Some shoppers are paying at a register."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d19-p1-01",
+     "part": 1,
+     "skill": "p1.scene",
+     "level": 2,
+     "options": [
+      "Vendors are setting up umbrellas.",
+      "Goods are being loaded onto a boat.",
+      "Some people are standing in an outdoor market.",
+      "Some shoppers are paying at a register."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Cảnh là chợ ngoài trời có người đứng: are standing in an outdoor market. Không thấy quầy tính tiền hay thuyền.",
+      "en": "The scene is an open-air market with people standing, so (C) is right. There is no register or boat."
+     },
+     "trap": "Câu (D) nghe hợp với việc mua sắm, nhưng ảnh không có quầy tính tiền."
+    }
+   ]
+  },
+  {
+   "id": "d19-p1-s02",
+   "part": 1,
+   "image": "/media/v06.jpg",
+   "imageAlt": "Nhiều con sứa xanh trong bể chồng lên nhau, một con lớn ở giữa bên phải",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "Some jellyfish have been removed from a tank."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "Some jellyfish are overlapping one another."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "A sheet is being placed over the tank."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "A jellyfish is resting on the floor."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d19-p1-02",
+     "part": 1,
+     "skill": "p1.scene",
+     "level": 2,
+     "options": [
+      "Some jellyfish have been removed from a tank.",
+      "Some jellyfish are overlapping one another.",
+      "A sheet is being placed over the tank.",
+      "A jellyfish is resting on the floor."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Các con sứa nằm chồng lên nhau: are overlapping. Không có ai lấy sứa ra khỏi bể.",
+      "en": "The jellyfish overlap, so (B) is correct. None have been taken out."
+     },
+     "trap": "Câu (A) dùng thì hoàn thành bị động rất giống câu mô tả vị trí, nên nghe khá thuyết phục, nhưng không có sứa nào bị lấy ra."
+    }
+   ]
+  },
+  {
+   "id": "d19-p1-s03",
+   "part": 1,
+   "image": "/media/p02.jpg",
+   "imageAlt": "Một con sứa lớn trong suốt bơi ngang sang trái, xung quanh có vài con nhỏ",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "A fish is swallowing a jellyfish."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "A large jellyfish is swimming toward the left."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "A jellyfish is stuck in a net."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "Some jellyfish are being separated into containers."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d19-p1-03",
+     "part": 1,
+     "skill": "p1.scene",
+     "level": 2,
+     "options": [
+      "A fish is swallowing a jellyfish.",
+      "A large jellyfish is swimming toward the left.",
+      "A jellyfish is stuck in a net.",
+      "Some jellyfish are being separated into containers."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Con sứa lớn đang bơi về phía bên trái ảnh: swimming toward the left. Không có lưới hay hộp đựng.",
+      "en": "The big jellyfish moves toward the left side, so (B) fits. No net or containers appear."
+     },
+     "trap": "Câu (D) là bị động về công việc của nhân viên, nhưng không có ai trong ảnh."
+    }
+   ]
+  },
+  {
+   "id": "d19-p1-s04",
+   "part": 1,
+   "image": "/media/p07.jpg",
+   "imageAlt": "Nhiều con sứa có xúc tu cam đang trôi trong bể, cái nắp chuông quay xuống",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "Some jellyfish are resting on the bottom of a tank."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "A jellyfish is being lifted out of the water."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "Some jellyfish have been placed in buckets."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "Several jellyfish with orange arms are floating in the water."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d19-p1-04",
+     "part": 1,
+     "skill": "p1.scene",
+     "level": 3,
+     "options": [
+      "Some jellyfish are resting on the bottom of a tank.",
+      "A jellyfish is being lifted out of the water.",
+      "Some jellyfish have been placed in buckets.",
+      "Several jellyfish with orange arms are floating in the water."
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Sứa có phần tay màu cam đang trôi trong nước nên (D) đúng. Không có con nào ở đáy bể hay trong xô.",
+      "en": "Jellyfish with orange arms float in the water, so (D) is correct. None rest on the bottom or sit in buckets."
+     },
+     "trap": "Câu (C) dùng 'have been placed' nghe giống mô tả vị trí đồ vật, nhưng không có xô nào trong ảnh."
+    }
+   ]
+  },
+  {
+   "id": "d19-p2-s01",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "How much is the bus fare?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Two dollars each way."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "It's a fine day."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Fair enough."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d19-p2-01",
+     "part": 2,
+     "skill": "p2.wh-how",
+     "level": 1,
+     "options": [
+      "Two dollars each way.",
+      "It's a fine day.",
+      "Fair enough."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Fare là tiền vé; 'Two dollars each way' là giá. Fare, fine, fair nghe gần giống nhau.",
+      "en": "'Fare' means the ticket price, so 'Two dollars each way' answers. Fare, fine and fair sound alike."
+     },
+     "trap": "(B) và (C) chỉ nghe giống fare nhưng không nói giá vé."
+    }
+   ]
+  },
+  {
+   "id": "d19-p2-s02",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Is there a fee to enter the aquarium?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Yes, ten dollars for adults."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "It's a fine aquarium."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Fish and chips."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d19-p2-02",
+     "part": 2,
+     "skill": "p2.yes-no",
+     "level": 1,
+     "options": [
+      "Yes, ten dollars for adults.",
+      "It's a fine aquarium.",
+      "Fish and chips."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Fee là phí vào cửa; 'ten dollars for adults' xác nhận có phí.",
+      "en": "'Fee' means an entry charge, and 'ten dollars for adults' confirms it."
+     },
+     "trap": "(B) nghe giống fee/fine nhưng chỉ khen ngợi."
+    }
+   ]
+  },
+  {
+   "id": "d19-p2-s03",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Should we leave a tip for the driver?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "He has a tipped hat."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "It's already included in the fare."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Yes, he drives fast."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d19-p2-03",
+     "part": 2,
+     "skill": "p2.indirect",
+     "level": 2,
+     "options": [
+      "He has a tipped hat.",
+      "It's already included in the fare.",
+      "Yes, he drives fast."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Tip là tiền boa; 'included in the fare' nghĩa là không cần thêm.",
+      "en": "'Tip' is a gratuity, and 'included in the fare' means no extra is needed."
+     },
+     "trap": "(A) lặp tip nhưng nghĩa khác (nghiêng)."
+    }
+   ]
+  },
+  {
+   "id": "d19-p2-s04",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Why was he fined at the airport?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "The airport is fine."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "He brought in some fruit without declaring it."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Yes, at the finish."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d19-p2-04",
+     "part": 2,
+     "skill": "p2.wh-why",
+     "level": 2,
+     "options": [
+      "The airport is fine.",
+      "He brought in some fruit without declaring it.",
+      "Yes, at the finish."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Fined là bị phạt; 'brought in fruit without declaring it' là lý do.",
+      "en": "'Fined' means penalized, and bringing in undeclared fruit is the reason."
+     },
+     "trap": "(A) nghe giống fine nhưng không giải thích gì."
+    }
+   ]
+  },
+  {
+   "id": "d19-p2-s05",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "When can the tank be refilled?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "It's a full tank."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "As soon as the water test is clear."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "In the filter room."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d19-p2-05",
+     "part": 2,
+     "skill": "p2.wh-when",
+     "level": 2,
+     "options": [
+      "It's a full tank.",
+      "As soon as the water test is clear.",
+      "In the filter room."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "When hỏi lúc nào; điều kiện 'as soon as the water test is clear' trả lời.",
+      "en": "'When' asks about timing, and 'as soon as the water test is clear' answers it."
+     },
+     "trap": "(A) lặp tank nhưng nói về trạng thái."
+    }
+   ]
+  },
+  {
+   "id": "d19-p2-s06",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Whom should I contact about the booking?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "The book is on the table."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Yes, I'm booking it."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Ms. Pham in the events office."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d19-p2-06",
+     "part": 2,
+     "skill": "p2.wh-who",
+     "level": 2,
+     "options": [
+      "The book is on the table.",
+      "Yes, I'm booking it.",
+      "Ms. Pham in the events office."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Whom hỏi người nhận; 'Ms. Pham' là người cần liên hệ.",
+      "en": "'Whom' asks about the person to contact, and Ms. Pham is one."
+     },
+     "trap": "(A) lặp book/booking nhưng là quyển sách."
+    }
+   ]
+  },
+  {
+   "id": "d19-p2-s07",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "I wish we could have started the tour earlier."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "The guide said the gates open at nine."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "He wished us a pleasant trip."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Early tours were not available."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d19-p2-07",
+     "part": 2,
+     "skill": "p2.statement",
+     "level": 3,
+     "options": [
+      "The guide said the gates open at nine.",
+      "He wished us a pleasant trip.",
+      "Early tours were not available."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Wish + could have + V3 diễn tả tiếc nuối; 'gates open at nine' giải thích vì sao không thể.",
+      "en": "'Wish we could have' expresses regret, and the gate time explains why not."
+     },
+     "trap": "(B) lặp wish nhưng chuyển sang chủ đề khác."
+    }
+   ]
+  },
+  {
+   "id": "d19-p2-s08",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Aren't you supposed to be working the split shift today?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "It's a long split."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "I'm splitting a sandwich with her."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "I swapped with Ms. Lan last week."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d19-p2-08",
+     "part": 2,
+     "skill": "p2.yes-no",
+     "level": 3,
+     "options": [
+      "It's a long split.",
+      "I'm splitting a sandwich with her.",
+      "I swapped with Ms. Lan last week."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Câu hỏi phủ định; 'I swapped with Ms. Lan' giải thích không phải ca của mình.",
+      "en": "In reply to the negative question, 'I swapped' explains it is not her shift."
+     },
+     "trap": "(B) lặp split nhưng nghĩa khác."
+    }
+   ]
+  }
+ ]
+}

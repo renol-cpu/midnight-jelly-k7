@@ -1,0 +1,509 @@
+{
+ "listening": [
+  {
+   "id": "d11-p3-a",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Okay, team, the company picnic is three weeks away. Where are we with the venue?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "I visited Lakeside Park yesterday. They have a covered pavilion, so we won't have to worry about rain."
+    },
+    {
+     "spk": "Man 2",
+     "voice": "auM",
+     "text": "And how much do they charge?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Four hundred dollars for the day, which is under our limit. The catch is that we can't bring our own speakers."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "That's fine. Eddie, can you handle the food?"
+    },
+    {
+     "spk": "Man 2",
+     "voice": "auM",
+     "text": "Sure. I was thinking of hiring a caterer instead of ordering sandwiches. It's only a little more per person."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Go ahead and get two quotes. Then we'll decide at Friday's meeting."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d11-p3-a1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What are the speakers planning?",
+     "options": [
+      "A company outing",
+      "A product launch",
+      "A fundraising dinner",
+      "A training workshop"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Họ chuẩn bị buổi picnic của công ty, tức là một chuyến đi chơi công ty.",
+      "en": "A company picnic is a company outing."
+     },
+     "trap": "Dinner/launch không được nhắc tới."
+    },
+    {
+     "id": "d11-p3-a2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "What does the woman say about the venue?",
+     "options": [
+      "It is free",
+      "It has a roof",
+      "It is near the office",
+      "It has a stage"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Pavilion có mái che nên không lo mưa.",
+      "en": "A covered pavilion means it has a roof."
+     },
+     "trap": "Giá 400 đô, không miễn phí."
+    },
+    {
+     "id": "d11-p3-a3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What will Eddie probably do next?",
+     "options": [
+      "Reserve the park",
+      "Buy sandwiches",
+      "Get price estimates",
+      "Rent speakers"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Anh được yêu cầu lấy hai báo giá từ nhà cung cấp thức ăn.",
+      "en": "He is told to get two quotes, i.e. price estimates."
+     },
+     "trap": "Họ không được mang loa riêng, và chưa chọn sandwiches."
+    }
+   ]
+  },
+  {
+   "id": "d11-p3-b",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Hi, I'm calling about the sponsorship packages for your technology fair in May."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Thanks for your interest. We offer three levels: bronze, silver, and gold. Which one did you have in mind?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "We're a small software firm, so probably silver. What does it include?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "A booth in the main hall, your logo on the website, and two free passes for staff."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Does the booth come with electricity? We'll be demonstrating our app."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Yes, and Wi-Fi, too. But if you pay by the end of this month, we can add a third pass at no cost."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Perfect. Could you email me the contract today?"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d11-p3-b1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What is the woman calling about?",
+     "options": [
+      "Renting office space",
+      "Hiring software staff",
+      "Purchasing a booth display",
+      "Sponsoring an event"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Cô hỏi về các gói tài trợ cho hội chợ công nghệ.",
+      "en": "She asks about sponsorship packages for a fair."
+     },
+     "trap": "Booth là một phần của gói, không phải việc cô mua riêng."
+    },
+    {
+     "id": "d11-p3-b2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "What can the woman get if she pays early?",
+     "options": [
+      "An extra pass",
+      "A larger booth",
+      "A lower price",
+      "A logo on a banner"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Trả trước cuối tháng thì được thêm vé thứ ba miễn phí.",
+      "en": "Paying by month-end adds a third free pass."
+     },
+     "trap": "Giá không giảm, chỉ có thêm vé."
+    },
+    {
+     "id": "d11-p3-b3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What does the woman ask the man to do?",
+     "options": [
+      "Visit her office",
+      "Send an agreement",
+      "Call her manager",
+      "Change a date"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô nhờ anh gửi hợp đồng qua email, tức là gửi một bản thỏa thuận.",
+      "en": "She asks for the contract by email, which is an agreement."
+     },
+     "trap": "Cô chưa nhờ ai ghé văn phòng."
+    }
+   ]
+  },
+  {
+   "id": "d11-p3-c",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Welcome, everyone. This is Daniel from our Madrid office, who just joined us for the conference."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Nice to meet you, Daniel. Did you have any trouble with the flight?"
+    },
+    {
+     "spk": "Man 2",
+     "voice": "gbM",
+     "text": "A little. It landed an hour late, and my suitcase didn't arrive."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Oh, no. Have you reported it to the airline?"
+    },
+    {
+     "spk": "Man 2",
+     "voice": "gbM",
+     "text": "Yes, they said it'll be delivered to the hotel tonight."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "In that case, do you want to borrow a jacket? The evening reception is formal."
+    },
+    {
+     "spk": "Man 2",
+     "voice": "gbM",
+     "text": "That's kind of you, but I'm wearing my suit already. I only need my laptop charger, which was in the bag."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "We have spares at the registration desk. I'll walk you over."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d11-p3-c1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What problem does Daniel mention?",
+     "options": [
+      "His hotel is full",
+      "His flight was cancelled",
+      "His luggage is missing",
+      "His laptop is broken"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Va li của Daniel không đến cùng chuyến bay.",
+      "en": "His suitcase did not arrive."
+     },
+     "trap": "Chuyến bay chỉ trễ một giờ chứ không bị hủy."
+    },
+    {
+     "id": "d11-p3-c2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "What does Daniel need?",
+     "options": [
+      "A jacket",
+      "A hotel room",
+      "A taxi",
+      "A charger"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Anh chỉ cần cục sạc laptop vì nó nằm trong va li.",
+      "en": "He only needs his laptop charger."
+     },
+     "trap": "Áo khoác được mời nhưng anh từ chối."
+    },
+    {
+     "id": "d11-p3-c3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the woman do next?",
+     "options": [
+      "Take Daniel to a desk",
+      "Call the airline",
+      "Check the schedule",
+      "Register for a conference"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô sẽ dẫn Daniel đến quầy đăng ký để lấy đồ sạc dự phòng.",
+      "en": "She will walk him to the registration desk."
+     },
+     "trap": "Daniel đã báo hãng bay rồi."
+    }
+   ]
+  },
+  {
+   "id": "d11-p3-d",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Mr. Evans, I'm calling from Harper Catering about the awards dinner on the twelfth."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Hello. Is there a problem?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Not exactly. We've had to change the main course because the supplier can't deliver the salmon in time."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Oh. What would you replace it with?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Roast chicken with vegetables, at the same price. We'll also add a vegetarian pasta."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "I'd like to ask the committee first. Can I let you know by tomorrow noon?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Of course. After that we won't be able to confirm the order with the farm."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d11-p3-d1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "Why is the woman calling?",
+     "options": [
+      "To cancel a dinner",
+      "To announce a menu change",
+      "To request payment",
+      "To confirm a guest list"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô báo món chính phải thay đổi vì nhà cung cấp không giao cá hồi kịp.",
+      "en": "She informs him the main course must change."
+     },
+     "trap": "Chưa ai hủy bữa tối."
+    },
+    {
+     "id": "d11-p3-d2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "Why can the original dish not be served?",
+     "options": [
+      "The kitchen is closed",
+      "The price increased",
+      "An ingredient will not arrive on time",
+      "A chef is ill"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Cá hồi không thể giao kịp, tức là nguyên liệu không đến đúng hạn.",
+      "en": "The salmon cannot be delivered in time."
+     },
+     "trap": "Giá giữ nguyên nên giá không phải lý do."
+    },
+    {
+     "id": "d11-p3-d3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What does the man say he will do?",
+     "options": [
+      "Pay a deposit",
+      "Visit the farm",
+      "Choose a vegetarian option",
+      "Consult a group"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Anh sẽ hỏi ý kiến ủy ban trước khi trả lời.",
+      "en": "He wants to ask the committee first."
+     },
+     "trap": "Món chay đã được thêm sẵn, không phải việc anh làm."
+    }
+   ]
+  },
+  {
+   "id": "d11-p3-e",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Hi, Liam. Have you finalized the speaker list for next week's seminar?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Almost. Dr. Chen confirmed, but Ms. Okafor might have to cancel because of a family matter."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "That would leave a gap on Wednesday morning. Do we have a backup?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "I thought of asking Mr. Hall from the Denver branch. He did a great presentation at the sales meeting."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Good idea. Do you think he'd have time on such short notice?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "I'll find out this afternoon. If he says yes, I'll also reprint the agenda."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Please do, and let the printing office know it's a rush job."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d11-p3-e1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What are the speakers mainly discussing?",
+     "options": [
+      "Seminar speakers",
+      "A budget report",
+      "A sales target",
+      "A branch opening"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Họ bàn về danh sách diễn giả cho hội thảo.",
+      "en": "They discuss who will speak at the seminar."
+     },
+     "trap": "Branch/Sales là nơi anh Hall làm việc, không phải chủ đề."
+    },
+    {
+     "id": "d11-p3-e2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "Why might Ms. Okafor not attend?",
+     "options": [
+      "She is on a business trip",
+      "She has a personal issue",
+      "She is giving another talk",
+      "She is unwell"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô có việc gia đình, tức là một vấn đề cá nhân.",
+      "en": "A family matter is a personal issue."
+     },
+     "trap": "Không ai nói cô bị ốm."
+    },
+    {
+     "id": "d11-p3-e3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What will the man probably do this afternoon?",
+     "options": [
+      "Print some tickets",
+      "Meet Dr. Chen",
+      "Contact a possible replacement",
+      "Book a venue"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Anh sẽ hỏi xem ông Hall có thể thay thế không.",
+      "en": "He will find out whether Mr. Hall is available."
+     },
+     "trap": "Agenda in lại chỉ khi Hall đồng ý."
+    }
+   ]
+  }
+ ]
+}

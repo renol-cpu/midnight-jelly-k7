@@ -1,0 +1,77 @@
+{
+ "day": 14,
+ "title": {
+  "vi": "Sư tử biển bờm",
+  "en": "The Lion's Mane"
+ },
+ "story": [
+  {
+   "speaker": "NARRATOR",
+   "en": "The deck is dark. A huge lion's mane jellyfish floats beside the ship, its red hair moving like a flame.",
+   "vi": "Boong tàu tối. Một con sứa bờm sư tử khổng lồ trôi cạnh tàu, \"bờm\" đỏ lay động như ngọn lửa.",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "BAO",
+   "en": "Beautiful, isn't it? Come, Huy. I want to show you something in my office.",
+   "vi": "Đẹp không? Đi nào, Huy. Tôi muốn cho em xem cái này trong văn phòng.",
+   "voice": "auM"
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "On the wall, a new sign: a letter A inside a wave. Under it, three words: ABYSSAL CORPORATION.",
+   "vi": "Trên tường, một biển hiệu mới: chữ A trong làn sóng. Bên dưới là ba chữ: ABYSSAL CORPORATION.",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "HUY",
+   "en": "Captain... the crates, the ledger, the guests. It was you. All of it was you.",
+   "vi": "Thuyền trưởng... các thùng hàng, cuốn sổ, những vị khách. Là anh. Tất cả là anh.",
+   "voice": "caM"
+  },
+  {
+   "speaker": "BAO",
+   "en": "I am a businessman, Huy. A jellyfish that never dies is worth more than gold. And you found the reef for me.",
+   "vi": "Tôi là doanh nhân, Huy. Một con sứa không bao giờ chết đáng giá hơn vàng. Và em đã tìm ra rạn cho tôi.",
+   "voice": "auM"
+  },
+  {
+   "speaker": "HUY",
+   "en": "I did not find it for you! Every message from M. was for me, not for your money!",
+   "vi": "Em không tìm nó cho anh! Mỗi tin nhắn của M. là dành cho em, không phải cho tiền của anh!",
+   "voice": "caM"
+  },
+  {
+   "speaker": "BAO",
+   "en": "Lock the door. He cannot leave until we reach the south reef.",
+   "vi": "Khóa cửa lại. Cậu ta không được đi cho đến khi tới rạn phía nam.",
+   "voice": "auM"
+  },
+  {
+   "speaker": "BESUA",
+   "en": "Dọ, Huy, em chui qua khe cửa nhỏ xíu nè! Chạy ra mũi tàu đi, có xuồng cứu sinh! Nhanh nhanh!",
+   "vi": "Dạ Huy, em chui qua khe cửa nhỏ xíu nè! Chạy ra mũi tàu đi, có xuồng cứu sinh! Nhanh nhanh!"
+  },
+  {
+   "speaker": "NOVA",
+   "en": "Huy, I should have told you sooner. I cannot lie to you now. Take the lifeboat. I will guide you.",
+   "vi": "Huy, lẽ ra tôi phải nói sớm hơn. Giờ tôi không thể nói dối bạn nữa. Lên xuồng cứu sinh. Tôi sẽ dẫn đường.",
+   "voice": "usF"
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "Huy jumps into the lifeboat. Behind him, the Aurelia's lights turn red. The Captain is no longer a friend.",
+   "vi": "Huy nhảy lên xuồng cứu sinh. Phía sau, đèn tàu Aurelia chuyển đỏ. Thuyền trưởng không còn là bạn nữa.",
+   "voice": "gbF"
+  }
+ ],
+ "letter": {
+  "vi": "Bé iu, boss lớn rồi, nửa bài thi thật luôn! Mẹo Part 7: đọc câu hỏi trước, rồi FOLLOW (đi theo) từ khóa, nhưng đáp án hay dùng từ đồng nghĩa chứ không lặp y chang. Anh tự hào về bé rồi, hihii.",
+  "en": "My love, a big boss, half a real test! Part 7 tip: read the questions first, then FOLLOW the keywords, but the answer often uses a synonym instead of the same word. I am already proud of you, hihii."
+ },
+ "beSua": [
+  "Although + mệnh đề, despite + danh từ. \"Although it rained\", \"despite the rain\". Sai là mất điểm đó nha. Hihi. :33",
+  "Nghe Part 3-4: nếu đáp án lặp y chang từ trong audio, hay là bẫy. Đáp án thật thường đổi từ đồng nghĩa. Dọ!",
+  "Lion's mane jellyfish có xúc tu dài tới 30 mét. Hihi, dài ngang cá voi xanh nè! :33"
+ ]
+}

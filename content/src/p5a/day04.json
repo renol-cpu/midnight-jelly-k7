@@ -1,0 +1,425 @@
+{
+ "grammar": [
+  {
+   "id": "d04-p5-a",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d04-p5-01",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 1,
+     "q": "____ visitors are allowed in the laboratory without an escort.",
+     "options": [
+      "Not",
+      "None",
+      "Nothing",
+      "No"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"No\" + danh từ số nhiều \"visitors\".",
+      "en": "\"No\" + the plural noun \"visitors\"."
+     },
+     "trap": "\"None visitors\" sai, phải là \"None of the visitors\"."
+    },
+    {
+     "id": "d04-p5-02",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 1,
+     "q": "The museum is ____ open on Mondays.",
+     "options": [
+      "no",
+      "none",
+      "not",
+      "nor"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Sau \"is\" cần \"not\" để phủ định tính từ \"open\".",
+      "en": "\"Not\" negates the adjective \"open\"."
+     },
+     "trap": "\"No open\" không đúng ngữ pháp."
+    },
+    {
+     "id": "d04-p5-03",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 1,
+     "q": "We have ____ record of your reservation.",
+     "options": [
+      "not",
+      "no",
+      "none",
+      "nothing"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"No\" đứng trước danh từ \"record\".",
+      "en": "\"No\" precedes the noun \"record\"."
+     },
+     "trap": "\"Not record\" không dùng, cần \"no record\" hoặc \"not any record\"."
+    },
+    {
+     "id": "d04-p5-04",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 1,
+     "q": "The elevator is ____ working, so please use the stairs.",
+     "options": [
+      "not",
+      "no",
+      "none",
+      "nothing"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Phủ định thì tiếp diễn bằng \"not\".",
+      "en": "Use \"not\" to negate \"is working\"."
+     },
+     "trap": "\"No working\" nghe giống \"no parking\" nên dễ nhầm."
+    },
+    {
+     "id": "d04-p5-05",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 1,
+     "q": "____ of the applicants had previous experience.",
+     "options": [
+      "No",
+      "Not",
+      "Nothing",
+      "None"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"None of the + danh từ\" là cấu trúc đúng.",
+      "en": "\"None of the + plural noun\" is the correct pattern."
+     },
+     "trap": "\"No of\" không tồn tại."
+    },
+    {
+     "id": "d04-p5-06",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 1,
+     "q": "The manager did ____ approve the request.",
+     "options": [
+      "no",
+      "none",
+      "not",
+      "nor"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Phủ định động từ sau \"did\" bằng \"not\".",
+      "en": "\"Did not\" + base verb."
+     },
+     "trap": "\"Did no approve\" sai."
+    },
+    {
+     "id": "d04-p5-07",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 1,
+     "q": "There is ____ reason to delay the launch.",
+     "options": [
+      "not",
+      "no",
+      "none",
+      "neither"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"No reason\" là cụm danh từ phủ định.",
+      "en": "\"No reason\" is a negative noun phrase."
+     },
+     "trap": "\"None reason\" không tồn tại."
+    },
+    {
+     "id": "d04-p5-08",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 2,
+     "q": "____ the café nor the gift shop accepts cash.",
+     "options": [
+      "Neither",
+      "Either",
+      "Not",
+      "No"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Neither ... nor\" đi cặp.",
+      "en": "\"Neither ... nor\" works as a pair."
+     },
+     "trap": "\"Either ... nor\" sai vì \"either\" đi với \"or\"."
+    },
+    {
+     "id": "d04-p5-09",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 1,
+     "q": "Passengers may ____ bring liquids over 100 ml through security.",
+     "options": [
+      "no",
+      "none",
+      "nor",
+      "not"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Sau \"may\" cần \"not\" rồi mới tới động từ.",
+      "en": "\"May not\" + base verb."
+     },
+     "trap": "\"May no bring\" sai."
+    },
+    {
+     "id": "d04-p5-10",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 2,
+     "q": "We could ____ find the invoice in the file.",
+     "options": [
+      "hard",
+      "hardness",
+      "hardly",
+      "harder"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"Hardly\" mang nghĩa phủ định: gần như không.",
+      "en": "\"Hardly\" is a near-negative: almost not."
+     },
+     "trap": "\"Hard find\" sai vì \"hard\" là tính từ."
+    }
+   ]
+  },
+  {
+   "id": "d04-p5-b",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d04-p5-11",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 2,
+     "q": "____ only the manager but also the interns attended the seminar.",
+     "options": [
+      "No",
+      "Not",
+      "None",
+      "Neither"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"Not only ... but also\" đi cặp.",
+      "en": "\"Not only ... but also\" is a fixed pair."
+     },
+     "trap": "\"Neither ... but also\" không tồn tại."
+    },
+    {
+     "id": "d04-p5-12",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 2,
+     "q": "He did not call, ____ did he send an email.",
+     "options": [
+      "nor",
+      "or",
+      "and",
+      "but"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Nor\" + trợ động từ đảo ngữ.",
+      "en": "\"Nor\" is followed by inverted auxiliary."
+     },
+     "trap": "\"Or did he\" không dùng sau mệnh đề phủ định."
+    },
+    {
+     "id": "d04-p5-13",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 1,
+     "q": "Ms. Reyes is a very ____ manager.",
+     "options": [
+      "efficiency",
+      "efficiently",
+      "efficiencies",
+      "efficient"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Trước danh từ \"manager\" cần tính từ.",
+      "en": "Adjective before the noun \"manager\"."
+     },
+     "trap": "\"Very efficiently\" làm anh nhớ trạng từ nhưng sau \"a\" thì không đúng."
+    },
+    {
+     "id": "d04-p5-14",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 2,
+     "q": "The ____ completed project was sent to the client.",
+     "options": [
+      "success",
+      "successful",
+      "successfully",
+      "succeed"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Trạng từ bổ nghĩa cho V3 \"completed\".",
+      "en": "An adverb modifies the participle \"completed\"."
+     },
+     "trap": "\"Successful completed\" sai vì tính từ không bổ nghĩa cho V3."
+    },
+    {
+     "id": "d04-p5-15",
+     "part": 5,
+     "skill": "p5.passive",
+     "level": 1,
+     "q": "The new menus ____ by the chef herself last month.",
+     "options": [
+      "designed",
+      "were designed",
+      "designing",
+      "design"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Menu được thiết kế nên bị động quá khứ.",
+      "en": "Menus were designed: past passive."
+     },
+     "trap": "\"Designed\" một mình sẽ thiếu động từ chính."
+    },
+    {
+     "id": "d04-p5-16",
+     "part": 5,
+     "skill": "p5.agreement",
+     "level": 2,
+     "q": "Each of the tanks ____ cleaned weekly.",
+     "options": [
+      "is",
+      "are",
+      "be",
+      "have"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Each\" số ít nên dùng \"is\".",
+      "en": "\"Each\" is singular, so \"is\"."
+     },
+     "trap": "\"Tanks\" làm anh tưởng số nhiều."
+    },
+    {
+     "id": "d04-p5-17",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 2,
+     "q": "The employees ____ were trained last year can help you.",
+     "options": [
+      "whom",
+      "whose",
+      "which",
+      "who"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Chủ ngữ của \"were trained\" là người nên dùng who.",
+      "en": "\"Who\" is the subject of \"were trained\"."
+     },
+     "trap": "\"Whom\" chỉ dùng làm tân ngữ."
+    },
+    {
+     "id": "d04-p5-18",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 1,
+     "q": "Please call me ____ you arrive at the airport.",
+     "options": [
+      "during",
+      "despite",
+      "when",
+      "although"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"When\" nối mệnh đề với mệnh đề.",
+      "en": "\"When\" joins two clauses."
+     },
+     "trap": "\"During\" là giới từ nên cần danh từ sau nó."
+    },
+    {
+     "id": "d04-p5-19",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 2,
+     "q": "The conference was postponed ____ the storm.",
+     "options": [
+      "because",
+      "because of",
+      "although",
+      "so"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Sau chỗ trống là danh từ \"the storm\" nên cần giới từ.",
+      "en": "A noun follows, so a preposition is needed."
+     },
+     "trap": "\"Because\" cần cả mệnh đề."
+    },
+    {
+     "id": "d04-p5-20",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "Mr. Kim is interested ____ the position.",
+     "options": [
+      "in",
+      "on",
+      "at",
+      "for"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cụm cố định: interested in.",
+      "en": "Fixed phrase: interested in."
+     },
+     "trap": "\"Interested for\" nghe giống tiếng Việt \"quan tâm cho\"."
+    }
+   ]
+  }
+ ],
+ "theory": [
+  {
+   "id": "d04-th-1",
+   "title": {
+    "vi": "No hay Not?",
+    "en": "No vs not"
+   },
+   "rule": {
+    "vi": "\"No\" + danh từ (không có gì). \"Not\" phủ định động từ, tính từ, trạng từ hoặc giới từ. \"None\" đứng một mình hoặc với \"of\".",
+    "en": "\"No\" + noun. \"Not\" negates a verb, adjective, adverb or phrase. \"None\" stands alone or with \"of\"."
+   },
+   "formula": "NO + noun   |   be/aux + NOT + ...   |   NONE of + the + plural",
+   "examples": [
+    {
+     "en": "We have no record of your reservation.",
+     "vi": "\"No\" đi trước danh từ record."
+    },
+    {
+     "en": "The elevator is not working.",
+     "vi": "\"Not\" đi sau \"is\"."
+    },
+    {
+     "en": "None of the applicants had experience.",
+     "vi": "\"None of\" + danh từ xác định."
+    }
+   ],
+   "tip": "Mẹo thi: sau ô trống là danh từ thì chọn \"no\"; sau ô trống là động từ hoặc tính từ thì chọn \"not\". Nhớ \"no\" = \"not any\", dễ như mực nang nhớ mực."
+  }
+ ]
+}

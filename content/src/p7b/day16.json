@@ -1,0 +1,189 @@
+{
+ "reading": [
+  {
+   "id": "d16-p7-a",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "memo",
+     "title": "Service agreement summary",
+     "text": "SERVICE AGREEMENT SUMMARY\nAqua Point Aquarium and ClearView Window Services\n\n1. Term: January 1 to December 31. Either party may end the agreement with 30 days' written notice.\n2. Services: Cleaning of exterior windows once per month and of the tank-viewing glass twice per month, outside public hours.\n3. Fees: $1,200 per month, invoiced on the first day of each month and payable within 15 days.\n4. Additional services: Any extra work must be approved in writing by the aquarium's Facilities Manager and will be charged at $60 per hour for each worker.\n5. Liability: ClearView is responsible for damage to aquarium property caused by its employees, but not for damage caused by chemicals supplied by the aquarium."
+    },
+    {
+     "kind": "email",
+     "title": "Extra cleaning request",
+     "text": "To: Mr. Haas, ClearView Window Services\nFrom: Denise Okoro, Facilities Manager\nDate: March 20\nSubject: Extra cleaning request\n\nDear Mr. Haas,\n\nWe are hosting a private reception on Saturday, April 5, and would like the entrance glass cleaned on the morning of April 4. We expect the job to take about three hours. I understand this is outside our agreement. Please tell me the cost before the work is done.\n\nDenise Okoro"
+    },
+    {
+     "kind": "email",
+     "title": "Re: Extra cleaning request",
+     "text": "To: Denise Okoro\nFrom: Mr. Haas\nDate: March 21\nSubject: Re: Extra cleaning request\n\nDear Ms. Okoro,\n\nWe can send two cleaners on the morning of April 4. Because this is an additional service, please confirm in writing that you approve the work. Once you do, I will add the charge to our May 1 invoice.\n\nRegards,\nPeter Haas"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d16-p7-a1",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "How often is the tank-viewing glass cleaned under the agreement?",
+     "options": [
+      "Twice a month",
+      "Once a month",
+      "Every week",
+      "Every day"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Mục 2: tank-viewing glass \"twice per month\".",
+      "en": "Section 2 says the tank-viewing glass is cleaned twice per month."
+     },
+     "trap": "Once per month là cửa sổ bên ngoài."
+    },
+    {
+     "id": "d16-p7-a2",
+     "part": 7,
+     "skill": "p7.main-idea",
+     "level": 1,
+     "q": "Why did Ms. Okoro write to Mr. Haas?",
+     "options": [
+      "To end the agreement",
+      "To request an extra cleaning",
+      "To dispute an invoice",
+      "To change the monthly fee"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô muốn lau kính cửa vào ngày 4/4, ngoài hợp đồng.",
+      "en": "She wants the entrance glass cleaned on April 4, outside the agreement."
+     }
+    },
+    {
+     "id": "d16-p7-a3",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 2,
+     "q": "What must Ms. Okoro do before the extra work can go ahead?",
+     "options": [
+      "Pay a deposit",
+      "Give 30 days' notice",
+      "Confirm her approval in writing",
+      "Provide cleaning chemicals"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Hợp đồng mục 4 và thư ông Haas đều yêu cầu chấp thuận bằng văn bản.",
+      "en": "Section 4 and Mr. Haas's reply both require written approval."
+     },
+     "trap": "Thời hạn báo trước 30 ngày chỉ áp dụng khi chấm dứt hợp đồng."
+    },
+    {
+     "id": "d16-p7-a4",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 3,
+     "q": "How much will the extra cleaning probably cost?",
+     "options": [
+      "$180",
+      "$360",
+      "$720",
+      "$1,200"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Hai thợ x 3 giờ x $60 mỗi giờ mỗi người = $360.",
+      "en": "Two workers for three hours at $60 per hour each comes to $360."
+     },
+     "trap": "Quên số thợ sẽ ra $180."
+    },
+    {
+     "id": "d16-p7-a5",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 3,
+     "q": "By what date will Aqua Point probably need to pay for the extra cleaning?",
+     "options": [
+      "April 16",
+      "May 1",
+      "May 16",
+      "June 1"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Phí được tính vào hóa đơn ngày 1/5 và phải trả trong 15 ngày, tức 16/5.",
+      "en": "The charge goes on the May 1 invoice, payable within 15 days, which is May 16."
+     },
+     "trap": "May 1 là ngày phát hành hóa đơn, chưa phải hạn thanh toán."
+    }
+   ]
+  },
+  {
+   "id": "d16-p7-b",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "review",
+     "title": "Customer review",
+     "text": "★★★★☆ Great jellyfish, slow café\nPosted by Sam R., July 14\n\nI took my two nephews on a Sunday, and the jellyfish room was the highlight. The glowing tanks are beautiful, and a staff member in the gallery explained why the moon jellies pulse and even took a photo of us without being asked.\n\nThe café was less impressive. We waited 25 minutes for sandwiches because only one person was working the counter, and the iced coffee had run out by 1:00 P.M. The food itself was fresh, though, and the staff apologized and gave the boys free cookies.\n\nI would return, but I would go on a weekday. Tip: tickets are cheaper online."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d16-p7-b1",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "What did Sam like best about the visit?",
+     "options": [
+      "The café service",
+      "The ticket price",
+      "The free cookies",
+      "The jellyfish room"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"the jellyfish room was the highlight\".",
+      "en": "Sam calls the jellyfish room the highlight."
+     }
+    },
+    {
+     "id": "d16-p7-b2",
+     "part": 7,
+     "skill": "p7.inference",
+     "level": 2,
+     "q": "Why does Sam suggest going on a weekday?",
+     "options": [
+      "The café is probably less busy",
+      "Tickets are cheaper on weekdays",
+      "The staff give free photos",
+      "The tanks are cleaned on Sundays"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Chủ nhật quầy cà phê chậm vì thiếu người; Sam gợi ý ngày thường để tránh tình trạng đó.",
+      "en": "Sam had slow service on a Sunday, so a weekday is implied to be calmer."
+     },
+     "trap": "Giá vé rẻ hơn là khi mua online, không phải ngày thường."
+    },
+    {
+     "id": "d16-p7-b3",
+     "part": 7,
+     "skill": "p7.vocab-in-context",
+     "level": 2,
+     "q": "The word \"highlight\" in paragraph 1 is closest in meaning to",
+     "options": [
+      "the brightest light",
+      "the best part",
+      "the first activity",
+      "an important warning"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"The highlight\" của chuyến đi là phần thú vị nhất.",
+      "en": "\"The highlight\" of a visit is its best or most memorable part."
+     }
+    }
+   ]
+  }
+ ]
+}

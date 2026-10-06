@@ -1,0 +1,1417 @@
+{
+ "listening": [
+  {
+   "id": "d21-p1-s01",
+   "part": 1,
+   "image": "/media/p05.jpg",
+   "imageAlt": "Nhiều con sứa với xúc tu cam trôi trong bể, một con tròn màu cam lớn ở bên phải",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "usM",
+     "text": "Some jellyfish are resting on the sand."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usM",
+     "text": "A net is being lowered into the tank."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usM",
+     "text": "An orange jellyfish is floating on the right side."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usM",
+     "text": "Some jellyfish are lined up in a row."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p1-01",
+     "part": 1,
+     "skill": "p1.scene",
+     "level": 2,
+     "options": [
+      "Some jellyfish are resting on the sand.",
+      "A net is being lowered into the tank.",
+      "An orange jellyfish is floating on the right side.",
+      "Some jellyfish are lined up in a row."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Con sứa cam lớn nằm ở bên phải ảnh nên (C) đúng. Sứa trôi tự do, không xếp hàng.",
+      "en": "A big orange jellyfish drifts on the right, so (C) is right. The jellyfish are not in a row."
+     },
+     "trap": "Câu (D) 'lined up in a row' nghe hợp với nhiều con sứa, nhưng chúng nằm rải rác."
+    }
+   ]
+  },
+  {
+   "id": "d21-p1-s02",
+   "part": 1,
+   "image": "/media/v01.jpg",
+   "imageAlt": "Một con sứa có đốm trắng, xúc tu buông xuống, trôi trong nước đen",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "caF",
+     "text": "A diver is photographing a jellyfish."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caF",
+     "text": "A jellyfish with white spots is floating in the dark water."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caF",
+     "text": "A jellyfish is being weighed on a scale."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caF",
+     "text": "Two jellyfish are being separated."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p1-02",
+     "part": 1,
+     "skill": "p1.scene",
+     "level": 2,
+     "options": [
+      "A diver is photographing a jellyfish.",
+      "A jellyfish with white spots is floating in the dark water.",
+      "A jellyfish is being weighed on a scale.",
+      "Two jellyfish are being separated."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Con sứa có đốm trắng đang trôi trong nước tối, nên (B) đúng. Không có thợ lặn hay cân.",
+      "en": "A spotted jellyfish floats in dark water, so (B) fits. No diver or scale is visible."
+     },
+     "trap": "Câu (D) lấy ý có hơn một con (một con nhỏ ở mép phải) nhưng không ai đang tách chúng."
+    }
+   ]
+  },
+  {
+   "id": "d21-p1-s03",
+   "part": 1,
+   "image": "/media/v07.jpg",
+   "imageAlt": "Nhiều con sứa hồng và cam trôi trong bể, cột kính thẳng đứng bên trái và ánh đèn xanh lá bên phải",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "auF",
+     "text": "A glass panel is being replaced."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auF",
+     "text": "Some jellyfish are being fed by a worker."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auF",
+     "text": "Many jellyfish are drifting in a tank."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auF",
+     "text": "A tank is being emptied."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p1-03",
+     "part": 1,
+     "skill": "p1.scene",
+     "level": 2,
+     "options": [
+      "A glass panel is being replaced.",
+      "Some jellyfish are being fed by a worker.",
+      "Many jellyfish are drifting in a tank.",
+      "A tank is being emptied."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Rất nhiều sứa đang trôi trong bể nên (C) đúng. Không có người cho ăn hay thay kính.",
+      "en": "Many jellyfish drift in a tank, so (C) is correct. No worker is feeding or replacing anything."
+     },
+     "trap": "Câu (A) lấy tấm kính trong ảnh làm bẫy, nhưng không ai đang thay nó."
+    }
+   ]
+  },
+  {
+   "id": "d21-p1-s04",
+   "part": 1,
+   "image": "/media/p08.jpg",
+   "imageAlt": "Bể đầy sứa trong suốt màu xanh, chen chúc nhau",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "A tank is being cleaned with a brush."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "Fish are being counted by an inspector."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "A lid is being placed on the tank."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "The tank is crowded with jellyfish."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p1-04",
+     "part": 1,
+     "skill": "p1.scene",
+     "level": 2,
+     "options": [
+      "A tank is being cleaned with a brush.",
+      "Fish are being counted by an inspector.",
+      "A lid is being placed on the tank.",
+      "The tank is crowded with jellyfish."
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Bể có rất nhiều sứa chen chúc nên 'is crowded with' đúng. Không có người nào làm việc.",
+      "en": "The tank is packed with jellyfish, so (D) is right. No one is working."
+     },
+     "trap": "Câu (A), (B), (C) đều là bị động cần có người làm việc, mà ảnh không có ai."
+    }
+   ]
+  },
+  {
+   "id": "d21-p1-s05",
+   "part": 1,
+   "image": "/media/v09.jpg",
+   "imageAlt": "Một con sứa màu cam nhạt bơi trong một thùng tròn có đáy trắng",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "Some jellyfish are being poured into a bucket."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "A filter is being cleaned."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "Visitors are photographing a jellyfish."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "A single jellyfish is floating in a round container."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p1-05",
+     "part": 1,
+     "skill": "p1.scene",
+     "level": 3,
+     "options": [
+      "Some jellyfish are being poured into a bucket.",
+      "A filter is being cleaned.",
+      "Visitors are photographing a jellyfish.",
+      "A single jellyfish is floating in a round container."
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Chỉ có một con sứa đang trôi trong thùng tròn nên (D) đúng. Không có khách hay ai đổ sứa vào xô.",
+      "en": "One jellyfish floats in a round container, so (D) is correct. No visitors or pouring appear."
+     },
+     "trap": "Câu (A) gần với hoạt động chăm sóc sứa nhưng không ai đang đổ sứa vào xô."
+    }
+   ]
+  },
+  {
+   "id": "d21-p1-s06",
+   "part": 1,
+   "image": "/media/v10.jpg",
+   "imageAlt": "Một con sứa lớn màu hồng cam ở giữa ảnh, vài con nhỏ và nhạt xung quanh",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "The jellyfish are being sorted by size."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "A net is being used to catch small ones."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "A smaller jellyfish is being swallowed by a bigger one."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "A large jellyfish is floating among smaller ones."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p1-06",
+     "part": 1,
+     "skill": "p1.scene",
+     "level": 3,
+     "options": [
+      "The jellyfish are being sorted by size.",
+      "A net is being used to catch small ones.",
+      "A smaller jellyfish is being swallowed by a bigger one.",
+      "A large jellyfish is floating among smaller ones."
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Con lớn đang trôi giữa những con nhỏ hơn nên (D) đúng. Không có ai phân loại hay dùng lưới.",
+      "en": "The large jellyfish floats among smaller ones, so (D) is correct. No one is sorting or netting them."
+     },
+     "trap": "Câu (C) nghe hợp vì có con lớn và con nhỏ, nhưng chúng không ăn nhau trong ảnh."
+    }
+   ]
+  },
+  {
+   "id": "d21-p2-s01",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Where is the nearest pharmacy?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Take two tablets."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Across from the post office."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "At six o'clock."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p2-01",
+     "part": 2,
+     "skill": "p2.wh-where",
+     "level": 1,
+     "options": [
+      "Take two tablets.",
+      "Across from the post office.",
+      "At six o'clock."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Where hỏi chỗ; 'Across from the post office' trả lời.",
+      "en": "'Where' asks for a place, and 'Across from the post office' gives it."
+     },
+     "trap": "(A) liên quan thuốc nhưng không chỉ chỗ."
+    }
+   ]
+  },
+  {
+   "id": "d21-p2-s02",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Who's in charge of the volunteer schedule?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Every other weekend."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Ms. Ortega is."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "It's very full."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p2-02",
+     "part": 2,
+     "skill": "p2.wh-who",
+     "level": 1,
+     "options": [
+      "Every other weekend.",
+      "Ms. Ortega is.",
+      "It's very full."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Who hỏi người; Ms. Ortega là người phụ trách.",
+      "en": "'Who' asks for a person, and Ms. Ortega is one."
+     },
+     "trap": "(A) lặp lịch nhưng nói tần suất."
+    }
+   ]
+  },
+  {
+   "id": "d21-p2-s03",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "When will the new exhibit open?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Sometime in April."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "In the east wing."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "It's open to everyone."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p2-03",
+     "part": 2,
+     "skill": "p2.wh-when",
+     "level": 1,
+     "options": [
+      "Sometime in April.",
+      "In the east wing.",
+      "It's open to everyone."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "When hỏi thời gian; 'Sometime in April' trả lời.",
+      "en": "'When' asks for a time, and 'Sometime in April' gives it."
+     },
+     "trap": "(B) là địa điểm."
+    }
+   ]
+  },
+  {
+   "id": "d21-p2-s04",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "How do I get a parking permit?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Fill out a form at the front desk."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "It's a large lot."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Yes, until five."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p2-04",
+     "part": 2,
+     "skill": "p2.wh-how",
+     "level": 1,
+     "options": [
+      "Fill out a form at the front desk.",
+      "It's a large lot.",
+      "Yes, until five."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "How hỏi cách; 'Fill out a form' là cách xin thẻ.",
+      "en": "'How' asks for a method, and filling out a form is one."
+     },
+     "trap": "(B) nói về bãi đỗ xe, không nói cách xin."
+    }
+   ]
+  },
+  {
+   "id": "d21-p2-s05",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Why did the tour group arrive late?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Their bus broke down."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "On the tour map."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Around eleven."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p2-05",
+     "part": 2,
+     "skill": "p2.wh-why",
+     "level": 1,
+     "options": [
+      "Their bus broke down.",
+      "On the tour map.",
+      "Around eleven."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Why hỏi lý do; 'Their bus broke down' giải thích.",
+      "en": "'Why' asks for a reason, and the broken-down bus explains it."
+     },
+     "trap": "(C) trả lời When."
+    }
+   ]
+  },
+  {
+   "id": "d21-p2-s06",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Do you need help with those boxes?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Thanks, they're heavier than they look."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "The help desk is closed."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Boxes are in the van."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p2-06",
+     "part": 2,
+     "skill": "p2.yes-no",
+     "level": 1,
+     "options": [
+      "Thanks, they're heavier than they look.",
+      "The help desk is closed.",
+      "Boxes are in the van."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Chấp nhận gián tiếp: cảm ơn và giải thích vì sao cần giúp.",
+      "en": "It accepts indirectly: thanks, plus the reason help is needed."
+     },
+     "trap": "(B) lặp help nhưng nói về quầy hỗ trợ."
+    }
+   ]
+  },
+  {
+   "id": "d21-p2-s07",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Which supplier offered the better price?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "It's a better supplier."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Price lists are online."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "The one we used last year."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p2-07",
+     "part": 2,
+     "skill": "p2.wh-what",
+     "level": 2,
+     "options": [
+      "It's a better supplier.",
+      "Price lists are online.",
+      "The one we used last year."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Which hỏi chọn; 'The one we used last year' xác định.",
+      "en": "'Which' asks for an identification, and 'The one we used last year' gives it."
+     },
+     "trap": "(B) lặp price nhưng không chọn nhà cung cấp."
+    }
+   ]
+  },
+  {
+   "id": "d21-p2-s08",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "What do you think of the new logo?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "It's on the logo page."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "I'd like to see it in color."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Yes, he logged in."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p2-08",
+     "part": 2,
+     "skill": "p2.wh-what",
+     "level": 2,
+     "options": [
+      "It's on the logo page.",
+      "I'd like to see it in color.",
+      "Yes, he logged in."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "What do you think hỏi ý kiến; 'I'd like to see it in color' là phản hồi chưa hẳn đồng ý.",
+      "en": "'What do you think' asks for an opinion, and wanting to see color is a cautious reply."
+     },
+     "trap": "(C) nghe giống logo/logged."
+    }
+   ]
+  },
+  {
+   "id": "d21-p2-s09",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Would you like me to book a table for lunch?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Yes, the tablet is new."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Thanks, I already made a reservation."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Lunch was delicious."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p2-09",
+     "part": 2,
+     "skill": "p2.suggestion",
+     "level": 2,
+     "options": [
+      "Yes, the tablet is new.",
+      "Thanks, I already made a reservation.",
+      "Lunch was delicious."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Lời đề nghị; 'I already made a reservation' từ chối vì đã làm.",
+      "en": "An offer, and 'I already made a reservation' declines because it is done."
+     },
+     "trap": "(A) nghe giống table/tablet."
+    }
+   ]
+  },
+  {
+   "id": "d21-p2-s10",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Why isn't the jellyfish tank lit up today?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "The bulbs are on order."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Light snacks are served."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Yes, it's a big tank."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p2-10",
+     "part": 2,
+     "skill": "p2.wh-why",
+     "level": 2,
+     "options": [
+      "The bulbs are on order.",
+      "Light snacks are served.",
+      "Yes, it's a big tank."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Why hỏi lý do; 'The bulbs are on order' giải thích.",
+      "en": "'Why' asks for a reason, and the bulbs being on order explains it."
+     },
+     "trap": "(B) lặp light nhưng nghĩa khác."
+    }
+   ]
+  },
+  {
+   "id": "d21-p2-s11",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "When should I submit the overtime form?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "In the HR office."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "It's due before the payroll cut-off."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Yes, overtime is on Friday."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p2-11",
+     "part": 2,
+     "skill": "p2.wh-when",
+     "level": 2,
+     "options": [
+      "In the HR office.",
+      "It's due before the payroll cut-off.",
+      "Yes, overtime is on Friday."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "When hỏi thời hạn; 'before the payroll cut-off' trả lời.",
+      "en": "'When' asks for a deadline, and 'before the payroll cut-off' gives it."
+     },
+     "trap": "(A) trả lời Where."
+    }
+   ]
+  },
+  {
+   "id": "d21-p2-s12",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Where can I charge my phone?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "There's an outlet by the pillar."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Yes, it's free of charge."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "A phone call for you."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p2-12",
+     "part": 2,
+     "skill": "p2.wh-where",
+     "level": 2,
+     "options": [
+      "There's an outlet by the pillar.",
+      "Yes, it's free of charge.",
+      "A phone call for you."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Where hỏi chỗ; 'an outlet by the pillar' chỉ chỗ.",
+      "en": "'Where' asks for a place, and 'an outlet by the pillar' gives one."
+     },
+     "trap": "(B) lặp charge nhưng nghĩa khác (miễn phí)."
+    }
+   ]
+  },
+  {
+   "id": "d21-p2-s13",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "How come the café is so quiet today?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "It's a quiet café."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Half the neighborhood is at the festival."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Yes, at about two."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p2-13",
+     "part": 2,
+     "skill": "p2.wh-why",
+     "level": 2,
+     "options": [
+      "It's a quiet café.",
+      "Half the neighborhood is at the festival.",
+      "Yes, at about two."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "How come nghĩa là Why; 'at the festival' là lý do.",
+      "en": "'How come' means 'why', and the festival is the reason."
+     },
+     "trap": "(A) lặp quiet nhưng không giải thích."
+    }
+   ]
+  },
+  {
+   "id": "d21-p2-s14",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Could you proofread this brochure?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Yes, the brochure is red."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "I can look at it after lunch."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Proof of purchase is required."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p2-14",
+     "part": 2,
+     "skill": "p2.suggestion",
+     "level": 2,
+     "options": [
+      "Yes, the brochure is red.",
+      "I can look at it after lunch.",
+      "Proof of purchase is required."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Lời nhờ; 'I can look at it after lunch' đồng ý.",
+      "en": "A request, and 'I can look at it after lunch' agrees."
+     },
+     "trap": "(C) nghe giống proofread/proof."
+    }
+   ]
+  },
+  {
+   "id": "d21-p2-s15",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Who's responsible for the leaking pipe?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "The plumber is on his way."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Building management, I assume."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "It's a lead pipe."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p2-15",
+     "part": 2,
+     "skill": "p2.wh-who",
+     "level": 2,
+     "options": [
+      "The plumber is on his way.",
+      "Building management, I assume.",
+      "It's a lead pipe."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Who hỏi người chịu trách nhiệm; 'Building management' trả lời.",
+      "en": "'Who' asks about responsibility, and building management answers."
+     },
+     "trap": "(A) liên quan ống nước nhưng không nói ai chịu trách nhiệm."
+    }
+   ]
+  },
+  {
+   "id": "d21-p2-s16",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Is it all right if I leave a little early?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "As long as the report is done."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Early flights are cheaper."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Yes, it's a little late."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p2-16",
+     "part": 2,
+     "skill": "p2.yes-no",
+     "level": 2,
+     "options": [
+      "As long as the report is done.",
+      "Early flights are cheaper.",
+      "Yes, it's a little late."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Xin phép; 'As long as the report is done' đồng ý có điều kiện.",
+      "en": "A request for permission, and 'As long as the report is done' grants it with a condition."
+     },
+     "trap": "(C) lặp little nhưng trái nghĩa."
+    }
+   ]
+  },
+  {
+   "id": "d21-p2-s17",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "What's the fee for a late return?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "It's the fine print."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "A return ticket."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Two dollars a day."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p2-17",
+     "part": 2,
+     "skill": "p2.wh-what",
+     "level": 2,
+     "options": [
+      "It's the fine print.",
+      "A return ticket.",
+      "Two dollars a day."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Fee là phí; 'Two dollars a day' nêu phí trả muộn.",
+      "en": "'Fee' means a charge, and 'Two dollars a day' states it."
+     },
+     "trap": "(A) nghe giống fee/fine nhưng không nói số tiền."
+    }
+   ]
+  },
+  {
+   "id": "d21-p2-s18",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Why don't we ask the guide to speak a bit slower?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Some visitors are struggling to follow."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "It's a slow day."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Yes, a speaker."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p2-18",
+     "part": 2,
+     "skill": "p2.suggestion",
+     "level": 2,
+     "options": [
+      "Some visitors are struggling to follow.",
+      "It's a slow day.",
+      "Yes, a speaker."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Đồng ý gợi ý bằng lý do: một số khách khó theo kịp.",
+      "en": "It supports the suggestion with a reason."
+     },
+     "trap": "(B) lặp slow nhưng nói về ngày."
+    }
+   ]
+  },
+  {
+   "id": "d21-p2-s19",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "How long has the tank been out of service?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Since the pump failed last Friday."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Service starts at ten."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "It's the longest tank."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p2-19",
+     "part": 2,
+     "skill": "p2.wh-how",
+     "level": 2,
+     "options": [
+      "Since the pump failed last Friday.",
+      "Service starts at ten.",
+      "It's the longest tank."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "How long hỏi khoảng thời gian; 'Since the pump failed' trả lời.",
+      "en": "'How long' asks for a duration, and 'Since the pump failed' gives it."
+     },
+     "trap": "(B) lặp service nhưng nói giờ bắt đầu."
+    }
+   ]
+  },
+  {
+   "id": "d21-p2-s20",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Where do you keep the visitor log?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Visitors sign in daily."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "It's at the security desk."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Yes, a log cabin."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p2-20",
+     "part": 2,
+     "skill": "p2.wh-where",
+     "level": 2,
+     "options": [
+      "Visitors sign in daily.",
+      "It's at the security desk.",
+      "Yes, a log cabin."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Where hỏi chỗ; 'at the security desk' trả lời.",
+      "en": "'Where' asks for a place, and the security desk is one."
+     },
+     "trap": "(A) lặp visitor nhưng không chỉ chỗ."
+    }
+   ]
+  },
+  {
+   "id": "d21-p2-s21",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Wasn't there supposed to be a demonstration this afternoon?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Afternoon is the best time."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "It was moved to tomorrow morning."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "A supposed expert."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p2-21",
+     "part": 2,
+     "skill": "p2.yes-no",
+     "level": 3,
+     "options": [
+      "Afternoon is the best time.",
+      "It was moved to tomorrow morning.",
+      "A supposed expert."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Câu hỏi phủ định; 'moved to tomorrow morning' cho biết thay đổi.",
+      "en": "'It was moved to tomorrow morning' answers the negative question."
+     },
+     "trap": "(A) lặp afternoon nhưng không nói gì về buổi trình diễn."
+    }
+   ]
+  },
+  {
+   "id": "d21-p2-s22",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "I can't believe the shipment is late again."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Maybe we should switch carriers."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "I believe in the shipment."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Yes, he's late."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p2-22",
+     "part": 2,
+     "skill": "p2.statement",
+     "level": 3,
+     "options": [
+      "Maybe we should switch carriers.",
+      "I believe in the shipment.",
+      "Yes, he's late."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Phàn nàn; 'switch carriers' là đề xuất xử lý.",
+      "en": "A complaint, and switching carriers is a sensible response."
+     },
+     "trap": "(B) lặp believe nhưng không hợp ngữ cảnh."
+    }
+   ]
+  },
+  {
+   "id": "d21-p2-s23",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Who should I ask about the school group booking?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "The group booked a room."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Yes, school is out."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Whoever is at the front desk can help."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p2-23",
+     "part": 2,
+     "skill": "p2.wh-who",
+     "level": 3,
+     "options": [
+      "The group booked a room.",
+      "Yes, school is out.",
+      "Whoever is at the front desk can help."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Who hỏi người; 'Whoever is at the front desk' chỉ người trực.",
+      "en": "'Who' asks for a person, and 'Whoever is at the front desk' points to one."
+     },
+     "trap": "(A) lặp book/group nhưng nói đã đặt phòng."
+    }
+   ]
+  },
+  {
+   "id": "d21-p2-s24",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Would you mind if I borrowed your notes from the meeting?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Yes, the meeting was blue."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "The notes were not at all long."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Not at all, they're in the blue folder."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p2-24",
+     "part": 2,
+     "skill": "p2.suggestion",
+     "level": 3,
+     "options": [
+      "Yes, the meeting was blue.",
+      "The notes were not at all long.",
+      "Not at all, they're in the blue folder."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "'Would you mind' xin phép; 'Not at all' nghĩa là không phiền, đồng ý.",
+      "en": "'Would you mind' asks permission, and 'Not at all' agrees."
+     },
+     "trap": "(B) lặp 'not at all' nhưng nói về độ dài."
+    }
+   ]
+  },
+  {
+   "id": "d21-p2-s25",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Do you think the proposal will be approved or sent back for revision?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Approval comes with a stamp."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Yes, it improved a lot."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "The board has been asking for details."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d21-p2-25",
+     "part": 2,
+     "skill": "p2.choice",
+     "level": 3,
+     "options": [
+      "Approval comes with a stamp.",
+      "Yes, it improved a lot.",
+      "The board has been asking for details."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Trả lời gián tiếp: hội đồng đang đòi chi tiết nên có thể bị trả lại.",
+      "en": "An indirect reply: the board wants details, so revision is likely."
+     },
+     "trap": "(A) lặp approve nhưng không chọn."
+    }
+   ]
+  }
+ ]
+}

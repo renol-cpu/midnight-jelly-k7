@@ -1,0 +1,187 @@
+{
+ "day": 3,
+ "title": {
+  "vi": "Tin tìm người",
+  "en": "Missing at Depth"
+ },
+ "story": [
+  {
+   "speaker": "NOVA",
+   "en": "Attention all divers. We are searching for a missing diver. Male, twenty-five years old. Last seen at depth.",
+   "vi": "Chú ý tất cả thợ lặn. Chúng tôi đang tìm một thợ lặn mất tích. Nam, hai mươi lăm tuổi. Lần cuối thấy ở dưới sâu.",
+   "voice": "usF"
+  },
+  {
+   "speaker": "HUY",
+   "en": "Twenty-five... that is M.'s age too. Poor family. I hope they find him soon.",
+   "vi": "Hai mươi lăm... bằng tuổi anh M. nữa. Tội gia đình quá. Mong họ sớm tìm được.",
+   "voice": "caM"
+  },
+  {
+   "speaker": "HUY",
+   "en": "NOVA, tell me the truth. Where is M. now?",
+   "vi": "NOVA, nói thật đi. Bây giờ anh M. ở đâu?",
+   "voice": "caM"
+  },
+  {
+   "speaker": "NOVA",
+   "en": "The water is cold tonight. Let us check your light first.",
+   "vi": "Đêm nay nước lạnh. Mình kiểm tra đèn của bạn trước nhé.",
+   "voice": "usF"
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "The oxygen meter reaches zero. The sea turns black. For half a second, a tiny white jellyfish glows in the dark. Then Huy wakes at the dock, breathing hard.",
+   "vi": "Đồng hồ oxy về số không. Biển tối đen. Nửa giây, một chú sứa trắng nhỏ phát sáng giữa bóng tối. Rồi Huy tỉnh dậy ở bến, thở dốc.",
+   "voice": "gbF"
+  }
+ ],
+ "letter": {
+  "vi": "Hihii, hôm nay luyện Part 1 nè. Nghe động từ đuôi -ing là người đang làm gì, has been placed là vật nằm ở đâu. Anh nhớ YOU lắm đó, nhưng làm đủ 10 câu rồi mình nhắn nhau nha.",
+  "en": "Hihii, Part 1 today. A verb ending in -ing tells what a person is doing; has been placed tells where an object is. I miss YOU a lot, but finish the 10 questions first, then we text."
+ },
+ "beSua": [
+  "Fare là tiền vé xe/tàu, fee là phí dịch vụ, fine là tiền phạt, tip là tiền boa. Bốn chữ này hay bị nhầm lắm nha! :33",
+  "Arrive IN Saigon (thành phố), arrive AT the airport (nơi cụ thể). Hihi, nhớ cặp này nè.",
+  "Trip là chuyến đi ngắn, journey là hành trình dài, travel là động từ chung. \"I have a nice travel\" là sai nha. :33"
+ ],
+ "vocab": [
+  {
+   "word": "itinerary",
+   "pos": "n",
+   "ipa": "/aɪˈtɪnərəri/",
+   "vi": "lịch trình chuyến đi",
+   "example": {
+    "en": "The itinerary includes two nights in Hue.",
+    "vi": "Lịch trình gồm hai đêm ở Huế."
+   },
+   "collocation": "detailed itinerary"
+  },
+  {
+   "word": "reservation",
+   "pos": "n",
+   "ipa": "/ˌrezəˈveɪʃn/",
+   "vi": "việc đặt chỗ",
+   "example": {
+    "en": "I made a reservation for four people.",
+    "vi": "Tôi đã đặt chỗ cho bốn người."
+   },
+   "family": "reserve (v) / reservation (n)",
+   "collocation": "make a reservation"
+  },
+  {
+   "word": "destination",
+   "pos": "n",
+   "ipa": "/ˌdestɪˈneɪʃn/",
+   "vi": "điểm đến",
+   "example": {
+    "en": "Da Nang is a popular destination.",
+    "vi": "Đà Nẵng là điểm đến được ưa chuộng."
+   },
+   "collocation": "tourist destination"
+  },
+  {
+   "word": "luggage",
+   "pos": "n",
+   "ipa": "/ˈlʌɡɪdʒ/",
+   "vi": "hành lý",
+   "example": {
+    "en": "Please keep your luggage with you.",
+    "vi": "Vui lòng giữ hành lý bên mình."
+   },
+   "collocation": "carry-on luggage"
+  },
+  {
+   "word": "delay",
+   "pos": "n",
+   "ipa": "/dɪˈleɪ/",
+   "vi": "sự chậm trễ",
+   "example": {
+    "en": "A storm caused a two-hour delay.",
+    "vi": "Cơn bão gây ra chậm trễ hai giờ."
+   },
+   "family": "delay (n, v)",
+   "collocation": "flight delay"
+  },
+  {
+   "word": "departure",
+   "pos": "n",
+   "ipa": "/dɪˈpɑːtʃə/",
+   "vi": "giờ khởi hành, sự khởi hành",
+   "example": {
+    "en": "The departure time is 7:40 A.M.",
+    "vi": "Giờ khởi hành là 7 giờ 40 sáng."
+   },
+   "family": "depart (v) / departure (n)",
+   "collocation": "departure gate"
+  },
+  {
+   "word": "fare",
+   "pos": "n",
+   "ipa": "/feə/",
+   "vi": "giá vé (xe, tàu, máy bay)",
+   "example": {
+    "en": "The bus fare went up this year.",
+    "vi": "Giá vé xe buýt tăng năm nay."
+   },
+   "collocation": "one-way fare"
+  },
+  {
+   "word": "passport",
+   "pos": "n",
+   "ipa": "/ˈpɑːspɔːt/",
+   "vi": "hộ chiếu",
+   "example": {
+    "en": "Bring your passport to the check-in desk.",
+    "vi": "Mang hộ chiếu đến quầy làm thủ tục."
+   },
+   "collocation": "valid passport"
+  },
+  {
+   "word": "customs",
+   "pos": "n",
+   "ipa": "/ˈkʌstəmz/",
+   "vi": "hải quan",
+   "example": {
+    "en": "We waited an hour at customs.",
+    "vi": "Chúng tôi chờ một giờ ở hải quan."
+   },
+   "collocation": "clear customs"
+  },
+  {
+   "word": "tourist",
+   "pos": "n",
+   "ipa": "/ˈtʊərɪst/",
+   "vi": "khách du lịch",
+   "example": {
+    "en": "Tourists often visit the old market.",
+    "vi": "Khách du lịch thường ghé chợ cũ."
+   },
+   "family": "tour (n, v) / tourist (n) / tourism (n)",
+   "collocation": "tourist attraction"
+  },
+  {
+   "word": "accommodation",
+   "pos": "n",
+   "ipa": "/əˌkɒməˈdeɪʃn/",
+   "vi": "chỗ ở",
+   "example": {
+    "en": "The price includes accommodation and meals.",
+    "vi": "Giá đã gồm chỗ ở và bữa ăn."
+   },
+   "family": "accommodate (v) / accommodation (n)",
+   "collocation": "book accommodation"
+  },
+  {
+   "word": "shuttle",
+   "pos": "n",
+   "ipa": "/ˈʃʌtl/",
+   "vi": "xe đưa đón",
+   "example": {
+    "en": "A free shuttle runs to the airport.",
+    "vi": "Xe đưa đón miễn phí chạy ra sân bay."
+   },
+   "collocation": "shuttle bus"
+  }
+ ]
+}

@@ -1,0 +1,489 @@
+{
+ "listening": [
+  {
+   "id": "d09-p3-a",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Good morning, Pacific Bistro. How can I help you?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Hi, I'm calling about a booking for Saturday evening. We're a group of twelve, and I'd like to make sure you can seat us together."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Let me check. We do have a private room at the back, but it's usually reserved for parties of fifteen or more."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Oh, I see. Is there any chance of an exception? It's a retirement dinner for a colleague."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Congratulations to him! I'll ask the manager and call you back within the hour."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "That would be great. My number's on the reservation."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d09-p3-a1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "Why is the man calling?",
+     "options": [
+      "To change a menu",
+      "To arrange seating for a group",
+      "To complain about service",
+      "To ask for directions"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Anh ấy gọi để đặt chỗ ngồi chung cho nhóm 12 người.",
+      "en": "He wants a table for a group of twelve."
+     },
+     "trap": "Anh ấy không phàn nàn gì; chỉ hỏi về chỗ ngồi."
+    },
+    {
+     "id": "d09-p3-a2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "What is the occasion?",
+     "options": [
+      "A birthday party",
+      "A business launch",
+      "A retirement dinner",
+      "A wedding anniversary"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Anh nói đây là bữa tối chia tay nghỉ hưu của một đồng nghiệp.",
+      "en": "He says it is a dinner for a colleague who is retiring."
+     },
+     "trap": "Birthday hay gặp trong bài nhưng ở đây không được nhắc."
+    },
+    {
+     "id": "d09-p3-a3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the woman do?",
+     "options": [
+      "Send a menu",
+      "Cancel the booking",
+      "Reduce the group size",
+      "Consult a manager"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Cô sẽ hỏi quản lý và gọi lại, tức là tham khảo ý kiến quản lý.",
+      "en": "She will ask the manager, which means consult a manager."
+     },
+     "trap": "Cô chưa hủy gì cả."
+    }
+   ]
+  },
+  {
+   "id": "d09-p3-b",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Maria, the assembly line stopped again around ten o'clock. It's the third time this week."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "I know. The maintenance team says a sensor on the conveyor belt keeps failing."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Can't they just replace it?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "They already did once, but the new one is the same model. They're going to order a different type from another supplier."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "How long will that take?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "About four days. In the meantime, we'll run the line at half speed."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "All right. I'll tell the night shift so they aren't surprised."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d09-p3-b1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What problem are the speakers discussing?",
+     "options": [
+      "Faulty equipment",
+      "A late shipment",
+      "A staffing shortage",
+      "A safety inspection"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cảm biến trên băng chuyền hỏng liên tục, tức là thiết bị lỗi.",
+      "en": "A sensor on the conveyor keeps failing, which is faulty equipment."
+     },
+     "trap": "Late shipment không được đề cập; chỉ có thiết bị hỏng."
+    },
+    {
+     "id": "d09-p3-b2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "What will the maintenance team do?",
+     "options": [
+      "Hire a technician",
+      "Order a different part",
+      "Move the line",
+      "Upgrade the software"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Họ sẽ đặt loại cảm biến khác từ nhà cung cấp khác.",
+      "en": "They will order another type of sensor, so a different part."
+     },
+     "trap": "Replace the old one họ đã làm rồi, lần này là đặt loại khác."
+    },
+    {
+     "id": "d09-p3-b3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What does the man say he will do?",
+     "options": [
+      "Call the supplier",
+      "Stop production",
+      "Inform the night shift",
+      "Fill out a report"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Anh sẽ báo cho ca đêm để họ không bất ngờ.",
+      "en": "He will tell the night shift, meaning inform them."
+     },
+     "trap": "Anh không gọi nhà cung cấp; đó là việc của đội bảo trì."
+    }
+   ]
+  },
+  {
+   "id": "d09-p3-c",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Hello, Mr. Torres. Thanks for coming in for the interview."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Thank you for having me. I've been following your company's growth for a while."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Your résumé says you've managed a sales team of eight. Could you tell me about that?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Sure. Over two years we increased regional sales by about twenty percent, mostly through better training."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "That's impressive. This position involves a lot of travel. Is that something you're comfortable with?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Oh, absolutely. In my current role I'm on the road about half the month."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d09-p3-c1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What is the conversation mainly about?",
+     "options": [
+      "A sales meeting",
+      "A training session",
+      "A travel booking",
+      "A job interview"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Cô ấy cảm ơn anh đến phỏng vấn và hỏi về kinh nghiệm, nên đây là buổi phỏng vấn.",
+      "en": "The woman thanks him for coming in for the interview."
+     },
+     "trap": "Có nói về travel và sales nhưng chỉ là chi tiết của buổi phỏng vấn."
+    },
+    {
+     "id": "d09-p3-c2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "How did the man improve sales?",
+     "options": [
+      "By training his staff",
+      "By lowering prices",
+      "By opening new stores",
+      "By advertising online"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh nói doanh số tăng chủ yếu nhờ đào tạo tốt hơn.",
+      "en": "He credits better training for the increase."
+     },
+     "trap": "Lowering prices không được nhắc tới."
+    },
+    {
+     "id": "d09-p3-c3",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "What does the woman ask about?",
+     "options": [
+      "His salary request",
+      "His willingness to travel",
+      "His start date",
+      "His education"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô hỏi anh có thoải mái với việc đi công tác nhiều không.",
+      "en": "She asks if he is comfortable with frequent travel."
+     },
+     "trap": "Salary là thứ thường được hỏi nhưng ở đây chưa nói tới."
+    }
+   ]
+  },
+  {
+   "id": "d09-p3-d",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Hi, this is Dan from Building Services. I'm calling about the air conditioning on your floor."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Oh, good. It's been so warm in the east wing that people are working in the lobby."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Sorry about that. The unit needs a new part, and it won't arrive until Thursday."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Thursday? We have clients visiting on Wednesday afternoon."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "In that case, I can bring in two portable cooling units tomorrow morning as a temporary fix."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "That would really help. Could you set them up in the main conference room?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "No problem. I'll be there by eight."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d09-p3-d1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What is the problem?",
+     "options": [
+      "A door is locked",
+      "An elevator is out of service",
+      "A cooling system is not working properly",
+      "A phone line is down"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Điều hòa ở cánh đông quá nóng, tức là hệ thống làm mát không hoạt động tốt.",
+      "en": "The east wing is too warm because the air conditioning is faulty."
+     },
+     "trap": "Lobby chỉ là nơi mọi người tạm làm việc."
+    },
+    {
+     "id": "d09-p3-d2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "Why is the woman concerned about Wednesday?",
+     "options": [
+      "A deadline is due",
+      "A holiday begins",
+      "An inspection is scheduled",
+      "Some visitors are coming"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Khách hàng sẽ đến thăm vào chiều thứ Tư.",
+      "en": "Clients will visit that afternoon, so visitors are coming."
+     },
+     "trap": "Không có hạn chót nào được nhắc."
+    },
+    {
+     "id": "d09-p3-d3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the man do tomorrow morning?",
+     "options": [
+      "Install temporary units",
+      "Replace a part",
+      "Meet the clients",
+      "Move some furniture"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Anh sẽ mang hai máy làm mát di động đến làm giải pháp tạm.",
+      "en": "He will set up two portable units as a temporary fix."
+     },
+     "trap": "Part thay chính thức đến thứ Năm, không phải ngày mai."
+    }
+   ]
+  },
+  {
+   "id": "d09-p3-e",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Hi, I bought this blender last month, but the lid cracked after only a few uses."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "I'm sorry to hear that. Do you have your receipt with you?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Yes, it's right here. I know the warranty covers one year."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "That's right. We can either send it to the manufacturer for repair, or I can exchange it for a new one today."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "An exchange sounds better. I use it every morning at my café."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Then let me check that we have the same model in stock. Just one moment."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d09-p3-e1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "Why is the woman at the store?",
+     "options": [
+      "To buy a new blender",
+      "To get a defective item replaced",
+      "To ask for a discount",
+      "To apply for a job"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Nắp máy xay bị nứt, cô muốn được đổi hàng lỗi.",
+      "en": "Her blender lid cracked and she wants a replacement."
+     },
+     "trap": "Mua máy mới không đúng vì cô đã có máy từ tháng trước."
+    },
+    {
+     "id": "d09-p3-e2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "What does the woman say about the warranty?",
+     "options": [
+      "It has expired",
+      "It requires registration",
+      "It lasts for twelve months",
+      "It covers only repairs"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Bảo hành một năm, tức là mười hai tháng.",
+      "en": "One year equals twelve months."
+     },
+     "trap": "Cô mua tháng trước, nên chưa hết hạn."
+    },
+    {
+     "id": "d09-p3-e3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What will the man do next?",
+     "options": [
+      "Call the manufacturer",
+      "Issue a refund",
+      "Test the blender",
+      "Check inventory"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Anh sẽ kiểm tra xem còn cùng mẫu trong kho không.",
+      "en": "He will check if the same model is in stock, i.e. check inventory."
+     },
+     "trap": "Gửi về nhà sản xuất là phương án cô đã từ chối."
+    }
+   ]
+  }
+ ]
+}

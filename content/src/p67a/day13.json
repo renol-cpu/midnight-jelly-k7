@@ -1,0 +1,182 @@
+{
+  "grammar": [
+    {
+      "id": "d13-p6-a",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "notice",
+          "title": "Jellyfish Gallery closure",
+          "text": "NOTICE TO VISITORS\nHarbor Aquarium\n\nThe Jellyfish Gallery will be closed for [1] from April 8 to April 12. During this time, technicians will replace the lighting system and [2] the water-circulation equipment. [3] Visitors who purchased tickets for those dates may exchange them for any other day within three months. All other galleries, including the Touch Pool and the Penguin Walk, will remain open [4] usual.\n\nWe thank you for your understanding."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d13-p6-a-1",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [1]",
+          "options": [
+            "maintain",
+            "maintenance",
+            "maintained",
+            "maintainable"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Sau giới từ \"for\" cần danh từ: \"closed for maintenance\" (đóng cửa để bảo trì).",
+            "en": "After the preposition \"for\" we need a noun: \"closed for maintenance\"."
+          },
+          "trap": "\"maintain\" là động từ nên không đứng sau \"for\" ở đây."
+        },
+        {
+          "id": "d13-p6-a-2",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [2]",
+          "options": [
+            "inspect",
+            "inspection",
+            "inspector",
+            "inspecting"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Động từ này song song với \"replace\" sau \"will ... and\": cần dạng nguyên mẫu \"inspect\".",
+            "en": "The verb is parallel to \"replace\" after \"will ... and\", so use the base form \"inspect\"."
+          },
+          "trap": "\"inspection\" là danh từ, không song song với \"replace\"."
+        },
+        {
+          "id": "d13-p6-a-3",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 2,
+          "q": "Blank [3]",
+          "options": [
+            "Our café now offers a new range of herbal teas.",
+            "Several species were added to the collection last spring.",
+            "Entry to the gallery will not be possible on these dates.",
+            "Staff members must wear name badges at all times."
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Câu sau nói về khách đã mua vé cho những ngày đó được đổi vé, nên câu chèn phải nói rằng không thể vào thăm vào các ngày này.",
+            "en": "The next sentence lets ticket holders exchange tickets, so the missing sentence must say entry is not possible on those dates."
+          },
+          "trap": "Câu B có \"species\" nghe giống nội dung thủy cung nhưng không nối được với việc đổi vé."
+        },
+        {
+          "id": "d13-p6-a-4",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [4]",
+          "options": [
+            "as",
+            "like",
+            "than",
+            "so"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "\"as usual\" là cụm cố định: mở cửa như thường lệ.",
+            "en": "\"As usual\" is the fixed phrase: open as usual."
+          },
+          "trap": "\"like usual\" nghe thân mật nhưng không chuẩn trong văn bản thông báo."
+        }
+      ]
+    },
+    {
+      "id": "d13-p6-b",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "email",
+          "title": "Revised weekend schedule",
+          "text": "To: All café and gallery staff\nFrom: Operations Office\nSubject: Revised weekend schedule\n\nBeginning next month, weekend staff will work a split shift: four hours in the morning and three in the [1]. This change is intended to ensure that enough employees are available during busy periods. [2] Employees who prefer a different arrangement should speak to their supervisors by Friday. Overtime will be paid at the standard rate [3] any hours worked beyond forty per week. We hope the new arrangement will be [4] for everyone.\n\nThank you,\nOperations Office"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d13-p6-b-1",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [1]",
+          "options": [
+            "evenly",
+            "evening",
+            "even",
+            "evened"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "\"in the evening\" là cụm thời gian cố định; \"three in the evening\" song song với \"four in the morning\".",
+            "en": "\"In the evening\" is the fixed time phrase, parallel to \"in the morning\"."
+          },
+          "trap": "\"evenly\" là trạng từ (đều đặn) nên không đi sau \"the\"."
+        },
+        {
+          "id": "d13-p6-b-2",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 2,
+          "q": "Blank [2]",
+          "options": [
+            "The aquarium received an award for its conservation work.",
+            "Staff will be assigned to either the morning or the evening block each week.",
+            "Lunch will be provided free of charge on Fridays.",
+            "Ticket prices for school groups will increase in June."
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Câu sau nói \"Employees who prefer a different arrangement\", nên câu trước phải nêu một sắp xếp ca cụ thể: phân ca sáng hoặc tối.",
+            "en": "\"A different arrangement\" refers back to a stated arrangement, so the missing sentence describes how shifts are assigned."
+          },
+          "trap": "Câu C cũng nói về nhân viên nhưng không có \"arrangement\" để câu sau tham chiếu."
+        },
+        {
+          "id": "d13-p6-b-3",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [3]",
+          "options": [
+            "for",
+            "on",
+            "at",
+            "with"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "\"paid for any hours worked\": trả lương cho số giờ làm thêm.",
+            "en": "Pay is \"for\" the hours worked, so \"for\" is the preposition."
+          },
+          "trap": "\"at the standard rate\" đã dùng \"at\" rồi; chọn \"at\" lần nữa làm câu rối nghĩa."
+        },
+        {
+          "id": "d13-p6-b-4",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [4]",
+          "options": [
+            "benefit",
+            "beneficial",
+            "beneficially",
+            "benefiting"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Sau \"will be\" cần tính từ: \"beneficial for everyone\" (có lợi cho mọi người).",
+            "en": "After \"will be\" we need an adjective: \"beneficial for everyone\"."
+          },
+          "trap": "\"benefiting\" nhìn giống tính từ -ing nhưng cần có tân ngữ đi sau, ở đây thì không."
+        }
+      ]
+    }
+  ]
+}

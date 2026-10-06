@@ -1,0 +1,934 @@
+{
+ "listening": [
+  {
+   "id": "d02-p1-s01",
+   "part": 1,
+   "image": "/img/p1/pp01.jpg",
+   "imageAlt": "Một phụ nữ ngồi trên ghế dài gỗ gõ máy tính xách tay bên bức tường gạch",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "gbM",
+     "text": "A woman is typing on a laptop."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbM",
+     "text": "A woman is answering a telephone."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbM",
+     "text": "A woman is hanging a picture on a wall."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbM",
+     "text": "A laptop is being repaired."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d02-p1-01",
+     "part": 1,
+     "skill": "p1.people-action",
+     "level": 1,
+     "options": [
+      "A woman is typing on a laptop.",
+      "A woman is answering a telephone.",
+      "A woman is hanging a picture on a wall.",
+      "A laptop is being repaired."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô ấy đang gõ trên laptop: is typing khớp hành động. Không thấy điện thoại hay ai sửa máy.",
+      "en": "She is using the keyboard, so is typing matches. Nobody is repairing the laptop."
+     },
+     "trap": "Câu (D) là dạng bị động 'is being repaired' nghe khó hơn, nhưng không có thợ nào đang sửa máy."
+    }
+   ]
+  },
+  {
+   "id": "d02-p1-s02",
+   "part": 1,
+   "image": "/img/p1/pp02.jpg",
+   "imageAlt": "Một phụ nữ gõ máy tính, bên cạnh là tách cà phê và bình hoa",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "usM",
+     "text": "A woman is pouring coffee into a cup."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usM",
+     "text": "A woman is watering some flowers."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usM",
+     "text": "A woman is typing on a keyboard."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usM",
+     "text": "A cup is being washed in a sink."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d02-p1-02",
+     "part": 1,
+     "skill": "p1.people-action",
+     "level": 1,
+     "options": [
+      "A woman is pouring coffee into a cup.",
+      "A woman is watering some flowers.",
+      "A woman is typing on a keyboard.",
+      "A cup is being washed in a sink."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Hai tay cô ấy ở trên bàn phím, nên (C) đúng. Tách cà phê chỉ đặt trên bàn, không ai rót hay rửa.",
+      "en": "Her hands are on the keyboard, so (C) is right. The cup simply sits on the table."
+     },
+     "trap": "Câu (A) và (B) lấy đồ vật có trong ảnh (cà phê, hoa) nhưng gán sai hành động."
+    }
+   ]
+  },
+  {
+   "id": "d02-p1-s03",
+   "part": 1,
+   "image": "/img/p1/pp03.jpg",
+   "imageAlt": "Một người đàn ông ngả lưng ghế, gác chân lên bàn, nhìn đồng hồ đeo tay",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "caF",
+     "text": "A man is carrying a laptop to a meeting."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caF",
+     "text": "A man is repairing a chair."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caF",
+     "text": "A man is checking his watch."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caF",
+     "text": "A man is standing at a window."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d02-p1-03",
+     "part": 1,
+     "skill": "p1.people-action",
+     "level": 1,
+     "options": [
+      "A man is carrying a laptop to a meeting.",
+      "A man is repairing a chair.",
+      "A man is checking his watch.",
+      "A man is standing at a window."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Anh ấy đang nhìn đồng hồ đeo tay: is checking his watch. Máy tính chỉ để trên bàn.",
+      "en": "He is looking at his wristwatch, so (C) is correct. The laptop is just sitting on the desk."
+     },
+     "trap": "Câu (A) lấy đồ vật laptop trong ảnh nhưng anh ấy không xách nó đi đâu."
+    }
+   ]
+  },
+  {
+   "id": "d02-p1-s04",
+   "part": 1,
+   "image": "/img/p1/pp04.jpg",
+   "imageAlt": "Một nhân viên phục vụ đội mũ lưỡi trai đặt ly và lon nước lên bàn",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "auF",
+     "text": "A server is placing drinks on a table."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auF",
+     "text": "A server is wiping a counter."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auF",
+     "text": "A customer is paying a bill."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auF",
+     "text": "Some chairs are being stacked."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d02-p1-04",
+     "part": 1,
+     "skill": "p1.people-action",
+     "level": 1,
+     "options": [
+      "A server is placing drinks on a table.",
+      "A server is wiping a counter.",
+      "A customer is paying a bill.",
+      "Some chairs are being stacked."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô ấy đặt đồ uống lên bàn, khớp với placing drinks. Không ai lau quầy hay trả tiền.",
+      "en": "She puts drinks on the table, so (A) matches. Nobody is wiping or paying."
+     },
+     "trap": "Câu (B) cũng là việc của nhân viên phục vụ nhưng sai hành động; ảnh không có ai đang lau."
+    }
+   ]
+  },
+  {
+   "id": "d02-p1-s05",
+   "part": 1,
+   "image": "/img/p1/pp05.jpg",
+   "imageAlt": "Một người phục vụ đeo khẩu trang cầm đĩa mì và khay có chai rượu, phía sau có khách ngồi",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "A waiter is taking an order from a customer."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "A waiter is holding a plate and a tray."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "A bottle is being opened."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "A woman is carrying a tray."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d02-p1-05",
+     "part": 1,
+     "skill": "p1.people-action",
+     "level": 2,
+     "options": [
+      "A waiter is taking an order from a customer.",
+      "A waiter is holding a plate and a tray.",
+      "A bottle is being opened.",
+      "A woman is carrying a tray."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Anh ấy đang cầm một đĩa và một khay, nên (B) đúng. Khách ở phía sau không đang gọi món.",
+      "en": "The waiter holds a plate and a tray, so (B) is correct. The customer behind him is not ordering."
+     },
+     "trap": "Câu (A) hấp dẫn vì có khách phía sau, nhưng người phục vụ không đang ghi món."
+    }
+   ]
+  },
+  {
+   "id": "d02-p1-s06",
+   "part": 1,
+   "image": "/img/p1/pp06.jpg",
+   "imageAlt": "Một người đàn ông đứng viết lên bảng trắng trong phòng họp kính",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "A man is hanging a poster on a wall."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "A man is cleaning a glass door."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "A man is writing on a board."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "A man is handing out some documents."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d02-p1-06",
+     "part": 1,
+     "skill": "p1.people-action",
+     "level": 1,
+     "options": [
+      "A man is hanging a poster on a wall.",
+      "A man is cleaning a glass door.",
+      "A man is writing on a board.",
+      "A man is handing out some documents."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Anh ấy đang cầm bút viết lên bảng, nên (C) đúng. Không có tờ rơi hay áp phích nào được phát hoặc treo.",
+      "en": "He is writing on the whiteboard, so (C) fits. No poster or papers are visible."
+     },
+     "trap": "Câu (B) dễ nhầm vì ảnh có vách kính, nhưng anh ấy không lau kính."
+    }
+   ]
+  },
+  {
+   "id": "d02-p1-s07",
+   "part": 1,
+   "image": "/img/p1/pp09.jpg",
+   "imageAlt": "Hai người bắt tay nhau qua bàn làm việc, bên trái có một tách",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "Two people are signing a contract."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "Two people are shaking hands."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "A cup is being filled with coffee."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "A woman is opening a laptop."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d02-p1-07",
+     "part": 1,
+     "skill": "p1.people-action",
+     "level": 1,
+     "options": [
+      "Two people are signing a contract.",
+      "Two people are shaking hands.",
+      "A cup is being filled with coffee.",
+      "A woman is opening a laptop."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Hai bàn tay đang nắm vào nhau: are shaking hands. Không thấy ai ký giấy tờ.",
+      "en": "Two hands are clasped, so (B) is right. No one is signing a document."
+     },
+     "trap": "Câu (A) hay gặp trong ảnh bắt tay công sở, nhưng ảnh không có hợp đồng hay bút."
+    }
+   ]
+  },
+  {
+   "id": "d02-p1-s08",
+   "part": 1,
+   "image": "/img/p1/pp10.jpg",
+   "imageAlt": "Một bàn tay cầm bình tưới màu xanh lá, tưới cây trong chậu dài",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "auM",
+     "text": "A tree is being cut down."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auM",
+     "text": "A gardener is planting seeds in a field."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auM",
+     "text": "Some plants are being watered."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auM",
+     "text": "A hose is being rolled up."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d02-p1-08",
+     "part": 1,
+     "skill": "p1.people-action",
+     "level": 2,
+     "options": [
+      "A tree is being cut down.",
+      "A gardener is planting seeds in a field.",
+      "Some plants are being watered.",
+      "A hose is being rolled up."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Bình tưới đang nghiêng trên cây, nên 'are being watered' (bị động tiếp diễn) đúng. Không có cây bị chặt hay vòi bị cuộn.",
+      "en": "The watering can is tipped over the plants, so the passive 'are being watered' fits. No tree is cut and no hose is rolled."
+     },
+     "trap": "Câu (A) và (D) là dạng bị động giống đáp án nên dễ nghe nhầm; chỉ có (C) khớp với bình tưới."
+    }
+   ]
+  },
+  {
+   "id": "d02-p1-s09",
+   "part": 1,
+   "image": "/img/p1/pp13.jpg",
+   "imageAlt": "Một phụ nữ đứng giữa giá sách thư viện, với tay lấy một cuốn sách",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "gbM",
+     "text": "A woman is placing books into her bag."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbM",
+     "text": "A woman is climbing a ladder."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbM",
+     "text": "A librarian is stamping a card."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbM",
+     "text": "A woman is reaching for a book on a shelf."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d02-p1-09",
+     "part": 1,
+     "skill": "p1.people-action",
+     "level": 2,
+     "options": [
+      "A woman is placing books into her bag.",
+      "A woman is climbing a ladder.",
+      "A librarian is stamping a card.",
+      "A woman is reaching for a book on a shelf."
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Cô ấy giơ tay lên lấy sách trên giá: is reaching for. Túi vải chỉ đeo trên vai.",
+      "en": "She stretches toward a book on the shelf, so (D) is correct. The tote bag is only on her shoulder."
+     },
+     "trap": "Câu (A) lấy chiếc túi đeo vai trong ảnh để gài bẫy, nhưng cô ấy không bỏ sách vào túi."
+    }
+   ]
+  },
+  {
+   "id": "d02-p1-s10",
+   "part": 1,
+   "image": "/img/p1/pp26.jpg",
+   "imageAlt": "Một người đàn ông ngồi ghi chép vào sổ, bên cạnh có laptop mở",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "usM",
+     "text": "A man is printing a document."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usM",
+     "text": "A man is taking notes in a notebook."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usM",
+     "text": "A man is closing a laptop."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usM",
+     "text": "A man is speaking on the phone."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d02-p1-10",
+     "part": 1,
+     "skill": "p1.people-action",
+     "level": 2,
+     "options": [
+      "A man is printing a document.",
+      "A man is taking notes in a notebook.",
+      "A man is closing a laptop.",
+      "A man is speaking on the phone."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Anh ấy cầm bút viết vào sổ: is taking notes. Laptop vẫn mở, không ai đóng hay in.",
+      "en": "He holds a pen over a notebook, so (B) is right. The laptop stays open."
+     },
+     "trap": "Câu (C) dễ chọn vì laptop xuất hiện trong ảnh, nhưng anh ấy không đóng máy."
+    }
+   ]
+  },
+  {
+   "id": "d02-p2-s01",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Which printer is out of paper?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Yes, it's a laser printer."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "At nine o'clock."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "The one near the entrance."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d02-p2-01",
+     "part": 2,
+     "skill": "p2.wh-what",
+     "level": 1,
+     "options": [
+      "Yes, it's a laser printer.",
+      "At nine o'clock.",
+      "The one near the entrance."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Which hỏi chọn một vật; 'The one near the entrance' chỉ đúng máy in.",
+      "en": "'Which' asks you to pick an item, and 'The one near the entrance' identifies it."
+     },
+     "trap": "(A) lặp printer nhưng trả lời Yes/No, không hợp với Which."
+    }
+   ]
+  },
+  {
+   "id": "d02-p2-s02",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "What time does the museum close?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "It's near the station."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "The tickets are twelve dollars."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Five thirty on weekdays."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d02-p2-02",
+     "part": 2,
+     "skill": "p2.wh-when",
+     "level": 1,
+     "options": [
+      "It's near the station.",
+      "The tickets are twelve dollars.",
+      "Five thirty on weekdays."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "What time hỏi giờ, và 'Five thirty' là giờ.",
+      "en": "'What time' asks for a time, and 'Five thirty' is one."
+     },
+     "trap": "(B) nói về giá vé, một chủ đề liên quan nhưng không trả lời giờ đóng cửa."
+    }
+   ]
+  },
+  {
+   "id": "d02-p2-s03",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Is Mr. Evans in the office today?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "No, he's visiting a client."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Yes, the office is large."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "In the afternoon, I think."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d02-p2-03",
+     "part": 2,
+     "skill": "p2.yes-no",
+     "level": 1,
+     "options": [
+      "No, he's visiting a client.",
+      "Yes, the office is large.",
+      "In the afternoon, I think."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Câu hỏi Yes/No: 'No' kèm lý do là câu trả lời đúng.",
+      "en": "A yes/no question answered with 'No' plus a reason."
+     },
+     "trap": "(B) lặp office nhưng không nói gì về Mr. Evans."
+    }
+   ]
+  },
+  {
+   "id": "d02-p2-s04",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Where can I park my car?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Last Tuesday."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "He drives a blue one."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "There's a garage behind the hotel."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d02-p2-04",
+     "part": 2,
+     "skill": "p2.wh-where",
+     "level": 1,
+     "options": [
+      "Last Tuesday.",
+      "He drives a blue one.",
+      "There's a garage behind the hotel."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Where hỏi địa điểm; 'behind the hotel' chỉ chỗ.",
+      "en": "'Where' asks for a place, and 'behind the hotel' gives one."
+     },
+     "trap": "(B) nhắc đến drive nhưng nói về người khác, không chỉ chỗ đỗ."
+    }
+   ]
+  },
+  {
+   "id": "d02-p2-s05",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "How many boxes did you order?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "By express mail."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Twelve, I think."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Next to the door."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d02-p2-05",
+     "part": 2,
+     "skill": "p2.wh-how",
+     "level": 1,
+     "options": [
+      "By express mail.",
+      "Twelve, I think.",
+      "Next to the door."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "How many hỏi số lượng, và 'Twelve' là một con số.",
+      "en": "'How many' asks for a number, and 'Twelve' is one."
+     },
+     "trap": "(A) trả lời How (bằng cách nào), không phải How many."
+    }
+   ]
+  },
+  {
+   "id": "d02-p2-s06",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Could you send me the schedule?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "The train leaves at ten."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Yes, she's a good sender."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Sure, I'll email it this afternoon."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d02-p2-06",
+     "part": 2,
+     "skill": "p2.suggestion",
+     "level": 2,
+     "options": [
+      "The train leaves at ten.",
+      "Yes, she's a good sender.",
+      "Sure, I'll email it this afternoon."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Đây là lời nhờ vả; 'Sure, I'll email it' đồng ý và nói khi nào làm.",
+      "en": "This is a request, and 'Sure, I'll email it' accepts it."
+     },
+     "trap": "(A) nhắc lịch tàu nghe liên quan 'schedule' nhưng không đồng ý gửi."
+    }
+   ]
+  },
+  {
+   "id": "d02-p2-s07",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Who's picking up the clients from the airport?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "I'm not sure yet."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Terminal two."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Yes, they were late."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d02-p2-07",
+     "part": 2,
+     "skill": "p2.wh-who",
+     "level": 2,
+     "options": [
+      "I'm not sure yet.",
+      "Terminal two.",
+      "Yes, they were late."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Không biết cũng là một cách trả lời Who: 'I'm not sure yet'.",
+      "en": "'I'm not sure yet' is a common indirect answer to 'Who'."
+     },
+     "trap": "(B) trả lời Where, (C) là Yes/No; cả hai không hợp Who."
+    }
+   ]
+  },
+  {
+   "id": "d02-p2-s08",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Do you want to sit inside or outside?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Outside would be nice."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Yes, a table for four."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "The patio is closed."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d02-p2-08",
+     "part": 2,
+     "skill": "p2.choice",
+     "level": 1,
+     "options": [
+      "Outside would be nice.",
+      "Yes, a table for four.",
+      "The patio is closed."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Câu hỏi chọn; 'Outside would be nice' chọn một.",
+      "en": "The question offers two options, and the reply picks one."
+     },
+     "trap": "(C) nghe hợp với outside nhưng không chọn gì."
+    }
+   ]
+  },
+  {
+   "id": "d02-p2-s09",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Why is the printer making that noise?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "At the end of the hall."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "It needs a new cartridge."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Because I printed twenty pages."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d02-p2-09",
+     "part": 2,
+     "skill": "p2.wh-why",
+     "level": 2,
+     "options": [
+      "At the end of the hall.",
+      "It needs a new cartridge.",
+      "Because I printed twenty pages."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Why hỏi lý do; 'It needs a new cartridge' giải thích tiếng ồn.",
+      "en": "'Why' asks for a cause, and the cartridge explains the noise."
+     },
+     "trap": "(C) có 'Because' nhưng sai logic: in nhiều trang không giải thích tiếng ồn bất thường."
+    }
+   ]
+  },
+  {
+   "id": "d02-p2-s10",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "I'll be out of town next week."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Then let's finalize the schedule today."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "In a small town."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "He doesn't have a ticket."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d02-p2-10",
+     "part": 2,
+     "skill": "p2.statement",
+     "level": 2,
+     "options": [
+      "Then let's finalize the schedule today.",
+      "In a small town.",
+      "He doesn't have a ticket."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Người nói báo vắng mặt; đề nghị chốt lịch ngay hôm nay là phản hồi hợp lý.",
+      "en": "The speaker announces an absence, and finishing the schedule today is a sensible reply."
+     },
+     "trap": "(B) lặp town nhưng nói về nơi chốn, không phản hồi."
+    }
+   ]
+  }
+ ]
+}

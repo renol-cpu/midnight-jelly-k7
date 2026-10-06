@@ -1,0 +1,99 @@
+{
+ "listening": [
+  {
+   "id": "d20-p3-a",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Hey, Paul. Are you ready for tomorrow's presentation to the board?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Mostly. I finished the slides, but I'm nervous about the question session."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "You'll be fine. Just remember to answer the question you're asked, and if you don't know something, say you'll find out."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "That's good advice. Could you listen to my talk this afternoon?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Sure. How about three? I'll reserve the small conference room."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Perfect. I'll bring my laptop."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d20-p3-a1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What is the man worried about?",
+     "options": [
+      "Missing a deadline",
+      "Losing his slides",
+      "Answering questions",
+      "Arriving late"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Anh lo về phần hỏi đáp sau bài trình bày.",
+      "en": "He is nervous about the question session."
+     },
+     "trap": "Slides đã làm xong."
+    },
+    {
+     "id": "d20-p3-a2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "What advice does the woman give?",
+     "options": [
+      "Speak quickly",
+      "Avoid eye contact",
+      "Prepare more slides",
+      "Admit when an answer is unknown"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Nếu không biết thì nói sẽ tìm hiểu, tức là thừa nhận chưa biết.",
+      "en": "Saying you will find out is admitting you do not know."
+     },
+     "trap": "Cô không khuyên thêm slide."
+    },
+    {
+     "id": "d20-p3-a3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the woman do?",
+     "options": [
+      "Book a room",
+      "Send an email",
+      "Revise the slides",
+      "Call the board"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô sẽ đặt phòng họp nhỏ.",
+      "en": "She will reserve the small conference room."
+     },
+     "trap": "Anh là người mang laptop."
+    }
+   ]
+  }
+ ]
+}

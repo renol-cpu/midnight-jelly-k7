@@ -1,0 +1,225 @@
+{
+ "grammar": [
+  {
+   "id": "d01-p5-a",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d01-p5-01",
+     "part": 5,
+     "skill": "p5.tense",
+     "level": 1,
+     "q": "The store ____ at 9 A.M. every day.",
+     "options": [
+      "opens",
+      "open",
+      "opening",
+      "opened"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Every day\" là thói quen, chủ ngữ số ít nên dùng opens.",
+      "en": "\"Every day\" signals a habit, and the singular subject takes opens."
+     },
+     "trap": "Chủ ngữ \"The store\" số ít nên \"open\" sai."
+    },
+    {
+     "id": "d01-p5-02",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 1,
+     "q": "We appreciate your ____ with this project.",
+     "options": [
+      "cooperate",
+      "cooperative",
+      "cooperatively",
+      "cooperation"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Sau tính từ sở hữu \"your\" cần danh từ.",
+      "en": "A possessive adjective like \"your\" must be followed by a noun."
+     },
+     "trap": "Cooperative là tính từ, không đứng sau \"your\" được khi không có danh từ phía sau."
+    },
+    {
+     "id": "d01-p5-03",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 1,
+     "q": "The seminar was ____ for new employees.",
+     "options": [
+      "use",
+      "usefully",
+      "useful",
+      "usefulness"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Sau \"was\" cần tính từ miêu tả chủ ngữ.",
+      "en": "After \"was\" we need an adjective describing the subject."
+     },
+     "trap": "Usefulness là danh từ, không nói \"The seminar was usefulness\"."
+    },
+    {
+     "id": "d01-p5-04",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 1,
+     "q": "Please speak ____ during the presentation.",
+     "options": [
+      "slow",
+      "slowly",
+      "slowness",
+      "slowing"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Bổ nghĩa cho động từ \"speak\" cần trạng từ.",
+      "en": "An adverb modifies the verb \"speak\"."
+     },
+     "trap": "\"Slow\" cũng hay được nói trong văn nói nhưng đề thi chọn dạng -ly."
+    },
+    {
+     "id": "d01-p5-05",
+     "part": 5,
+     "skill": "p5.passive",
+     "level": 1,
+     "q": "The reports must ____ by Friday.",
+     "options": [
+      "be submitted",
+      "submit",
+      "submitting",
+      "submitted"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Báo cáo được nộp nên dùng bị động: must be + V3.",
+      "en": "Reports are submitted, so use the passive: must be + past participle."
+     },
+     "trap": "Sau \"must\" phải là động từ nguyên mẫu, nên \"submitted\" đứng một mình sai."
+    },
+    {
+     "id": "d01-p5-06",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "The train leaves ____ 7:15 A.M.",
+     "options": [
+      "in",
+      "on",
+      "by",
+      "at"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Giờ cụ thể dùng \"at\".",
+      "en": "Use \"at\" with a clock time."
+     },
+     "trap": "\"By 7:15\" nghĩa là trước 7:15, không hợp với \"leaves\"."
+    },
+    {
+     "id": "d01-p5-07",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 2,
+     "q": "There is ____ parking available near the stadium.",
+     "options": [
+      "not",
+      "none",
+      "no",
+      "neither"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"No\" đứng trước danh từ nghĩa là không có.",
+      "en": "\"No\" goes before a noun and means none at all."
+     },
+     "trap": "\"Not\" phủ định động từ hoặc cụm, không đứng trực tiếp trước danh từ."
+    },
+    {
+     "id": "d01-p5-08",
+     "part": 5,
+     "skill": "p5.agreement",
+     "level": 2,
+     "q": "One of the printers ____ broken.",
+     "options": [
+      "are",
+      "is",
+      "were",
+      "have been"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Chủ ngữ là \"One\" nên động từ số ít.",
+      "en": "The subject is \"One\", so the verb is singular."
+     },
+     "trap": "\"Printers\" đứng gần động từ nhưng không phải chủ ngữ."
+    },
+    {
+     "id": "d01-p5-09",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 2,
+     "q": "The woman ____ bag was left here should visit the front desk.",
+     "options": [
+      "whose",
+      "who",
+      "whom",
+      "which"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Whose\" chỉ sở hữu: whose bag.",
+      "en": "\"Whose\" shows possession: whose bag."
+     },
+     "trap": "\"Whom\" là tân ngữ, không đi trước danh từ \"bag\"."
+    },
+    {
+     "id": "d01-p5-10",
+     "part": 5,
+     "skill": "p5.collocation",
+     "level": 2,
+     "q": "Please ____ attention to the safety signs.",
+     "options": [
+      "make",
+      "do",
+      "take",
+      "pay"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Cụm cố định: pay attention to.",
+      "en": "Fixed collocation: pay attention to."
+     },
+     "trap": "\"Take attention\" nghe quen vì giống tiếng Việt \"lấy chú ý\" nhưng sai."
+    }
+   ]
+  }
+ ],
+ "theory": [
+  {
+   "id": "d01-th-1",
+   "title": {
+    "vi": "Nhìn ô trống trước, đọc câu sau",
+    "en": "Read the slot before the sentence"
+   },
+   "rule": {
+    "vi": "Trước khi dịch cả câu, hãy nhìn từ đứng ngay trước và sau chỗ trống. Từ loại của chỗ trống thường quyết định đáp án.",
+    "en": "Before translating, look at the words right before and after the blank. The slot usually tells you the part of speech."
+   },
+   "formula": "a/the/his + (adv) + (ADJ) + NOUN",
+   "examples": [
+    {
+     "en": "Please check the ____ of your order. (status)",
+     "vi": "Sau \"the\" cần một danh từ: status."
+    },
+    {
+     "en": "The seminar was ____ for new staff. (useful)",
+     "vi": "Sau \"was\" cần tính từ: useful."
+    }
+   ],
+   "tip": "Mẹo thi: 4 đáp án cùng một họ từ (use, useful, usefully, usefulness) thì đừng dịch nghĩa, chỉ cần soi vị trí. Giống như đoán tên sứa nhìn dáng chuông thôi, 5 giây là xong."
+  }
+ ]
+}

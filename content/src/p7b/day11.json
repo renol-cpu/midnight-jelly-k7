@@ -1,0 +1,142 @@
+{
+ "reading": [
+  {
+   "id": "d11-p7-a",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "schedule",
+     "title": "Riverside Hospitality Forum",
+     "text": "Riverside Hospitality Forum - Program\nFriday, October 17\n\n8:30 A.M.   Registration and coffee (Main Lobby)\n9:00 A.M.   Opening remarks: Carla Moreno, Forum Chair (Hall A)\n9:30 A.M.   Keynote: \"Designing Guest Experiences,\" Dr. Samuel Ito (Hall A)\n10:45 A.M.  Breakout sessions (choose one)\n            Session 1: Managing Seasonal Staff (Room 201)\n            Session 2: Using Guest Feedback (Room 202)\n            Session 3: Event Budgeting Basics (Room 203)\n12:00 P.M.  Lunch (Garden Terrace)\n1:15 P.M.   Panel: The Future of Boutique Hotels (Hall A)\n2:30 P.M.   Workshop: Hands-On Booking Software (Room 201)*\n4:00 P.M.   Closing remarks and prize drawing (Hall A)\n\n*Limited to 30 participants. Sign up at registration.\nNote: Session 2 will be led by Hana Weiss in place of Peter Lund, who is unable to attend."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d11-p7-a1",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "Where will the keynote speech take place?",
+     "options": [
+      "In Hall A",
+      "In the Main Lobby",
+      "In Room 201",
+      "On the Garden Terrace"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Dòng 9:30 A.M.: Keynote ... (Hall A).",
+      "en": "The 9:30 A.M. keynote is listed as taking place in Hall A."
+     }
+    },
+    {
+     "id": "d11-p7-a2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "When can participants sign up for the workshop?",
+     "options": [
+      "During lunch",
+      "At registration",
+      "After the panel",
+      "By calling Ms. Moreno"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Chú thích *: \"Sign up at registration\", tức lúc 8:30 A.M.",
+      "en": "The footnote says to sign up at registration."
+     },
+     "trap": "Workshop diễn ra 2:30 P.M. nhưng đăng ký phải làm từ lúc check-in buổi sáng."
+    },
+    {
+     "id": "d11-p7-a3",
+     "part": 7,
+     "skill": "p7.inference",
+     "level": 2,
+     "q": "What is suggested about the breakout sessions?",
+     "options": [
+      "They all cover the same topic",
+      "They are led by Dr. Ito",
+      "Attendees can go to only one at that time",
+      "They take place after lunch"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Ba phiên diễn ra cùng lúc 10:45 và ghi \"choose one\", nên mỗi người chỉ dự được một.",
+      "en": "Three sessions run at the same time and attendees must \"choose one.\""
+     },
+     "trap": "Giờ lunch là 12:00, sau các breakout, nên \"after lunch\" sai."
+    }
+   ]
+  },
+  {
+   "id": "d11-p7-b",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "schedule",
+     "title": "School group itinerary",
+     "text": "Blue Harbor Aquarium - School Group Itinerary\nClass 5B, Tuesday, March 11\n\n9:30   Arrival and check-in (Group Entrance)\n9:45   Welcome talk with Ms. Tran (Education Room)\n10:15  Groups A and B: Jellyfish Gallery | Groups C and D: Touch Pool\n11:00  Groups switch activities\n11:45  Lunch (Picnic Area; Education Room if raining)\n12:30  Feeding demonstration at Penguin Cove\n1:15   Gift shop (optional; students may bring up to $10)\n1:45   Departure\n\nReminders: Please wear closed shoes. Adult chaperones receive free admission at a ratio of one adult for every 8 students. Bus parking is at Gate 3. Teachers must confirm final numbers by March 7."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d11-p7-b1",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "What will Groups C and D do at 11:00?",
+     "options": [
+      "Visit the Touch Pool",
+      "Watch a feeding demonstration",
+      "Eat lunch",
+      "Visit the Jellyfish Gallery"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Lúc 10:15 nhóm C, D ở Touch Pool; đến 11:00 hai nhóm \"switch\", nên sang Jellyfish Gallery.",
+      "en": "Groups C and D start at the Touch Pool and switch to the Jellyfish Gallery at 11:00."
+     },
+     "trap": "Touch Pool là hoạt động đầu tiên của nhóm C, D chứ không phải sau 11:00."
+    },
+    {
+     "id": "d11-p7-b2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "What must teachers do by March 7?",
+     "options": [
+      "Confirm the number of visitors",
+      "Choose a lunch menu",
+      "Pay the entrance fee",
+      "Reserve bus parking"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Teachers must confirm final numbers by March 7.\"",
+      "en": "Teachers must confirm the final numbers by March 7."
+     }
+    },
+    {
+     "id": "d11-p7-b3",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "If 24 students attend, how many adult chaperones will receive free admission?",
+     "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Eight"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cứ 8 học sinh có 1 người lớn miễn phí: 24 chia 8 bằng 3.",
+      "en": "One free adult for every 8 students means 24 students get 3."
+     },
+     "trap": "Chọn \"Eight\" là nhầm tỉ lệ 8 học sinh với số người lớn."
+    }
+   ]
+  }
+ ]
+}

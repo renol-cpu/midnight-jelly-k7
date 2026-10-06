@@ -1,0 +1,40 @@
+export default {
+2: { sets: [10,10], theory: [
+ { title: { vi: 'Chỗ trống danh từ hay tính từ?', en: 'Noun slot or adjective slot?' },
+ rule: { vi: 'Sau a/an/the/his/your/of/to-giới từ thì cần DANH TỪ (hoặc tính từ rồi danh từ). Sau be/become/seem hoặc trước danh từ thì cần TÍNH TỪ.', en: 'After a/the/his/of or a preposition you need a NOUN (maybe adj + noun). After be/become/seem, or right before a noun, you need an ADJECTIVE.' },
+ formula: 'the + (ADJ) + NOUN   |   be + ADJ',
+ examples: [
+  { en: 'The company\'s commitment to quality is clear.', vi: 'Sau "company\'s" là danh từ commitment.' },
+  { en: 'Ms. Park gave a detailed presentation.', vi: 'Trước danh từ presentation cần tính từ detailed.' },
+  { en: 'Mr. Tan is responsible for travel requests.', vi: 'Sau "is" cần tính từ responsible.' }],
+ tip: 'Mẹo thi: đuôi -tion, -ment, -ness, -ity, -ance thường là danh từ; đuôi -ful, -ive, -ous, -al, -able thường là tính từ. Nhìn đuôi là gạt được 2 đáp án trong 3 giây, anh Huy nhé.' },
+ { title: { vi: 'Danh từ ghép với sở hữu cách', en: 'Possessive + noun' },
+ rule: { vi: 'Sau sở hữu ("company\'s", "your", "their") luôn là danh từ, không phải động từ hay tính từ trần.', en: 'After a possessive ("company\'s", "your", "their") always put a noun, never a bare verb or adjective.' },
+ formula: 'POSSESSIVE + NOUN',
+ examples: [
+  { en: 'Please submit your registration by Friday.', vi: 'Sau "your" là danh từ registration.' },
+  { en: 'We praised the efficiency of the new system.', vi: 'Sau "the" là danh từ efficiency.' }],
+ tip: 'Mẹo thi: thấy "your / their / the" ngay trước ô trống mà đáp án có đuôi -tion thì gần như chắc chắn là nó.' }],
+ items: [
+ [1,'wordform.noun',"The company's ____ to quality has earned it many awards.",'commitment',['committed','commit','committing'],'Sau sở hữu cách "company\'s" cần danh từ. || A possessive like "company\'s" is followed by a noun.','"Committed" là tính từ, không thể đứng ngay sau sở hữu cách rồi mới tới "to quality".'],
+ [1,'wordform.adj',"Ms. Park gave a ____ presentation on next year's budget.",'detailed',['detail','detailing','details'],'Trước danh từ "presentation" cần tính từ. || An adjective goes before the noun "presentation".','"Detail" là danh từ, "a detail presentation" sai.'],
+ [1,'wordform.noun','Please submit your ____ for the training course by Friday.','registration',['register','registered','registering'],'Sau "your" cần danh từ. || A noun follows "your".','"Registered" là tính từ nên không nằm một mình sau "your".'],
+ [1,'wordform.adj','The hotel offers ____ rooms with views of the harbor.','spacious',['space','spaciously','spaciousness'],'Tính từ đứng trước danh từ "rooms". || An adjective goes before the noun "rooms".','"Space rooms" nghe như "phòng vũ trụ", sai nghĩa và sai từ loại.'],
+ [1,'wordform.noun','A ____ of the contract will be sent to all employees.','summary',['summarize','summarizing','summarized'],'Sau mạo từ "A" cần danh từ. || After the article "A" we need a noun.','"Summarized" là dạng động từ, không đứng sau "A" được.'],
+ [1,'wordform.adj','Mr. Tan is ____ for approving all travel requests.','responsible',['responsibly','responsibility','responsibilities'],'Sau "is" cần tính từ: responsible for. || After "is" use the adjective: responsible for.','"Responsibility" là danh từ, "is responsibility for" sai.'],
+ [1,'wordform.noun','Customers praised the ____ of the new checkout system.','efficiency',['efficient','efficiently','inefficient'],'Sau "the" cần danh từ, và "of" đứng sau xác nhận điều đó. || "The" plus a following "of" points to a noun.','Đáp án tính từ làm anh nghĩ "efficient system", nhưng "of" đã ở sau ô trống.'],
+ [1,'wordform.noun','The ____ of the old bridge will begin in March.','replacement',['replace','replaced','replaceable'],'Sau "The" cần danh từ làm chủ ngữ. || "The" needs a noun as the subject.','"Replaced" là V3 hay tính từ, không làm chủ ngữ sau "The ... of".'],
+ [2,'wordform.adj','We need a ____ candidate for the sales manager position.','qualified',['qualification','qualify','qualifier'],'Giữa mạo từ và danh từ "candidate" cần tính từ: qualified. || Between the article and "candidate" use the adjective qualified.','"Qualification" cũng là danh từ nhưng sẽ thành hai danh từ liền nhau, nghĩa không hợp.'],
+ [2,'wordform.noun','Employees must show proper ____ to enter the laboratory.','identification',['identify','identifiable','identified'],'Sau tính từ "proper" cần danh từ. || The adjective "proper" must be followed by a noun.','Nhiều bạn chọn "identified" vì nghe giống bị động, nhưng ở đây cần danh từ.'],
+ [1,'wordform.adj','The aquarium café has become increasingly ____ with school groups.','popular',['popularity','popularly','popularize'],'Sau "become" cần tính từ. || After "become" we need an adjective.','"Popularity" là danh từ: "become popularity" sai.'],
+ [2,'wordform.noun','The ____ of this model is its low fuel use.','advantage',['advantageous','advantageously','advantaged'],'Sau "The" làm chủ ngữ cần danh từ. || A noun is needed as subject after "The".','"Advantageous" là tính từ, nghĩa gần đúng nên dễ bị lừa.'],
+ [1,'passive','The new policy ____ to all employees last week.','was announced',['announces','announcing','has announced'],'Chính sách được thông báo nên dùng bị động quá khứ. || The policy was announced, so use the past passive.','"Has announced" cần tân ngữ, và không hợp với "last week".'],
+ [1,'agreement','Each of the managers ____ a copy of the report.','has received',['have received','are receiving','receive'],'"Each" đi với động từ số ít. || "Each" takes a singular verb.','"Managers" ngay trước động từ gây nhầm, nhưng chủ ngữ thật là "Each".'],
+ [1,'negation','____ employees may enter the server room without a badge.','No',['Not','None','Nothing'],'"No" đứng trước danh từ: No employees. || "No" goes before a noun: No employees.','"None" đứng một mình, không đi trực tiếp với danh từ.'],
+ [1,'prep','The manager is in charge ____ the warehouse.','of',['for','to','at'],'Cụm cố định: in charge of. || Fixed phrase: in charge of.','"In charge for" nghe giống "responsible for" nên dễ chọn nhầm.'],
+ [2,'relative','The speaker ____ we met at the conference will lead the workshop.','whom',['whose','which','what'],'Người làm tân ngữ của "met" nên dùng whom. || The speaker is the object of "met", so use whom.','"Whose" cần danh từ ngay sau nó.'],
+ [1,'tense','If the shipment ____ today, it will arrive on Friday.','leaves',['left','will leave','leaving'],'Mệnh đề if loại 1 dùng hiện tại đơn. || A type-1 if-clause takes the present simple.','"Will leave" trong mệnh đề if là bẫy quen thuộc.'],
+ [1,'pronoun','Mr. Lee asked ____ to join the planning committee.','me',['my','I','mine'],'Sau động từ "asked" cần đại từ tân ngữ: me. || After "asked" use the object pronoun me.','"I" là chủ ngữ nên không đứng sau động từ làm tân ngữ.'],
+ [1,'prep','The café will stay open ____ 10 P.M. on weekends.','until',['during','by','while'],'"Until" chỉ hành động kéo dài đến một mốc. || "Until" marks the end point of a continuing state.','"By 10 P.M." nghĩa là trước 10 giờ, không hợp với "stay open".']
+ ] },
+};

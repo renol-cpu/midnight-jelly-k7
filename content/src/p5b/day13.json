@@ -1,0 +1,248 @@
+{
+ "grammar": [
+  {
+   "id": "d13-p5-a",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d13-p5-01",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 2,
+     "q": "The shipment was delayed by a storm. ____, all affected customers received a full refund.",
+     "options": [
+      "As a result",
+      "However",
+      "Otherwise",
+      "Likewise"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Hoàn tiền là hệ quả của việc giao hàng trễ, nên dùng As a result. However chỉ đối lập.",
+      "en": "The refund is a consequence of the delay, so \"As a result\" fits."
+     },
+     "trap": "However nghe trang trọng nên hấp dẫn, nhưng hai câu này không đối lập mà là nguyên nhân và kết quả."
+    },
+    {
+     "id": "d13-p5-02",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 2,
+     "q": "Our hotel is close to the airport; ____, it is surprisingly quiet.",
+     "options": [
+      "therefore",
+      "for instance",
+      "accordingly",
+      "nevertheless"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Gần sân bay thường ồn, nhưng khách sạn lại yên tĩnh: ý đối lập nên dùng nevertheless.",
+      "en": "The quiet is unexpected given the location, so a contrast word is needed."
+     },
+     "trap": "Therefore chỉ kết quả: gần sân bay thì không thể kéo theo \"yên tĩnh\"."
+    },
+    {
+     "id": "d13-p5-03",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 1,
+     "q": "Mr. Tanaka did not attend the meeting ____ he was traveling.",
+     "options": [
+      "because of",
+      "so",
+      "because",
+      "despite"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Sau chỗ trống là một mệnh đề (he was traveling), nên cần liên từ because. Because of đi với cụm danh từ.",
+      "en": "A clause follows, so the conjunction \"because\" is needed."
+     },
+     "trap": "\"Because of\" cùng nghĩa nhưng chỉ đứng trước danh từ."
+    },
+    {
+     "id": "d13-p5-04",
+     "part": 5,
+     "skill": "p5.pronoun",
+     "level": 1,
+     "q": "Ms. Reyes lost her badge, so she asked the guard to let ____ in.",
+     "options": [
+      "she",
+      "her",
+      "hers",
+      "herself"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Sau động từ let cần đại từ tân ngữ: let her in.",
+      "en": "After \"let\" an object pronoun is required."
+     },
+     "trap": "Herself chỉ dùng khi chủ ngữ làm hành động lên chính mình; ở đây chủ ngữ của let là she, hành động do guard."
+    },
+    {
+     "id": "d13-p5-05",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 1,
+     "q": "Applicants must submit either a résumé ____ a portfolio.",
+     "options": [
+      "or",
+      "and",
+      "nor",
+      "but"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Either ... or\" luôn đi cặp với nhau: hoặc là cái này, hoặc là cái kia.",
+      "en": "\"Either\" pairs with \"or\"."
+     },
+     "trap": "Nor đi với neither, không đi với either."
+    },
+    {
+     "id": "d13-p5-06",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 1,
+     "q": "____ the rent was increased, most tenants decided to stay.",
+     "options": [
+      "Despite",
+      "In spite",
+      "Because of",
+      "Although"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Sau chỗ trống là mệnh đề đầy đủ, nên dùng liên từ Although. Despite cần danh từ.",
+      "en": "A full clause follows, so the conjunction \"Although\" fits."
+     },
+     "trap": "Despite cùng nghĩa với although nhưng phải đi trước danh từ hoặc V-ing."
+    },
+    {
+     "id": "d13-p5-07",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 2,
+     "q": "The café will stay closed ____ the electrical inspection is completed.",
+     "options": [
+      "during",
+      "by",
+      "until",
+      "since"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"Until + mệnh đề\" nghĩa là cho đến khi. Closed là trạng thái kéo dài nên hợp với until.",
+      "en": "\"Until\" fits a state that continues up to a point."
+     },
+     "trap": "\"By\" chỉ mốc cuối cùng của hành động tức thời, không hợp với trạng thái đóng cửa kéo dài."
+    },
+    {
+     "id": "d13-p5-08",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "The report is due ____ the end of the week.",
+     "options": [
+      "until",
+      "by",
+      "on",
+      "at"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"Due by + mốc thời gian\" nghĩa là hạn chót. \"By the end of the week\" là cụm chuẩn.",
+      "en": "\"By the end of\" means no later than."
+     },
+     "trap": "\"At the end of\" cũng tồn tại nhưng không đi với due để nói hạn chót."
+    },
+    {
+     "id": "d13-p5-09",
+     "part": 5,
+     "skill": "p5.wish-if",
+     "level": 3,
+     "q": "____ you need further assistance, please call our service desk.",
+     "options": [
+      "Should",
+      "Would",
+      "Might",
+      "Did"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Should + chủ ngữ + V\" là dạng đảo ngữ của If: nếu bạn cần thêm trợ giúp.",
+      "en": "Inverted \"Should you need\" equals \"If you need\"."
+     },
+     "trap": "Would nghe lịch sự nhưng không tạo được câu điều kiện đảo."
+    },
+    {
+     "id": "d13-p5-10",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 1,
+     "q": "The seminar was so ____ that many participants asked for a second session.",
+     "options": [
+      "information",
+      "inform",
+      "informatively",
+      "informative"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Sau \"was so\" cần tính từ: informative (nhiều thông tin bổ ích).",
+      "en": "An adjective is needed after \"was so\"."
+     },
+     "trap": "\"Information\" là danh từ: Em hay thấy từ quen mà quên kiểm tra vị trí."
+    }
+   ]
+  }
+ ],
+ "theory": [
+  {
+   "id": "d13-th-1",
+   "title": {
+    "vi": "Chèn câu (Part 6): tìm sợi chỉ nối",
+    "en": "Sentence insertion clues"
+   },
+   "rule": {
+    "vi": "Câu cần chèn luôn nối với câu trước hoặc sau bằng một sợi chỉ: đại từ (this, they), từ nối (However, As a result) hoặc danh từ lặp lại ý. Đọc câu trước và câu sau chỗ trống rồi chọn câu khớp cả hai.",
+    "en": "The missing sentence connects to its neighbors by a pronoun, a transition word or a repeated idea. Read the sentence before and after the gap."
+   },
+   "formula": "Câu trước → [ ? ] → Câu sau: đại từ + từ nối + chủ đề tiếp nối",
+   "examples": [
+    {
+     "en": "The printer broke down. As a result, the report was late.",
+     "vi": "Máy in hỏng. Kết quả là báo cáo bị trễ."
+    },
+    {
+     "en": "We opened a new branch. It offers free parking.",
+     "vi": "Chúng tôi mở chi nhánh mới. Nó có chỗ đậu xe miễn phí."
+    }
+   ],
+   "tip": "Đừng chọn câu chỉ vì có từ khoá giống đoạn văn (bẫy quen thuộc của em). Hỏi: câu này có nối được với câu trước VÀ câu sau không? Nếu có \"It\" mà trước đó không có gì để \"It\" chỉ tới thì loại."
+  },
+  {
+   "id": "d13-th-2",
+   "title": {
+    "vi": "Từ nối chỉ quan hệ ý",
+    "en": "Transition words"
+   },
+   "rule": {
+    "vi": "As a result / Therefore chỉ kết quả. However / Nevertheless chỉ đối lập. In addition / Moreover chỉ thêm ý. For example chỉ ví dụ. Đoán quan hệ giữa hai câu trước khi nhìn đáp án.",
+    "en": "Decide the relationship (result, contrast, addition, example) first, then pick the connector."
+   },
+   "formula": "Result: As a result | Contrast: However | Addition: In addition | Example: For example",
+   "examples": [
+    {
+     "en": "It rained; however, the tour went ahead.",
+     "vi": "Trời mưa, nhưng chuyến tham quan vẫn diễn ra."
+    },
+    {
+     "en": "The pass is cheap. In addition, it includes lunch.",
+     "vi": "Vé rẻ. Ngoài ra còn kèm bữa trưa."
+    }
+   ],
+   "tip": "Mẹo 5 giây: gạch tay hai vế, hỏi \"vế sau là kết quả, đối lập hay thêm ý?\" rồi mới nhìn A B C D."
+  }
+ ]
+}

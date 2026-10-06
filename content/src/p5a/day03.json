@@ -1,0 +1,425 @@
+{
+ "grammar": [
+  {
+   "id": "d03-p5-a",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d03-p5-01",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 1,
+     "q": "The new software runs ____ on older computers.",
+     "options": [
+      "smooth",
+      "smoothness",
+      "smoothly",
+      "smoothing"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Bổ nghĩa cho động từ \"runs\" cần trạng từ.",
+      "en": "An adverb modifies the verb \"runs\"."
+     },
+     "trap": "\"Smooth\" là tính từ, không bổ nghĩa động từ."
+    },
+    {
+     "id": "d03-p5-02",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 1,
+     "q": "Staff members are ____ reminded to lock their desks.",
+     "options": [
+      "kind",
+      "kindly",
+      "kindness",
+      "kinder"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Trạng từ giữa \"are\" và V3.",
+      "en": "An adverb fits between \"are\" and the participle."
+     },
+     "trap": "\"Kind\" là tính từ nên không đứng trước V3."
+    },
+    {
+     "id": "d03-p5-03",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 1,
+     "q": "The quarterly sales figures were ____ higher than expected.",
+     "options": [
+      "significantly",
+      "significant",
+      "significance",
+      "signify"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Trạng từ bổ nghĩa cho so sánh \"higher\".",
+      "en": "An adverb modifies the comparative \"higher\"."
+     },
+     "trap": "\"Significant\" tính từ không đứng trước tính từ khác để bổ nghĩa."
+    },
+    {
+     "id": "d03-p5-04",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 1,
+     "q": "Ms. Cho ____ updates the inventory list every Monday.",
+     "options": [
+      "regular",
+      "regularity",
+      "regulate",
+      "regularly"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Trạng từ giữa chủ ngữ và động từ.",
+      "en": "An adverb goes between subject and verb."
+     },
+     "trap": "\"Regulate\" là động từ nên thành hai động từ liền nhau."
+    },
+    {
+     "id": "d03-p5-05",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 1,
+     "q": "The tour guide spoke ____ so everyone could hear.",
+     "options": [
+      "clearer",
+      "clarity",
+      "clearly",
+      "clearness"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Bổ nghĩa cho \"spoke\" cần trạng từ.",
+      "en": "An adverb is needed to modify \"spoke\"."
+     },
+     "trap": "\"Clearer\" là so sánh, không có \"than\" nên sai."
+    },
+    {
+     "id": "d03-p5-06",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 1,
+     "q": "The ferry terminal is ____ located near the city center.",
+     "options": [
+      "convenient",
+      "conveniently",
+      "convenience",
+      "conveniences"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Trạng từ giữa \"is\" và V3 \"located\".",
+      "en": "An adverb stands between \"is\" and \"located\"."
+     },
+     "trap": "\"Convenient located\" sai vì tính từ không bổ nghĩa cho V3."
+    },
+    {
+     "id": "d03-p5-07",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 1,
+     "q": "Our technicians respond ____ to all repair requests.",
+     "options": [
+      "promptly",
+      "prompt",
+      "promptness",
+      "prompted"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Bổ nghĩa cho động từ \"respond\".",
+      "en": "An adverb modifies \"respond\"."
+     },
+     "trap": "\"Prompt\" là tính từ, trong thi hay thành bẫy vì cũng có thể là động từ."
+    },
+    {
+     "id": "d03-p5-08",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 2,
+     "q": "Sales have increased ____ since the café opened a patio.",
+     "options": [
+      "steady",
+      "steadiness",
+      "steadied",
+      "steadily"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Sau \"have increased\" cần trạng từ.",
+      "en": "An adverb follows \"have increased\"."
+     },
+     "trap": "\"Steadied\" là V3 nhưng nghĩa và cấu trúc đều lệch."
+    },
+    {
+     "id": "d03-p5-09",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 1,
+     "q": "Please handle the glass tanks ____.",
+     "options": [
+      "careful",
+      "care",
+      "carefully",
+      "carefulness"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Cuối câu, bổ nghĩa cho \"handle\".",
+      "en": "A sentence-final adverb modifying \"handle\"."
+     },
+     "trap": "\"Care\" là danh từ nên cần giới từ \"with care\"."
+    },
+    {
+     "id": "d03-p5-10",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 2,
+     "q": "The proposal was ____ approved by the board.",
+     "options": [
+      "unanimous",
+      "unanimously",
+      "unanimity",
+      "unanimousness"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Trạng từ giữa \"was\" và V3.",
+      "en": "An adverb between \"was\" and the participle."
+     },
+     "trap": "\"Unanimous approved\" sai từ loại."
+    }
+   ]
+  },
+  {
+   "id": "d03-p5-b",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d03-p5-11",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 2,
+     "q": "The manager ____ reviews the schedule before posting it.",
+     "options": [
+      "personally",
+      "personal",
+      "person",
+      "personality"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Trạng từ giữa chủ ngữ và động từ.",
+      "en": "Adverb between subject and verb."
+     },
+     "trap": "\"Personal\" là tính từ nên không đứng trước động từ."
+    },
+    {
+     "id": "d03-p5-12",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 2,
+     "q": "Shoppers are ____ attracted to stores with free delivery.",
+     "options": [
+      "increasing",
+      "increase",
+      "increased",
+      "increasingly"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Trạng từ giữa \"are\" và V3.",
+      "en": "An adverb stands before the participle \"attracted\"."
+     },
+     "trap": "\"Increasing\" là tính từ, nghĩa tương tự nhưng vai trò sai."
+    },
+    {
+     "id": "d03-p5-13",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 1,
+     "q": "The ____ of the new staff took two hours.",
+     "options": [
+      "orient",
+      "oriented",
+      "orientation",
+      "orientate"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Sau \"The\" làm chủ ngữ cần danh từ.",
+      "en": "A noun is the subject after \"The\"."
+     },
+     "trap": "Động từ \"orient\" dễ gây nhầm vì cùng gốc."
+    },
+    {
+     "id": "d03-p5-14",
+     "part": 5,
+     "skill": "p5.wordform.adj",
+     "level": 1,
+     "q": "Mr. Ito's ____ proposal impressed the committee.",
+     "options": [
+      "creatively",
+      "creative",
+      "creativity",
+      "create"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Trước danh từ \"proposal\" cần tính từ.",
+      "en": "An adjective goes before \"proposal\"."
+     },
+     "trap": "\"Creativity proposal\" tạo cụm hai danh từ không tự nhiên."
+    },
+    {
+     "id": "d03-p5-15",
+     "part": 5,
+     "skill": "p5.passive",
+     "level": 1,
+     "q": "The tickets ____ at the front desk.",
+     "options": [
+      "are sold",
+      "sells",
+      "selling",
+      "has sold"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Vé được bán nên bị động, chủ ngữ số nhiều.",
+      "en": "Tickets are sold: passive, plural subject."
+     },
+     "trap": "\"Sells\" chủ động và chia số ít nên sai hai lỗi."
+    },
+    {
+     "id": "d03-p5-16",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 2,
+     "q": "The manager, ____ office is on the third floor, will meet you.",
+     "options": [
+      "whom",
+      "who",
+      "which",
+      "whose"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "\"Whose office\" chỉ sở hữu.",
+      "en": "\"Whose office\" shows possession."
+     },
+     "trap": "\"Who\" không đi trước danh từ sở hữu."
+    },
+    {
+     "id": "d03-p5-17",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 1,
+     "q": "We have ____ openings in the finance department at present.",
+     "options": [
+      "not",
+      "none",
+      "no",
+      "neither"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"No\" đứng trước danh từ \"openings\".",
+      "en": "\"No\" precedes the noun \"openings\"."
+     },
+     "trap": "\"Not openings\" không tồn tại."
+    },
+    {
+     "id": "d03-p5-18",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 1,
+     "q": "The report must be finished ____ Friday.",
+     "options": [
+      "until",
+      "by",
+      "during",
+      "at"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"By\" là hạn chót.",
+      "en": "\"By\" marks a deadline."
+     },
+     "trap": "\"Until\" dùng cho trạng thái kéo dài, không phải hạn nộp."
+    },
+    {
+     "id": "d03-p5-19",
+     "part": 5,
+     "skill": "p5.agreement",
+     "level": 2,
+     "q": "The list of new products ____ on the website.",
+     "options": [
+      "appears",
+      "appear",
+      "are appearing",
+      "have appeared"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Chủ ngữ thật là \"list\" số ít.",
+      "en": "The real subject is the singular \"list\"."
+     },
+     "trap": "\"Products\" ngay trước động từ làm anh dễ chọn \"appear\"."
+    },
+    {
+     "id": "d03-p5-20",
+     "part": 5,
+     "skill": "p5.pronoun",
+     "level": 2,
+     "q": "Ms. Wong prepared the slides ____.",
+     "options": [
+      "her",
+      "hers",
+      "she",
+      "herself"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Đại từ phản thân nhấn mạnh người làm.",
+      "en": "A reflexive pronoun stresses who did it."
+     },
+     "trap": "\"Her\" là tân ngữ, không đứng cuối câu sau \"slides\" nghĩa này."
+    }
+   ]
+  }
+ ],
+ "theory": [
+  {
+   "id": "d03-th-1",
+   "title": {
+    "vi": "Trạng từ -ly: đứng đâu cũng được?",
+    "en": "Adverbs: where do they go?"
+   },
+   "rule": {
+    "vi": "Trạng từ bổ nghĩa cho động từ, tính từ hoặc trạng từ khác. Nó thường đứng giữa chủ ngữ và động từ, hoặc cuối câu. Không có trạng từ thì câu vẫn đủ nghĩa.",
+    "en": "An adverb modifies a verb, adjective or another adverb. It sits between subject and verb, or at the end. Remove it and the sentence is still complete."
+   },
+   "formula": "SUBJ + (ADV) + VERB   |   be + ADV + V3/ADJ",
+   "examples": [
+    {
+     "en": "Ms. Cho regularly updates the inventory list.",
+     "vi": "Regularly đứng giữa chủ ngữ và động từ."
+    },
+    {
+     "en": "The terminal is conveniently located.",
+     "vi": "Conveniently đứng giữa \"is\" và V3."
+    },
+    {
+     "en": "Sales rose sharply last quarter.",
+     "vi": "Sharply đứng sau động từ."
+    }
+   ],
+   "tip": "Mẹo thi: nếu bỏ ô trống mà câu vẫn trọn nghĩa thì đáp án là trạng từ. Hỏi \"câu này thiếu thành phần chính không?\" là anh gỡ được cả họ -ly nhà sứa."
+  }
+ ]
+}

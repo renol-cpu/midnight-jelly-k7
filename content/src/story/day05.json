@@ -1,0 +1,190 @@
+{
+ "day": 5,
+ "title": {
+  "vi": "Thùng hàng có dấu sóng",
+  "en": "Crates with a Wave"
+ },
+ "story": [
+  {
+   "speaker": "NARRATOR",
+   "en": "Four big crates arrive at the dock. Each crate has a stamp: a letter A inside a wave.",
+   "vi": "Bốn thùng lớn đến bến. Mỗi thùng có một con dấu: chữ A trong làn sóng.",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "BAO",
+   "en": "Equipment from our supplier. Boring paperwork. Sign here, Huy, and thank you for your help.",
+   "vi": "Thiết bị từ nhà cung cấp. Giấy tờ chán lắm. Ký ở đây, Huy, cảm ơn em giúp.",
+   "voice": "auM"
+  },
+  {
+   "speaker": "HUY",
+   "en": "These crates are cold, and they hum. Like a tank pump at my café.",
+   "vi": "Mấy thùng này lạnh và kêu ù ù. Như bơm hồ ở quán em.",
+   "voice": "caM"
+  },
+  {
+   "speaker": "M",
+   "en": "Bé iu... have you eaten yet? Please eat something. I am listening.",
+   "vi": "Bé iu... ăn cơm chưa? Ăn gì đi nhé. Anh đang nghe đây.",
+   "voice": "usM"
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "The voice comes from the water itself. Huy puts his hand on the cold glass and whispers: \"Yes. I ate.\"",
+   "vi": "Giọng nói đến từ chính làn nước. Huy đặt tay lên lớp kính lạnh và thì thầm: \"Dạ. Em ăn rồi.\"",
+   "voice": "gbF"
+  }
+ ],
+ "letter": {
+  "vi": "Shương shương, hôm nay bé nghe Part 2 giỏi quó. Mẹo: đáp án lặp lại đúng từ trong câu hỏi thường là bẫy, vì nó nghe giống mà nghĩa khác. Bé là MY little jellyfish, nhớ ăn cơm đủ bữa nha hihii.",
+  "en": "Shương shương, you are doing so well on Part 2. Tip: an answer that repeats the exact word from the question is often a trap, because it sounds close but means something else. You are MY little jellyfish, so please eat on time hihii."
+ },
+ "beSua": [
+  "Comply WITH, depend ON, consist OF. Học luôn cả giới từ, đừng học một mình động từ nha. Dọ!",
+  "Discount là giảm giá, refund là hoàn tiền. Hihi, \"refund\" đọc nhấn âm hai /rɪˈfʌnd/.",
+  "Receipt đọc /rɪˈsiːt/, chữ p câm 😭 Giống như \"pneumonia\" câm p luôn. :33"
+ ],
+ "vocab": [
+  {
+   "word": "invoice",
+   "pos": "n",
+   "ipa": "/ˈɪnvɔɪs/",
+   "vi": "hóa đơn (đòi tiền)",
+   "example": {
+    "en": "The invoice must be paid within thirty days.",
+    "vi": "Hóa đơn phải được thanh toán trong ba mươi ngày."
+   },
+   "family": "invoice (n, v)",
+   "collocation": "send an invoice"
+  },
+  {
+   "word": "supplier",
+   "pos": "n",
+   "ipa": "/səˈplaɪə/",
+   "vi": "nhà cung cấp",
+   "example": {
+    "en": "Our supplier delivers every Monday.",
+    "vi": "Nhà cung cấp của chúng tôi giao hàng mỗi thứ Hai."
+   },
+   "family": "supply (n, v) / supplier (n)",
+   "collocation": "reliable supplier"
+  },
+  {
+   "word": "quantity",
+   "pos": "n",
+   "ipa": "/ˈkwɒntəti/",
+   "vi": "số lượng",
+   "example": {
+    "en": "Please state the quantity you need.",
+    "vi": "Vui lòng ghi số lượng bạn cần."
+   },
+   "collocation": "in large quantities"
+  },
+  {
+   "word": "receipt",
+   "pos": "n",
+   "ipa": "/rɪˈsiːt/",
+   "vi": "biên lai, hóa đơn đã trả",
+   "example": {
+    "en": "Keep your receipt for returns.",
+    "vi": "Hãy giữ biên lai để đổi trả."
+   },
+   "family": "receive (v) / receipt (n)",
+   "collocation": "proof of receipt"
+  },
+  {
+   "word": "refund",
+   "pos": "n",
+   "ipa": "/ˈriːfʌnd/",
+   "vi": "tiền hoàn lại",
+   "example": {
+    "en": "You can get a full refund within a week.",
+    "vi": "Bạn có thể nhận hoàn tiền đầy đủ trong một tuần."
+   },
+   "family": "refund (n, v)",
+   "collocation": "full refund"
+  },
+  {
+   "word": "warranty",
+   "pos": "n",
+   "ipa": "/ˈwɒrənti/",
+   "vi": "bảo hành",
+   "example": {
+    "en": "The laptop has a two-year warranty.",
+    "vi": "Máy tính xách tay được bảo hành hai năm."
+   },
+   "collocation": "under warranty"
+  },
+  {
+   "word": "merchandise",
+   "pos": "n",
+   "ipa": "/ˈmɜːtʃəndaɪs/",
+   "vi": "hàng hóa bán",
+   "example": {
+    "en": "All merchandise is on sale this weekend.",
+    "vi": "Mọi hàng hóa đang giảm giá cuối tuần này."
+   },
+   "collocation": "sell merchandise"
+  },
+  {
+   "word": "discount",
+   "pos": "n",
+   "ipa": "/ˈdɪskaʊnt/",
+   "vi": "giảm giá",
+   "example": {
+    "en": "Members receive a ten percent discount.",
+    "vi": "Hội viên được giảm mười phần trăm."
+   },
+   "family": "discount (n, v)",
+   "collocation": "offer a discount"
+  },
+  {
+   "word": "purchase",
+   "pos": "v",
+   "ipa": "/ˈpɜːtʃəs/",
+   "vi": "mua",
+   "example": {
+    "en": "She purchased a new printer yesterday.",
+    "vi": "Hôm qua cô ấy mua một chiếc máy in mới."
+   },
+   "family": "purchase (n, v)",
+   "collocation": "proof of purchase"
+  },
+  {
+   "word": "retailer",
+   "pos": "n",
+   "ipa": "/ˈriːteɪlə/",
+   "vi": "nhà bán lẻ",
+   "example": {
+    "en": "The retailer opened three new stores.",
+    "vi": "Nhà bán lẻ mở thêm ba cửa hàng mới."
+   },
+   "family": "retail (n, adj) / retailer (n)",
+   "collocation": "online retailer"
+  },
+  {
+   "word": "bulk",
+   "pos": "n",
+   "ipa": "/bʌlk/",
+   "vi": "số lượng lớn",
+   "example": {
+    "en": "We buy paper in bulk to save money.",
+    "vi": "Chúng tôi mua giấy số lượng lớn để tiết kiệm."
+   },
+   "collocation": "in bulk"
+  },
+  {
+   "word": "expense",
+   "pos": "n",
+   "ipa": "/ɪkˈspens/",
+   "vi": "chi phí",
+   "example": {
+    "en": "Travel expenses will be repaid next month.",
+    "vi": "Chi phí đi lại sẽ được hoàn lại tháng sau."
+   },
+   "family": "expense (n) / expensive (adj)",
+   "collocation": "business expense"
+  }
+ ]
+}

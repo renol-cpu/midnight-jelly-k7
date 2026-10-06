@@ -1,0 +1,144 @@
+{
+  "reading": [
+    {
+      "id": "d02-p7-a",
+      "part": 7,
+      "passages": [
+        {
+          "kind": "text-chain",
+          "title": "Printer delivery",
+          "text": "Hana Ito (9:12 A.M.): Hi Marcus, did the new printer arrive yet?\nMarcus Webb (9:14 A.M.): It was delivered an hour ago, but the box is still at the reception desk.\nHana Ito (9:15 A.M.): Great. Could you ask Tom to move it to the second-floor copy room?\nMarcus Webb (9:18 A.M.): Tom is off today. I can do it after lunch, though.\nHana Ito (9:19 A.M.): That's fine. I just need it set up before the Monday workshop.\nMarcus Webb (9:21 A.M.): No problem. I'll also call the supplier about the installation."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d02-p7-a-1",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "Where is the printer now?",
+          "options": [
+            "In the copy room",
+            "At the reception desk",
+            "At the supplier",
+            "In a workshop room"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Marcus nói hộp vẫn nằm ở bàn lễ tân.",
+            "en": "Marcus says the box is still at the reception desk."
+          },
+          "trap": "Phòng copy là nơi sẽ chuyển tới, chưa phải hiện tại."
+        },
+        {
+          "id": "d02-p7-a-2",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "What will Mr. Webb do after lunch?",
+          "options": [
+            "Call Tom",
+            "Move the printer",
+            "Attend a workshop",
+            "Order supplies"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Tom nghỉ, nên Marcus tự chuyển máy sau bữa trưa.",
+            "en": "Tom is off, so Marcus will move the printer after lunch."
+          },
+          "trap": "Tom chỉ được nhắc để đề xuất ban đầu; Marcus mới là người làm."
+        },
+        {
+          "id": "d02-p7-a-3",
+          "part": 7,
+          "skill": "p7.speaker-intent",
+          "level": 2,
+          "q": "At 9:19 A.M., what does Ms. Ito most likely mean when she writes, \"That's fine\"?",
+          "options": [
+            "She wants Tom to return.",
+            "She accepts the delay.",
+            "She will install the printer herself.",
+            "She has canceled the workshop."
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Cô chấp nhận việc chuyển máy sau bữa trưa vì chỉ cần xong trước thứ Hai.",
+            "en": "She accepts moving the printer after lunch since she only needs it ready by Monday."
+          },
+          "trap": "\"workshop\" là hạn chót, không bị hủy."
+        }
+      ]
+    },
+    {
+      "id": "d02-p7-b",
+      "part": 7,
+      "passages": [
+        {
+          "kind": "text-chain",
+          "title": "Saturday shift cover",
+          "text": "Lena Ortiz (4:05 P.M.): Reza, are you free to cover my Saturday shift in the gallery? It runs from 8 A.M. to noon.\nReza Amini (4:08 P.M.): Probably. Why do you need someone?\nLena Ortiz (4:09 P.M.): I have a dentist appointment that morning.\nReza Amini (4:12 P.M.): I have a class until 9 on Saturdays, but I could start at 10.\nLena Ortiz (4:13 P.M.): Then I'll ask Priya to take the first two hours. Could you take the last two?\nReza Amini (4:14 P.M.): Sure. Please let the manager know so the schedule is updated.\nLena Ortiz (4:16 P.M.): Will do. Thanks!"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d02-p7-b-1",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "Why does Ms. Ortiz need a replacement?",
+          "options": [
+            "She has a class.",
+            "She has a medical appointment.",
+            "She is taking a trip.",
+            "She is training Priya."
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Lena có hẹn nha sĩ vào sáng thứ Bảy.",
+            "en": "Lena has a dentist appointment that morning."
+          },
+          "trap": "Lớp học là của Reza, không phải của Lena."
+        },
+        {
+          "id": "d02-p7-b-2",
+          "part": 7,
+          "skill": "p7.next-action",
+          "level": 2,
+          "q": "When will Mr. Amini most likely work on Saturday?",
+          "options": [
+            "8 A.M. to 10 A.M.",
+            "9 A.M. to 11 A.M.",
+            "10 A.M. to noon",
+            "8 A.M. to noon"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Priya làm hai giờ đầu (8 đến 10), Reza làm hai giờ cuối (10 đến 12).",
+            "en": "Priya takes the first two hours, 8 to 10, and Reza takes the last two, 10 to noon."
+          },
+          "trap": "Reza có lớp đến 9 giờ nên 8 giờ không thể làm."
+        },
+        {
+          "id": "d02-p7-b-3",
+          "part": 7,
+          "skill": "p7.next-action",
+          "level": 2,
+          "q": "What will Ms. Ortiz do next?",
+          "options": [
+            "Contact the manager",
+            "Cancel her appointment",
+            "Start a class",
+            "Call the dentist"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "Reza nhờ báo quản lý để cập nhật lịch, và Lena trả lời \"Will do\".",
+            "en": "Reza asks her to inform the manager, and she answers \"Will do\"."
+          },
+          "trap": "Cuộc hẹn nha sĩ là lý do nghỉ, không có ý hủy."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,934 @@
+{
+ "listening": [
+  {
+   "id": "d03-p1-s01",
+   "part": 1,
+   "image": "/img/p1/pp11.jpg",
+   "imageAlt": "Một chiếc xe đạp vàng dựa vào tường, bóng đổ trên mặt tường",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "auF",
+     "text": "A bicycle is leaning against a wall."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auF",
+     "text": "A bicycle is being repaired."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auF",
+     "text": "A bicycle is chained to a fence."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auF",
+     "text": "A cyclist is riding down a street."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d03-p1-01",
+     "part": 1,
+     "skill": "p1.object-position",
+     "level": 1,
+     "options": [
+      "A bicycle is leaning against a wall.",
+      "A bicycle is being repaired.",
+      "A bicycle is chained to a fence.",
+      "A cyclist is riding down a street."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Xe đạp dựa vào tường: is leaning against a wall. Không có ai sửa hay đạp xe.",
+      "en": "The bike rests against the wall, so (A) is correct. No one is repairing or riding it."
+     },
+     "trap": "Câu (D) nghe quen vì có xe đạp, nhưng ảnh không có người đi xe."
+    }
+   ]
+  },
+  {
+   "id": "d03-p1-s02",
+   "part": 1,
+   "image": "/img/p1/pp12.jpg",
+   "imageAlt": "Một tấm biển gỗ ghi 'Cycle Parking' đặt bên lối đi cát cạnh bụi cây",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "A bicycle is being unlocked."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "Some shrubs are being trimmed."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "A path is blocked by a fence."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "A sign has been posted beside a path."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d03-p1-02",
+     "part": 1,
+     "skill": "p1.object-position",
+     "level": 2,
+     "options": [
+      "A bicycle is being unlocked.",
+      "Some shrubs are being trimmed.",
+      "A path is blocked by a fence.",
+      "A sign has been posted beside a path."
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Biển báo được đặt cạnh lối đi: has been posted. Không có ai mở khóa hay cắt tỉa.",
+      "en": "A sign stands beside the path, so (D) fits. Nobody is unlocking or trimming."
+     },
+     "trap": "Câu (B) dễ nhầm vì có bụi cây phía sau biển, nhưng không ai đang cắt tỉa."
+    }
+   ]
+  },
+  {
+   "id": "d03-p1-s03",
+   "part": 1,
+   "image": "/img/p1/pp15.jpg",
+   "imageAlt": "Một chiếc bàn gỗ trước tường xanh, trên bàn có vài lọ gia vị và hộp đựng muỗng nĩa",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "Some plates are stacked on a table."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "A tablecloth is being spread on a table."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "Some containers have been placed on a table."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "Some customers are seated at a table."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d03-p1-03",
+     "part": 1,
+     "skill": "p1.object-position",
+     "level": 2,
+     "options": [
+      "Some plates are stacked on a table.",
+      "A tablecloth is being spread on a table.",
+      "Some containers have been placed on a table.",
+      "Some customers are seated at a table."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Trên bàn có các hộp, lọ đặt sẵn: have been placed. Không có khách hay đĩa chồng lên nhau.",
+      "en": "Containers sit on the table, so 'have been placed' fits. There are no customers or stacked plates."
+     },
+     "trap": "Câu (D) hợp với cảnh quán ăn, nhưng ảnh không có khách ngồi."
+    }
+   ]
+  },
+  {
+   "id": "d03-p1-s04",
+   "part": 1,
+   "image": "/img/p1/pp16.jpg",
+   "imageAlt": "Một bàn làm việc xưởng với máy khoan đứng, xô, kẹp và vài hộp trước tường gạch",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "Some tools have been arranged on a workbench."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "A wall is being repaired with bricks."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "A worker is operating a drill."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "Some boxes have been loaded onto a truck."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d03-p1-04",
+     "part": 1,
+     "skill": "p1.object-position",
+     "level": 3,
+     "options": [
+      "Some tools have been arranged on a workbench.",
+      "A wall is being repaired with bricks.",
+      "A worker is operating a drill.",
+      "Some boxes have been loaded onto a truck."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Nhiều dụng cụ và thiết bị đặt trên bàn: has been arranged. Không có thợ nào trong ảnh.",
+      "en": "Various tools sit on the bench, so (A) is correct. No worker is shown."
+     },
+     "trap": "Câu (C) lấy máy khoan có trong ảnh nhưng không có ai đang vận hành nó."
+    }
+   ]
+  },
+  {
+   "id": "d03-p1-s05",
+   "part": 1,
+   "image": "/img/p1/pp19.jpg",
+   "imageAlt": "Bốn chiếc xe tải nhỏ màu vàng đậu thành hàng trước một tòa nhà",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "auM",
+     "text": "Some vehicles are being washed."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auM",
+     "text": "Some vehicles are parked in a row."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auM",
+     "text": "A truck is being loaded with mail."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auM",
+     "text": "A garage door is being opened."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d03-p1-05",
+     "part": 1,
+     "skill": "p1.object-position",
+     "level": 1,
+     "options": [
+      "Some vehicles are being washed.",
+      "Some vehicles are parked in a row.",
+      "A truck is being loaded with mail.",
+      "A garage door is being opened."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Các xe đậu thành một hàng: are parked in a row. Không ai rửa hay chất hàng.",
+      "en": "The vans stand in a row, so (B) is right. Nobody is washing or loading them."
+     },
+     "trap": "Câu (A) dùng cùng chủ đề xe cộ nhưng là hành động bị động mà ảnh không có."
+    }
+   ]
+  },
+  {
+   "id": "d03-p1-s06",
+   "part": 1,
+   "image": "/img/p1/pp20.jpg",
+   "imageAlt": "Một chiếc máy bay trên đường băng, hướng về phía người chụp",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "gbM",
+     "text": "Some passengers are boarding an airplane."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbM",
+     "text": "An airplane is flying above the clouds."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbM",
+     "text": "A luggage cart is being pulled across the road."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbM",
+     "text": "An airplane is on a runway."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d03-p1-06",
+     "part": 1,
+     "skill": "p1.object-position",
+     "level": 1,
+     "options": [
+      "Some passengers are boarding an airplane.",
+      "An airplane is flying above the clouds.",
+      "A luggage cart is being pulled across the road.",
+      "An airplane is on a runway."
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Máy bay đang ở trên đường băng: is on a runway. Không có hành khách hay xe hành lý.",
+      "en": "The plane is on the runway, so (D) matches. It is not in the air."
+     },
+     "trap": "Câu (B) hay làm người học nhầm vì cùng là máy bay, nhưng máy bay đang ở mặt đất."
+    }
+   ]
+  },
+  {
+   "id": "d03-p1-s07",
+   "part": 1,
+   "image": "/img/p1/pp22.jpg",
+   "imageAlt": "Một bàn làm việc với bàn phím, màn hình máy tính, điện thoại, ống kính máy ảnh và một cuốn sách mở",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "usM",
+     "text": "A computer is being turned on."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usM",
+     "text": "A keyboard has been placed in front of a monitor."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usM",
+     "text": "Some documents are being photocopied."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usM",
+     "text": "A phone is being plugged in."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d03-p1-07",
+     "part": 1,
+     "skill": "p1.object-position",
+     "level": 1,
+     "options": [
+      "A computer is being turned on.",
+      "A keyboard has been placed in front of a monitor.",
+      "Some documents are being photocopied.",
+      "A phone is being plugged in."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Bàn phím đặt trước màn hình: has been placed. Không có ai bật máy hay photocopy.",
+      "en": "The keyboard sits in front of the monitor, so (B) is correct. Nobody is turning anything on."
+     },
+     "trap": "Câu (D) nghe hợp vì có điện thoại trên bàn, nhưng nó không đang được cắm sạc."
+    }
+   ]
+  },
+  {
+   "id": "d03-p1-s08",
+   "part": 1,
+   "image": "/media/p03.jpg",
+   "imageAlt": "Một con sứa cam trong chậu tròn có ánh sáng tím, bên trái có một ống tối",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "caF",
+     "text": "A hose is being connected to a pump."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caF",
+     "text": "Some fish food is being poured into the water."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caF",
+     "text": "A lid has been placed over a container."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caF",
+     "text": "A jellyfish is floating in a circular tank."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d03-p1-08",
+     "part": 1,
+     "skill": "p1.object-position",
+     "level": 2,
+     "options": [
+      "A hose is being connected to a pump.",
+      "Some fish food is being poured into the water.",
+      "A lid has been placed over a container.",
+      "A jellyfish is floating in a circular tank."
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Con sứa đang trôi trong bể tròn, nên (D) đúng. Không ai đổ thức ăn hay nối ống.",
+      "en": "A jellyfish drifts in a round tank, so (D) is correct. Nobody is feeding or connecting anything."
+     },
+     "trap": "Câu (A) dễ chọn vì có ống tối ở mép ảnh, nhưng không ai đang nối ống vào máy bơm."
+    }
+   ]
+  },
+  {
+   "id": "d03-p1-s09",
+   "part": 1,
+   "image": "/media/v05.jpg",
+   "imageAlt": "Một con sứa lớn màu hồng ở tiền cảnh, phía sau có đèn vàng và vài con sứa nhỏ",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "auF",
+     "text": "A large jellyfish is floating in the foreground."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auF",
+     "text": "A diver is swimming past the tank."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auF",
+     "text": "Some lamps are being installed above the tank."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auF",
+     "text": "A sign has been hung on the glass."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d03-p1-09",
+     "part": 1,
+     "skill": "p1.object-position",
+     "level": 1,
+     "options": [
+      "A large jellyfish is floating in the foreground.",
+      "A diver is swimming past the tank.",
+      "Some lamps are being installed above the tank.",
+      "A sign has been hung on the glass."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Con sứa lớn nằm ở phía trước ảnh: in the foreground. Không có người lặn hay biển báo.",
+      "en": "The big jellyfish fills the front of the picture, so (A) is right. There is no diver or sign."
+     },
+     "trap": "Câu (C) lấy ánh đèn trong ảnh làm bẫy, nhưng không ai đang lắp đèn."
+    }
+   ]
+  },
+  {
+   "id": "d03-p1-s10",
+   "part": 1,
+   "image": "/media/p09.jpg",
+   "imageAlt": "Rất nhiều con sứa trong suốt màu xanh bơi trong bể tối",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "Some jellyfish are being counted by a worker."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "A net has been stretched across the tank."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "Many jellyfish are drifting in the water."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "Some jellyfish have been lined up on a tray."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d03-p1-10",
+     "part": 1,
+     "skill": "p1.object-position",
+     "level": 1,
+     "options": [
+      "Some jellyfish are being counted by a worker.",
+      "A net has been stretched across the tank.",
+      "Many jellyfish are drifting in the water.",
+      "Some jellyfish have been lined up on a tray."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Ảnh có nhiều sứa đang trôi trong nước: are drifting. Không có người đếm hay lưới.",
+      "en": "Many jellyfish drift in the water, so (C) fits. No worker or net appears."
+     },
+     "trap": "Câu (D) dùng 'have been lined up' nghe giống mô tả vị trí, nhưng sứa không nằm trên khay."
+    }
+   ]
+  },
+  {
+   "id": "d03-p2-s01",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "What is the fare to the airport?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Yes, I left it at home."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Fifteen dollars by taxi."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "It leaves from gate six."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d03-p2-01",
+     "part": 2,
+     "skill": "p2.wh-what",
+     "level": 1,
+     "options": [
+      "Yes, I left it at home.",
+      "Fifteen dollars by taxi.",
+      "It leaves from gate six."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Fare là tiền vé di chuyển; 'Fifteen dollars' nêu giá.",
+      "en": "'Fare' means the price of a trip, and the reply gives a price."
+     },
+     "trap": "(C) nhắc đến cổng bay cho hợp chủ đề sân bay nhưng không nói giá vé."
+    }
+   ]
+  },
+  {
+   "id": "d03-p2-s02",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Where did you put the keys?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "On the shelf by the door."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "About an hour ago."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "They're twelve dollars."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d03-p2-02",
+     "part": 2,
+     "skill": "p2.wh-where",
+     "level": 1,
+     "options": [
+      "On the shelf by the door.",
+      "About an hour ago.",
+      "They're twelve dollars."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Where hỏi chỗ để đồ; 'On the shelf by the door' trả lời.",
+      "en": "'Where' asks for a place, and the shelf by the door is one."
+     },
+     "trap": "(B) trả lời When."
+    }
+   ]
+  },
+  {
+   "id": "d03-p2-s03",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Has the flight from Seoul landed yet?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Yes, I like Seoul."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Gate twelve is closed."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "It's running about twenty minutes late."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d03-p2-03",
+     "part": 2,
+     "skill": "p2.yes-no",
+     "level": 2,
+     "options": [
+      "Yes, I like Seoul.",
+      "Gate twelve is closed.",
+      "It's running about twenty minutes late."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Câu hỏi Yes/No; thông tin 'late' cho biết chưa hạ cánh (trả lời gián tiếp).",
+      "en": "The delay tells us it has not landed, an indirect 'no'."
+     },
+     "trap": "(A) lặp Seoul nhưng không trả lời việc máy bay đã hạ cánh."
+    }
+   ]
+  },
+  {
+   "id": "d03-p2-s04",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "When is the hotel checkout?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "The room has two beds."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "By eleven o'clock."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "At the front desk."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d03-p2-04",
+     "part": 2,
+     "skill": "p2.wh-when",
+     "level": 1,
+     "options": [
+      "The room has two beds.",
+      "By eleven o'clock.",
+      "At the front desk."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "When hỏi giờ; 'By eleven o'clock' là giờ trả phòng.",
+      "en": "'When' asks for a time, and 'By eleven o'clock' is one."
+     },
+     "trap": "(C) là địa điểm, đúng chủ đề khách sạn nhưng sai loại câu hỏi."
+    }
+   ]
+  },
+  {
+   "id": "d03-p2-s05",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "How long is the train ride to Hue?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Every day at noon."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Yes, I booked a seat."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "About ten hours."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d03-p2-05",
+     "part": 2,
+     "skill": "p2.wh-how",
+     "level": 1,
+     "options": [
+      "Every day at noon.",
+      "Yes, I booked a seat.",
+      "About ten hours."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "How long hỏi khoảng thời gian; 'About ten hours' trả lời.",
+      "en": "'How long' asks for a duration, and 'About ten hours' gives one."
+     },
+     "trap": "(A) trả lời How often, không phải How long."
+    }
+   ]
+  },
+  {
+   "id": "d03-p2-s06",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Would you like a window seat?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "The window is open."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Yes, he sat there."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Either is fine with me."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d03-p2-06",
+     "part": 2,
+     "skill": "p2.choice",
+     "level": 2,
+     "options": [
+      "The window is open.",
+      "Yes, he sat there.",
+      "Either is fine with me."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "'Either is fine' là cách đáp tự nhiên khi không có sở thích.",
+      "en": "'Either is fine with me' is a natural way to say there is no preference."
+     },
+     "trap": "(A) lặp window nhưng nói về cửa sổ mở, không trả lời lời mời."
+    }
+   ]
+  },
+  {
+   "id": "d03-p2-s07",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Why don't we take the bus instead?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "The bus is red."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "He didn't take it."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Good idea, it's cheaper."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d03-p2-07",
+     "part": 2,
+     "skill": "p2.suggestion",
+     "level": 1,
+     "options": [
+      "The bus is red.",
+      "He didn't take it.",
+      "Good idea, it's cheaper."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "'Why don't we...' là lời gợi ý; đồng ý vì lý do giá rẻ là hợp lý.",
+      "en": "'Why don't we' makes a suggestion, and agreeing with a reason is natural."
+     },
+     "trap": "(A) lặp bus nhưng nói màu sắc, không phản hồi gợi ý."
+    }
+   ]
+  },
+  {
+   "id": "d03-p2-s08",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Who should I give my passport to?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Yes, it expires soon."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "The agent at the first counter."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Last month."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d03-p2-08",
+     "part": 2,
+     "skill": "p2.wh-who",
+     "level": 1,
+     "options": [
+      "Yes, it expires soon.",
+      "The agent at the first counter.",
+      "Last month."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Who hỏi người nhận; 'the agent at the first counter' là một người.",
+      "en": "'Who' asks for a person, and the agent is one."
+     },
+     "trap": "(A) lặp passport nhưng không nói đưa cho ai."
+    }
+   ]
+  },
+  {
+   "id": "d03-p2-s09",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "The tour starts at nine tomorrow."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "He's a tour guide."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Should we meet in the lobby?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Yes, I was at home."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d03-p2-09",
+     "part": 2,
+     "skill": "p2.statement",
+     "level": 2,
+     "options": [
+      "He's a tour guide.",
+      "Should we meet in the lobby?",
+      "Yes, I was at home."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Câu hỏi lại 'Should we meet in the lobby?' tiếp nối thông tin giờ tour.",
+      "en": "A follow-up question about where to meet continues the conversation naturally."
+     },
+     "trap": "(A) lặp tour nhưng nói về một người khác."
+    }
+   ]
+  },
+  {
+   "id": "d03-p2-s10",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Which hotel did you stay at?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "I stay at home on weekends."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Yes, for three nights."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "The one next to the harbor."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d03-p2-10",
+     "part": 2,
+     "skill": "p2.wh-what",
+     "level": 2,
+     "options": [
+      "I stay at home on weekends.",
+      "Yes, for three nights.",
+      "The one next to the harbor."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Which hỏi chọn; 'The one next to the harbor' xác định khách sạn.",
+      "en": "'Which' asks for an identification, and the reply identifies the hotel."
+     },
+     "trap": "(B) nghe hợp với 'stay' nhưng là Yes/No và cho thời gian ở."
+    }
+   ]
+  }
+ ]
+}

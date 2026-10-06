@@ -1,0 +1,555 @@
+{
+ "reading": [
+  {
+   "id": "d14-p7-a",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "text-chain",
+     "title": "Store messages",
+     "text": "Gina Alvarez (2:14 P.M.): The winter jacket shipment arrived, but the box labeled \"Sizes M/L\" has only size S.\nKen Watanabe (2:16 P.M.): Seriously? The promotion starts tomorrow.\nGina Alvarez (2:17 P.M.): I know. Should I call the warehouse?\nKen Watanabe (2:19 P.M.): I'll call. You start tagging the other boxes.\nGina Alvarez (2:20 P.M.): Will do. By the way, Ms. Ricci wants a headcount for Saturday's late shift.\nKen Watanabe (2:24 P.M.): The warehouse says the missing jackets will come on tomorrow's 8 A.M. truck.\nGina Alvarez (2:25 P.M.): That works. I'll put the display together once they arrive.\nKen Watanabe (2:26 P.M.): Good. And tell Ms. Ricci I can cover Saturday."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p7-a1",
+     "part": 7,
+     "skill": "p7.main-idea",
+     "level": 1,
+     "q": "What problem do the writers discuss?",
+     "options": [
+      "A shipment contains the wrong sizes",
+      "A promotion has been canceled",
+      "A truck is delayed in traffic",
+      "A display case is broken"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Hộp ghi \"Sizes M/L\" nhưng chỉ có size S.",
+      "en": "The box labeled M/L contains only size S."
+     },
+     "trap": "Xe tải đến vào 8 giờ sáng mai, chưa bị trễ."
+    },
+    {
+     "id": "d14-p7-a2",
+     "part": 7,
+     "skill": "p7.speaker-intent",
+     "level": 2,
+     "q": "At 2:20 P.M., what does Ms. Alvarez mean when she writes, \"Will do\"?",
+     "options": [
+      "She will call the warehouse",
+      "She will start tagging boxes",
+      "She will count the staff",
+      "She will build the display"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Ngay trước đó anh Ken nói \"You start tagging the other boxes\", và \"Will do\" đáp lại lời đó.",
+      "en": "She is responding to Mr. Watanabe telling her to start tagging the other boxes."
+     },
+     "trap": "Gọi kho là việc anh Ken nhận (\"I'll call\"), không phải cô Gina."
+    },
+    {
+     "id": "d14-p7-a3",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "When will the missing jackets arrive?",
+     "options": [
+      "Today at 2:24 P.M.",
+      "On Saturday",
+      "Tomorrow morning",
+      "Tomorrow evening"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"tomorrow's 8 A.M. truck\".",
+      "en": "The warehouse says they will come on tomorrow's 8 A.M. truck."
+     },
+     "trap": "Thứ Bảy là ca làm muộn, không phải ngày hàng đến."
+    },
+    {
+     "id": "d14-p7-a4",
+     "part": 7,
+     "skill": "p7.inference",
+     "level": 3,
+     "q": "What is suggested about Mr. Watanabe?",
+     "options": [
+      "He is leaving the company",
+      "He manages the warehouse",
+      "He will tag the boxes",
+      "He is available to work on Saturday"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Anh nhắn: \"tell Ms. Ricci I can cover Saturday\", tức anh có thể làm ca thứ Bảy.",
+      "en": "He says he can cover Saturday, so he is available to work then."
+     }
+    }
+   ]
+  },
+  {
+   "id": "d14-p7-b",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "article",
+     "title": "Sunrise Bakery wins award",
+     "text": "HAVERFORD (March 12) - Sunrise Bakery, a family-run business on Mill Street, has been named Small Business of the Year by the Haverford Chamber of Commerce. [1] The award, which is given annually, recognizes companies that show strong growth while supporting the local community. [2] Owner Beatriz Cole opened the bakery eight years ago with only two employees. Today it has 19 and supplies bread to six restaurants in the region. [3] \"We never planned to get this big,\" Ms. Cole said.\n\nIn the past year, the bakery has also donated more than 2,000 loaves to local food banks. Ms. Cole credits her staff for the award. \"I am the one whose name is on the sign, but they make it work,\" she said. [4] The Chamber will present the award at its annual dinner on April 5 at the Grand Hotel. Tickets cost $40 and can be reserved through the Chamber's office."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p7-b1",
+     "part": 7,
+     "skill": "p7.main-idea",
+     "level": 1,
+     "q": "What is the article mainly about?",
+     "options": [
+      "A bakery that won a business award",
+      "A new restaurant opening",
+      "A food bank donation drive",
+      "A change in Chamber leadership"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Câu đầu: Sunrise Bakery \"has been named Small Business of the Year\".",
+      "en": "The first sentence reports the bakery was named Small Business of the Year."
+     }
+    },
+    {
+     "id": "d14-p7-b2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "What does the award recognize?",
+     "options": [
+      "The oldest family business in town",
+      "Growth combined with community support",
+      "The lowest prices in the region",
+      "The largest number of customers"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"strong growth while supporting the local community\".",
+      "en": "The award recognizes strong growth while supporting the local community."
+     }
+    },
+    {
+     "id": "d14-p7-b3",
+     "part": 7,
+     "skill": "p7.sentence-insert",
+     "level": 3,
+     "q": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\n\"Most of those workers were hired within the last three years.\"",
+     "options": [
+      "[1]",
+      "[2]",
+      "[3]",
+      "[4]"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"those workers\" chỉ 19 nhân viên vừa nhắc ở câu \"Today it has 19\", nên câu phải đứng ngay sau đó, tại [3].",
+      "en": "\"Those workers\" refers to the 19 employees mentioned just before position [3]."
+     },
+     "trap": "Vị trí [2] đứng sau câu về \"two employees\" nhưng chưa có con số 19 để \"most of those workers\" chỉ vào."
+    },
+    {
+     "id": "d14-p7-b4",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "According to the article, what has the bakery done in the past year?",
+     "options": [
+      "Opened a second shop",
+      "Supplied bread to six restaurants",
+      "Given loaves to food banks",
+      "Hired two new managers"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"donated more than 2,000 loaves to local food banks\" trong đoạn hai.",
+      "en": "The second paragraph says it donated more than 2,000 loaves to food banks."
+     },
+     "trap": "Việc cung cấp bánh cho sáu nhà hàng là tình trạng hiện tại, không gắn với \"past year\"."
+    }
+   ]
+  },
+  {
+   "id": "d14-p7-c",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "notice",
+     "title": "Elevator project",
+     "text": "NOTICE TO ALL TENANTS - Cedar Plaza, 220 Linden Avenue\n\nElevator Modernization Project\n\nBeginning Monday, May 19, the two passenger elevators will be upgraded one at a time. Elevator 1 will be out of service from May 19 to June 6. Elevator 2 will be out of service from June 9 to June 27. During each period, the other elevator will operate normally.\n\nThe freight elevator will remain available for deliveries between 7:00 A.M. and 9:00 A.M. only. Deliveries outside those hours must be arranged with the property manager.\n\nTenants on floors 8 and above are encouraged to adjust meeting schedules, as waiting times for the elevator may be longer than usual between 8:30 A.M. and 9:30 A.M.\n\nWe apologize for any inconvenience. Questions? Contact Dana Whitfield at 555-0172."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p7-c1",
+     "part": 7,
+     "skill": "p7.main-idea",
+     "level": 1,
+     "q": "What is the purpose of the notice?",
+     "options": [
+      "To announce a rent increase",
+      "To report a building emergency",
+      "To advertise a new tenant service",
+      "To inform tenants about elevator upgrades"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Tiêu đề và đoạn đầu nói về việc nâng cấp thang máy.",
+      "en": "The notice announces the upgrade of the passenger elevators."
+     }
+    },
+    {
+     "id": "d14-p7-c2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "When will Elevator 2 be out of service?",
+     "options": [
+      "June 9 to June 27",
+      "May 19 to June 6",
+      "May 19 to June 27",
+      "Only between 8:30 and 9:30 A.M."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"Elevator 2 will be out of service from June 9 to June 27.\"",
+      "en": "The notice gives June 9 to June 27 for Elevator 2."
+     },
+     "trap": "May 19 đến June 6 là thời gian của thang máy số 1."
+    },
+    {
+     "id": "d14-p7-c3",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 2,
+     "q": "What are tenants on higher floors encouraged to do?",
+     "options": [
+      "Use the freight elevator",
+      "Change their meeting times",
+      "Contact Ms. Whitfield each morning",
+      "Work from home"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "\"encouraged to adjust meeting schedules\".",
+      "en": "They are encouraged to adjust meeting schedules."
+     },
+     "trap": "Thang hàng chỉ dành cho giao hàng 7:00 đến 9:00."
+    },
+    {
+     "id": "d14-p7-c4",
+     "part": 7,
+     "skill": "p7.inference",
+     "level": 3,
+     "q": "What is suggested about June 4?",
+     "options": [
+      "Both passenger elevators will be unavailable",
+      "The freight elevator will be closed",
+      "One passenger elevator will be working",
+      "No deliveries will be accepted"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Ngày 4/6 nằm trong thời gian thang 1 ngừng (19/5 đến 6/6), và thang kia vẫn chạy bình thường.",
+      "en": "June 4 falls in Elevator 1's closure, and the other elevator operates normally."
+     }
+    }
+   ]
+  },
+  {
+   "id": "d14-p7-d",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "email",
+     "title": "Order #44718",
+     "text": "To: Customer Service\nFrom: Walter Chen\nSubject: Order #44718\nDate: November 4\n\nDear Customer Service,\n\nOn October 21, I ordered a standing desk and a desk lamp from your website. The confirmation e-mail stated that both items would be delivered within 10 business days. The lamp arrived on October 30, but the desk has not.\n\nWhen I checked the tracking page this morning, it still said \"awaiting pickup,\" which has been the status since October 28. I would appreciate it if you could look into this and tell me when I can expect delivery. If the desk cannot be sent within a week, I would like to cancel that part of my order and receive a refund. A copy of my receipt is attached.\n\nSincerely,\nWalter Chen"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p7-d1",
+     "part": 7,
+     "skill": "p7.main-idea",
+     "level": 1,
+     "q": "Why did Mr. Chen write the e-mail?",
+     "options": [
+      "To return a lamp",
+      "To order a new desk",
+      "To change his address",
+      "To ask about a late delivery"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Bàn chưa đến nên anh yêu cầu họ kiểm tra và cho biết ngày giao.",
+      "en": "The desk has not arrived and he asks when to expect delivery."
+     }
+    },
+    {
+     "id": "d14-p7-d2",
+     "part": 7,
+     "skill": "p7.inference",
+     "level": 3,
+     "q": "What does Mr. Chen suggest about the tracking information?",
+     "options": [
+      "It has not changed since October 28",
+      "It shows the desk was delivered",
+      "It was sent by e-mail",
+      "It lists the wrong item"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"awaiting pickup\" là trạng thái \"since October 28\", tức không đổi từ đó.",
+      "en": "The status has been \"awaiting pickup\" since October 28, so it has not been updated."
+     }
+    },
+    {
+     "id": "d14-p7-d3",
+     "part": 7,
+     "skill": "p7.not-true",
+     "level": 2,
+     "q": "What is NOT indicated about the order?",
+     "options": [
+      "It included two items",
+      "It was placed by telephone",
+      "A receipt is attached",
+      "Part of it has been delivered"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Anh đặt hàng \"from your website\", không phải qua điện thoại.",
+      "en": "He ordered \"from your website,\" not by telephone."
+     }
+    }
+   ]
+  },
+  {
+   "id": "d14-p7-e",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "form",
+     "title": "Invoice #2208",
+     "text": "INVOICE #2208 - Lakeshore Catering\nDate: June 2\nBill to: Davis & Park Law Offices\nEvent: Staff retirement luncheon, May 29\n\nBuffet lunch (40 guests at $22.00)     $880.00\nBeverage service (40 guests at $3.00)  $120.00\nDessert platters (3 at $35.00)         $105.00\nDelivery and setup                      $60.00\nSubtotal                             $1,165.00\nDeposit paid (May 10)                 -$300.00\nBalance due                            $865.00\n\nPayment is due by June 16. A 1.5% monthly late fee applies to unpaid balances."
+    },
+    {
+     "kind": "email",
+     "title": "Invoice #2208",
+     "text": "To: Accounts, Lakeshore Catering\nFrom: Rebecca Park\nDate: June 9\nSubject: Invoice #2208\n\nDear Sir or Madam:\n\nI have reviewed the invoice for our retirement luncheon. Thank you for the excellent service; our guests were very pleased. However, I believe there is an error. We ordered the buffet and beverage service for 38 guests, as stated in our confirmation, because two attendees cancelled the day before the event. Also, we ordered only two dessert platters.\n\nCould you please send a corrected invoice? I plan to pay the balance by June 16 as soon as I receive it.\n\nSincerely,\nRebecca Park"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p7-e1",
+     "part": 7,
+     "skill": "p7.main-idea",
+     "level": 1,
+     "q": "Why did Ms. Park write the e-mail?",
+     "options": [
+      "To cancel an event",
+      "To book a new luncheon",
+      "To request a corrected invoice",
+      "To complain about the food"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"Could you please send a corrected invoice?\"",
+      "en": "She asks for a corrected invoice."
+     },
+     "trap": "Cô khen dịch vụ (\"excellent service\"), nên không phải khiếu nại món ăn."
+    },
+    {
+     "id": "d14-p7-e2",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 2,
+     "q": "What is suggested about the invoice?",
+     "options": [
+      "It is already paid in full",
+      "It was sent before the event",
+      "It does not include delivery",
+      "It charges for more guests than attended"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Hóa đơn tính 40 khách, còn email nói chỉ đặt cho 38 khách.",
+      "en": "The invoice bills 40 guests, but Ms. Park says the order was for 38."
+     },
+     "trap": "Cô đã trả tiền cọc $300 chứ chưa trả hết; số dư vẫn còn."
+    },
+    {
+     "id": "d14-p7-e3",
+     "part": 7,
+     "skill": "p7.vocab-in-context",
+     "level": 2,
+     "q": "The word \"balance\" in the e-mail is closest in meaning to",
+     "options": [
+      "remaining amount",
+      "scale",
+      "comparison",
+      "stability"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Trên hóa đơn \"Balance due\" là số tiền còn phải trả sau tiền cọc.",
+      "en": "In the invoice, \"balance\" is the amount still owed after the deposit."
+     }
+    },
+    {
+     "id": "d14-p7-e4",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "When does Ms. Park plan to pay?",
+     "options": [
+      "By May 10",
+      "By May 29",
+      "By June 16",
+      "By June 30"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"I plan to pay the balance by June 16\".",
+      "en": "She plans to pay by June 16."
+     },
+     "trap": "May 10 là ngày đặt cọc."
+    },
+    {
+     "id": "d14-p7-e5",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 3,
+     "q": "What would the corrected subtotal most likely be?",
+     "options": [
+      "$1,080.00",
+      "$1,121.00",
+      "$1,130.00",
+      "$1,165.00"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Bớt 2 khách bữa buffet ($44) và đồ uống ($6) cùng một đĩa tráng miệng ($35): 1,165 - 85 = 1,080.",
+      "en": "Removing two guests ($44 plus $6) and one dessert platter ($35) lowers $1,165 by $85 to $1,080."
+     },
+     "trap": "Chỉ sửa số khách ra $1,121 hoặc chỉ sửa tráng miệng ra $1,130; phải sửa cả hai."
+    }
+   ]
+  },
+  {
+   "id": "d14-p7-f",
+   "part": 7,
+   "passages": [
+    {
+     "kind": "web",
+     "title": "Careers at Blue Harbor",
+     "text": "Blue Harbor Aquarium | Careers\n\nGuest Experience Coordinator (full-time)\n\nBlue Harbor Aquarium seeks a coordinator to manage school-group and corporate bookings.\n\nResponsibilities: respond to booking inquiries within one business day; prepare group itineraries; work with education staff and keepers; train seasonal front-desk staff.\n\nRequirements: two years of experience in customer service or event coordination; strong written communication; ability to work weekends on a rotating basis. Knowledge of booking software is an advantage.\n\nSalary: $46,000 to $52,000, depending on experience.\n\nTo apply, send a cover letter and résumé to careers@blueharbor.example by April 18. Interviews will be held the week of April 28."
+    },
+    {
+     "kind": "email",
+     "title": "Application",
+     "text": "To: careers@blueharbor.example\nFrom: Linh Bui\nDate: April 16\nSubject: Guest Experience Coordinator\n\nDear Hiring Manager,\n\nPlease find my cover letter and résumé attached. For the past three years I have worked as a reservations agent at a regional tour company, where I answered inquiries from schools and companies and created itineraries for groups of up to 120. I have also trained several new employees. I am used to working weekends and have used booking software for two years.\n\nI will be traveling from April 28 to May 2, so I would appreciate an interview on a different date if possible.\n\nSincerely,\nLinh Bui"
+    }
+   ],
+   "questions": [
+    {
+     "id": "d14-p7-f1",
+     "part": 7,
+     "skill": "p7.main-idea",
+     "level": 1,
+     "q": "Why did Ms. Bui write the e-mail?",
+     "options": [
+      "To book a school visit",
+      "To apply for a job",
+      "To ask about salary",
+      "To accept an offer"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô gửi thư xin việc và hồ sơ cho vị trí Guest Experience Coordinator.",
+      "en": "She sends a cover letter and résumé for the coordinator position."
+     }
+    },
+    {
+     "id": "d14-p7-f2",
+     "part": 7,
+     "skill": "p7.detail",
+     "level": 1,
+     "q": "What will the coordinator be asked to do?",
+     "options": [
+      "Feed the animals",
+      "Design new exhibits",
+      "Train seasonal front-desk staff",
+      "Manage the café"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Trong Responsibilities có \"train seasonal front-desk staff\".",
+      "en": "Training seasonal front-desk staff is listed among the responsibilities."
+     }
+    },
+    {
+     "id": "d14-p7-f3",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 2,
+     "q": "What requirement does Ms. Bui clearly meet?",
+     "options": [
+      "A degree in marine biology",
+      "A previous job at an aquarium",
+      "Experience working with jellyfish",
+      "Two years of customer service experience"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Cô làm đặt chỗ ba năm và trả lời khách hàng, nên đạt yêu cầu hai năm kinh nghiệm.",
+      "en": "Her three years as a reservations agent satisfy the two-year customer service requirement."
+     },
+     "trap": "Trang tuyển dụng không đòi bằng sinh học biển."
+    },
+    {
+     "id": "d14-p7-f4",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 2,
+     "q": "What is indicated about Ms. Bui's application?",
+     "options": [
+      "It was sent two days before the deadline",
+      "It was sent after the deadline",
+      "It was sent on the deadline",
+      "It was sent the week of the interviews"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Hạn nộp là April 18; thư gửi ngày April 16, tức sớm hai ngày.",
+      "en": "The deadline is April 18 and she wrote on April 16."
+     }
+    },
+    {
+     "id": "d14-p7-f5",
+     "part": 7,
+     "skill": "p7.cross-ref",
+     "level": 3,
+     "q": "What problem might Ms. Bui have with the interview schedule?",
+     "options": [
+      "She does not work weekends",
+      "She will be traveling that week",
+      "She has no booking software experience",
+      "She lives far from the aquarium"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Phỏng vấn tuần April 28, còn cô đi xa từ April 28 đến May 2.",
+      "en": "Interviews are the week of April 28, when she will be away."
+     },
+     "trap": "Cô nói rõ đã quen làm cuối tuần và dùng phần mềm đặt chỗ."
+    }
+   ]
+  }
+ ]
+}

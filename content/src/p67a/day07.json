@@ -1,0 +1,93 @@
+{
+  "reading": [
+    {
+      "id": "d07-p7-a",
+      "part": 7,
+      "passages": [
+        {
+          "kind": "article",
+          "title": "Wilder Bakery honored",
+          "text": "Wilder Bakery Honored for Sustainability\n\nKINGSTON (June 9) Wilder Bakery, a family business founded in 1987, received the Regional Green Business Award on Saturday. The award recognizes companies that have significantly reduced their environmental impact.\n\nOver the past three years, Wilder Bakery has replaced its old ovens with energy-efficient models, which cut electricity use by nearly 30 percent. The bakery also buys flour from farms within 80 kilometers and delivers its bread in reusable crates instead of plastic bags.\n\nOwner Carla Wilder said the changes were not easy at first. \"Our costs went up in the first year,\" she said. \"But customers noticed our efforts, and sales have since grown by 12 percent.\"\n\nNext month, the bakery plans to open a second shop on Harper Street. Ms. Wilder said she will hire six new employees and will offer them training in energy-saving practices."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d07-p7-a-1",
+          "part": 7,
+          "skill": "p7.main-idea",
+          "level": 1,
+          "q": "Why did Wilder Bakery receive an award?",
+          "options": [
+            "It opened a second shop.",
+            "It reduced its environmental impact.",
+            "It increased its sales by 12 percent.",
+            "It has operated since 1987."
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Giải thưởng dành cho công ty giảm tác động môi trường.",
+            "en": "The award recognizes companies that reduced environmental impact."
+          },
+          "trap": "Doanh thu tăng chỉ là kết quả sau đó, không phải lý do trao giải."
+        },
+        {
+          "id": "d07-p7-a-2",
+          "part": 7,
+          "skill": "p7.not-true",
+          "level": 2,
+          "q": "What change is NOT mentioned in the article?",
+          "options": [
+            "New ovens",
+            "Local flour",
+            "Reusable crates",
+            "Electric delivery vans"
+          ],
+          "answer": 3,
+          "why": {
+            "vi": "Bài nhắc lò mới, bột mì địa phương và thùng tái sử dụng, nhưng không có xe giao hàng chạy điện.",
+            "en": "The article mentions ovens, local flour and crates, but not electric vans."
+          },
+          "trap": "Cụm \"delivers its bread\" dễ khiến liên tưởng đến xe giao hàng."
+        },
+        {
+          "id": "d07-p7-a-3",
+          "part": 7,
+          "skill": "p7.vocab-in-context",
+          "level": 2,
+          "q": "The word \"cut\" in paragraph 2, line 2, is closest in meaning to",
+          "options": [
+            "sliced",
+            "reduced",
+            "ended",
+            "divided"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "\"cut electricity use by 30 percent\" nghĩa là giảm mức dùng điện.",
+            "en": "\"Cut electricity use\" means reduced it."
+          },
+          "trap": "\"sliced\" là nghĩa đen với bánh mì nên dễ nhầm."
+        },
+        {
+          "id": "d07-p7-a-4",
+          "part": 7,
+          "skill": "p7.detail",
+          "level": 1,
+          "q": "What does Ms. Wilder plan to do next month?",
+          "options": [
+            "Hire a new owner",
+            "Open another shop",
+            "Raise prices",
+            "Replace the delivery crates"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Tháng sau tiệm sẽ mở cơ sở thứ hai ở phố Harper.",
+            "en": "Next month the bakery plans to open a second shop on Harper Street."
+          },
+          "trap": "Việc thuê sáu nhân viên là kế hoạch kèm theo, không phải thuê chủ mới."
+        }
+      ]
+    }
+  ]
+}

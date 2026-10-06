@@ -1,0 +1,189 @@
+{
+ "day": 2,
+ "title": {
+  "vi": "Trang nhật ký rách",
+  "en": "The Torn Page"
+ },
+ "story": [
+  {
+   "speaker": "NOVA",
+   "en": "I found a page from a dive log. It is wet, but I can read the top line: \"Meet me at the reef, 9 p.m.\"",
+   "vi": "Tôi tìm thấy một trang nhật ký lặn. Nó ướt, nhưng tôi đọc được dòng đầu: \"Gặp anh ở rạn san hô, 9 giờ tối.\"",
+   "voice": "usF"
+  },
+  {
+   "speaker": "HUY",
+   "en": "That is his handwriting. But the date says next Sunday. How can it be?",
+   "vi": "Chữ của anh ấy. Nhưng ngày ghi là Chủ nhật tuần sau. Sao lại thế được?",
+   "voice": "caM"
+  },
+  {
+   "speaker": "BAO",
+   "en": "Old logs are often wrong, my friend. The ink runs, the clock breaks. Come, have some tea in my office.",
+   "vi": "Nhật ký cũ hay sai lắm, bạn ạ. Mực nhòe, đồng hồ hỏng. Vào văn phòng uống trà đi.",
+   "voice": "auM"
+  },
+  {
+   "speaker": "BESUA",
+   "en": "Nè, the date is in the future, hem? Maybe the page is... a bit early. Hihi.",
+   "vi": "Nè, ngày ở tương lai đó hen? Hay trang giấy này... đến sớm? Hihi."
+  },
+  {
+   "speaker": "BAO",
+   "en": "Look at this chart. Dive north. Never south. The south reef is dangerous.",
+   "vi": "Xem hải đồ này. Lặn về phía bắc. Đừng bao giờ đi phía nam. Rạn phía nam nguy hiểm.",
+   "voice": "auM"
+  }
+ ],
+ "letter": {
+  "vi": "Bé iu ơi, shương shương. Trước khi chọn đáp án Part 5, nhìn từ đứng ngay trước chỗ trống (a, the, his, very) để biết cần danh từ hay tính từ. Học WHEREVER (bất cứ đâu) cũng được, miễn bé đừng bỏ bữa nha.",
+  "en": "My love, shương shương. Before you choose a Part 5 answer, look at the word right before the blank (a, the, his, very) to see if you need a noun or an adjective. You can study WHEREVER you are, as long as you do not skip meals."
+ },
+ "beSua": [
+  "\"Informations\" là sai nha, information không có s. Cũng vậy với advice, furniture, equipment. Dọ!",
+  "Colleague là đồng nghiệp, đọc /ˈkɒliːɡ/, không phải \"cô-lê-gi\" hihi. Đừng nhầm với college (trường cao đẳng).",
+  "Deadline = hạn chót. Không phải đường chết 😭 mà là giờ phải nộp bài. Hihi."
+ ],
+ "vocab": [
+  {
+   "word": "colleague",
+   "pos": "n",
+   "ipa": "/ˈkɒliːɡ/",
+   "vi": "đồng nghiệp",
+   "example": {
+    "en": "My colleague will send the file today.",
+    "vi": "Đồng nghiệp của tôi sẽ gửi tệp hôm nay."
+   },
+   "collocation": "work with a colleague"
+  },
+  {
+   "word": "department",
+   "pos": "n",
+   "ipa": "/dɪˈpɑːtmənt/",
+   "vi": "phòng ban",
+   "example": {
+    "en": "She works in the sales department.",
+    "vi": "Cô ấy làm ở phòng kinh doanh."
+   },
+   "collocation": "human resources department"
+  },
+  {
+   "word": "supervisor",
+   "pos": "n",
+   "ipa": "/ˈsuːpəvaɪzə/",
+   "vi": "người giám sát",
+   "example": {
+    "en": "Please ask your supervisor for approval.",
+    "vi": "Vui lòng hỏi người giám sát để được duyệt."
+   },
+   "family": "supervise (v) / supervisor (n) / supervision (n)",
+   "collocation": "report to a supervisor"
+  },
+  {
+   "word": "deadline",
+   "pos": "n",
+   "ipa": "/ˈdedlaɪn/",
+   "vi": "hạn chót",
+   "example": {
+    "en": "The deadline for the report is Friday.",
+    "vi": "Hạn chót nộp báo cáo là thứ Sáu."
+   },
+   "collocation": "meet a deadline"
+  },
+  {
+   "word": "assignment",
+   "pos": "n",
+   "ipa": "/əˈsaɪnmənt/",
+   "vi": "nhiệm vụ, bài được giao",
+   "example": {
+    "en": "His first assignment was a market survey.",
+    "vi": "Nhiệm vụ đầu tiên của anh ấy là khảo sát thị trường."
+   },
+   "family": "assign (v) / assignment (n)",
+   "collocation": "complete an assignment"
+  },
+  {
+   "word": "document",
+   "pos": "n",
+   "ipa": "/ˈdɒkjʊmənt/",
+   "vi": "tài liệu, văn bản",
+   "example": {
+    "en": "Please save the document before you leave.",
+    "vi": "Vui lòng lưu tài liệu trước khi rời đi."
+   },
+   "family": "document (n, v) / documentation (n)",
+   "collocation": "legal document"
+  },
+  {
+   "word": "submit",
+   "pos": "v",
+   "ipa": "/səbˈmɪt/",
+   "vi": "nộp, gửi lên",
+   "example": {
+    "en": "You must submit the form by noon.",
+    "vi": "Bạn phải nộp mẫu đơn trước trưa."
+   },
+   "family": "submit (v) / submission (n)",
+   "collocation": "submit a report"
+  },
+  {
+   "word": "revise",
+   "pos": "v",
+   "ipa": "/rɪˈvaɪz/",
+   "vi": "sửa đổi, chỉnh sửa",
+   "example": {
+    "en": "The manager asked us to revise the plan.",
+    "vi": "Quản lý yêu cầu chúng tôi chỉnh sửa kế hoạch."
+   },
+   "family": "revise (v) / revision (n)",
+   "collocation": "revised edition"
+  },
+  {
+   "word": "attach",
+   "pos": "v",
+   "ipa": "/əˈtætʃ/",
+   "vi": "đính kèm",
+   "example": {
+    "en": "I attached the schedule to this email.",
+    "vi": "Tôi đã đính kèm lịch trình vào email này."
+   },
+   "family": "attach (v) / attachment (n)",
+   "collocation": "attached file"
+  },
+  {
+   "word": "reception",
+   "pos": "n",
+   "ipa": "/rɪˈsepʃn/",
+   "vi": "quầy lễ tân",
+   "example": {
+    "en": "Visitors should sign in at reception.",
+    "vi": "Khách phải ký tên ở quầy lễ tân."
+   },
+   "family": "receptionist (n)",
+   "collocation": "reception desk"
+  },
+  {
+   "word": "workload",
+   "pos": "n",
+   "ipa": "/ˈwɜːkləʊd/",
+   "vi": "khối lượng công việc",
+   "example": {
+    "en": "Her workload doubled in March.",
+    "vi": "Khối lượng công việc của cô ấy tăng gấp đôi vào tháng Ba."
+   },
+   "collocation": "heavy workload"
+  },
+  {
+   "word": "file",
+   "pos": "v",
+   "ipa": "/faɪl/",
+   "vi": "nộp hồ sơ, lưu hồ sơ",
+   "example": {
+    "en": "Please file the invoices in alphabetical order.",
+    "vi": "Vui lòng lưu các hóa đơn theo thứ tự chữ cái."
+   },
+   "family": "file (n, v)",
+   "collocation": "file a report"
+  }
+ ]
+}

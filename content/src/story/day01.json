@@ -1,0 +1,191 @@
+{
+ "day": 1,
+ "title": {
+  "vi": "Xuống nước",
+  "en": "Going Under"
+ },
+ "story": [
+  {
+   "speaker": "NARRATOR",
+   "en": "The café is quiet now. The last guests have gone home. Huy turns off the tank lights, one by one.",
+   "vi": "Quán đã yên. Khách cuối cùng về hết. Huy tắt đèn từng hồ sứa một.",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "He sits by the biggest tank to rest his eyes. The jellyfish glow like small moons. He falls asleep.",
+   "vi": "Huy ngồi cạnh hồ lớn nhất cho đỡ mỏi mắt. Những chú sứa sáng như trăng nhỏ. Huy ngủ thiếp đi.",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "NOVA",
+   "en": "Good evening, diver. This is NOVA, your dive radio. Your oxygen is full. Can you hear me?",
+   "vi": "Chào buổi tối, thợ lặn. Tôi là NOVA, radio lặn của bạn. Oxy đầy. Bạn nghe thấy tôi không?",
+   "voice": "usF"
+  },
+  {
+   "speaker": "BESUA",
+   "en": "Dọ! I am Bé Sứa, hihi. I am tiny, but I hear a LOT. :33",
+   "vi": "Dọ! Em là Bé Sứa nè, hihi. Em nhỏ xíu nhưng nghe được nhiều lắm. :33"
+  },
+  {
+   "speaker": "BAO",
+   "en": "Welcome aboard the Aurelia, Huy. Two dive suits hang by the door, but only one is here. Do not worry about the empty hook.",
+   "vi": "Chào mừng lên tàu Aurelia, Huy. Hai bộ đồ lặn treo cạnh cửa, mà chỉ có một bộ ở đây. Đừng bận tâm cái móc trống.",
+   "voice": "auM"
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "Under the static, a very soft voice says one word: \"surface\".",
+   "vi": "Dưới tiếng rè rè, một giọng rất khẽ nói một từ: \"mặt nước\".",
+   "voice": "gbF"
+  }
+ ],
+ "letter": {
+  "vi": "Chào bé iu, hôm nay là ngày đầu rồi hihii. Mẹo nhỏ: lúc nghe đừng cố hiểu từng chữ, cứ bắt tên người, con số và nơi chốn trước, như nghe ai đó gọi tên mình: HUY. Anh tin bé.",
+  "en": "Hi my love, today is day one hihii. Small tip: when you listen, do not chase every word. Catch names, numbers and places first, like hearing someone call your name: HUY. I believe in you."
+ },
+ "beSua": [
+  "\"I am boring\" nghĩa là em là người nhàm chán 😭 Muốn nói em chán thì \"I am bored\" nha. Hihi.",
+  "Nè, \"Nice to meet you\" là lần đầu gặp, lần sau gặp lại thì \"Nice to see you again\" nha. :33",
+  "Hear là tự nghe thấy, listen là chủ động nghe. Radio thì listen, tiếng sứa búng thì hear. Hihi."
+ ],
+ "vocab": [
+  {
+   "word": "vessel",
+   "pos": "n",
+   "ipa": "/ˈvesl/",
+   "vi": "tàu, thuyền lớn",
+   "example": {
+    "en": "The vessel left the harbor at dawn.",
+    "vi": "Con tàu rời bến lúc bình minh."
+   },
+   "collocation": "cargo vessel"
+  },
+  {
+   "word": "dock",
+   "pos": "n",
+   "ipa": "/dɒk/",
+   "vi": "bến tàu, bãi cập",
+   "example": {
+    "en": "Workers unloaded the boxes at the dock.",
+    "vi": "Công nhân dỡ các thùng hàng ở bến."
+   },
+   "family": "dock (n, v)",
+   "collocation": "loading dock"
+  },
+  {
+   "word": "crew",
+   "pos": "n",
+   "ipa": "/kruː/",
+   "vi": "thủy thủ đoàn, đội nhân viên",
+   "example": {
+    "en": "The crew checked the engines twice.",
+    "vi": "Thủy thủ đoàn kiểm tra động cơ hai lần."
+   },
+   "collocation": "crew member"
+  },
+  {
+   "word": "cargo",
+   "pos": "n",
+   "ipa": "/ˈkɑːɡəʊ/",
+   "vi": "hàng hóa chở trên tàu",
+   "example": {
+    "en": "The cargo includes fresh fruit and tools.",
+    "vi": "Hàng hóa gồm trái cây tươi và dụng cụ."
+   },
+   "collocation": "cargo ship"
+  },
+  {
+   "word": "depart",
+   "pos": "v",
+   "ipa": "/dɪˈpɑːt/",
+   "vi": "khởi hành",
+   "example": {
+    "en": "The ferry departs every thirty minutes.",
+    "vi": "Phà khởi hành mỗi ba mươi phút."
+   },
+   "family": "depart (v) / departure (n)",
+   "collocation": "depart from"
+  },
+  {
+   "word": "voyage",
+   "pos": "n",
+   "ipa": "/ˈvɔɪɪdʒ/",
+   "vi": "chuyến đi biển dài",
+   "example": {
+    "en": "The voyage took nine days.",
+    "vi": "Chuyến đi biển kéo dài chín ngày."
+   },
+   "collocation": "maiden voyage"
+  },
+  {
+   "word": "passenger",
+   "pos": "n",
+   "ipa": "/ˈpæsɪndʒə/",
+   "vi": "hành khách",
+   "example": {
+    "en": "All passengers must wear life jackets.",
+    "vi": "Mọi hành khách phải mặc áo phao."
+   },
+   "collocation": "passenger ferry"
+  },
+  {
+   "word": "route",
+   "pos": "n",
+   "ipa": "/ruːt/",
+   "vi": "tuyến đường",
+   "example": {
+    "en": "The new route avoids the busy port.",
+    "vi": "Tuyến mới tránh cảng đông đúc."
+   },
+   "collocation": "shipping route"
+  },
+  {
+   "word": "load",
+   "pos": "v",
+   "ipa": "/ləʊd/",
+   "vi": "chất hàng, bốc hàng",
+   "example": {
+    "en": "They loaded the boxes before noon.",
+    "vi": "Họ chất các thùng hàng trước buổi trưa."
+   },
+   "family": "load (v, n) / unload (v)",
+   "collocation": "load onto"
+  },
+  {
+   "word": "port",
+   "pos": "n",
+   "ipa": "/pɔːt/",
+   "vi": "cảng",
+   "example": {
+    "en": "The ship stopped at a small port.",
+    "vi": "Con tàu dừng ở một cảng nhỏ."
+   },
+   "collocation": "port authority"
+  },
+  {
+   "word": "anchor",
+   "pos": "v",
+   "ipa": "/ˈæŋkə/",
+   "vi": "thả neo, neo đậu",
+   "example": {
+    "en": "The captain anchored the ship near the shore.",
+    "vi": "Thuyền trưởng neo tàu gần bờ."
+   },
+   "family": "anchor (n, v)",
+   "collocation": "drop anchor"
+  },
+  {
+   "word": "shore",
+   "pos": "n",
+   "ipa": "/ʃɔː/",
+   "vi": "bờ biển, bờ",
+   "example": {
+    "en": "Several boats waited near the shore.",
+    "vi": "Vài chiếc thuyền chờ gần bờ."
+   },
+   "collocation": "on shore"
+  }
+ ]
+}

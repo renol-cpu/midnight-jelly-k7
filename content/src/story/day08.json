@@ -1,0 +1,189 @@
+{
+ "day": 8,
+ "title": {
+  "vi": "Cuộc họp trên boong",
+  "en": "The Meeting"
+ },
+ "story": [
+  {
+   "speaker": "BAO",
+   "en": "Meeting time, everyone. Agenda: one, find the signal. Two, find the reef. Three, keep the schedule. Questions?",
+   "vi": "Giờ họp, mọi người. Chương trình: một, tìm tín hiệu. Hai, tìm rạn. Ba, giữ lịch. Có câu hỏi không?",
+   "voice": "auM"
+  },
+  {
+   "speaker": "HUY",
+   "en": "Captain, whom do the signals belong to? Whose voice is it?",
+   "vi": "Thuyền trưởng, tín hiệu thuộc về ai? Giọng nói của ai vậy?",
+   "voice": "caM"
+  },
+  {
+   "speaker": "BAO",
+   "en": "Voices in the sea. Echoes. Please do not trust them too much.",
+   "vi": "Giọng nói trong biển. Tiếng vọng. Đừng tin chúng quá.",
+   "voice": "auM"
+  },
+  {
+   "speaker": "NOVA",
+   "en": "Hu... Huy... my... your... signal is...",
+   "vi": "Hu... Huy... của tôi... của bạn... tín hiệu là...",
+   "voice": "usF"
+  },
+  {
+   "speaker": "BESUA",
+   "en": "Nè, NOVA lag rồi hả? Nó nói \"my\" rồi sửa thành \"your\". Em nghe thấy hết đó. Hihi.",
+   "vi": "Nè, NOVA lag rồi hả? Nó nói \"my\" rồi sửa thành \"your\". Em nghe thấy hết đó. Hihi."
+  }
+ ],
+ "letter": {
+  "vi": "Hihii, hôm nay whom và whose. Whom là người bị tác động (the man whom I met), whose là của ai (whose bag is this). Họp xong nhớ ghi 3 việc: ai làm, làm gì, khi nào, như ON Friday là vào thứ Sáu. Shương shương!",
+  "en": "Hihii, today is whom and whose. Whom is the person receiving the action (the man whom I met); whose means belonging to whom (whose bag is this). After a meeting, write 3 things: who, what, when, like ON Friday. Shương shương!"
+ },
+ "beSua": [
+  "Discuss không đi với about nha: \"discuss the plan\", không phải \"discuss about the plan\". Hihi, sai lỗi này hoài đó. :33",
+  "Whom là người nhận hành động, whose là của ai. \"Whom did you meet?\" nhưng \"Whose phone is this?\". Dọ!",
+  "Agenda là chương trình họp, minutes là biên bản họp (không phải phút nha!). Hihi."
+ ],
+ "vocab": [
+  {
+   "word": "agenda",
+   "pos": "n",
+   "ipa": "/əˈdʒendə/",
+   "vi": "chương trình nghị sự",
+   "example": {
+    "en": "The agenda has five items.",
+    "vi": "Chương trình họp có năm mục."
+   },
+   "collocation": "set the agenda"
+  },
+  {
+   "word": "attend",
+   "pos": "v",
+   "ipa": "/əˈtend/",
+   "vi": "tham dự",
+   "example": {
+    "en": "About forty people attended the meeting.",
+    "vi": "Khoảng bốn mươi người đã dự cuộc họp."
+   },
+   "family": "attend (v) / attendance (n) / attendee (n)",
+   "collocation": "attend a meeting"
+  },
+  {
+   "word": "minutes",
+   "pos": "n",
+   "ipa": "/ˈmɪnɪts/",
+   "vi": "biên bản cuộc họp",
+   "example": {
+    "en": "Who will take the minutes today?",
+    "vi": "Ai sẽ ghi biên bản hôm nay?"
+   },
+   "collocation": "take the minutes"
+  },
+  {
+   "word": "propose",
+   "pos": "v",
+   "ipa": "/prəˈpəʊz/",
+   "vi": "đề xuất",
+   "example": {
+    "en": "She proposed a new schedule.",
+    "vi": "Cô ấy đề xuất một lịch trình mới."
+   },
+   "family": "propose (v) / proposal (n)",
+   "collocation": "propose a plan"
+  },
+  {
+   "word": "approve",
+   "pos": "v",
+   "ipa": "/əˈpruːv/",
+   "vi": "phê duyệt",
+   "example": {
+    "en": "The board approved the budget.",
+    "vi": "Hội đồng đã phê duyệt ngân sách."
+   },
+   "family": "approve (v) / approval (n)",
+   "collocation": "approve a request"
+  },
+  {
+   "word": "objective",
+   "pos": "n",
+   "ipa": "/əbˈdʒektɪv/",
+   "vi": "mục tiêu",
+   "example": {
+    "en": "The main objective is to reduce costs.",
+    "vi": "Mục tiêu chính là giảm chi phí."
+   },
+   "family": "objective (n, adj)",
+   "collocation": "meet an objective"
+  },
+  {
+   "word": "discuss",
+   "pos": "v",
+   "ipa": "/dɪˈskʌs/",
+   "vi": "thảo luận",
+   "example": {
+    "en": "We will discuss the results on Monday.",
+    "vi": "Chúng ta sẽ thảo luận kết quả vào thứ Hai."
+   },
+   "family": "discuss (v) / discussion (n)",
+   "collocation": "discuss a topic"
+  },
+  {
+   "word": "participant",
+   "pos": "n",
+   "ipa": "/pɑːˈtɪsɪpənt/",
+   "vi": "người tham gia",
+   "example": {
+    "en": "Each participant received a name tag.",
+    "vi": "Mỗi người tham gia nhận một thẻ tên."
+   },
+   "family": "participate (v) / participant (n) / participation (n)",
+   "collocation": "workshop participant"
+  },
+  {
+   "word": "conference",
+   "pos": "n",
+   "ipa": "/ˈkɒnfərəns/",
+   "vi": "hội nghị",
+   "example": {
+    "en": "The conference starts at nine tomorrow.",
+    "vi": "Hội nghị bắt đầu lúc chín giờ sáng mai."
+   },
+   "collocation": "conference room"
+  },
+  {
+   "word": "postpone",
+   "pos": "v",
+   "ipa": "/pəʊstˈpəʊn/",
+   "vi": "hoãn lại",
+   "example": {
+    "en": "The meeting was postponed until next week.",
+    "vi": "Cuộc họp bị hoãn đến tuần sau."
+   },
+   "collocation": "postpone until"
+  },
+  {
+   "word": "present",
+   "pos": "v",
+   "ipa": "/prɪˈzent/",
+   "vi": "trình bày",
+   "example": {
+    "en": "He will present the sales figures.",
+    "vi": "Anh ấy sẽ trình bày số liệu bán hàng."
+   },
+   "family": "present (v, n, adj) / presentation (n)",
+   "collocation": "give a presentation"
+  },
+  {
+   "word": "issue",
+   "pos": "n",
+   "ipa": "/ˈɪʃuː/",
+   "vi": "vấn đề",
+   "example": {
+    "en": "We need to solve this issue quickly.",
+    "vi": "Chúng ta cần giải quyết vấn đề này nhanh."
+   },
+   "family": "issue (n, v)",
+   "collocation": "raise an issue"
+  }
+ ]
+}

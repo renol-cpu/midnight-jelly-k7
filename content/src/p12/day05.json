@@ -1,0 +1,904 @@
+{
+ "listening": [
+  {
+   "id": "d05-p2-s01",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "When will the new software be installed?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "In the server room."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "It's very user-friendly."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "On Wednesday night."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d05-p2-01",
+     "part": 2,
+     "skill": "p2.wh-when",
+     "level": 1,
+     "options": [
+      "In the server room.",
+      "It's very user-friendly.",
+      "On Wednesday night."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "When hỏi thời điểm; 'On Wednesday night' trả lời.",
+      "en": "'When' asks for a time, and 'On Wednesday night' gives it."
+     },
+     "trap": "(A) là địa điểm, (B) là nhận xét."
+    }
+   ]
+  },
+  {
+   "id": "d05-p2-s02",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "When did you start working at the aquarium?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "In the jellyfish room."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "It starts at nine."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Three years ago."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d05-p2-02",
+     "part": 2,
+     "skill": "p2.wh-when",
+     "level": 1,
+     "options": [
+      "In the jellyfish room.",
+      "It starts at nine.",
+      "Three years ago."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "When hỏi lúc nào; 'Three years ago' trả lời.",
+      "en": "'When' asks for a time, and 'Three years ago' gives it."
+     },
+     "trap": "(B) lặp start/starts nhưng nói giờ của sự kiện khác, không nói bạn bắt đầu làm khi nào."
+    }
+   ]
+  },
+  {
+   "id": "d05-p2-s03",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Why is the conference room locked?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "The cleaners are still inside."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "On the second floor."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "At ten o'clock."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d05-p2-03",
+     "part": 2,
+     "skill": "p2.wh-why",
+     "level": 1,
+     "options": [
+      "The cleaners are still inside.",
+      "On the second floor.",
+      "At ten o'clock."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Why hỏi lý do; 'The cleaners are still inside' giải thích.",
+      "en": "'Why' asks for a reason, and the cleaners explain it."
+     },
+     "trap": "(B) trả lời Where, (C) trả lời When."
+    }
+   ]
+  },
+  {
+   "id": "d05-p2-s04",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Why did Mr. Park leave early?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "He leaves at five."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "He had a dentist appointment."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Yes, early in the morning."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d05-p2-04",
+     "part": 2,
+     "skill": "p2.wh-why",
+     "level": 1,
+     "options": [
+      "He leaves at five.",
+      "He had a dentist appointment.",
+      "Yes, early in the morning."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Why hỏi lý do; 'a dentist appointment' là lý do.",
+      "en": "'Why' asks for a reason, and a dentist appointment is one."
+     },
+     "trap": "(A) lặp leave nhưng nói giờ về thường ngày, không giải thích."
+    }
+   ]
+  },
+  {
+   "id": "d05-p2-s05",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "How do I reset my password?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Click the link on the login page."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "It's a long password."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Yes, every month."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d05-p2-05",
+     "part": 2,
+     "skill": "p2.wh-how",
+     "level": 1,
+     "options": [
+      "Click the link on the login page.",
+      "It's a long password.",
+      "Yes, every month."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "How hỏi cách làm; 'Click the link' chỉ bước làm.",
+      "en": "'How' asks for a method, and 'Click the link' explains one."
+     },
+     "trap": "(B) lặp password nhưng chỉ nhận xét về nó."
+    }
+   ]
+  },
+  {
+   "id": "d05-p2-s06",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "How much does the monthly parking pass cost?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Sixty dollars."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "In the east lot."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "It passes by here."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d05-p2-06",
+     "part": 2,
+     "skill": "p2.wh-how",
+     "level": 1,
+     "options": [
+      "Sixty dollars.",
+      "In the east lot.",
+      "It passes by here."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "How much hỏi giá; 'Sixty dollars' là giá.",
+      "en": "'How much' asks for a price, and 'Sixty dollars' is one."
+     },
+     "trap": "(C) nghe giống pass nhưng là 'đi ngang qua'."
+    }
+   ]
+  },
+  {
+   "id": "d05-p2-s07",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "How often does the bus run?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Every fifteen minutes."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "About five kilometers."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "By the train station."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d05-p2-07",
+     "part": 2,
+     "skill": "p2.wh-how",
+     "level": 1,
+     "options": [
+      "Every fifteen minutes.",
+      "About five kilometers.",
+      "By the train station."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "How often hỏi tần suất; 'Every fifteen minutes' trả lời.",
+      "en": "'How often' asks for frequency, and 'Every fifteen minutes' gives it."
+     },
+     "trap": "(B) trả lời How far."
+    }
+   ]
+  },
+  {
+   "id": "d05-p2-s08",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "When is the deadline for the proposal?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "It's due next Thursday."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Yes, I proposed it."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "In the main office."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d05-p2-08",
+     "part": 2,
+     "skill": "p2.wh-when",
+     "level": 1,
+     "options": [
+      "It's due next Thursday.",
+      "Yes, I proposed it.",
+      "In the main office."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "When hỏi thời hạn; 'due next Thursday' trả lời.",
+      "en": "'When' asks for a date, and 'due next Thursday' is one."
+     },
+     "trap": "(B) nghe giống proposal/proposed nhưng là Yes."
+    }
+   ]
+  },
+  {
+   "id": "d05-p2-s09",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Why haven't we received the shipment?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "No, it's not a ship."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "By truck."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "It was held up at customs."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d05-p2-09",
+     "part": 2,
+     "skill": "p2.wh-why",
+     "level": 1,
+     "options": [
+      "No, it's not a ship.",
+      "By truck.",
+      "It was held up at customs."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Why hỏi lý do; 'held up at customs' giải thích sự chậm trễ.",
+      "en": "'Why' asks for a reason, and 'held up at customs' explains the delay."
+     },
+     "trap": "(A) nghe giống shipment/ship nhưng không giải thích gì."
+    }
+   ]
+  },
+  {
+   "id": "d05-p2-s10",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "How was the training session?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "At the downtown hotel."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "It was very helpful."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "In June."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d05-p2-10",
+     "part": 2,
+     "skill": "p2.wh-how",
+     "level": 1,
+     "options": [
+      "At the downtown hotel.",
+      "It was very helpful.",
+      "In June."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "How was hỏi nhận xét; 'very helpful' đánh giá buổi tập huấn.",
+      "en": "'How was' asks for an opinion, and 'very helpful' is one."
+     },
+     "trap": "(A) trả lời Where, (C) trả lời When."
+    }
+   ]
+  },
+  {
+   "id": "d05-p2-s11",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "When can I pick up my uniform?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "It's too small."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Yes, in a blue bag."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Whenever the shop is open."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d05-p2-11",
+     "part": 2,
+     "skill": "p2.wh-when",
+     "level": 1,
+     "options": [
+      "It's too small.",
+      "Yes, in a blue bag.",
+      "Whenever the shop is open."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "When hỏi lúc nào; 'Whenever the shop is open' trả lời được.",
+      "en": "'When' asks for a time, and 'Whenever the shop is open' answers it."
+     },
+     "trap": "(A) nói về cỡ áo, không nói thời gian."
+    }
+   ]
+  },
+  {
+   "id": "d05-p2-s12",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Why is there a fee for the cancellation?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "It covers the cost of the reserved room."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Yes, a flight fee."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Fifty dollars."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d05-p2-12",
+     "part": 2,
+     "skill": "p2.wh-why",
+     "level": 1,
+     "options": [
+      "It covers the cost of the reserved room.",
+      "Yes, a flight fee.",
+      "Fifty dollars."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Why hỏi lý do; 'It covers the cost of the reserved room' nêu mục đích khoản phí.",
+      "en": "'Why' asks for a reason, and the reply explains what the fee covers."
+     },
+     "trap": "(C) nêu số tiền (How much), không giải thích lý do. Nhớ phân biệt fee, fine, fare, tip."
+    }
+   ]
+  },
+  {
+   "id": "d05-p2-s13",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "How did you hear about the opening?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Around ten applicants."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "A coworker told me."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "The opening is in the lobby."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d05-p2-13",
+     "part": 2,
+     "skill": "p2.wh-how",
+     "level": 2,
+     "options": [
+      "Around ten applicants.",
+      "A coworker told me.",
+      "The opening is in the lobby."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "How hỏi cách biết tin; 'A coworker told me' trả lời.",
+      "en": "'How' asks about the way you learned something, and a coworker told her."
+     },
+     "trap": "(C) lặp opening nhưng với nghĩa khác (lễ khai trương) và nói địa điểm."
+    }
+   ]
+  },
+  {
+   "id": "d05-p2-s14",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "When are the school groups arriving?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "The booking says ten thirty."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "They arrived by bus."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Four classes of students."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d05-p2-14",
+     "part": 2,
+     "skill": "p2.wh-when",
+     "level": 2,
+     "options": [
+      "The booking says ten thirty.",
+      "They arrived by bus.",
+      "Four classes of students."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "When hỏi giờ đến; 'The booking says ten thirty' trả lời gián tiếp qua đặt chỗ.",
+      "en": "'When' asks for a time, and the booking supplies it."
+     },
+     "trap": "(B) dùng thì quá khứ 'arrived' nên không hợp với 'are arriving'."
+    }
+   ]
+  },
+  {
+   "id": "d05-p2-s15",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Why did the café close early on Sunday?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "At six, as usual."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "The ovens needed repairs."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "A few customers."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d05-p2-15",
+     "part": 2,
+     "skill": "p2.wh-why",
+     "level": 2,
+     "options": [
+      "At six, as usual.",
+      "The ovens needed repairs.",
+      "A few customers."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Why hỏi lý do; 'The ovens needed repairs' giải thích.",
+      "en": "'Why' asks for a reason, and the ovens needing repairs explains it."
+     },
+     "trap": "(A) trả lời When nhưng nói giờ như thường lệ, không phải đóng sớm."
+    }
+   ]
+  },
+  {
+   "id": "d05-p2-s16",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "How soon can the technician come?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "It's a soon-to-be-released model."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Yes, the technician is certified."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "He's free this afternoon."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d05-p2-16",
+     "part": 2,
+     "skill": "p2.wh-how",
+     "level": 2,
+     "options": [
+      "It's a soon-to-be-released model.",
+      "Yes, the technician is certified.",
+      "He's free this afternoon."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "How soon hỏi bao lâu nữa; 'free this afternoon' là thời điểm có thể tới.",
+      "en": "'How soon' asks about timing, and 'free this afternoon' gives it."
+     },
+     "trap": "(A) lặp soon nhưng nói về sản phẩm, không nói về kỹ thuật viên."
+    }
+   ]
+  },
+  {
+   "id": "d05-p2-s17",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "When does the exhibit open to the public?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Yes, it was open."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "To the public library."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Not until the fire inspection is done."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d05-p2-17",
+     "part": 2,
+     "skill": "p2.wh-when",
+     "level": 2,
+     "options": [
+      "Yes, it was open.",
+      "To the public library.",
+      "Not until the fire inspection is done."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "When có thể trả lời bằng điều kiện: 'Not until the inspection is done'.",
+      "en": "'When' can be answered by a condition, as 'Not until the inspection is done' does."
+     },
+     "trap": "(B) lặp public nhưng là địa điểm."
+    }
+   ]
+  },
+  {
+   "id": "d05-p2-s18",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Why wasn't the invoice paid on time?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Accounting never forwarded it to me."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "It's due at the end of March."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "I paid by credit card."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d05-p2-18",
+     "part": 2,
+     "skill": "p2.wh-why",
+     "level": 2,
+     "options": [
+      "Accounting never forwarded it to me.",
+      "It's due at the end of March.",
+      "I paid by credit card."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Why hỏi lý do; 'Accounting never forwarded it' giải thích vì sao chưa trả.",
+      "en": "'Why' asks for a reason, and the accounting department not forwarding it explains why."
+     },
+     "trap": "(B) trả lời When và (C) nói cách trả tiền; cả hai đều lặp chủ đề nhưng không giải thích."
+    }
+   ]
+  },
+  {
+   "id": "d05-p2-s19",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "How do you like your new apartment?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "The commute is much shorter."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Two bedrooms and a balcony."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Yes, I do."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d05-p2-19",
+     "part": 2,
+     "skill": "p2.wh-how",
+     "level": 2,
+     "options": [
+      "The commute is much shorter.",
+      "Two bedrooms and a balcony.",
+      "Yes, I do."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "'How do you like' hỏi cảm nhận; 'The commute is much shorter' nêu điều thích.",
+      "en": "'How do you like' asks for an opinion, and the shorter commute is the speaker's reaction."
+     },
+     "trap": "(B) chỉ mô tả căn hộ (What), không nói cảm nhận."
+    }
+   ]
+  },
+  {
+   "id": "d05-p2-s20",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Why don't we ask the supplier for a discount?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "He's a discount shopper."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "They already offered ten percent."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "The supplier is from Taiwan."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d05-p2-20",
+     "part": 2,
+     "skill": "p2.suggestion",
+     "level": 3,
+     "options": [
+      "He's a discount shopper.",
+      "They already offered ten percent.",
+      "The supplier is from Taiwan."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Đây là lời gợi ý; 'They already offered ten percent' báo rằng việc đó đã xảy ra, phản hồi hợp lý.",
+      "en": "This is a suggestion, and 'They already offered ten percent' replies by saying it has already happened."
+     },
+     "trap": "(A) và (C) lặp discount và supplier nhưng không phản hồi gợi ý."
+    }
+   ]
+  }
+ ]
+}

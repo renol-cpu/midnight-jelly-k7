@@ -1,0 +1,248 @@
+{
+ "listening": [
+  {
+   "id": "d16-p3-a",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Hi, Amy. I'm trying to pick a seminar to attend on Friday. Which one is more useful for our team?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "I'd skip the nine o'clock one, since the speaker is a consultant we've already heard. The afternoon one on customer data looks more relevant."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "I can't stay late, though. I have to leave by three."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Then take the session that finishes before that. It's also in the building across the courtyard, so you won't need to travel."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Perfect. I'll register now."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d16-p3-a1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What is the man deciding?",
+     "options": [
+      "Where to hold a meeting",
+      "Which session to attend",
+      "Whom to hire",
+      "When to travel"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Anh đang chọn hội thảo nào để tham dự.",
+      "en": "He is deciding which seminar to go to."
+     },
+     "trap": "Travel chỉ là lý do anh không cần đi xa."
+    },
+    {
+     "id": "d16-p3-a2",
+     "part": 3,
+     "skill": "p3.graphic",
+     "level": 3,
+     "q": "Look at the graphic. Which seminar will the man most likely attend?",
+     "options": [
+      "Leading Teams",
+      "Social Media Trends",
+      "Customer Data Basics",
+      "Cost Control"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Phiên về dữ liệu khách hàng kết thúc trước 3 giờ và ở tòa nhà đối diện sân.",
+      "en": "It is on customer data and ends before three."
+     },
+     "trap": "Leading Teams là buổi 9 giờ với chuyên gia đã nghe rồi."
+    },
+    {
+     "id": "d16-p3-a3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the man do next?",
+     "options": [
+      "Call a speaker",
+      "Leave early",
+      "Visit the courtyard",
+      "Sign up"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Anh sẽ đăng ký ngay.",
+      "en": "He will register now."
+     },
+     "trap": "Anh chưa rời đi."
+    }
+   ],
+   "graphic": {
+    "caption": "Friday seminars",
+    "rows": [
+     [
+      "Seminar",
+      "Time",
+      "Location"
+     ],
+     [
+      "Leading Teams",
+      "9:00 A.M. to 11:00 A.M.",
+      "Main Building"
+     ],
+     [
+      "Cost Control",
+      "11:30 A.M. to 12:30 P.M.",
+      "Main Building"
+     ],
+     [
+      "Customer Data Basics",
+      "1:00 P.M. to 2:30 P.M.",
+      "East Building"
+     ],
+     [
+      "Social Media Trends",
+      "3:00 P.M. to 5:00 P.M.",
+      "East Building"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "d16-p3-b",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Ben, I'm looking at the coupon for the café's grand opening. It says discounts vary by day."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Right. We're doing a bigger discount at the beginning of the week to attract more customers."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Then I'll tell the staff. When is the cheapest day for customers, I mean, the day with the largest discount?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "The first day, which is a Monday. But there's a limit: only one coupon per customer."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Got it. And what about weekends? I'd like to run a special on desserts."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Let's keep weekends at the regular price for now. We can review after two weeks."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d16-p3-b1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What is being planned?",
+     "options": [
+      "A promotional event",
+      "An employee schedule",
+      "A menu redesign",
+      "A staff training"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Họ lên kế hoạch khuyến mãi cho ngày khai trương quán cà phê.",
+      "en": "They plan discounts for the opening."
+     },
+     "trap": "Staff chỉ được thông báo, không phải trọng tâm."
+    },
+    {
+     "id": "d16-p3-b2",
+     "part": 3,
+     "skill": "p3.graphic",
+     "level": 2,
+     "q": "Look at the graphic. How much is the largest discount?",
+     "options": [
+      "20%",
+      "30%",
+      "15%",
+      "10%"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Thứ Hai là ngày giảm nhiều nhất và theo bảng là 30 phần trăm.",
+      "en": "Monday has the biggest discount, 30 percent."
+     },
+     "trap": "20 và 15 phần trăm là các ngày sau trong tuần."
+    },
+    {
+     "id": "d16-p3-b3",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "What restriction does the man mention?",
+     "options": [
+      "No weekend use",
+      "A minimum purchase",
+      "One coupon per person",
+      "A time limit each day"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Mỗi khách chỉ được dùng một phiếu.",
+      "en": "Only one coupon per customer."
+     },
+     "trap": "Cuối tuần giá bình thường chứ không bị cấm phiếu."
+    }
+   ],
+   "graphic": {
+    "caption": "Grand opening discounts",
+    "rows": [
+     [
+      "Day",
+      "Discount"
+     ],
+     [
+      "Monday",
+      "30%"
+     ],
+     [
+      "Tuesday",
+      "20%"
+     ],
+     [
+      "Wednesday",
+      "15%"
+     ],
+     [
+      "Thursday",
+      "10%"
+     ],
+     [
+      "Weekend",
+      "No discount"
+     ]
+    ]
+   }
+  }
+ ]
+}

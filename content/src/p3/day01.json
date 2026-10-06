@@ -1,0 +1,204 @@
+{
+ "listening": [
+  {
+   "id": "d01-p3-a",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Excuse me, I booked a seat on the 9:30 ferry to Vung Tau, but I just got a text saying it's been delayed."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Yes, I'm sorry about that. There's a problem with the fuel delivery at the dock, so departure is now 10:15."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Oh, that's a shame. I have a meeting at noon."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "The crossing takes about an hour and a half, so you should still make it. If you like, I can move you to a seat near the exit."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Actually, yes, please. Is there anywhere to get coffee?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "The café on board is closed until the boat is refueled, but there's a kiosk by gate four."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Great, I'll head over there now. Thanks."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d01-p3-a1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "Why is the woman talking to the man?",
+     "options": [
+      "To buy a ticket for noon",
+      "To ask about a schedule change",
+      "To report a lost bag",
+      "To complain about a seat"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Cô ấy nhận tin nhắn chuyến phà bị hoãn và hỏi nhân viên, tức là hỏi về thay đổi lịch.",
+      "en": "She heard the ferry is delayed and asks about it, so she wants schedule information."
+     },
+     "trap": "Cô ấy có nhắc cuộc họp lúc 12 giờ nhưng đó không phải lý do cô ấy đến hỏi."
+    },
+    {
+     "id": "d01-p3-a2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 1,
+     "q": "What caused the delay?",
+     "options": [
+      "Bad weather",
+      "A staff shortage",
+      "A fuel supply issue",
+      "A broken ticket machine"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Người đàn ông nói có vấn đề giao nhiên liệu ở bến, tức là sự cố cung ứng nhiên liệu.",
+      "en": "He mentions a fuel delivery problem at the dock, paraphrased as a fuel supply issue."
+     },
+     "trap": "Weather không được nhắc tới; đừng chọn theo suy đoán."
+    },
+    {
+     "id": "d01-p3-a3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 1,
+     "q": "What will the woman probably do next?",
+     "options": [
+      "Board the ferry",
+      "Call her office",
+      "Change her ticket",
+      "Buy a drink"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Cô ấy sẽ đến quầy ki-ốt để mua cà phê, tức là mua đồ uống.",
+      "en": "She will go to the kiosk for coffee, which is buying a drink."
+     },
+     "trap": "Cô ấy chưa lên phà vì phà còn bị hoãn đến 10:15."
+    }
+   ]
+  },
+  {
+   "id": "d01-p3-b",
+   "part": 3,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Hi, Karen. Did you get my email about the new expense reports?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "I saw it this morning, but I haven't opened the attachment yet. Is the form different from last year's?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "A little. You have to attach scanned receipts now instead of mailing the paper ones to accounting."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Oh, that'll save time. Who do I send it to?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Directly to Mr. Silva in finance. He said anything submitted by the fifth will be reimbursed this month."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "The fifth? That's Friday. I'd better do mine this afternoon, then."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Good idea. And if you can't find a receipt, just write a note explaining what it was for."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d01-p3-b1",
+     "part": 3,
+     "skill": "p3.main-idea",
+     "level": 1,
+     "q": "What are the speakers discussing?",
+     "options": [
+      "A new reporting procedure",
+      "A client meeting",
+      "A budget increase",
+      "A software purchase"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Họ bàn về cách nộp báo cáo chi phí mới (đính kèm biên lai quét).",
+      "en": "They discuss the changed process for submitting expense reports."
+     },
+     "trap": "Budget nghe quen vì có chuyện tiền, nhưng không ai nói tăng ngân sách."
+    },
+    {
+     "id": "d01-p3-b2",
+     "part": 3,
+     "skill": "p3.detail",
+     "level": 2,
+     "q": "What must employees do now?",
+     "options": [
+      "Mail original receipts",
+      "Attach scanned receipts",
+      "Visit the accounting office",
+      "Get a manager signature"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Giờ phải đính kèm biên lai đã quét thay vì gửi bản giấy.",
+      "en": "Staff now attach scanned copies instead of mailing paper ones."
+     },
+     "trap": "Mail original receipts là cách cũ, đã bị thay thế."
+    },
+    {
+     "id": "d01-p3-b3",
+     "part": 3,
+     "skill": "p3.next-action",
+     "level": 2,
+     "q": "What does the woman say she will do this afternoon?",
+     "options": [
+      "Email Mr. Silva a question",
+      "Update a form template",
+      "Submit her report",
+      "Print some receipts"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Hạn là thứ Sáu, nên chiều nay cô ấy sẽ nộp báo cáo của mình.",
+      "en": "Since the deadline is Friday, she will do her report today, meaning submit it."
+     },
+     "trap": "Cô ấy chưa hỏi gì Mr. Silva; cô ấy chỉ nhắc tên người nhận."
+    }
+   ]
+  }
+ ]
+}

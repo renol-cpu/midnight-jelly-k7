@@ -1,0 +1,93 @@
+{
+  "grammar": [
+    {
+      "id": "d16-p6-a",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "memo",
+          "title": "Orientation for new employees",
+          "text": "MEMO\nTo: All department heads\nFrom: Human Resources\nRe: Orientation for new employees\n\nThis year's orientation program, [1] will begin on June 3, has been redesigned to help new employees adjust quickly. Participants will receive a welcome folder [2] the company handbook and a building map. [3] Each new hire will also be paired with an experienced coworker, [4] role is to answer questions during the first month. Department heads are asked to send their new employees' names to HR by May 24."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d16-p6-a-1",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [1]",
+          "options": [
+            "who",
+            "which",
+            "what",
+            "where"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Mệnh đề không xác định bổ nghĩa cho \"program\" (vật), nên dùng \"which\".",
+            "en": "The non-restrictive clause modifies \"program\", a thing, so use \"which\"."
+          },
+          "trap": "\"who\" chỉ người nên sai ở đây."
+        },
+        {
+          "id": "d16-p6-a-2",
+          "part": 6,
+          "skill": "p6.participle",
+          "level": 2,
+          "q": "Blank [2]",
+          "options": [
+            "contains",
+            "contained",
+            "containing",
+            "contain"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Rút gọn mệnh đề quan hệ chủ động: \"a folder containing the handbook\". Không cần thêm động từ chia.",
+            "en": "A reduced active relative clause: \"a folder containing ...\". No finite verb is needed."
+          },
+          "trap": "\"contains\" sai vì câu đã có động từ chính \"will receive\"."
+        },
+        {
+          "id": "d16-p6-a-3",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 2,
+          "q": "Blank [3]",
+          "options": [
+            "Employees may use the staff parking lot after 6 P.M.",
+            "A short tour of the facilities will be given on the first morning.",
+            "The cafeteria has recently introduced a new menu.",
+            "Please return all borrowed equipment before leaving."
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Câu sau có \"also\", nên câu trước phải nêu một hoạt động khác của chương trình: tham quan cơ sở.",
+            "en": "\"Also\" signals another orientation activity, so the missing sentence adds the facility tour."
+          },
+          "trap": "Câu C nghe như thông tin công ty nhưng không phải hoạt động của chương trình."
+        },
+        {
+          "id": "d16-p6-a-4",
+          "part": 6,
+          "skill": "p6.relative",
+          "level": 3,
+          "q": "Blank [4]",
+          "options": [
+            "who",
+            "whom",
+            "whose",
+            "which"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "\"coworker, whose role is\" cho quan hệ sở hữu: vai trò của người đồng nghiệp.",
+            "en": "\"Whose role\" shows possession: the coworker's role."
+          },
+          "trap": "Nhiều em chọn \"who\" vì \"coworker\" là người, nhưng sau chỗ trống là danh từ \"role\" nên cần \"whose\"."
+        }
+      ]
+    }
+  ]
+}

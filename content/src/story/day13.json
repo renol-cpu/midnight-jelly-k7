@@ -1,0 +1,196 @@
+{
+ "day": 13,
+ "title": {
+  "vi": "Phòng y tế",
+  "en": "The Sick Bay"
+ },
+ "story": [
+  {
+   "speaker": "NARRATOR",
+   "en": "Huy has a headache. He walks to the sick bay. The doctor is not there, but the cabinet is open.",
+   "vi": "Huy bị đau đầu. Huy đến phòng y tế. Bác sĩ không có đó, nhưng tủ thuốc đang mở.",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "Rows of small bottles. The label says: \"RESET. Not for patients. Prescription only.\"",
+   "vi": "Từng hàng chai nhỏ. Nhãn ghi: \"RESET. Không dùng cho bệnh nhân. Chỉ theo toa.\"",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "BESUA",
+   "en": "Em biết rồi nè! The jellyfish Turritopsis can become a baby again. It is the only animal like that. Wow hihi.",
+   "vi": "Em biết rồi nè! Sứa Turritopsis có thể trở lại làm em bé. Là con vật duy nhất như vậy. Wow hihi."
+  },
+  {
+   "speaker": "HUY",
+   "en": "They are making medicine from an animal that never dies. And they are taking it from the reef where M. is.",
+   "vi": "Họ đang làm thuốc từ một con vật không bao giờ chết. Và họ lấy nó từ rạn nơi anh M. đang ở.",
+   "voice": "caM"
+  },
+  {
+   "speaker": "NARRATOR",
+   "en": "The room spins. Huy sits down, breathes slowly, and everything goes dark again.",
+   "vi": "Căn phòng quay cuồng. Huy ngồi xuống, thở chậm, và mọi thứ lại tối đi.",
+   "voice": "gbF"
+  },
+  {
+   "speaker": "M",
+   "en": "You are tired. It is not your fault. I am here when you wake.",
+   "vi": "Em mệt rồi. Không phải lỗi của em. Anh ở đây khi em tỉnh.",
+   "voice": "usM"
+  }
+ ],
+ "letter": {
+  "vi": "Hihii, hôm nay chèn câu vào đoạn văn Part 6. Nhìn từ nối (however, therefore, also) để xem ý hợp ở đâu. Trời DARK rồi thì bé nghỉ mắt một chút, hồ sứa vẫn sáng mà. Anh tin bé.",
+  "en": "Hihii, sentence insertion in Part 6 today. Check linking words (however, therefore, also) to see where the idea fits. It is DARK outside, so rest your eyes; the jellyfish tanks are still glowing. I believe in you."
+ },
+ "beSua": [
+  "Sick và ill gần nghĩa nhau, nhưng ill dùng sau động từ be, sick dùng trước danh từ (a sick child). Hihi!",
+  "Prescribe là kê toa, describe là mô tả. Nhìn giống nhưng khác. :33",
+  "\"Recover FROM an illness\": hồi phục KHỎI bệnh, đi với from nha. Hihi."
+ ],
+ "vocab": [
+  {
+   "word": "appointment",
+   "pos": "n",
+   "ipa": "/əˈpɔɪntmənt/",
+   "vi": "cuộc hẹn",
+   "example": {
+    "en": "I have a dental appointment at ten.",
+    "vi": "Tôi có hẹn khám răng lúc mười giờ."
+   },
+   "family": "appoint (v) / appointment (n)",
+   "collocation": "make an appointment"
+  },
+  {
+   "word": "symptom",
+   "pos": "n",
+   "ipa": "/ˈsɪmptəm/",
+   "vi": "triệu chứng",
+   "example": {
+    "en": "A fever is a common symptom.",
+    "vi": "Sốt là một triệu chứng thường gặp."
+   },
+   "collocation": "early symptoms"
+  },
+  {
+   "word": "prescription",
+   "pos": "n",
+   "ipa": "/prɪˈskrɪpʃn/",
+   "vi": "đơn thuốc",
+   "example": {
+    "en": "You need a prescription for this medicine.",
+    "vi": "Bạn cần có đơn cho loại thuốc này."
+   },
+   "family": "prescribe (v) / prescription (n)",
+   "collocation": "fill a prescription"
+  },
+  {
+   "word": "pharmacy",
+   "pos": "n",
+   "ipa": "/ˈfɑːməsi/",
+   "vi": "nhà thuốc",
+   "example": {
+    "en": "The pharmacy closes at nine.",
+    "vi": "Nhà thuốc đóng cửa lúc chín giờ."
+   },
+   "family": "pharmacy (n) / pharmacist (n)",
+   "collocation": "local pharmacy"
+  },
+  {
+   "word": "insurance",
+   "pos": "n",
+   "ipa": "/ɪnˈʃʊərəns/",
+   "vi": "bảo hiểm",
+   "example": {
+    "en": "Does your insurance cover this treatment?",
+    "vi": "Bảo hiểm của bạn có chi trả cho điều trị này không?"
+   },
+   "family": "insure (v) / insurance (n)",
+   "collocation": "health insurance"
+  },
+  {
+   "word": "treatment",
+   "pos": "n",
+   "ipa": "/ˈtriːtmənt/",
+   "vi": "điều trị",
+   "example": {
+    "en": "The treatment takes about six weeks.",
+    "vi": "Việc điều trị mất khoảng sáu tuần."
+   },
+   "family": "treat (v) / treatment (n)",
+   "collocation": "receive treatment"
+  },
+  {
+   "word": "physician",
+   "pos": "n",
+   "ipa": "/fɪˈzɪʃn/",
+   "vi": "bác sĩ nội khoa",
+   "example": {
+    "en": "Please consult your physician first.",
+    "vi": "Vui lòng hỏi ý kiến bác sĩ trước."
+   },
+   "collocation": "family physician"
+  },
+  {
+   "word": "injury",
+   "pos": "n",
+   "ipa": "/ˈɪndʒəri/",
+   "vi": "vết thương, chấn thương",
+   "example": {
+    "en": "He had a knee injury last year.",
+    "vi": "Anh ấy bị chấn thương đầu gối năm ngoái."
+   },
+   "family": "injure (v) / injury (n)",
+   "collocation": "work-related injury"
+  },
+  {
+   "word": "recover",
+   "pos": "v",
+   "ipa": "/rɪˈkʌvə/",
+   "vi": "hồi phục",
+   "example": {
+    "en": "She is recovering from the flu.",
+    "vi": "Cô ấy đang hồi phục sau cúm."
+   },
+   "family": "recover (v) / recovery (n)",
+   "collocation": "recover from"
+  },
+  {
+   "word": "checkup",
+   "pos": "n",
+   "ipa": "/ˈtʃekʌp/",
+   "vi": "khám sức khỏe định kỳ",
+   "example": {
+    "en": "Employees get a free checkup every year.",
+    "vi": "Nhân viên được khám sức khỏe miễn phí mỗi năm."
+   },
+   "collocation": "annual checkup"
+  },
+  {
+   "word": "allergy",
+   "pos": "n",
+   "ipa": "/ˈælədʒi/",
+   "vi": "dị ứng",
+   "example": {
+    "en": "He has an allergy to peanuts.",
+    "vi": "Anh ấy bị dị ứng đậu phộng."
+   },
+   "family": "allergy (n) / allergic (adj)",
+   "collocation": "food allergy"
+  },
+  {
+   "word": "exercise",
+   "pos": "n",
+   "ipa": "/ˈeksəsaɪz/",
+   "vi": "tập thể dục",
+   "example": {
+    "en": "Regular exercise keeps you healthy.",
+    "vi": "Tập thể dục đều đặn giúp bạn khỏe mạnh."
+   },
+   "family": "exercise (n, v)",
+   "collocation": "regular exercise"
+  }
+ ]
+}

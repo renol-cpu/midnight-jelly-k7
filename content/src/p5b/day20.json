@@ -1,0 +1,259 @@
+{
+ "grammar": [
+  {
+   "id": "d20-p5-a",
+   "part": 5,
+   "questions": [
+    {
+     "id": "d20-p5-01",
+     "part": 5,
+     "skill": "p5.wordform.noun",
+     "level": 1,
+     "q": "The ____ of the new tank filter reduced the cleaning time by half.",
+     "options": [
+      "install",
+      "installed",
+      "installer",
+      "installation"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Sau \"The\" và trước \"of\" cần danh từ trừu tượng: installation (việc lắp đặt).",
+      "en": "An abstract noun is needed between \"The\" and \"of\"."
+     },
+     "trap": "Installer là danh từ chỉ người nên không hợp nghĩa: người lắp không làm giảm thời gian dọn dẹp."
+    },
+    {
+     "id": "d20-p5-02",
+     "part": 5,
+     "skill": "p5.negation",
+     "level": 2,
+     "q": "We have ____ record of a booking under that name.",
+     "options": [
+      "not",
+      "none",
+      "no",
+      "non"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Trước danh từ \"record\" dùng no.",
+      "en": "\"No\" goes before a noun."
+     },
+     "trap": "\"Not record\" sai vì not phủ định động từ hoặc tính từ."
+    },
+    {
+     "id": "d20-p5-03",
+     "part": 5,
+     "skill": "p5.relative",
+     "level": 2,
+     "q": "The manager ____ approval is needed has left for the day.",
+     "options": [
+      "whom",
+      "whose",
+      "who",
+      "which"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Sau chỗ trống là danh từ \"approval\" của manager: dùng whose.",
+      "en": "A noun follows and belongs to the manager: \"whose\"."
+     },
+     "trap": "Whom cần chủ ngữ theo sau, mà đây là danh từ."
+    },
+    {
+     "id": "d20-p5-04",
+     "part": 5,
+     "skill": "p5.prep",
+     "level": 2,
+     "q": "All claims must be submitted ____ the end of the month.",
+     "options": [
+      "by",
+      "until",
+      "at",
+      "for"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "\"By + thời hạn\" nghĩa là chậm nhất vào lúc đó.",
+      "en": "\"By\" marks the deadline."
+     },
+     "trap": "\"Until\" chỉ khoảng thời gian kéo dài, không phải hạn chót."
+    },
+    {
+     "id": "d20-p5-05",
+     "part": 5,
+     "skill": "p5.agreement",
+     "level": 3,
+     "q": "The cost of the repairs ____ been higher than we expected.",
+     "options": [
+      "have",
+      "are",
+      "were",
+      "has"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Chủ ngữ thật là \"cost\" (số ít), bỏ qua \"of the repairs\": has been.",
+      "en": "The head noun \"cost\" is singular: \"has\"."
+     },
+     "trap": "\"Repairs\" nhiều chỉ là bẫy cạnh động từ."
+    },
+    {
+     "id": "d20-p5-06",
+     "part": 5,
+     "skill": "p5.conj",
+     "level": 2,
+     "q": "____ the tank was cleaned yesterday, the water is already cloudy.",
+     "options": [
+      "Despite",
+      "Because of",
+      "Although",
+      "During"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Sau chỗ trống là mệnh đề đầy đủ; Although nối hai ý đối lập: mới dọn nhưng nước đã đục.",
+      "en": "A clause plus contrast needs \"Although\"."
+     },
+     "trap": "Despite cùng nghĩa nhưng phải đi với danh từ."
+    },
+    {
+     "id": "d20-p5-07",
+     "part": 5,
+     "skill": "p5.wish-if",
+     "level": 3,
+     "q": "If the guide ____ the school group earlier, they would have seen the feeding show.",
+     "options": [
+      "met",
+      "had met",
+      "would meet",
+      "meets"
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "If + quá khứ hoàn thành (had met) với would have seen ở mệnh đề chính: điều kiện loại 3.",
+      "en": "Third conditional: if + had + V3, would have + V3."
+     },
+     "trap": "Met nghe tự nhiên nhưng thiếu had nên không khớp would have seen."
+    },
+    {
+     "id": "d20-p5-08",
+     "part": 5,
+     "skill": "p5.participle",
+     "level": 2,
+     "q": "Visitors ____ for a guided tour should arrive ten minutes early.",
+     "options": [
+      "registered",
+      "registering",
+      "register",
+      "registration"
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Du khách đã được đăng ký (bị động), rút gọn who are registered thành registered. \"Registered for\" là cụm quen thuộc.",
+      "en": "Passive reduced clause: \"who are registered for\"."
+     },
+     "trap": "Registering nghĩa là du khách đi đăng ký người khác."
+    },
+    {
+     "id": "d20-p5-09",
+     "part": 5,
+     "skill": "p5.wordform.adv",
+     "level": 2,
+     "q": "The exhibit was ____ redesigned to include more interactive displays.",
+     "options": [
+      "complete",
+      "completion",
+      "completing",
+      "completely"
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Giữa was và redesigned cần trạng từ: completely.",
+      "en": "An adverb sits between \"was\" and \"redesigned\"."
+     },
+     "trap": "Complete là tính từ nên không bổ nghĩa cho phân từ."
+    },
+    {
+     "id": "d20-p5-10",
+     "part": 5,
+     "skill": "p5.collocation",
+     "level": 1,
+     "q": "Please ____ the form to the front desk before 5 P.M.",
+     "options": [
+      "stay",
+      "visit",
+      "return",
+      "hold"
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "\"Return the form to\" là cụm quen thuộc: nộp lại mẫu đơn.",
+      "en": "\"Return something to\" fits an office form."
+     },
+     "trap": "Hold the form nghĩa là giữ, không hợp với việc nộp về quầy."
+    }
+   ]
+  }
+ ],
+ "theory": [
+  {
+   "id": "d20-th-1",
+   "title": {
+    "vi": "Chiến thuật 1: câu nào quá 30 giây thì bỏ lại",
+    "en": "Skip and return"
+   },
+   "rule": {
+    "vi": "Mỗi câu Part 5 chỉ nên mất khoảng 20 đến 30 giây. Gặp câu dài hoặc khó, khoanh tạm một đáp án, đánh dấu, rồi đi tiếp. Quay lại sau khi xong phần còn lại. Điểm của câu dễ ở cuối bằng điểm của câu khó ở đầu.",
+    "en": "Spend 20 to 30 seconds per item; guess, mark and move on, then return."
+   },
+   "formula": ">30 giây → khoanh tạm + đánh dấu → quay lại sau",
+   "examples": [
+    {
+     "en": "Item stuck? Circle B, mark with a star, move on.",
+     "vi": "Kẹt thì khoanh B, đánh sao, đi tiếp."
+    }
+   ],
+   "tip": "Một câu khó không đáng hơn ba câu dễ. Anh gọi là \"luật cá bơi tiếp\": cá mắc rong thì bơi vòng qua, đừng đứng lại vùng vẫy."
+  },
+  {
+   "id": "d20-th-2",
+   "title": {
+    "vi": "Chiến thuật 2: không bao giờ bỏ trống",
+    "en": "Never leave blank"
+   },
+   "rule": {
+    "vi": "Bài thi TOEIC không trừ điểm khi sai, nên bỏ trống chắc chắn mất điểm còn đoán thì có 25% cơ hội. Hết giờ còn mấy câu thì tô cùng một chữ cái cho tất cả. Với Part 5, loại hai đáp án sai trước thì đoán còn 50%.",
+    "en": "No penalty for wrong answers, so never leave blanks. Eliminate two options first to guess at 50%."
+   },
+   "formula": "Loại 2 đáp án → đoán 50% | Hết giờ → tô cùng một chữ cái",
+   "examples": [
+    {
+     "en": "Option A and C are the wrong part of speech: choose between B and D.",
+     "vi": "Loại A, C vì sai loại từ, chọn B hoặc D."
+    }
+   ],
+   "tip": "Còn 30 giây mà chưa tô hết phiếu? Tô cùng một chữ cái (ví dụ toàn C). Đoán còn hơn bỏ trống!"
+  },
+  {
+   "id": "d20-th-3",
+   "title": {
+    "vi": "Chiến thuật 3: kiểm tra 5 giây trước khi sang trang",
+    "en": "Five-second check"
+   },
+   "rule": {
+    "vi": "Trước khi tô đáp án, hỏi nhanh bốn điều: chỗ trống cần loại từ nào, chủ ngữ thật là gì, từ đứng ngay trước hoặc sau có đòi giới từ cố định không, và nghĩa của câu có ổn không.",
+    "en": "Before bubbling, check: part of speech, true subject, fixed preposition, and sense."
+   },
+   "formula": "Loại từ → Chủ ngữ → Giới từ cố định → Nghĩa",
+   "examples": [
+    {
+     "en": "The ____ of the new system took weeks.",
+     "vi": "Sau The cần danh từ: installation."
+    }
+   ],
+   "tip": "Em hay quên bước 2 và 3, nên hãy tự nhẩm \"loại từ, chủ ngữ, giới từ\" như mật mã. Làm tới ngày 20 rồi, em làm được!"
+  }
+ ]
+}

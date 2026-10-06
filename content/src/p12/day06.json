@@ -1,0 +1,919 @@
+{
+ "listening": [
+  {
+   "id": "d06-p1-s01",
+   "part": 1,
+   "image": "/img/p1/pp23.jpg",
+   "imageAlt": "Một phụ nữ ngồi trên ghế sofa xanh, laptop đặt trên đùi, phía sau là cây xanh",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "A woman is seated with a laptop on her lap."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "A woman is carrying a plant."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "A cushion is being cleaned."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbF",
+     "text": "A woman is typing on a desktop computer."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d06-p1-01",
+     "part": 1,
+     "skill": "p1.people-action",
+     "level": 1,
+     "options": [
+      "A woman is seated with a laptop on her lap.",
+      "A woman is carrying a plant.",
+      "A cushion is being cleaned.",
+      "A woman is typing on a desktop computer."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cô ấy ngồi và để laptop trên đùi nên (A) đúng. Không có máy tính để bàn và cây chỉ để làm nền.",
+      "en": "She sits with a laptop on her lap, so (A) is right. There is no desktop computer."
+     },
+     "trap": "Câu (B) nhắc đến cây có trong ảnh, nhưng cô ấy không mang cây đi đâu."
+    }
+   ]
+  },
+  {
+   "id": "d06-p1-s02",
+   "part": 1,
+   "image": "/img/p1/pp24.jpg",
+   "imageAlt": "Một phụ nữ ngồi trên ghế sofa vừa cười vừa nói điện thoại, tay cầm một cốc",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "A woman is writing on a note."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "A woman is pouring tea."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "A woman is talking on a phone."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "usF",
+     "text": "A woman is opening a window."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d06-p1-02",
+     "part": 1,
+     "skill": "p1.people-action",
+     "level": 1,
+     "options": [
+      "A woman is writing on a note.",
+      "A woman is pouring tea.",
+      "A woman is talking on a phone.",
+      "A woman is opening a window."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Cô ấy áp điện thoại vào tai nên 'is talking on a phone' đúng. Cốc chỉ đang được cầm.",
+      "en": "She holds a phone to her ear, so (C) matches. The cup is only in her hand."
+     },
+     "trap": "Câu (B) bị gài bởi cái cốc, nhưng cô ấy không rót trà."
+    }
+   ]
+  },
+  {
+   "id": "d06-p1-s03",
+   "part": 1,
+   "image": "/media/p04.jpg",
+   "imageAlt": "Hai con sứa lớn có xúc tu cam ở tiền cảnh, nhiều sứa nhỏ mờ phía sau",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "A worker is scooping them with a net."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "Some jellyfish are swimming in a tank."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "Some fish have been placed on a plate."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "caM",
+     "text": "A glass is being cleaned."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d06-p1-03",
+     "part": 1,
+     "skill": "p1.scene",
+     "level": 1,
+     "options": [
+      "A worker is scooping them with a net.",
+      "Some jellyfish are swimming in a tank.",
+      "Some fish have been placed on a plate.",
+      "A glass is being cleaned."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Ảnh chỉ có sứa đang bơi, nên (B) đúng. Không có người hay lưới nào.",
+      "en": "The picture shows jellyfish swimming, so (B) is correct. No person or net appears."
+     },
+     "trap": "Câu (A) lấy ý 'người làm việc ở bể', nhưng ảnh không có ai."
+    }
+   ]
+  },
+  {
+   "id": "d06-p1-s04",
+   "part": 1,
+   "image": "/img/p1/pp28.jpg",
+   "imageAlt": "Ba người đội mũ bảo hộ và mặc áo phản quang cùng nhìn vào một tờ giấy ở công trường",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "auM",
+     "text": "Some people are wearing safety helmets."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auM",
+     "text": "Some workers are climbing a ladder."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auM",
+     "text": "Some workers are shaking hands."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "auM",
+     "text": "A truck is being unloaded."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d06-p1-04",
+     "part": 1,
+     "skill": "p1.people-action",
+     "level": 2,
+     "options": [
+      "Some people are wearing safety helmets.",
+      "Some workers are climbing a ladder.",
+      "Some workers are shaking hands.",
+      "A truck is being unloaded."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Cả ba đều đội mũ bảo hộ: are wearing safety helmets. Không ai leo thang hay bắt tay.",
+      "en": "All three wear hard hats, so (A) is correct. No one is climbing or shaking hands."
+     },
+     "trap": "Câu (C) dễ nhầm với cảnh làm việc nhóm, nhưng họ đang nhìn giấy chứ không bắt tay."
+    }
+   ]
+  },
+  {
+   "id": "d06-p1-s05",
+   "part": 1,
+   "image": "/img/p1/pp21.jpg",
+   "imageAlt": "Một đoàn tàu đang vào ga, trên sân ga có một người ngồi (ảnh đen trắng)",
+   "audio": [
+    {
+     "spk": "Narrator",
+     "voice": "gbM",
+     "text": "Passengers are boarding a train."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbM",
+     "text": "A ticket is being purchased."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbM",
+     "text": "A man is carrying luggage."
+    },
+    {
+     "spk": "Narrator",
+     "voice": "gbM",
+     "text": "A train is approaching a platform."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d06-p1-05",
+     "part": 1,
+     "skill": "p1.scene",
+     "level": 2,
+     "options": [
+      "Passengers are boarding a train.",
+      "A ticket is being purchased.",
+      "A man is carrying luggage.",
+      "A train is approaching a platform."
+     ],
+     "answer": 3,
+     "why": {
+      "vi": "Tàu đang tiến vào sân ga: is approaching a platform. Người trên sân ga đang ngồi, không lên tàu.",
+      "en": "The train moves toward the platform, so (D) fits. The man on the platform is sitting, not boarding."
+     },
+     "trap": "Câu (A) hay bị chọn vì có sân ga, nhưng chưa ai lên tàu."
+    }
+   ]
+  },
+  {
+   "id": "d06-p2-s01",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Did you finish the sales report?"
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "It was a nice sale."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Almost, I just need the charts."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Yes, the finish is smooth."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d06-p2-01",
+     "part": 2,
+     "skill": "p2.yes-no",
+     "level": 1,
+     "options": [
+      "It was a nice sale.",
+      "Almost, I just need the charts.",
+      "Yes, the finish is smooth."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Câu hỏi Yes/No; 'Almost' trả lời gián tiếp rằng chưa xong hẳn.",
+      "en": "In a yes/no question, 'Almost' is a direct partial answer."
+     },
+     "trap": "(A) và (C) lặp sale và finish với nghĩa khác."
+    }
+   ]
+  },
+  {
+   "id": "d06-p2-s02",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Is the café open on Mondays?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "No, it's closed for cleaning that day."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Monday is my day off."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Open the door, please."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d06-p2-02",
+     "part": 2,
+     "skill": "p2.yes-no",
+     "level": 1,
+     "options": [
+      "No, it's closed for cleaning that day.",
+      "Monday is my day off.",
+      "Open the door, please."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Yes/No: 'No' kèm lý do là câu trả lời trực tiếp.",
+      "en": "'No' with a reason answers the question directly."
+     },
+     "trap": "(B) lặp Monday nhưng nói về mình, không nói về quán."
+    }
+   ]
+  },
+  {
+   "id": "d06-p2-s03",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Do you know where the meeting is?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "At nine thirty."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Yes, in room 204."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "No, I met him last week."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d06-p2-03",
+     "part": 2,
+     "skill": "p2.yes-no",
+     "level": 1,
+     "options": [
+      "At nine thirty.",
+      "Yes, in room 204.",
+      "No, I met him last week."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "'Do you know where' là Yes/No kết hợp Where; 'Yes, in room 204' trả lời cả hai.",
+      "en": "'Yes, in room 204' answers both the yes/no and the where."
+     },
+     "trap": "(A) chỉ trả lời When."
+    }
+   ]
+  },
+  {
+   "id": "d06-p2-s04",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Have you booked the hotel yet?"
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "The hotel has a pool."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Yes, he's booked."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Not yet, I'm comparing prices."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d06-p2-04",
+     "part": 2,
+     "skill": "p2.yes-no",
+     "level": 1,
+     "options": [
+      "The hotel has a pool.",
+      "Yes, he's booked.",
+      "Not yet, I'm comparing prices."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "'Not yet' trả lời Yes/No đúng với thì hiện tại hoàn thành.",
+      "en": "'Not yet' is the natural negative answer to a 'yet' question."
+     },
+     "trap": "(A) lặp hotel nhưng không trả lời đã đặt chưa."
+    }
+   ]
+  },
+  {
+   "id": "d06-p2-s05",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Are you coming to the staff lunch?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "I have a client call, unfortunately."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Lunch is at noon."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Yes, the staff is friendly."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d06-p2-05",
+     "part": 2,
+     "skill": "p2.yes-no",
+     "level": 2,
+     "options": [
+      "I have a client call, unfortunately.",
+      "Lunch is at noon.",
+      "Yes, the staff is friendly."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Từ chối gián tiếp: có cuộc gọi khách hàng nên không đến.",
+      "en": "This is an indirect 'no': a client call prevents attendance."
+     },
+     "trap": "(B) lặp lunch và nói giờ, không nói bạn có đến hay không."
+    }
+   ]
+  },
+  {
+   "id": "d06-p2-s06",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Can I borrow your stapler?"
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Sure, it's on my desk."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "I stapled the pages."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Yes, the borrower is here."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d06-p2-06",
+     "part": 2,
+     "skill": "p2.yes-no",
+     "level": 1,
+     "options": [
+      "Sure, it's on my desk.",
+      "I stapled the pages.",
+      "Yes, the borrower is here."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Đây là lời xin mượn; 'Sure, it's on my desk' đồng ý.",
+      "en": "This is a request to borrow, and 'Sure, it's on my desk' agrees."
+     },
+     "trap": "(B) lặp stapler dưới dạng động từ nhưng nói về việc đã làm."
+    }
+   ]
+  },
+  {
+   "id": "d06-p2-s07",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Will the tank be ready by Friday?"
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Yes, the tanks are blue."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "The technician says it should be."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "By the front door."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d06-p2-07",
+     "part": 2,
+     "skill": "p2.yes-no",
+     "level": 2,
+     "options": [
+      "Yes, the tanks are blue.",
+      "The technician says it should be.",
+      "By the front door."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Yes/No: 'The technician says it should be' trả lời gián tiếp là có.",
+      "en": "'The technician says it should be' is an indirect yes."
+     },
+     "trap": "(A) lặp tank nhưng nói màu sắc, không nói bể có sẵn sàng không."
+    }
+   ]
+  },
+  {
+   "id": "d06-p2-s08",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Don't you work in the marketing department?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "No, I'm in accounting."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Yes, the market is open."
+    },
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "Not on weekends."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d06-p2-08",
+     "part": 2,
+     "skill": "p2.yes-no",
+     "level": 2,
+     "options": [
+      "No, I'm in accounting.",
+      "Yes, the market is open.",
+      "Not on weekends."
+     ],
+     "answer": 0,
+     "why": {
+      "vi": "Câu hỏi phủ định; 'No, I'm in accounting' phủ nhận và nói bộ phận thật.",
+      "en": "In a negative question, 'No, I'm in accounting' denies it and gives the real department."
+     },
+     "trap": "(B) nghe giống market nhưng không trả lời."
+    }
+   ]
+  },
+  {
+   "id": "d06-p2-s09",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "I think the printer is jammed again."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "Yes, on the third shelf."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "He jammed the door."
+    },
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "I'll call maintenance."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d06-p2-09",
+     "part": 2,
+     "skill": "p2.statement",
+     "level": 1,
+     "options": [
+      "Yes, on the third shelf.",
+      "He jammed the door.",
+      "I'll call maintenance."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Người nói báo vấn đề; 'I'll call maintenance' là hành động phản hồi.",
+      "en": "The speaker reports a problem, and 'I'll call maintenance' responds to it."
+     },
+     "trap": "(B) lặp jammed nhưng nói về cửa và người khác."
+    }
+   ]
+  },
+  {
+   "id": "d06-p2-s10",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "We're running low on coffee."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "The running track is closed."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Yes, I like it black."
+    },
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "Let me add it to the order list."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d06-p2-10",
+     "part": 2,
+     "skill": "p2.statement",
+     "level": 1,
+     "options": [
+      "The running track is closed.",
+      "Yes, I like it black.",
+      "Let me add it to the order list."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Báo sắp hết cà phê; 'Let me add it to the order list' là phản hồi phù hợp.",
+      "en": "'We're running low' signals a need, and adding it to the order list responds."
+     },
+     "trap": "(A) lặp running nhưng nghĩa khác."
+    }
+   ]
+  },
+  {
+   "id": "d06-p2-s11",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "gbF",
+     "text": "The training starts at nine tomorrow."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "I trained in Paris."
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Is it mandatory for everyone?"
+    },
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "Yes, at the airport."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d06-p2-11",
+     "part": 2,
+     "skill": "p2.statement",
+     "level": 2,
+     "options": [
+      "I trained in Paris.",
+      "Is it mandatory for everyone?",
+      "Yes, at the airport."
+     ],
+     "answer": 1,
+     "why": {
+      "vi": "Hỏi lại về mức bắt buộc là phản hồi tự nhiên với thông báo.",
+      "en": "A follow-up question about whether it is mandatory is a natural reply."
+     },
+     "trap": "(A) lặp trained nhưng nói về quá khứ của bản thân."
+    }
+   ]
+  },
+  {
+   "id": "d06-p2-s12",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "auM",
+     "text": "This jacket is too small for me."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "Yes, it's a small town."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "I'll take two."
+    },
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "We have a larger size in the back."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d06-p2-12",
+     "part": 2,
+     "skill": "p2.statement",
+     "level": 1,
+     "options": [
+      "Yes, it's a small town.",
+      "I'll take two.",
+      "We have a larger size in the back."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Khách phàn nàn cỡ nhỏ; 'a larger size in the back' đưa giải pháp.",
+      "en": "The customer says the size is wrong, and a larger size is the solution."
+     },
+     "trap": "(B) 'I'll take two' không giải quyết việc áo nhỏ."
+    }
+   ]
+  },
+  {
+   "id": "d06-p2-s13",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "caF",
+     "text": "I wish I could go to the conference."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "I wish him luck."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Yes, the conference was last week."
+    },
+    {
+     "spk": "Woman",
+     "voice": "auF",
+     "text": "Maybe the company will send you next year."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d06-p2-13",
+     "part": 2,
+     "skill": "p2.statement",
+     "level": 2,
+     "options": [
+      "I wish him luck.",
+      "Yes, the conference was last week.",
+      "Maybe the company will send you next year."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Wish + could diễn tả điều ước không thành; 'Maybe the company will send you next year' an ủi, đồng cảm.",
+      "en": "'I wish I could' expresses regret, and 'Maybe the company will send you next year' responds kindly."
+     },
+     "trap": "(A) lặp wish nhưng nói về người khác."
+    }
+   ]
+  },
+  {
+   "id": "d06-p2-s14",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Woman",
+     "voice": "usF",
+     "text": "The new menu isn't popular with customers."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "The menu is on the table."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Yes, they're new customers."
+    },
+    {
+     "spk": "Man",
+     "voice": "caM",
+     "text": "Maybe we should survey them."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d06-p2-14",
+     "part": 2,
+     "skill": "p2.statement",
+     "level": 2,
+     "options": [
+      "The menu is on the table.",
+      "Yes, they're new customers.",
+      "Maybe we should survey them."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Báo vấn đề; 'Maybe we should survey them' đề xuất hướng xử lý.",
+      "en": "The speaker reports a problem, and suggesting a survey responds to it."
+     },
+     "trap": "(A) lặp menu nhưng nói vị trí."
+    }
+   ]
+  },
+  {
+   "id": "d06-p2-s15",
+   "part": 2,
+   "audio": [
+    {
+     "spk": "Man",
+     "voice": "gbM",
+     "text": "You've got a call from the Tokyo office."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "I'm going to Tokyo next week."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Yes, the calls are free."
+    },
+    {
+     "spk": "Man",
+     "voice": "usM",
+     "text": "Please put it through to my desk."
+    }
+   ],
+   "questions": [
+    {
+     "id": "d06-p2-15",
+     "part": 2,
+     "skill": "p2.statement",
+     "level": 3,
+     "options": [
+      "I'm going to Tokyo next week.",
+      "Yes, the calls are free.",
+      "Please put it through to my desk."
+     ],
+     "answer": 2,
+     "why": {
+      "vi": "Thông báo có cuộc gọi; 'put it through to my desk' là yêu cầu nối máy.",
+      "en": "The speaker announces a call, and asking to put it through is the natural response."
+     },
+     "trap": "(A) lặp Tokyo nhưng nói về chuyến đi của mình."
+    }
+   ]
+  }
+ ]
+}

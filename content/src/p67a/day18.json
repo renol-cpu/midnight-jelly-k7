@@ -1,0 +1,360 @@
+{
+  "grammar": [
+    {
+      "id": "d18-p6-a",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "article",
+          "title": "Bayline Foods launch",
+          "text": "FOR IMMEDIATE RELEASE\n\nBayline Foods today [1] a new line of frozen vegetable meals designed for busy families. The meals, which will be sold in supermarkets nationwide starting in September, are made [2] locally grown produce and contain no artificial preservatives. [3] The company's marketing director, Raj Anand, said that early feedback from taste tests had been overwhelmingly positive. Bayline plans to support the launch with an advertising campaign [4] television commercials and social media posts."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d18-p6-a-1",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [1]",
+          "options": [
+            "announced",
+            "announcing",
+            "announcement",
+            "announce"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "\"today announced\" là mẫu thông cáo báo chí: thì quá khứ đơn, chủ ngữ \"Bayline Foods\".",
+            "en": "\"Today announced\" is the press-release pattern: simple past with the subject \"Bayline Foods\"."
+          },
+          "trap": "\"announce\" đúng nghĩa nhưng thiếu chia thì cho hành động đã xảy ra hôm nay."
+        },
+        {
+          "id": "d18-p6-a-2",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [2]",
+          "options": [
+            "from",
+            "by",
+            "to",
+            "at"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "\"made from\" dùng khi nguyên liệu được chế biến thành sản phẩm.",
+            "en": "\"Made from\" is used when ingredients are processed into a product."
+          },
+          "trap": "\"made by\" chỉ người làm ra, không chỉ nguyên liệu."
+        },
+        {
+          "id": "d18-p6-a-3",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 2,
+          "q": "Blank [3]",
+          "options": [
+            "Frozen foods should be stored below zero degrees.",
+            "Supermarkets are adding staff on weekends.",
+            "Bayline has tested the new meals with more than 500 shoppers.",
+            "Bayline was founded by two brothers in 1998."
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Câu sau nhắc \"feedback from taste tests\", nên câu chèn nói công ty đã cho khách thử món.",
+            "en": "The next sentence mentions feedback from taste tests, so the missing sentence says shoppers tested the meals."
+          },
+          "trap": "Câu A về đồ đông lạnh nhưng không nối với \"taste tests\"."
+        },
+        {
+          "id": "d18-p6-a-4",
+          "part": 6,
+          "skill": "p6.participle",
+          "level": 2,
+          "q": "Blank [4]",
+          "options": [
+            "featured",
+            "features",
+            "including",
+            "include"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "\"a campaign including ...\" là rút gọn mệnh đề quan hệ chủ động; liệt kê các thành phần của chiến dịch.",
+            "en": "\"A campaign including ...\" is a reduced relative clause listing what the campaign contains."
+          },
+          "trap": "\"features\" cần mệnh đề quan hệ \"which\" đi trước, nên sai cấu trúc."
+        }
+      ]
+    },
+    {
+      "id": "d18-p6-b",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "review",
+          "title": "Great visit, despite a long wait",
+          "text": "Great visit, [1] a long wait at the cafe\n4 out of 5 stars\n\nWe visited Harbor Aquarium last Saturday with our two children. The jellyfish gallery was beautiful, and the staff member working there was extremely [2]. [3] He even took a family photo for us beside the largest tank. The only disappointment was the cafe, [4] we waited almost thirty minutes for our drinks. Overall, we would happily return."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d18-p6-b-1",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [1]",
+          "options": [
+            "despite",
+            "although",
+            "because",
+            "unless"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "\"despite\" là giới từ, theo sau là cụm danh từ \"a long wait\".",
+            "en": "\"Despite\" is a preposition followed by the noun phrase \"a long wait\"."
+          },
+          "trap": "\"although\" cần một mệnh đề đầy đủ (chủ ngữ + động từ) nên sai ở đây."
+        },
+        {
+          "id": "d18-p6-b-2",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [2]",
+          "options": [
+            "help",
+            "helpful",
+            "helpfully",
+            "helpfulness"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Sau \"was extremely\" cần tính từ: \"helpful\".",
+            "en": "After \"was extremely\" we need an adjective: \"helpful\"."
+          },
+          "trap": "\"helpfully\" là trạng từ nên không bổ nghĩa cho chủ ngữ \"staff member\"."
+        },
+        {
+          "id": "d18-p6-b-3",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 2,
+          "q": "Blank [3]",
+          "options": [
+            "She works at the ticket counter on weekends.",
+            "Parking is limited on weekends.",
+            "He explained how the jellyfish are fed and answered all our questions.",
+            "Tickets can be bought online at a discount."
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "\"He even took a family photo\" cần một câu trước nói về hành động giúp đỡ của nhân viên nam.",
+            "en": "\"He even took a photo\" needs a preceding sentence about the male staff member's help."
+          },
+          "trap": "Câu A nói về nhân viên nữ (\"She\") nên không khớp với \"He\"."
+        },
+        {
+          "id": "d18-p6-b-4",
+          "part": 6,
+          "skill": "p6.relative",
+          "level": 2,
+          "q": "Blank [4]",
+          "options": [
+            "where",
+            "which",
+            "what",
+            "whom"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "\"the cafe, where we waited\" dùng \"where\" thay cho nơi chốn.",
+            "en": "\"Where\" replaces a place: \"the cafe, where we waited\"."
+          },
+          "trap": "\"which\" cần động từ ngay sau; ở đây sau chỗ trống là mệnh đề \"we waited\"."
+        }
+      ]
+    },
+    {
+      "id": "d18-p6-c",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "letter",
+          "title": "Service agreement renewal",
+          "text": "Dear Mr. Lindgren,\n\nYour service agreement with Northfield Maintenance is [1] to expire on September 30. We would like to continue serving your office, and we are therefore enclosing a renewal form for your [2]. [3] If you sign and return it by September 15, you will be eligible for a 10 percent discount on next year's fees. Should you wish to [4] any terms of the contract, please contact me directly.\n\nSincerely,\nOlivia Marsh\nNorthfield Maintenance"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d18-p6-c-1",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 1,
+          "q": "Blank [1]",
+          "options": [
+            "schedule",
+            "scheduled",
+            "scheduling",
+            "schedules"
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "\"be scheduled to + V\" (được lên lịch) cần phân từ quá khứ.",
+            "en": "\"Be scheduled to + verb\" needs the past participle."
+          },
+          "trap": "\"scheduling\" là danh từ/V-ing nên không thể đi với \"is ... to expire\"."
+        },
+        {
+          "id": "d18-p6-c-2",
+          "part": 6,
+          "skill": "p6.collocation",
+          "level": 2,
+          "q": "Blank [2]",
+          "options": [
+            "sign",
+            "signed",
+            "signing",
+            "signature"
+          ],
+          "answer": 3,
+          "why": {
+            "vi": "\"for your signature\" là cụm cố định: để quý khách ký.",
+            "en": "\"For your signature\" is the fixed phrase."
+          },
+          "trap": "\"signing\" nghe được nhưng ít dùng; cụm chuẩn là \"signature\"."
+        },
+        {
+          "id": "d18-p6-c-3",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 3,
+          "q": "Blank [3]",
+          "options": [
+            "Our office will be relocating to a larger building in October.",
+            "Early renewal offers several advantages.",
+            "Several staff members were promoted this year.",
+            "The enclosed brochure describes our residential services."
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Câu sau nêu ưu đãi giảm 10 phần trăm nếu gia hạn sớm, nên câu chèn nói \"gia hạn sớm có lợi\".",
+            "en": "The next sentence gives a discount for signing early, so the missing sentence says early renewal has advantages."
+          },
+          "trap": "Câu D có \"enclosed\" lặp từ khóa nhưng không dẫn tới ưu đãi."
+        },
+        {
+          "id": "d18-p6-c-4",
+          "part": 6,
+          "skill": "p6.grammar",
+          "level": 2,
+          "q": "Blank [4]",
+          "options": [
+            "modify",
+            "modified",
+            "modification",
+            "modifying"
+          ],
+          "answer": 0,
+          "why": {
+            "vi": "\"Should you wish to + V\" cần động từ nguyên mẫu: \"modify\".",
+            "en": "After \"wish to\" use the base verb \"modify\"."
+          },
+          "trap": "\"modification\" là danh từ nên không đi sau \"to\" ở đây."
+        }
+      ]
+    },
+    {
+      "id": "d18-p6-d",
+      "part": 6,
+      "passages": [
+        {
+          "kind": "memo",
+          "title": "Travel expense policy",
+          "text": "MEMO\nTo: Sales Team\nRe: Travel expense policy\n\nEffective July 1, all travel expenses must be submitted within 14 days of the end of a trip. Receipts for all purchases [1] twenty dollars must be attached to each claim. [2] Claims submitted after the deadline will not be processed unless a manager gives written approval. Employees are [3] to use the company's online booking system, which offers discounted fares and ensures that all reservations are [4] reflected in our records."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d18-p6-d-1",
+          "part": 6,
+          "skill": "p6.participle",
+          "level": 3,
+          "q": "Blank [1]",
+          "options": [
+            "exceed",
+            "exceeds",
+            "exceeded",
+            "exceeding"
+          ],
+          "answer": 3,
+          "why": {
+            "vi": "\"purchases exceeding twenty dollars\" là rút gọn mệnh đề quan hệ chủ động.",
+            "en": "\"Purchases exceeding twenty dollars\" is a reduced active relative clause."
+          },
+          "trap": "\"exceeds\" cần chủ ngữ số ít và \"that\" đi trước, nên sai ở đây."
+        },
+        {
+          "id": "d18-p6-d-2",
+          "part": 6,
+          "skill": "p6.sentence",
+          "level": 2,
+          "q": "Blank [2]",
+          "options": [
+            "Employees traveling abroad should carry a valid passport.",
+            "Please note that the deadline will be strictly enforced.",
+            "The sales team exceeded its targets last quarter.",
+            "Company cars may be reserved through the front desk."
+          ],
+          "answer": 1,
+          "why": {
+            "vi": "Câu sau nói về yêu cầu nộp đúng hạn và ngoại lệ, nên câu chèn nhấn mạnh hạn chót được áp dụng nghiêm.",
+            "en": "The next sentence concerns late claims, so the missing sentence stresses that the deadline is enforced."
+          },
+          "trap": "Câu C có \"exceeded\" lặp gốc từ ở chỗ trống 1 nhưng không liên quan đến hạn nộp."
+        },
+        {
+          "id": "d18-p6-d-3",
+          "part": 6,
+          "skill": "p6.passive",
+          "level": 2,
+          "q": "Blank [3]",
+          "options": [
+            "encourage",
+            "encouraging",
+            "encouraged",
+            "encouragement"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "\"be encouraged to + V\" là dạng bị động: nhân viên được khuyến khích.",
+            "en": "\"Be encouraged to + verb\" is the passive pattern."
+          },
+          "trap": "\"encouraging\" là V-ing nên không đi với \"are ... to use\"."
+        },
+        {
+          "id": "d18-p6-d-4",
+          "part": 6,
+          "skill": "p6.wordform.adv",
+          "level": 2,
+          "q": "Blank [4]",
+          "options": [
+            "accuracy",
+            "accurate",
+            "accurately",
+            "accuracies"
+          ],
+          "answer": 2,
+          "why": {
+            "vi": "Bổ nghĩa cho phân từ \"reflected\" cần trạng từ: \"accurately\".",
+            "en": "To modify the participle \"reflected\" we need an adverb: \"accurately\"."
+          },
+          "trap": "\"accurate\" là tính từ nên không bổ nghĩa cho động từ."
+        }
+      ]
+    }
+  ]
+}
