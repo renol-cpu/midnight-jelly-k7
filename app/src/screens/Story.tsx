@@ -4,6 +4,7 @@ import { SpeakerHigh, Sparkle } from '@phosphor-icons/react';
 import type { DayContent } from '../content/types';
 import { speciesOf } from '../game/species';
 import { playClip } from '../game/audio';
+import { duck, sfx } from '../game/sound';
 import { Jelly } from '../components/Jelly';
 import { Tank } from '../components/Tank';
 import { useT, type Lang } from '../i18n';
@@ -22,7 +23,7 @@ export function StoryView({ day, lang, onDone }: { day: DayContent; lang: Lang; 
   const last = useRef<HTMLDivElement>(null);
   useEffect(() => { if (n > 1) last.current?.scrollIntoView({ behavior: 'smooth', block: 'center' }); }, [n]);
 
-  if (film && filmName) return <FilmClip name={filmName} onDone={() => { setFilm(false); setUnlocked(true); }} />;
+  if (film && filmName) return <FilmClip name={filmName} onDone={() => { setFilm(false); sfx('unlock'); setUnlocked(true); }} />;
 
   if (unlocked) {
     return (
@@ -54,8 +55,8 @@ export function StoryView({ day, lang, onDone }: { day: DayContent; lang: Lang; 
         </div>
       ))}
       {!allShown
-        ? <button className="btn ghost block" onClick={() => setN(n + 1)}>{t('next')}</button>
-        : <button className="btn love block" onClick={() => (filmName ? setFilm(true) : setUnlocked(true))}>{t('newSpecies')}</button>}
+        ? <button className="btn ghost block" onClick={() => { sfx('page'); setN(n + 1); }}>{t('next')}</button>
+        : <button className="btn love block" onClick={() => { if (filmName) setFilm(true); else { sfx('unlock'); setUnlocked(true); } }}>{t('newSpecies')}</button>}
     </div>
   );
 }
@@ -63,6 +64,7 @@ export function StoryView({ day, lang, onDone }: { day: DayContent; lang: Lang; 
 // Remotion-rendered story clips (video/), shown full-bleed in a tank frame.
 export function FilmClip({ name, onDone }: { name: 'intro' | 'twist' | 'finale'; onDone: () => void }) {
   const t = useT();
+  useEffect(() => { duck(true); return () => duck(false); }, []);
   return (
     <div className="stack">
       <div className="tank" style={{ aspectRatio: '9 / 16', maxHeight: '74dvh', justifySelf: 'center', width: '100%' }}>

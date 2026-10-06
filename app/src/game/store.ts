@@ -15,6 +15,8 @@ export interface Progress {
   lang: Lang;
   explain: 'both' | 'vi' | 'en';
   reduceMotion: boolean;
+  music: boolean;
+  sfx: boolean;
   dayDone: number[];
   resume: { day: number; step: number } | null;
   light: number; // banked light (points)
@@ -30,7 +32,7 @@ export interface Progress {
 const today = () => new Date().toLocaleDateString('sv-SE'); // yyyy-mm-dd in local time
 
 const fresh = (): Progress => ({
-  v: 1, lang: 'vi', explain: 'both', reduceMotion: false, dayDone: [], resume: null, light: 0,
+  v: 1, lang: 'vi', explain: 'both', reduceMotion: false, music: true, sfx: true, dayDone: [], resume: null, light: 0,
   streak: { count: 0, last: null, freezes: 1 }, cards: {}, cracks: {}, lex: {}, missed: {}, tests: {}, minutes: {},
 });
 

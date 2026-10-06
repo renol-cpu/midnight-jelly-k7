@@ -71,6 +71,8 @@ const S = {
   explainVi: { vi: 'Tiếng Việt', en: 'Vietnamese' },
   explainEn: { vi: 'Tiếng Anh', en: 'English' },
   motion: { vi: 'Giảm chuyển động', en: 'Reduce motion' },
+  musicOn: { vi: 'Nhạc nền', en: 'Music' },
+  sfxOn: { vi: 'Hiệu ứng âm thanh', en: 'Sound effects' },
   exportCode: { vi: 'Sao chép mã tiến độ', en: 'Copy progress code' },
   importCode: { vi: 'Dán mã tiến độ', en: 'Paste progress code' },
   copied: { vi: 'Đã sao chép', en: 'Copied' },

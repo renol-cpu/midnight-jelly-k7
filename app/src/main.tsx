@@ -8,6 +8,9 @@ import '@fontsource/baloo-2/600.css'
 import '@fontsource/baloo-2/800.css'
 import './index.css'
 import App from './App.tsx'
+import { unlockOnFirstTap } from './game/sound'
+
+unlockOnFirstTap()
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

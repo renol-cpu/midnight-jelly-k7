@@ -3,6 +3,7 @@ import { Drop, BookOpenText, MaskSad, GearSix } from '@phosphor-icons/react';
 import type { DayContent } from './content/types';
 import { useProgress, nextDay, playedToday } from './game/store';
 import { LangCtx, useT, type Lang } from './i18n';
+import { setMusic } from './game/sound';
 import { Home } from './screens/Home';
 import { Dive } from './screens/Dive';
 import { Jellydex } from './screens/Jellydex';
@@ -26,6 +27,8 @@ export default function App() {
     document.documentElement.lang = lang;
     document.documentElement.dataset.motion = p.reduceMotion ? 'reduced' : '';
   }, [lang, p.reduceMotion]);
+
+  useEffect(() => { setMusic(dive && day?.boss ? 'boss' : 'calm'); }, [dive, day?.boss]);
 
   useEffect(() => {
     let live = true;

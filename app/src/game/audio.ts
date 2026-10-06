@@ -2,6 +2,7 @@
 // Falls back to the browser's speech voices only if the file is missing, so a gap never blocks a lesson.
 import { useEffect, useRef, useState } from 'react';
 import type { AudioLine } from '../content/types';
+import { duck } from './sound';
 
 const BASE = import.meta.env.BASE_URL;
 const LANGS: Record<string, string> = { us: 'en-US', gb: 'en-GB', au: 'en-AU', ca: 'en-CA' };
@@ -14,22 +15,23 @@ export function useSetAudio(id: string, lines: AudioLine[] | undefined, src = `$
   useEffect(() => {
     const a = new Audio(src);
     a.preload = 'auto';
-    a.onended = () => setState('ended');
+    a.onended = () => { setState('ended'); duck(false); };
     el.current = a;
     setState('idle');
     setPlays(0);
-    return () => { a.pause(); a.src = ''; window.speechSynthesis?.cancel(); };
+    return () => { a.pause(); a.src = ''; window.speechSynthesis?.cancel(); duck(false); };
   }, [src]);
 
   async function play() {
     if (!lines?.length) return;
     setPlays((n) => n + 1);
     setState('playing');
+    duck(true);
     try {
       el.current!.currentTime = 0;
       await el.current!.play();
     } catch {
-      speak(lines, () => setState('ended'));
+      speak(lines, () => { setState('ended'); duck(false); });
     }
   }
   return { play, state, plays };
@@ -51,7 +53,10 @@ function speak(lines: AudioLine[], done: () => void) {
 // One-shot playback for a story line or a vocab word (audio/w/<slug>.mp3 when rendered).
 export function playClip(src: string, fallbackText?: string) {
   const a = new Audio(`${BASE}${src}`);
+  duck(true);
+  a.onended = () => duck(false);
   a.play().catch(() => {
+    duck(false);
     if (!fallbackText || !window.speechSynthesis) return;
     const u = new SpeechSynthesisUtterance(fallbackText);
     u.lang = 'en-US';

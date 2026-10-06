@@ -12,6 +12,7 @@ import { StoryView, FilmClip } from './Story';
 import { Jelly } from '../components/Jelly';
 import { Tank } from '../components/Tank';
 import { DIRECTIONS, pick, useT, type Lang } from '../i18n';
+import { sfx } from '../game/sound';
 
 const FULL_O2 = 12; // 3 tanks x 4 quarters
 
@@ -44,6 +45,7 @@ export function Dive({ day, lang, short, extra = false, onExit }: { day: DayCont
     const L = e.q.part <= 4;
     tally.current[L ? 'l' : 'r'] += 1;
     if (e.correct) tally.current[L ? 'lc' : 'rc'] += 1;
+    sfx(e.correct ? 'correct' : 'wrong');
     setMood(e.correct ? 'pulse' : 'doze');
     setMoodKey((k) => k + 1);
     if (day.boss) return; // bosses are scored at the end, like the real test
@@ -52,12 +54,12 @@ export function Dive({ day, lang, short, extra = false, onExit }: { day: DayCont
       const s = streak + 1;
       setStreak(s);
       setLight((v) => v + Math.round(10 * (fast ? 1.5 : 1) * (s >= 10 ? 2 : 1) * mult));
-      if (s % 5 === 0) setO2((v) => Math.min(FULL_O2, v + 1));
+      if (s % 5 === 0) { setO2((v) => Math.min(FULL_O2, v + 1)); setTimeout(() => sfx('streak'), 450); }
     } else {
       setStreak(0);
       setO2((v) => {
         const n = v - 1;
-        if (n <= 0) setTimeout(() => setBlackout(true), 700);
+        if (n <= 0) setTimeout(() => { sfx('blackout'); setBlackout(true); }, 700);
         return Math.max(0, n);
       });
     }
@@ -72,12 +74,14 @@ export function Dive({ day, lang, short, extra = false, onExit }: { day: DayCont
   }
 
   function bank(push: boolean) {
+    sfx(push ? 'push' : 'bank');
     if (push) setMult((m) => Math.min(4, m * 2));
     else { setBanked((b) => b + light); setLight(0); setMult(1); }
     go();
   }
 
   function finish() {
+    sfx('fanfare');
     const minutes = Math.max(1, Math.round((Date.now() - startedAt.current) / 60000));
     finishDay(day.day, banked + light, minutes);
     onExit();
@@ -131,7 +135,7 @@ export function Dive({ day, lang, short, extra = false, onExit }: { day: DayCont
           <Jelly species={species} mood="pulse" size={90} />
           <h2>{t('extraDone')}</h2>
           <p className="big num">{banked + light}</p>
-          <button className="btn primary block" onClick={() => { addLight(banked + light); onExit(); }}>{t('gotIt')}</button>
+          <button className="btn primary block" onClick={() => { sfx('fanfare'); addLight(banked + light); onExit(); }}>{t('gotIt')}</button>
         </div>
       )}
 

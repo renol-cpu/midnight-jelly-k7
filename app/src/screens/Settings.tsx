@@ -1,6 +1,7 @@
 // Cracks (mistake log) and settings: language, explanation language, motion, progress backup.
 import { useState } from 'react';
 import { useProgress, update, exportCode, importCode } from '../game/store';
+import { refreshSound } from '../game/sound';
 import { useT } from '../i18n';
 
 const SKILL_VI: Record<string, string> = {
@@ -46,6 +47,12 @@ export function Settings() {
             </button>))}
           </div>
         </div>
+        <label className="toggle"><span>{t('musicOn')}</span>
+          <input type="checkbox" checked={p.music} onChange={(e) => { update((s) => { s.music = e.target.checked; }); refreshSound(); }} style={{ width: 22, height: 22, accentColor: 'var(--moon)' }} />
+        </label>
+        <label className="toggle"><span>{t('sfxOn')}</span>
+          <input type="checkbox" checked={p.sfx} onChange={(e) => update((s) => { s.sfx = e.target.checked; })} style={{ width: 22, height: 22, accentColor: 'var(--moon)' }} />
+        </label>
         <label className="toggle"><span>{t('motion')}</span>
           <input type="checkbox" checked={p.reduceMotion} onChange={(e) => update((s) => { s.reduceMotion = e.target.checked; })} style={{ width: 22, height: 22, accentColor: 'var(--moon)' }} />
         </label>
