@@ -8,6 +8,7 @@ import { Home } from './screens/Home';
 import { Dive } from './screens/Dive';
 import { Jellydex } from './screens/Jellydex';
 import { Cracks, Settings } from './screens/Settings';
+import { Rapid } from './screens/Rapid';
 
 type Tab = 'tank' | 'dex' | 'log' | 'me';
 const BASE = import.meta.env.BASE_URL;
@@ -19,6 +20,7 @@ export default function App() {
   const [dive, setDive] = useState<{ short: boolean; extra?: boolean } | null>(null);
   const [day, setDay] = useState<DayContent | null>(null);
   const [failed, setFailed] = useState(false);
+  const [rapid, setRapid] = useState(false);
   // While Huy has played today, the home tank keeps showing today's finished day until he chooses to go on.
   const target = p.resume?.day ?? (playedToday(p) && p.dayDone.length ? Math.max(...p.dayDone) : nextDay(p));
   const playDay = p.resume?.day ?? nextDay(p);
@@ -43,14 +45,16 @@ export default function App() {
   return (
     <LangCtx.Provider value={lang}>
       <div className="app">
-        {dive && day ? (
+        {rapid ? (
+          <Rapid lang={lang} onExit={() => setRapid(false)} />
+        ) : dive && day ? (
           <Dive key={`${day.day}${dive.extra ? 'x' : ''}`} day={day} lang={lang} short={dive.short} extra={dive.extra} onExit={() => { setDive(null); setTab('tank'); }} />
         ) : (
           <>
             <div />
             <main>
               {failed && tab === 'tank' && <FailNote />}
-              {tab === 'tank' && <Home day={day} lang={lang} onStart={(short) => setDive({ short })} onExtra={() => setDive({ short: false, extra: true })} />}
+              {tab === 'tank' && <Home day={day} lang={lang} onStart={(short) => setDive({ short })} onExtra={() => setDive({ short: false, extra: true })} onRapid={() => setRapid(true)} />}
               {tab === 'dex' && <Jellydex lang={lang} />}
               {tab === 'log' && <Cracks />}
               {tab === 'me' && <Settings />}

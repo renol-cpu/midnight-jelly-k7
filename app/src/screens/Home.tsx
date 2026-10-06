@@ -1,7 +1,8 @@
 // First viewport: tonight's tank with Huy's own footage, Minh's note on the glass, the rank placard, one primary action.
-import { Lightning, Fire, ArrowRight } from '@phosphor-icons/react';
+import { Lightning, Fire, ArrowRight, Shrimp, Timer } from '@phosphor-icons/react';
 import type { DayContent } from '../content/types';
-import { useProgress, forecast, playedToday } from '../game/store';
+import { useProgress, forecast, playedToday, daysAway } from '../game/store';
+import { comeBack } from '../game/cheers';
 import { rankFor, RANKS } from '../game/rank';
 import { speciesOf } from '../game/species';
 import { Tank } from '../components/Tank';
@@ -10,7 +11,7 @@ import { pick, useT, type Lang } from '../i18n';
 
 const TANK_MEDIA = ['v06', 'v12', 'v15', 'v07', 'v11', 'v04', 'v16', 'v13', 'v10', 'v01', 'v05', 'v14', 'v09', 'v02', 'v03', 'v08'];
 
-export function Home({ day, lang, onStart, onExtra }: { day: DayContent | null; lang: Lang; onStart: (short: boolean) => void; onExtra: () => void }) {
+export function Home({ day, lang, onStart, onExtra, onRapid }: { day: DayContent | null; lang: Lang; onStart: (short: boolean) => void; onExtra: () => void; onRapid: () => void }) {
   const t = useT();
   const p = useProgress();
   const f = forecast(p);
@@ -19,6 +20,7 @@ export function Home({ day, lang, onStart, onExtra }: { day: DayContent | null; 
   const sp = speciesOf(n);
   const resuming = p.resume?.day === n;
   const done = playedToday(p) && !resuming;
+  const nudge = comeBack(daysAway(p));
   const joke = day?.beSua?.[new Date().getDate() % Math.max(1, day.beSua.length)];
 
   return (
@@ -43,9 +45,12 @@ export function Home({ day, lang, onStart, onExtra }: { day: DayContent | null; 
         </div>
       </Tank>
 
+      {nudge && !playedToday(p) && <div className="note" style={{ transform: 'rotate(-0.6deg)' }}>{nudge}<span className="sig">{t('mystery')}</span></div>}
+
       {(p.light > 0 || p.streak.count > 0) && <div className="gauges">
         <span className="lightc"><Lightning size={18} weight="fill" /> <span className="num">{p.light}</span> <small>{t('light')}</small></span>
         <span className="lightc" style={{ color: 'var(--flame)' }}><Fire size={18} weight="fill" /> <span className="num">{p.streak.count}</span> <small>{t('streak')}</small></span>
+        <span className="lightc" style={{ color: '#ffb38a' }}><Shrimp size={18} weight="fill" /> <span className="num">{p.fed}</span></span>
       </div>}
 
       {done ? (
@@ -62,6 +67,8 @@ export function Home({ day, lang, onStart, onExtra }: { day: DayContent | null; 
           {!day?.boss && !resuming && <button className="btn ghost block" onClick={() => onStart(true)} disabled={!day}>{t('shortShift')}</button>}
         </div>
       )}
+
+      <button className="btn flame block" onClick={onRapid}><Timer size={18} weight="fill" /> {t('rapid')}</button>
 
       {joke && <div className="note" style={{ transform: 'rotate(0.6deg)', background: '#fff7d6', color: '#2c2203' }}>{joke}<span className="sig" style={{ color: '#7a5b00' }}>Bé Sứa</span></div>}
     </div>

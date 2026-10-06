@@ -11,12 +11,17 @@ const BELLS: Record<Species['shape'], string> = {
   comb: 'M28 70 C14 50 20 10 50 6 C80 10 86 50 72 70 C62 78 38 78 28 70 Z',
   crown: 'M10 50 C12 30 22 14 34 12 C38 4 62 4 66 12 C78 14 88 30 90 50 C76 46 64 52 50 52 C36 52 24 46 10 50 Z',
   flower: 'M6 44 C10 18 30 8 50 8 C70 8 90 18 94 44 C80 50 66 46 50 46 C34 46 20 50 6 44 Z',
+  lion: 'M8 50 C6 22 28 4 50 4 C72 4 94 22 92 50 C80 56 66 50 50 54 C34 50 20 56 8 50 Z',
+  bloom: 'M4 40 C6 30 20 24 34 24 C38 12 62 12 66 24 C80 24 94 30 96 40 C82 46 66 42 50 44 C34 42 18 46 4 40 Z',
 };
+
+const TENTACLES: Record<Species['shape'], number> = { moon: 9, nettle: 6, spotted: 5, box: 4, comb: 0, crown: 7, flower: 8, lion: 18, bloom: 10 };
 
 export function Jelly({ species, mood = 'idle', size = 120, label }: { species: Pick<Species, 'hue' | 'shape'>; mood?: Mood; size?: number; label?: string }) {
   const { hue, shape } = species;
   const id = `g${shape}${hue.slice(1)}`;
-  const tentacles = shape === 'comb' ? 0 : shape === 'box' ? 4 : 7;
+  const tentacles = TENTACLES[shape];
+  const long = shape === 'lion' ? 1.7 : shape === 'bloom' ? 0.55 : 1;
   return (
     <svg className={`jelly ${mood === 'idle' ? '' : mood}`} width={size} height={size * 1.6} viewBox="0 0 100 160" role={label ? 'img' : undefined} aria-label={label} aria-hidden={label ? undefined : true}>
       <defs>
@@ -29,13 +34,13 @@ export function Jelly({ species, mood = 'idle', size = 120, label }: { species: 
           <feGaussianBlur stdDeviation="3" />
         </filter>
       </defs>
-      <g className="tent" stroke={hue} strokeOpacity="0.55" strokeWidth="1.4" fill="none" strokeLinecap="round">
+      <g className="tent" stroke={hue} strokeOpacity={shape === 'lion' ? 0.4 : 0.55} strokeWidth={shape === 'lion' ? 0.9 : 1.4} fill="none" strokeLinecap="round">
         {Array.from({ length: tentacles }, (_, i) => {
           const x = 20 + (60 / Math.max(1, tentacles - 1)) * i;
-          const len = 70 + ((i * 37) % 40);
+          const len = (70 + ((i * 37) % 40)) * long;
           return <path key={i} d={`M${x} 52 C${x - 8} ${52 + len * 0.35}, ${x + 8} ${52 + len * 0.7}, ${x - 2} ${52 + len}`} />;
         })}
-        {shape !== 'box' && shape !== 'comb' && (
+        {shape !== 'box' && shape !== 'comb' && shape !== 'bloom' && (
           <path d="M44 52 C40 80 54 96 46 128 M56 52 C60 78 48 98 56 124" stroke={hue} strokeOpacity="0.8" strokeWidth="4" />
         )}
       </g>
@@ -44,6 +49,8 @@ export function Jelly({ species, mood = 'idle', size = 120, label }: { species: 
         <path d={BELLS[shape]} fill={`url(#${id})`} stroke="#ffffff" strokeOpacity="0.5" strokeWidth="0.8" />
         {shape === 'moon' && [32, 44, 56, 68].map((cx) => <circle key={cx} cx={cx} cy="32" r="5.5" fill="none" stroke="#ffffff" strokeOpacity="0.7" strokeWidth="1.6" />)}
         {shape === 'spotted' && [[30, 26], [46, 18], [62, 24], [74, 34], [38, 38], [56, 36]].map(([cx, cy]) => <circle key={`${cx}${cy}`} cx={cx} cy={cy} r="3" fill="#ffffff" fillOpacity="0.85" />)}
+        {shape === 'bloom' && [[30, 30], [50, 22], [70, 30], [40, 36], [60, 36]].map(([cx, cy]) => <circle key={`${cx}${cy}`} cx={cx} cy={cy} r="4.5" fill="#ffffff" fillOpacity="0.55" />)}
+        {shape !== 'comb' && [16, 30, 44, 56, 70, 84].map((x, i) => <circle key={`r${x}`} className="rim" cx={x} cy={shape === 'bloom' ? 42 : 50} r="1.6" fill="#ffffff" style={{ animationDelay: `${i * 0.35}s` }} />)}
         {shape === 'comb' && [30, 40, 50, 60, 70].map((x) => <path key={x} d={`M${x} 14 C${x - 4} 40 ${x - 2} 60 ${x} 72`} stroke="#ffffff" strokeOpacity="0.8" strokeDasharray="2 3" />)}
       </g>
     </svg>

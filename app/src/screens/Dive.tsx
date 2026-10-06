@@ -3,7 +3,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { X, SpeakerHigh, Lightning, Anchor } from '@phosphor-icons/react';
 import type { DayContent, QSet } from '../content/types';
 import { buildSteps, TARGET_SECONDS, type Block, type Step } from '../game/session';
-import { addLight, recordAnswer, addWords, dueCards, getProgress, reviewCard, finishDay, saveTest, update, forecast } from '../game/store';
+import { feed, addLight, recordAnswer, addWords, dueCards, getProgress, reviewCard, finishDay, saveTest, update, forecast } from '../game/store';
 import { speciesOf } from '../game/species';
 import { playClip, slug } from '../game/audio';
 import { rankFor } from '../game/rank';
@@ -13,6 +13,7 @@ import { Jelly } from '../components/Jelly';
 import { Tank } from '../components/Tank';
 import { DIRECTIONS, pick, useT, type Lang } from '../i18n';
 import { sfx } from '../game/sound';
+import { cheerFor, FEED_LINES, type Cheer } from '../game/cheers';
 
 const FULL_O2 = 12; // 3 tanks x 4 quarters
 
@@ -31,6 +32,9 @@ export function Dive({ day, lang, short, extra = false, onExit }: { day: DayCont
   const [blackout, setBlackout] = useState(false);
   const [setKey, setSetKey] = useState(0);
   const [quit, setQuit] = useState(false);
+  const [count, setCount] = useState(0);
+  const [cheer, setCheer] = useState<Cheer | null>(null);
+  const [gain, setGain] = useState(0);
   const tally = useRef({ l: 0, lc: 0, r: 0, rc: 0 });
   const startedAt = useRef(Date.now());
   const step = steps[i];
@@ -53,7 +57,14 @@ export function Dive({ day, lang, short, extra = false, onExit }: { day: DayCont
       const fast = !L && e.ms <= TARGET_SECONDS[e.q.part] * 1000;
       const s = streak + 1;
       setStreak(s);
-      setLight((v) => v + Math.round(10 * (fast ? 1.5 : 1) * (s >= 10 ? 2 : 1) * mult));
+      const g = Math.round(10 * (fast ? 1.5 : 1) * (s >= 10 ? 2 : 1) * mult);
+      setGain(g);
+      setLight((v) => v + g);
+      feed();
+      const c = count + 1;
+      setCount(c);
+      const ch = cheerFor(c);
+      if (ch) setTimeout(() => { sfx('unlock'); setCheer(ch); }, 900);
       if (s % 5 === 0) { setO2((v) => Math.min(FULL_O2, v + 1)); setTimeout(() => sfx('streak'), 450); }
     } else {
       setStreak(0);
@@ -99,6 +110,12 @@ export function Dive({ day, lang, short, extra = false, onExit }: { day: DayCont
       {['map', 'set', 'vocab', 'warmup', 'theory', 'bank', 'directions'].includes(step.kind) && (
         <Tank media={species.media ?? 'v06'} still className="tank-band">
           <div key={moodKey} className="band-jelly"><Jelly species={species} mood={mood} size={84} /></div>
+          {mood === 'pulse' && !day.boss && (
+            <div key={`f${moodKey}`} className="feed" aria-hidden="true">
+              {Array.from({ length: 8 }, (_, k) => <i key={k} style={{ left: `${38 + ((k * 37) % 26)}%`, animationDelay: `${k * 45}ms` }} />)}
+              <span className="plus">+{gain} · {FEED_LINES[moodKey % FEED_LINES.length]}</span>
+            </div>
+          )}
           {!day.boss && (
             <div className="gauges band-gauges">
               <div className="o2" aria-label={`${t('oxygen')} ${o2}/${FULL_O2}`}>
@@ -187,6 +204,17 @@ export function Dive({ day, lang, short, extra = false, onExit }: { day: DayCont
       {step.kind === 'result' && <Result tally={tally.current} day={day.day} lang={lang} onDone={go} />}
 
       {step.kind === 'story' && <StoryView day={day} lang={lang} onDone={finish} />}
+
+      {cheer && (
+        <div className="overlay" role="dialog" aria-modal="true" onClick={() => setCheer(null)}>
+          <div className="sheet cheer">
+            <Tank media={cheer.media} still className="cheer-tank"><div className="band-jelly"><Jelly species={species} mood="pulse" size={70} /></div></Tank>
+            <p className="num muted">{count} {t('correct').toLowerCase()}</p>
+            <div className="note" style={{ textAlign: 'left' }}>{cheer.text}<span className="sig">{t('mystery')}</span></div>
+            <button className="btn love block" onClick={() => setCheer(null)}>{t('next')}</button>
+          </div>
+        </div>
+      )}
 
       {blackout && (
         <div className="overlay" role="alertdialog" aria-modal="true">

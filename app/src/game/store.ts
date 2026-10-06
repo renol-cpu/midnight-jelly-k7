@@ -16,6 +16,8 @@ export interface Progress {
   explain: 'both' | 'vi' | 'en';
   reduceMotion: boolean;
   music: boolean;
+  fed: number; // jellyfish meals: one per right answer
+  rapidBest: number;
   sfx: boolean;
   dayDone: number[];
   resume: { day: number; step: number } | null;
@@ -32,7 +34,7 @@ export interface Progress {
 const today = () => new Date().toLocaleDateString('sv-SE'); // yyyy-mm-dd in local time
 
 const fresh = (): Progress => ({
-  v: 1, lang: 'vi', explain: 'both', reduceMotion: false, music: true, sfx: true, dayDone: [], resume: null, light: 0,
+  v: 1, lang: 'vi', explain: 'both', reduceMotion: false, music: true, sfx: true, fed: 0, rapidBest: 0, dayDone: [], resume: null, light: 0,
   streak: { count: 0, last: null, freezes: 1 }, cards: {}, cracks: {}, lex: {}, missed: {}, tests: {}, minutes: {},
 });
 
@@ -125,6 +127,10 @@ export function finishDay(day: number, light: number, minutes: number) {
   });
 }
 
+export function feed() {
+  update((p) => { p.fed += 1; });
+}
+
 export function addLight(n: number) {
   update((p) => { p.light += n; });
 }
@@ -144,6 +150,7 @@ export function forecast(p: Progress = state) {
 
 export const nextDay = (p: Progress = state) => Math.min(21, (p.dayDone.length ? Math.max(...p.dayDone) : 0) + 1);
 export const playedToday = (p: Progress = state) => p.streak.last === today();
+export const daysAway = (p: Progress = state) => (p.streak.last ? Math.round((Date.parse(today()) - Date.parse(p.streak.last)) / 864e5) : 0);
 
 // ---- export / import (no account; Huy can move phones) ----
 export const exportCode = () => btoa(unescape(encodeURIComponent(JSON.stringify(state))));
